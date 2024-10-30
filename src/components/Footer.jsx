@@ -27,11 +27,11 @@ function Footer() {
         
         {/* Description */}
         <div className="text-center md:text-left">
-          <h1 className="text-3xl font-bold">Sanskriti Darpan</h1>
+          <h1 className="text-3xl font-bold">Sanskrit Darpan</h1>
           <p className="mt-3 text-lg max-w-lg">
             Our website '<strong>Sanskriti Darpan</strong>' is a great way of promoting our rich
             and diverse Indian cultural heritage and tradition among students. Our primary goal is to spread and promote Indian 
-            Culture among students and aspirants about India’s Cultural and Heritage.
+            Culture among student and aspirants about India’s Cultural and Heritages.
           </p>
         </div>
       </div>
@@ -50,7 +50,7 @@ function Footer() {
       <div className="text-center md:text-left">
         <h2 className="font-bold text-3xl">Contact Us</h2>
         <ul className="mt-2 space-y-1 text-lg">
-          <li><i className="fas fa-phone-alt mr-2"></i>Phone: 4653344562</li>
+          <li><i className="fas fa-phone-alt mr-2"></i>Phone: 7653344562</li>
           <li><i className="fas fa-phone-alt mr-2"></i>Phone: 8765455674</li>
           <li><i className="fas fa-envelope mr-2"></i>Email: <a href="mailto:SanskritiDarpan@gmail.com" className="underline">SanskritiDarpan@gmail.com</a></li>
         </ul>
@@ -72,7 +72,7 @@ function Footer() {
 
     {/* Bottom Center: Developed by Sanskriti Shilpis */}
     <div className="text-center text-white mt-8">
-      <p><strong>Developed by Sanskriti Shilpis</strong></p>
+      <p><strong>Developed by Sanskriti  Shilpis</strong></p>
     </div>
   </div>
 </div>
