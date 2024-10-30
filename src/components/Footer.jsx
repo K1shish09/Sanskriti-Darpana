@@ -31,7 +31,7 @@ function Footer() {
           <p className="mt-3 text-lg max-w-lg">
             Our website '<strong>Sanskriti Darpan</strong>' is a great way of promoting our rich
             and diverse Indian cultural heritage and tradition among students. Our primary goal is to spread and promote Indian 
-            Culture among students and aspirants about India’s Cultural and Heritage.
+            Culture among student and aspirants about India’s Cultural and Heritages.
           </p>
         </div>
       </div>
@@ -72,7 +72,7 @@ function Footer() {
 
     {/* Bottom Center: Developed by Sanskriti Shilpis */}
     <div className="text-center text-white mt-8">
-      <p><strong>Developed by Sanskriti Shilpis</strong></p>
+      <p><strong>Developed by Sanskriti  Shilpis</strong></p>
     </div>
   </div>
 </div>
