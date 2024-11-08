@@ -1,21 +1,22 @@
 import React from 'react'
-
-function carsousel() {
+import img1 from './../Assets/ca12.jpg'
+import img2 from './../Assets/ca16.jpg'
+import img3 from './../Assets/ca6.webp'
+function Carousel() {
     return (
-        <div>
-<body class="bg-black">
+        <div className="bg-black">
 
-<div class="relative h-screen overflow-hidden">
-    <img src="ca12.jpg" alt="Image 1" class="absolute inset-0 w-full h-full object-cover carousel-image opacity-100" />
-    <img src="ca6.webp" alt="Image 2" class="absolute inset-0 w-full h-full object-cover carousel-image opacity-0" />
-    <img src="ca16.jpg" alt="Image 3" class="absolute inset-0 w-full h-full object-cover carousel-image opacity-0" />
+<div className="relative h-screen overflow-hidden">
+    <img src={img1} alt="Image 1" className="absolute inset-0 w-full h-full object-cover carousel-image opacity-100" />
+    <img src={img2} alt="Image 2" className="absolute inset-0 w-full h-full object-cover carousel-image opacity-0" />
+    <img src={img3} alt="Image 3" className="absolute inset-0 w-full h-full object-cover carousel-image opacity-0" />
 </div>
 
 {/* Text overlay */}
-<div class="absolute inset-0 flex justify-center items-center text-white text-overlay">
-  <div class="text-center">
-      <h1 class="text-7xl font-bold font-mono mb-4">INDIA</h1>
-      <p class="text-2xl"> <b>with it's Rich Culture and Tradition </b> </p>
+<div className="absolute inset-0 flex justify-center items-center text-white text-overlay">
+  <div className="text-center">
+      <h1 className="text-7xl font-bold font-mono mb-4">INDIA</h1>
+      <p className="text-2xl"> <b>with it's Rich Culture and Tradition </b> </p>
   </div>
 </div>
 
@@ -36,15 +37,13 @@ function carsousel() {
     setInterval(changeImage, 3000); // Change image every 3 seconds
 </script>
 
-</body>
+
 
         </div>
         
         
-        
-        
     )
 }
-export default carousel 
+export default Carousel 
 
 
