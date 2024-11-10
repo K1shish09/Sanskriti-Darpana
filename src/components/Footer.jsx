@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from './../Assets/logo.jpg'
 
 function Footer() {
   return (
@@ -6,7 +7,7 @@ function Footer() {
    <div className="bg-gray-100">
 
 {/* Footer Section */}
-<div className="w-full bg-gradient-to-r from-red-500 to-pink-500 text-white py-8 relative">
+<div className="w-full bg-red-600 bg-gradient-to-tr from-red-700 to-pink-600 text-white py-8 relative">
   <div className="container mx-auto px-3">
 
     {/* Top Right: Subscribe Button */}
@@ -22,7 +23,7 @@ function Footer() {
       <div className="flex items-start space-x-4 md:space-x-8 w-full md:w-auto">
         {/* Logo */}
         <div className="flex-shrink-0">
-          <img src="logo.jpg" alt="Logo" className="w-16 h-16 rounded-full" />
+          <img src={logo.jpg} alt="Logo" className="w-16 h-16 rounded-full" />
         </div>
         
         {/* Description */}
