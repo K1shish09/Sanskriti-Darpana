@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './../components/Navbar'
+import CardSlider from '../components/CardSlider'
 import line from './../Assets/Gold_Decoration_Transparent_PNG_Clip_Art.png'
 import holi from './../Assets/holi.jpg'
 import fort from './../Assets/fort.jpg'
@@ -88,7 +89,7 @@ function Home() {
     <br></br>
     <h2 className="text-center font-bold bg-red-600 bg-gradient-to-tr from-red-700 to-pink-600 text-3xl text-white
     ml-[500px] mr-[500px] rounded-lg shadow-4xl ">Greatest Innovation of India</h2><br></br><br></br>
-    <div className="slide-container">
+    {/* <div className="slide-container">
       <div className="slide-wrapper">
         <div className="card_area">
           <div className="card">
@@ -117,7 +118,8 @@ function Home() {
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
+
 		
      {/* end */}
     <h1 className="text-shadow">Learning is Easy with <span className="span">S</span >anskriti<span className="span">D</span>arpan !</h1>

@@ -40,35 +40,33 @@ function Navbar() {
         </button>
 
         {/* Navbar Links */}
-        <div
-          className={`flex flex-col md:flex-row md:w-auto w-full items-center justify-between md:ml-32 transition-all duration-300 ease-in-out ${menuOpen ? 'block' : 'hidden'} md:block`}
-        >
-          <a href="#" className="text-white ml-16 my-6 text-lg">
-            Home
-          </a>
-          <a href="#" className="text-white ml-16 my-6 text-lg">
-            About
-          </a>
-          <a href="#" className="text-white ml-16 my-6 text-lg">
-            News
-          </a>
-          <a href="#" className="text-white ml-16 my-6 text-lg">
-            Quiz
-          </a>
-          <a href="#" className="text-white ml-16 my-6 text-lg">
-            Reviews
-          </a>
-          <a href="#" className="text-white ml-16 my-6 text-lg">
-            Signin
-          </a>
-        </div>
+        <div className="flex flex-col md:flex-row items-center justify-between md:w-auto w-full md:ml-32 text-pink-600 transition-all duration-300 ease-in-out">
+  <div className={`flex flex-col md:flex-row w-100 items-center md:justify-start justify-center md:ml-0 md:bg-transparent ${menuOpen ? 'block' : 'hidden'} md:flex`}>
+    <a href="#" className="text-white mx-4 my-3 text-lg hover: transition duration-200">
+      Home
+    </a>
+    <a href="#" className="text-white mx-4 my-3 text-lg hover: transition duration-200">
+      About
+    </a>
+    <a href="#" className="text-white mx-4 my-3 text-lg hover: transition duration-200">
+      Quiz
+    </a>
+    <a href="#" className="text-white mx-4 my-3 text-lg hover: transition duration-200">
+      Reviews
+    </a>
+    <a href="#" className="text-white mx-4 my-3 text-lg hover: transition duration-200">
+      Signin
+    </a>
+  </div>
 
-        {/* Map Logo */}
-        <div className="h-20 w-40 ml-5">
-          <a href="#">
-            <img src={map} alt="Map" className="h-[70px] w-[70px] ml-16 mt-1" />
-          </a>
-        </div>
+  {/* Logo Section */}
+  <div className="flex justify-center md:justify-end w-full md:w-auto mt-4 md:mt-0">
+    <a href="#">
+      <img src={map} alt="Map Logo" className="h-[60px] w-[60px] ml-16 md:h-[70px] md:w-[70px] transition-transform duration-200 transform hover:scale-105" />
+    </a>
+  </div>
+</div>
+
       </div>
     </>
   );

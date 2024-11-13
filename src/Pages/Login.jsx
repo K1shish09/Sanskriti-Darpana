@@ -3,18 +3,21 @@ import { FaRegUserCircle, FaLock, FaEye, FaEyeSlash } from "react-icons/fa";
 import myimg from './../Assets/img-login.jpg';
 import namaste from './../Assets/namaste.png';
 import Navbar from '../components/Navbar';
+import './Login.css'
 
 function Login() {
+   
+  
   // State variables for form input
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [showPassword, setShowPassword] = useState(false); // To toggle password visibility
-  const [isLoading, setIsLoading] = useState(false); // To handle loading state during form submission
-  const [error, setError] = useState(''); // For form validation errors
+  const [showPassword, setShowPassword] = useState(false); // Toggle password visibility
+  const [isLoading, setIsLoading] = useState(false); // Handle loading state during form submission
+  const [error, setError] = useState(''); // Form validation errors
 
   // Handle form submission
   const handleSubmit = (e) => {
-    e.preventDefault(); // Prevent the default form submission behavior
+    e.preventDefault(); // Prevent default form submission
 
     // Validate form fields
     if (!email || !password) {
@@ -47,80 +50,88 @@ function Login() {
 
   return (
     <>
-       <Navbar /> 
-      <div className="w-full sm:w-[400px] md:w-[650px] lg:w-[850px] bg-red-600 bg-gradient-to-tr from-red-700 to-pink-600 h-[450px] mt-12 sm:mt-32 md:mt-52 mx-auto rounded-lg flex flex-col md:flex-row">
-        {/* Left image section */}
-        <div className="w-full sm:w-[350px] md:w-[350px] h-[440px]">
-          <img src={myimg} alt="Login" className="w-full h-full rounded-lg m-1"  />
-        </div>
-
-        {/* Right form section */}
-        <div className="w-full sm:w-[400px] md:w-[490px] h-auto md:h-[490px] mt-4 md:mt-0 px-4 md:px-8 flex flex-col items-center">
-          <div className="w-full h-[52px] flex justify-center mb-12">
-            <img src={namaste} alt="Namaste" className="h-24 w-24"  />
-          </div>
-
-          {/* Error message display */}
-          {error && <div className="text-red-500 text-center mb-4">{error}</div>}
-
-          <div className="w-full flex flex-col space-y-4">
-            {/* Email input */}
-            <div className="relative w-full h-[55px] pt-1 mt-5">
+      <Navbar />
+      <div className="bg-cover bg-center flex justify-center items-center h-screen"  >
+        {/* Left: Image */}
+         <div className="w-[300px] h-[400px] hidden lg:block ">
+          <img src={myimg} alt="Placeholder" className="object-cover w-full h-full rounded-md border-red-600 border-4" />
+        </div> 
+        
+        {/* Right: Login Form */}
+        <div className="lg:p-36 md:p-52 sm:p-20 p-8 w-full lg:w-1/2">
+          <h1 className="text-4xl text-center font-bolder mb-4 text-red-700 ">Login</h1>
+          
+          <form onSubmit={handleSubmit}>
+            {error && <p className="text-red-500 mb-4">{error}</p>}
+            
+            <div className="mb-4">
+              <label htmlFor="email" className="block text-gray-600">Email</label>
               <input
-                type="email"
-                placeholder="Enter Your Email"
-                required
-                className="w-full h-full border-2 border-white rounded-md bg-transparent pl-5 text-white outline-none"
+                type="text"
+                id="email"
                 value={email}
-                onChange={(e) => setEmail(e.target.value)} // Update email state on change
+                onChange={(e) => setEmail(e.target.value)}
+                className="w-full border border-red-500 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500"
+                autoComplete="off"
               />
-              <FaRegUserCircle className="absolute top-1/2 right-5 transform -translate-y-1/2 text-white" />
             </div>
 
-            {/* Password input */}
-            <div className="relative w-full h-[55px] pt-1">
+            {/* Password Input */}
+            <div className="mb-4">
+              <label htmlFor="password" className="block text-gray-800">Password</label>
               <input
-                type={showPassword ? "text" : "password"}
-                placeholder="Password"
-                
-                className="w-full h-full border-2 border-white rounded-md bg-transparent pl-5 outline-none"
+                type={showPassword ? 'text' : 'password'}
+                id="password"
                 value={password}
-                onChange={(e) => setPassword(e.target.value)} // Update password state on change
+                onChange={(e) => setPassword(e.target.value)}
+                className="w-full border border-red-500 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500"
+                autoComplete="off"
               />
-               {/* <FaLock className="absolute top-1/2 right-5 transform -translate-y-1/2 text-white" />  */}
               <button
                 type="button"
                 onClick={togglePasswordVisibility}
-                className="absolute top-1/2 right-6 transform -translate-y-1/2 text-white"
+                className="text-blue-500 hover:underline text-sm mt-1"
               >
-                 {showPassword ? <FaEyeSlash /> : <FaEye />} 
+                {showPassword ? 'Hide' : 'Show'} Password
               </button>
             </div>
 
-            {/* Remember me & Forgot password */}
-            <div className="flex justify-between items-center text-white">
-              <label>
-                <input type="checkbox" className="mr-2" />
-                Remember Me
-              </label>
-              <a href="#" className="text-white">Forgot Password?</a>
+            {/* Remember Me Checkbox */}
+            <div className="mb-4 flex items-center">
+              <input
+                type="checkbox"
+                id="remember"
+                name="remember"
+                className="text-red-500"
+              />
+              <label htmlFor="remember" className="text-green-900 ml-2">Remember Me</label>
             </div>
 
-            {/* Submit button */}
+            {/* Forgot Password Link */}
+            <div className="mb-6 text-blue-500">
+              <a href="#" className="hover:underline ">Forgot Password?</a>
+            </div>
+
+            {/* Login Button */}
             <button
               type="submit"
-              onClick={handleSubmit}
-              className="mt-8 w-40 h-12 rounded-lg border-2 border-white text-white font-semibold text-xl mx-auto mt-10"
-              disabled={isLoading} // Disable button while loading
+              disabled={isLoading}
+              className="bg-red-600 bg-gradient-to-tr from-red-700 to-pink-600 hover:bg-blue-600 text-white font-semibold rounded-md py-2 px-4 w-full"
             >
-              {isLoading ? "Submitting..." : "Sign in"}
+              {isLoading ? 'Loading...' : 'Login'}
             </button>
+          </form>
+
+          {/* Sign-up Link */}
+          <div className="mt-6 text-green-500 text-center">
+            <a href="#" className="hover:underline">Sign up Here</a>
           </div>
         </div>
       </div>
     </>
   );
-}
+ }
 
-export default Login;
+
+export default Login ;
 
