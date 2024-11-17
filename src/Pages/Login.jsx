@@ -51,7 +51,7 @@ function Login() {
   return (
     <>
       <Navbar />
-      <div className="bg-cover bg-center flex justify-center items-center h-screen"  >
+      <div className="bg-cover  bg-center flex justify-center items-center h-screen"  >
         {/* Left: Image */}
          <div className="w-[300px] h-[400px] hidden lg:block ">
           <img src={myimg} alt="Placeholder" className="object-cover w-full h-full rounded-md border-red-600 border-4" />
@@ -59,7 +59,7 @@ function Login() {
         
         {/* Right: Login Form */}
         <div className="lg:p-36 md:p-52 sm:p-20 p-8 w-full lg:w-1/2">
-          <h1 className="text-4xl text-center font-bolder mb-4 text-red-700 ">Login</h1>
+          <h1 className="text-4xl text-center font-extrabold mb-4 text-red-600 ">Login</h1>
           
           <form onSubmit={handleSubmit}>
             {error && <p className="text-red-500 mb-4">{error}</p>}
