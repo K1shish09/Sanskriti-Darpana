@@ -4,16 +4,21 @@ import Footer from '../components/Footer.jsx';
 // Individual News Card Component
 function NewsCard({ imageUrl, title, description }) {
   return (
-    <div className="w-full p-4 bg-gradient-to-b from-red-600 to-pink-600 rounded-xl text-white shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
+    <div className="relative w-full p-6 bg-gradient-to-b from-red-500 to-pink-600 rounded-xl text-white shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-xl hover:opacity-90">
       <img
         src={imageUrl}
         alt="News"
-        className="w-full h-40 object-cover rounded-lg mb-4"
+        className="w-full h-40 object-cover rounded-lg mb-4 transform transition duration-500 hover:scale-110"
       />
       <h3 className="font-semibold text-xl mb-2 tracking-wide">{title}</h3>
-      <p className="text-md text-white/90 mb-7 font-montserrat leading-relaxed">
+      <p className="text-md text-white/90 mb-6 font-montserrat leading-relaxed overflow-hidden text-ellipsis">
         {description}
       </p>
+
+      {/* Read More Button */}
+      <div className="absolute bottom-4 left-4 text-pink-200 text-sm hover:text-white cursor-pointer transition-all duration-300 transform hover:scale-105">
+        Read More
+      </div>
     </div>
   );
 }

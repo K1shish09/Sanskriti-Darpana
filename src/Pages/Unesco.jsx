@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from './../components/Footer.jsx';
+import Footer from '../components/Footer.jsx';
 
 const heritageSites = [
   { name: 'Taj Mahal', location: 'Agra, Uttar Pradesh', image: 'https://th.bing.com/th?id=OSK.HEROXc8hMxLVsne8ysn4W8WbyIq2uGCAehK7li5twe-xemY&w=312&h=200&c=15&rs=2&o=6&pid=SANGAM', description: 'A symbol of love built by Mughal Emperor Shah Jahan.Shah Jahan (r. 1628–1658) to house the tomb of his beloved wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex' },
