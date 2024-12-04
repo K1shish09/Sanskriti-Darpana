@@ -1,11 +1,14 @@
 import React from 'react';
 import reviewImg from './../Assets/review logo.jpeg'
 import profileImg from './../Assets/profile.png'
-
+import Navbar from './../components/Navbar'
+import Footer from './../components/Footer'
 function App() {
   return (
     <div>
+<Navbar/>
       {/* Reviews Section */}
+      
       <div className="h-screen w-full bg-gradient-to-r from-pink-500 to-red-500">
         <div className="flex h-full w-full p-20">
           <div className="flex-1 flex flex-col justify-center">
@@ -51,6 +54,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
