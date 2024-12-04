@@ -1,12 +1,17 @@
 import React from 'react'
-import Carousel from './components/Carousel'
+import Review from './components/Review'
 
 function App() {
   return (
     <div>
-      <Carousel/>
+      <Review />
     </div>
   )
 }
 
 export default App
+
+
+
+
+
