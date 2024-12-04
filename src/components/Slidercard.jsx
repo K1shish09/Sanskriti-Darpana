@@ -77,8 +77,8 @@ function Slidercard() {
   }
 
   return (
-    <div className=" pt-10 pb-7 " style={{ minHeight: "500px" }}>
-      <div style={{ width: "75%", margin: "0 auto", border:"20px"}}>
+    <div className=" pt-10 pb-7 m-20 rounded-md shadow-xl    bg-orange-200 " style={{ minHeight: "500px" }}>
+      <div style={{ width: "70%", margin: "0 auto", border:"20px"}}>
         <Slider {...settings}>
           {data.map((item, index) => (
             <div key={index} className=" rounded-md">
@@ -89,18 +89,18 @@ function Slidercard() {
                   style={{
                     width: "100%",
                     height: "230px", 
-                    
+                    borderRadius:"10px 10px 0px 0px",
                     
                    
                   }}
                 />
               </div >
-              <div className="bg-red-600 bg-gradient-to-tr from-red-700 to-pink-600 "> 
+              <div className="bg-red-600 bg-gradient-to-tr from-red-700 to-pink-600 rounded-lg "> 
               <div className="p-3   ">
                 <p className="font-semibold text-white">{item.title}</p>
               </div>
               <div className="p-2 ">
-                <p className="font-semibold text-white">{item.description}</p>
+                <p className="font-semibold text-white ">{item.description}</p>
               </div>
               </div>
             </div>
