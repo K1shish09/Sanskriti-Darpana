@@ -1,13 +1,16 @@
 import React from 'react';
+
 import Footer from '../components/Footer.jsx';
 
+
 const heritageSites = [
+  
   { name: 'Taj Mahal', location: 'Agra, Uttar Pradesh', image: 'https://th.bing.com/th?id=OSK.HEROXc8hMxLVsne8ysn4W8WbyIq2uGCAehK7li5twe-xemY&w=312&h=200&c=15&rs=2&o=6&pid=SANGAM', description: 'A symbol of love built by Mughal Emperor Shah Jahan.Shah Jahan (r. 1628–1658) to house the tomb of his beloved wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex' },
   { name: 'Qutub Minar', location: 'Delhi', image: 'https://upload.wikimedia.org/wikipedia/commons/5/5d/Qutub_Minar_Delhi_02.jpg', description: 'The tallest brick minaret in the world, built in 1193. The construction of the Qutb Minar was planned and financed by the Ghurids, who emigrated to India and brought Islam with them' },
   // Add all your other heritage sites here...
 
   { name: 'Red Fort Complex', location: 'Delhi', image: 'https://upload.wikimedia.org/wikipedia/commons/7/71/Uttar-Pradesh-Agra-Agra-Fort-Jahangiri-mahal-Apr-2004-00.JPG', description: 'A symbol of Mughal power and architecture in Delhi. Delhi. Originally red and white, its design is credited to architect Ustad Ahmad Lahori' },
-  { name: 'Pink City', location: 'Jaipur', image: 'https://images.forbesindia.com/media/images/2023/Sep/img_219451_jaipurcity_shutterstock_776733613_bg.jpg', description: 'The historic walled city of Jaipur, known as the "Pink City," was founded in 1727 by Maharaja Sawai Jai Singh II. Its nickname originates from the terracotta-pink hue that adorns its historic buildings.' },
+  { name: 'Pink City', location: 'Jaipur', image: 'https:/images.forbesindia.com/media/images/2023/Sep/img_219451_jaipurcity_shutterstock_776733613_bg.jpg', description: 'The historic walled city of Jaipur, known as the "Pink City," was founded in 1727 by Maharaja Sawai Jai Singh II. Its nickname originates from the terracotta-pink hue that adorns its historic buildings.' },
   { name: 'Sunderbans', location: 'West Bengal', image: 'https://th.bing.com/th?id=OLC.zbeO%2foEW3beaaA480x360&w=229&h=140&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Sundarban_Tiger.jpg/150px-Sundarban_Tiger.jpg', description: 'World\'s largest mangrove forest, a UNESCO Natural Heritage site.' },
   { name: 'Western Ghats', location: 'Kerala, Tamil Nadu, Karnataka, Goa, Maharashtra, Gujarat', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Pampadumshola.jpg/150px-Pampadumshola.jpg', description: 'A mountain range along the western coast of India, known for its biodiversity.' },
   { name: 'Khangchendzonga National Park', location: 'Sikkim', image: 'https://th.bing.com/th?id=OLC.YzrJMv%2fDfZV+pA480x360&w=210&h=140&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2', description: 'A UNESCO Natural Heritage site famous for its mountainous terrain.' },

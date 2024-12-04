@@ -1,40 +1,44 @@
 import React from 'react';
-import './Quiz.css'
+import './Quiz.css';
+import Navbar from './../components/Navbar.jsx';
 import Footer from './../components/Footer.jsx';
-import image from './../Assets/BackgroundImage.jpg';
 
 const QuizPage = () => {
   return (
-    <div className="min-h-screen relative flex flex-col justify-center items-center bg-gray-100">
-      {/* Title Section Above Image */}
-      <div className="absolute z-20 top-10 left-1/2 transform -translate-x-1/2">
-        <h2 className="text-white bg-gradient-to-r from-pink-500 to-red-500 font-bold py-2 px-6 rounded-lg shadow-xl text-2xl md:text-3xl lg:text-3xl mb-8 text-center">
-          Quiz Your Knowledge on Indian Culture
-        </h2>   
+    <div className="min-h-screen flex flex-col bg-gray-100">
+      {/* Navbar */}
+      <div className="relative z-50">
+        <Navbar />
       </div>
-      
-      {/* Content Box with Background Image */}
-      <div 
-        className="relative w-full max-w-8xl h-96 mt-32 rounded-lg shadow-0xl overflow-hidden" 
+
+      {/* Title Section Below Navbar */}
+      <div className="relative z-10 mt-32 flex justify-center">
+        <h2 className="text-white bg-gradient-to-r from-pink-500 to-red-500 font-bold py-2 px-6 rounded-lg shadow-xl text-2xl md:text-3xl lg:text-4xl">
+          Quiz Your Knowledge on Indian Culture
+        </h2>
+      </div>
+
+      {/* Content Section */}
+      <div
+        className="relative w-full max-w-8xl h-96 mt-12 rounded-lg shadow-xl overflow-hidden"
         style={{
-          width: '100%',       
-          height: '70vh',   
-      
+          width: '100%',
+          height: '70vh',
           backgroundImage: `url("src/Assets/BackgroundImage.jpg")`,
-          backgroundSize: 'cover', 
+          backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
       >
         {/* "Explore India Quiz" Button at the Top */}
         <div className="absolute top-10 left-1/2 transform -translate-x-1/2 z-20">
-          <button className="text-white bg-gradient-to-r from-pink-500 to-red-500 hover:from-red-500 hover:to-pink-500 font-semibold py-3 px-12 rounded-lg shadow-6xl transition duration-300">
+          <button className="text-white bg-gradient-to-r from-pink-500 to-red-500 hover:from-red-500 hover:to-pink-500 font-semibold py-3 px-12 rounded-lg shadow-lg transition duration-300">
             Explore India Quiz
           </button>
         </div>
 
         {/* "Start Quiz" Button at the Bottom */}
         <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-30">
-          <button className="text-white bg-gradient-to-r from-pink-500 to-red-500 hover:from-red-500 hover:to-pink-500 font-semibold py-3 px-12 rounded-lg shadow-6xl transition duration-300">
+          <button className="text-white bg-gradient-to-r from-pink-500 to-red-500 hover:from-red-500 hover:to-pink-500 font-semibold py-3 px-12 rounded-lg shadow-lg transition duration-300">
             Start Quiz
           </button>
         </div>
@@ -73,9 +77,9 @@ const QuizPage = () => {
             {/* First Feature Box */}
             <div className="flex flex-col items-center w-32 mb-8 relative z-10">
               <div className="feature-box bg-gray-500 p-6 rounded-full shadow-lg">
-                <span role="img" aria-label="cloud" className="text-15xl text-white">☁️</span> {/* Larger Icon */}
+                <span role="img" aria-label="cloud" className="text-6xl text-white">☁️</span>
               </div>
-              <h2 className="feature-box-text text-6xl font-extrabold text-white mt-4 tracking-wider drop-shadow-lg transition-all duration-300 ease-in-out hover:text-gray-200">
+              <h2 className="feature-box-text text-2xl font-extrabold text-white mt-4 tracking-wider drop-shadow-lg transition-all duration-300 ease-in-out hover:text-gray-200">
                 Updated Question
               </h2>
             </div>
@@ -83,19 +87,20 @@ const QuizPage = () => {
             {/* Second Feature Box */}
             <div className="flex flex-col items-center w-32 mb-8 relative z-10">
               <div className="feature-box bg-gray-500 p-6 rounded-full shadow-lg">
-                <span role="img" aria-label="thumbs-up" className="text-15xl text-white">👍</span> {/* Larger Icon */}
+                <span role="img" aria-label="thumbs-up" className="text-6xl text-white">👍</span>
               </div>
-              <h2 className="feature-box-text text-6xl font-extrabold text-white mt-4 tracking-wider drop-shadow-lg transition-all duration-300 ease-in-out hover:text-gray-200">
+              <h2 className="feature-box-text text-2xl font-extrabold text-white mt-4 tracking-wider drop-shadow-lg transition-all duration-300 ease-in-out hover:text-gray-200">
                 Detailed Explanation
               </h2>
-            </div>
+            </div>npm run dev
+            
 
             {/* Third Feature Box */}
             <div className="flex flex-col items-center w-32 mb-8 relative z-10">
               <div className="feature-box bg-gray-500 p-6 rounded-full shadow-lg">
-                <span role="img" aria-label="verified" className="text-15xl text-white">🏅</span> {/* Larger Icon */}
+                <span role="img" aria-label="verified" className="text-6xl text-white">🏅</span>
               </div>
-              <h2 className="feature-box-text text-6xl font-extrabold text-white mt-4 tracking-wider drop-shadow-lg transition-all duration-300 ease-in-out hover:text-gray-200">
+              <h2 className="feature-box-text text-2xl font-extrabold text-white mt-4 tracking-wider drop-shadow-lg transition-all duration-300 ease-in-out hover:text-gray-200">
                 Verified Questions
               </h2>
             </div>
