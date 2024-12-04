@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
 <Navbar/>
-      {/* Reviews Section */}
+      {/* Reviews_Section */}
       
       <div className="h-screen w-full bg-gradient-to-r from-pink-500 to-red-500">
         <div className="flex h-full w-full p-20">
@@ -24,7 +24,7 @@ function App() {
       {/* Gap between sections */}
       <div className="h-20 md:h-10 lg:h-5"></div>
 
-      {/* Testimonials Section */}
+      {/* Testimonials_Section */}
       <div className="h-screen w-full bg-white">
         <div className="flex flex-col items-center justify-center h-full p-8">
           <h1 className="text-4xl font-bold text-white mb-8 rounded-tl-lg rounded-bl-lg rounded-tr-lg rounded-br-lg bg-gradient-to-r from-red-500 to-pink-500 px-8 py-2"> TESTIMONIALS </h1>
