@@ -89,7 +89,7 @@ function Home() {
         <h1 className="text-white text-5xl ml-64">WORLD HERITAGE SITES</h1>
         <p className="text-white ml-96">Till 2024</p>
       </div>
-      <button className='text-container-button bg-red-600 bg-gradient-to-tr from-red-700 to-pink-600'><a href="">Read More</a></button>
+      <button className='text-container-button bg-red-600 bg-gradient-to-tr from-red-700 to-pink-600'><a href="#">Read More</a></button>
     </div> 
 
 

@@ -92,7 +92,7 @@ const QuizPage = () => {
               <h2 className="feature-box-text text-2xl font-extrabold text-white mt-4 tracking-wider drop-shadow-lg transition-all duration-300 ease-in-out hover:text-gray-200">
                 Detailed Explanation
               </h2>
-            </div>npm run dev
+            </div>
             
 
             {/* Third Feature Box */}
@@ -101,7 +101,7 @@ const QuizPage = () => {
                 <span role="img" aria-label="verified" className="text-6xl text-white">🏅</span>
               </div>
               <h2 className="feature-box-text text-2xl font-extrabold text-white mt-4 tracking-wider drop-shadow-lg transition-all duration-300 ease-in-out hover:text-gray-200">
-                Verified Questions
+                Verified Questions.
               </h2>
             </div>
           </div>

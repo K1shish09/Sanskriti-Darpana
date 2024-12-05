@@ -40,14 +40,14 @@ function NewsSection() {
         'https://www.bing.com/th?id=OVFT.lA1xd1b9QXaV5-hzMhKVqi&pid=News&w=234&h=132&c=14&rs=2&qlt=90',
       title: 'Tulsi Vivah is a sacred Hindu ritual',
       description:
-        'Tulsi Vivah is a sacred Hindu ritual that symbolizes the ceremonial marriage of the Tulsi plant (holy basil) with Lord Vishnu, usually in his avatar as Shaligram or Lord Krishna.',
+        'Tulsi Vivah is a sacred Hindu rituals that symbolizes the ceremonial marriage of the Tulsi plant (holy basil) with Lord Vishnu, usually in his avatar as Shaligram or Lord Krishna.',
     },
     {
       imageUrl:
         'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1tV8GW.img?w=768&h=432&m=6',
       title: 'Kartiki Ekadashi celebrations at Pandharpur',
       description:
-        'Kartiki Ekadashi celebrations at Pandharpur: Vitthala and Rukmini Mata temple offers 24-hour darshan, symbolizing the ceremonial marriage of the Tulsi plant with Lord Vishnu.',
+        'Kartiki Ekadashi celebrations at Pandharpur: Vitthala and Rukmini Matas temple offers 24-hour darshan that symbolizing the ceremonial marriage of the Tulsi plant with Lord Vishnu.',
     },
     {
       imageUrl:
