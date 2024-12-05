@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';  
 import map from './../Assets/india .png'; 
 import logo from './../Assets/logo.jpg'
+import logo1 from './../Assets/logo.png'
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false); 
@@ -18,7 +19,7 @@ function Navbar() {
         <div className="flex items-center">
           <div className="h-14 w-14 md:h-20 md:w-20 p-2">
             <img
-              src={logo} 
+              src={logo1} 
               className="rounded-full h-full w-full object-cover"
               alt="Logo"
             />

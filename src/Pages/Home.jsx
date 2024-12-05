@@ -13,8 +13,10 @@ import food from './../Assets/food.jpg'
 import tabla from './../Assets/tabla.jpg'
 import mahal1 from './../Assets/mahal1.jpg'
 import monuments from './../Assets/monuments.jpg'
+
 import './Home.css'
 import Footer from './../components/Footer'
+import Cardslider from '../components/Cardslider'
 
 
 function Home() {
@@ -36,7 +38,7 @@ function Home() {
     <img src={line} alt="" className="h-14 w-96 mt-[90px] mx-auto mb-10 sm:w-72 sm:mt-10"  />
     <br></br>
     <h2 className="text-center font-bold bg-red-600 bg-gradient-to-tr from-red-700 to-pink-600 text-3xl text-white
-    mx-4 sm:mx-8 md:mx-16 lg:mx-32 my-6 sm:text-2xl md:text-3xl lg:text-4xl rounded-lg shadow-4xl">
+    mx-4 sm:mx-8 md:mx-16 lg:mx-96 my-6 sm:text-2xl md:text-3xl lg:text-4xl rounded-lg shadow-4xl">
     Search For
 </h2>
 
@@ -76,7 +78,7 @@ function Home() {
     <img src={line} alt="" className="h-14 w-96 mt-[90px] mx-auto mb-10 sm:w-72 sm:mt-10"  />
     <br></br>
     <h2 className="text-center font-bold bg-red-600 bg-gradient-to-tr from-red-700 to-pink-600 text-3xl text-white
-    mx-4 sm:mx-8 md:mx-16 lg:mx-32 my-6 sm:text-2xl md:text-3xl lg:text-4xl rounded-lg shadow-4xl">
+    mx-4 sm:mx-8 md:mx-16 lg:mx-96 my-6 sm:text-2xl md:text-3xl lg:text-4xl rounded-lg shadow-4xl">
     UNISCO World Heritage Sites
     </h2><br></br><br></br>
 
@@ -95,14 +97,19 @@ function Home() {
 
 
     <br></br><br></br>
-    <img src={line} alt="" className="h-14 mt-[90px] w-96 ml-[550px] mb-10"  />
+    <img src={line} alt="" className="h-14 w-96 mt-[90px] mx-auto mb-10 sm:w-72 sm:mt-10"  />
     <br></br>
     <h2 className="text-center font-bold bg-red-600 bg-gradient-to-tr from-red-700 to-pink-600 text-3xl text-white
-    ml-[500px] mr-[500px] rounded-lg shadow-4xl ">Greatest Innovation of India</h2><br></br><br></br>
+    ml-[500px] mr-[500px] rounded-lg shadow-4xl ">Greatest Innovation of India</h2>
    
          
-    
-
+    <Slidercard/>
+    <br></br>
+    <img src={line} alt="" className="h-14 w-96 mt-[90px] mx-auto mb-10 sm:w-72 sm:mt-10"  />
+    <br></br>
+    <h2 className="text-center font-bold bg-red-600 bg-gradient-to-tr from-red-700 to-pink-600 text-3xl text-white
+    ml-[500px] mr-[500px] rounded-lg shadow-4xl ">Greatest Innovation of India</h2><br></br>
+    <Cardslider/>
  
 
 

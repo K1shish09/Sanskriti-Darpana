@@ -37,7 +37,7 @@ const data = [
 
 ];
 
-function Slidercard() {
+function Cardslider() {
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
@@ -111,11 +111,4 @@ function Slidercard() {
   );
 }
 
-export default Slidercard;
-
-
-
-
-
-
-
+export default Cardslider;
