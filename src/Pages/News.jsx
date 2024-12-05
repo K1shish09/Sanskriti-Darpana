@@ -83,7 +83,7 @@ function NewsSection() {
         </h2>
         <div className="flex items-center justify-center mt-4">
           <p className="text-white font-medium text-lg px-4 py-3 bg-gradient-to-tr from-red-700 to-pink-600 rounded-full shadow-lg transform transition duration-200 hover:scale-105">
-            Discover the latest events and cultural highlights through Sanskriti Darpan.
+            Discover the latest events and culturals highlights through Sanskriti Darpana.
           </p>
         </div>
       </div>
