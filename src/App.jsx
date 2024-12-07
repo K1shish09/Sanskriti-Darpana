@@ -1,15 +1,11 @@
-<<<<<<< HEAD
-=======
 import React from 'react'
-
-import Home from './Pages/Home'
-
-
+import Review from './components/Review'
 function App() {
   return (
-    <Home/>
+    <div>
+      <Review />
+    </div>
   )
 }
 
 export default App
->>>>>>> ca35301310ee2515cb5319485e9f6ed226a14e91
