@@ -1,14 +1,15 @@
 import React from 'react'
-import Quiz from './Pages/Quiz.jsx'
-import News from './Pages/News.jsx'
-import Unesco from './Pages/Unesco.jsx'
-import Home from './Pages/Home.jsx'
+import News from './Pages/News'
+import Quiz from './Pages/Quiz'
+import Home from './Pages/Home'
+import Login from './Pages/Login'
+import Unesco from './Pages/Unesco'
 
 function App() {
   return (
     <div>
-      < Home/>
-      </div>
+      <Login/>
+    </div>
   )
 }
 
