@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 import React from 'react'
 import News from './Pages/News'
 import Quiz from './Pages/Quiz'
@@ -14,3 +16,4 @@ function App() {
 }
 
 export default App
+>>>>>>> ca35301310ee2515cb5319485e9f6ed226a14e91
