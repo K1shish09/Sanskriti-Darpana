@@ -55,7 +55,7 @@ function App() {
               { name: 'Manish Kumar', title: 'Student', review: 'Amazing platform! It offers deep insights into Indian heritage that you won’t find anywhere else.' },
               { name: 'Sakshi Gupta', title: 'Student', review: 'Sanskriti Darpan made learning about Indian festivals and customs so much fun and easy!' },
               { name: 'Ravi Mehta', title: 'Traditional Art Lover', review: 'A great way to explore the diverse cultures of India. I love the engaging content and beautiful presentation!' },
-              { name: 'Karan Verma', title: 'Cultural Student', review: 'An invaluable resource for anyone interested in Indian history and culture. Very informative and well-designed!' }
+              { name: 'Karan Verma', title: 'Cultural Student', review: 'An invaluable resource for anyone interested in Indian history and culture. Very informative and well-designed !' }
             ].map((review, index) => (
               <div
                 key={index}
