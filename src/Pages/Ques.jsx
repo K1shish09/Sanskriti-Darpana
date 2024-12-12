@@ -48,7 +48,7 @@ const Quiz = () => {
       options: ["150", "200", "250", "300"],
       answer: "200",
       explanation: "The British ruled over India for approximately 200 years, from 1757 (Battle of Plassey) until 1947 when India gained independence."
-    },git 
+    },
     {
       question: "Which city is known as the 'City of Lakes'?",
       options: ["Jaipur", "Udaipur", "Kolkata", "Chennai"],
@@ -127,7 +127,18 @@ const Quiz = () => {
       answer: "Chandragupta Maurya",
       explanation: "Chandragupta Maurya was the founder of the Maurya Empire and its first Emperor.",
     },
-    // Other questions...
+    {
+      question: "In which year did the first Indian satellite, Aryabhata, launch?",
+      options: ["1972", "1975", "1980", "1984"],
+      answer: "1975",
+      explanation: "India's first satellite, Aryabhata, was launched on April 19, 1975, by the Soviet Union from its cosmodrome.",
+    },
+    {
+      question: "Who was the first Emperor of the Maurya Dynasty?",
+      options: ["Chandragupta Maurya", "Ashoka", "Bindusara", "Bimbisara"],
+      answer: "Chandragupta Maurya",
+      explanation: "Chandragupta Maurya was the founder of the Maurya Empire and its first Emperor.",
+    },
   ];
 
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -135,16 +146,33 @@ const Quiz = () => {
   const [selectedOption, setSelectedOption] = useState(null);
   const [showExplanation, setShowExplanation] = useState(false);
   const [timer, setTimer] = useState(30);
+  const [quizFinished, setQuizFinished] = useState(false);
+  const [confettiArray, setConfettiArray] = useState([]);
 
   useEffect(() => {
-    if (timer > 0 && selectedOption === null) {
+    if (timer > 0 && selectedOption === null && !quizFinished) {
       const countdown = setInterval(() => {
         setTimer((prevTime) => prevTime - 1);
       }, 1000);
 
       return () => clearInterval(countdown);
     }
-  }, [timer, selectedOption]);
+  }, [timer, selectedOption, quizFinished]);
+
+  useEffect(() => {
+    if (quizFinished) {
+      // Generate confetti dynamically
+      const confetti = Array.from({ length: 50 }, (_, i) => ({
+        id: i,
+        style: {
+          left: `${Math.random() * 100}%`,
+          animationDuration: `${Math.random() * 2 + 1}s`,
+          animationDelay: `${Math.random()}s`,
+        },
+      }));
+      setConfettiArray(confetti);
+    }
+  }, [quizFinished]);
 
   const handleOptionClick = (option) => {
     setSelectedOption(option);
@@ -161,19 +189,21 @@ const Quiz = () => {
       setSelectedOption(null);
       setShowExplanation(false);
       setTimer(30);
+    } else {
+      handleFinishQuiz();
     }
   };
 
   const handleFinishQuiz = () => {
-    alert(`Quiz Finished! Your final score is ${score} out of ${questions.length}.`);
-    window.location.reload();
+    setQuizFinished(true);
+    setTimer(0);
   };
 
   return (
     <>
       <Navbar />
 
-      <div className="quiz-container mt-8">
+      <div className={`quiz-container mt-8`}>
         {/* Score and Timer */}
         <div className="flex justify-around items-center mb-6 text-lg mt-10">
           <div className="score-display flex items-center gap-3 p-3 bg-teal-400 text-white rounded-lg shadow-md w-1/3">
@@ -187,54 +217,68 @@ const Quiz = () => {
         </div>
 
         {/* Question Card */}
-        <div className="question-card p-6 bg-gradient-to-r from-red-500 to-pink-500 rounded-xl text-white shadow-xl w-full">
-          <h2 className="question text-xl mb-4">
-            Question {currentQuestion + 1}: {questions[currentQuestion].question}
-          </h2>
+        {!quizFinished && (
+          <div className="question-card p-6 bg-gradient-to-r from-red-500 to-pink-500 rounded-xl text-white shadow-xl w-full">
+            <h2 className="question text-xl mb-4">
+              Question {currentQuestion + 1}: {questions[currentQuestion].question}
+            </h2>
 
-          <div className="options-container grid grid-cols-2 gap-4 mb-6">
-            {questions[currentQuestion].options.map((option, index) => (
-              <button
-                key={index}
-                className={`option-button relative w-full p-4 bg-white text-gray-700 rounded-xl shadow-md transition-transform duration-300 transform hover:scale-105 hover:shadow-xl ${
-                  selectedOption
-                    ? option === questions[currentQuestion].answer
-                      ? "bg-green-100"
-                      : option === selectedOption
-                      ? "bg-red-100"
+            <div className="options-container grid grid-cols-2 gap-4 mb-6">
+              {questions[currentQuestion].options.map((option, index) => (
+                <button
+                  key={index}
+                  className={`option-button relative w-full p-4 bg-white text-gray-700 rounded-xl shadow-md transition-transform duration-300 transform hover:scale-105 hover:shadow-xl ${
+                    selectedOption
+                      ? option === questions[currentQuestion].answer
+                        ? "bg-green-100"
+                        : option === selectedOption
+                        ? "bg-red-100"
+                        : "bg-teal-100"
                       : "bg-teal-100"
-                    : "bg-teal-100"
-                }`}
-                onClick={() => handleOptionClick(option)}
-                disabled={selectedOption !== null}
-              >
-                {String.fromCharCode(65 + index)}. {option}
-              </button>
-            ))}
-          </div>
-
-          {showExplanation && (
-            <div className="explanation-section mt-4 p-4 bg-white text-gray-700 rounded-lg shadow-lg">
-              <p>
-                {selectedOption === questions[currentQuestion].answer
-                  ? "Correct! Well done."
-                  : "Incorrect"}
-              </p>
-              <p>{questions[currentQuestion].explanation}</p>
+                  }`}
+                  onClick={() => handleOptionClick(option)}
+                  disabled={selectedOption !== null}
+                >
+                  {String.fromCharCode(65 + index)}. {option}
+                </button>
+              ))}
             </div>
-          )}
 
-          <button
-            className="next-button w-full p-4 bg-pink-500 text-white rounded-xl shadow-md mt-6 transform transition duration-500 hover:scale-105 hover:shadow-xl disabled:bg-gray-300"
-            onClick={handleNextQuestion}
-            disabled={!showExplanation}
-          >
-            {currentQuestion < questions.length - 1 ? "Next Question" : "Finish Quiz"}
-          </button>
-        </div>
+            {showExplanation && (
+              <div className="explanation-section mt-4 p-4 bg-white text-gray-700 rounded-lg shadow-lg">
+                <p>
+                  {selectedOption === questions[currentQuestion].answer
+                    ? "Correct! Well done."
+                    : "Incorrect"}
+                </p>
+                <p>{questions[currentQuestion].explanation}</p>
+              </div>
+            )}
+
+            <button
+              className="next-button w-full p-4 bg-pink-500 text-white rounded-xl shadow-md mt-6 transform transition duration-500 hover:scale-105 hover:shadow-xl disabled:bg-gray-300"
+              onClick={handleNextQuestion}
+              disabled={!showExplanation}
+            >
+              {currentQuestion < questions.length - 1 ? "Next Question" : "Finish Quiz"}
+            </button>
+          </div>
+        )}
+
+        {/* Thank You for Visiting Section */}
+        {quizFinished && (
+          <>
+            <div className="quiz-result">
+              <p className="score">Your Final Score: {score} / {questions.length}</p>
+              <p className="thank-you">Thank you for visiting!</p>
+            </div>
+            {confettiArray.map((confetti) => (
+              <div key={confetti.id} className="confetti" style={confetti.style}></div>
+            ))}
+          </>
+        )}
       </div>
 
-      {/* Move Footer Outside the Quiz Container */}
       <Footer />
     </>
   );
