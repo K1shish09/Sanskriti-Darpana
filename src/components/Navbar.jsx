@@ -5,7 +5,7 @@ import logo from './../Assets/logo.jpg'
 import logo1 from './../Assets/logo.png'
 
 
-import { Link } from 'react-router-dom';
+
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false); 
@@ -45,12 +45,12 @@ function Navbar() {
 
         {/* Navbar Links for desktop */}
         <div className="hidden md:flex flex-row items-center justify-between md:w-auto">
-          <Link href="#" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Home</Link>
-          <Link href="#" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">About</Link>
-          <Link href="#" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Quiz</Link>
-          <Link href="#" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Reviews</Link>
-          <Link href="#" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">News</Link>
-          <Link href="#" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Signin</Link>
+          <a href="#" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Home</a>
+          <a href="#" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">About</a>
+          <a href="#" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Quiz</a>
+          <a  href="#" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Reviews</a>
+          <a href="#" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">News</a>
+          <a href="#" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Signin</a>
 
           <div className="ml-4">
             <a href="#">

@@ -1,0 +1,94 @@
+
+
+/* Base styles for quiz container */
+/* Base styles for quiz container */
+.quiz-container {
+  max-width: 1000px;
+  margin: 130px auto ; /* Increased top margin to 150px */
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Style for each question card */
+.question-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  width: 100%;
+}
+
+/* Styling for options */
+.options-container .option-button {
+  position: relative;
+  text-align: left;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect only when not selected */
+.options-container .option-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Disable hover effect once the option is selected */
+.options-container .option-button:disabled:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+/* Change the background color based on selection */
+.options-container .option-button.selected {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+/* Explanation box styling */
+.explanation-section {
+  background-color: #f9fafb;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+/* Styling for the final score and 'Try Again' button */
+.final-score button {
+  background-color: #38b2ac;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.final-score button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the timer and score */
+.score-display, .timer-display {
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #FF63A1; /* Red-Pink gradient effect */
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.score-display {
+  background: linear-gradient(90deg, rgba(255,99,71,1) 0%, rgba(255,105,180,1) 100%);
+}
+
+.timer-display {
+  background: linear-gradient(90deg, rgba(255,63,161,1) 0%, rgba(255,105,180,1) 100%);
+}

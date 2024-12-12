@@ -18,23 +18,20 @@ import './Home.css'
 import Footer from './../components/Footer'
 import Cardslider from '../components/Cardslider'
 
-
 function Home() {
+
   return (
     <>
     <Navbar/>
 
     {/* slider */}
    <div className='imgslider'>
-   
     <h1 className="img-text">INDIA</h1><br></br>
     <p className="img-text">Experince the Rich Culture and Heritage !</p><br></br>
-    
-    </div>
+      </div>
 
     
     {/* slider end */}
-
     <img src={line} alt="" className="h-14 w-96 mt-[90px] mx-auto mb-10 sm:w-72 sm:mt-10"  />
     <br></br>
     <h2 className="text-center font-bold bg-red-600 bg-gradient-to-tr from-red-700 to-pink-600 text-3xl text-white
