@@ -1,7 +1,9 @@
 import React from 'react';
 import Navbar from './../components/Navbar';
-import prerna from './../Assets/prerna.jpg';
-import tanvi from './../Assets/tanvi.jpg';
+import Prerna from './../Assets/prerna.jpg';
+import Vaishnavi from './../Assets/Vaishnavi.jpg';
+import tanvi from './../Assets/Tanvi.jpg';
+import kashish from './../Assets/kashish.jpg';
 import Footer from '../components/Footer.jsx';
 
 function AboutUs() {
@@ -20,7 +22,7 @@ function AboutUs() {
             {/* Card 1 */}
             <div className="rounded-lg shadow-md p-6 flex flex-col items-center bg-gradient-to-tr from-red-700 to-pink-600 text-white">
               <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white">
-                <img src="" alt="User 1" className="w-full h-full object-cover" />
+                <img src={kashish} alt="User 1" className="w-full h-full object-cover" />
               </div>
               <h3 className="mt-4 text-xl font-semibold">Kashishr</h3>
               <p className="mt-2 text-sm text-gray-200 text-center">
@@ -31,7 +33,7 @@ function AboutUs() {
             {/* Card 2 */}
             <div className="rounded-lg shadow-md p-6 flex flex-col items-center bg-gradient-to-tr from-red-700 to-pink-600 text-white">
               <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white">
-                <img src={prerna} alt="User 2" className="w-full h-full object-cover" />
+                <img src={Prerna} alt="User 2" className="w-full h-full object-cover" />
               </div>
               <h3 className="mt-4 text-xl font-semibold">Prerna Barde</h3>
               <p className="mt-2 text-sm text-gray-200 text-center">
@@ -42,7 +44,7 @@ function AboutUs() {
             {/* Card 3 */}
             <div className="rounded-lg shadow-md p-6 flex flex-col items-center bg-gradient-to-tr from-red-700 to-pink-600 text-white">
               <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white">
-                <img src="https://via.placeholder.com/150" alt="User 3" className="w-full h-full object-cover" />
+                <img src={Vaishnavi} alt="User 3" className="w-full h-full object-cover" />
               </div>
               <h3 className="mt-4 text-xl font-semibold">Vaishnavi Ambatre</h3>
               <p className="mt-2 text-sm text-gray-200 text-center">
