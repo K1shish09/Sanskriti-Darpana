@@ -3,7 +3,7 @@ import Navbar from './../components/Navbar';
 import Prerna from './../Assets/prerna.jpg';
 import Vaishnavi from './../Assets/Vaishnavi.jpg';
 import tanvi from './../Assets/Tanvi.jpg';
-import kashish from './../Assets/kashish.jpg';
+import kashishimg from './../Assets/kashish.jpg';
 import Footer from '../components/Footer.jsx';
 
 function AboutUs() {
@@ -22,7 +22,7 @@ function AboutUs() {
             {/* Card 1 */}
             <div className="rounded-lg shadow-md p-6 flex flex-col items-center bg-gradient-to-tr from-red-700 to-pink-600 text-white">
               <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white">
-                <img src={kashish} alt="User 1" className="w-full h-full object-cover" />
+                <img src={kashishimg} alt="User 1" className="w-full h-full object-cover" />
               </div>
               <h3 className="mt-4 text-xl font-semibold">Kashishr</h3>
               <p className="mt-2 text-sm text-gray-200 text-center">
