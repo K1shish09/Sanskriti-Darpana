@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from './../components/Navbar'
 import Slidercard from '../components/Slidercard'
 import line from './../Assets/Gold_Decoration_Transparent_PNG_Clip_Art.png'
 import holi from './../Assets/holi.jpg'
@@ -13,21 +12,19 @@ import food from './../Assets/food.jpg'
 import tabla from './../Assets/tabla.jpg'
 import mahal1 from './../Assets/mahal1.jpg'
 import monuments from './../Assets/monuments.jpg'
-
 import './Home.css'
-import Footer from './../components/Footer'
 import Cardslider from '../components/Cardslider'
 
 function Home() {
 
   return (
     <>
-    <Navbar/>
+      {/* <Navbar /> */}
 
-    {/* slider */}
-   <div className='imgslider'>
-    <h1 className="img-text">INDIA</h1><br></br>
-    <p className="img-text">Experince the Rich Culture and Heritage !</p><br></br>
+      {/* slider */}
+      <div className='imgslider'>
+        <h1 className="img-text">INDIA</h1><br></br>
+        <p className="img-text">Experince the Rich Culture and Heritage !</p><br></br>
       </div>
 
     
