@@ -1,27 +1,15 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './Pages/Home';
-import Quiz from './Pages/Quiz';
-import Unesco from './Pages/Unesco';
-import Login from './Pages/Login';
-import News from './Pages/News';
-import Review from './components/Review';
-import Navbar from './components/Navbar';
+import React from 'react'
+import Review from './components/Review'
+import Home from './Pages/Home'
+import Navbar1 from './components/Navbar1'
+import MCQ from './Pages/MCQ'
+import Cardslider from './components/Cardslider'
+
 
 function App() {
   return (
-    <Router>
-      <Navbar/>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/quiz" element={<Quiz />} />
-        <Route path="/unesco" element={<Unesco />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/news" element={<News />} />
-        <Route path="/review" element={<Review />} />
-      </Routes>
-    </Router>
-  );
+   <Home/>
+  )
 }
 
-export default App;
+export default App

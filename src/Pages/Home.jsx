@@ -83,14 +83,15 @@ function Home() {
     </h2><br></br><br></br>
 
     
-    <div className='monuments'>
+     <div className='monuments'>
       <img src={monuments} className="rounded-lg ml-[400px] w-[700px] h-96 shadow-2xl shadow-black" />
       <div class="text-container-1"> <h3 className="text-white ">List of UNISCO</h3>
-        <h1 className="text-white text-5xl ml-64">WORLD HERITAGE SITES</h1>
+        <h1 className="text-white text-5xl ml-64 ">WORLD HERITAGE SITES</h1>
         <p className="text-white ml-96">Till 2024</p>
       </div>
       <button className='text-container-button bg-red-600 bg-gradient-to-tr from-red-700 to-pink-600'><a href="#">Read More</a></button>
-    </div> 
+    </div>  *
+ 
 
 
 
@@ -100,7 +101,7 @@ function Home() {
     <img src={line} alt="" className="h-14 w-96 mt-[90px] mx-auto mb-10 sm:w-72 sm:mt-10"  />
     <br></br>
     <h2 className="text-center font-bold bg-red-600 bg-gradient-to-tr from-red-700 to-pink-600 text-3xl text-white
-    ml-[500px] mr-[500px] rounded-lg shadow-4xl ">Greatest Innovation of India</h2>
+    ml-[500px] mr-[500px] rounded-lg shadow-4xl ">Greatest Innovation of India</h2><br></br>
    
          
     <Slidercard/>
