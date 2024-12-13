@@ -1,14 +1,11 @@
 import React, { useState } from 'react';
-import { FaBars, FaTimes } from 'react-icons/fa';  
-import map from './../Assets/india .png'; 
+import { FaBars, FaTimes } from 'react-icons/fa';
+import map from './../Assets/india .png';
 import logo from './../Assets/logo.jpg'
 import logo1 from './../Assets/logo.png'
 
-
-
-
 function Navbar() {
-  const [menuOpen, setMenuOpen] = useState(false); 
+  const [menuOpen, setMenuOpen] = useState(false);
 
   // Toggle function for mobile menu
   const toggleMenu = () => {
@@ -22,7 +19,7 @@ function Navbar() {
         <div className="flex items-center">
           <div className="h-14 w-14 md:h-20 md:w-20 p-2">
             <img
-              src={logo1} 
+              src={logo1}
               className="rounded-full h-full w-full object-cover"
               alt="Logo"
             />
@@ -45,12 +42,12 @@ function Navbar() {
 
         {/* Navbar Links for desktop */}
         <div className="hidden md:flex flex-row items-center justify-between md:w-auto">
-          <a href="#" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Home</a>
-          <a href="#" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">About</a>
-          <a href="#" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Quiz</a>
-          <a  href="#" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Reviews</a>
-          <a href="#" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">News</a>
-          <a href="#" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Signin</a>
+          <a href="/" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Home</a>
+          <a href="/about" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">About</a>
+          <a href="/quiz" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Quiz</a>
+          <a href="/reviews" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Reviews</a>
+          <a href="/news" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">News</a>
+          <a href="/login" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Signin</a>
 
           <div className="ml-4">
             <a href="#">
@@ -67,12 +64,12 @@ function Navbar() {
       {/* Mobile Menu (for small screens, horizontally below the navbar) */}
       <div className={`md:hidden w-full ${menuOpen ? 'block' : 'hidden'} mt-[80px]`}>
         <div className="flex flex-col items-center rounded-lg py-4">
-          <a href="#" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">Home</a>
-          <a href="#" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">About</a>
-          <a href="#" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">Quiz</a>
-          <a href="#" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">Reviews</a>
-          <a href="#" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">News</a>
-          <a href="#" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">Signin</a>
+          <a href="/" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">Home</a>
+          <a href="/about" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">About</a>
+          <a href="/quiz" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">Quiz</a>
+          <a href="/reviews" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">Reviews</a>
+          <a href="/news" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">News</a>
+          <a href="/login" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">Signin</a>
         </div>
 
         {/* Map icon below the menu for mobile */}
