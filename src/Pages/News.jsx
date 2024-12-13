@@ -1,135 +1,109 @@
-import React, { useState, useEffect } from "react";
-import "./Ques.css";
-import Navbar from "./../components/Navbar";
-import Footer from "./../components/Footer";
-import { FaClock, FaStar } from "react-icons/fa";
 
-const Quiz = () => {
-  const questions = [
-    // ... [your questions array]
+import Navbar from './../components/Navbar.jsx';
+import Footer from '../components/Footer.jsx';
+
+// Individual News Card Component
+function NewsCard({ imageUrl, title, description }) {
+  return (
+    <div className="relative w-full p-6 bg-gradient-to-tr from-red-700 to-pink-600 rounded-xl text-white shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-xl hover:opacity-90">
+      <img
+        src={imageUrl}
+        alt="News"
+        className="w-full h-40 object-cover rounded-lg mb-4 transform transition duration-500 hover:scale-110"
+      />
+      <h3 className="font-semibold text-xl mb-2 tracking-wide">{title}</h3>
+      <p className="text-md text-white/90 mb-6 font-montserrat leading-relaxed overflow-hidden text-ellipsis">
+        {description}
+      </p>
+
+      {/* Read More Button */}
+      <div className="absolute bottom-4 left-4 text-pink-200 text-sm hover:text-white cursor-pointer transition-all duration-300 transform hover:scale-105">
+        Read More
+      </div>
+    </div>
+  );
+}
+
+// Main News Section Component
+function NewsSection() {
+  // Data for the cards (including unique images, titles, and descriptions)
+  const newsData = [
+    {
+      imageUrl:
+        'https://th-i.thgim.com/public/incoming/sjzla0/article68845885.ece/alternates/LANDSCAPE_1200/2303_8_11_2024_18_24_58_1_FMMUSICFEST.JPG',
+      title: 'Kannada language through Bhakti Sangeetha touches core of your heart',
+      description:
+        'Nirmala Sitharaman Union Finance Minister inaugurates three-day Mysuru Sangeetha Suganda Music Festival that celebrates the Dasa tradition of Carnatic music.',
+    },
+    {
+      imageUrl:
+        'https://www.bing.com/th?id=OVFT.lA1xd1b9QXaV5-hzMhKVqi&pid=News&w=234&h=132&c=14&rs=2&qlt=90',
+      title: 'Tulsi Vivah is a sacred Hindu ritual',
+      description:
+        'Tulsi Vivah is a sacred Hindu ritual that symbolizes the ceremonial marriage of the Tulsi plant (holy basil) with Lord Vishnu, usually in his avatar as Shaligram or Lord Krishna.',
+    },
+    {
+      imageUrl:
+        'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1tV8GW.img?w=768&h=432&m=6',
+      title: 'Kartiki Ekadashi celebrations at Pandharpur',
+      description:
+        'Kartiki Ekadashi celebrations at Pandharpur: Vitthala and Rukmini Mata temple offers 24-hour darshan, symbolizing the ceremonial marriage of the Tulsi plant with Lord Vishnu.',
+    },
+    {
+      imageUrl:
+        'https://www.bing.com/th?id=OVFT.twHxRta2Dkj2l0GH0_hZbC&pid=News&w=234&h=132&c=14&rs=2&qlt=90',
+      title: 'Nagaraj Rao Havaldar says',
+      description:
+        'Music is a great unifying and connecting factor, says Nagaraj Rao Havaldar, highlighting Karnataka’s unique status as a state that has nurtured both Hindustani and Carnatic traditions.',
+    },
+    {
+      title: 'Mohiniyattam pan-Indian traditions and fusion:',
+      imageUrl: 'https://www.bing.com/th?id=OVFT.8l97vUkSXm9kJapxXuVqIS&pid=News&w=234&h=132&c=14&rs=2&qlt=90',
+      description:
+        'Mohiniyattam pioneer Vijayalakshmi brings to town a medley of pan-Indian traditions, blending tradition with contemporary themes.',
+    },
+    {
+      imageUrl:
+        'https://www.bing.com/th?id=OVFT.-uJBbIrbI-ZXwiI0Fb8QZy&pid=News&w=234&h=132&c=14&rs=2&qlt=90',
+      title: 'Chhath Puja is more than just a festival',
+      description:
+        'Chhath Puja is more than just a festival; it embodies a vivid display of devotion, tradition, and respect for nature, predominantly celebrated in Bihar and Jharkhand.',
+    },
   ];
 
-  const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [score, setScore] = useState(0);
-  const [selectedOption, setSelectedOption] = useState(null);
-  const [showExplanation, setShowExplanation] = useState(false);
-  const [timer, setTimer] = useState(30);
-  const [quizFinished, setQuizFinished] = useState(false);
-
-  useEffect(() => {
-    if (timer > 0 && selectedOption === null) {
-      const countdown = setInterval(() => {
-        setTimer((prevTime) => prevTime - 1);
-      }, 1000);
-
-      return () => clearInterval(countdown);
-    }
-  }, [timer, selectedOption]);
-
-  const handleOptionClick = (option) => {
-    setSelectedOption(option);
-    if (option === questions[currentQuestion].answer) {
-      setScore(score + 1);
-    }
-    setShowExplanation(true);
-    setTimer(0);
-  };
-
-  const handleNextQuestion = () => {
-    if (currentQuestion < questions.length - 1) {
-      setCurrentQuestion(currentQuestion + 1);
-      setSelectedOption(null);
-      setShowExplanation(false);
-      setTimer(30);
-    }
-  };
-
-  const handleFinishQuiz = () => {
-    setQuizFinished(true);
-  };
-
   return (
-    <>
+    <div className="flex flex-col items-center py-12 bg-gray-50">
+      {/* Navbar - Normal flow, no fixed positioning */}
       <Navbar />
 
-      <div className="quiz-container mt-8">
-        {/* Score and Timer */}
-        <div className="flex justify-around items-center mb-6 text-lg mt-10">
-          <div className="score-display flex items-center gap-3 p-3 bg-teal-400 text-white rounded-lg shadow-md w-1/3">
-            <FaStar className="text-2xl" />
-            <span>Score: {score}</span>
-          </div>
-          <div className="timer-display flex items-center gap-3 p-3 bg-teal-400 text-white rounded-lg shadow-md w-1/3">
-            <FaClock className="text-2xl" />
-            <span>Time Left: {timer}s</span>
-          </div>
+      {/* Latest News Header - Add margin-top */}
+      <div className="relative text-center mt-32 mb-6">
+        <h2 className="text-white font-bold text-4xl px-4 py-2 bg-gradient-to-tr from-red-700 to-pink-600 rounded-full shadow-lg transform transition duration-300 hover:scale-105">
+          Latest News
+        </h2>
+        <div className="flex items-center justify-center mt-4">
+          <p className="text-white font-medium text-lg px-4 py-3 bg-gradient-to-tr from-red-700 to-pink-600 rounded-full shadow-lg transform transition duration-200 hover:scale-105">
+            Discover the latest events and cultural highlights through Sanskriti Darpan.
+          </p>
         </div>
-
-        {/* Question Card */}
-        {!quizFinished ? (
-          <div className="question-card p-6 bg-gradient-to-r from-red-500 to-pink-500 rounded-xl text-white shadow-xl w-full">
-            <h2 className="question text-xl mb-4">
-              Question {currentQuestion + 1}: {questions[currentQuestion].question}
-            </h2>
-
-            <div className="options-container grid grid-cols-2 gap-4 mb-6">
-              {questions[currentQuestion].options.map((option, index) => (
-                <button
-                  key={index}
-                  className={`option-button relative w-full p-4 bg-white text-gray-700 rounded-xl shadow-md transition-transform duration-300 transform hover:scale-105 hover:shadow-xl ${
-                    selectedOption
-                      ? option === questions[currentQuestion].answer
-                        ? "bg-green-100"
-                        : option === selectedOption
-                        ? "bg-red-100"
-                        : "bg-teal-100"
-                      : "bg-teal-100"
-                  }`}
-                  onClick={() => handleOptionClick(option)}
-                  disabled={selectedOption !== null}
-                >
-                  {String.fromCharCode(65 + index)}. {option}
-                </button>
-              ))}
-            </div>
-
-            {showExplanation && (
-              <div className="explanation-section mt-4 p-4 bg-white text-gray-700 rounded-lg shadow-lg">
-                <p>
-                  {selectedOption === questions[currentQuestion].answer
-                    ? "Correct! Well done."
-                    : "Incorrect"}
-                </p>
-                <p>{questions[currentQuestion].explanation}</p>
-              </div>
-            )}
-
-            <button
-              className="next-button w-full p-4 bg-pink-500 text-white rounded-xl shadow-md mt-6 transform transition duration-500 hover:scale-105 hover:shadow-xl disabled:bg-gray-300"
-              onClick={handleNextQuestion}
-              disabled={!showExplanation}
-            >
-              {currentQuestion < questions.length - 1 ? "Next Question" : "Finish Quiz"}
-            </button>
-          </div>
-        ) : (
-          <div className="thank-you-section animated-thank-you p-6 bg-gradient-to-r from-green-500 to-teal-500 rounded-xl text-white shadow-xl w-full">
-            <h2 className="text-2xl font-bold">Thank You for Visiting!</h2>
-            <p className="mt-4">Your final score is {score} out of {questions.length}.</p>
-            <button
-              className="p-4 bg-pink-500 text-white rounded-xl shadow-md mt-6"
-              onClick={() => window.location.reload()}
-            >
-              Reload Quiz
-            </button>
-          </div>
-        )}
       </div>
 
-      {/* Move Footer Outside the Quiz Container */}
-      <Footer />
-    </>
-  );
-};
+      {/* News Cards Grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-6 w-full max-w-screen-lg mb-12">
+        {newsData.map((news, index) => (
+          <NewsCard
+            key={index}
+            imageUrl={news.imageUrl}
+            title={news.title}
+            description={news.description}
+          />
+        ))}
+      </div>
 
-export default Quiz;
+      {/* Footer */}
+      <Footer />
+    </div>
+  );
+}
+
+export default NewsSection;

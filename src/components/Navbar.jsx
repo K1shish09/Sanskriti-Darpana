@@ -50,7 +50,7 @@ function Navbar() {
           <a href="/login" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Signin</a>
 
           <div className="ml-4">
-            <a href="#">
+            <a href="">
               <img
                 src={map}
                 alt="Map Logo"
@@ -74,7 +74,7 @@ function Navbar() {
 
         {/* Map icon below the menu for mobile */}
         <div className="flex justify-center mt-4">
-          <a href="#">
+          <a href="">
             <img
               src={map}
               alt="Map Logo"
