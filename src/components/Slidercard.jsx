@@ -111,7 +111,7 @@ function Slidercard() {
 const CustomPrevButton = ({ onClick }) => (
   <button
     onClick={onClick}
-    className="absolute left-0 top-1/2 transform -translate-y-1/2 text-white bg-red-600 rounded-full p-3 mr-8 hover:bg-pink-600 transition-all z-10"
+    className="absolute left-0.5 top-1/2 transform -translate-y-1/2 text-white bg-pink-600 rounded-lg p-2 mr-5 hover:bg-pink-400 transition-all z-10"
   >
     <span className="text-xl">&lt;</span>
   </button>
@@ -120,7 +120,7 @@ const CustomPrevButton = ({ onClick }) => (
 const CustomNextButton = ({ onClick }) => (
   <button
     onClick={onClick}
-    className="absolute right-0 top-1/2 transform -translate-y-1/2 text-white bg-red-600 rounded-full p-3 hover:bg-pink-600 transition-all z-10"
+    className="absolute right-0.5 top-1/2 transform -translate-y-1/2 text-white bg-pink-600 rounded-lg p-2 hover:bg-pink-400 transition-all z-10"
   >
     <span className="text-xl">&gt;</span>
   </button>

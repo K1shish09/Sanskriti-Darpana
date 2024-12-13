@@ -2,39 +2,44 @@
     box-sizing: border-box;
 }
 /* photo-gallary css start */
-.container {
+   .container {
     width: 100%;
     max-width: 1224px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 10px;
+   
 }
 
 .photo-gallary {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     gap: 10px; 
+    
 }
 
 .column {
     display: flex;
     flex-direction: column;
-    gap: 10px; 
+   
 }
 
 .photo {
-    position: relative;
+    position: absolute;
     text-align: center;
     overflow: hidden; 
     border-radius: 5px; 
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); 
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, 
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .photo img {
     width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 5px;
     object-fit: cover;
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, 
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .photo:hover img {
@@ -61,7 +66,34 @@
 
 .photo:hover .text-container {
     opacity: 1;
+}   
+
+
+
+
+
+.photo:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
 }
+
+
+.photo:hover .text-container {
+    opacity: 1;
+    transform: translate(-50%, -50%) translateY(0); /* Move back to original position */
+}
+
+/* Additional Effects */
+.photo img {
+    filter: brightness(0.9); /* Slightly darken images */
+    transition: filter 0.3s ease; /* Smooth transition for filter */
+}
+
+.photo:hover img {
+    filter: brightness(1); /* Brighten image on hover */
+}
+
+
 
 /* For Tablets */
 @media (max-width: 768px) {
@@ -126,7 +158,7 @@
 /* unisco page css */
 
 
- .text-container-1{
+   .text-container-1{
     position: absolute; 
     color: white;
     font-weight: 800;
@@ -159,7 +191,10 @@
 .monuments{
    position: relative;
     text-align: center;
-}  
+}    
+
+
+
 
 
 
@@ -207,39 +242,59 @@
     }
 }
 
-/* Title text */
-.imgslider h1 {
+
+ .imgslider h1 {
     text-align: center;
-    color: rgb(241, 88, 88);
+    background-image: linear-gradient(orange,white,green);
     font-family: 'Poppins', sans-serif;
     font-size: 100px;
     font-weight: bolder;
-    background: linear-gradient(100deg, rgb(239, 15, 15) 80%, rgb(251, 17, 208) 100%);
+    text-shadow: 
+    1px 1px 0 pink, /* Light shadow */
+    2px 2px 0 rgb(245, 54, 6), /* Medium shadow */
+    3px 3px 0 rgb(231, 96, 12), /* Darker shadow */
+    4px 4px 5px rgb(250, 14, 57);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 2px 2px 5px rgb(243, 240, 240);
+    /* text-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
     position: absolute; 
     top:45%; 
     left: 50%; 
     transform: translateX(-50%) translateY(-50%); 
     z-index: 10; 
-}
+} 
 
-/* Subtitle text */
-.imgslider p {
+
+ .imgslider p {
     text-align: center;
-    color: white;
+    
     font-family: 'Poppins', sans-serif;
     font-size: 60px;
     font-weight: bolder;
-    background: linear-gradient(100deg, rgb(239, 15, 15) 80%, rgb(251, 17, 208) 60%);
+    color: antiquewhite;
+    text-shadow: 
+    1px 1px 0 rgb(244, 162, 10), /* Light shadow */
+    2px 2px 0 rgb(245, 54, 6), /* Medium shadow */
+    3px 3px 0 rgb(235, 24, 172), /* Darker shadow */
+    4px 4px 5px rgb(250, 14, 57);
     -webkit-background-clip: text;
-    text-shadow: 2px 2px 5px rgb(245, 98, 98);
+   background: linear-gradient(100%,red 50%,yellow 40%);
     position: absolute; 
     top: 50%; 
     left: 50%; 
     transform: translateX(-50%); 
     z-index: 10; 
+} 
+
+
+.imgslider h1:hover {
+    transform: translateX(-50%) translateY(-50%) scale(1.05); /* Scale effect on hover */
+}
+
+
+
+.imgslider p:hover {
+    transform: translateX(-50%) scale(1.03); /* Scale effect on hover */
 }
 
 /* Mobile and tablet responsiveness */
@@ -284,3 +339,13 @@
         top: 45%; 
     }
 }
+
+.css{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.css1{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+/* accordion css */

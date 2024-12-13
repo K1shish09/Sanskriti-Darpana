@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import map from './../Assets/india .png'; 
 import logo from './../Assets/logo.jpg'
 import logo1 from './../Assets/logo.png'
+import './Navbar.css'
 
 
 function Navbar() {
@@ -15,7 +16,7 @@ function Navbar() {
 
   return (
     <>
-      <div className="bg-red-600 bg-gradient-to-tr from-red-700 to-pink-600 h-20 px-4 md:px-16 mt-5 rounded-full flex items-center justify-between fixed top-0 left-5 right-5 z-10">
+      <div className="bg-red-600 bg-gradient-to-tr from-red-700 to-pink-600 h-20 px-4 md:px-16  rounded-lg flex items-center justify-between absolute top-1 left-1 right-1 z-10 css">
         {/* Logo Section */}
         <div className="flex items-center">
           <div className="h-14 w-14 md:h-20 md:w-20 p-2">
