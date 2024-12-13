@@ -7,6 +7,7 @@ import Ques from './Pages/Ques'
 import Review from './Pages/Review'
 import Login from './Pages/Login'
 import Layout from './Layout'
+import NewsSection from './Pages/News'
 const App = () => {
   return (
     <>
@@ -17,7 +18,7 @@ const App = () => {
             <Route path='/about' element={<AboutUs />} />
             <Route path='/quiz' element={<QuizPage />} />
             <Route path='/reviews' element={<Review />} />
-            {/* <Route path='/' element={<News />} /> */}
+            <Route path='/news' element={<NewsSection />} />
             <Route path='/login' element={<Login />} />
             <Route path='/ques' element={<Ques />} />
           </Route>
