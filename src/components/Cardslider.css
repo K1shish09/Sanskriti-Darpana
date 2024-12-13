@@ -1,0 +1,28 @@
+
+.card-slider-container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .card-slider {
+    background-color: #fde68a; 
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .card-slider .slick-slide img {
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card-slider .slick-dots li button:before {
+    color: #f43f5e; 
+  }
+  
+  .card-slider .slick-prev, 
+  .card-slider .slick-next {
+    z-index: 1;
+    color: #f43f5e; 
+  }
+  
