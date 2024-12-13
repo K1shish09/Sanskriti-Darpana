@@ -5,7 +5,7 @@ import Ques from './Pages/Ques'
 function App() {
   return (
     <div>
-      <Ques/>
+      <News/>
     </div>
   )
 }
