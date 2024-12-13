@@ -1,0 +1,175 @@
+
+/* Base styles for quiz container */
+.quiz-container {
+  max-width: 1000px;
+  margin: 150px auto; /* Centered with margin */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  text-align: center;
+}
+
+
+/* Style for each question card */
+.question-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  width: 100%;
+}
+
+/* Styling for options */
+.options-container .option-button {
+  position: relative;
+  text-align: left;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect only when not selected */
+.options-container .option-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Disable hover effect once the option is selected */
+.options-container .option-button:disabled:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+/* Change the background color based on selection */
+.options-container .option-button.selected {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+/* Explanation box styling */
+.explanation-section {
+  background-color: #f9fafb;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+/* Styling for the final score and 'Try Again' button */
+.final-score button {
+  background-color: #38b2ac;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.final-score button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the timer and score */
+.score-display, .timer-display {
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #FF63A1; /* Red-Pink gradient effect */
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.score-display {
+  background: linear-gradient(90deg, rgba(255,99,71,1) 0%, rgba(255,105,180,1) 100%);
+}
+
+.timer-display {
+  background: linear-gradient(90deg, rgba(255,63,161,1) 0%, rgba(255,105,180,1) 100%);
+}
+/* Keyframe for bounce-in effect */
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Keyframe for confetti drop */
+@keyframes confetti {
+  0% {
+    transform: translateY(-50vh);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
+
+/* Result container styling */
+.quiz-result {
+  animation: bounceIn 1s ease-out;
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+/* Final score styling */
+.quiz-result .score {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #f8f9fa;
+}
+
+/* Thank-you message styling */
+.quiz-result .thank-you {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: plum;
+}
+
+/* Confetti pieces */
+.confetti {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: palevioletred;
+  border-radius: 50%;
+  animation: confetti 3s linear infinite;
+}
+
+.confetti:nth-child(2) {
+  background: #ff6f61;
+  animation-delay: 0.3s;
+}
+
+.confetti:nth-child(3) {
+  background: #4caf50;
+  animation-delay: 0.6s;
+}
+
+.confetti:nth-child(4) {
+  background: #2196f3;
+  animation-delay: 0.9s;
+}
+
+.confetti:nth-child(5) {
+  background: #9c27b0;
+  animation-delay: 1.2s;
+}
