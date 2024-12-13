@@ -74,7 +74,6 @@ function NewsSection() {
   return (
     <div className="flex flex-col items-center py-12 bg-gray-50">
       {/* Navbar - Normal flow, no fixed positioning */}
-      <Navbar />
 
       {/* Latest News Header - Add margin-top */}
       <div className="relative text-center mt-32 mb-6">
@@ -101,7 +100,6 @@ function NewsSection() {
       </div>
 
       {/* Footer */}
-      <Footer />
     </div>
   );
 }
