@@ -124,7 +124,9 @@
     font-size: 45px;
 }
 /* unisco page css */
-.text-container-1{
+
+
+ .text-container-1{
     position: absolute; 
     color: white;
     font-weight: 800;
@@ -157,7 +159,10 @@
 .monuments{
    position: relative;
     text-align: center;
-}
+}  
+
+
+
 /* css end */
 .photo img{
     width: 100%;
@@ -214,7 +219,7 @@
     -webkit-text-fill-color: transparent;
     text-shadow: 2px 2px 5px rgb(243, 240, 240);
     position: absolute; 
-    top: 40%; 
+    top:45%; 
     left: 50%; 
     transform: translateX(-50%) translateY(-50%); 
     z-index: 10; 
@@ -231,7 +236,7 @@
     -webkit-background-clip: text;
     text-shadow: 2px 2px 5px rgb(245, 98, 98);
     position: absolute; 
-    top: 55%; 
+    top: 50%; 
     left: 50%; 
     transform: translateX(-50%); 
     z-index: 10; 
@@ -240,19 +245,25 @@
 /* Mobile and tablet responsiveness */
 @media screen and (max-width: 768px) {
     .imgslider {
-        height: 60vh; 
+        height: 50vh; 
         background-size: cover; 
         background-position: center center;
     }
 
     .imgslider h1 {
-        font-size: 50px; 
-        top: 35%; 
+        font-size: 60px; 
+       margin-top: 30px;
+       color: white;
+       font-family: 'Poppins', sans-serif;
+       
+      
+     
+     
     }
 
     .imgslider p {
         font-size: 30px; 
-        top: 50%;
+        
     }
 }
 

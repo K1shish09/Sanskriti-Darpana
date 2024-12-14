@@ -4,7 +4,7 @@ import Navbar from "./../components/Navbar";
 import Footer from "./../components/Footer";
 import { FaClock, FaStar } from "react-icons/fa";
 
-const Quiz = () => {
+const Ques = () => {
   const questions = [
     {
       question: "In which year did the first Indian satellite, Aryabhata, launch?",
@@ -18,25 +18,25 @@ const Quiz = () => {
       answer: "Chandragupta Maurya",
       explanation: "Chandragupta Maurya was the founder of the Maurya Empire and its first Emperor.",
     },
-  
-  {
-    question: "Which is the classical music tradition of the southern part of India?",
-    options: ["Hindustani", "Carnatic", "Khyal", "Qawwali"],
-    answer: "Carnatic",
-    explanation: "Carnatic music is the classical music tradition of South India, characterized by its devotion-oriented compositions and the use of ragas and talas."
-  },
-  {
-    question: "How many official languages are there in India?",
-    options: ["20", "22", "24", "26"],
-    answer: "22",
-    explanation: "India recognizes 22 official languages under the Eighth Schedule of the Constitution, including Hindi, Bengali, Telugu, and Tamil."
-  },
-  {
-    question: "What is the distance between the Earth and the Sun?",
-    options: ["93 million miles", "100 million miles", "120 million miles", "150 million miles"],
-    answer: "93 million miles",
-    explanation: "The average distance between Earth and the Sun is about 93 million miles (or 150 million kilometers)."
-  },
+
+    {
+      question: "Which is the classical music tradition of the southern part of India?",
+      options: ["Hindustani", "Carnatic", "Khyal", "Qawwali"],
+      answer: "Carnatic",
+      explanation: "Carnatic music is the classical music tradition of South India, characterized by its devotion-oriented compositions and the use of ragas and talas."
+    },
+    {
+      question: "How many official languages are there in India?",
+      options: ["20", "22", "24", "26"],
+      answer: "22",
+      explanation: "India recognizes 22 official languages under the Eighth Schedule of the Constitution, including Hindi, Bengali, Telugu, and Tamil."
+    },
+    {
+      question: "What is the distance between the Earth and the Sun?",
+      options: ["93 million miles", "100 million miles", "120 million miles", "150 million miles"],
+      answer: "93 million miles",
+      explanation: "The average distance between Earth and the Sun is about 93 million miles (or 150 million kilometers)."
+    },
     {
       question: "Which Indian leader is associated with the slogan 'Jai Jawan Jai Kisan'?",
       options: ["Jawaharlal Nehru", "Sardar Patel", "Indira Gandhi", "Lal Bahadur Shastri"],
@@ -68,11 +68,11 @@ const Quiz = () => {
       explanation: "Allan Octavian Hume, a British civil servant, is considered one of the founding figures of the Indian National Congress in 1885.",
     },
     {
-    question: "Which Indian state is known for the famous festival 'Onam'?",
-    options: ["Kerala", "Tamil Nadu", "Karnataka", "Andhra Pradesh"],
-    answer: "Kerala",
-    explanation: "'Onam' is a major festival in Kerala, celebrated with cultural events, feasts, and traditional performances.",
-  },
+      question: "Which Indian state is known for the famous festival 'Onam'?",
+      options: ["Kerala", "Tamil Nadu", "Karnataka", "Andhra Pradesh"],
+      answer: "Kerala",
+      explanation: "'Onam' is a major festival in Kerala, celebrated with cultural events, feasts, and traditional performances.",
+    },
     {
       question: "What is the national emblem of India?",
       options: ["Lion Capital of Ashoka", "Lotus", "Peacock", "Kali Statue"],
@@ -116,11 +116,11 @@ const Quiz = () => {
       explanation: "Mahatma Gandhi led the Salt March in 1930 as a non-violent protest against British salt laws in India.",
     },
     {
-    question: "Which Indian ruler is known for the administration of the 'Dhamma' policy?",
-    options: ["Ashoka", "Chandragupta Maurya", "Akbar", "Sher Shah Suri"],
-    answer: "Ashoka",
-    explanation: "Emperor Ashoka of the Maurya Dynasty is known for promoting the policy of 'Dhamma' (moral law) and spreading Buddhism.",
-  },
+      question: "Which Indian ruler is known for the administration of the 'Dhamma' policy?",
+      options: ["Ashoka", "Chandragupta Maurya", "Akbar", "Sher Shah Suri"],
+      answer: "Ashoka",
+      explanation: "Emperor Ashoka of the Maurya Dynasty is known for promoting the policy of 'Dhamma' (moral law) and spreading Buddhism.",
+    },
     {
       question: "Who was the first Emperor of the Maurya Dynasty?",
       options: ["Chandragupta Maurya", "Ashoka", "Bindusara", "Bimbisara"],
@@ -227,15 +227,14 @@ const Quiz = () => {
               {questions[currentQuestion].options.map((option, index) => (
                 <button
                   key={index}
-                  className={`option-button relative w-full p-4 bg-white text-gray-700 rounded-xl shadow-md transition-transform duration-300 transform hover:scale-105 hover:shadow-xl ${
-                    selectedOption
+                  className={`option-button relative w-full p-4 bg-white text-gray-700 rounded-xl shadow-md transition-transform duration-300 transform hover:scale-105 hover:shadow-xl ${selectedOption
                       ? option === questions[currentQuestion].answer
                         ? "bg-green-100"
                         : option === selectedOption
-                        ? "bg-red-100"
-                        : "bg-teal-100"
+                          ? "bg-red-100"
+                          : "bg-teal-100"
                       : "bg-teal-100"
-                  }`}
+                    }`}
                   onClick={() => handleOptionClick(option)}
                   disabled={selectedOption !== null}
                 >
@@ -284,4 +283,4 @@ const Quiz = () => {
   );
 };
 
-export default Quiz;
+export default Ques;
