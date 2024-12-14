@@ -1,14 +1,20 @@
 import React from 'react';
 import Navbar from './../components/Navbar';
+
 import Prerna from './../Assets/prerna.jpg';
 import Vaishnavi from './../Assets/Vaishnavi.jpg';
 import tanvi from './../Assets/Tanvi.jpg';
 import kashishimg from './../Assets/kashish.jpg';
+
+// import prerna from '../Assets/prerna.jpg';
+// import tanvi from '../Assets/tanvi.jpg';
+ 
 import Footer from '../components/Footer.jsx';
 
 function AboutUs() {
   return (
     <>
+
       <Navbar />
       <div className="bg-gray-100 flex flex-col items-center min-h-screen">
         {/* Heading */}
@@ -67,6 +73,9 @@ function AboutUs() {
       </div>
 
       <Footer />
+
+      
+
     </>
   );
 }
