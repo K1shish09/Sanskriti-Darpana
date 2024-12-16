@@ -15,7 +15,7 @@ function Navbar() {
 
   return (
     <>
-      <div className="bg-red-600 bg-gradient-to-tr from-red-700 to-pink-600 h-20 px-4 md:px-16  rounded-lg flex items-center justify-between absolute top-1 left-1 right-1 z-10 css">
+      <div className="bg-red-600 bg-gradient-to-tr from-red-700 to-pink-600 h-20 px-4 md:px-16  rounded-lg flex items-center justify-between fixed top-1 left-1 right-1 z-10 css">
         {/* Logo Section */}
         <div className="flex items-center">
           <div className="h-14 w-14 md:h-20 md:w-20 p-2">
