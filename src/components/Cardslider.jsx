@@ -81,11 +81,11 @@ function Slidercard() {
 
   return (
     
-    <div className="pt-10 pb-7 m-4 sm:m-8 md:m-16 lg:m-20 rounded-md shadow-xl bg-transparent" style={{ minHeight: "500px" }}>
-      <div className="w-full sm:w-3/4 md:w-2/3 lg:w-3/4 mx-auto relative">
+    <div className="pt-10 pb-7 m-5 sm:m-8 md:m-16 lg:m-20 rounded-md shadow-xl " style={{ minHeight: "400px" }}>
+      <div className="w-full sm:w-3/4 md:w-2/3 lg:w-3/4 mx-auto relative shadow-lg">
         <Slider {...settings}>
           {data.map((item, index) => (
-            <div key={index} className="rounded-md">
+            <div key={index} className="rounded-md shadow-lg">
               <div className="rounded-md">
                 <img
                   src={item.image}
@@ -112,7 +112,7 @@ function Slidercard() {
 const CustomPrevButton = ({ onClick }) => (
   <button
     onClick={onClick}
-    className="absolute left-0 top-1/2 transform -translate-y-1/2 text-white bg-red-600 rounded-full p-3 mr-8 hover:bg-pink-600 transition-all z-10"
+    className="absolute left-0.5 top-1/2 transform -translate-y-1/2 text-white bg-pink-600 rounded-lg p-2 mr-5 hover:bg-pink-400 transition-all z-10"
   >
     <span className="text-xl">&lt;</span>
   </button>
@@ -121,9 +121,9 @@ const CustomPrevButton = ({ onClick }) => (
 const CustomNextButton = ({ onClick }) => (
   <button
     onClick={onClick}
-    className="absolute right-0 top-1/2 transform -translate-y-1/2 text-white bg-red-600 rounded-full p-3 hover:bg-pink-600 transition-all z-10"
+    className="absolute right-0.5 top-1/2 transform -translate-y-1/2 text-white bg-pink-600 rounded-lg p-2 hover:bg-pink-400 transition-all z-10"
   >
-    <span className="text-xl">&gt;</span>
+    <span className="text-sm">&gt;</span>
   </button>
 );
 
