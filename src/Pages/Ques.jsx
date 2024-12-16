@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Ques.css";
 import Navbar from "./../components/Navbar";
-import Footer from "./../components/Footer";
+
 import { FaClock, FaStar } from "react-icons/fa";
 
 const Ques = () => {
@@ -278,7 +278,6 @@ const Ques = () => {
         )}
       </div>
 
-      <Footer />
     </>
   );
 };

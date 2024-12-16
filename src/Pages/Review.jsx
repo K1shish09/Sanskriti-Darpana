@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+
 // import reviewImg from './../Assets/review-logo.jpeg';
 import profileImg from './../Assets/profile.png';
 
@@ -112,7 +112,6 @@ const Review = () => {
           </h2>
         </div>
 
-        <Footer />
       </div>
     </>
   )
