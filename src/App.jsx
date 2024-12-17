@@ -8,6 +8,7 @@ import Review from './Pages/Review'
 import Login from './Pages/Login'
 import Layout from './Layout'
 import NewsSection from './Pages/News'
+import Unesco from './Pages/Unesco'
 const App = () => {
   return (
     <>
@@ -21,6 +22,7 @@ const App = () => {
             <Route path='/news' element={<NewsSection />} />
             <Route path='/login' element={<Login />} />
             <Route path='/ques' element={<Ques />} />
+            <Route path='/unesco' element={<Unesco />} /> 
           </Route>
         </Routes>
       </Router>

@@ -67,7 +67,7 @@ function NewsSection() {
         'https://www.bing.com/th?id=OVFT.-uJBbIrbI-ZXwiI0Fb8QZy&pid=News&w=234&h=132&c=14&rs=2&qlt=90',
       title: 'Chhath Puja is more than just a festival',
       description:
-        'Chhath Puja is more than just a festival; it embodies a vivid display of devotion, tradition, and respect for nature, predominantly celebrated in Bihar and Jharkhand.',
+        'Chhath Puja is more than just a festivals; it embodies a vivid display of devotion, tradition, and respect for nature, predominantly celebrated in Bihar and Jharkhand.',
     },
   ];
 
@@ -82,7 +82,7 @@ function NewsSection() {
         </h2>
         <div className="flex items-center justify-center mt-4">
           <p className="text-white font-medium text-lg px-4 py-3 bg-gradient-to-tr from-red-700 to-pink-600 rounded-full shadow-lg transform transition duration-200 hover:scale-105">
-            Discover the latest events and cultural highlights through Sanskriti Darpan.
+            Discover the latest events and cultural highlightb through Sanskriti Darpan.
           </p>
         </div>
       </div>
