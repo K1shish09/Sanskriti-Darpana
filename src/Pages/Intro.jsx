@@ -45,7 +45,11 @@ const App = () => {
         "From Vada Pav to Puran Poli, Maharashtra offers a delectable range of traditional dishes loved across the globe.",
       image: "https://via.placeholder.com/400x250?text=Food+of+Maharashtra",
     },
-    // Add more sections as needed
+    Festivals: {
+        text:
+          "From Vada Pav to Puran Poli, Maharashtra offers a delectable range of traditional dishes loved across the globe.",
+        image: "https://via.placeholder.com/400x250?text=Food+of+Maharashtra",
+      },
   };
 
   return (
