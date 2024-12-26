@@ -108,8 +108,9 @@ const Review = () => {
         {/* Thank You Message Section */}
         <div className="bg-white py-15">
           <h2 className="text-5xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-pink-700">
-            " Thank You for Choosing Sanskriti Darpan 🙏 ! "
-          </h2>
+            " Thank You for Choosing Sanskriti Darpan  ! " 
+
+          </h2>   <h2> 🙏</h2> 
         </div>
 
       </div>

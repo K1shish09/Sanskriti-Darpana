@@ -107,7 +107,7 @@ const QuizPage = () => {
           </div>
         </div>
       </div>
-      <Footer />
+    
     </div>
   );
 };
