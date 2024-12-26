@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Footer from '../components/Footer.jsx';
 
 
 const heritageSites = [
@@ -89,7 +88,7 @@ function HeritageTable() {
         </div>
       </div>
       <div className="w-full">
-        <Footer/>
+   
       </div>
     </div>
   );
