@@ -14,6 +14,11 @@ import Intro from './Pages/intro'
 
 const App = () => {
   return (
+<<<<<<< HEAD
+    <div>
+      <Unesco/>
+    </div>
+=======
     <>
       <Router>
         <Routes>
@@ -32,6 +37,7 @@ const App = () => {
         </Routes>
       </Router>
     </>
+>>>>>>> 0ddae95446cae9192dbf33db2bfa96d75356d147
   )
 }
 
