@@ -50,7 +50,7 @@ function Login() {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="bg-cover  bg-center flex justify-center items-center h-screen"  >
         {/* Left: Image */}
          <div className="w-[300px] h-[400px] hidden lg:block ">
