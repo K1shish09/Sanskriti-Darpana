@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "tailwindcss/tailwind.css";
+import andaman from '../Assets/Map/andaman.jpg';
 
-const App = () => {
+const Intro = () => {
   const [selected, setSelected] = useState("Introduction");
 
   const menuItems = [
@@ -23,7 +24,7 @@ const App = () => {
     Introduction: {
       text:
         "History of Madhya Pradesh is rich and diverse, with a legacy spanning thousands of years. Maharashtra is known for its historical forts, vibrant cities, and cultural heritage.",
-      image: "https://via.placeholder.com/400x250?text=Introduction+of+Maharashtra",
+      image: andaman
     },
     Languages: {
       text:
@@ -94,7 +95,7 @@ const App = () => {
                 <img
                   src={content[selected].image}
                   alt={selected}
-                  className="rounded-lg shadow-lg w-full border border-gray-300"
+                  className="rounded-lg shadow-lg w-[500px] h-[500px] border border-gray-300"
                 />
               </div>
             </div>
@@ -105,4 +106,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Intro;

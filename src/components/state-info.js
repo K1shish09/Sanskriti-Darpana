@@ -1,8 +1,8 @@
-stateInfo.js
-
+import andaman  from "../Assets/Map/andaman.jpg"
 const stateInfo = [
  {
     id: 'IN-AN',
+ layout:{andaman},
     state_info:"The Andaman and Nicobar Islands is a Union Territory of India, consisting of 572 islands, of which only about 37 are inhabited. Located at the junction of the Bay of Bengal and the Andaman Sea, the islands are renowned for their pristine natural beauty, diverse ecosystems, and vibrant cultural heritage"
  },
 
@@ -30,7 +30,7 @@ const stateInfo = [
 
  {
     id: "IN-NL",
-    state_info:"Nagaland is a state in the north-eastern region of India. It is bordered by the Indian states of Arunachal Pradesh to the north, Assam to the west, Manipur to the south, and the Naga Self-Administered Zone of the Sagaing Region of Myanmar (Burma) to the east. Its capital city is Kohima and its largest city is the twin Chümoukedima–Dimapur. The state has an area of 16,579 square kilometres (6,401 sq mi) with a population of 1,980,602 as per the 2011 Census of India, making it one of the smallest states of India.Nagaland has a largely monsoon climate with high humidity levels. Annual rainfall averages around 1,800–2,500 millimetres (70–100 in), concentrated in the months of May to September. Temperatures range from 21 to 40 °C (70 to 104 °F). In winter, temperatures do not generally drop below 4 °C (39 °F), but frost is common at high elevations. Summer is the shortest season in the state, lasting only a few months. The temperature during the summer season remains between 16 and 31 °C (61 and 88 °F). Winter often arrives early, with bitter cold and dry weather striking certain regions of the state. The maximum average temperature recorded in the winter season is 24 °C (75 °F). Strong northwest winds blow across the state during the months of February and March."
+    state_info:"Nagaland is a state in the north-eastern region of Indi. It is bordered by the Indian states of Arunachal Pradesh to the north, Assam to the west, Manipur to the south, and the Naga Self-Administered Zone of the Sagaing Region of Myanmar (Burma) to the east. Its capital city is Kohima and its largest city is the twin Chümoukedima–Dimapur. The state has an area of 16,579 square kilometres (6,401 sq mi) with a population of 1,980,602 as per the 2011 Census of India, making it one of the smallest states of India.Nagaland has a largely monsoon climate with high humidity levels. Annual rainfall averages around 1,800–2,500 millimetres (70–100 in), concentrated in the months of May to September. Temperatures range from 21 to 40 °C (70 to 104 °F). In winter, temperatures do not generally drop below 4 °C (39 °F), but frost is common at high elevations. Summer is the shortest season in the state, lasting only a few months. The temperature during the summer season remains between 16 and 31 °C (61 and 88 °F). Winter often arrives early, with bitter cold and dry weather striking certain regions of the state. The maximum average temperature recorded in the winter season is 24 °C (75 °F). Strong northwest winds blow across the state during the months of February and March."
  },
 
  {
