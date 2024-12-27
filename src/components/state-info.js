@@ -9,6 +9,7 @@ const stateInfo = [
     
  {
     id: "IN-LD",
+    
     state_info:"The Lakshadweep Islands is a Union Territory of India, consisting of 36 small islands, located in the Arabian Sea. Known for its stunning coral reefs, lush greenery, and pristine beaches, it is India's smallest Union Territory in terms of both area and population.Longitude: 71° to 74° EastTotal Area: 32 square kilometersIsland Groups:Lakshadweep comprises 36 islands, including atolls, reefs, and submerged banks, of which only 10 are inhabitedCapital:Kavaratti"
 
  },
