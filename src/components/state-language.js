@@ -8,9 +8,8 @@ const stateInfo = [
     
  {
     id: "IN-LD",
-    lang_info:"Lakshadweep, an enchanting archipelago nestled in the Arabian Sea, is a melting pot of diverse cultures and languages as well as a paradise of pristine beaches and coral reefs. Despite its small size, Lakshadweep has a diverse linguistic tapestry that reflects the indigenous communities’ distinct heritage. Visitors can explore this stunning destination through various Lakshadweep packages, which offer opportunities to experience the beauty and culture of the islands firsthand."
+    lang_info:"English is the official language of the union territory.[4] Jeseri (also known as Dweep Basha), a dialect of Malayalam, is widely spoken language in the Amindivi and Laccadive islands. Mahl, a dialect of Dhivehi, is spoken in Minicoy.[75][76] There are minor variations of the same dialect across islands.[77]Malayalam, written in the Malayalam script, was introduced as the primary language of Lakshadweep during the British Raj. This policy has been continued since independence, with Malayalam serving as a link language on all islands, including Minicoy.[78] Previously, a type of Arabic script, known as the Ponnani or Arabi Malayalam script, was used as the writing system.[79]"
  },
-
  {
     id: "IN-AS",
     lang_info:"The Ahomiya language is mostly spoken alongside other few dialects, like Nagamese and Bodo-Kachari, in upper Assam, as referred to by the people of Assam. The upper Assam region consists of Guwahati, Dispur, Jorhat, and Dibrugarh. In the lower Assam region, a mixture of Sylheti Bangla and Karbi among few other languages and dialects is mostly prevalent. The Assamese language has been heavily influenced by several languages like the Ahom language mostly and other languages such as the Sylheti Bangla, Bishnupriya Manipuri, Rajbangsi, Maithili, and the Rohingya that shaped the language of Assamese we know today. "},
