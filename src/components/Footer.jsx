@@ -67,7 +67,7 @@ function Footer() {
 
         {/* Bottom Center: Developed by Sanskriti Shilpis */}
         <div className="text-center text-white mt-8">
-          <p><strong>Developed by Sanskritis  Shilpi</strong></p>
+          <p><strong>Developed by Sanskriti Darpana <div className=""></div> Shilpi</strong></p>
         </div>
       </div>
     </div>
