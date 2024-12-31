@@ -798,6 +798,7 @@ const stateheritage = [
                 description: "The Bhoramdeo Temple, located in the Kawardha region of Chhattisgarh, is a stunning architectural marvel dedicated to Lord Shiva. It is often referred to as the 'Khajuraho of Chhattisgarh' due to its intricate carvings and sculptures. The temple is surrounded by lush green forests and offers a peaceful and spiritual atmosphere. Built between the 7th and 11th centuries, it showcases a blend of Hindu and local architectural styles. The temple is not only a sacred site but also a testament to the artistic heritage of Chhattisgarh. It is a popular destination for both history enthusiasts and pilgrims."
             },
             {
+               
                 name: "Rajim",
                 description: "Rajim is an ancient town located on the banks of the Mahanadi River, known for its temples and historical significance. The Rajim temples, particularly the Rajiv Lochan Temple, are important pilgrimage sites dedicated to Lord Vishnu. Rajim is often called the ‘Prayag of Chhattisgarh’ due to the confluence of three rivers – Mahanadi, Pairi, and Sondur. The town holds religious importance, especially during the annual Rajim Kumbh Mela, attracting thousands of devotees. The temples in Rajim are known for their exquisite carvings and intricate artwork. It is a significant site for both religious tourism and historical exploration."
             }
