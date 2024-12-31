@@ -45,14 +45,14 @@ import Bhangui from "../Assets/Food/Bhangui.jpeg";
 import wahanMung from "../Assets/Food/WahanMung.jpeg";
 import MashedPotato from "../Assets/Food/MashedPotatowithBambooShoot.jpeg";
 import FishCurry from "../Assets/Food/FishCurry.jpeg";
-import Singju from "../Assets/Food/Singju.jpeg";
-import Singju from "../Assets/Food/Singju.jpeg";
-import Singju from "../Assets/Food/Singju.jpeg";
-import Singju from "../Assets/Food/Singju.jpeg";
-import Singju from "../Assets/Food/Singju.jpeg";
-import Singju from "../Assets/Food/Singju.jpeg";
-import Singju from "../Assets/Food/Singju.jpeg";
-import Singju from "../Assets/Food/Singju.jpeg";
+import jadoh from "../Assets/Food/jadoh.jpeg";
+import Dohneiiong from "../Assets/Food/Dohneiiong.jpeg";
+import Pukhlein from "../Assets/Food/Pukhlein.jpeg";
+import Tungrymbai from "../Assets/Food/Tungrymbai.jpeg";
+import Phagshapa from "../Assets/Food/Phagshapa.jpeg";
+import momo from "../Assets/Food/momo.jpeg";
+import SelRoti from "../Assets/Food/Sel-Roti.jpeg";
+import Chhurpi from "../Assets/Food/Chhurpi.jpeg";
 import Singju from "../Assets/Food/Singju.jpeg";
 import Singju from "../Assets/Food/Singju.jpeg";
 
@@ -325,23 +325,23 @@ const stateFoods = [
 
             {
                 name: "Jadoh",
-                description: "Jadoh is a traditional rice dish of the Khasi people of Meghalaya. It is a flavorful rice preparation cooked with pork or chicken, and often served with a side of chutney. The dish is typically made by cooking rice with meat, local spices, and herbs. Jadoh is a popular dish among the Khasi people, often eaten during festivals or gatherings. The unique combination of meat and rice gives it a rich, hearty flavor. It is commonly enjoyed with a variety of condiments such as fermented fish and spicy chutneys. This dish is a must-try for anyone looking to experience authentic Khasi cuisine.", image:
+                description: "Jadoh is a traditional rice dish of the Khasi people of Meghalaya. It is a flavorful rice preparation cooked with pork or chicken, and often served with a side of chutney. The dish is typically made by cooking rice with meat, local spices, and herbs. Jadoh is a popular dish among the Khasi people, often eaten during festivals or gatherings. The unique combination of meat and rice gives it a rich, hearty flavor. It is commonly enjoyed with a variety of condiments such as fermented fish and spicy chutneys. This dish is a must-try for anyone looking to experience authentic Khasi cuisine.", image: jadoh
             },
             {
                 name: "Dohneiiong",
-                description: "Dohneiiong is a traditional Khasi dish made from pork and black sesame seeds. The dish is a staple in many Khasi homes, especially for special occasions. Pork is cooked with black sesame paste, along with a mixture of local spices and herbs, resulting in a deep, rich flavor. The dish is often served with rice and is enjoyed for its balance of savory and slightly bitter notes from the sesame seeds. It is a symbol of the Khasi people's love for pork-based dishes. Dohneiiong is one of the finest examples of the region's indigenous culinary traditions.", image:
+                description: "Dohneiiong is a traditional Khasi dish made from pork and black sesame seeds. The dish is a staple in many Khasi homes, especially for special occasions. Pork is cooked with black sesame paste, along with a mixture of local spices and herbs, resulting in a deep, rich flavor. The dish is often served with rice and is enjoyed for its balance of savory and slightly bitter notes from the sesame seeds. It is a symbol of the Khasi people's love for pork-based dishes. Dohneiiong is one of the finest examples of the region's indigenous culinary traditions.", image: Dohneiiong
             },
             {
                 name: "Minil",
-                description: "Minil is a popular side dish from Meghalaya, made from fermented fish and rice. The dish is often enjoyed with boiled rice and provides a unique combination of flavors from the fermented fish, which adds a distinctive umami taste. Minil is typically prepared using small local fish, which are fermented for several days to achieve the right level of flavor. This dish reflects the Khasi people's connection with their environment and their preference for fermented foods. It is usually eaten with vegetables or meats, making it a versatile addition to any meal.", image:
+                description: "Minil is a popular side dish from Meghalaya, made from fermented fish and rice. The dish is often enjoyed with boiled rice and provides a unique combination of flavors from the fermented fish, which adds a distinctive umami taste. Minil is typically prepared using small local fish, which are fermented for several days to achieve the right level of flavor. This dish reflects the Khasi people's connection with their environment and their preference for fermented foods. It is usually eaten with vegetables or meats, making it a versatile addition to any meal.", image:null
             },
             {
                 name: "Pukhlein",
-                description: "Pukhlein is a traditional dessert from Meghalaya, especially popular among the Khasi and Jaintia tribes. It is made from rice flour, jaggery, and water, and is typically deep-fried until crispy. Pukhlein is often served during celebrations and festivals, symbolizing prosperity and happiness. The sweetness of the jaggery combined with the light, crispy texture of the fried rice flour gives it a deliciously unique flavor. It is a light snack, enjoyed with tea or as a dessert after meals. This dish is beloved by the locals for its simplicity and comfort.", image:
+                description: "Pukhlein is a traditional dessert from Meghalaya, especially popular among the Khasi and Jaintia tribes. It is made from rice flour, jaggery, and water, and is typically deep-fried until crispy. Pukhlein is often served during celebrations and festivals, symbolizing prosperity and happiness. The sweetness of the jaggery combined with the light, crispy texture of the fried rice flour gives it a deliciously unique flavor. It is a light snack, enjoyed with tea or as a dessert after meals. This dish is beloved by the locals for its simplicity and comfort.", image: Pukhlein
             },
             {
                 name: "Tungrymbai",
-                description: "Tungrymbai is a fermented soybean dish from Meghalaya, known for its unique, strong flavor. The dish is made by fermenting soybeans with local spices and herbs, then cooking it with pork, chicken, or other meats. Tungrymbai is often enjoyed with rice, and its distinct taste makes it a flavorful accompaniment to any meal. The fermentation process gives the dish a pungent aroma and taste, which is an acquired taste for many but adored by locals. It is commonly served during traditional feasts and celebrations. Tungrymbai is a great example of the region's use of fermentation in food preparation.", image:
+                description: "Tungrymbai is a fermented soybean dish from Meghalaya, known for its unique, strong flavor. The dish is made by fermenting soybeans with local spices and herbs, then cooking it with pork, chicken, or other meats. Tungrymbai is often enjoyed with rice, and its distinct taste makes it a flavorful accompaniment to any meal. The fermentation process gives the dish a pungent aroma and taste, which is an acquired taste for many but adored by locals. It is commonly served during traditional feasts and celebrations. Tungrymbai is a great example of the region's use of fermentation in food preparation.", image: Tungrymbai
             }
         ]
 
@@ -353,23 +353,23 @@ const stateFoods = [
 
             {
                 name: "Phagshapa",
-                description: "Phagshapa is a traditional Sikkimese dish made of pork, typically served with vegetables and flavored with aromatic spices. The dish is unique for its use of dried radish and a spicy chili-based gravy, making it a flavorful delight. The pork is simmered slowly, allowing the fat to melt and infuse the dish with a rich taste. Phagshapa is often accompanied by rice, giving it a perfect balance. It's a hearty meal enjoyed by locals and visitors alike. This dish is popular in both rural and urban areas. The combination of savory, spicy, and tangy flavors makes it a must-try for food lovers.", image:
+                description: "Phagshapa is a traditional Sikkimese dish made of pork, typically served with vegetables and flavored with aromatic spices. The dish is unique for its use of dried radish and a spicy chili-based gravy, making it a flavorful delight. The pork is simmered slowly, allowing the fat to melt and infuse the dish with a rich taste. Phagshapa is often accompanied by rice, giving it a perfect balance. It's a hearty meal enjoyed by locals and visitors alike. This dish is popular in both rural and urban areas. The combination of savory, spicy, and tangy flavors makes it a must-try for food lovers.", image: Phagshapa
             },
             {
                 name: "Momo",
-                description: "Momo is a famous Tibetan-style dumpling widely loved in Sikkim. These steamed or fried dumplings are typically filled with vegetables or meat such as chicken, pork, or beef. The dough is soft, and the filling is flavorful, with the right mix of spices and herbs. They are usually served with a spicy dipping sauce known as achar. Momos are commonly found in Sikkimese street food stalls, making them a convenient and delicious snack. The dish is enjoyed by people of all ages, often as a starter or main meal. The versatility of momos makes them a favorite comfort food.", image:
+                description: "Momo is a famous Tibetan-style dumpling widely loved in Sikkim. These steamed or fried dumplings are typically filled with vegetables or meat such as chicken, pork, or beef. The dough is soft, and the filling is flavorful, with the right mix of spices and herbs. They are usually served with a spicy dipping sauce known as achar. Momos are commonly found in Sikkimese street food stalls, making them a convenient and delicious snack. The dish is enjoyed by people of all ages, often as a starter or main meal. The versatility of momos makes them a favorite comfort food.", image:momo
             },
             {
                 name: "Thukpa",
-                description: "Thukpa is a noodle soup that has roots in Tibetan cuisine, popular in Sikkim. It's a wholesome dish that combines noodles, vegetables, and your choice of meat, all simmered in a delicious broth. The broth is typically rich and flavorful, seasoned with ginger, garlic, and various spices. Thukpa is not only filling but also nourishing, making it a perfect meal for cold weather. It's often served hot, with optional chili and soy sauce for added flavor. Thukpa has become a comfort food for many, especially in high-altitude regions like Sikkim. The dish embodies the perfect balance of taste, warmth, and nutrition.", image:
+                description: "Thukpa is a noodle soup that has roots in Tibetan cuisine, popular in Sikkim. It's a wholesome dish that combines noodles, vegetables, and your choice of meat, all simmered in a delicious broth. The broth is typically rich and flavorful, seasoned with ginger, garlic, and various spices. Thukpa is not only filling but also nourishing, making it a perfect meal for cold weather. It's often served hot, with optional chili and soy sauce for added flavor. Thukpa has become a comfort food for many, especially in high-altitude regions like Sikkim. The dish embodies the perfect balance of taste, warmth, and nutrition.", image: Thukpa
             },
             {
                 name: "Sel Roti",
-                description: "Sel Roti is a traditional homemade rice doughnut from Sikkim and other parts of Nepal. This sweet, ring-shaped delicacy is deep-fried, resulting in a crispy outer layer and soft inner texture. The dough is made from rice flour, sugar, and a touch of cardamom. Sel Roti is commonly prepared during festivals, family gatherings, and celebrations. It is often paired with tea or served as a dessert after meals. Despite its simplicity, the unique taste and texture make it a favorite among both locals and visitors. This dish carries a distinct cultural significance, symbolizing hospitality and tradition.", image:
+                description: "Sel Roti is a traditional homemade rice doughnut from Sikkim and other parts of Nepal. This sweet, ring-shaped delicacy is deep-fried, resulting in a crispy outer layer and soft inner texture. The dough is made from rice flour, sugar, and a touch of cardamom. Sel Roti is commonly prepared during festivals, family gatherings, and celebrations. It is often paired with tea or served as a dessert after meals. Despite its simplicity, the unique taste and texture make it a favorite among both locals and visitors. This dish carries a distinct cultural significance, symbolizing hospitality and tradition.", image: SelRoti
             },
             {
                 name: "Chhurpi",
-                description: "Chhurpi is a traditional Sikkimese cheese made from yak or cow milk. It is a firm, dry cheese that can be enjoyed in two forms: fresh and aged. Fresh chhurpi is soft and slightly tangy, while aged chhurpi becomes hard and is often chewed like a snack. It’s commonly used in soups or as a side dish with rice. Chhurpi is rich in protein and is often considered a nutritious food. This cheese is beloved by the locals of Sikkim for its unique taste and texture. It is also known for its ability to last for a long time without refrigeration, making it ideal for the high-altitude lifestyle.", image:
+                description: "Chhurpi is a traditional Sikkimese cheese made from yak or cow milk. It is a firm, dry cheese that can be enjoyed in two forms: fresh and aged. Fresh chhurpi is soft and slightly tangy, while aged chhurpi becomes hard and is often chewed like a snack. It’s commonly used in soups or as a side dish with rice. Chhurpi is rich in protein and is often considered a nutritious food. This cheese is beloved by the locals of Sikkim for its unique taste and texture. It is also known for its ability to last for a long time without refrigeration, making it ideal for the high-altitude lifestyle.", image: Chhurpi
             }
         ]
 
