@@ -30,13 +30,31 @@ import NagaStew from "../Assets/Food/NagaStew.jpeg";
 import Akhuni from "../Assets/Food/Akhuni.jpeg"; 
 import Galho from "../Assets/Food/Galho.jpeg"; 
 import PorkwithNagaChilli from "../Assets/Food/PorkwithNagaChilli.jpeg"; 
-import Akhuni from "../Assets/Food/Akhuni.jpeg"; 
-import Akhuni from "../Assets/Food/Akhuni.jpeg"; 
-import Akhuni from "../Assets/Food/Akhuni.jpeg"; 
-import Akhuni from "../Assets/Food/Akhuni.jpeg"; 
-import Akhuni from "../Assets/Food/Akhuni.jpeg"; 
-import Akhuni from "../Assets/Food/Akhuni.jpeg"; 
-import Akhuni from "../Assets/Food/Akhuni.jpeg"; 
+import Eromba from "../Assets/Food/Eromba.jpeg"; 
+import NgaThongba from "../Assets/Food/NgaThongba.jpeg"; 
+import Chamthong from "../Assets/Food/Chamthong.jpeg"; 
+import ChakHaoKheer from "../Assets/Food/ChakHaoKheer.jpeg"; 
+import Singju from "../Assets/Food/Singju.jpeg"; 
+import kachori from "../Assets/Food/KachoriSabzi.jpeg"; 
+import BaatiChokha from "../Assets/Food/Baati-Chokha.jpeg"; 
+import Litti from "../Assets/Food/Litti.jpeg";
+import TandooriRotiwithMuttonCurry from "../Assets/Food/Tandoori-RotiwithMuttonCurry.jpeg";
+import ChanaMasala from "../Assets/Food/ChanaMasala.jpeg";
+import Singju from "../Assets/Food/Singju.jpeg";
+import Singju from "../Assets/Food/Singju.jpeg";
+import Singju from "../Assets/Food/Singju.jpeg";
+import Singju from "../Assets/Food/Singju.jpeg";
+import Singju from "../Assets/Food/Singju.jpeg";
+import Singju from "../Assets/Food/Singju.jpeg";
+import Singju from "../Assets/Food/Singju.jpeg";
+import Singju from "../Assets/Food/Singju.jpeg";
+import Singju from "../Assets/Food/Singju.jpeg";
+import Singju from "../Assets/Food/Singju.jpeg";
+import Singju from "../Assets/Food/Singju.jpeg";
+import Singju from "../Assets/Food/Singju.jpeg";
+import Singju from "../Assets/Food/Singju.jpeg";
+import Singju from "../Assets/Food/Singju.jpeg";
+import Singju from "../Assets/Food/Singju.jpeg";
 
 const stateFoods = [
     {
@@ -222,23 +240,23 @@ const stateFoods = [
             [
                 {
                     name: "Eromba",
-                    description: "Eromba is a traditional Manipuri dish made of mashed boiled vegetables and fermented fish. It typically contains ingredients like yam, potatoes, and sometimes green leafy vegetables. The dish is spiced with green chilies and flavored with fermented fish or fermented soybean. It's known for its pungent aroma due to the fermented fish. Often served with rice, it's a staple in Manipuri cuisine. Eromba has a unique blend of savory, spicy, and sour flavors. It's a comfort food for many Manipuris, commonly enjoyed at family meals.", image:
+                    description: "Eromba is a traditional Manipuri dish made of mashed boiled vegetables and fermented fish. It typically contains ingredients like yam, potatoes, and sometimes green leafy vegetables. The dish is spiced with green chilies and flavored with fermented fish or fermented soybean. It's known for its pungent aroma due to the fermented fish. Often served with rice, it's a staple in Manipuri cuisine. Eromba has a unique blend of savory, spicy, and sour flavors. It's a comfort food for many Manipuris, commonly enjoyed at family meals.", image: Eromba
                 },
                 {
                     name: "Nga Thongba",
-                    description: "Nga Thongba is a popular fish curry in Manipur, made using fresh fish, usually local river fish. The fish is cooked in a spicy gravy with a variety of herbs and vegetables. A key ingredient in the curry is the 'king chili', known for its intense heat. The dish is known for its deep, earthy flavors and vibrant colors. Nga Thongba is often served with steamed rice, making it a perfect combination for a traditional Manipuri meal. It’s a dish that reflects the use of locally sourced ingredients. Freshness is key to its authentic taste.", image:
+                    description: "Nga Thongba is a popular fish curry in Manipur, made using fresh fish, usually local river fish. The fish is cooked in a spicy gravy with a variety of herbs and vegetables. A key ingredient in the curry is the 'king chili', known for its intense heat. The dish is known for its deep, earthy flavors and vibrant colors. Nga Thongba is often served with steamed rice, making it a perfect combination for a traditional Manipuri meal. It’s a dish that reflects the use of locally sourced ingredients. Freshness is key to its authentic taste.", image: NgaThongba
                 },
                 {
                     name: "Chamthong",
-                    description: "Chamthong, also known as Kangshoi, is a simple Manipuri vegetable stew. It is made with seasonal vegetables, which can include eggplant, potatoes, and okra, cooked with minimal spices. The stew is often flavored with fermented fish or salt. Chamthong is typically light and nutritious, making it a healthy choice for meals. This dish is a go-to comfort food, often paired with rice. It showcases the Manipuri philosophy of using fresh, local ingredients with modest seasoning. Chamthong has a soothing, mild flavor and is popular for its simplicity.", image:
+                    description: "Chamthong, also known as Kangshoi, is a simple Manipuri vegetable stew. It is made with seasonal vegetables, which can include eggplant, potatoes, and okra, cooked with minimal spices. The stew is often flavored with fermented fish or salt. Chamthong is typically light and nutritious, making it a healthy choice for meals. This dish is a go-to comfort food, often paired with rice. It showcases the Manipuri philosophy of using fresh, local ingredients with modest seasoning. Chamthong has a soothing, mild flavor and is popular for its simplicity.", image: Chamthong
                 },
                 {
                     name: "Chak Hao Kheer",
-                    description: "Chak Hao Kheer is a traditional Manipuri dessert made from black rice, also known as Chak Hao. The rice is cooked in a sweetened mixture of milk, sugar, and cardamom. This dish is commonly served during festivals and special occasions. The unique black rice gives the kheer its characteristic color and a slightly nutty flavor. Chak Hao Kheer is rich in antioxidants and adds a healthy twist to a traditional dessert. It's often garnished with nuts and dry fruits. Its rich, creamy texture and subtle sweetness make it a popular choice.", image:
+                    description: "Chak Hao Kheer is a traditional Manipuri dessert made from black rice, also known as Chak Hao. The rice is cooked in a sweetened mixture of milk, sugar, and cardamom. This dish is commonly served during festivals and special occasions. The unique black rice gives the kheer its characteristic color and a slightly nutty flavor. Chak Hao Kheer is rich in antioxidants and adds a healthy twist to a traditional dessert. It's often garnished with nuts and dry fruits. Its rich, creamy texture and subtle sweetness make it a popular choice.", image: ChakHaoKheer
                 },
                 {
                     name: "Singju",
-                    description: "Singju is a Manipuri salad that blends fresh vegetables, herbs, and often, fermented fish. The salad is prepared using ingredients like cabbage, lettuce, cucumber, and sometimes fruits. The dressing is a mix of sesame seeds, garlic, and chili, which provides a tangy and spicy flavor. Singju is a refreshing dish, often served as a side to complement heavier meals. It is not only delicious but also packed with nutrients from raw vegetables. The dish is known for its vibrant colors and crunchy texture. Singju reflects the healthy and wholesome nature of Manipuri cuisine.", image:
+                    description: "Singju is a Manipuri salad that blends fresh vegetables, herbs, and often, fermented fish. The salad is prepared using ingredients like cabbage, lettuce, cucumber, and sometimes fruits. The dressing is a mix of sesame seeds, garlic, and chili, which provides a tangy and spicy flavor. Singju is a refreshing dish, often served as a side to complement heavier meals. It is not only delicious but also packed with nutrients from raw vegetables. The dish is known for its vibrant colors and crunchy texture. Singju reflects the healthy and wholesome nature of Manipuri cuisine.", image: Singju
                 }
             ]
 
@@ -249,23 +267,23 @@ const stateFoods = [
         foods: [
             {
                 name: "Kachori Sabzi",
-                description: "Kachori Sabzi is a popular street food in Mirzapur. It consists of spicy, deep-fried dough filled with a variety of fillings like lentils or potatoes. The dish is served with a tangy and spicy potato curry. Kachori is crunchy on the outside, soft on the inside, and is typically enjoyed with chutney or pickles. It's a breakfast favorite for locals, especially paired with a cup of masala chai. This dish captures the essence of traditional Uttar Pradesh flavors. It's widely loved for its rich, spicy taste and comforting qualities. Kachori Sabzi is perfect for those seeking a hearty, flavorful meal.", image:
+                description: "Kachori Sabzi is a popular street food in Mirzapur. It consists of spicy, deep-fried dough filled with a variety of fillings like lentils or potatoes. The dish is served with a tangy and spicy potato curry. Kachori is crunchy on the outside, soft on the inside, and is typically enjoyed with chutney or pickles. It's a breakfast favorite for locals, especially paired with a cup of masala chai. This dish captures the essence of traditional Uttar Pradesh flavors. It's widely loved for its rich, spicy taste and comforting qualities. Kachori Sabzi is perfect for those seeking a hearty, flavorful meal.", image: kachori
             },
             {
                 name: "Baati Chokha",
-                description: "Baati Chokha is a traditional Bihari dish popular in Mirzapur. The baati is a round, hard wheat bread, baked or cooked over coal, which is served with chokha—mashed vegetables such as eggplant, potatoes, and tomatoes, mixed with mustard oil and spices. This dish has a smoky flavor due to the coal-cooked baati. It's typically eaten with ghee, adding richness and flavor. Baati Chokha is a comfort food for many in the region, enjoyed at lunch or dinner. It’s a symbol of rustic, simple yet flavorful cuisine. A truly authentic taste of the northern Indian heartland.", image:
+                description: "Baati Chokha is a traditional Bihari dish popular in Mirzapur. The baati is a round, hard wheat bread, baked or cooked over coal, which is served with chokha—mashed vegetables such as eggplant, potatoes, and tomatoes, mixed with mustard oil and spices. This dish has a smoky flavor due to the coal-cooked baati. It's typically eaten with ghee, adding richness and flavor. Baati Chokha is a comfort food for many in the region, enjoyed at lunch or dinner. It’s a symbol of rustic, simple yet flavorful cuisine. A truly authentic taste of the northern Indian heartland.", image: BaatiChokha
             },
             {
                 name: "Litti",
-                description: "Litti is a famous dish from the regions of Bihar and Uttar Pradesh, including Mirzapur. It consists of wheat flour dough balls stuffed with roasted gram flour and spices, which are baked and served with ghee. Litti is usually paired with chokha (a mix of mashed vegetables like brinjal, tomato, and potato). The outer crust of Litti is crunchy, while the filling is soft and flavorful. The combination of spices and ghee makes it rich in taste. It is considered an iconic dish, particularly during festivals and special occasions. Litti is a perfect dish for those seeking something traditional and hearty.", image:
+                description: "Litti is a famous dish from the regions of Bihar and Uttar Pradesh, including Mirzapur. It consists of wheat flour dough balls stuffed with roasted gram flour and spices, which are baked and served with ghee. Litti is usually paired with chokha (a mix of mashed vegetables like brinjal, tomato, and potato). The outer crust of Litti is crunchy, while the filling is soft and flavorful. The combination of spices and ghee makes it rich in taste. It is considered an iconic dish, particularly during festivals and special occasions. Litti is a perfect dish for those seeking something traditional and hearty.", image: Litti
             },
             {
                 name: "Tandoori Roti with Mutton Curry",
-                description: "Tandoori Roti with Mutton Curry is a classic Mughlai-inspired dish enjoyed in Mirzapur. The roti is cooked in a tandoor, giving it a smoky, crispy texture. It is served with a rich and flavorful mutton curry made with tender meat cooked in a mix of aromatic spices, yogurt, and gravy. The mutton is slow-cooked to perfection, absorbing all the flavors of the spices. This dish is a popular choice for dinner, loved for its richness and bold flavors. Tandoori Roti adds an extra dimension to the curry, enhancing its taste. It's a perfect combination for those who enjoy spicy, meaty dishes.", image:
+                description: "Tandoori Roti with Mutton Curry is a classic Mughlai-inspired dish enjoyed in Mirzapur. The roti is cooked in a tandoor, giving it a smoky, crispy texture. It is served with a rich and flavorful mutton curry made with tender meat cooked in a mix of aromatic spices, yogurt, and gravy. The mutton is slow-cooked to perfection, absorbing all the flavors of the spices. This dish is a popular choice for dinner, loved for its richness and bold flavors. Tandoori Roti adds an extra dimension to the curry, enhancing its taste. It's a perfect combination for those who enjoy spicy, meaty dishes.", image: TandooriRotiwithMuttonCurry
             },
             {
                 name: "Chana Masala with Rice",
-                description: "Chana Masala with Rice is a staple dish in Mirzapur, especially for vegetarians. It features chickpeas cooked in a spicy, tangy gravy made with tomatoes, onions, garlic, ginger, and a mix of spices. The dish is served with plain basmati rice, which soaks up the delicious curry. Chana Masala is packed with protein and is both nutritious and filling. It's a comforting, hearty meal that reflects the flavors of northern India. This dish is often enjoyed as a lunch or dinner option in the region. It’s loved for its bold, spicy flavor and wholesome ingredients.", image:
+                description: "Chana Masala with Rice is a staple dish in Mirzapur, especially for vegetarians. It features chickpeas cooked in a spicy, tangy gravy made with tomatoes, onions, garlic, ginger, and a mix of spices. The dish is served with plain basmati rice, which soaks up the delicious curry. Chana Masala is packed with protein and is both nutritious and filling. It's a comforting, hearty meal that reflects the flavors of northern India. This dish is often enjoyed as a lunch or dinner option in the region. It’s loved for its bold, spicy flavor and wholesome ingredients.", image: ChanaMasala
             }
 
 
