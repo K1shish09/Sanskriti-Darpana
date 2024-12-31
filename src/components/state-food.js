@@ -72,13 +72,37 @@ import PachiPulusu from "../Assets/Food/PachiPulusu.jpeg";
 
 import JonnaRotti from "../Assets/Food/Jonna-Rotti.jpeg";
 
-import Appam from "../Assets/Food/Appam.jpeg";
+import AndhraBiryani from "../Assets/Food/AndhraBiryani.jpeg";
 
-import Appam from "../Assets/Food/Appam.jpeg";
+import Pulihora from "../Assets/Food/Pulihora.jpeg";
 
-import Appam from "../Assets/Food/Appam.jpeg";
+import GonguraPachadi from "../Assets/Food/Gongura Pachadi.jpeg";
 
-import Appam from "../Assets/Food/Appam.jpeg";
+import Vepudu from "../Assets/Food/RoyyalaVepudu.jpeg";
+import Pesarattu from "../Assets/Food/Pesarattu.jpeg";
+
+import JonnaRotti from "../Assets/Food/Jonna-Rotti.jpeg";
+
+import JonnaRotti from "../Assets/Food/Jonna-Rotti.jpeg";
+
+import JonnaRotti from "../Assets/Food/Jonna-Rotti.jpeg";
+
+import JonnaRotti from "../Assets/Food/Jonna-Rotti.jpeg";
+
+import JonnaRotti from "../Assets/Food/Jonna-Rotti.jpeg";
+
+import JonnaRotti from "../Assets/Food/Jonna-Rotti.jpeg";
+
+import JonnaRotti from "../Assets/Food/Jonna-Rotti.jpeg";
+
+import JonnaRotti from "../Assets/Food/Jonna-Rotti.jpeg";
+
+import JonnaRotti from "../Assets/Food/Jonna-Rotti.jpeg";
+
+import JonnaRotti from "../Assets/Food/Jonna-Rotti.jpeg";
+
+import JonnaRotti from "../Assets/Food/Jonna-Rotti.jpeg";
+
 
 
 const stateFoods = [
@@ -460,23 +484,23 @@ const stateFoods = [
 
             {
                 name: "Andhra Biryani",
-                description: "Andhra Biryani is a fragrant rice dish made with long-grain basmati rice, marinated meat (usually chicken, mutton, or beef), and aromatic spices. It's distinct from other biryanis because of the fiery hot Andhra spices, including red chilies and mustard seeds. The rice is cooked separately and layered with meat, and the dish is often served with yogurt-based raita and boiled eggs. Known for its bold flavors, it is a must-try for anyone craving spice and heat.", image:
+                description: "Andhra Biryani is a fragrant rice dish made with long-grain basmati rice, marinated meat (usually chicken, mutton, or beef), and aromatic spices. It's distinct from other biryanis because of the fiery hot Andhra spices, including red chilies and mustard seeds. The rice is cooked separately and layered with meat, and the dish is often served with yogurt-based raita and boiled eggs. Known for its bold flavors, it is a must-try for anyone craving spice and heat.", image: AndhraBiryani
             },
             {
                 name: "Pulihora",
-                description: "Pulihora, also known as tamarind rice, is a tangy and flavorful dish made with cooked rice, tamarind paste, turmeric, mustard seeds, curry leaves, and peanuts. It is often served as a part of festival meals or temple offerings in Andhra Pradesh. The tanginess from the tamarind and the crunch from peanuts make this dish both exciting and comforting. It can be served as a main dish or as a side dish with other curries.", image:
+                description: "Pulihora, also known as tamarind rice, is a tangy and flavorful dish made with cooked rice, tamarind paste, turmeric, mustard seeds, curry leaves, and peanuts. It is often served as a part of festival meals or temple offerings in Andhra Pradesh. The tanginess from the tamarind and the crunch from peanuts make this dish both exciting and comforting. It can be served as a main dish or as a side dish with other curries.", image: Pulihora
             },
             {
                 name: "Gongura Pachadi",
-                description: "Gongura Pachadi is a signature chutney of Andhra Pradesh, made from the gongura leaves, which are sour and tangy in flavor. These leaves are mixed with green chilies, garlic, and tempered with mustard seeds and dried red chilies. It’s a great accompaniment to rice or chapati and is loved for its balance of sour and spicy notes. Gongura is a popular ingredient in Andhra cuisine and adds a unique taste to many dishes.", image:
+                description: "Gongura Pachadi is a signature chutney of Andhra Pradesh, made from the gongura leaves, which are sour and tangy in flavor. These leaves are mixed with green chilies, garlic, and tempered with mustard seeds and dried red chilies. It’s a great accompaniment to rice or chapati and is loved for its balance of sour and spicy notes. Gongura is a popular ingredient in Andhra cuisine and adds a unique taste to many dishes.", image: GonguraPachadi
             },
             {
                 name: "Royyala Vepudu",
-                description: "Royyala Vepudu is a flavorful and spicy Andhra shrimp fry. The shrimp is marinated in a blend of spices including red chili powder, turmeric, ginger, garlic, and tamarind, then shallow fried until crispy. The dish is known for its intense spice level and is typically served with rice or roti. Its bold, tangy, and savory flavors make it a favorite among seafood lovers in the region.", image:
+                description: "Royyala Vepudu is a flavorful and spicy Andhra shrimp fry. The shrimp is marinated in a blend of spices including red chili powder, turmeric, ginger, garlic, and tamarind, then shallow fried until crispy. The dish is known for its intense spice level and is typically served with rice or roti. Its bold, tangy, and savory flavors make it a favorite among seafood lovers in the region.", image: Vepudu
             },
             {
                 name: "Pesarattu",
-                description: "Pesarattu is a savory pancake made from green moong dal (mung beans), which are soaked overnight and then ground into a batter. This dish is typically served for breakfast or as a snack in Andhra Pradesh. The dosa-like batter is cooked with oil or ghee and served with chutneys such as ginger or coconut chutney. It’s a nutritious and protein-packed meal, often enjoyed with a side of upma for a fulfilling meal.", image:
+                description: "Pesarattu is a savory pancake made from green moong dal (mung beans), which are soaked overnight and then ground into a batter. This dish is typically served for breakfast or as a snack in Andhra Pradesh. The dosa-like batter is cooked with oil or ghee and served with chutneys such as ginger or coconut chutney. It’s a nutritious and protein-packed meal, often enjoyed with a side of upma for a fulfilling meal.", image: Pesarattu
             }
         ]
 
