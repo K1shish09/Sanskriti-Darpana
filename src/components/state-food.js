@@ -93,15 +93,15 @@ import MirchiKaSalan from "../Assets/Food/MirchiKaSalan.jpeg";
 
 import Baingan from "../Assets/Food/Baingan.jpeg";
 
-import JonnaRotti from "../Assets/Food/Jonna-Rotti.jpeg";
+import PrawnBalchão from "../Assets/Food/PrawnBalchão.jpeg";
 
-import JonnaRotti from "../Assets/Food/Jonna-Rotti.jpeg";
+import Bebinca from "../Assets/Food/Bebinca.jpeg";
 
-import JonnaRotti from "../Assets/Food/Jonna-Rotti.jpeg";
+import Sorpotel from "../Assets/Food/Sorpotel.jpeg";
 
-import JonnaRotti from "../Assets/Food/Jonna-Rotti.jpeg";
+import Xacuti from "../Assets/Food/Xacuti.jpeg";
 
-import JonnaRotti from "../Assets/Food/Jonna-Rotti.jpeg";
+import Samosa from "../Assets/Food/Samosa.jpeg";
 
 
 
@@ -565,23 +565,23 @@ const stateFoods = [
 
             {
                 name: "Prawn Balchão",
-                description: "Prawn Balchão is a spicy, tangy Goan pickle made from prawns cooked in a rich blend of spices, vinegar, and garlic. It has a fiery, bold flavor with a hint of sweetness and sourness from the vinegar. The prawns are marinated and cooked to perfection, making this dish a perfect accompaniment to rice or bread. It's often enjoyed as a side dish during festive occasions or with regular meals. The balance of spice and acidity in the dish is a signature of Goan cuisine. Prawn Balchão is a must-try for seafood lovers who enjoy bold flavors.", image:
+                description: "Prawn Balchão is a spicy, tangy Goan pickle made from prawns cooked in a rich blend of spices, vinegar, and garlic. It has a fiery, bold flavor with a hint of sweetness and sourness from the vinegar. The prawns are marinated and cooked to perfection, making this dish a perfect accompaniment to rice or bread. It's often enjoyed as a side dish during festive occasions or with regular meals. The balance of spice and acidity in the dish is a signature of Goan cuisine. Prawn Balchão is a must-try for seafood lovers who enjoy bold flavors.", image: PrawnBalchão
             },
             {
                 name: "Bebinca",
-                description: "Bebinca is a traditional Goan dessert made from coconut milk, sugar, eggs, and flour. It's a layered pudding that is slow-cooked to achieve a smooth, rich texture. The layers are created by baking one layer at a time, resulting in a multi-layered, caramelized treat. This dessert is typically served chilled and is a favorite during Christmas celebrations in Goa. The flavor profile is sweet and coconutty, with a slight richness from the eggs. Bebinca has become a symbol of Goan hospitality and is often given as a gift.", image:
+                description: "Bebinca is a traditional Goan dessert made from coconut milk, sugar, eggs, and flour. It's a layered pudding that is slow-cooked to achieve a smooth, rich texture. The layers are created by baking one layer at a time, resulting in a multi-layered, caramelized treat. This dessert is typically served chilled and is a favorite during Christmas celebrations in Goa. The flavor profile is sweet and coconutty, with a slight richness from the eggs. Bebinca has become a symbol of Goan hospitality and is often given as a gift.", image: Bebinca
             },
             {
                 name: "Goan Fish Curry",
-                description: "Goan Fish Curry is a fragrant, spicy curry made with fresh fish like pomfret or mackerel, cooked in a tangy, coconut-based gravy. The curry is flavored with a mix of aromatic spices such as turmeric, coriander, and tamarind. The coconut milk gives the curry a creamy texture, while the tamarind adds a sharp, sour note. This dish is often served with steamed rice and is a staple of Goan cuisine. The use of fresh, local seafood elevates the dish's authenticity and richness. It’s an iconic comfort food in Goa, offering a balance of spice and acidity.", image:
+                description: "Goan Fish Curry is a fragrant, spicy curry made with fresh fish like pomfret or mackerel, cooked in a tangy, coconut-based gravy. The curry is flavored with a mix of aromatic spices such as turmeric, coriander, and tamarind. The coconut milk gives the curry a creamy texture, while the tamarind adds a sharp, sour note. This dish is often served with steamed rice and is a staple of Goan cuisine. The use of fresh, local seafood elevates the dish's authenticity and richness. It’s an iconic comfort food in Goa, offering a balance of spice and acidity.", image:fishcurry
             },
             {
                 name: "Sorpotel",
-                description: "Sorpotel is a Goan pork dish that is rich, spicy, and flavorful. It’s made by slow-cooking pork with vinegar, garlic, and a variety of spices, then letting it rest for a day to enhance the flavors. The dish is often served with sannas (steamed rice bread) or rice. The meat is tender and absorbs the tangy, spicy marinade, creating a dish with layers of complexity. Sorpotel is a must-try for those who enjoy hearty, robust flavors. It is typically served during special occasions and festive celebrations in Goa.", image:
+                description: "Sorpotel is a Goan pork dish that is rich, spicy, and flavorful. It’s made by slow-cooking pork with vinegar, garlic, and a variety of spices, then letting it rest for a day to enhance the flavors. The dish is often served with sannas (steamed rice bread) or rice. The meat is tender and absorbs the tangy, spicy marinade, creating a dish with layers of complexity. Sorpotel is a must-try for those who enjoy hearty, robust flavors. It is typically served during special occasions and festive celebrations in Goa.", image: Sorpotel
             },
             {
                 name: "Xacuti",
-                description: "Xacuti is a rich and flavorful Goan curry made with chicken or lamb. The meat is cooked in a gravy made from a blend of roasted spices, including coriander, cumin, and cinnamon, combined with coconut. The dish has a deep, earthy flavor with a slightly tangy twist. The curry is thickened with coconut milk and served with rice or bread. Xacuti is known for its complex spice mix and is considered one of the most iconic dishes in Goan cuisine. It is often prepared during festivals and special occasions, making it a true taste of Goa’s culinary heritage.", image:
+                description: "Xacuti is a rich and flavorful Goan curry made with chicken or lamb. The meat is cooked in a gravy made from a blend of roasted spices, including coriander, cumin, and cinnamon, combined with coconut. The dish has a deep, earthy flavor with a slightly tangy twist. The curry is thickened with coconut milk and served with rice or bread. Xacuti is known for its complex spice mix and is considered one of the most iconic dishes in Goan cuisine. It is often prepared during festivals and special occasions, making it a true taste of Goa’s culinary heritage.", image: Xacuti
             }
         ]
 
@@ -593,7 +593,7 @@ const stateFoods = [
 
             {
                 name: "Chana Samosa",
-                description: "Chana Samosa is a popular snack in Chhattisgarh, made with spicy chickpeas stuffed inside a crispy pastry shell. It is often served with tamarind chutney, giving it a perfect balance of flavors. The filling consists of boiled chickpeas, onions, and spices like cumin and coriander. It's a favorite street food for locals and visitors alike. The samosa is deep-fried to perfection, ensuring a crunchy texture. A great combination of protein and spices, it's enjoyed as a quick snack or appetizer.", image:
+                description: "Chana Samosa is a popular snack in Chhattisgarh, made with spicy chickpeas stuffed inside a crispy pastry shell. It is often served with tamarind chutney, giving it a perfect balance of flavors. The filling consists of boiled chickpeas, onions, and spices like cumin and coriander. It's a favorite street food for locals and visitors alike. The samosa is deep-fried to perfection, ensuring a crunchy texture. A great combination of protein and spices, it's enjoyed as a quick snack or appetizer.", image: Samosa
             },
             {
                 name: "Fara",
