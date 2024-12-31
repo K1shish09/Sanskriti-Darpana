@@ -81,17 +81,17 @@ import GonguraPachadi from "../Assets/Food/Gongura Pachadi.jpeg";
 import Vepudu from "../Assets/Food/RoyyalaVepudu.jpeg";
 import Pesarattu from "../Assets/Food/Pesarattu.jpeg";
 
-import JonnaRotti from "../Assets/Food/Jonna-Rotti.jpeg";
+import PuducherryBiryani from "../Assets/Food/Puducherry Biryani.jpeg";
 
-import JonnaRotti from "../Assets/Food/Jonna-Rotti.jpeg";
+import dosa from "../Assets/Food/dosa.jpeg";
 
-import JonnaRotti from "../Assets/Food/Jonna-Rotti.jpeg";
+import PuducherryVegetable from "../Assets/Food/PuducherryVegetable.jpeg";
 
-import JonnaRotti from "../Assets/Food/Jonna-Rotti.jpeg";
+import Pindi from "../Assets/Food/Pindi.jpeg";
 
-import JonnaRotti from "../Assets/Food/Jonna-Rotti.jpeg";
+import MirchiKaSalan from "../Assets/Food/MirchiKaSalan.jpeg";
 
-import JonnaRotti from "../Assets/Food/Jonna-Rotti.jpeg";
+import Baingan from "../Assets/Food/Baingan.jpeg";
 
 import JonnaRotti from "../Assets/Food/Jonna-Rotti.jpeg";
 
@@ -510,23 +510,23 @@ const stateFoods = [
         foods: [
             {
                 name: "Puducherry Biryani",
-                description: "Puducherry Biryani is a unique blend of aromatic rice and spiced meat, typically chicken or mutton. It’s flavored with local spices, including star anise, cinnamon, and cloves. The rice is cooked in a rich, fragrant gravy, giving it a moist and flavorful texture. A special ingredient that sets Puducherry Biryani apart is the use of coconut milk in the cooking process. It is often paired with a tangy raita or a spicy gravy. This dish is a reflection of the region's fusion of Tamil and French culinary influences.", image:
+                description: "Puducherry Biryani is a unique blend of aromatic rice and spiced meat, typically chicken or mutton. It’s flavored with local spices, including star anise, cinnamon, and cloves. The rice is cooked in a rich, fragrant gravy, giving it a moist and flavorful texture. A special ingredient that sets Puducherry Biryani apart is the use of coconut milk in the cooking process. It is often paired with a tangy raita or a spicy gravy. This dish is a reflection of the region's fusion of Tamil and French culinary influences.", image: PuducherryBiryani
             },
             {
                 name: "Fish Curry",
-                description: "Fish curry in Puducherry is a spicy and tangy dish made with fresh, local fish like seer fish or mackerel. The curry is prepared with a blend of mustard seeds, curry leaves, and tamarind, providing a balance of heat and sourness. Coconut milk is often added to make the gravy creamy and rich. The use of traditional French cooking techniques along with South Indian spices gives it a unique flavor profile. It is commonly served with rice or crusty French bread. The dish is a popular choice along the coastal regions of Puducherry.", image:
+                description: "Fish curry in Puducherry is a spicy and tangy dish made with fresh, local fish like seer fish or mackerel. The curry is prepared with a blend of mustard seeds, curry leaves, and tamarind, providing a balance of heat and sourness. Coconut milk is often added to make the gravy creamy and rich. The use of traditional French cooking techniques along with South Indian spices gives it a unique flavor profile. It is commonly served with rice or crusty French bread. The dish is a popular choice along the coastal regions of Puducherry.", image:fishcurry
             },
             {
                 name: "Dosa with Puducherry Style Sambar",
-                description: "Dosa, a thin, crispy pancake made from fermented rice and lentil batter, is a staple in Puducherry. It’s often paired with Puducherry-style sambar, a spiced lentil soup enriched with vegetables like drumsticks, carrots, and tomatoes. The sambar is uniquely flavored with a blend of roasted spices, including cumin and coriander. A side of coconut chutney adds a cool contrast to the spicy sambar. The dosa’s crispy texture complements the rich, flavorful sambar. This dish reflects the region's deep-rooted South Indian culinary traditions.", image:
+                description: "Dosa, a thin, crispy pancake made from fermented rice and lentil batter, is a staple in Puducherry. It’s often paired with Puducherry-style sambar, a spiced lentil soup enriched with vegetables like drumsticks, carrots, and tomatoes. The sambar is uniquely flavored with a blend of roasted spices, including cumin and coriander. A side of coconut chutney adds a cool contrast to the spicy sambar. The dosa’s crispy texture complements the rich, flavorful sambar. This dish reflects the region's deep-rooted South Indian culinary traditions.", image:dosa
             },
             {
                 name: "Puducherry Vegetable Stew",
-                description: "The Puducherry vegetable stew is a light and aromatic curry made with a variety of vegetables like carrots, potatoes, beans, and peas. The dish is prepared using coconut milk, which gives it a rich, creamy texture. Flavored with spices such as cinnamon, cloves, and cardamom, the stew is mildly spiced, allowing the freshness of the vegetables to shine through. The stew is typically served with appam (a type of soft, spongy pancake made from rice flour). It’s a popular breakfast or dinner dish in Puducherry, often enjoyed with a side of chutney.", image:
+                description: "The Puducherry vegetable stew is a light and aromatic curry made with a variety of vegetables like carrots, potatoes, beans, and peas. The dish is prepared using coconut milk, which gives it a rich, creamy texture. Flavored with spices such as cinnamon, cloves, and cardamom, the stew is mildly spiced, allowing the freshness of the vegetables to shine through. The stew is typically served with appam (a type of soft, spongy pancake made from rice flour). It’s a popular breakfast or dinner dish in Puducherry, often enjoyed with a side of chutney.", image: PuducherryVegetable
             },
             {
                 name: "French Patisserie",
-                description: "Due to Puducherry’s French colonial history, the region has developed a strong tradition of French patisserie. Classic French pastries like croissants, éclairs, and tarts are commonly found in local bakeries. These pastries are known for their light, flaky textures and rich fillings, often made with a variety of creams, fruits, and chocolates. The blend of French techniques with local ingredients such as coconut and jaggery adds a unique twist to these delicacies. Puducherry’s French cafes serve these pastries alongside strong coffee, making for a delightful breakfast or dessert.", image:
+                description: "Due to Puducherry’s French colonial history, the region has developed a strong tradition of French patisserie. Classic French pastries like croissants, éclairs, and tarts are commonly found in local bakeries. These pastries are known for their light, flaky textures and rich fillings, often made with a variety of creams, fruits, and chocolates. The blend of French techniques with local ingredients such as coconut and jaggery adds a unique twist to these delicacies. Puducherry’s French cafes serve these pastries alongside strong coffee, making for a delightful breakfast or dessert.", image:null
             }
         ]
 
@@ -537,23 +537,23 @@ const stateFoods = [
 
             {
                 name: "Hyderabadi Biryani",
-                description: "Hyderabadi Biryani is the most iconic dish of Telangana, a fragrant rice dish made with basmati rice and marinated meat, usually chicken or mutton. The meat is marinated with a mix of yogurt, spices, and saffron before being cooked with rice. The slow-cooking method, known as 'Dum', ensures that the flavors are perfectly infused. The dish is known for its rich taste and delicate fragrance. Often served with a side of raita or salan (spicy gravy), it’s a must-try for anyone visiting Telangana.", image:
+                description: "Hyderabadi Biryani is the most iconic dish of Telangana, a fragrant rice dish made with basmati rice and marinated meat, usually chicken or mutton. The meat is marinated with a mix of yogurt, spices, and saffron before being cooked with rice. The slow-cooking method, known as 'Dum', ensures that the flavors are perfectly infused. The dish is known for its rich taste and delicate fragrance. Often served with a side of raita or salan (spicy gravy), it’s a must-try for anyone visiting Telangana.", image:Hyderabadi
             },
             {
                 name: "Sarva Pindi",
-                description: "Sarva Pindi is a traditional Telangana snack made from rice flour, chana dal (split chickpeas), and spices. The dough is shaped into a pancake and then cooked on a griddle. It has a crispy outer layer and a soft, spicy inner filling. The dish is flavored with mustard seeds, green chilies, and curry leaves, which give it a unique and aromatic taste. Sarva Pindi is often eaten as a snack or light meal, and it’s popular for its simple yet flavorful preparation.", image:
+                description: "Sarva Pindi is a traditional Telangana snack made from rice flour, chana dal (split chickpeas), and spices. The dough is shaped into a pancake and then cooked on a griddle. It has a crispy outer layer and a soft, spicy inner filling. The dish is flavored with mustard seeds, green chilies, and curry leaves, which give it a unique and aromatic taste. Sarva Pindi is often eaten as a snack or light meal, and it’s popular for its simple yet flavorful preparation.", image: Pindi
             },
             {
                 name: "Mirchi Ka Salan",
-                description: "Mirchi Ka Salan is a spicy and tangy curry made from large green chilies cooked in a sesame-peanut-based gravy. The dish is flavored with a variety of spices such as cumin, coriander, and turmeric, and the richness of the sesame paste gives it a creamy texture. It’s typically served with Hyderabadi Biryani or roti. The combination of heat from the chilies and the smoothness of the gravy makes it a distinctive and beloved part of Telangana cuisine.", image:
+                description: "Mirchi Ka Salan is a spicy and tangy curry made from large green chilies cooked in a sesame-peanut-based gravy. The dish is flavored with a variety of spices such as cumin, coriander, and turmeric, and the richness of the sesame paste gives it a creamy texture. It’s typically served with Hyderabadi Biryani or roti. The combination of heat from the chilies and the smoothness of the gravy makes it a distinctive and beloved part of Telangana cuisine.", image: MirchiKaSalan
             },
             {
                 name: "Bagara Baingan",
-                description: "Bagara Baingan is a dish made with small, tender eggplants cooked in a rich, spiced gravy made of sesame seeds, peanuts, and tamarind. The eggplants are sautéed until soft and then simmered in the gravy, absorbing all the flavors. The use of roasted spices and the creamy texture of the sauce make this dish a favorite in Telangana. It is often served with steamed rice or flatbreads like naan. The unique flavor profile sets it apart from other eggplant dishes in Indian cuisine.", image:
+                description: "Bagara Baingan is a dish made with small, tender eggplants cooked in a rich, spiced gravy made of sesame seeds, peanuts, and tamarind. The eggplants are sautéed until soft and then simmered in the gravy, absorbing all the flavors. The use of roasted spices and the creamy texture of the sauce make this dish a favorite in Telangana. It is often served with steamed rice or flatbreads like naan. The unique flavor profile sets it apart from other eggplant dishes in Indian cuisine.", image: Baingan
             },
             {
                 name: "Pesarattu",
-                description: "Pesarattu is a savory pancake made from green gram (moong dal) batter, popular in Telangana and Andhra Pradesh. The batter is seasoned with ginger, green chilies, and cumin, giving it a spicy, flavorful taste. It’s typically served with ginger chutney or coconut chutney. The dosa-like texture is crispy on the outside while soft on the inside. Pesarattu is commonly eaten for breakfast or as a snack, and it’s cherished for its healthy ingredients and filling nature.", image:
+                description: "Pesarattu is a savory pancake made from green gram (moong dal) batter, popular in Telangana and Andhra Pradesh. The batter is seasoned with ginger, green chilies, and cumin, giving it a spicy, flavorful taste. It’s typically served with ginger chutney or coconut chutney. The dosa-like texture is crispy on the outside while soft on the inside. Pesarattu is commonly eaten for breakfast or as a snack, and it’s cherished for its healthy ingredients and filling nature.", image:dosa
             }
         ]
 
