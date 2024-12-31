@@ -1,3 +1,5 @@
+stateInfo.js
+
 const stateheritage = [
     {
         id: 'IN-AN',
