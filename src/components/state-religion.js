@@ -92,7 +92,7 @@ const statereligions = [
     {
         id: "IN-SK",
         religions: "The major religion of Sikkim is Hinduism, practiced by approximately 57.8% of the population. It is followed predominantly by the Nepalese community, which forms a significant portion of the state's demographics. Buddhism is the second-largest religion, with about 27.4% of the population, deeply rooted in the culture of the Bhutia and Lepcha communities. Christianity accounts for around 9.9%, primarily among tribal and immigrant groups. Other religions, including Islam (1.4%) and smaller faiths, are practiced by the remaining population. This harmonious religious diversity reflects the multicultural ethos of Sikkim.",
-        iamge:sikkim,
+        image: sikkim,
     },
 
 
