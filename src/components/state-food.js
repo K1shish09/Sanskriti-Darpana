@@ -62,15 +62,15 @@ import KarimeenPollichathu from "../Assets/Food/ Karimeen-Pollichathu.jpeg";
 
 import PuttuandKadalaCurry from "../Assets/Food/Puttu-KadalaCurry.jpeg";
 
-import Appam from "../Assets/Food/Appam.jpeg";
+import Hyderabadi from "../Assets/Food/Hyderabadi.jpeg";
 
-import Appam from "../Assets/Food/Appam.jpeg";
+import SarvaPindi from "../Assets/Food/SarvaPindi.jpeg";
 
-import Appam from "../Assets/Food/Appam.jpeg";
+import Haleem from "../Assets/Food/Haleem.jpeg";
 
-import Appam from "../Assets/Food/Appam.jpeg";
+import PachiPulusu from "../Assets/Food/PachiPulusu.jpeg";
 
-import Appam from "../Assets/Food/Appam.jpeg";
+import JonnaRotti from "../Assets/Food/Jonna-Rotti.jpeg";
 
 import Appam from "../Assets/Food/Appam.jpeg";
 
@@ -432,23 +432,23 @@ const stateFoods = [
 
             {
                 name: "Hyderabadi Biryani",
-                description: "Hyderabadi Biryani is one of the most iconic dishes of Telangana, known for its fragrant rice and tender meat. It is a royal dish, made with basmati rice, marinated meat (usually chicken or mutton), and a blend of spices including saffron, cardamom, and cinnamon. The cooking technique of 'Dum' (slow cooking) gives it a unique flavor. Biryani is typically served with raita or mirchi ka salan. This dish is popular not only in Hyderabad but across the world. It was introduced during the Nizam's rule in the 18th century. It remains a must-try for anyone visiting Telangana.", image:
+                description: "Hyderabadi Biryani is one of the most iconic dishes of Telangana, known for its fragrant rice and tender meat. It is a royal dish, made with basmati rice, marinated meat (usually chicken or mutton), and a blend of spices including saffron, cardamom, and cinnamon. The cooking technique of 'Dum' (slow cooking) gives it a unique flavor. Biryani is typically served with raita or mirchi ka salan. This dish is popular not only in Hyderabad but across the world. It was introduced during the Nizam's rule in the 18th century. It remains a must-try for anyone visiting Telangana.", image: Hyderabadi
             },
             {
                 name: "Sarva Pindi",
-                description: "Sarva Pindi is a traditional Telangana snack, often referred to as 'rice pancake'. Made from rice flour, sesame seeds, and spices, it is shallow fried into a round, crispy pancake. The dough is typically mixed with chopped onions, garlic, and curry leaves for added flavor. This dish is commonly served as a breakfast item or snack in rural areas. It is known for its crunch and tangy taste, especially when paired with chutney. Sarva Pindi has been a staple of Telangana's cuisine for generations, passed down through families. It’s a great example of the region’s love for rice-based dishes.", image:
+                description: "Sarva Pindi is a traditional Telangana snack, often referred to as 'rice pancake'. Made from rice flour, sesame seeds, and spices, it is shallow fried into a round, crispy pancake. The dough is typically mixed with chopped onions, garlic, and curry leaves for added flavor. This dish is commonly served as a breakfast item or snack in rural areas. It is known for its crunch and tangy taste, especially when paired with chutney. Sarva Pindi has been a staple of Telangana's cuisine for generations, passed down through families. It’s a great example of the region’s love for rice-based dishes.", image: SarvaPindi
             },
             {
                 name: "Haleem",
-                description: "Haleem is a rich, slow-cooked stew that blends meat (usually mutton or chicken), lentils, and wheat into a thick, flavorful paste. The dish has Persian origins but has become a signature dish in Hyderabad, especially during Ramadan. It is cooked for several hours, allowing the ingredients to meld into a savory, creamy consistency. A special blend of spices, including garam masala, cumin, and coriander, makes Haleem a flavorful treat. It is typically served with fried onions, mint leaves, and a squeeze of lemon. Haleem is a symbol of the city's multicultural food history and is loved by all.", image:
+                description: "Haleem is a rich, slow-cooked stew that blends meat (usually mutton or chicken), lentils, and wheat into a thick, flavorful paste. The dish has Persian origins but has become a signature dish in Hyderabad, especially during Ramadan. It is cooked for several hours, allowing the ingredients to meld into a savory, creamy consistency. A special blend of spices, including garam masala, cumin, and coriander, makes Haleem a flavorful treat. It is typically served with fried onions, mint leaves, and a squeeze of lemon. Haleem is a symbol of the city's multicultural food history and is loved by all.", image: Haleem
             },
             {
                 name: "Pachi Pulusu",
-                description: "Pachi Pulusu is a refreshing raw tamarind soup that is a popular summer dish in Telangana. Made with tamarind, jaggery, green chilies, onions, and a variety of spices, it is a tangy and mildly sweet soup served cold. The dish is often paired with rice, adding a flavorful contrast to the main meal. The key ingredients provide a perfect balance of sourness, sweetness, and spice. Pachi Pulusu is often garnished with fresh coriander and is considered a cooling dish to beat the heat. It is also popular as a home remedy for digestion problems.", image:
+                description: "Pachi Pulusu is a refreshing raw tamarind soup that is a popular summer dish in Telangana. Made with tamarind, jaggery, green chilies, onions, and a variety of spices, it is a tangy and mildly sweet soup served cold. The dish is often paired with rice, adding a flavorful contrast to the main meal. The key ingredients provide a perfect balance of sourness, sweetness, and spice. Pachi Pulusu is often garnished with fresh coriander and is considered a cooling dish to beat the heat. It is also popular as a home remedy for digestion problems.", image: PachiPulusu
             },
             {
                 name: "Jonna Rotti",
-                description: "Jonna Rotti is a staple flatbread made from sorghum flour, commonly eaten in Telangana. It is gluten-free and has a distinct taste compared to wheat-based rottis. The dough is kneaded with water and rolled into thick discs before being cooked on a hot griddle. The bread is typically served with a variety of chutneys, pickles, or curries. Jonna Rotti is popular in rural Telangana, where sorghum is a primary crop. This dish highlights the region’s reliance on local grains and its rustic food culture. The bread’s hearty nature makes it a fulfilling meal, often enjoyed with vegetables and dal.", image:
+                description: "Jonna Rotti is a staple flatbread made from sorghum flour, commonly eaten in Telangana. It is gluten-free and has a distinct taste compared to wheat-based rottis. The dough is kneaded with water and rolled into thick discs before being cooked on a hot griddle. The bread is typically served with a variety of chutneys, pickles, or curries. Jonna Rotti is popular in rural Telangana, where sorghum is a primary crop. This dish highlights the region’s reliance on local grains and its rustic food culture. The bread’s hearty nature makes it a fulfilling meal, often enjoyed with vegetables and dal.", image: JonnaRotti
             }
         ]
 
