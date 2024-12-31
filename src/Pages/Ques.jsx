@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Ques.css";
 import Navbar from "./../components/Navbar";
-
 import { FaClock, FaStar } from "react-icons/fa";
 
 const Ques = () => {
@@ -10,15 +9,15 @@ const Ques = () => {
       question: "In which year did the first Indian satellite, Aryabhata, launch?",
       options: ["1972", "1975", "1980", "1984"],
       answer: "1975",
-      explanation: "India's first satellite, Aryabhata, was launched on April 19, 1975, by the Soviet Union from its cosmodrome."
+      explanation:
+        "India's first satellite, Aryabhata, was launched on April 19, 1975, by the Soviet Union from its cosmodrome.",
     },
     {
-      question: "Who was the first Emperor of the Maurya Dynasty?",
-      options: ["Chandragupta Maurya", "Ashoka", "Bindusara", "Bimbisara"],
-      answer: "Chandragupta Maurya",
-      explanation: "Chandragupta Maurya was the founder of the Maurya Empire and its first Emperor.",
+      question: "Who was the first woman Prime Minister of India?",
+      options: ["Indira Gandhi", "Sonia Gandhi", "Sarojini Naidu", "Kiran Bedi"],
+      answer: "Indira Gandhi",
+      explanation: "Indira Gandhi was the first and only female Prime Minister of India, serving from 1966 to 1977 and from 1980 until her assassination in 1984.",
     },
-
     {
       question: "Which is the classical music tradition of the southern part of India?",
       options: ["Hindustani", "Carnatic", "Khyal", "Qawwali"],
@@ -133,12 +132,6 @@ const Ques = () => {
       answer: "1975",
       explanation: "India's first satellite, Aryabhata, was launched on April 19, 1975, by the Soviet Union from its cosmodrome.",
     },
-    {
-      question: "Who was the first Emperor of the Maurya Dynasty?",
-      options: ["Chandragupta Maurya", "Ashoka", "Bindusara", "Bimbisara"],
-      answer: "Chandragupta Maurya",
-      explanation: "Chandragupta Maurya was the founder of the Maurya Empire and its first Emperor.",
-    },
   ];
 
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -154,14 +147,17 @@ const Ques = () => {
       const countdown = setInterval(() => {
         setTimer((prevTime) => prevTime - 1);
       }, 1000);
-
+  
       return () => clearInterval(countdown);
+    } else if (timer === 0 && selectedOption === null && !quizFinished) {
+      // Automatically go to the next question when time runs out
+      handleNextQuestion();
     }
   }, [timer, selectedOption, quizFinished]);
+  
 
   useEffect(() => {
     if (quizFinished) {
-      // Generate confetti dynamically
       const confetti = Array.from({ length: 50 }, (_, i) => ({
         id: i,
         style: {
@@ -203,7 +199,7 @@ const Ques = () => {
     <>
       <Navbar />
 
-      <div className={`quiz-container mt-8`}>
+      <div className="quiz-container mt-8">
         {/* Score and Timer */}
         <div className="flex justify-around items-center mb-6 text-lg mt-10">
           <div className="score-display flex items-center gap-3 p-3 bg-teal-400 text-white rounded-lg shadow-md w-1/3">
@@ -231,8 +227,8 @@ const Ques = () => {
                       ? option === questions[currentQuestion].answer
                         ? "bg-green-100"
                         : option === selectedOption
-                          ? "bg-red-100"
-                          : "bg-teal-100"
+                        ? "bg-red-100"
+                        : "bg-teal-100"
                       : "bg-teal-100"
                     }`}
                   onClick={() => handleOptionClick(option)}
@@ -277,7 +273,6 @@ const Ques = () => {
           </>
         )}
       </div>
-
     </>
   );
 };
