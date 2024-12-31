@@ -1,45 +1,78 @@
 stateInfo.js
+import CoconutPrawnCurry from "../Assets/Food/cCoconut-Prawn-Curry.jpg";
+import BarbecuedSeafood from "../Assets/Food/Barbecued-Seafood.jpg";
+import GrilledLobster from "../Assets/Food/Grilled-Lobster.jpg";
+import fishcurry from "../Assets/Food/fishcurry.jpg";
+import nicobarichickencurry from "../Assets/Food/NicobariChickenCurry.jpg";
+import tunacurry from "../Assets/Food/tunacurry.jpg";
+import MalabarParotta from "../Assets/Food/MalabarParotta.jpeg";
+import fishtikka from "../Assets/Food/fishtikka.jpeg";
 
+import OctopusFry from "../Assets/Food/OctopusFry.jpg";
+import BreadfruitCurry from "../Assets/Food/BreadfruitCurry.jpg";
+import AssameseThali from "../Assets/Food/AssameseThali.jpg";
+import MasorTenga from "../Assets/Food/MasorTenga.jpg";
+import pitha from "../Assets/Food/pitha.jpg";
+import duckmeat from "../Assets/Food/duckmeat.jpg";
+import AlooPitika from "../Assets/Food/AlooPitika.jpg";
+import Thukpa from "../Assets/Food/Thukpa.jpg";
+import Apong from "../Assets/Food/Apong.jpg";
+import pikapila from "../Assets/Food/pikapila.jpeg";
+
+import bambooShoots from "../Assets/Food/bambooShoots.jpeg";
 const stateFoods = [
     {
         id: 'IN-AN',
         foods: [
             {
                 name: "Coconut Prawn Curry",
-                description: "This dish combines the sweetness of coconut with the rich flavors of prawns. Prawns are simmered in a gravy made with coconut milk, curry leaves, and mustard seeds. The dish is mildly spiced, allowing the coconut to dominate. It is served with hot rice or freshly baked bread. The aromatic curry leaves and mustard add an authentic touch. This dish is a signature of the island cuisine."
+                description: "This dish combines the sweetness of coconut with the rich flavors of prawns. Prawns are simmered in a gravy made with coconut milk, curry leaves, and mustard seeds. The dish is mildly spiced, allowing the coconut to dominate. It is served with hot rice or freshly baked bread. The aromatic curry leaves and mustard add an authentic touch. This dish is a signature of the island cuisine.",
+                image:CoconutPrawnCurry
             },
             {
                 name: "Barbecued Seafood",
-                description: "Barbecued seafood is a popular choice for both locals and tourists. Fresh fish, prawns, and crabs are marinated in a blend of spices. Cooked on an open flame, the barbecue adds a smoky, charred flavor. This dish is often enjoyed during beach gatherings or festivals. The simplicity of preparation preserves the natural flavors of the seafood. Served with tropical salads, it is a feast for the senses."
+                description: "Barbecued seafood is a popular choice for both locals and tourists. Fresh fish, prawns, and crabs are marinated in a blend of spices. Cooked on an open flame, the barbecue adds a smoky, charred flavor. This dish is often enjoyed during beach gatherings or festivals. The simplicity of preparation preserves the natural flavors of the seafood. Served with tropical salads, it is a feast for the senses.",
+                image: BarbecuedSeafood
             },
             {
                 name: "Nicobari Chicken Curry",
-                description: "A traditional dish from the Nicobar Islands, this curry is rich and aromatic. Made with chicken, local spices, and coconut milk, it has a unique flavor. The curry is slow-cooked to enhance the depth of the flavors. It is often paired with steamed rice or flatbreads. The dish reflects the cultural influences of the Nicobarese people. It is hearty, flavorful, and a staple in local households."
+                description: "A traditional dish from the Nicobar Islands, this curry is rich and aromatic. Made with chicken, local spices, and coconut milk, it has a unique flavor. The curry is slow-cooked to enhance the depth of the flavors. It is often paired with steamed rice or flatbreads. The dish reflects the cultural influences of the Nicobarese people. It is hearty, flavorful, and a staple in local households.",
+                image: nicobarichickencurry
             },
             {
                 name: "Fish Curry",
-                description: "A staple dish of the Andaman and Nicobar Islands, fish curry is made using fresh local catch. The dish features a flavorful blend of spices like turmeric, coriander, and chili. Coconut milk is often added for a creamy texture. Served with steamed rice, it's a comfort food for locals. Each region has its variation, making it uniquely flavorful. The use of tamarind adds a tangy twist to the curry."
+                description: "A staple dish of the Andaman and Nicobar Islands, fish curry is made using fresh local catch. The dish features a flavorful blend of spices like turmeric, coriander, and chili. Coconut milk is often added for a creamy texture. Served with steamed rice, it's a comfort food for locals. Each region has its variation, making it uniquely flavorful. The use of tamarind adds a tangy twist to the curry.",
+                image:fishcurry
             },
             {
                 name: "Grilled Lobster",
-                description: "Grilled lobster is a delicacy that highlights the Islands' rich seafood culture. Freshly caught lobsters are marinated with lime, garlic, and chili. They are grilled to perfection, giving them a smoky flavor. Served with tangy dipping sauces, this dish is a must-try for seafood lovers. The simplicity of preparation lets the lobster's natural flavor shine. Often enjoyed at beachside shacks, it embodies the island lifestyle."
+                description: "Grilled lobster is a delicacy that highlights the Islands' rich seafood culture. Freshly caught lobsters are marinated with lime, garlic, and chili. They are grilled to perfection, giving them a smoky flavor. Served with tangy dipping sauces, this dish is a must-try for seafood lovers. The simplicity of preparation lets the lobster's natural flavor shine. Often enjoyed at beachside shacks, it embodies the island lifestyle.",
+                image:GrilledLobster
             }
         ]
     },
     {
         id: "IN-LD",
         foods: [
-            { name: "Tuna Curry", description: "A popular dish in Lakshadweep, made with fresh tuna, coconut milk, and a blend of spices, giving it a creamy and spicy flavor." },
+            {
+                name: "Tuna Curry", description: "A popular dish in Lakshadweep, made with fresh tuna, coconut milk, and a blend of spices, giving it a creamy and spicy flavor.",
+                image: tunacurry
+            },
+            
 
-            { name: "Malabar Parotta with Chicken Curry", description: "A layered flatbread served with a rich and spicy chicken curry, reflecting the influence of Malabar cuisine." },
+            {
+                name: "Malabar Parotta with Chicken Curry",
+                description: "A layered flatbread served with a rich and spicy chicken curry, reflecting the influence of Malabar cuisine.",
+                image:MalabarParotta
+            },
 
             { name: "Fish Tikka", description: "Grilled chunks of fresh fish marinated in aromatic spices, showcasing the coastal flavors of Lakshadweep." },
 
-            { name: "Coconut Rice", description: "A fragrant rice dish cooked with grated coconut, curry leaves, and spices, often served as a staple alongside seafood dishes." },
+            { name: "Coconut Rice", description: "A fragrant rice dish cooked with grated coconut, curry leaves, and spices, often served as a staple alongside seafood dishes.",image:fishtikka },
 
-            { name: "Octopus Fry", description: "A delicacy made by frying octopus with a flavorful mix of spices, a specialty of Lakshadweep's coastal cuisine." },
+            { name: "Octopus Fry", description: "A delicacy made by frying octopus with a flavorful mix of spices, a specialty of Lakshadweep's coastal cuisine.", image: OctopusFry },
 
-            { name: "Breadfruit Curry", description: "A unique vegetarian dish featuring breadfruit cooked in a coconut-based curry, a staple in the islands." },
+            { name: "Breadfruit Curry", description: "A unique vegetarian dish featuring breadfruit cooked in a coconut-based curry, a staple in the islands.", image: BreadfruitCurry },
         ]
     },
     //assam state info
@@ -48,23 +81,28 @@ const stateFoods = [
         foods: [
             {
                 name: "Assamese Thali",
-                description: "An Assamese thali is a wholesome meal that includes rice, dal, various curries, and chutneys, often served with fish or meat. A key feature is the use of locally sourced ingredients like mustard seeds, bamboo shoots, and green leafy vegetables. Dishes like khar (alkaline-based dish) and tenga (sour fish curry) are staples. The balance of flavors, from sour to spicy, defines the meal. It is typically served on a banana leaf or metal plate. Seasonal pickles and chutneys enhance the experience. It's a perfect representation of Assamese culinary diversity."
+                description: "An Assamese thali is a wholesome meal that includes rice, dal, various curries, and chutneys, often served with fish or meat. A key feature is the use of locally sourced ingredients like mustard seeds, bamboo shoots, and green leafy vegetables. Dishes like khar (alkaline-based dish) and tenga (sour fish curry) are staples. The balance of flavors, from sour to spicy, defines the meal. It is typically served on a banana leaf or metal plate. Seasonal pickles and chutneys enhance the experience. It's a perfect representation of Assamese culinary diversity.",
+                image: AssameseThali
             },
             {
                 name: "Masor Tenga",
-                description: "Masor Tenga is a light and tangy fish curry that’s a staple in Assamese households. It is made with river fish like Rohu or Catla cooked in a broth of tomatoes, lemon, and sometimes raw mango. The dish is known for its refreshing sour flavor and is often consumed during hot summer days. Mustard seeds, fenugreek, and green chilies add depth to the taste. It is typically served with steamed rice. Variations of Tenga can include the use of Ou Tenga (Elephant Apple) or Thekera (dried mangosteen). It's cherished for its simplicity and health benefits."
+                description: "Masor Tenga is a light and tangy fish curry that’s a staple in Assamese households. It is made with river fish like Rohu or Catla cooked in a broth of tomatoes, lemon, and sometimes raw mango. The dish is known for its refreshing sour flavor and is often consumed during hot summer days. Mustard seeds, fenugreek, and green chilies add depth to the taste. It is typically served with steamed rice. Variations of Tenga can include the use of Ou Tenga (Elephant Apple) or Thekera (dried mangosteen). It's cherished for its simplicity and health benefits.",
+                image: MasorTenga
             },
             {
                 name: "Pitha",
-                description: "Pitha is a traditional rice cake or pancake widely enjoyed during festivals like Bihu in Assam. Made with sticky rice flour and stuffed with ingredients like jaggery, sesame seeds, or coconut, Pithas come in both sweet and savory versions. Variants include Til Pitha, Ghila Pitha, and Narikol Pitha. Steamed or fried, these are usually served as snacks or desserts. Their preparation is a family affair during festivities. Pitha symbolizes Assamese hospitality and culinary art. They are often paired with tea, making them a beloved comfort food in the region."
+                description: "Pitha is a traditional rice cake or pancake widely enjoyed during festivals like Bihu in Assam. Made with sticky rice flour and stuffed with ingredients like jaggery, sesame seeds, or coconut, Pithas come in both sweet and savory versions. Variants include Til Pitha, Ghila Pitha, and Narikol Pitha. Steamed or fried, these are usually served as snacks or desserts. Their preparation is a family affair during festivities. Pitha symbolizes Assamese hospitality and culinary art. They are often paired with tea, making them a beloved comfort food in the region.",
+                image: pitha
             },
             {
                 name: "Duck Meat Curry",
-                description: "Duck Meat Curry, known as Hanhor Mangkho, is a festive delicacy in Assam. The meat is slow-cooked with spices like ginger, garlic, onion, and black pepper, often with additions like ash gourd or sesame. It has a rich and hearty flavor, making it a centerpiece for celebrations and special occasions. The use of mustard oil enhances its unique taste. The dish pairs well with rice and is loved for its tender and juicy texture. Its preparation requires patience but is rewarding in its robust flavor. It reflects the Assamese love for bold and earthy cuisine."
+                description: "Duck Meat Curry, known as Hanhor Mangkho, is a festive delicacy in Assam. The meat is slow-cooked with spices like ginger, garlic, onion, and black pepper, often with additions like ash gourd or sesame. It has a rich and hearty flavor, making it a centerpiece for celebrations and special occasions. The use of mustard oil enhances its unique taste. The dish pairs well with rice and is loved for its tender and juicy texture. Its preparation requires patience but is rewarding in its robust flavor. It reflects the Assamese love for bold and earthy cuisine.",
+                image:duckmeat
             },
             {
                 name: "Aloo Pitika",
-                description: "Aloo Pitika is a simple yet flavorful mashed potato dish, a comfort food for Assamese people. Prepared with boiled potatoes, mustard oil, chopped onions, green chilies, and sometimes coriander leaves, it is known for its smoky and tangy flavor. It is typically eaten with plain rice and dal. Variations can include boiled eggs or roasted tomatoes. The dish’s simplicity belies its intense flavor, making it a staple in everyday Assamese meals. It highlights the minimalistic yet rich culinary traditions of Assam. Aloo Pitika is a favorite across all age groups."
+                description: "Aloo Pitika is a simple yet flavorful mashed potato dish, a comfort food for Assamese people. Prepared with boiled potatoes, mustard oil, chopped onions, green chilies, and sometimes coriander leaves, it is known for its smoky and tangy flavor. It is typically eaten with plain rice and dal. Variations can include boiled eggs or roasted tomatoes. The dish’s simplicity belies its intense flavor, making it a staple in everyday Assamese meals. It highlights the minimalistic yet rich culinary traditions of Assam. Aloo Pitika is a favorite across all age groups.",
+                image: AlooPitika
             }
 
         ]
@@ -77,19 +115,21 @@ const stateFoods = [
                 "cuisines": [
                     {
                         name: "Thukpa",
-                        description: "Thukpa is a traditional noodle soup enjoyed widely in Arunachal Pradesh. It is a Tibetan-inspired dish often served with vegetables, chicken, or mutton. The soup has a rich, flavorful broth made with spices and herbs native to the region. It is warm, comforting, and ideal for the chilly climate of Arunachal. Variations include vegetarian options with locally grown leafy greens. Its preparation reflects the fusion of Tibetan and Arunachali flavors. Thukpa is a must-try for anyone visiting the state."
+                        description: "Thukpa is a traditional noodle soup enjoyed widely in Arunachal Pradesh. It is a Tibetan-inspired dish often served with vegetables, chicken, or mutton. The soup has a rich, flavorful broth made with spices and herbs native to the region. It is warm, comforting, and ideal for the chilly climate of Arunachal. Variations include vegetarian options with locally grown leafy greens. Its preparation reflects the fusion of Tibetan and Arunachali flavors. Thukpa is a must-try for anyone visiting the state.",
+                        image:Thukpa
                     },
                     {
                         name: "Apong",
-                        description: "Apong is a traditional rice beer made by the indigenous tribes of Arunachal Pradesh. It is brewed naturally from fermented rice and millet without any chemical additives. Apong is a crucial part of local festivals and celebrations. The drink has a mild alcoholic content and a unique, earthy flavor. Each tribe has its own recipe, making every brew distinct. It is often served in bamboo containers to enhance the traditional experience. Apong is a symbol of hospitality in Arunachali culture."
+                        description: "Apong is a traditional rice beer made by the indigenous tribes of Arunachal Pradesh. It is brewed naturally from fermented rice and millet without any chemical additives. Apong is a crucial part of local festivals and celebrations. The drink has a mild alcoholic content and a unique, earthy flavor. Each tribe has its own recipe, making every brew distinct. It is often served in bamboo containers to enhance the traditional experience. Apong is a symbol of hospitality in Arunachali culture.", image: Apong
                     },
                     {
                         name: "Pika Pila",
-                        description: "Pika Pila is a traditional pickle made by the Apatani tribe of Arunachal Pradesh. It is prepared using bamboo shoots, pork fat, and local spices. The pickle has a tangy and spicy flavor, complementing rice dishes perfectly. It is stored in bamboo containers, adding to its unique taste. Pika Pila is often made during festivals or special occasions. Its recipe is passed down through generations, preserving its authenticity. The pickle is a culinary delight for those who enjoy bold flavors."
+                        description: "Pika Pila is a traditional pickle made by the Apatani tribe of Arunachal Pradesh. It is prepared using bamboo shoots, pork fat, and local spices. The pickle has a tangy and spicy flavor, complementing rice dishes perfectly. It is stored in bamboo containers, adding to its unique taste. Pika Pila is often made during festivals or special occasions. Its recipe is passed down through generations, preserving its authenticity. The pickle is a culinary delight for those who enjoy bold flavors.",image:pikapila
                     },
                     {
                         name: "Bamboo Shoot Curry",
-                        description: "Bamboo Shoot Curry is a popular dish in Arunachal Pradesh, known for its fresh and earthy flavor. The curry is prepared using tender bamboo shoots, which are marinated and cooked with spices. It can be made vegetarian or combined with meat like pork or fish. The dish showcases the abundance of bamboo in the region's forests. It is a staple food for many tribes and is often accompanied by steamed rice. The preparation involves minimal ingredients, highlighting the natural taste of bamboo shoots. This curry is a true reflection of Arunachal's connection with nature."
+                        description: "Bamboo Shoot Curry is a popular dish in Arunachal Pradesh, known for its fresh and earthy flavor. The curry is prepared using tender bamboo shoots, which are marinated and cooked with spices. It can be made vegetarian or combined with meat like pork or fish. The dish showcases the abundance of bamboo in the region's forests. It is a staple food for many tribes and is often accompanied by steamed rice. The preparation involves minimal ingredients, highlighting the natural taste of bamboo shoots. This curry is a true reflection of Arunachal's connection with nature.",
+                        image:bambooShoots
                     },
                     {
                         name: "Chura Sabzi",
