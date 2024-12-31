@@ -438,8 +438,9 @@ const stateheritage = [
                 name: "Church of St. Cajetan",
                 description: "The Church of St. Cajetan is located in Old Goa and is known for its impressive Baroque architecture, resembling St. Peter’s Basilica in Rome. Built in the 17th century by Italian missionaries, the church features ornate interiors and a magnificent dome. The church is dedicated to St. Cajetan, the founder of the Theatine Order. Its stunning facade, wooden carvings, and altar artwork reflect the rich cultural influences of the time. The Church of St. Cajetan is a UNESCO World Heritage site and attracts visitors with its historical significance and architectural beauty. It remains an active place of worship and a symbol of Goa's colonial heritage."
             }
-
         ]
+
+        
     },
     {
         id: "IN-CT",
