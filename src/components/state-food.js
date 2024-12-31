@@ -53,8 +53,33 @@ import Phagshapa from "../Assets/Food/Phagshapa.jpeg";
 import momo from "../Assets/Food/momo.jpeg";
 import SelRoti from "../Assets/Food/Sel-Roti.jpeg";
 import Chhurpi from "../Assets/Food/Chhurpi.jpeg";
-import Singju from "../Assets/Food/Singju.jpeg";
-import Singju from "../Assets/Food/Singju.jpeg";
+import Sadya from "../Assets/Food/Sadya.jpeg";
+import SKeralaParotta from "../Assets/Food/Kerala-Parotta.jpeg";
+import Appam from "../Assets/Food/Appam.jpeg";
+
+
+import KarimeenPollichathu from "../Assets/Food/ Karimeen-Pollichathu.jpeg";
+
+import PuttuandKadalaCurry from "../Assets/Food/Puttu-KadalaCurry.jpeg";
+
+import Appam from "../Assets/Food/Appam.jpeg";
+
+import Appam from "../Assets/Food/Appam.jpeg";
+
+import Appam from "../Assets/Food/Appam.jpeg";
+
+import Appam from "../Assets/Food/Appam.jpeg";
+
+import Appam from "../Assets/Food/Appam.jpeg";
+
+import Appam from "../Assets/Food/Appam.jpeg";
+
+import Appam from "../Assets/Food/Appam.jpeg";
+
+import Appam from "../Assets/Food/Appam.jpeg";
+
+import Appam from "../Assets/Food/Appam.jpeg";
+
 
 const stateFoods = [
     {
@@ -380,23 +405,23 @@ const stateFoods = [
         foods: [
             {
                 name: "Sadya",
-                description: "Sadya is a traditional vegetarian feast served on a banana leaf, typically during festivals and celebrations in Kerala. It consists of a variety of dishes including rice, sambhar, avial, and payasam. The dishes are served in a specific order to enhance the dining experience. The combination of spices and ingredients makes Sadya a rich, flavorful meal. It is often accompanied by curd, pickle, and pappadam. The food is prepared using locally grown vegetables and pulses. Sadya is a symbol of Kerala’s culture and hospitality, reflecting the state’s culinary diversity."
+                description: "Sadya is a traditional vegetarian feast served on a banana leaf, typically during festivals and celebrations in Kerala. It consists of a variety of dishes including rice, sambhar, avial, and payasam. The dishes are served in a specific order to enhance the dining experience. The combination of spices and ingredients makes Sadya a rich, flavorful meal. It is often accompanied by curd, pickle, and pappadam. The food is prepared using locally grown vegetables and pulses. Sadya is a symbol of Kerala’s culture and hospitality, reflecting the state’s culinary diversity.",image: Sadya
             },
             {
                 name: "Kerala Parotta",
-                description: "Kerala Parotta is a flaky, layered flatbread made from refined flour. It is soft on the inside with a crispy exterior, making it a favorite in Kerala. Parotta is often paired with spicy curries such as beef or chicken curry, and it is a popular street food. It is made by kneading dough with ghee or oil, then rolling it into thin layers and frying. The technique of flipping and stretching the dough gives it its signature texture. Parotta is a common breakfast or dinner dish in Kerala. It is widely loved for its versatility and delicious taste."
+                description: "Kerala Parotta is a flaky, layered flatbread made from refined flour. It is soft on the inside with a crispy exterior, making it a favorite in Kerala. Parotta is often paired with spicy curries such as beef or chicken curry, and it is a popular street food. It is made by kneading dough with ghee or oil, then rolling it into thin layers and frying. The technique of flipping and stretching the dough gives it its signature texture. Parotta is a common breakfast or dinner dish in Kerala. It is widely loved for its versatility and delicious taste.", image: SKeralaParotta
             },
             {
                 name: "Appam",
-                description: "Appam is a traditional Kerala pancake made from fermented rice batter, cooked in a special wok-like pan. It is soft and fluffy in the center with a crispy edge. Appam is typically served with stew, coconut milk, or curry, making it a popular breakfast dish. The batter is prepared by soaking rice overnight and fermenting it, which gives appam its distinct flavor. This dish has its roots in the Christian community of Kerala. Appam pairs well with both vegetarian and non-vegetarian dishes. It is a comfort food that is enjoyed across all ages."
+                description: "Appam is a traditional Kerala pancake made from fermented rice batter, cooked in a special wok-like pan. It is soft and fluffy in the center with a crispy edge. Appam is typically served with stew, coconut milk, or curry, making it a popular breakfast dish. The batter is prepared by soaking rice overnight and fermenting it, which gives appam its distinct flavor. This dish has its roots in the Christian community of Kerala. Appam pairs well with both vegetarian and non-vegetarian dishes. It is a comfort food that is enjoyed across all ages.", image: Appam
             },
             {
                 name: "Karimeen Pollichathu",
-                description: "Karimeen Pollichathu is a traditional Kerala fish dish made with pearl spot fish, known as Karimeen. The fish is marinated in a blend of spices and then wrapped in a banana leaf and grilled. This cooking method infuses the fish with the flavors of the marinade and the banana leaf. The fish is tender and aromatic, making it a prized dish in Kerala. It is typically served with rice or appam. Karimeen Pollichathu is famous for its fresh, local fish and the unique blend of spices used. This dish is a must-try for seafood lovers visiting Kerala."
+                description: "Karimeen Pollichathu is a traditional Kerala fish dish made with pearl spot fish, known as Karimeen. The fish is marinated in a blend of spices and then wrapped in a banana leaf and grilled. This cooking method infuses the fish with the flavors of the marinade and the banana leaf. The fish is tender and aromatic, making it a prized dish in Kerala. It is typically served with rice or appam. Karimeen Pollichathu is famous for its fresh, local fish and the unique blend of spices used. This dish is a must-try for seafood lovers visiting Kerala.", image: KarimeenPollichathu
             },
             {
                 name: "Puttu and Kadala Curry",
-                description: "Puttu and Kadala Curry is a classic Kerala breakfast dish. Puttu is a steamed cylinder of rice flour and grated coconut, while Kadala Curry is a spicy black chickpea curry. The combination of the soft, steamed puttu and the rich, flavorful curry makes for a hearty meal. Puttu is traditionally served with a variety of side dishes like banana, sugar, or curry. Kadala Curry, made with roasted spices, is cooked to a thick, spicy consistency. This dish reflects the simplicity and depth of Kerala’s cuisine. Puttu and Kadala Curry is a staple in households across the state."
+                description: "Puttu and Kadala Curry is a classic Kerala breakfast dish. Puttu is a steamed cylinder of rice flour and grated coconut, while Kadala Curry is a spicy black chickpea curry. The combination of the soft, steamed puttu and the rich, flavorful curry makes for a hearty meal. Puttu is traditionally served with a variety of side dishes like banana, sugar, or curry. Kadala Curry, made with roasted spices, is cooked to a thick, spicy consistency. This dish reflects the simplicity and depth of Kerala’s cuisine. Puttu and Kadala Curry is a staple in households across the state.", image: PuttuandKadalaCurry
             }
         ]
 
