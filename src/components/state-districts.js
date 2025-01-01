@@ -763,7 +763,7 @@ Districts:[
 
  {
     id: "IN-UP",
-    dist_info: "Uttar Pradesh, the most populous state in India, has 75 districts. It is known for its rich cultural heritage and historical significance.",
+    dist_info: "Uttar Pradesh, the most populous state in India, has 75 districts. It is known for its rich cultural heritage and historical significance.Uttar Pradesh (UP) is divided into 75 districts, each with distinct features. Agra is renowned for the Taj Mahal, a symbol of Mughal architecture. Lucknow, the state capital, boasts nawabi heritage and landmarks like Bara Imambara. Varanasi, one of the oldest cities, is a major religious center along the Ganges. Kanpur is an industrial hub, historically known for textiles. Allahabad (Prayagraj) holds religious significance, hosting the Kumbh Mela. ",
     capital: ["Lucknow"],
     totalDistricts: 75,
     districts: [
