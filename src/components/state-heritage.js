@@ -151,18 +151,20 @@ import StPaulsChurch from "../Assets/Heritage/StPaulsChurch.jpeg";
 import NaidaCaves from "../Assets/Heritage/NaidaCaves.jpeg";
 import GangeshwarTemple from "../Assets/Heritage/GangeshwarTemple.jpeg";
 import DiuMuseum from "../Assets/Heritage/DiuMuseum.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-
+import AmberFort from "../Assets/Heritage/AmberFort.jpeg";
+import JaipurCityPalace from "../Assets/Heritage/JaipurCityPalace.jpeg";
+import UdaipurCityPalace from "../Assets/Heritage/UdaipurCityPalace.jpeg";
+import JantarMantar from "../Assets/Heritage/JantarMantar.jpeg";
+import QutubMinar from "../Assets/Heritage/QutubMinar.jpeg";
+import RedFort from "../Assets/Heritage/RedFort.jpeg";
+import HumayunsTomb from "../Assets/Heritage/HumayunsTomb.jpeg";
+import IndiaGate from "../Assets/Heritage/IndiaGate.jpeg";
+import LotusTemple from "../Assets/Heritage/LotusTemple.jpeg";
+import SultanpurBirdSanctuary from "../Assets/Heritage/SultanpurBirdSanctuary.jpeg";
+import PinjoreGardens from "../Assets/Heritage/PinjoreGardens.jpeg";
+import Rakhigarhi from "../Assets/Heritage/Rakhigarhi.jpeg";
+import FirozShahPalace from "../Assets/Heritage/FirozShahPalace.jpeg";
+import BhimaDeviTemple from "../Assets/Heritage/BhimaDeviTemple.jpeg";
 
 
 const stateHeritage = [
@@ -845,23 +847,23 @@ const stateHeritage = [
         heritageSites: [
             {
                 name: "Amber Fort",
-                description: "Amber Fort, located near Jaipur, is a stunning example of Rajput architecture. Built in the 16th century by Raja Man Singh, the fort is known for its intricate design and grandeur. The fort complex includes palaces, temples, and gardens, with the Sheesh Mahal being particularly famous for its mirrored walls. The fort sits atop a hill, offering panoramic views of the surrounding area. Amber Fort showcases the fusion of Hindu and Mughal architectural styles. It remains one of Rajasthan's most iconic and visited heritage sites."
+                description: "Amber Fort, located near Jaipur, is a stunning example of Rajput architecture. Built in the 16th century by Raja Man Singh, the fort is known for its intricate design and grandeur. The fort complex includes palaces, temples, and gardens, with the Sheesh Mahal being particularly famous for its mirrored walls. The fort sits atop a hill, offering panoramic views of the surrounding area. Amber Fort showcases the fusion of Hindu and Mughal architectural styles. It remains one of Rajasthan's most iconic and visited heritage sites.",image: AmberFort
             },
             {
                 name: "Jaipur City Palace",
-                description: "The Jaipur City Palace, located in the heart of Jaipur, is a royal residence that blends Mughal and Rajasthani architectural styles. Built by Maharaja Jai Singh II in the 18th century, it is known for its beautiful courtyards, gardens, and museums. The palace complex includes several buildings, such as the Chandra Mahal and Mubarak Mahal, each with unique features. The palace is still home to the royal family of Jaipur, and visitors can explore its exquisite rooms and artifacts. The palace is a testament to Jaipur’s rich royal history and culture. It stands as a symbol of the opulence and grandeur of Rajasthan’s rulers."
+                description: "The Jaipur City Palace, located in the heart of Jaipur, is a royal residence that blends Mughal and Rajasthani architectural styles. Built by Maharaja Jai Singh II in the 18th century, it is known for its beautiful courtyards, gardens, and museums. The palace complex includes several buildings, such as the Chandra Mahal and Mubarak Mahal, each with unique features. The palace is still home to the royal family of Jaipur, and visitors can explore its exquisite rooms and artifacts. The palace is a testament to Jaipur’s rich royal history and culture. It stands as a symbol of the opulence and grandeur of Rajasthan’s rulers.",image: JaipurCityPalace
             },
             {
                 name: "Udaipur City Palace",
-                description: "The Udaipur City Palace is an architectural marvel located on the banks of Lake Pichola. Built over nearly 400 years by various rulers of the Mewar dynasty, it is the largest palace complex in Rajasthan. The palace offers stunning views of the lake and surrounding mountains. Its intricate courtyards, lavish rooms, and beautiful frescoes reflect the splendor of Rajput architecture. The palace houses several museums and the famous Jagdish Temple. It is an important symbol of the region's royal legacy and a popular tourist destination."
+                description: "The Udaipur City Palace is an architectural marvel located on the banks of Lake Pichola. Built over nearly 400 years by various rulers of the Mewar dynasty, it is the largest palace complex in Rajasthan. The palace offers stunning views of the lake and surrounding mountains. Its intricate courtyards, lavish rooms, and beautiful frescoes reflect the splendor of Rajput architecture. The palace houses several museums and the famous Jagdish Temple. It is an important symbol of the region's royal legacy and a popular tourist destination.",image: UdaipurCityPalace
             },
             {
                 name: "Jantar Mantar",
-                description: "Jantar Mantar in Jaipur is an astronomical observatory built in the 18th century by Maharaja Jai Singh II. It is home to the world’s largest stone sundial and features a collection of 19 architectural astronomical instruments. The observatory was designed for precise astronomical observations and calculations. Jantar Mantar is a UNESCO World Heritage Site and is admired for its accuracy and ingenuity. The site allows visitors to explore the fascinating scientific advancements of the Mughal era. Its historical significance lies in its contribution to the field of astronomy."
+                description: "Jantar Mantar in Jaipur is an astronomical observatory built in the 18th century by Maharaja Jai Singh II. It is home to the world’s largest stone sundial and features a collection of 19 architectural astronomical instruments. The observatory was designed for precise astronomical observations and calculations. Jantar Mantar is a UNESCO World Heritage Site and is admired for its accuracy and ingenuity. The site allows visitors to explore the fascinating scientific advancements of the Mughal era. Its historical significance lies in its contribution to the field of astronomy.",image: JantarMantar
             },
             {
                 name: "Mehrangarh Fort",
-                description: "Mehrangarh Fort, situated in Jodhpur, is one of the largest and most impressive forts in India. Built in the 15th century by Rao Jodha, the fort is perched on a 150-meter-high hill. It features several palaces, temples, and courtyards, along with a museum showcasing artifacts of Rajasthan’s royal history. The fort’s architecture is an example of Rajput military ingenuity, with thick walls, bastions, and expansive gates. Visitors can explore the fort’s galleries, which include weapons, paintings, and other historical relics. Mehrangarh Fort is not only a testament to Rajasthan’s rich heritage but also offers stunning views of Jodhpur."
+                description: "Mehrangarh Fort, situated in Jodhpur, is one of the largest and most impressive forts in India. Built in the 15th century by Rao Jodha, the fort is perched on a 150-meter-high hill. It features several palaces, temples, and courtyards, along with a museum showcasing artifacts of Rajasthan’s royal history. The fort’s architecture is an example of Rajput military ingenuity, with thick walls, bastions, and expansive gates. Visitors can explore the fort’s galleries, which include weapons, paintings, and other historical relics. Mehrangarh Fort is not only a testament to Rajasthan’s rich heritage but also offers stunning views of Jodhpur.",image: MehrangarhFort
             }
 
         ]
@@ -871,23 +873,23 @@ const stateHeritage = [
         heritageSites: [
             {
                 name: "Qutub Minar",
-                description: "Qutub Minar is one of Delhi’s most iconic landmarks, standing at 73 meters tall. Built in 1193 by Qutb-ud-din Aibak, it is a UNESCO World Heritage Site. The minaret is an exquisite example of Indo-Islamic Afghan architecture. It is made of red sandstone and inscribed with intricate Arabic calligraphy. The Qutub Minar is surrounded by other historical structures, including the Quwwat-ul-Islam Mosque. Visitors flock to this site to admire its grandeur and historical significance."
+                description: "Qutub Minar is one of Delhi’s most iconic landmarks, standing at 73 meters tall. Built in 1193 by Qutb-ud-din Aibak, it is a UNESCO World Heritage Site. The minaret is an exquisite example of Indo-Islamic Afghan architecture. It is made of red sandstone and inscribed with intricate Arabic calligraphy. The Qutub Minar is surrounded by other historical structures, including the Quwwat-ul-Islam Mosque. Visitors flock to this site to admire its grandeur and historical significance.",image: QutubMinar
             },
             {
                 name: "Red Fort",
-                description: "The Red Fort, a UNESCO World Heritage Site, is a stunning example of Mughal architecture. Constructed by Emperor Shah Jahan in 1638, it served as the main residence of the Mughal emperors for nearly 200 years. Made from red sandstone, the fort complex includes various palaces, mosques, and gardens. The Red Fort is renowned for its massive gates, ornate decorations, and historical importance in Indian independence. It is also the site where India's Prime Minister hoists the national flag on Independence Day. The fort is a symbol of India's rich Mughal heritage."
+                description: "The Red Fort, a UNESCO World Heritage Site, is a stunning example of Mughal architecture. Constructed by Emperor Shah Jahan in 1638, it served as the main residence of the Mughal emperors for nearly 200 years. Made from red sandstone, the fort complex includes various palaces, mosques, and gardens. The Red Fort is renowned for its massive gates, ornate decorations, and historical importance in Indian independence. It is also the site where India's Prime Minister hoists the national flag on Independence Day. The fort is a symbol of India's rich Mughal heritage.",image: RedFort
             },
             {
                 name: "Humayun's Tomb",
-                description: "Humayun's Tomb is a UNESCO World Heritage Site and one of Delhi's finest examples of Mughal architecture. It was commissioned by Humayun’s widow, Empress Bega Begum, in the 16th century. The tomb features Persian-style gardens, a large central dome, and stunning marble and sandstone structures. It is considered a precursor to the Taj Mahal, influencing later Mughal architecture. The tomb is part of a complex with several other tombs and structures. It is a serene place, admired for its architectural beauty and historical significance."
+                description: "Humayun's Tomb is a UNESCO World Heritage Site and one of Delhi's finest examples of Mughal architecture. It was commissioned by Humayun’s widow, Empress Bega Begum, in the 16th century. The tomb features Persian-style gardens, a large central dome, and stunning marble and sandstone structures. It is considered a precursor to the Taj Mahal, influencing later Mughal architecture. The tomb is part of a complex with several other tombs and structures. It is a serene place, admired for its architectural beauty and historical significance.",image: HumayunsTomb
             },
             {
                 name: "India Gate",
-                description: "India Gate is a war memorial built in honor of the soldiers who died during World War I. Located in the heart of New Delhi, it stands 42 meters tall and is made of sandstone. Designed by Sir Edwin Lutyens, the gate bears the names of soldiers inscribed on its surface. It is a symbol of national pride and a tribute to the sacrifices made during the war. The memorial is surrounded by lush green lawns, making it a popular picnic spot. India Gate becomes particularly spectacular at night when it is illuminated."
+                description: "India Gate is a war memorial built in honor of the soldiers who died during World War I. Located in the heart of New Delhi, it stands 42 meters tall and is made of sandstone. Designed by Sir Edwin Lutyens, the gate bears the names of soldiers inscribed on its surface. It is a symbol of national pride and a tribute to the sacrifices made during the war. The memorial is surrounded by lush green lawns, making it a popular picnic spot. India Gate becomes particularly spectacular at night when it is illuminated.",image: IndiaGate
             },
             {
                 name: "Lotus Temple",
-                description: "The Lotus Temple is a Bahá'í House of Worship, famous for its unique lotus flower-shaped architecture. Completed in 1986, the temple is made of white marble and stands as a symbol of unity and peace. It is open to people of all religions and offers a space for prayer and meditation. The temple is surrounded by beautiful gardens and pools, adding to its tranquil atmosphere. It has won numerous architectural awards for its design and engineering. The Lotus Temple attracts millions of visitors annually from around the world."
+                description: "The Lotus Temple is a Bahá'í House of Worship, famous for its unique lotus flower-shaped architecture. Completed in 1986, the temple is made of white marble and stands as a symbol of unity and peace. It is open to people of all religions and offers a space for prayer and meditation. The temple is surrounded by beautiful gardens and pools, adding to its tranquil atmosphere. It has won numerous architectural awards for its design and engineering. The Lotus Temple attracts millions of visitors annually from around the world.",image: LotusTemple
             }
 
         ]
@@ -897,23 +899,23 @@ const stateHeritage = [
         heritageSites: [
             {
                 name: "Sultanpur Bird Sanctuary",
-                description: "Located in Gurgaon district, Sultanpur Bird Sanctuary is a haven for migratory birds. It is spread over 1.42 square kilometers and attracts birdwatchers from all over the world. The sanctuary is home to over 250 species of birds, including both migratory and resident species. During winter, thousands of migratory birds from Central Asia, Siberia, and Europe visit the park. It is a peaceful environment with a variety of habitats, including wetlands and grasslands. Sultanpur is recognized as an important bird area by the Indian government."
+                description: "Located in Gurgaon district, Sultanpur Bird Sanctuary is a haven for migratory birds. It is spread over 1.42 square kilometers and attracts birdwatchers from all over the world. The sanctuary is home to over 250 species of birds, including both migratory and resident species. During winter, thousands of migratory birds from Central Asia, Siberia, and Europe visit the park. It is a peaceful environment with a variety of habitats, including wetlands and grasslands. Sultanpur is recognized as an important bird area by the Indian government.",image: SultanpurBirdSanctuary
             },
             {
                 name: "Pinjore Gardens",
-                description: "Pinjore Gardens, also known as Yadavindra Gardens, is a historic Mughal garden located in the Panchkula district. The garden is laid out in a classical Mughal style with terraced lawns, fountains, and pavilions. Built in the 17th century, it reflects the grandeur of Mughal architecture. It features several pathways lined with trees, and the garden is popular for its lush green surroundings and tranquil atmosphere. Pinjore Gardens hosts the famous Pinjore Heritage Festival, showcasing local arts and crafts. The site is an iconic example of Mughal garden design in Haryana."
+                description: "Pinjore Gardens, also known as Yadavindra Gardens, is a historic Mughal garden located in the Panchkula district. The garden is laid out in a classical Mughal style with terraced lawns, fountains, and pavilions. Built in the 17th century, it reflects the grandeur of Mughal architecture. It features several pathways lined with trees, and the garden is popular for its lush green surroundings and tranquil atmosphere. Pinjore Gardens hosts the famous Pinjore Heritage Festival, showcasing local arts and crafts. The site is an iconic example of Mughal garden design in Haryana.",image: PinjoreGardens
             },
             {
                 name: "Rakhigarhi",
-                description: "Rakhigarhi is one of the largest Harappan (Indus Valley Civilization) sites discovered in Haryana. Located in the Hisar district, it is a significant archaeological site providing insights into ancient urban planning and culture. Excavations at Rakhigarhi have revealed the remains of a well-planned city, pottery, tools, and jewelry. The site dates back over 5,000 years and sheds light on the daily life, trade, and technology of the Harappan people. It is considered one of the most important archaeological discoveries in the region. Rakhigarhi is being developed into a heritage site for research and tourism."
+                description: "Rakhigarhi is one of the largest Harappan (Indus Valley Civilization) sites discovered in Haryana. Located in the Hisar district, it is a significant archaeological site providing insights into ancient urban planning and culture. Excavations at Rakhigarhi have revealed the remains of a well-planned city, pottery, tools, and jewelry. The site dates back over 5,000 years and sheds light on the daily life, trade, and technology of the Harappan people. It is considered one of the most important archaeological discoveries in the region. Rakhigarhi is being developed into a heritage site for research and tourism.",image: Rakhigarhi
             },
             {
                 name: "Firoz Shah Palace Complex",
-                description: "The Firoz Shah Palace Complex, located in the city of Fatehabad, is a historical site built by Sultan Firoz Shah Tughlaq in the 14th century. It includes several structures such as a mosque, a palace, and waterworks, highlighting the architectural grandeur of the Tughlaq dynasty. The complex reflects the cultural and technological advancements of the period. It also served as a center for the administration of the Sultanate. The historical site offers a glimpse into the royal life and urban planning of medieval India. The site is a popular attraction for history and architecture enthusiasts."
+                description: "The Firoz Shah Palace Complex, located in the city of Fatehabad, is a historical site built by Sultan Firoz Shah Tughlaq in the 14th century. It includes several structures such as a mosque, a palace, and waterworks, highlighting the architectural grandeur of the Tughlaq dynasty. The complex reflects the cultural and technological advancements of the period. It also served as a center for the administration of the Sultanate. The historical site offers a glimpse into the royal life and urban planning of medieval India. The site is a popular attraction for history and architecture enthusiasts.",image: FirozShahPalace
             },
             {
                 name: "Bhima Devi Temple",
-                description: "The Bhima Devi Temple, located in the Pinjore area, is dedicated to the Hindu goddess Bhima Devi. The temple complex dates back to the 8th century and is known for its stunning ancient sculptures and architectural design. The temple was originally part of a larger complex that was later ruined over time. It features intricately carved stone sculptures, and the ruins are believed to have been a center of religious significance in ancient times. The site offers a unique glimpse into the spiritual heritage of Haryana. Bhima Devi Temple is now being restored as a prominent heritage site."
+                description: "The Bhima Devi Temple, located in the Pinjore area, is dedicated to the Hindu goddess Bhima Devi. The temple complex dates back to the 8th century and is known for its stunning ancient sculptures and architectural design. The temple was originally part of a larger complex that was later ruined over time. It features intricately carved stone sculptures, and the ruins are believed to have been a center of religious significance in ancient times. The site offers a unique glimpse into the spiritual heritage of Haryana. Bhima Devi Temple is now being restored as a prominent heritage site.",image: BhimaDeviTemple
             }
 
         ]
