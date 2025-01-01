@@ -1108,35 +1108,11 @@ Districts:[
  {
     id: 'IN-CH',
    dist_info:"Chandigarh, the capital of both Haryana and Punjab, is one of India’s most well-planned cities, renowned for its modern architecture, green spaces, and high standard of living. Located at the foothills of the Shivalik range, it is the first city in India to be designed and developed as a modern, independent urban center post-independence. Spread over an area of 114 square kilometers, Chandigarh serves as a Union Territory, directly governed by the President of India. The city is famous for its orderly layout, with distinct sectors and wide avenues, offering a contrast to the chaotic nature of many other Indian cities.Designed by the famous French architect Le Corbusier, Chandigarh stands out for its innovative urban planning and architecture. The city is divided into 47 sectors, each serving as self-contained neighborhoods with schools, parks, and commercial areas, contributing to a sense of organization and efficiency. Iconic landmarks like the Capitol Complex, the Rock Garden, and Sukhna Lake reflect the city’s modernistic spirit and aesthetic appeal. The Rock Garden, created by Nek Chand from discarded materials, has become a symbol of creativity, while Sukhna Lake, a man-made reservoir, is a popular spot for leisure and recreation.",
-   districts: [
-      "1. Anjaw",
-      "2. Bichom *",
-      "3. Siang",
-      "4. Changlang",
-      "5. Dibang Valley",
-      "6. East Kameng",
-      "7. East Siang",
-      "8. Kamle",
-      "9. Keyi Panyor *",
-      "10. Kra Daadi",
-      "11. Kurung Kumey",
-      "12. Lepa Rada *",
-      "13. Lohit",
-      "14. Longding",
-      "15. Lower Dibang Valley",
-      "16. Lower Siang",
-      "17. Lower Subansiri",
-      "18. Namsai",
-      "19. Pakke Kessang *",
-      "20. Papum Pare",
-      "21. Shi Yomi *",
-      "22. Tawang",
-      "23. Tirap",
-      "24. Upper Siang",
-      "25. Upper Subansiri",
-      "26. West Kameng",
-      "27. West Siang"
-  ]
+ Capital: ["Chandigarh"],
+ Total_Districts: [1],
+ Districts:[
+ "1. Chandigarh"
+ ]
  },
  
 ];
