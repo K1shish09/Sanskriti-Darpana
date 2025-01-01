@@ -505,16 +505,87 @@ const stateInfo = [
 
  {
     id: 'IN-DN',
-    lang_info:"Dadra and Nagar Haveli is a Union Territory located on the western coast of India, bordered by Gujarat to the north and Maharashtra to the south. The territory spans an area of 491 square kilometers and is made up of two distinct regions: Dadra, a small enclave near Vapi in Gujarat, and Nagar Haveli, a larger area that lies between Gujarat and Maharashtra. The Union Territory has a rich history, having been ruled by various dynasties, including the Marathas, before being annexed by the Portuguese in the 18th century. It remained under Portuguese control until it was liberated by Indian forces in 1954, becoming part of India. In 2020, Dadra and Nagar Haveli merged with Daman and Diu to form a single Union Territory.The culture of Dadra and Nagar Haveli is a blend of Indian and Portuguese influences, evident in its architecture, cuisine, and festivals. The majority of the population speaks Marathi, Hindi, and Gujarati, reflecting the influence of neighboring states. The region is known for its vibrant festivals such as Diwali, Ganesh Chaturthi, and Christmas, which are celebrated with enthusiasm, along with regional events like the traditional harvest festival of Baisakhi. The territory’s cuisine combines flavors from both Gujarat and Maharashtra, with dishes like dhokla, fafda, and pattice being popular."
+    lang_info:"Dadra and Nagar Haveli is a Union Territory located on the western coast of India, bordered by Gujarat to the north and Maharashtra to the south. The territory spans an area of 491 square kilometers and is made up of two distinct regions: Dadra, a small enclave near Vapi in Gujarat, and Nagar Haveli, a larger area that lies between Gujarat and Maharashtra. The Union Territory has a rich history, having been ruled by various dynasties, including the Marathas, before being annexed by the Portuguese in the 18th century. It remained under Portuguese control until it was liberated by Indian forces in 1954, becoming part of India. In 2020, Dadra and Nagar Haveli merged with Daman and Diu to form a single Union Territory.The culture of Dadra and Nagar Haveli is a blend of Indian and Portuguese influences, evident in its architecture, cuisine, and festivals. The majority of the population speaks Marathi, Hindi, and Gujarati, reflecting the influence of neighboring states. The region is known for its vibrant festivals such as Diwali, Ganesh Chaturthi, and Christmas, which are celebrated with enthusiasm, along with regional events like the traditional harvest festival of Baisakhi. The territory’s cuisine combines flavors from both Gujarat and Maharashtra, with dishes like dhokla, fafda, and pattice being popular.",
+    most_spoken_languages: [
+      {
+          "language": "Gujarati",
+          "percentage": "50-55%",
+          "population": "approx. 0.15-0.17 million people"
+      },
+      {
+          "language": "Hindi",
+          "percentage": "30-35%",
+          "population": "approx. 0.09-0.11 million people"
+      },
+      {
+          "language": "Marathi",
+          "percentage": "10-15%",
+          "population": "approx. 0.03-0.05 million people"
+      },
+      {
+          "language": "Other Tribal Languages",
+          "percentage": "5-10%",
+          "population": "approx. 0.02-0.05 million people"
+      }
+  ]
  },
 
  {
     id: "IN-MH",
-    lang_info:"MUMBAI: It’s not the language of money alone that makes Maharashtra rich. When the western state speaks, it does so in 38 different tongues and more, making it one of the most linguistically wealthy places, according to a recent language survey.The results of People’s Linguistic Survey (PLSI), a community-driven documentation of Indian languages by Vadodara-based Bhasha Research and Publication Centre, will be out in August."
+    lang_info:"MUMBAI: It’s not the language of money alone that makes Maharashtra rich. When the western state speaks, it does so in 38 different tongues and more, making it one of the most linguistically wealthy places, according to a recent language survey.The results of People’s Linguistic Survey (PLSI), a community-driven documentation of Indian languages by Vadodara-based Bhasha Research and Publication Centre, will be out in August.",
+    most_spoken_languages: [
+      {
+          "language": "Marathi",
+          "percentage": "70-75%",
+          "population": "approx. 85-90 million people"
+      },
+      {
+          "language": "Hindi",
+          "percentage": "10-12%",
+          "population": "approx. 12-14 million people"
+      },
+      {
+          "language": "Urdu",
+          "percentage": "5-7%",
+          "population": "approx. 6-8 million people"
+      },
+      {
+          "language": "Other Tribal Languages",
+          "percentage": "5-7%",
+          "population": "approx. 6-8 million people"
+      }
+  ]
  },
 
  {  id: 'IN-JH',
-   lang_info:"Jharkhand, state of India, located in the northeastern part of the country. Jharkhand is bordered by the states of Bihar to the north, West Bengal to the east, Odisha to the south, Chhattisgarh to the west, and Uttar Pradesh to the northwest. Its capital is Ranchi.Jharkhand, one of India’s newest states, was carved out of the southern portion of Bihar in 2000. Statehood was the culmination of a long struggle carried on primarily by the Adivasis, or Scheduled Tribes (an official term applied primarily to indigenous communities that fall outside the predominant Indian caste hierarchy). Indian independence brought relatively little socioeconomic benefit to the people of the Jharkhand area, which led to widespread discontent with the Bihar administration, particularly among the tribal peoples. The tribal groups initiated a call for independence from Bihar, and in the 1980s they became militant in their demand. In the 1990s, the separation movement spread to nontribal communities, ultimately precipitating the creation of a new state. Area 28,833 square miles (74,677 square km). Pop. (2011) 32,966,238Prior to the arrival of the British in Chota Nagpur, the area was ruled by chiefs of various indigenous groups. The area came under the British in 1765 as part of Bihar. As the British gradually expanded their authority over the plains to the north of present-day Jharkhand during the second half of the 18th century and the beginning of the 19th, revolts against them occasionally erupted in Chota Nagpur. The most important of these uprisings were the Ho revolt (1820–27) and the Munda uprising (1831–32).From the period of British expansion until the turn of the 21st century, the history of Jharkhand overlapped with the history of Bihar. On Nov. 15, 2000, after decades of growing discontent, especially on the part of the indigenous peoples, Chota Nagpur was separated from Bihar to become Jharkhand, the 28th state of India"
+   lang_info:"Jharkhand, state of India, located in the northeastern part of the country. Jharkhand is bordered by the states of Bihar to the north, West Bengal to the east, Odisha to the south, Chhattisgarh to the west, and Uttar Pradesh to the northwest. Its capital is Ranchi.Jharkhand, one of India’s newest states, was carved out of the southern portion of Bihar in 2000. Statehood was the culmination of a long struggle carried on primarily by the Adivasis, or Scheduled Tribes (an official term applied primarily to indigenous communities that fall outside the predominant Indian caste hierarchy). Indian independence brought relatively little socioeconomic benefit to the people of the Jharkhand area, which led to widespread discontent with the Bihar administration, particularly among the tribal peoples. The tribal groups initiated a call for independence from Bihar, and in the 1980s they became militant in their demand. In the 1990s, the separation movement spread to nontribal communities, ultimately precipitating the creation of a new state. Area 28,833 square miles (74,677 square km). Pop. (2011) 32,966,238Prior to the arrival of the British in Chota Nagpur, the area was ruled by chiefs of various indigenous groups. The area came under the British in 1765 as part of Bihar. As the British gradually expanded their authority over the plains to the north of present-day Jharkhand during the second half of the 18th century and the beginning of the 19th, revolts against them occasionally erupted in Chota Nagpur. The most important of these uprisings were the Ho revolt (1820–27) and the Munda uprising (1831–32).From the period of British expansion until the turn of the 21st century, the history of Jharkhand overlapped with the history of Bihar. On Nov. 15, 2000, after decades of growing discontent, especially on the part of the indigenous peoples, Chota Nagpur was separated from Bihar to become Jharkhand, the 28th state of India",
+   most_spoken_languages: [
+      {
+          "language": "Hindi",
+          "percentage": "50-60%",
+          "population": "approx. 25-30 million people"
+      },
+      {
+          "language": "Santali",
+          "percentage": "10-15%",
+          "population": "approx. 5-7 million people"
+      },
+      {
+          "language": "Magahi",
+          "percentage": "5-7%",
+          "population": "approx. 2.5-3.5 million people"
+      },
+      {
+          "language": "Bhojpuri",
+          "percentage": "5-7%",
+          "population": "approx. 2.5-3.5 million people"
+      },
+      {
+          "language": "Other Tribal Languages",
+          "percentage": "15-20%",
+          "population": "approx. 7.5-10 million people"
+      }
+  ]
  },
 
  {
@@ -542,7 +613,29 @@ const stateInfo = [
 
  {
     id: 'IN-MP',
-    lang_info:"Our state Madhya - Pradesh is a center part of India. Madhya - Pradesh is surrounded by seven states, therefore many languages are spoken by the people of Madhya - Pradesh.Hindi is the common language of Madhya - Pradesh, apart from Hindi, other languages are Urdu,Malvi,Nimadi,Bundeli,Bagheli,Avadhi.Gondi, Katlo, Bhili,Nihali and Korku are the some other languages spoken in tribal areas.These are languages are spoken at different parts or regions of Madhya - Pradesh."
+    lang_info:"Our state Madhya - Pradesh is a center part of India. Madhya - Pradesh is surrounded by seven states, therefore many languages are spoken by the people of Madhya - Pradesh.Hindi is the common language of Madhya - Pradesh, apart from Hindi, other languages are Urdu,Malvi,Nimadi,Bundeli,Bagheli,Avadhi.Gondi, Katlo, Bhili,Nihali and Korku are the some other languages spoken in tribal areas.These are languages are spoken at different parts or regions of Madhya - Pradesh.",
+    most_spoken_languages: [
+      {
+          "language": "Hindi",
+          "percentage": "70-75%",
+          "population": "approx. 65-70 million people"
+      },
+      {
+          "language": "Malwi",
+          "percentage": "10-12%",
+          "population": "approx. 9-10 million people"
+      },
+      {
+          "language": "Chhattisgarhi",
+          "percentage": "5-7%",
+          "population": "approx. 4.5-6 million people"
+      },
+      {
+          "language": "Other Tribal Languages",
+          "percentage": "5-7%",
+          "population": "approx. 4.5-6 million people"
+      }
+  ]
  },
 
  {
