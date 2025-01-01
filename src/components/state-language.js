@@ -365,7 +365,7 @@ const stateInfo = [
  
  {
     id: "IN-TG",
-    lang_info:"Telugu: The official language of Telangana, spoken by around 75% of the population. Telugu is a classical language of India Urdu: The second official language of Telangana, spoken by around 12% of the population. Before 1948, Urdu was the official language of Hyderabad State. Other languages: Other languages spoken in Telangana include Lambadi, Marathi, and Hindi.",
+    lang_info:" Telangana, the primary language spoken is Telugu, which is spoken by around 80-85% of the population, approximately 38 to 40 million people. Urdu is the second most widely spoken language, especially in urban areas and among the Muslim community, comprising about 10-12% of the population, or roughly 4.8 to 5.8 million people. Hindi is also spoken by about 2-3% of the population, translating to approximately 0.96 to 1.4 million people.Telugu: The official language of Telangana, spoken by around 75% of the population. Telugu is a classical language of India Urdu: The second official language of Telangana, spoken by around 12% of the population. Before 1948, Urdu was the official language of Hyderabad State. Other languages: Other languages spoken in Telangana include Lambadi, Marathi, and Hindi.",
     "state": "Telangana",
         most_spoken_languages: [
             {
@@ -797,7 +797,7 @@ const stateInfo = [
  },
 
  {id: 'IN-UT',
-  lang_info:"Telugu is the official language of Andhra Pradesh and holds a significant value as it is one of the six classical languages of India. It is the largest spoken language within the Southern Central Dravidian language family and it is also utilized as the medium of instruction by the state government. The majority of the state’s population can speak and understand it. ",
+  lang_info: "In Uttarakhand, the primary language spoken is Hindi, which is spoken by around 70-75% of the population, approximately 8.4 to 9 million people. Garhwali, the language of the Garhwal region, is spoken by about 10-15% of the population, equating to around 1.2 to 1.8 million people. Similarly, Kumaoni, the language of the Kumaon region, is spoken by around 10-12% of the population, or roughly 1.2 to 1.4 million people. Punjabi is spoken by around 3-5% of the population, which translates to about 0.36 to 0.6 million people, largely by the Sikh community in the state. The diverse linguistic landscape of Uttarakhand reflects its rich cultural heritage, with a blend of regional languages and dialects spoken alongside Hindi.Hindi is the official language of Uttarakhand and holds significant value as it is widely spoken and understood by the majority of the state's population. Garhwali and Kumaoni are also prominent languages spoken in the region.",
   most_spoken_languages: [
    {
        "language": "Hindi",
@@ -817,13 +817,18 @@ const stateInfo = [
    {
        "language": "Punjabi",
        "percentage": "3-5%",
-       "population": "approx. 0.36-0.6 million people"
+       "population": "approx. 0.4-0.6 million people"
+   },
+   {
+       "language": "English",
+       "percentage": "2-3%",
+       "population": "approx. 0.7-1 million people"
    }
 ]
  },
 
  {id: 'IN-PB',
-   lang_info:"Punjab is a state in northwestern India. Forming part of the larger Punjab region of the Indian subcontinent, the state is bordered by the Indian states of Himachal Pradesh to the north and northeast, Haryana to the south and southeast, and Rajasthan to the southwest; by the Indian union territories of Chandigarh to the east and Jammu and Kashmir to the north. It shares an international border with Punjab, a province of Pakistan to the west. The state covers an area of 50,362 square kilometres (19,445 square miles), which is 1.53% of India's total geographical area,[10] making it the 19th-largest Indian state by area out of 28 Indian states (20th largest, if Union Territories are considered). With over 27 million inhabitants, Punjab is the 16th-largest Indian state by population, comprising 23 districts. Punjabi, written in the Gurmukhi script, is the most widely spoken and the official languageof the state.[11] The main ethnic group are the Punjabis, with Sikhs (57.7%) and Hindus (38.5%) forming the dominant religious groups. The state capital, Chandigarh, is a union territory and also the capital of the neighbouring state of Haryana. Three tributaries of the Indus River — the Sutlej, Beas, and Ravi — flow through Punjab.  HISTORY The History of Punjab refers to the past history of Punjab region which is a geopolitical, cultural, and historical region in the northwest of South Asia, comprising eastern Punjab province in Pakistan and western Punjab state in India. It is believed that the earliest evidence of human habitation in Punjab traces to the Soan valley of the Pothohar, between the Indus and the Jhelum rivers, where Soanian culture developed between 774,000 BC and 11,700 BC. This period goes back to the first interglacial period in the second Ice Age, from which remnants of stone and flint tools have been found.[2] The Punjab region was the site of one of the earliest cradle of civilizations, the Bronze Age Harrapan civilization that flourished from about 3000 B.C. and declined rapidly 1,000 years later, following the Indo-Aryan migrations that overran the region in waves between 1500 and 500 B.C.",
+   lang_info:"Punjab is a state in northwestern India. Forming part of the larger Punjab region of the Indian subcontinent, the state is bordered by the Indian states of Himachal Pradesh to the north and northeast, Haryana to the south and southeast, and Rajasthan to the southwest; by the Indian union territories of Chandigarh to the east and Jammu and Kashmir to the north. It shares an international border with Punjab, a province of Pakistan to the west. The state covers an area of 50,362 square kilometres (19,445 square miles), which is 1.53% of India's total geographical area,[10] making it the 19th-largest Indian state by area out of 28 Indian states (20th largest, if Union Territories are considered). With over 27 million inhabitants, Punjab is the 16th-largest Indian state by population, comprising 23 districts. Punjabi, written in the Gurmukhi script, is the most widely spoken and the official languageof the state.[11] The main ethnic group are the migrations that overran the region in waves between 1500 and 500 B.C.",
    most_spoken_languages: [
       {
           "language": "Punjabi",
