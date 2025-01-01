@@ -143,6 +143,17 @@ const stateFolkmusics = [
             { name: "Oyilattam Music", description: "Traditional music performed by men, characterized by energetic rhythms and the use of handkerchiefs, often performed during festivals and celebrations." }
         ]
     },
+
+    {
+        id: "IN-AP",
+        Folkmusics: [
+            { name: "Kuchipudi Music", description: "Classical music accompanying the Kuchipudi dance, known for its graceful melodies, expressive rhythms, and dramatic storytelling." },
+            { name: "Veeranatyam Songs", description: "Traditional songs performed in honor of Lord Shiva, characterized by vigorous rhythms and the use of traditional instruments like the 'Veerabhadra' drum." },
+            { name: "Butta Bommalu Tunes", description: "Folk tunes where performers wear large, colorful masks and costumes, depicting various characters and stories from mythology and folklore." },
+            { name: "Dappu Melodies", description: "Vibrant melodies performed with the 'Dappu' drum, characterized by rhythmic beats and energetic tunes, often performed during festivals and celebrations." },
+            { name: "Lambadi Songs", description: "Traditional songs of the Lambadi tribe, characterized by colorful rhythms, intricate melodies, and traditional instruments, often depicting their daily life and culture." }
+        ]
+    },
  
  
 ];
