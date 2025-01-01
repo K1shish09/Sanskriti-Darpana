@@ -340,6 +340,17 @@ const stateFolkdances = [
         { name: "Bachha Nagma", description: "A traditional dance performed by young boys dressed as girls, characterized by lively movements and vibrant costumes." }
     ]
 },
+
+{
+    id: 'IN-CH',
+    Folkdances: [
+        { name: "Gidda", description: "A traditional dance performed by women, characterized by graceful movements and rhythmic clapping, often performed during festivals and celebrations." },
+        { name: "Bhangra", description: "A lively and energetic dance form originating from Punjab, characterized by vigorous movements and vibrant music." },
+        { name: "Jhoomar", description: "A traditional dance performed by men, characterized by slow and graceful movements, often performed during harvest festivals." },
+        { name: "Sammi", description: "A traditional dance performed by women, characterized by graceful hand movements and vibrant costumes." },
+        { name: "Dhamal", description: "A folk dance performed by men, characterized by vigorous movements and rhythmic beats, often performed during festivals and celebrations." }
+    ]
+},
  
  
 ];
