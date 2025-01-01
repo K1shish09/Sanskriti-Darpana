@@ -56,6 +56,40 @@ const stateDress = [
     ]
  },
 
+ {
+    id: "IN-NL",
+    Dresses: [
+        { name: "Naga Shawl", description: "Traditional shawl worn by both men and women, characterized by its vibrant colors and intricate patterns." },
+        { name: "Angami Skirt", description: "Traditional attire for women of the Angami tribe, consisting of a wraparound skirt, often paired with a blouse and adorned with beads and jewelry." },
+        { name: "Ao Warrior Attire", description: "Traditional attire for men of the Ao tribe, consisting of a loincloth and a shawl, often adorned with traditional patterns and designs." },
+        { name: "Zeliang Ornaments", description: "Traditional jewelry worn by the Zeliang tribe, often made from beads, shells, and other materials." },
+        { name: "Konyak Headgear", description: "Traditional headgear worn by the Konyak tribe, often adorned with feathers, beads, and other decorations." }
+    ]
+ },
+ 
+ {
+    id: "IN-MN",
+    Dresses: [
+        { name: "Innaphi and Phanek", description: "Traditional attire for women, consisting of a shawl (Innaphi) and a wraparound skirt (Phanek), often adorned with intricate designs." },
+        { name: "Khudei", description: "Traditional attire for men, consisting of a white cloth wrapped around the waist and legs, often paired with a shirt." },
+        { name: "Rani Phee", description: "A traditional shawl worn by women, characterized by its elegant draping and intricate patterns." },
+        { name: "Manipuri Jewelry", description: "Traditional jewelry made from gold and silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." },
+        { name: "Potloi", description: "Traditional bridal attire for women, characterized by its elaborate designs and vibrant colors." }
+    ]
+ },
+ 
+ 
+ {
+    id: "IN-MZ",
+    Dresses: [
+        { name: "Puan", description: "Traditional attire for women, consisting of a wraparound skirt, often paired with a blouse and adorned with beads and jewelry." },
+        { name: "Puanchei", description: "A traditional skirt worn by women during festivals and special occasions, characterized by its vibrant colors and intricate patterns." },
+        { name: "Kawrchei", description: "Traditional blouse worn by women, often paired with a Puan and adorned with beads and jewelry." },
+        { name: "Ngotekherh", description: "Traditional attire for men, consisting of a wraparound skirt and a shirt, often adorned with traditional patterns and designs." },
+        { name: "Mizo Ornaments", description: "Traditional jewelry worn by the Mizo people, often made from beads, shells, and other materials." }
+    ]
+ },
+
 
 
 
