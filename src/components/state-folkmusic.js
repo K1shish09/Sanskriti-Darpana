@@ -307,6 +307,50 @@ const stateFolkmusics = [
             { name: "Kachhi Ghodi Songs", description: "Traditional songs performed by men, depicting tales of local bandits and heroes, characterized by vibrant rhythms and energetic melodies." }
         ]
     },
+
+    {
+        id: 'IN-DL',
+        Folkmusics: [
+            { name: "Kathak Music", description: "Classical music known for its intricate rhythms, expressive melodies, and storytelling, often depicting tales from Hindu mythology." },
+            { name: "Dandiya Raas Tunes", description: "Folk tunes performed with sticks, where musicians create rhythmic patterns by striking the sticks together, often performed during Navratri." },
+            { name: "Bhangra Beats", description: "Lively and energetic beats originating from Punjab, characterized by vigorous rhythms and vibrant melodies." },
+            { name: "Gidda Songs", description: "Traditional songs performed by women, characterized by graceful rhythms and rhythmic clapping, often performed during festivals and celebrations." },
+            { name: "Chhau Music", description: "Music accompanying the Chhau dance, a semi-classical Indian dance with martial, tribal, and folk origins." }
+        ]
+    },
+     
+    {
+        id: 'IN-HR',
+        Folkmusics: [
+            { name: "Saang Music", description: "Traditional folk theatre music that combines dance, music, and drama, often depicting social issues and cultural themes." },
+            { name: "Dhamal Beats", description: "Folk beats performed by men, characterized by vigorous rhythms and energetic melodies, often performed during festivals and celebrations." },
+            { name: "Phag Tunes", description: "Traditional tunes performed during the Holi festival, characterized by lively rhythms and vibrant melodies." },
+            { name: "Loor Melodies", description: "Folk melodies performed by women during the harvest season, characterized by graceful rhythms and traditional instruments." },
+            { name: "Ghoomar Songs", description: "Traditional songs performed by women, characterized by graceful rhythms and swirling melodies, often performed during festivals and celebrations." }
+        ]
+    },
+    
+    {
+        id: 'IN-JK',
+        Folkmusics: [
+            { name: "Rouf Songs", description: "Traditional songs performed by women during the spring season, characterized by graceful rhythms and synchronized melodies." },
+            { name: "Bhand Pather Music", description: "Traditional theatre music that combines dance, music, and drama, often depicting social issues and cultural themes." },
+            { name: "Dumhal Tunes", description: "Traditional tunes performed by men of the Wattal tribe, characterized by vigorous rhythms and the use of long, colorful robes." },
+            { name: "Hafiza Melodies", description: "Traditional melodies performed by women, characterized by graceful rhythms and accompanied by Sufi music." },
+            { name: "Bachha Nagma Songs", description: "Traditional songs performed by young boys dressed as girls, characterized by lively rhythms and vibrant melodies." }
+        ]
+    },
+     
+    {
+        id: 'IN-CH',
+        Folkmusics: [
+            { name: "Gidda Songs", description: "Traditional songs performed by women, characterized by graceful rhythms and rhythmic clapping, often performed during festivals and celebrations." },
+            { name: "Bhangra Beats", description: "Lively and energetic beats originating from Punjab, characterized by vigorous rhythms and vibrant melodies." },
+            { name: "Jhoomar Tunes", description: "Traditional tunes performed by men, characterized by slow and graceful rhythms, often performed during harvest festivals." },
+            { name: "Sammi Melodies", description: "Traditional melodies performed by women, characterized by graceful hand movements and vibrant rhythms." },
+            { name: "Dhamal Music", description: "Folk music performed by men, characterized by vigorous rhythms and energetic beats, often performed during festivals and celebrations." }
+        ]
+    },
     
     
     
