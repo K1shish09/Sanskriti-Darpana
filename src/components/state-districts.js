@@ -341,36 +341,47 @@ Districts:[
  
  {
     id: "IN-AP",
-    dist_info: "Arunachal Pradesh has a total of 25 districts. Newly added districts are Lepa Rada, Pakke Kessang, and Shi Yomi.",
-    districts: [
-        "1. Anjaw",
-        "2. Bichom *",
-        "3. Siang",
-        "4. Changlang",
-        "5. Dibang Valley",
-        "6. East Kameng",
-        "7. East Siang",
-        "8. Kamle",
-        "9. Keyi Panyor *",
-        "10. Kra Daadi",
-        "11. Kurung Kumey",
-        "12. Lepa Rada *",
-        "13. Lohit",
-        "14. Longding",
-        "15. Lower Dibang Valley",
-        "16. Lower Siang",
-        "17. Lower Subansiri",
-        "18. Namsai",
-        "19. Pakke Kessang *",
-        "20. Papum Pare",
-        "21. Shi Yomi *",
-        "22. Tawang",
-        "23. Tirap",
-        "24. Upper Siang",
-        "25. Upper Subansiri",
-        "26. West Kameng",
-        "27. West Siang"
-    ]
+    dist_info:"Arunachal Pradesh is made up of 26 districts. Every district of the state is governed by a district collector who also looks after the requirements of the regional population. Given below are the names of the 16 districts of Arunachal Pradesh: ",
+    Capital: ["Amaravati"],
+    Total_Districts: [26],
+    Districts:[
+    "1. Anantapur",
+    "2. Chittoor",
+    "3. East Godavari",
+    "4. Guntur",
+    "5. Kadapa",
+    "6. Krishna",
+    "7. Kurnool",
+    "8. Prakasam",
+    "9. Srikakulam",
+    "10. Visakhapatnam",
+    "11. Vizianagaram",
+    "12. West Godavari",
+    "13. Nellore",
+    "14. Bapatla",
+    "15. Anakapalli",
+    "16. Peddapalli",
+    "17. Rayalaseema",
+    "18. Palnadu",
+    "19. Godavari",
+    "20. Amaravati",
+    "21. Nandyal",
+    "22. Araku Valley",
+    "23. Madanapalle",
+    "24. Rajamahendravaram",
+    "25. Kakinada",
+    "26. Tirupati"
+ ]
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 },
  {
     id: "IN-PY",
