@@ -4,11 +4,12 @@ import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
 import ViperIsland from "../Assets/Heritage/ViperIsland.jpeg";
 import Anthropological from "../Assets/Heritage/Anthropological.jpeg";
 import ChidiyaTapu from "../Assets/Heritage/ChidiyaTapu.jpeg";
-import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
-import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
-import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
-import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
-import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
+import BangaramAtoll from "../Assets/Heritage/BangaramAtoll.jpeg";
+import Lighthouse from "../Assets/Heritage/Lighthouse.jpeg";
+import AgattiIsland from "../Assets/Heritage/AgattiIsland.jpeg";
+import Kavaratti from "../Assets/Heritage/Kavaratti.jpeg";
+
+import Kalpeni from "../Assets/Heritage/Kalpeni.jpeg";
 import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
 import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
 import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
@@ -52,19 +53,19 @@ const stateheritage = [
         heritageSites: [
             {
                 name: "Bangaram Atoll",
-                description: "Bangaram Atoll is a stunning heritage site and one of the most beautiful islands in Lakshadweep. Known for its pristine beaches, turquoise waters, and vibrant coral reefs, it attracts nature lovers and history enthusiasts alike. The atoll showcases traditional fishing practices, offering a glimpse into the local culture. It is home to ancient shipwrecks, providing historical significance to the marine ecosystem. The serene atmosphere and rich biodiversity make it a unique cultural and ecological heritage. It’s a must-visit for those seeking a mix of history and natural beauty."
+                description: "Bangaram Atoll is a stunning heritage site and one of the most beautiful islands in Lakshadweep. Known for its pristine beaches, turquoise waters, and vibrant coral reefs, it attracts nature lovers and history enthusiasts alike. The atoll showcases traditional fishing practices, offering a glimpse into the local culture. It is home to ancient shipwrecks, providing historical significance to the marine ecosystem. The serene atmosphere and rich biodiversity make it a unique cultural and ecological heritage. It’s a must-visit for those seeking a mix of history and natural beauty.", image: BangaramAtoll
             }, {
                 name: "Minicoy Lighthouse",
-                description: "Built in 1885, the Minicoy Lighthouse is an iconic heritage structure in Lakshadweep. Standing at 49 meters tall, it offers breathtaking panoramic views of the surrounding lagoon and island. The lighthouse represents the island's maritime history and is a reminder of its importance in navigation. Visitors can learn about its British colonial origins and its role in connecting trade routes. It stands as a symbol of Lakshadweep's historical significance in Indian Ocean trade. The site also attracts tourists with its picturesque surroundings and cultural relevance."
+                description: "Built in 1885, the Minicoy Lighthouse is an iconic heritage structure in Lakshadweep. Standing at 49 meters tall, it offers breathtaking panoramic views of the surrounding lagoon and island. The lighthouse represents the island's maritime history and is a reminder of its importance in navigation. Visitors can learn about its British colonial origins and its role in connecting trade routes. It stands as a symbol of Lakshadweep's historical significance in Indian Ocean trade. The site also attracts tourists with its picturesque surroundings and cultural relevance.", image: Lighthouse
             }, {
                 name: "Kalpeni Island",
-                description: "Kalpeni Island is a heritage site known for its natural beauty and cultural importance in Lakshadweep. It is famed for its lagoon, which contains a rich ecosystem of coral and marine life. The island has historical significance due to its association with ancient trading routes. Traditional Lakshadweep crafts and folklore are preserved here, reflecting the island's cultural identity. Kalpeni's beaches and coconut groves provide an idyllic backdrop for exploring its heritage. Visitors can also experience local festivals that highlight the island's vibrant traditions."
+                description: "Kalpeni Island is a heritage site known for its natural beauty and cultural importance in Lakshadweep. It is famed for its lagoon, which contains a rich ecosystem of coral and marine life. The island has historical significance due to its association with ancient trading routes. Traditional Lakshadweep crafts and folklore are preserved here, reflecting the island's cultural identity. Kalpeni's beaches and coconut groves provide an idyllic backdrop for exploring its heritage. Visitors can also experience local festivals that highlight the island's vibrant traditions.", image: Kalpeni
             }, {
                 name: "Agatti Island",
-                description: "Agatti Island is not only a gateway to Lakshadweep but also a site of cultural and historical significance. It is known for its traditional boat-building practices, an ancient craft passed down through generations. The island features scenic beaches and coral reefs that support diverse marine life. Historical accounts link the island to early seafaring communities and their interaction with foreign traders. Agatti’s local culture, including dance and music, reflects the heritage of the islanders. It’s a perfect blend of historical charm and natural beauty."
+                description: "Agatti Island is not only a gateway to Lakshadweep but also a site of cultural and historical significance. It is known for its traditional boat-building practices, an ancient craft passed down through generations. The island features scenic beaches and coral reefs that support diverse marine life. Historical accounts link the island to early seafaring communities and their interaction with foreign traders. Agatti’s local culture, including dance and music, reflects the heritage of the islanders. It’s a perfect blend of historical charm and natural beauty.", image: AgattiIsland
             }, {
                 name: "Kavaratti Island",
-                description: "Kavaratti Island, the administrative capital of Lakshadweep, is a significant heritage site. It houses historical mosques, such as the Ujra Mosque, known for its intricate carvings and architectural beauty. The island showcases the rich maritime culture of Lakshadweep, with traditional fishing methods still practiced today. Its turquoise lagoons and sandy beaches have cultural and ecological importance. The Marine Aquarium here exhibits the island’s diverse marine heritage. Kavaratti offers a unique mix of history, spirituality, and natural allure, making it a key heritage destination."
+                description: "Kavaratti Island, the administrative capital of Lakshadweep, is a significant heritage site. It houses historical mosques, such as the Ujra Mosque, known for its intricate carvings and architectural beauty. The island showcases the rich maritime culture of Lakshadweep, with traditional fishing methods still practiced today. Its turquoise lagoons and sandy beaches have cultural and ecological importance. The Marine Aquarium here exhibits the island’s diverse marine heritage. Kavaratti offers a unique mix of history, spirituality, and natural allure, making it a key heritage destination.", image: Kavaratti
             }
 
         ]
