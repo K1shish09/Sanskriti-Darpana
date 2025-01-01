@@ -132,6 +132,17 @@ const stateFolkmusics = [
             { name: "Kalaripayattu Music", description: "Ancient martial music form that combines combat techniques with rhythmic beats, showcasing agility, strength, and coordination." }
         ]
     },
+
+    {
+        id: "IN-TN",
+        Folkmusics: [
+            { name: "Bharatanatyam Music", description: "Classical music accompanying the Bharatanatyam dance, known for its intricate rhythms and expressive melodies." },
+            { name: "Karagattam Songs", description: "Traditional songs performed in praise of the rain goddess Mariamman, characterized by rhythmic beats and vibrant melodies." },
+            { name: "Kummi Tunes", description: "Folk tunes performed by women, characterized by rhythmic clapping and circular melodies, often performed during festivals and social gatherings." },
+            { name: "Mayilattam Melodies", description: "Traditional melodies performed by dancers dressed as peacocks, showcasing graceful and vibrant tunes." },
+            { name: "Oyilattam Music", description: "Traditional music performed by men, characterized by energetic rhythms and the use of handkerchiefs, often performed during festivals and celebrations." }
+        ]
+    },
  
  
 ];
