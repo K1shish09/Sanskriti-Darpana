@@ -106,10 +106,48 @@ import fara from "../Assets/Food/Fara.jpeg";
 import bora from "../Assets/Food/Bora.jpeg";
 import dubkiKadhi from "../Assets/Food/DubkiKadhi.jpeg";
 import Chhattisgarhirice from "../Assets/Food/ChhattisgarhiRice.jpeg";
-import Pindi from "../Assets/Food/Pindi.jpeg";
-import Pindi from "../Assets/Food/Pindi.jpeg";
-import Pindi from "../Assets/Food/Pindi.jpeg";
+import bisiBeleBath from "../Assets/Food/BisiBeleBath.jpeg";
+import ragiMudde from "../Assets/Food/RagiMudde.jpeg";
+import MysorePak from "../Assets/Food/MysorePak.jpeg";
 
+import Dalma from "../Assets/Food/Dalma.jpeg";
+import PakhalaBhata from "../Assets/Food/PakhalaBhata.jpeg";
+import ChhenaPoda from "../Assets/Food/ChhenaPoda.jpeg";
+import machaTarkari from "../Assets/Food/MachaTarkari.jpeg";
+import DahiPakhala from "../Assets/Food/DahiPakhala.jpeg";
+
+import dhokala from "../Assets/Food/dhokala.jpeg";
+import Farcha from "../Assets/Food/Farcha.jpeg";
+import Khaman from "../Assets/Food/Khaman.jpeg";
+import Patra from "../Assets/Food/Patra.jpeg";
+import Pulao from "../Assets/Food/Pulao.jpeg";
+import PuranPoli from "../Assets/Food/Puran Poli.jpeg";
+import vadapav from "../Assets/Food/vadapav.jpeg";
+import Bhakri from "../Assets/Food/Bhakri.jpeg";
+import MisalPav from "../Assets/Food/MisalPav.jpeg";
+import Littichokha from "../Assets/Food/LittiChokha.jpeg";
+import Thekua from "../Assets/Food/Thekua.jpeg";
+import Dhuska from "../Assets/Food/Dhuska.jpeg";
+
+
+import Chaura from "../Assets/Food/Chaura.jpeg";
+import poha from "../Assets/Food/poha.jpeg";
+import bhutteKaKees from "../Assets/Food/BhutteKaKees.jpeg";
+import DalBafla from "../Assets/Food/DalBafla.jpeg";
+import Shikanji from "../Assets/Food/Shikanji.jpeg";
+import MawaBaati from "../Assets/Food/MawaBaati.jpeg";
+import Khandvi from "../Assets/Food/Khandvi.jpeg";
+import Undhiyu from "../Assets/Food/Undhiyu.jpeg";
+
+import Thepla from "../Assets/Food/Thepla.jpeg";
+import Feni from "../Assets/Food/Feni.jpeg";
+import fishrice from "../Assets/Food/fishrice.jpeg";
+import DalBaatichurma from "../Assets/Food/DalBaatichurma.jpeg";
+import Gatte from "../Assets/Food/Gatte.jpeg";
+import LaalMaas from "../Assets/Food/LaalMaas.jpeg";
+import KerSangri from "../Assets/Food/Kersangri.jpeg";
+import MawaKachori from "../Assets/Food/MawaKachori.jpeg";
+import Undhiyu from "../Assets/Food/Undhiyu.jpeg";
 
 
 
@@ -630,15 +668,15 @@ const stateFoods = [
 
             {
                 "name": "Bisi Bele Bath",
-                "description": "A traditional dish of Karnataka, Bisi Bele Bath is a rice-based dish cooked with lentils, vegetables, and a special blend of spices. The name literally means 'hot lentil rice.' The dish is often served with a dollop of ghee on top and a side of crispy papad. It is both comforting and nutritious, enjoyed across all age groups. This dish combines the flavors of tamarind, curry leaves, and roasted spices for a unique taste. Popular during festive occasions and family meals.", image:
+                "description": "A traditional dish of Karnataka, Bisi Bele Bath is a rice-based dish cooked with lentils, vegetables, and a special blend of spices. The name literally means 'hot lentil rice.' The dish is often served with a dollop of ghee on top and a side of crispy papad. It is both comforting and nutritious, enjoyed across all age groups. This dish combines the flavors of tamarind, curry leaves, and roasted spices for a unique taste. Popular during festive occasions and family meals.", image: bisiBeleBath
             },
             {
                 "name": "Ragi Mudde",
-                "description": "Ragi Mudde, or finger millet balls, is a staple food of rural Karnataka. The ragi flour is cooked into a dough-like consistency and shaped into balls. It is typically served with a variety of curries, chutneys, or sambar. Ragi, being a rich source of iron and fiber, makes this dish highly nutritious. It's a simple yet filling meal, often enjoyed as a lunch or dinner. It's deeply rooted in the local traditions and farming culture of the state.", image:
+                "description": "Ragi Mudde, or finger millet balls, is a staple food of rural Karnataka. The ragi flour is cooked into a dough-like consistency and shaped into balls. It is typically served with a variety of curries, chutneys, or sambar. Ragi, being a rich source of iron and fiber, makes this dish highly nutritious. It's a simple yet filling meal, often enjoyed as a lunch or dinner. It's deeply rooted in the local traditions and farming culture of the state.", image: ragiMudde
             },
             {
                 "name": "Mysore Pak",
-                "description": "Mysore Pak is a rich, sweet dessert that originated in the royal kitchens of Mysore. It is made with ghee, sugar, and chickpea flour, cooked to perfection until it achieves a melt-in-the-mouth texture. The golden, aromatic sweetness of this dish makes it a favorite during festivals and special occasions. Mysore Pak is known for its indulgent, buttery richness. Its origins date back to the time of the Wodeyar dynasty. It is often serv", image:
+                "description": "Mysore Pak is a rich, sweet dessert that originated in the royal kitchens of Mysore. It is made with ghee, sugar, and chickpea flour, cooked to perfection until it achieves a melt-in-the-mouth texture. The golden, aromatic sweetness of this dish makes it a favorite during festivals and special occasions. Mysore Pak is known for its indulgent, buttery richness. Its origins date back to the time of the Wodeyar dynasty. It is often serv", image: MysorePak
             }
 
         ]
@@ -649,23 +687,23 @@ const stateFoods = [
 
             {
                 name: "Dalma",
-                description: "Dalma is a traditional Odia dish made with lentils and vegetables. The dish is typically prepared with a variety of seasonal vegetables like pumpkin, raw banana, and potatoes. It's seasoned with a mix of spices such as cumin, ginger, and garlic, along with a tempering of ghee. Dalma is nutritious and rich in protein. It is often served with rice, making it a staple meal in many Odia households. The combination of lentils and vegetables creates a wholesome, hearty flavor.", image:
+                description: "Dalma is a traditional Odia dish made with lentils and vegetables. The dish is typically prepared with a variety of seasonal vegetables like pumpkin, raw banana, and potatoes. It's seasoned with a mix of spices such as cumin, ginger, and garlic, along with a tempering of ghee. Dalma is nutritious and rich in protein. It is often served with rice, making it a staple meal in many Odia households. The combination of lentils and vegetables creates a wholesome, hearty flavor.", image: Dalma
             },
             {
                 name: "Pakhala Bhata",
-                description: "Pakhala Bhata is a fermented rice dish popular in Odisha, typically eaten during the summer. The rice is soaked in water overnight, resulting in a tangy flavor that is refreshing. It is usually paired with fried vegetables, fish fry, or chutneys. This dish is not only loved for its taste but also for its cooling properties, making it perfect for hot weather. It is considered a symbol of Odia culture and is served during festivals and special occasions. Pakhala Bhata is a healthy and hydrating meal.", image:
+                description: "Pakhala Bhata is a fermented rice dish popular in Odisha, typically eaten during the summer. The rice is soaked in water overnight, resulting in a tangy flavor that is refreshing. It is usually paired with fried vegetables, fish fry, or chutneys. This dish is not only loved for its taste but also for its cooling properties, making it perfect for hot weather. It is considered a symbol of Odia culture and is served during festivals and special occasions. Pakhala Bhata is a healthy and hydrating meal.", image: PakhalaBhata
             },
             {
                 name: "Chhena Poda",
-                description: "Chhena Poda is a famous sweet dish of Odisha made from chhena (Indian cottage cheese) and sugar. The mixture is baked until golden brown, creating a unique caramelized flavor. It is often flavored with cardamom and nuts, giving it an aromatic sweetness. This dish is typically prepared during festivals like Raja and Diwali. Chhena Poda has a dense, chewy texture that makes it stand out from other Indian sweets. It is a beloved dessert in Odisha and a must-try for sweet lovers.", image:
+                description: "Chhena Poda is a famous sweet dish of Odisha made from chhena (Indian cottage cheese) and sugar. The mixture is baked until golden brown, creating a unique caramelized flavor. It is often flavored with cardamom and nuts, giving it an aromatic sweetness. This dish is typically prepared during festivals like Raja and Diwali. Chhena Poda has a dense, chewy texture that makes it stand out from other Indian sweets. It is a beloved dessert in Odisha and a must-try for sweet lovers.", image: ChhenaPoda
             },
             {
                 name: "Macha Tarkari",
-                description: "Macha Tarkari is a fish curry, commonly prepared in Odia households using freshwater fish like Rohu or Catla. The fish is cooked in a gravy made with tomatoes, onions, garlic, and a variety of spices like turmeric, cumin, and coriander. The curry is rich and flavorful, with the spices enhancing the delicate taste of the fish. It is often enjoyed with steamed rice. Macha Tarkari is a traditional Odia delicacy that reflects the region's love for fresh fish and savory dishes. It is a key part of many family meals and celebrations.", image:
+                description: "Macha Tarkari is a fish curry, commonly prepared in Odia households using freshwater fish like Rohu or Catla. The fish is cooked in a gravy made with tomatoes, onions, garlic, and a variety of spices like turmeric, cumin, and coriander. The curry is rich and flavorful, with the spices enhancing the delicate taste of the fish. It is often enjoyed with steamed rice. Macha Tarkari is a traditional Odia delicacy that reflects the region's love for fresh fish and savory dishes. It is a key part of many family meals and celebrations.", image: machaTarkari
             },
             {
                 name: "Dahi Pakhala",
-                description: "Dahi Pakhala is a variant of the classic Pakhala Bhata, where the rice is mixed with yogurt instead of just water. The dish is cooling and refreshing, making it a popular choice during summer. It is often served with fried vegetables, mashed potatoes, or fish. The tanginess from the yogurt adds a creamy texture and distinct flavor to the dish. Dahi Pakhala is a comfort food in Odisha, known for its simplicity and health benefits. It’s especially loved during the Maha Vishuba Sankranti festival.", image:
+                description: "Dahi Pakhala is a variant of the classic Pakhala Bhata, where the rice is mixed with yogurt instead of just water. The dish is cooling and refreshing, making it a popular choice during summer. It is often served with fried vegetables, mashed potatoes, or fish. The tanginess from the yogurt adds a creamy texture and distinct flavor to the dish. Dahi Pakhala is a comfort food in Odisha, known for its simplicity and health benefits. It’s especially loved during the Maha Vishuba Sankranti festival.", image: DahiPakhala
             }
         ]
 
@@ -676,24 +714,24 @@ const stateFoods = [
 
         food: [
             {
-                name: "Dhokla",
-                description: "Dhokla is a popular steamed snack, made from fermented rice and chickpea flour. It has a spongy texture and is mildly sour, often flavored with mustard seeds, green chilies, and curry leaves. The dish is typically served with tamarind chutney and coriander chutney. Dhokla is enjoyed as a breakfast, snack, or even as a light meal. It's a healthy, low-calorie option that is light on the stomach. This dish is a perfect blend of flavors and is widely consumed in Dadar and Nagar Haveli.", image:
+                name: "Dokhala",
+                description: "Dhokla is a popular steamed snack, made from fermented rice and chickpea flour. It has a spongy texture and is mildly sour, often flavored with mustard seeds, green chilies, and curry leaves. The dish is typically served with tamarind chutney and coriander chutney. Dhokla is enjoyed as a breakfast, snack, or even as a light meal. It's a healthy, low-calorie option that is light on the stomach. This dish is a perfect blend of flavors and is widely consumed in Dadar and Nagar Haveli.", image:dhokala
             },
             {
                 name: "Farcha",
-                description: "Farcha is a famous deep-fried chicken dish that is seasoned with a blend of aromatic spices. The chicken is marinated with ingredients like ginger, garlic, red chili powder, and garam masala to bring out a rich, flavorful taste. It is crispy on the outside and tender on the inside, making it a popular street food. Farcha is often served with fresh onions, lemon wedges, and a side of mint chutney. It has a golden, crispy texture and is loved for its spicy kick. The dish is usually paired with a hot cup of tea.", image:
+                description: "Farcha is a famous deep-fried chicken dish that is seasoned with a blend of aromatic spices. The chicken is marinated with ingredients like ginger, garlic, red chili powder, and garam masala to bring out a rich, flavorful taste. It is crispy on the outside and tender on the inside, making it a popular street food. Farcha is often served with fresh onions, lemon wedges, and a side of mint chutney. It has a golden, crispy texture and is loved for its spicy kick. The dish is usually paired with a hot cup of tea.", image: Farcha
             },
             {
                 name: "Khaman",
-                description: "Khaman is a savory, steamed snack made from chickpea flour, similar to Dhokla but with a more spongy, fluffy texture. It is traditionally flavored with mustard seeds, curry leaves, and a dash of sugar to balance the savory taste. Khaman is often garnished with fresh coriander and a squeeze of lemon for added zest. It is commonly served with a side of chutneys, such as tamarind or coconut chutney. The dish is light, nutritious, and easy to digest. Popular during festivals and as a tea-time snack, Khaman is widely enjoyed.", image:
+                description: "Khaman is a savory, steamed snack made from chickpea flour, similar to Dhokla but with a more spongy, fluffy texture. It is traditionally flavored with mustard seeds, curry leaves, and a dash of sugar to balance the savory taste. Khaman is often garnished with fresh coriander and a squeeze of lemon for added zest. It is commonly served with a side of chutneys, such as tamarind or coconut chutney. The dish is light, nutritious, and easy to digest. Popular during festivals and as a tea-time snack, Khaman is widely enjoyed.", image: Khaman
             },
             {
                 name: "Patra",
-                description: "Patra is a savory snack made by spreading a spiced chickpea flour paste on colocasia leaves, then rolling them up and steaming the roll. The leaf roll is sliced into bite-sized pieces, showcasing a beautiful spiral pattern. It has a unique combination of flavors, with the bitterness of the leaves and the spiciness of the chickpea flour mix. Patra is often served with tamarind or green chutney for added taste. It is a popular street food and snack in Dadar and Nagar Haveli, often eaten during festivals. The dish is nutritious and offers a delightful texture.", image:
+                description: "Patra is a savory snack made by spreading a spiced chickpea flour paste on colocasia leaves, then rolling them up and steaming the roll. The leaf roll is sliced into bite-sized pieces, showcasing a beautiful spiral pattern. It has a unique combination of flavors, with the bitterness of the leaves and the spiciness of the chickpea flour mix. Patra is often served with tamarind or green chutney for added taste. It is a popular street food and snack in Dadar and Nagar Haveli, often eaten during festivals. The dish is nutritious and offers a delightful texture.", image: Patra
             },
             {
                 name: "Pulao",
-                description: "Pulao is a fragrant rice dish cooked with a variety of spices, including cinnamon, cloves, and cardamom, often mixed with vegetables or meat. It is commonly made with basmati rice, giving it a delicate aroma. The rice is cooked with the spices and other ingredients to create a flavorful, one-pot dish. Pulao can be served as a side dish or as a main course, depending on the accompaniments. It pairs well with curries, raita, and salads, making it a versatile meal. This dish is widely loved in Dadar and Nagar Haveli for its rich, aromatic flavor.", image:
+                description: "Pulao is a fragrant rice dish cooked with a variety of spices, including cinnamon, cloves, and cardamom, often mixed with vegetables or meat. It is commonly made with basmati rice, giving it a delicate aroma. The rice is cooked with the spices and other ingredients to create a flavorful, one-pot dish. Pulao can be served as a side dish or as a main course, depending on the accompaniments. It pairs well with curries, raita, and salads, making it a versatile meal. This dish is widely loved in Dadar and Nagar Haveli for its rich, aromatic flavor.", image: Pulao
             }
         ]
 
@@ -705,19 +743,19 @@ const stateFoods = [
 
             {
                 name: "Puran Poli",
-                description: "Puran Poli is a traditional Maharashtrian sweet flatbread made during festivals like Gudi Padwa. It is stuffed with a mixture of jaggery and chana dal (split chickpeas) and flavored with cardamom. The dough is soft and golden brown once cooked. Puran Poli is served with ghee, making it a rich and indulgent treat. This dish is a part of many religious celebrations and is highly popular in the state. Its perfect balance of sweetness and spice makes it a beloved dish in Maharashtra.", image:
+                description: "Puran Poli is a traditional Maharashtrian sweet flatbread made during festivals like Gudi Padwa. It is stuffed with a mixture of jaggery and chana dal (split chickpeas) and flavored with cardamom. The dough is soft and golden brown once cooked. Puran Poli is served with ghee, making it a rich and indulgent treat. This dish is a part of many religious celebrations and is highly popular in the state. Its perfect balance of sweetness and spice makes it a beloved dish in Maharashtra.", image: PuranPoli
             },
             {
                 name: "Vada Pav",
-                description: "Vada Pav is often referred to as Mumbai’s iconic street food, a spicy potato fritter served in a bun. The patty is made from mashed potatoes mixed with spices, dipped in chickpea flour batter, and deep-fried. It’s served with chutneys like garlic and tamarind and sometimes with fried green chilies. The sandwich-like preparation makes it an easy and delicious snack, loved by all. Vada Pav can be found in nearly every corner of Mumbai and Maharashtra. It’s a perfect blend of crispy, spicy, and savory flavors.", image:
+                description: "Vada Pav is often referred to as Mumbai’s iconic street food, a spicy potato fritter served in a bun. The patty is made from mashed potatoes mixed with spices, dipped in chickpea flour batter, and deep-fried. It’s served with chutneys like garlic and tamarind and sometimes with fried green chilies. The sandwich-like preparation makes it an easy and delicious snack, loved by all. Vada Pav can be found in nearly every corner of Mumbai and Maharashtra. It’s a perfect blend of crispy, spicy, and savory flavors.", image:vadapav
             },
             {
                 name: "Bhakri",
-                description: "Bhakri is a traditional flatbread made from various flours like jowar, bajra, or wheat. It’s thick, hearty, and slightly dense, often served with curry or chutney. In rural Maharashtra, it’s considered a staple food and is typically eaten with buttermilk or a side of vegetables. The robust flavor of bhakri complements the spicy gravies and lentils it’s paired with. It is particularly enjoyed in the monsoon season as comfort food. Bhakri is a true representation of Maharashtra's rural culinary traditions.", image:
+                description: "Bhakri is a traditional flatbread made from various flours like jowar, bajra, or wheat. It’s thick, hearty, and slightly dense, often served with curry or chutney. In rural Maharashtra, it’s considered a staple food and is typically eaten with buttermilk or a side of vegetables. The robust flavor of bhakri complements the spicy gravies and lentils it’s paired with. It is particularly enjoyed in the monsoon season as comfort food. Bhakri is a true representation of Maharashtra's rural culinary traditions.", image: Bhakri
             },
             {
                 name: "Misal Pav",
-                description: "Misal Pav is a spicy and savory curry made with sprouted lentils, topped with farsan (crunchy fried snacks) and served with pav (bread rolls). The dish is a perfect balance of spicy, tangy, and crunchy. The base is a flavorful curry made from onions, tomatoes, and a blend of spices. Misal Pav is often", image:
+                description: "Misal Pav is a spicy and savory curry made with sprouted lentils, topped with farsan (crunchy fried snacks) and served with pav (bread rolls). The dish is a perfect balance of spicy, tangy, and crunchy. The base is a flavorful curry made from onions, tomatoes, and a blend of spices. Misal Pav is often", image: MisalPav
             }
 
         ]
@@ -728,23 +766,23 @@ const stateFoods = [
 
             {
                 name: "Litti Chokha",
-                description: "Litti Chokha is a traditional dish from Jharkhand, consisting of round wheat flour dough balls stuffed with roasted gram flour and spices. These littis are roasted over an open flame, giving them a smoky flavor. Chokha is a mashed mixture of vegetables like eggplant, tomatoes, and potatoes, seasoned with mustard oil, garlic, and green chilies. This dish is served with ghee, enhancing its richness. It’s a popular snack or meal, especially during festivals and special occasions. Litti Chokha is a great example of the rustic flavors of Jharkhand’s cuisine.", image:
+                description: "Litti Chokha is a traditional dish from Jharkhand, consisting of round wheat flour dough balls stuffed with roasted gram flour and spices. These littis are roasted over an open flame, giving them a smoky flavor. Chokha is a mashed mixture of vegetables like eggplant, tomatoes, and potatoes, seasoned with mustard oil, garlic, and green chilies. This dish is served with ghee, enhancing its richness. It’s a popular snack or meal, especially during festivals and special occasions. Litti Chokha is a great example of the rustic flavors of Jharkhand’s cuisine.", image: Littichokha
             },
             {
                 name: "Thekua",
-                description: "Thekua is a traditional sweet snack from Jharkhand, often prepared during festivals like Chhath Puja. Made from wheat flour, jaggery, and ghee, the dough is shaped into small round or oval pieces and deep-fried until crispy. The sweetness comes from the jaggery, which gives it a distinct, earthy flavor. It is a crunchy, yet soft snack that pairs perfectly with tea or milk. Thekua is loved for its rich, wholesome taste and is a significant part of the cultural food heritage of the region. It symbolizes prosperity and is an essential part of Jharkhand’s culinary traditions.", image:
+                description: "Thekua is a traditional sweet snack from Jharkhand, often prepared during festivals like Chhath Puja. Made from wheat flour, jaggery, and ghee, the dough is shaped into small round or oval pieces and deep-fried until crispy. The sweetness comes from the jaggery, which gives it a distinct, earthy flavor. It is a crunchy, yet soft snack that pairs perfectly with tea or milk. Thekua is loved for its rich, wholesome taste and is a significant part of the cultural food heritage of the region. It symbolizes prosperity and is an essential part of Jharkhand’s culinary traditions.", image: Thekua
             },
             {
                 name: "Dhuska",
-                description: "Dhuska is a savory fried snack made from a mixture of rice and lentils, often enjoyed with a variety of chutneys or curries. The ingredients are soaked overnight, ground into a batter, and deep-fried into small, crispy patties. The dish has a soft inside with a crunchy exterior, offering a delightful contrast in texture. It's typically served with aloo curry (potato curry) or meat curry, making it a hearty meal. Dhuska is a common dish in the homes of Jharkhand and is also widely served during festivals and gatherings. It is flavorful, spicy, and enjoyed by people of all ages.", image:
+                description: "Dhuska is a savory fried snack made from a mixture of rice and lentils, often enjoyed with a variety of chutneys or curries. The ingredients are soaked overnight, ground into a batter, and deep-fried into small, crispy patties. The dish has a soft inside with a crunchy exterior, offering a delightful contrast in texture. It's typically served with aloo curry (potato curry) or meat curry, making it a hearty meal. Dhuska is a common dish in the homes of Jharkhand and is also widely served during festivals and gatherings. It is flavorful, spicy, and enjoyed by people of all ages.", image: Dhuska
             },
             {
                 name: "Patra",
-                description: "Patra is a steamed snack made from colocasia leaves, which are coated with a spicy gram flour mixture, rolled up, and then steamed. It is typically sliced into round pieces, which look like little pinwheels. The gram flour mixture is seasoned with mustard seeds, turmeric, ginger, garlic, and green chilies, giving it a vibrant, aromatic flavor. Patra is a popular snack in Jharkhand and often served with a tangy tamarind or green chutney. It’s a healthy, low-fat snack that offers a unique combination of flavors and textures. This dish showcases the use of local ingredients in Jharkhand’s cuisine.", image:
+                description: "Patra is a steamed snack made from colocasia leaves, which are coated with a spicy gram flour mixture, rolled up, and then steamed. It is typically sliced into round pieces, which look like little pinwheels. The gram flour mixture is seasoned with mustard seeds, turmeric, ginger, garlic, and green chilies, giving it a vibrant, aromatic flavor. Patra is a popular snack in Jharkhand and often served with a tangy tamarind or green chutney. It’s a healthy, low-fat snack that offers a unique combination of flavors and textures. This dish showcases the use of local ingredients in Jharkhand’s cuisine.", image: Patra
             },
             {
                 name: "Chaura",
-                description: "Chaura is a simple yet flavorful rice dish commonly eaten in Jharkhand, especially by tribal communities. It’s made by boiling rice and then adding a variety of vegetables such as peas, potatoes, and carrots. The dish is seasoned with mustard oil, cumin seeds, turmeric, and salt, giving it a mild, aromatic taste. It is often accompanied by chutneys or lentil dishes for a complete meal. Chaura is light, nutritious, and is typically served for breakfast or lunch. It is a comfort food in Jharkhand, loved for its simplicity and wholesome flavors.", image:
+                description: "Chaura is a simple yet flavorful rice dish commonly eaten in Jharkhand, especially by tribal communities. It’s made by boiling rice and then adding a variety of vegetables such as peas, potatoes, and carrots. The dish is seasoned with mustard oil, cumin seeds, turmeric, and salt, giving it a mild, aromatic taste. It is often accompanied by chutneys or lentil dishes for a complete meal. Chaura is light, nutritious, and is typically served for breakfast or lunch. It is a comfort food in Jharkhand, loved for its simplicity and wholesome flavors.", image: Chaura
             }
         ]
 
@@ -756,23 +794,23 @@ const stateFoods = [
 
             {
                 "name": "Poha",
-                "description": "Poha is a popular breakfast dish made from flattened rice, commonly served with peanuts and green chilies. It is garnished with fresh coriander, mustard seeds, and a squeeze of lemon juice. This dish is light yet satisfying, with a mildly tangy and savory flavor. It's usually enjoyed with a cup of tea or coffee. Poha is known for being quick to prepare and offers a great start to the day. Its variations, like the Indori Poha, have earned a special place in Madhya Pradesh's cuisine.", image:
+                "description": "Poha is a popular breakfast dish made from flattened rice, commonly served with peanuts and green chilies. It is garnished with fresh coriander, mustard seeds, and a squeeze of lemon juice. This dish is light yet satisfying, with a mildly tangy and savory flavor. It's usually enjoyed with a cup of tea or coffee. Poha is known for being quick to prepare and offers a great start to the day. Its variations, like the Indori Poha, have earned a special place in Madhya Pradesh's cuisine.", image: poha
             },
             {
                 "name": "Bhutte Ka Kees",
-                "description": "Bhutte Ka Kees is a unique dish made from grated corn cooked with spices and milk. The dish is a mix of sweet and savory flavors, offering a creamy texture with the crunch of corn. It's usually prepared with cumin seeds, mustard seeds, and green chilies. A regional favorite, Bhutte Ka Kees is enjoyed as a side dish or snack. It has its roots in the rural areas of Madhya Pradesh, where corn is widely grown. The dish is both nutritious and delicious, with a comforting quality.", image:
+                "description": "Bhutte Ka Kees is a unique dish made from grated corn cooked with spices and milk. The dish is a mix of sweet and savory flavors, offering a creamy texture with the crunch of corn. It's usually prepared with cumin seeds, mustard seeds, and green chilies. A regional favorite, Bhutte Ka Kees is enjoyed as a side dish or snack. It has its roots in the rural areas of Madhya Pradesh, where corn is widely grown. The dish is both nutritious and delicious, with a comforting quality.", image: bhutteKaKees
             },
             {
                 "name": "Dal Bafla",
-                "description": "Dal Bafla is a traditional dish consisting of wheat dough balls, similar to dumplings, which are steamed or baked. The baflas are served with a rich and spicy dal made from lentils. It is typically served with ghee (clarified butter) for extra richness and flavor. Dal Bafla is a hearty and filling meal, popular during festivals and special occasions. It is often accompanied by pickles and yogurt. The dish is a staple in the Malwa region and is beloved across Madhya Pradesh.", image:
+                "description": "Dal Bafla is a traditional dish consisting of wheat dough balls, similar to dumplings, which are steamed or baked. The baflas are served with a rich and spicy dal made from lentils. It is typically served with ghee (clarified butter) for extra richness and flavor. Dal Bafla is a hearty and filling meal, popular during festivals and special occasions. It is often accompanied by pickles and yogurt. The dish is a staple in the Malwa region and is beloved across Madhya Pradesh.", image: DalBafla
             },
             {
                 "name": "Shikanji",
-                "description": "Shikanji is a refreshing lemonade drink made with a blend of lemon juice, sugar, and a variety of spices such as cumin powder and black salt. This tangy, spicy drink is especially popular in the hot summer months. It is often served chilled, making it a great thirst quencher. Shikanji is a street-side favorite, and each vendor has its own unique twist to the drink. It is garnished with fresh mint and a slice of lemon. This drink is not only flavorful but also helps with digestion.", image:
+                "description": "Shikanji is a refreshing lemonade drink made with a blend of lemon juice, sugar, and a variety of spices such as cumin powder and black salt. This tangy, spicy drink is especially popular in the hot summer months. It is often served chilled, making it a great thirst quencher. Shikanji is a street-side favorite, and each vendor has its own unique twist to the drink. It is garnished with fresh mint and a slice of lemon. This drink is not only flavorful but also helps with digestion.", image: Shikanji
             },
             {
                 "name": "Mawa Baati",
-                "description": "Mawa Baati is a popular dessert in Madhya Pradesh, especially in the Indore region. These are round dumplings made from mawa (condensed milk), flour, and sugar, deep-fried to a golden brown. The baatis are then soaked in sugar syrup, giving them a sweet, rich flavor. Mawa Baati is often served warm, making it a perfect dessert for festive occasions. The combination of mawa and sugar creates a deliciously rich and indulgent treat. It is a favorite sweet for those with a penchant for traditional desserts.", image:
+                "description": "Mawa Baati is a popular dessert in Madhya Pradesh, especially in the Indore region. These are round dumplings made from mawa (condensed milk), flour, and sugar, deep-fried to a golden brown. The baatis are then soaked in sugar syrup, giving them a sweet, rich flavor. Mawa Baati is often served warm, making it a perfect dessert for festive occasions. The combination of mawa and sugar creates a deliciously rich and indulgent treat. It is a favorite sweet for those with a penchant for traditional desserts.", image: MawaBaati
             }
         ]
 
@@ -784,23 +822,23 @@ const stateFoods = [
 
             {
                 "name": "Dhokla",
-                "description": "Dhokla is a savory steamed cake made from fermented rice and chickpea flour. It is spongy, light, and mildly tangy, often garnished with mustard seeds, green chilies, and fresh coriander. This snack is typically served with chutneys and is a popular breakfast or tea-time treat. Originating from Gujarat, it is known for its delicate texture and vibrant flavor. Dhokla is often enjoyed as a snack or appetizer, especially during festivals and gatherings. It can be served hot or cold and is loved for its versatility.", image:
+                "description": "Dhokla is a savory steamed cake made from fermented rice and chickpea flour. It is spongy, light, and mildly tangy, often garnished with mustard seeds, green chilies, and fresh coriander. This snack is typically served with chutneys and is a popular breakfast or tea-time treat. Originating from Gujarat, it is known for its delicate texture and vibrant flavor. Dhokla is often enjoyed as a snack or appetizer, especially during festivals and gatherings. It can be served hot or cold and is loved for its versatility.", image:dhokala
             },
             {
                 "name": "Khandvi",
-                "description": "Khandvi is a unique Gujarati snack made from a blend of gram flour and yogurt, which is cooked to create thin, silky layers. The layers are rolled up and garnished with mustard seeds, sesame seeds, and freshly chopped coriander. It has a delicate texture and a savory, slightly tangy taste. Khandvi is usually served as a snack or appetizer, perfect for a light meal. It’s often enjoyed with chutneys or yogurt dip. This dish showcases the skillful preparation and lightness typical of Gujarati cuisine.", image:
+                "description": "Khandvi is a unique Gujarati snack made from a blend of gram flour and yogurt, which is cooked to create thin, silky layers. The layers are rolled up and garnished with mustard seeds, sesame seeds, and freshly chopped coriander. It has a delicate texture and a savory, slightly tangy taste. Khandvi is usually served as a snack or appetizer, perfect for a light meal. It’s often enjoyed with chutneys or yogurt dip. This dish showcases the skillful preparation and lightness typical of Gujarati cuisine.", image: Khandvi
             },
             {
                 "name": "Undhiyu",
-                "description": "Undhiyu is a rich and flavorful mixed vegetable dish, traditionally cooked in an earthen pot. The dish includes a variety of vegetables like sweet potatoes, eggplant, and beans, and is seasoned with spices and fresh herbs. It is typically prepared during winter and is often served with puris or rice. Undhiyu is known for its earthy, complex flavors and is a celebration of seasonal produce. The slow-cooking method enhances the natural flavors of the ingredients. It’s a favorite at festive occasions in Gujarat.", image:
+                "description": "Undhiyu is a rich and flavorful mixed vegetable dish, traditionally cooked in an earthen pot. The dish includes a variety of vegetables like sweet potatoes, eggplant, and beans, and is seasoned with spices and fresh herbs. It is typically prepared during winter and is often served with puris or rice. Undhiyu is known for its earthy, complex flavors and is a celebration of seasonal produce. The slow-cooking method enhances the natural flavors of the ingredients. It’s a favorite at festive occasions in Gujarat.", image: Undhiyu
             },
             {
                 "name": "Farsan",
-                "description": "Farsan refers to a variety of savory snacks that are commonly enjoyed in Gujarat. These include snacks like patra, fafda, and sev. Farsan is known for its crunchy texture and spicy, tangy flavors, often made with chickpea flour and seasoned with a variety of spices. These snacks are typically served with chutneys, pickles, and yogurt. Farsan is a popular street food, offering a quick and tasty bite for those on the go. It is also a common offering during festivals and family gatherings in Gujarat.", image:
+                "description": "Farsan refers to a variety of savory snacks that are commonly enjoyed in Gujarat. These include snacks like patra, fafda, and sev. Farsan is known for its crunchy texture and spicy, tangy flavors, often made with chickpea flour and seasoned with a variety of spices. These snacks are typically served with chutneys, pickles, and yogurt. Farsan is a popular street food, offering a quick and tasty bite for those on the go. It is also a common offering during festivals and family gatherings in Gujarat.", image:Farcha
             },
             {
                 "name": "Thepla",
-                "description": "Thepla is a soft, flavorful flatbread made from whole wheat flour, fenugreek leaves, and a variety of spices. This dish is particularly popular as a breakfast item or lunch box staple, often enjoyed with yogurt or pickle. Thepla is known for its health benefits, especially due to the addition of fenugreek, which is rich in nutrients. It is versatile and can be made with different vegetables and herbs, depending on personal preference. Thepla has a soft texture and a fragrant, mildly spicy taste. It is widely loved for its ease of preparation and long shelf life.", image:
+                "description": "Thepla is a soft, flavorful flatbread made from whole wheat flour, fenugreek leaves, and a variety of spices. This dish is particularly popular as a breakfast item or lunch box staple, often enjoyed with yogurt or pickle. Thepla is known for its health benefits, especially due to the addition of fenugreek, which is rich in nutrients. It is versatile and can be made with different vegetables and herbs, depending on personal preference. Thepla has a soft texture and a fragrant, mildly spicy taste. It is widely loved for its ease of preparation and long shelf life.", image: Thepla
             }
         ]
 
@@ -810,15 +848,15 @@ const stateFoods = [
         id: "IN-DD",
         foods: [
 
-            { name: "Feni", description: "Feni is a traditional alcoholic beverage from Daman and Diu. It is made from fermented cashew apples or coconut sap. The drink is potent and has a strong, distinct flavor. Feni is often consumed as a shot or mixed into cocktails. It is considered the spirit of Goa and Daman and Diu. This drink is a must-try for those visiting the region.", image: },
+            { name: "Feni", description: "Feni is a traditional alcoholic beverage from Daman and Diu. It is made from fermented cashew apples or coconut sap. The drink is potent and has a strong, distinct flavor. Feni is often consumed as a shot or mixed into cocktails. It is considered the spirit of Goa and Daman and Diu. This drink is a must-try for those visiting the region.", image: Feni },
 
-            { name: "Fish Curry Rice", description: "Fish Curry Rice is a popular dish in Daman and Diu, made with fresh fish cooked in a tangy, spiced curry. The curry typically uses coconut milk and tamarind for its sourness. The dish is served with steamed rice, making it a complete and satisfying meal. Local varieties of fish like pomfret and mackerel are commonly used. It’s rich in flavors, and seafood lovers will find this dish irresistible. This meal represents the coastal lifestyle of the region.", image: },
+            { name: "Fish Curry Rice", description: "Fish Curry Rice is a popular dish in Daman and Diu, made with fresh fish cooked in a tangy, spiced curry. The curry typically uses coconut milk and tamarind for its sourness. The dish is served with steamed rice, making it a complete and satisfying meal. Local varieties of fish like pomfret and mackerel are commonly used. It’s rich in flavors, and seafood lovers will find this dish irresistible. This meal represents the coastal lifestyle of the region.", image: fishrice },
 
-            { name: "Dhokla", description: "Dhokla is a savory steamed snack, originating from Gujarat, but widely enjoyed in Daman and Diu. It’s made from fermented rice and chickpea flour batter, which is then steamed. Dhokla is light, fluffy, and often served with tangy chutneys. It can be enjoyed for breakfast, as a snack, or even a light lunch. Its mild spiciness and texture make it a favorite among both locals and tourists. Dhokla is healthy, flavorful, and perfect for those looking for vegetarian options.", image: },
+            { name: "Dhokla", description: "Dhokla is a savory steamed snack, originating from Gujarat, but widely enjoyed in Daman and Diu. It’s made from fermented rice and chickpea flour batter, which is then steamed. Dhokla is light, fluffy, and often served with tangy chutneys. It can be enjoyed for breakfast, as a snack, or even a light lunch. Its mild spiciness and texture make it a favorite among both locals and tourists. Dhokla is healthy, flavorful, and perfect for those looking for vegetarian options.", image:dhokala },
 
-            { name: "Sorpotel", description: "Sorpotel is a spicy pork dish popular in Daman and Diu, often enjoyed during festive occasions. It is made from pork, vinegar, and a variety of spices like cinnamon, cloves, and chili. The dish is cooked slowly to absorb the rich, bold flavors. Sorpotel is often served with sannas (soft, sweet bread) or rice. It has a deep, tangy taste due to the use of vinegar, making it a distinct and unforgettable experience. The dish reflects the Portuguese influence on Goan and Daman cuisine.", image: },
+            { name: "Sorpotel", description: "Sorpotel is a spicy pork dish popular in Daman and Diu, often enjoyed during festive occasions. It is made from pork, vinegar, and a variety of spices like cinnamon, cloves, and chili. The dish is cooked slowly to absorb the rich, bold flavors. Sorpotel is often served with sannas (soft, sweet bread) or rice. It has a deep, tangy taste due to the use of vinegar, making it a distinct and unforgettable experience. The dish reflects the Portuguese influence on Goan and Daman cuisine.", image:Sorpotel },
 
-            { name: "Bebinca,", description: "Bebinca is a rich, multi-layered dessert from Daman and Diu, made with coconut milk, eggs, sugar, and butter. Each layer is baked individually to achieve its unique texture and flavor. The dessert is sweet, creamy, and has a custard-like consistency. Bebinca is often served during festive seasons and celebrations, especially Christmas. Its intricate preparation makes it a labor of love and a must-try sweet treat. This dessert is a signature of the region’s Portuguese culinary influence.", image: }
+            { name: "Bebinca,", description: "Bebinca is a rich, multi-layered dessert from Daman and Diu, made with coconut milk, eggs, sugar, and butter. Each layer is baked individually to achieve its unique texture and flavor. The dessert is sweet, creamy, and has a custard-like consistency. Bebinca is often served during festive seasons and celebrations, especially Christmas. Its intricate preparation makes it a labor of love and a must-try sweet treat. This dessert is a signature of the region’s Portuguese culinary influence.", image:Bebinca }
         ]
 
 
@@ -829,23 +867,23 @@ const stateFoods = [
 
             {
                 name: "Dal Baati Churma",
-                description: "Dal Baati Churma is a quintessential Rajasthani dish that combines a mixture of lentils (dal) with round wheat flour dumplings (baati) baked to perfection. The baatis are traditionally served with ghee and are complemented by the sweet, crumbled churma, made from crushed baati mixed with sugar and ghee. The dal is usually spicy and lentil-rich. It is a hearty, comforting meal that symbolizes the essence of Rajasthani cuisine. Popular in both rural and urban areas, it's often served in traditional thalis. This dish is a must-try for any visitor to Rajasthan.", image:
+                description: "Dal Baati Churma is a quintessential Rajasthani dish that combines a mixture of lentils (dal) with round wheat flour dumplings (baati) baked to perfection. The baatis are traditionally served with ghee and are complemented by the sweet, crumbled churma, made from crushed baati mixed with sugar and ghee. The dal is usually spicy and lentil-rich. It is a hearty, comforting meal that symbolizes the essence of Rajasthani cuisine. Popular in both rural and urban areas, it's often served in traditional thalis. This dish is a must-try for any visitor to Rajasthan.", image: DalBaatichurma
             },
             {
                 name: "Gatte ki Sabzi",
-                description: "Gatte ki Sabzi is a famous vegetarian curry made from gram flour (besan) dumplings called 'gatte.' These dumplings are boiled, cut into pieces, and then simmered in a spicy yogurt-based gravy. The dish is typically served with roti or rice. The gravy is rich and flavored with various Indian spices like turmeric, cumin, and coriander. It is known for its tangy and savory flavor profile. Gatte ki Sabzi is a staple in Rajasthani homes and can be found on menus across the region. It's a perfect combination of texture and spice.", image:
+                description: "Gatte ki Sabzi is a famous vegetarian curry made from gram flour (besan) dumplings called 'gatte.' These dumplings are boiled, cut into pieces, and then simmered in a spicy yogurt-based gravy. The dish is typically served with roti or rice. The gravy is rich and flavored with various Indian spices like turmeric, cumin, and coriander. It is known for its tangy and savory flavor profile. Gatte ki Sabzi is a staple in Rajasthani homes and can be found on menus across the region. It's a perfect combination of texture and spice.", image: Gatte
             },
             {
                 name: "Laal Maas",
-                description: "Laal Maas is a fiery hot Rajasthani mutton curry that is rich in flavor and known for its intense spiciness. The dish is made using tender mutton cooked in a fiery red chili-based gravy. The red color comes from a mix of dried red chilies, which give it the characteristic heat and depth of flavor. It is often served with steamed rice or traditional Rajasthani bread, such as bajra roti. This dish is perfect for those who enjoy spicy food and the bold flavors of the desert state. Laal Maas is often served during festivals and special occasions.", image:
+                description: "Laal Maas is a fiery hot Rajasthani mutton curry that is rich in flavor and known for its intense spiciness. The dish is made using tender mutton cooked in a fiery red chili-based gravy. The red color comes from a mix of dried red chilies, which give it the characteristic heat and depth of flavor. It is often served with steamed rice or traditional Rajasthani bread, such as bajra roti. This dish is perfect for those who enjoy spicy food and the bold flavors of the desert state. Laal Maas is often served during festivals and special occasions.", image: LaalMaas
             },
             {
                 name: "Ker Sangri",
-                description: "Ker Sangri is a traditional Rajasthani dish made with desert beans (ker) and dried berries (sangri), both of which are unique to the arid desert region. The dish is cooked with a blend of aromatic spices, including cumin, coriander, and mustard seeds, giving it a distinctive flavor. Ker Sangri is typically served as a side dish with roti or rice and is known for its slightly tangy and spicy taste. It's a traditional food of Rajasthan, especially popular in rural areas. The combination of dry and tangy ingredients makes it a unique culinary experience.", image:
+                description: "Ker Sangri is a traditional Rajasthani dish made with desert beans (ker) and dried berries (sangri), both of which are unique to the arid desert region. The dish is cooked with a blend of aromatic spices, including cumin, coriander, and mustard seeds, giving it a distinctive flavor. Ker Sangri is typically served as a side dish with roti or rice and is known for its slightly tangy and spicy taste. It's a traditional food of Rajasthan, especially popular in rural areas. The combination of dry and tangy ingredients makes it a unique culinary experience.", image: KerSangri
             },
             {
                 name: "Mawa Kachori",
-                description: "Mawa Kachori is a sweet-filled kachori that is a popular dessert snack in Rajasthan. This deep-fried pastry is stuffed with a mixture of mawa (reduced milk) and nuts, and it’s then soaked in sugar syrup, making it a sweet and rich delight. The outside is crispy, while the inside is soft and sweet, creating a perfect balance of textures. Mawa Kachori is often enjoyed with a cup of chai and is commonly found in Rajasthani markets and sweet shops. It’s a festive snack, often made during celebrations and special events. It’s a must-try for anyone with a sweet tooth.", image:
+                description: "Mawa Kachori is a sweet-filled kachori that is a popular dessert snack in Rajasthan. This deep-fried pastry is stuffed with a mixture of mawa (reduced milk) and nuts, and it’s then soaked in sugar syrup, making it a sweet and rich delight. The outside is crispy, while the inside is soft and sweet, creating a perfect balance of textures. Mawa Kachori is often enjoyed with a cup of chai and is commonly found in Rajasthani markets and sweet shops. It’s a festive snack, often made during celebrations and special events. It’s a must-try for anyone with a sweet tooth.", image: MawaKachori
             }
         ]
 
