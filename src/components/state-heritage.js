@@ -131,6 +131,15 @@ import ElloraCaves from "../Assets/Heritage/ElloraCaves.jpeg";
 import ShaniwarWada from "../Assets/Heritage/ShaniwarWada.jpeg";
 import CST from "../Assets/Heritage/CST.jpeg";
 //import from "../Assets/Heritage/.jpeg";
+import JagannathTempleRanchi from "../Assets/Heritage/JagannathTempleRanchi.jpeg";
+import Netarhat from "../Assets/Heritage/Netarhat.jpeg";
+import RanchiHill from "../Assets/Heritage/RanchiHill.jpeg";
+import HundruFalls from "../Assets/Heritage/HundruFalls.jpeg";
+import BaidyanathTemple from "../Assets/Heritage/BaidyanathTemple.jpeg";
+import KanchMandir from "../Assets/Heritage/KanchMandir.jpeg";
+import SanchiStupa from "../Assets/Heritage/SanchiStupa.jpeg";
+import ManduFort from "../Assets/Heritage/ManduFort.jpeg";
+import GwaliorFort from "../Assets/Heritage/GwaliorFort.jpeg"
 
 
 
@@ -711,23 +720,23 @@ const stateHeritage = [
         heritageSites: [
             {
                 name: "Jagannath Temple, Ranchi",
-                description: "The Jagannath Temple in Ranchi is one of the most significant religious sites in Jharkhand. Dedicated to Lord Jagannath, this temple is a revered pilgrimage destination, especially during the annual Rath Yatra festival. The architecture of the temple is inspired by the Puri Jagannath Temple in Odisha. Located atop a hill, it offers panoramic views of the surrounding area. Devotees come from far and wide to seek blessings. The temple's serene ambiance and cultural significance make it a must-visit in Jharkhand."
+                description: "The Jagannath Temple in Ranchi is one of the most significant religious sites in Jharkhand. Dedicated to Lord Jagannath, this temple is a revered pilgrimage destination, especially during the annual Rath Yatra festival. The architecture of the temple is inspired by the Puri Jagannath Temple in Odisha. Located atop a hill, it offers panoramic views of the surrounding area. Devotees come from far and wide to seek blessings. The temple's serene ambiance and cultural significance make it a must-visit in Jharkhand.",image: JagannathTempleRanchi
             },
             {
                 name: "Netarhat",
-                description: "Netarhat, often called the 'Queen of Chotanagpur,' is a hill station located in the Latehar district of Jharkhand. Known for its stunning sunrise and sunset views, it offers picturesque landscapes of dense forests and hills. The place is famous for its cool climate and natural beauty, attracting nature lovers and trekkers. The nearby Lodh Falls and Koel Viewpoint are popular tourist attractions. Netarhat is also home to the Netarhat Residential School, established in 1954. Its tranquility and scenic beauty make it an iconic heritage site."
+                description: "Netarhat, often called the 'Queen of Chotanagpur,' is a hill station located in the Latehar district of Jharkhand. Known for its stunning sunrise and sunset views, it offers picturesque landscapes of dense forests and hills. The place is famous for its cool climate and natural beauty, attracting nature lovers and trekkers. The nearby Lodh Falls and Koel Viewpoint are popular tourist attractions. Netarhat is also home to the Netarhat Residential School, established in 1954. Its tranquility and scenic beauty make it an iconic heritage site.",image: Netarhat
             },
             {
                 name: "Ranchi Hill",
-                description: "Ranchi Hill is a famous landmark and one of the prominent heritage sites in Ranchi. It holds religious significance, with the famous Ranchi Hill Temple dedicated to Lord Shiva at its summit. The hill provides a 360-degree view of the city, making it a popular spot for both locals and tourists. The panoramic views of the city, especially during sunset, are breathtaking. The hill is accessible via a steep path, but a cable car ride also offers an easier way to reach the top. The location serves as a perfect blend of natural beauty and spirituality."
+                description: "Ranchi Hill is a famous landmark and one of the prominent heritage sites in Ranchi. It holds religious significance, with the famous Ranchi Hill Temple dedicated to Lord Shiva at its summit. The hill provides a 360-degree view of the city, making it a popular spot for both locals and tourists. The panoramic views of the city, especially during sunset, are breathtaking. The hill is accessible via a steep path, but a cable car ride also offers an easier way to reach the top. The location serves as a perfect blend of natural beauty and spirituality.",image: RanchiHill
             },
             {
                 name: "Hundru Falls",
-                description: "Hundru Falls is one of the tallest waterfalls in Jharkhand, located in the Ranchi district. It is a popular natural heritage site, known for its majestic view and the sound of cascading water. The falls are formed by the Subarnarekha River and plunge from a height of about 320 feet. Surrounded by lush green forests, the falls provide a perfect spot for picnics and treks. It is also a hotspot for adventure enthusiasts who enjoy the rugged terrain. The breathtaking beauty of Hundru Falls makes it a must-visit site in Jharkhand."
+                description: "Hundru Falls is one of the tallest waterfalls in Jharkhand, located in the Ranchi district. It is a popular natural heritage site, known for its majestic view and the sound of cascading water. The falls are formed by the Subarnarekha River and plunge from a height of about 320 feet. Surrounded by lush green forests, the falls provide a perfect spot for picnics and treks. It is also a hotspot for adventure enthusiasts who enjoy the rugged terrain. The breathtaking beauty of Hundru Falls makes it a must-visit site in Jharkhand.",image: HundruFalls
             },
             {
                 name: "Baidyanath Temple, Deoghar",
-                description: "The Baidyanath Temple, located in Deoghar, is one of the twelve Jyotirlingas and holds immense religious significance. It is dedicated to Lord Shiva and is a major pilgrimage site for Hindus, especially during the Shravani Mela. The temple's intricate architecture and sacred rituals attract millions of devotees every year. The temple complex is situated amidst scenic landscapes and is an important part of Jharkhand’s cultural heritage. It is believed that worshiping at Baidyanath helps in attaining spiritual peace and blessings. The temple is also a part of the Char Dham pilgrimage in India."
+                description: "The Baidyanath Temple, located in Deoghar, is one of the twelve Jyotirlingas and holds immense religious significance. It is dedicated to Lord Shiva and is a major pilgrimage site for Hindus, especially during the Shravani Mela. The temple's intricate architecture and sacred rituals attract millions of devotees every year. The temple complex is situated amidst scenic landscapes and is an important part of Jharkhand’s cultural heritage. It is believed that worshiping at Baidyanath helps in attaining spiritual peace and blessings. The temple is also a part of the Char Dham pilgrimage in India.",image: BaidyanathTemple
             }
 
         ]
@@ -737,23 +746,23 @@ const stateHeritage = [
         heritageSites: [
             {
                 name: "Kanch Mandir",
-                description: "Kanch Mandir, located in Indore, is a Jain temple renowned for its beautiful glasswork. The entire interior, from walls to ceiling, is covered in intricate glass designs, creating a mesmerizing effect. It was built in the early 20th century by the renowned Jain merchant, Sir Seth Hukumchand. The temple is dedicated to Lord Mahavir and is an important site for Jain pilgrims. The glass mosaics and reflective mirrors are an architectural marvel, making it a unique destination. It showcases the rich Jain heritage and the skill of traditional artisans."
+                description: "Kanch Mandir, located in Indore, is a Jain temple renowned for its beautiful glasswork. The entire interior, from walls to ceiling, is covered in intricate glass designs, creating a mesmerizing effect. It was built in the early 20th century by the renowned Jain merchant, Sir Seth Hukumchand. The temple is dedicated to Lord Mahavir and is an important site for Jain pilgrims. The glass mosaics and reflective mirrors are an architectural marvel, making it a unique destination. It showcases the rich Jain heritage and the skill of traditional artisans.",image: KanchMandir
             },
             {
                 name: "Sanchi Stupa",
-                description: "Sanchi Stupa, a UNESCO World Heritage site, is one of the oldest and most important Buddhist monuments in India. Located near Bhopal, it dates back to the 3rd century BCE and was commissioned by Emperor Ashoka. The stupa is famous for its well-preserved stone carvings, sculptures, and gateways depicting the life of Buddha. It is a significant pilgrimage site for Buddhists worldwide. The site also includes several other stupas, temples, and monasteries. The intricate artwork on the gates is a fine example of ancient Indian art and Buddhist culture."
+                description: "Sanchi Stupa, a UNESCO World Heritage site, is one of the oldest and most important Buddhist monuments in India. Located near Bhopal, it dates back to the 3rd century BCE and was commissioned by Emperor Ashoka. The stupa is famous for its well-preserved stone carvings, sculptures, and gateways depicting the life of Buddha. It is a significant pilgrimage site for Buddhists worldwide. The site also includes several other stupas, temples, and monasteries. The intricate artwork on the gates is a fine example of ancient Indian art and Buddhist culture.",image: SanchiStupa
             },
             {
                 name: "Khajuraho Group of Monuments",
-                description: "The Khajuraho Group of Monuments, a UNESCO World Heritage site, is known for its stunning temples with intricate erotic carvings. Located in Chhatarpur district, these temples were built during the Chandela dynasty between 950 and 1050 CE. The temples represent a blend of Hindu and Jain architecture, with exquisite sculptures illustrating various deities, celestial beings, and daily life. The western group of temples is the most famous, including the Kandariya Mahadev Temple and the Lakshmana Temple. The temples are renowned for their architectural innovation and artistic finesse. They attract tourists and scholars from across the world."
+                description: "The Khajuraho Group of Monuments, a UNESCO World Heritage site, is known for its stunning temples with intricate erotic carvings. Located in Chhatarpur district, these temples were built during the Chandela dynasty between 950 and 1050 CE. The temples represent a blend of Hindu and Jain architecture, with exquisite sculptures illustrating various deities, celestial beings, and daily life. The western group of temples is the most famous, including the Kandariya Mahadev Temple and the Lakshmana Temple. The temples are renowned for their architectural innovation and artistic finesse. They attract tourists and scholars from across the world.",image: Khajuraho
             },
             {
                 name: "Mandu Fort",
-                description: "Mandu Fort, also known as Mandavgarh, is a historic fortification located in the Malwa region of Madhya Pradesh. It was built in the 11th century and expanded over the centuries. The fort complex includes several palaces, temples, mosques, and step-wells. The Jahaz Mahal (Ship Palace) is a prominent structure, built between two lakes to give the illusion of a ship floating on water. Mandu is known for its exquisite Afghan architectural style and its strategic location atop a hill. The fort offers a scenic view of the surrounding valley and is a testament to the region's medieval history."
+                description: "Mandu Fort, also known as Mandavgarh, is a historic fortification located in the Malwa region of Madhya Pradesh. It was built in the 11th century and expanded over the centuries. The fort complex includes several palaces, temples, mosques, and step-wells. The Jahaz Mahal (Ship Palace) is a prominent structure, built between two lakes to give the illusion of a ship floating on water. Mandu is known for its exquisite Afghan architectural style and its strategic location atop a hill. The fort offers a scenic view of the surrounding valley and is a testament to the region's medieval history.",image: ManduFort
             },
             {
                 name: "Gwalior Fort",
-                description: "Gwalior Fort, one of the most prominent hill forts in India, is located in the city of Gwalior. It has a rich history dating back over a thousand years and has been ruled by several dynasties, including the Guptas, Tomars, and Mughals. The fort is known for its massive walls, intricate palaces, and temples, including the Saas Bahu Ka Mandir and the Gujari Mahal. The fort offers spectacular views of the surrounding landscape and the city. It is an architectural masterpiece, combining elements of both Hindu and Islamic design. Gwalior Fort has witnessed numerous battles and remains a symbol of India’s medieval heritage."
+                description: "Gwalior Fort, one of the most prominent hill forts in India, is located in the city of Gwalior. It has a rich history dating back over a thousand years and has been ruled by several dynasties, including the Guptas, Tomars, and Mughals. The fort is known for its massive walls, intricate palaces, and temples, including the Saas Bahu Ka Mandir and the Gujari Mahal. The fort offers spectacular views of the surrounding landscape and the city. It is an architectural masterpiece, combining elements of both Hindu and Islamic design. Gwalior Fort has witnessed numerous battles and remains a symbol of India’s medieval heritage.",image: GwaliorFort
             }
 
         ]
