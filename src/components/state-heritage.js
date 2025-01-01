@@ -31,11 +31,11 @@ import hornbillGrounds from "../Assets/Heritage/HornbillGrounds.jpeg";
 import DimapurRuins from "../Assets/Heritage/DimapurRuins.jpeg";
 import NagaVillage from "../Assets/Heritage/NagaVillage.jpeg";
 import DzükouValley from "../Assets/Heritage/DzükouValley.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
+import GovindajeeTemple from "../Assets/Heritage/GovindajeeTemple.jpeg";
+import KanglaFort from "../Assets/Heritage/KanglaFort.jpeg";
+import LoktakLake from "../Assets/Heritage/LoktakLake.jpeg";
+import KeibulLamjao from "../Assets/Heritage/KeibulLamjao.jpeg";
+import AndroVillage from "../Assets/Heritage/AndroVillage.jpeg";
 import from "../Assets/Heritage/.jpeg";
 import from "../Assets/Heritage/.jpeg";
 import from "../Assets/Heritage/.jpeg";
@@ -216,23 +216,23 @@ const stateheritage = [
         heritageSites: [
             {
                 name: "Shree Shree Govindajee Temple",
-                description: "Located in Imphal, Shree Shree Govindajee Temple is a significant Vaishnavite shrine dedicated to Lord Krishna. Built in the 18th century, the temple is renowned for its grand architecture and serene ambiance. The temple hosts annual festivals like the Ratha Yatra, attracting thousands of devotees. The temple is known for its vibrant worship rituals and offerings, reflecting the rich cultural heritage of Manipur. It also houses idols of Radha and Lord Krishna, central to the state's religious practices. The temple is a spiritual center for locals and a must-visit for cultural enthusiasts."
+                description: "Located in Imphal, Shree Shree Govindajee Temple is a significant Vaishnavite shrine dedicated to Lord Krishna. Built in the 18th century, the temple is renowned for its grand architecture and serene ambiance. The temple hosts annual festivals like the Ratha Yatra, attracting thousands of devotees. The temple is known for its vibrant worship rituals and offerings, reflecting the rich cultural heritage of Manipur. It also houses idols of Radha and Lord Krishna, central to the state's religious practices. The temple is a spiritual center for locals and a must-visit for cultural enthusiasts.",image: GovindajeeTemple
             },
             {
                 name: "Kangla Fort",
-                description: "Kangla Fort, located in Imphal, is a historical site and former royal palace of the Manipuri kings. Built in the 16th century, it holds immense cultural and historical significance. The fort is a symbol of the rich history and traditions of Manipur, with remnants of its grandeur still visible. It is a blend of Hindu and Buddhist architectural styles, with sacred temples and water tanks inside. Kangla Fort served as a military and administrative center for centuries. Today, it’s an important heritage site showcasing Manipur's royal past and cultural legacy."
+                description: "Kangla Fort, located in Imphal, is a historical site and former royal palace of the Manipuri kings. Built in the 16th century, it holds immense cultural and historical significance. The fort is a symbol of the rich history and traditions of Manipur, with remnants of its grandeur still visible. It is a blend of Hindu and Buddhist architectural styles, with sacred temples and water tanks inside. Kangla Fort served as a military and administrative center for centuries. Today, it’s an important heritage site showcasing Manipur's royal past and cultural legacy.",image: KanglaFort
             },
             {
                 name: "Loktak Lake",
-                description: "Loktak Lake, a UNESCO recognized wetland, is the largest freshwater lake in northeastern India, located in Moirang. Known for its phumdis (floating islands), the lake is a remarkable natural heritage site. The lake is not only a biodiversity hotspot but also vital for local livelihoods, with fishing and agriculture being significant activities. It holds religious significance, as the historic island of Sendra is home to a temple dedicated to Lord Vishnu. Loktak Lake provides stunning views and is a popular spot for eco-tourism. It is also vital for maintaining the region's ecological balance."
+                description: "Loktak Lake, a UNESCO recognized wetland, is the largest freshwater lake in northeastern India, located in Moirang. Known for its phumdis (floating islands), the lake is a remarkable natural heritage site. The lake is not only a biodiversity hotspot but also vital for local livelihoods, with fishing and agriculture being significant activities. It holds religious significance, as the historic island of Sendra is home to a temple dedicated to Lord Vishnu. Loktak Lake provides stunning views and is a popular spot for eco-tourism. It is also vital for maintaining the region's ecological balance.",image: LoktakLake
             },
             {
                 name: "Keibul Lamjao National Park",
-                description: "Keibul Lamjao National Park, located on the southern shore of Loktak Lake, is a unique floating national park and home to the endangered Sangai deer. This park is the only floating national park in the world, with its floating islands called phumdis. The park offers a diverse range of flora and fauna, making it a key ecological site in the region. It is an important conservation area for several rare species. Keibul Lamjao is not only an environmental treasure but also a cultural symbol of Manipur’s natural heritage. Visitors can explore the park's beauty through boat rides and trekking."
+                description: "Keibul Lamjao National Park, located on the southern shore of Loktak Lake, is a unique floating national park and home to the endangered Sangai deer. This park is the only floating national park in the world, with its floating islands called phumdis. The park offers a diverse range of flora and fauna, making it a key ecological site in the region. It is an important conservation area for several rare species. Keibul Lamjao is not only an environmental treasure but also a cultural symbol of Manipur’s natural heritage. Visitors can explore the park's beauty through boat rides and trekking.", image: KeibulLamjao  
             },
             {
                 name: "Andro Village",
-                description: "Andro Village, located about 26 kilometers from Imphal, is known for its rich cultural heritage and traditional Manipuri village life. It is famous for its indigenous handloom products, particularly the Andro pottery and traditional Manipuri textiles. The village is home to the Meitei community, known for their vibrant cultural practices, dances, and festivals. The Andro Heritage Complex is a significant attraction, showcasing traditional Manipuri arts and crafts. The village is also known for its sacred shrine, dedicated to the local deity, Sanamahi. Visiting Andro offers a unique glimpse into the ancient traditions and lifestyle of the Manipuri people."
+                description: "Andro Village, located about 26 kilometers from Imphal, is known for its rich cultural heritage and traditional Manipuri village life. It is famous for its indigenous handloom products, particularly the Andro pottery and traditional Manipuri textiles. The village is home to the Meitei community, known for their vibrant cultural practices, dances, and festivals. The Andro Heritage Complex is a significant attraction, showcasing traditional Manipuri arts and crafts. The village is also known for its sacred shrine, dedicated to the local deity, Sanamahi. Visiting Andro offers a unique glimpse into the ancient traditions and lifestyle of the Manipuri people.",image: AndroVillage
             }
 
         ]
