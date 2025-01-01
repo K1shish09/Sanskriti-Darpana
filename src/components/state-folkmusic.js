@@ -33,6 +33,17 @@ const stateFolkmusics = [
             { name: "Deodhani Music", description: "Spiritual and ecstatic music performed as a form of offering to the goddess Manasa, marked by intense expressions and dramatic gestures." }
         ]
     },
+
+    {
+        id: "IN-AR",
+        Folkmusics: [
+            { name: "Bardo Chham Music", description: "Traditional music performed by the Sherdukpens of Arunachal Pradesh, depicting the victory of good over evil." },
+            { name: "Wancho Songs", description: "Music performed by the Wancho tribe, characterized by rhythmic beats and traditional instruments." },
+            { name: "Pasi Kongki Tunes", description: "Music performed by the Adi tribe, often during festivals and celebrations, showcasing their rich cultural heritage." },
+            { name: "Popir Melodies", description: "Popular music of the Adi tribe, performed by young girls during the Solung festival, symbolizing joy and prosperity." },
+            { name: "Ponung Songs", description: "Traditional songs performed by the Adi tribe, usually during the harvest festival, accompanied by folk instruments and music." }
+        ]
+    },
  
  
 ];
