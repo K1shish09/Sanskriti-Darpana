@@ -65,9 +65,37 @@ const stateDistrict = [
  
  {
     id: "IN-AP",
-    dist_info:"Andhra Pradesh, with 26 districts, is known for its rich heritage, temples, and coastline. Amaravati, the capital region, is an ancient Buddhist site. Tirupati in Chittoor is one of the most visited pilgrimage sites, housing the iconic Venkateswara Temple. Visakhapatnam, a port city, is famed for its beaches, Araku Valley, and the INS Kursura Submarine Museum. Vijayawada is a cultural hub with landmarks like Kanaka Durga Temple. The Borra Caves in Ananthagiri Hills and Lepakshi Temple in Anantapur highlight Andhra’s natural and historical wealth. Kuchipudi, the classical dance form, originated here, adding to its cultural richness. "
-    
- },
+    dist_info: "Arunachal Pradesh has a total of 25 districts. Newly added districts are Lepa Rada, Pakke Kessang, and Shi Yomi.",
+    districts: [
+        "1. Anjaw",
+        "2. Bichom *",
+        "3. Siang",
+        "4. Changlang",
+        "5. Dibang Valley",
+        "6. East Kameng",
+        "7. East Siang",
+        "8. Kamle",
+        "9. Keyi Panyor *",
+        "10. Kra Daadi",
+        "11. Kurung Kumey",
+        "12. Lepa Rada *",
+        "13. Lohit",
+        "14. Longding",
+        "15. Lower Dibang Valley",
+        "16. Lower Siang",
+        "17. Lower Subansiri",
+        "18. Namsai",
+        "19. Pakke Kessang *",
+        "20. Papum Pare",
+        "21. Shi Yomi *",
+        "22. Tawang",
+        "23. Tirap",
+        "24. Upper Siang",
+        "25. Upper Subansiri",
+        "26. West Kameng",
+        "27. West Siang"
+    ]
+},
  {
     id: "IN-PY",
     dist_info:"Puducherry, a Union Territory with French colonial charm, comprises four districts: Puducherry, Karaikal, Mahe, and Yanam. The Puducherry district is known for its seaside Promenade, Auroville's spiritual community, and vibrant Tamil-French culture. Karaikal is famous for the Karaikal Ammaiyar Temple, while Mahe showcases a mix of Kerala and French influences. Yanam, located in Andhra Pradesh, reflects the fusion of Telugu and French cultures. Puducherry offers tranquil beaches, colonial architecture, and a laid-back vibe, making it a favorite destination for tourists seeking peace and heritage."
@@ -162,7 +190,6 @@ const stateDistrict = [
     id: 'IN-CH',
    dist_info:"Chandigarh, the capital of both Haryana and Punjab, is one of India’s most well-planned cities, renowned for its modern architecture, green spaces, and high standard of living. Located at the foothills of the Shivalik range, it is the first city in India to be designed and developed as a modern, independent urban center post-independence. Spread over an area of 114 square kilometers, Chandigarh serves as a Union Territory, directly governed by the President of India. The city is famous for its orderly layout, with distinct sectors and wide avenues, offering a contrast to the chaotic nature of many other Indian cities.Designed by the famous French architect Le Corbusier, Chandigarh stands out for its innovative urban planning and architecture. The city is divided into 47 sectors, each serving as self-contained neighborhoods with schools, parks, and commercial areas, contributing to a sense of organization and efficiency. Iconic landmarks like the Capitol Complex, the Rock Garden, and Sukhna Lake reflect the city’s modernistic spirit and aesthetic appeal. The Rock Garden, created by Nek Chand from discarded materials, has become a symbol of creativity, while Sukhna Lake, a man-made reservoir, is a popular spot for leisure and recreation."
  },
- 
  
 ];
 
