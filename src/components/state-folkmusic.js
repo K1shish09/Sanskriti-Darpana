@@ -198,6 +198,18 @@ const stateFolkmusics = [
             { name: "Sua Nacha Songs", description: "Traditional songs performed by women, characterized by graceful rhythms and accompanied by folk instruments." }
         ]
     },
+
+    {
+        id: "IN-KA",
+        Folkmusics: [
+            { name: "Yakshagana Music", description: "Traditional theatre music combining dance, music, dialogue, and costumes, depicting stories from Hindu epics." },
+            { name: "Dollu Kunitha Beats", description: "Drum music performed by the Kuruba community, characterized by vigorous rhythms and energetic beats." },
+            { name: "Bhootha Aradhane Tunes", description: "Ritualistic tunes performed to appease spirits, known for its elaborate rhythms and dramatic performances." },
+            { name: "Veeragase Melodies", description: "Traditional melodies performed during festivals, characterized by vigorous rhythms and depicting the heroism of Veerabhadra." },
+            { name: "Kamsale Music", description: "Folk music performed by devotees of Lord Mahadeshwara, characterized by rhythmic beats and the use of cymbals." }
+        ]
+    },
+    
  
  
 ];
