@@ -1054,68 +1054,55 @@ Districts:[
 
   {id: 'IN-HP',
    dist_info:"Himachal Pradesh, the Land of Gods has 12 districts, offering snow-capped peaks, valleys, and temples. Shimla, the capital, is a popular hill station known for its colonial architecture. Manali and Dharamshala are adventure and spiritual hubs. Spiti Valley offers a stark desert landscape, while Kullu is known for its Dussehra celebrations. Himachal is famous for its apple orchards, woolen shawls, and handicrafts.",
-   districts: [
-      "1. Anjaw",
-      "2. Bichom *",
-      "3. Siang",
-      "4. Changlang",
-      "5. Dibang Valley",
-      "6. East Kameng",
-      "7. East Siang",
-      "8. Kamle",
-      "9. Keyi Panyor *",
-      "10. Kra Daadi",
-      "11. Kurung Kumey",
-      "12. Lepa Rada *",
-      "13. Lohit",
-      "14. Longding",
-      "15. Lower Dibang Valley",
-      "16. Lower Siang",
-      "17. Lower Subansiri",
-      "18. Namsai",
-      "19. Pakke Kessang *",
-      "20. Papum Pare",
-      "21. Shi Yomi *",
-      "22. Tawang",
-      "23. Tirap",
-      "24. Upper Siang",
-      "25. Upper Subansiri",
-      "26. West Kameng",
-      "27. West Siang"
-  ]
+  
+
+
+Capital: ["Shimla"],
+Total_Districts:[12],
+Districts:[
+"1. Bilaspur",
+"2. Chamba",
+"3. Hamirpur",
+"4. Kangra",
+"5. Kullu",
+"6. Kinnaur",
+"7. Mandi",
+"8. Una",
+"9. Solan",
+"10. Sirmaur",
+"11. Chamba",
+"12. Shimla"
+
+]
   },
  {
     id: 'IN-JK',
     dist_info:"Jammu and Kashmir, now a union territory, is divided into Jammu, Kashmir, and Ladakh regions. Srinagar, the summer capital, features Dal Lake and Mughal gardens. Gulmarg and Pahalgam are known for skiing and trekking. Jammu houses the Vaishno Devi shrine, a major pilgrimage site. The Ladakh region offers stark landscapes, monasteries, and the Pangong Lake. Traditional crafts like Pashmina shawls and Kashmiri carpets are globally admired. The cuisine includes dishes like Rogan Josh and Yakhni.",
-    districts: [
-      "1. Anjaw",
-      "2. Bichom *",
-      "3. Siang",
-      "4. Changlang",
-      "5. Dibang Valley",
-      "6. East Kameng",
-      "7. East Siang",
-      "8. Kamle",
-      "9. Keyi Panyor *",
-      "10. Kra Daadi",
-      "11. Kurung Kumey",
-      "12. Lepa Rada *",
-      "13. Lohit",
-      "14. Longding",
-      "15. Lower Dibang Valley",
-      "16. Lower Siang",
-      "17. Lower Subansiri",
-      "18. Namsai",
-      "19. Pakke Kessang *",
-      "20. Papum Pare",
-      "21. Shi Yomi *",
-      "22. Tawang",
-      "23. Tirap",
-      "24. Upper Siang",
-      "25. Upper Subansiri",
-      "26. West Kameng",
-      "27. West Siang"
-  ]
+    Capital: ["Srinagar (Summer), Jammu (Winter)"],
+    Total_Districts: [20],
+    Districts:[
+    "1. Anantnag",
+    "2. Bandipora",
+    "3. Baramulla",
+    "4. Budgam",
+    "5. Doda",
+    "6. Jammu",
+    "7. Kathua",
+    "8. Kishtwar",
+    "9. Kulgam",
+    "10. Kupwara",
+    "11. Poonch",
+    "12. Pulwama",
+    "13. Rajouri",
+    "14. Ramban",
+    "15. Samba",
+    "16. Shopian",
+    "17. Srinagar",
+    "18. Udhampur",
+    "19. Reasi",
+    "20. Poonch"
+    
+ ]
  },
  
  {
