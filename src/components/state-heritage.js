@@ -165,8 +165,11 @@ import PinjoreGardens from "../Assets/Heritage/PinjoreGardens.jpeg";
 import Rakhigarhi from "../Assets/Heritage/Rakhigarhi.jpeg";
 import FirozShahPalace from "../Assets/Heritage/FirozShahPalace.jpeg";
 import BhimaDeviTemple from "../Assets/Heritage/BhimaDeviTemple.jpeg";
-
-
+import VaishnoDeviTemple from "../Assets/Heritage/VaishnoDeviTemple.jpeg";
+import ShankaracharyaTemple from "../Assets/Heritage/ShankaracharyaTemple.jpeg";
+import MughalGardens from "../Assets/Heritage/MughalGardens.jpeg";
+import HemisMonastery from "../Assets/Heritage/HemisMonastery.jpeg";
+import JamaMasjid from "../Assets/Heritage/JamaMasjid.jpeg";
 const stateHeritage = [
     {
         id: 'IN-AN',
@@ -924,23 +927,23 @@ const stateHeritage = [
         heritageSites: [
             {
                 name: "Vaishno Devi Temple",
-                description: "The Vaishno Devi Temple is one of the most revered Hindu shrines, located in the Trikuta Mountains of Jammu. Dedicated to Goddess Vaishno Devi, it attracts millions of pilgrims annually. The temple is known for its sacred cave and the unique spiritual journey that devotees embark on to reach it. The trek to the temple is a significant spiritual experience for visitors. Pilgrims can also visit the Bhairon Nath Temple, located at the summit. The Vaishno Devi Temple is an iconic symbol of faith and devotion in Jammu and Kashmir."
+                description: "The Vaishno Devi Temple is one of the most revered Hindu shrines, located in the Trikuta Mountains of Jammu. Dedicated to Goddess Vaishno Devi, it attracts millions of pilgrims annually. The temple is known for its sacred cave and the unique spiritual journey that devotees embark on to reach it. The trek to the temple is a significant spiritual experience for visitors. Pilgrims can also visit the Bhairon Nath Temple, located at the summit. The Vaishno Devi Temple is an iconic symbol of faith and devotion in Jammu and Kashmir.",image: VaishnoDeviTemple
             },
             {
                 name: "Shankaracharya Temple",
-                description: "Perched atop a hill overlooking Srinagar, the Shankaracharya Temple is dedicated to Lord Shiva. The temple offers panoramic views of the city and Dal Lake. It is believed to have been built in the 9th century and holds historical and spiritual significance. The temple is an important pilgrimage site for Hindus, especially during the annual Shivarathri festival. Visitors must climb a series of steps to reach the temple, making it a physically and spiritually enriching experience. It is an architectural marvel with a rich cultural heritage."
+                description: "Perched atop a hill overlooking Srinagar, the Shankaracharya Temple is dedicated to Lord Shiva. The temple offers panoramic views of the city and Dal Lake. It is believed to have been built in the 9th century and holds historical and spiritual significance. The temple is an important pilgrimage site for Hindus, especially during the annual Shivarathri festival. Visitors must climb a series of steps to reach the temple, making it a physically and spiritually enriching experience. It is an architectural marvel with a rich cultural heritage.",image: ShankaracharyaTemple
             },
             {
                 name: "Mughal Gardens",
-                description: "The Mughal Gardens in Kashmir, including Nishat Bagh, Shalimar Bagh, and Chashme Shahi, are prime examples of Mughal horticultural architecture. These gardens were designed by Mughal emperors and feature symmetrical layouts, cascading water fountains, and lush greenery. The gardens are situated along the shores of Dal Lake, offering breathtaking views of the surrounding mountains. They represent the artistic and cultural synthesis of Persian and Indian styles. The Mughal Gardens are a popular tourist destination, especially during the spring and summer months. These gardens have been recognized for their beauty and historical importance."
+                description: "The Mughal Gardens in Kashmir, including Nishat Bagh, Shalimar Bagh, and Chashme Shahi, are prime examples of Mughal horticultural architecture. These gardens were designed by Mughal emperors and feature symmetrical layouts, cascading water fountains, and lush greenery. The gardens are situated along the shores of Dal Lake, offering breathtaking views of the surrounding mountains. They represent the artistic and cultural synthesis of Persian and Indian styles. The Mughal Gardens are a popular tourist destination, especially during the spring and summer months. These gardens have been recognized for their beauty and historical importance.",image: MughalGardens
             },
             {
                 name: "Hemis Monastery",
-                description: "Hemis Monastery, located in Ladakh, is one of the largest and most significant Buddhist monasteries in the region. It is famous for the Hemis festival, held every year in honor of Guru Padmasambhava. The monastery houses a vast collection of ancient scriptures, paintings, and thangkas. It offers a serene environment for meditation and spiritual learning. Hemis Monastery is an architectural masterpiece, with its intricate designs and vibrant murals. It is an important cultural and religious site, attracting visitors from around the world."
+                description: "Hemis Monastery, located in Ladakh, is one of the largest and most significant Buddhist monasteries in the region. It is famous for the Hemis festival, held every year in honor of Guru Padmasambhava. The monastery houses a vast collection of ancient scriptures, paintings, and thangkas. It offers a serene environment for meditation and spiritual learning. Hemis Monastery is an architectural masterpiece, with its intricate designs and vibrant murals. It is an important cultural and religious site, attracting visitors from around the world.",image: HemisMonastery
             },
             {
                 name: "Jama Masjid",
-                description: "The Jama Masjid in Srinagar is a beautiful 14th-century mosque built by Sultan Sikandar. This mosque is known for its distinct Kashmiri architecture, featuring wooden beams and a large, open prayer hall. The structure is a blend of Islamic and local architectural styles, with intricate carvings and wooden work. The Jama Masjid serves as a place of worship for the Muslim community and is a significant cultural landmark. It is located near Nowhatta in Srinagar and is an example of the region's historical architectural heritage. The mosque offers a peaceful atmosphere amidst the hustle and bustle of the city."
+                description: "The Jama Masjid in Srinagar is a beautiful 14th-century mosque built by Sultan Sikandar. This mosque is known for its distinct Kashmiri architecture, featuring wooden beams and a large, open prayer hall. The structure is a blend of Islamic and local architectural styles, with intricate carvings and wooden work. The Jama Masjid serves as a place of worship for the Muslim community and is a significant cultural landmark. It is located near Nowhatta in Srinagar and is an example of the region's historical architectural heritage. The mosque offers a peaceful atmosphere amidst the hustle and bustle of the city.",image: JamaMasjid
             }
 
         ]
