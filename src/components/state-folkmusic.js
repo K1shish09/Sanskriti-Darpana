@@ -44,6 +44,17 @@ const stateFolkmusics = [
             { name: "Ponung Songs", description: "Traditional songs performed by the Adi tribe, usually during the harvest festival, accompanied by folk instruments and music." }
         ]
     },
+
+    {
+        id: "IN-WB",
+        Folkmusics: [
+            { name: "Baul Songs", description: "A form of folk music performed by the Bauls, a group of mystic minstrels from Bengal, characterized by soulful melodies and philosophical lyrics." },
+            { name: "Chhau Music", description: "Music accompanying the Chhau dance, a semi-classical Indian dance with martial, tribal, and folk origins." },
+            { name: "Jatra Music", description: "Traditional Bengali folk theatre music, combining acting, songs, and instrumental music." },
+            { name: "Gambhira Songs", description: "Folk songs originating in the Malda district of West Bengal, known for their satirical and humorous content." },
+            { name: "Santhali Music", description: "Traditional music of the Santhal tribe, characterized by rhythmic beats and vibrant melodies." }
+        ]
+    },
  
  
 ];
