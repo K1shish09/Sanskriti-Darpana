@@ -106,9 +106,20 @@ import fara from "../Assets/Food/Fara.jpeg";
 import bora from "../Assets/Food/Bora.jpeg";
 import dubkiKadhi from "../Assets/Food/DubkiKadhi.jpeg";
 import Chhattisgarhirice from "../Assets/Food/ChhattisgarhiRice.jpeg";
-import Pindi from "../Assets/Food/Pindi.jpeg";
-import Pindi from "../Assets/Food/Pindi.jpeg";
-import Pindi from "../Assets/Food/Pindi.jpeg";
+import bisiBeleBath from "../Assets/Food/BisiBeleBath.jpeg";
+import ragiMudde from "../Assets/Food/RagiMudde.jpeg";
+import MysorePak from "../Assets/Food/MysorePak.jpeg";
+
+import Dalma from "../Assets/Food/Dalma.jpeg";
+import PakhalaBhata from "../Assets/Food/PakhalaBhata.jpeg";
+import ChhenaPoda from "../Assets/Food/ChhenaPoda.jpeg";
+import machaTarkari from "../Assets/Food/MachaTarkari.jpeg";
+import DahiPakhala from "../Assets/Food/DahiPakhala.jpeg";
+
+import Samosa from "../Assets/Food/Samosa.jpeg";
+import Samosa from "../Assets/Food/Samosa.jpeg";
+import Samosa from "../Assets/Food/Samosa.jpeg";
+import Samosa from "../Assets/Food/Samosa.jpeg";
 
 
 
@@ -630,15 +641,15 @@ const stateFoods = [
 
             {
                 "name": "Bisi Bele Bath",
-                "description": "A traditional dish of Karnataka, Bisi Bele Bath is a rice-based dish cooked with lentils, vegetables, and a special blend of spices. The name literally means 'hot lentil rice.' The dish is often served with a dollop of ghee on top and a side of crispy papad. It is both comforting and nutritious, enjoyed across all age groups. This dish combines the flavors of tamarind, curry leaves, and roasted spices for a unique taste. Popular during festive occasions and family meals.", image:
+                "description": "A traditional dish of Karnataka, Bisi Bele Bath is a rice-based dish cooked with lentils, vegetables, and a special blend of spices. The name literally means 'hot lentil rice.' The dish is often served with a dollop of ghee on top and a side of crispy papad. It is both comforting and nutritious, enjoyed across all age groups. This dish combines the flavors of tamarind, curry leaves, and roasted spices for a unique taste. Popular during festive occasions and family meals.", image: bisiBeleBath
             },
             {
                 "name": "Ragi Mudde",
-                "description": "Ragi Mudde, or finger millet balls, is a staple food of rural Karnataka. The ragi flour is cooked into a dough-like consistency and shaped into balls. It is typically served with a variety of curries, chutneys, or sambar. Ragi, being a rich source of iron and fiber, makes this dish highly nutritious. It's a simple yet filling meal, often enjoyed as a lunch or dinner. It's deeply rooted in the local traditions and farming culture of the state.", image:
+                "description": "Ragi Mudde, or finger millet balls, is a staple food of rural Karnataka. The ragi flour is cooked into a dough-like consistency and shaped into balls. It is typically served with a variety of curries, chutneys, or sambar. Ragi, being a rich source of iron and fiber, makes this dish highly nutritious. It's a simple yet filling meal, often enjoyed as a lunch or dinner. It's deeply rooted in the local traditions and farming culture of the state.", image: ragiMudde
             },
             {
                 "name": "Mysore Pak",
-                "description": "Mysore Pak is a rich, sweet dessert that originated in the royal kitchens of Mysore. It is made with ghee, sugar, and chickpea flour, cooked to perfection until it achieves a melt-in-the-mouth texture. The golden, aromatic sweetness of this dish makes it a favorite during festivals and special occasions. Mysore Pak is known for its indulgent, buttery richness. Its origins date back to the time of the Wodeyar dynasty. It is often serv", image:
+                "description": "Mysore Pak is a rich, sweet dessert that originated in the royal kitchens of Mysore. It is made with ghee, sugar, and chickpea flour, cooked to perfection until it achieves a melt-in-the-mouth texture. The golden, aromatic sweetness of this dish makes it a favorite during festivals and special occasions. Mysore Pak is known for its indulgent, buttery richness. Its origins date back to the time of the Wodeyar dynasty. It is often serv", image: MysorePak
             }
 
         ]
@@ -649,23 +660,23 @@ const stateFoods = [
 
             {
                 name: "Dalma",
-                description: "Dalma is a traditional Odia dish made with lentils and vegetables. The dish is typically prepared with a variety of seasonal vegetables like pumpkin, raw banana, and potatoes. It's seasoned with a mix of spices such as cumin, ginger, and garlic, along with a tempering of ghee. Dalma is nutritious and rich in protein. It is often served with rice, making it a staple meal in many Odia households. The combination of lentils and vegetables creates a wholesome, hearty flavor.", image:
+                description: "Dalma is a traditional Odia dish made with lentils and vegetables. The dish is typically prepared with a variety of seasonal vegetables like pumpkin, raw banana, and potatoes. It's seasoned with a mix of spices such as cumin, ginger, and garlic, along with a tempering of ghee. Dalma is nutritious and rich in protein. It is often served with rice, making it a staple meal in many Odia households. The combination of lentils and vegetables creates a wholesome, hearty flavor.", image: Dalma
             },
             {
                 name: "Pakhala Bhata",
-                description: "Pakhala Bhata is a fermented rice dish popular in Odisha, typically eaten during the summer. The rice is soaked in water overnight, resulting in a tangy flavor that is refreshing. It is usually paired with fried vegetables, fish fry, or chutneys. This dish is not only loved for its taste but also for its cooling properties, making it perfect for hot weather. It is considered a symbol of Odia culture and is served during festivals and special occasions. Pakhala Bhata is a healthy and hydrating meal.", image:
+                description: "Pakhala Bhata is a fermented rice dish popular in Odisha, typically eaten during the summer. The rice is soaked in water overnight, resulting in a tangy flavor that is refreshing. It is usually paired with fried vegetables, fish fry, or chutneys. This dish is not only loved for its taste but also for its cooling properties, making it perfect for hot weather. It is considered a symbol of Odia culture and is served during festivals and special occasions. Pakhala Bhata is a healthy and hydrating meal.", image: PakhalaBhata
             },
             {
                 name: "Chhena Poda",
-                description: "Chhena Poda is a famous sweet dish of Odisha made from chhena (Indian cottage cheese) and sugar. The mixture is baked until golden brown, creating a unique caramelized flavor. It is often flavored with cardamom and nuts, giving it an aromatic sweetness. This dish is typically prepared during festivals like Raja and Diwali. Chhena Poda has a dense, chewy texture that makes it stand out from other Indian sweets. It is a beloved dessert in Odisha and a must-try for sweet lovers.", image:
+                description: "Chhena Poda is a famous sweet dish of Odisha made from chhena (Indian cottage cheese) and sugar. The mixture is baked until golden brown, creating a unique caramelized flavor. It is often flavored with cardamom and nuts, giving it an aromatic sweetness. This dish is typically prepared during festivals like Raja and Diwali. Chhena Poda has a dense, chewy texture that makes it stand out from other Indian sweets. It is a beloved dessert in Odisha and a must-try for sweet lovers.", image: ChhenaPoda
             },
             {
                 name: "Macha Tarkari",
-                description: "Macha Tarkari is a fish curry, commonly prepared in Odia households using freshwater fish like Rohu or Catla. The fish is cooked in a gravy made with tomatoes, onions, garlic, and a variety of spices like turmeric, cumin, and coriander. The curry is rich and flavorful, with the spices enhancing the delicate taste of the fish. It is often enjoyed with steamed rice. Macha Tarkari is a traditional Odia delicacy that reflects the region's love for fresh fish and savory dishes. It is a key part of many family meals and celebrations.", image:
+                description: "Macha Tarkari is a fish curry, commonly prepared in Odia households using freshwater fish like Rohu or Catla. The fish is cooked in a gravy made with tomatoes, onions, garlic, and a variety of spices like turmeric, cumin, and coriander. The curry is rich and flavorful, with the spices enhancing the delicate taste of the fish. It is often enjoyed with steamed rice. Macha Tarkari is a traditional Odia delicacy that reflects the region's love for fresh fish and savory dishes. It is a key part of many family meals and celebrations.", image: machaTarkari
             },
             {
                 name: "Dahi Pakhala",
-                description: "Dahi Pakhala is a variant of the classic Pakhala Bhata, where the rice is mixed with yogurt instead of just water. The dish is cooling and refreshing, making it a popular choice during summer. It is often served with fried vegetables, mashed potatoes, or fish. The tanginess from the yogurt adds a creamy texture and distinct flavor to the dish. Dahi Pakhala is a comfort food in Odisha, known for its simplicity and health benefits. It’s especially loved during the Maha Vishuba Sankranti festival.", image:
+                description: "Dahi Pakhala is a variant of the classic Pakhala Bhata, where the rice is mixed with yogurt instead of just water. The dish is cooling and refreshing, making it a popular choice during summer. It is often served with fried vegetables, mashed potatoes, or fish. The tanginess from the yogurt adds a creamy texture and distinct flavor to the dish. Dahi Pakhala is a comfort food in Odisha, known for its simplicity and health benefits. It’s especially loved during the Maha Vishuba Sankranti festival.", image: DahiPakhala
             }
         ]
 
