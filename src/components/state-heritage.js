@@ -50,10 +50,11 @@ import ShillongPeak from "../Assets/Heritage/ShillongPeak.jpeg";
 import NongkhnumIsland from "../Assets/Heritage/NongkhnumIsland.jpeg";
 import MawphlangForest from "../Assets/Heritage/MawphlangForest.jpeg";
 import SijuCaves from "../Assets/Heritage/ SijuCaves.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
+import RumtekMonastery from "../Assets/Heritage/RumtekMonastery.jpeg";
+import PemayangtseMonastery from "../Assets/Heritage/PemayangtseMonastery.jpeg";
+import Khangchendzonga from "../Assets/Heritage/Khangchendzonga.jpeg";
+import TashidingMonastery from "../Assets/Heritage/TashidingMonastery.jpeg";
+import NorbugangChorten from "../Assets/Heritage/NorbugangChorten.jpeg";
 
 const stateheritage = [
     {
@@ -319,23 +320,23 @@ const stateheritage = [
         heritageSites: [
             {
                 name: "Rumtek Monastery",
-                description: "Rumtek Monastery is one of the largest and most famous monasteries in Sikkim, located about 24 kilometers from Gangtok. It is a significant seat of the Kagyu sect of Tibetan Buddhism. The monastery is known for its beautiful architecture, intricate murals, and golden statues. Visitors come to witness the serene environment and the annual religious festivals. It also houses a Buddhist university that attracts scholars from around the world. Rumtek Monastery stands as a symbol of Sikkim's rich Buddhist heritage."
+                description: "Rumtek Monastery is one of the largest and most famous monasteries in Sikkim, located about 24 kilometers from Gangtok. It is a significant seat of the Kagyu sect of Tibetan Buddhism. The monastery is known for its beautiful architecture, intricate murals, and golden statues. Visitors come to witness the serene environment and the annual religious festivals. It also houses a Buddhist university that attracts scholars from around the world. Rumtek Monastery stands as a symbol of Sikkim's rich Buddhist heritage.",image: RumtekMonastery
             },
             {
                 name: "Pemayangtse Monastery",
-                description: "Pemayangtse Monastery, located near Pelling, is one of the oldest and most revered monasteries in Sikkim. It is the main seat of the Nyingma sect of Tibetan Buddhism in the state. The monastery is known for its stunning architecture and the exquisite wooden sculpture of the Mahakala deity. The monastery offers panoramic views of the Kanchenjunga range, making it a popular tourist and pilgrimage destination. Its peaceful ambiance and rich history make it an important cultural heritage site. Pemayangtse hosts numerous religious festivals, especially during the Buddhist calendar year."
+                description: "Pemayangtse Monastery, located near Pelling, is one of the oldest and most revered monasteries in Sikkim. It is the main seat of the Nyingma sect of Tibetan Buddhism in the state. The monastery is known for its stunning architecture and the exquisite wooden sculpture of the Mahakala deity. The monastery offers panoramic views of the Kanchenjunga range, making it a popular tourist and pilgrimage destination. Its peaceful ambiance and rich history make it an important cultural heritage site. Pemayangtse hosts numerous religious festivals, especially during the Buddhist calendar year.",image: PemayangtseMonastery
             },
             {
                 name: "Khangchendzonga National Park",
-                description: "Khangchendzonga National Park, a UNESCO World Heritage Site, is one of the most ecologically diverse areas in India. It is home to a variety of flora and fauna, including rare species like the red panda and snow leopard. The park is named after Mount Kanchenjunga, the third-highest mountain in the world. It offers stunning views of snow-capped peaks, alpine meadows, and glacial lakes. The park is also a sacred site for the local people, especially the Lepcha community. It is a perfect blend of natural beauty and spiritual significance."
+                description: "Khangchendzonga National Park, a UNESCO World Heritage Site, is one of the most ecologically diverse areas in India. It is home to a variety of flora and fauna, including rare species like the red panda and snow leopard. The park is named after Mount Kanchenjunga, the third-highest mountain in the world. It offers stunning views of snow-capped peaks, alpine meadows, and glacial lakes. The park is also a sacred site for the local people, especially the Lepcha community. It is a perfect blend of natural beauty and spiritual significance.",image: Khangchendzonga
             },
             {
                 name: "Tashiding Monastery",
-                description: "Tashiding Monastery is one of the holiest monasteries in Sikkim, situated on a hilltop overlooking the Rangit River. Built in the 17th century, it is associated with the Nyingma sect of Tibetan Buddhism. The monastery is known for its unique location and spiritual significance, with views of the majestic Kanchenjunga peak. It is an important pilgrimage site, especially during the Bumchu festival. The monastery is famous for the sacred stupa and the rituals performed by monks. Tashiding represents the rich Tibetan Buddhist heritage of the region."
+                description: "Tashiding Monastery is one of the holiest monasteries in Sikkim, situated on a hilltop overlooking the Rangit River. Built in the 17th century, it is associated with the Nyingma sect of Tibetan Buddhism. The monastery is known for its unique location and spiritual significance, with views of the majestic Kanchenjunga peak. It is an important pilgrimage site, especially during the Bumchu festival. The monastery is famous for the sacred stupa and the rituals performed by monks. Tashiding represents the rich Tibetan Buddhist heritage of the region.",image: TashidingMonastery
             },
             {
                 name: "Norbugang Chorten",
-                description: "Norbugang Chorten, located in Yuksom, is a historical site of great importance in Sikkim. It marks the spot where the first king of Sikkim, Phuntsog Namgyal, was crowned in 1642. The chorten is a revered site for both locals and visitors, symbolizing the beginning of the Sikkimese monarchy. It is surrounded by beautiful landscapes and offers a glimpse into Sikkim's royal past. The site is also known for its serene atmosphere and sacred rituals. Norbugang Chorten is an essential heritage site, highlighting the state's historical and cultural evolution."
+                description: "Norbugang Chorten, located in Yuksom, is a historical site of great importance in Sikkim. It marks the spot where the first king of Sikkim, Phuntsog Namgyal, was crowned in 1642. The chorten is a revered site for both locals and visitors, symbolizing the beginning of the Sikkimese monarchy. It is surrounded by beautiful landscapes and offers a glimpse into Sikkim's royal past. The site is also known for its serene atmosphere and sacred rituals. Norbugang Chorten is an essential heritage site, highlighting the state's historical and cultural evolution.",image: NorbugangChorten
             }
 
         ]
