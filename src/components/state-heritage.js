@@ -139,8 +139,29 @@ import BaidyanathTemple from "../Assets/Heritage/BaidyanathTemple.jpeg";
 import KanchMandir from "../Assets/Heritage/KanchMandir.jpeg";
 import SanchiStupa from "../Assets/Heritage/SanchiStupa.jpeg";
 import ManduFort from "../Assets/Heritage/ManduFort.jpeg";
-import GwaliorFort from "../Assets/Heritage/GwaliorFort.jpeg"
+import GwaliorFort from "../Assets/Heritage/GwaliorFort.jpeg";
+import RaniKiVav from "../Assets/Heritage/RaniKiVav.jpeg";
 
+import SunTempleModhera from "../Assets/Heritage/SunTempleModhera.jpeg";
+import ChampanerPavagadh from "../Assets/Heritage/ChampanerPavagadh.jpeg";
+import Dholavira from "../Assets/Heritage/Dholavira.jpeg";
+import SomanathTemple from "../Assets/Heritage/SomanathTemple.jpeg";
+import DiuFort from "../Assets/Heritage/DiuFort.jpeg";
+import StPaulsChurch from "../Assets/Heritage/StPaulsChurch.jpeg";
+import NaidaCaves from "../Assets/Heritage/NaidaCaves.jpeg";
+import GangeshwarTemple from "../Assets/Heritage/GangeshwarTemple.jpeg";
+import DiuMuseum from "../Assets/Heritage/DiuMuseum.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
 
 
 
@@ -772,23 +793,23 @@ const stateHeritage = [
         heritageSites: [
             {
                 name: "Rani Ki Vav",
-                description: "Rani Ki Vav, located in Patan, Gujarat, is a UNESCO World Heritage Site. This stepwell was built in the 11th century during the Chalukya dynasty. Known for its intricate architecture, it has seven levels of stairs, adorned with beautiful sculptures and carvings. The vav (stepwell) was constructed to provide water during dry seasons and serve as a social space. It is a marvel of ancient engineering and artistry, with detailed depictions of Hindu deities and mythological figures. Rani Ki Vav showcases the craftsmanship of ancient Indian architecture and is a symbol of Gujarat's rich history."
+                description: "Rani Ki Vav, located in Patan, Gujarat, is a UNESCO World Heritage Site. This stepwell was built in the 11th century during the Chalukya dynasty. Known for its intricate architecture, it has seven levels of stairs, adorned with beautiful sculptures and carvings. The vav (stepwell) was constructed to provide water during dry seasons and serve as a social space. It is a marvel of ancient engineering and artistry, with detailed depictions of Hindu deities and mythological figures. Rani Ki Vav showcases the craftsmanship of ancient Indian architecture and is a symbol of Gujarat's rich history.",image: RaniKiVav
             },
             {
                 name: "Sun Temple, Modhera",
-                description: "The Sun Temple in Modhera, built in the 11th century, is dedicated to the Sun God, Surya. It is a remarkable example of the Solanki architectural style. The temple is divided into three main components: the sanctum, the hall of worship, and the reservoir. The temple is known for its geometrically aligned structure, with sunlight illuminating the sanctum during the equinox. The stepwell near the temple is also architecturally significant, with intricately carved steps. Modhera's Sun Temple stands as a symbol of Gujarat's architectural prowess during the medieval period."
+                description: "The Sun Temple in Modhera, built in the 11th century, is dedicated to the Sun God, Surya. It is a remarkable example of the Solanki architectural style. The temple is divided into three main components: the sanctum, the hall of worship, and the reservoir. The temple is known for its geometrically aligned structure, with sunlight illuminating the sanctum during the equinox. The stepwell near the temple is also architecturally significant, with intricately carved steps. Modhera's Sun Temple stands as a symbol of Gujarat's architectural prowess during the medieval period.",image: SunTempleModhera
             },
             {
                 name: "Champaner-Pavagadh Archaeological Park",
-                description: "Champaner-Pavagadh Archaeological Park is a UNESCO World Heritage Site located near the city of Vadodara. The park includes historical, architectural, and cultural remnants from the 8th century onwards. Key sites within the park include the Pavagadh Fort, Jama Masjid, and various temples and stepwells. The region reflects a mix of Islamic and Hindu influences in its architecture. The hill fort of Pavagadh offers panoramic views and is a popular trekking destination. The archaeological park is a rich source of historical knowledge, highlighting Gujarat's diverse heritage."
+                description: "Champaner-Pavagadh Archaeological Park is a UNESCO World Heritage Site located near the city of Vadodara. The park includes historical, architectural, and cultural remnants from the 8th century onwards. Key sites within the park include the Pavagadh Fort, Jama Masjid, and various temples and stepwells. The region reflects a mix of Islamic and Hindu influences in its architecture. The hill fort of Pavagadh offers panoramic views and is a popular trekking destination. The archaeological park is a rich source of historical knowledge, highlighting Gujarat's diverse heritage.",image: ChampanerPavagadh
             },
             {
                 name: "Dholavira",
-                description: "Dholavira, located on the arid Kutch region, is an ancient Harappan city dating back to the Indus Valley Civilization. It is one of the most prominent archaeological sites from the Bronze Age in India. The city is known for its sophisticated water management system, large reservoirs, and a well-planned city structure. The site contains impressive ruins, including a stadium, a massive stepwell, and an inscription that is believed to be the world's oldest. Dholavira was a major urban center that flourished around 3000 BCE. It provides valuable insights into the life and technology of the Indus Valley Civilization."
+                description: "Dholavira, located on the arid Kutch region, is an ancient Harappan city dating back to the Indus Valley Civilization. It is one of the most prominent archaeological sites from the Bronze Age in India. The city is known for its sophisticated water management system, large reservoirs, and a well-planned city structure. The site contains impressive ruins, including a stadium, a massive stepwell, and an inscription that is believed to be the world's oldest. Dholavira was a major urban center that flourished around 3000 BCE. It provides valuable insights into the life and technology of the Indus Valley Civilization.",image: Dholavira
             },
             {
                 name: "Somanath Temple",
-                description: "The Somanath Temple, located in Prabhas Patan near Veraval, is one of the twelve Jyotirlingas in India. This historic temple is dedicated to Lord Shiva and is considered a major pilgrimage site. The original temple was believed to be constructed in ancient times, though it has been rebuilt several times due to invasions. The temple's architecture is a blend of different styles, featuring intricate carvings and sculptures. It stands as a symbol of resilience, having been destroyed and rebuilt multiple times in history. Somanath Temple also plays a significant role in Gujarat's religious and cultural identity."
+                description: "The Somanath Temple, located in Prabhas Patan near Veraval, is one of the twelve Jyotirlingas in India. This historic temple is dedicated to Lord Shiva and is considered a major pilgrimage site. The original temple was believed to be constructed in ancient times, though it has been rebuilt several times due to invasions. The temple's architecture is a blend of different styles, featuring intricate carvings and sculptures. It stands as a symbol of resilience, having been destroyed and rebuilt multiple times in history. Somanath Temple also plays a significant role in Gujarat's religious and cultural identity.",image: SomanathTemple
             }
 
         ]
@@ -798,23 +819,23 @@ const stateHeritage = [
         heritageSites: [
             {
                 name: "Diu Fort",
-                description: "Diu Fort, built by the Portuguese in the 16th century, is one of the most prominent landmarks of Diu. The fort offers stunning views of the Arabian Sea and the surrounding coastline. It is known for its impressive architecture, featuring bastions, a lighthouse, and intricate carvings. The fort is a blend of military utility and aesthetic beauty. The site is an important reminder of Portuguese colonial history in India. It is a popular tourist attraction, with visitors coming to explore its history and scenic surroundings."
+                description: "Diu Fort, built by the Portuguese in the 16th century, is one of the most prominent landmarks of Diu. The fort offers stunning views of the Arabian Sea and the surrounding coastline. It is known for its impressive architecture, featuring bastions, a lighthouse, and intricate carvings. The fort is a blend of military utility and aesthetic beauty. The site is an important reminder of Portuguese colonial history in India. It is a popular tourist attraction, with visitors coming to explore its history and scenic surroundings.",image: DiuFort
             },
             {
                 name: "St. Paul's Church",
-                description: "St. Paul's Church is a beautiful example of Portuguese-Gothic architecture in Diu. Built in 1610, it is known for its stunning wooden altar and intricate decorations. The church's architecture combines European styles with local influences, making it unique. It is dedicated to St. Paul, one of the apostles of Jesus Christ. The church remains an active place of worship and a key historical site for visitors. Its serene atmosphere and historical importance make it a must-see on Diu's heritage trail."
+                description: "St. Paul's Church is a beautiful example of Portuguese-Gothic architecture in Diu. Built in 1610, it is known for its stunning wooden altar and intricate decorations. The church's architecture combines European styles with local influences, making it unique. It is dedicated to St. Paul, one of the apostles of Jesus Christ. The church remains an active place of worship and a key historical site for visitors. Its serene atmosphere and historical importance make it a must-see on Diu's heritage trail.",image: StPaulsChurch
             },
             {
                 name: "Naida Caves",
-                description: "Naida Caves are a series of interconnected caves located near Diu Fort, known for their fascinating labyrinthine structure. The caves were carved out of soft sandstone by the Portuguese for strategic purposes. These caves are not only a great spot for exploration but also offer stunning panoramic views of the sea. Visitors are drawn to the caves for their unique architecture and historical significance. The rugged terrain and tranquil surroundings make it a popular site for photography. Naida Caves stand as a testament to the region's colonial history and natural beauty."
+                description: "Naida Caves are a series of interconnected caves located near Diu Fort, known for their fascinating labyrinthine structure. The caves were carved out of soft sandstone by the Portuguese for strategic purposes. These caves are not only a great spot for exploration but also offer stunning panoramic views of the sea. Visitors are drawn to the caves for their unique architecture and historical significance. The rugged terrain and tranquil surroundings make it a popular site for photography. Naida Caves stand as a testament to the region's colonial history and natural beauty.",image: NaidaCaves
             },
             {
                 name: "Gangeshwar Temple",
-                description: "The Gangeshwar Temple is dedicated to Lord Shiva and is situated near the beach in Diu. The temple is famous for its five Shivlings, which are submerged in the sea, and the waves gently touch them. This unique feature gives the temple a special spiritual aura. The temple is an important pilgrimage site, especially during the Maha Shivaratri festival. The scenic beauty surrounding the temple adds to its peaceful and serene environment. It is one of the most significant religious sites in Diu, blending nature with devotion."
+                description: "The Gangeshwar Temple is dedicated to Lord Shiva and is situated near the beach in Diu. The temple is famous for its five Shivlings, which are submerged in the sea, and the waves gently touch them. This unique feature gives the temple a special spiritual aura. The temple is an important pilgrimage site, especially during the Maha Shivaratri festival. The scenic beauty surrounding the temple adds to its peaceful and serene environment. It is one of the most significant religious sites in Diu, blending nature with devotion.",image: GangeshwarTemple
             },
             {
                 name: "Diu Museum",
-                description: "The Diu Museum, housed in a former Portuguese church, showcases a fascinating collection of artifacts and sculptures from the region's colonial past. The museum exhibits items related to the Portuguese rule, including religious statues, ancient inscriptions, and artwork. It is an ideal spot for history enthusiasts to understand the cultural influences of the Portuguese era. The museum’s calm setting and historical significance make it an enriching visit. It also features displays on local cultural heritage and traditions. The Diu Museum is a gateway to exploring the history and art of this coastal town."
+                description: "The Diu Museum, housed in a former Portuguese church, showcases a fascinating collection of artifacts and sculptures from the region's colonial past. The museum exhibits items related to the Portuguese rule, including religious statues, ancient inscriptions, and artwork. It is an ideal spot for history enthusiasts to understand the cultural influences of the Portuguese era. The museum’s calm setting and historical significance make it an enriching visit. It also features displays on local cultural heritage and traditions. The Diu Museum is a gateway to exploring the history and art of this coastal town.",image: DiuMuseum
             }
 
         ]
