@@ -324,7 +324,7 @@ Total_Districts: [12],
     id: "IN-TN",
     dist_info:"Tamil Nadu, rich in history and culture, has 38 districts offering a blend of heritage, spirituality, and natural beauty. Chennai, the capital, features Marina Beach, Kapaleeshwarar Temple, and the iconic Fort St. George. Madurai is home to the Meenakshi Temple, a masterpiece of Dravidian architecture. Rameswaram and Kanyakumari are significant pilgrimage sites. The UNESCO-listed temples of Thanjavur and Mahabalipuram showcase Tamil Nadu's architectural grandeur. Hill stations like Ooty and Kodaikanal offer respite from the heat. Tamil Nadu is also known for its Bharatanatyam dance, Carnatic music, and festivals like Pongal.",
     Capital: ["Chennai"],
-Total Districts: [38],
+Total_Districts: [38],
 Districts:[
 "1. Ariyalur",
 "2. Chengalpattu",
@@ -409,7 +409,7 @@ Districts:[
 "1. Karaikal",
 "2. Mahe",
 "3. Puducherry",
-"4. Yanam".
+"4. Yanam"
 
   ]
  },
@@ -418,7 +418,7 @@ Districts:[
     id: "IN-TG",
     dist_info:"Telugu: The official language of Telangana, spoken by around 75% of the population. Telugu is a classical language of India Urdu: The second official language of Telangana, spoken by around 12% of the population. Before 1948, Urdu was the official language of Hyderabad State. Other languages: Other languages spoken in Telangana include Lambadi, Marathi, and Hindi.",
     Capital: ["Hyderabad"],
-    Total Districts: [33],
+    Total_Districts: [33],
     Districts:[
     "1. Adilabad",
     "2. Bhadradri Kothagudem",
@@ -472,7 +472,7 @@ Districts:[
     id: "IN-CT",
    dist_info:"Chhattisgarh, known as the Rice Bowl of India, is a state rich in minerals, forests, and tribal culture, divided into 33 districts. Raipur, the capital, is a fast-developing city with landmarks like Swami Vivekananda Sarovar. Bastar is famed for its tribal heritage, Danteshwari Temple, and Chitrakote Falls, often called the Niagara of India. Bilaspur is a commercial hub with the Kanan Pendari Zoological Park. Jagdalpur showcases stunning waterfalls like Tirathgarh and the Kanger Valley National Park. Chhattisgarh is also known for its traditional handicrafts, bell-metal art, and festivals like Bastar Dussehra, celebrated with tribal customs.",
    Capital: ["Raipur"],
-   Total Districts: [33],
+   Total_Districts: [33],
    Districts:[
    "1. Balod",
    "2. Baloda Bazar",
