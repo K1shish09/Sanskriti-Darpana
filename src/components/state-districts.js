@@ -207,6 +207,11 @@ Total_Districts: [12],
  {
     id: "IN-TR",
     dist_info:"Tripura, the third smallest Indian state, boasts 8 districts with a mix of history, culture, and natural beauty. Agartala, the capital, houses the grand Ujjayanta Palace, now a state museum, and Neermahal, a water palace on Rudrasagar Lake. Unakoti features ancient rock-cut sculptures, believed to date back to the 7th–9th centuries. Sepahijala Wildlife Sanctuary is a biodiversity hotspot, home to the unique spectacled monkey. The Tripura Sundari Temple in Gomati is one of the 51 Shakti Peethas. Jampui Hills in North Tripura offers panoramic views and a serene escape, especially during the Orange Festival. Tribal crafts, bamboo products, and traditional dances like Garia add to the cultural tapestry.",
+
+
+
+Capital: ["Agartala"],
+Total_Districts: [8],
     districts: [
      
      "1. Dhalai",
@@ -243,6 +248,8 @@ Total_Districts: [12],
  {
     id: "IN-SK",
     dist_info:"Sikkim, nestled in the eastern Himalayas, is divided into 6 districts and is known for its pristine landscapes and cultural harmony. Gangtok, the capital, offers panoramic views of Kanchenjunga and attractions like MG Marg, Rumtek Monastery, and Tsomgo Lake. North Sikkim is home to the surreal Gurudongmar Lake, Yumthang Valley, and Lachung village, ideal for exploring snow-capped landscapes and rhododendron blooms. South Sikkim features Namchi’s towering Chardham and Samdruptse Hill's giant Guru Padmasambhava statue. West Sikkim is a spiritual haven with Pemayangtse Monastery and the sacred Khecheopalri Lake. Newer districts Pakyong and Soreng focus on eco-tourism. Festivals like Losar and Saga Dawa highlight Sikkim's rich Buddhist traditions.",
+    Capital: ["Gangtok"],
+Total_Districts: [4],
     districts: [
       "1. Anjaw",
       "2. Bichom *",
@@ -277,6 +284,8 @@ Total_Districts: [12],
  {
     id: "IN-KL",
     dist_info:"The Lakshadweep archipelago, India's smallest Union Territory, comprises 36 islands, 10 of which are inhabited. Known for its untouched beauty, the islands feature pristine beaches, coral reefs, and crystal-clear lagoons. Agatti is famous for its coral reefs and watersports, while Bangaram is a secluded island ideal for luxury tourism. Minicoy, the southernmost island, is known for its unique culture and traditional Lava dance. Kavaratti, the capital, houses a marine aquarium and the Ujra Mosque, showcasing intricate craftsmanship. The region's economy relies on fishing, coconut cultivation, and tourism. Conservation efforts aim to preserve its fragile marine ecosystem.",
+    Capital: ["Kavaratti"],
+Total_Districts:[ 1],
     districts: [
 
       "1. Lakshwadeep"
