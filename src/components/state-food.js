@@ -925,6 +925,8 @@ const stateFoods = [
             {
                 name: "Kulfi Falooda",
                 description: "Kulfi Falooda is a traditional dessert that is a perfect indulgence on hot Delhi days.It consists of rich and creamy kulfi(Indian ice cream) served with falooda(vermicelli) and rose syrup.Often garnished with nuts like almonds and pistachios, it offers a delightful combination of textures and flavors.The dish is a blend of cold, sweet, and floral notes that refresh the palate.Found in many sweet shops and street vendors across Delhi.Kulfi Falooda is a timeless favorite among locals and tourists alike.", image: Kulfifalooda
+            },
+        {
                 name: "Chole Bhature",
                 description: "Chole Bhature is a quintessential Delhi dish made with spicy chickpeas(chole) served alongside deep- fried fluffy bread(bhature).The chole is cooked with a blend of aromatic spices, giving it a rich and tangy flavor.Bhature, made from fermented dough, is light yet indulgent.It’s a favorite breakfast or lunch dish for locals.Often served with a side of pickles, onions, and green chutney.This dish is a must-try for its hearty and comforting appeal.Found in almost every nook and corner of Delhi.", 
             },
@@ -942,7 +944,7 @@ const stateFoods = [
             },
             {
                 name: "Kulfi Falooda",
-                description: "Kulfi Falooda is a traditional dessert that is a perfect indulgence on hot Delhi days.It consists of rich and creamy kulfi(Indian ice cream) served with falooda(vermicelli) and rose syrup.Often garnished with nuts like almonds and pistachios, it offers a delightful combination of textures and flavors.The dish is a blend of cold, sweet, and floral notes that refresh the palate.Found in many sweet shops and street vendors across Delhi.Kulfi Falooda is a timeless favorite among locals and tourists
+                description: "Kulfi Falooda is a traditional dessert that is a perfect indulgence on hot Delhi days.It consists of rich and creamy kulfi(Indian ice cream) served with falooda(vermicelli) and rose syrup.Often garnished with nuts like almonds and pistachios, it offers a delightful combination of textures and flavors.The dish is a blend of cold, sweet, and floral notes that refresh the palate.Found in many sweet shops and street vendors across Delhi.Kulfi Falooda is a timeless favorite among locals and tourists",
             }
 
         ]
@@ -969,7 +971,6 @@ const stateFoods = [
             {
                 name: "Mithe Chawal",
                 description: "Mithe Chawal is a traditional sweet rice dish cooked with sugar, saffron, and cardamom.Often garnished with dry fruits like almonds and raisins, it is prepared during festivals and celebrations.The rice is cooked to perfection, absorbing the sweetness and aroma of saffron.Ghee is added for a rich and buttery texture.Mithe Chawal is not only delicious but also a symbol of joy and togetherness in Haryanvi culture.It pairs well with spicy curries or is enjoyed as a standalone dessert.", image: MitheChawal
-                description: "A traditional dish made from grated corn, Bhutte Ka Kees is a popular delicacy in Haryana.It is flavored with ghee, mustard seeds, and green chilies, offering a rich and savory taste.The creamy texture comes from curd and gram flour added during cooking.This dish is typically garnished with fresh coriander and lemon juice for a tangy twist.It is a healthy and nutritious snack enjoyed with tea.Served piping hot, it is perfect for cold evenings in Haryana.",
             },
             {
                 name: "Besan Masala Roti",
@@ -1015,7 +1016,6 @@ const stateFoods = [
                 name: "Gushtaba",
                 description: "Known as the 'King of Kashmiri Cuisine',  Gushtaba is a royal dish made with minced mutton shaped into soft meatballs.These meatballs are cooked in a luscious yogurt gravy spiced with cardamom, fennel, and cloves.The preparation of Gushtaba is labor - intensive and requires expert hands, making it a dish of celebration and importance.It is traditionally served at the end of a Wazwan feast as a sign of respect to guests.The creamy, tangy sauce pairs perfectly with steamed rice.Gushtaba embodies the essence of Kashmiri hospitality and culinary artistry.", image: Gushtaba
 
-                description: "A signature dish of Kashmiri cuisine, Rogan Josh is a flavorful curry made with tender pieces of lamb cooked in a rich gravy of yogurt, spices, and saffron.The dish is known for its vibrant red color, derived from Kashmiri red chilies and ratan jot(a natural dye).The slow- cooked process ensures the meat absorbs the aromatic spices like cardamom, cinnamon, and cloves.It pairs excellently with steamed rice or traditional Kashmiri breads.Originating from Persian influences, this dish has become a staple in Wazwan feasts.Its rich, aromatic flavors make it a favorite among food enthusiasts worldwide.", 
             },
             {
                 name: "Dum Aloo",
@@ -1061,9 +1061,9 @@ const stateFoods = [
             {
                 name: "Lassi",
                 description: "A quintessential Punjabi drink, cherished in Chandigarh, made from thick yogurt blended with sugar, water, and optional spices. Served in tall glasses, it’s a refreshing accompaniment to heavy meals. Often topped with a dollop of malai (cream) or flavored with cardamom and saffron for added richness. Available in sweet and salty variations, it’s a perfect coolant for hot summer days. The creamy consistency and tangy taste are irresistible. It reflects the vibrant and hearty culture of the region.", image: Lassi
-            }
+            },
 
-
+        {
                 description: "A rich and creamy dish made with tender chicken cooked in a luscious tomato and butter-based gravy. Originating from Punjab, it has become a signature dish in Chandigarh. It is characterized by its smooth texture, mild spices, and aromatic flavor. Often paired with naan or steamed rice, it’s a comforting indulgence. The addition of cream and butter enhances the richness, making it irresistible. Perfect for those who enjoy a balance of spice and sweetness.",
                 image: "path/to/butter-chicken.jpg"
             },
