@@ -101,6 +101,17 @@ const stateDress = [
     ]
  },
 
+ {
+    id: "IN-ML",
+    Dresses: [
+        { name: "Jainsem", description: "Traditional attire for women, consisting of a wraparound skirt, often paired with a blouse and adorned with beads and jewelry." },
+        { name: "Dhara", description: "A traditional dress worn by women during festivals and special occasions, characterized by its vibrant colors and intricate patterns." },
+        { name: "Jymphong", description: "Traditional attire for men, consisting of a sleeveless coat, often paired with a dhoti and adorned with traditional patterns and designs." },
+        { name: "Meghalaya Ornaments", description: "Traditional jewelry worn by the people of Meghalaya, often made from beads, silver, and other materials." },
+        { name: "Tapmohkhlieh", description: "A traditional headscarf worn by women, often paired with traditional attire, providing both style and modesty." }
+    ]
+ },
+
 
 
 
