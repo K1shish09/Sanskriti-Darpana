@@ -120,17 +120,17 @@ import BhubaneswarTemples from "../Assets/Heritage/BhubaneswarTemples.jpeg";
 import ChilikaLake from "../Assets/Heritage/ChilikaLake.jpeg";
 import JagannathTemple from "../Assets/Heritage/JagannathTemple.jpeg";
 import UdaigiriKhandagiriCaves from "../Assets/Heritage/UdaigiriKhandagiriCaves.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
+import DadarNagarHaveli from "../Assets/Heritage/DadarNagarHaveli.jpeg";
+import Silvassa from "../Assets/Heritage/Silvassa.jpeg";
+import ChurchOurLadyPiety from "../Assets/Heritage/ChurchOurLadyPiety.jpeg";
+import MadhubanDam from "../Assets/Heritage/MadhubanDam.jpeg";
+import VangangaLakeGarden from "../Assets/Heritage/VangangaLakeGarden.jpeg";
+import GatewayIndia from "../Assets/Heritage/GatewayIndia.jpeg";
+import AjantaCaves from "../Assets/Heritage/AjantaCaves.jpeg";
+import ElloraCaves from "../Assets/Heritage/ElloraCaves.jpeg";
+import ShaniwarWada from "../Assets/Heritage/ShaniwarWada.jpeg";
+import CST from "../Assets/Heritage/CST.jpeg";
+//import from "../Assets/Heritage/.jpeg";
 
 
 
@@ -519,8 +519,8 @@ const stateHeritage = [
             },
             {
                 name: "Arikamedu",
-                description: "Arikamedu is an ancient archaeological site located near Puducherry, known for its historical importance as a Roman trading center. Excavations have revealed artifacts dating back to the 1st century BCE, showing evidence of trade between the Romans and the local Tamil population. The site features remains of Roman pottery, beads, and other goods, reflecting the rich cultural exchanges of the period. Arikamedu’s strategic location along the ancient maritime trade routes makes it an important historical landmark. It provides valuable insights into Puducherry's early connections with global trade. The site is also a testament to the region's ancient urbanization and cosmopolitan culture.",image: Arikamedu
-
+                description: "Arikamedu is an ancient archaeological site located near Puducherry, known for its historical importance as a Roman trading center. Excavations have revealed artifacts dating back to the 1st century BCE, showing evidence of trade between the Romans and the local Tamil population. The site features remains of Roman pottery, beads, and other goods, reflecting the rich cultural exchanges of the period. Arikamedu’s strategic location along the ancient maritime trade routes makes it an important historical landmark. It provides valuable insights into Puducherry's early connections with global trade. The site is also a testament to the region's ancient urbanization and cosmopolitan culture.", image: Arikamedu
+            }
         ]
     },
     {
@@ -660,23 +660,22 @@ const stateHeritage = [
         heritageSites: [
             {
                 name: "Dadar Nagar Haveli",
-                description: "Dadar Nagar Haveli is a historic region in India, known for its rich cultural and architectural heritage. It was a former Portuguese colony until it was merged with India in 1961. The region is renowned for its blend of Portuguese and Indian influences. One of its most iconic features is its beautiful colonial-era churches, with ornate designs and historical significance. The local architecture reflects a harmonious fusion of different cultural styles. Dadar Nagar Haveli is also famous for its scenic landscapes and tranquil environment."
+                description: "Dadar Nagar Haveli is a historic region in India, known for its rich cultural and architectural heritage. It was a former Portuguese colony until it was merged with India in 1961. The region is renowned for its blend of Portuguese and Indian influences. One of its most iconic features is its beautiful colonial-era churches, with ornate designs and historical significance. The local architecture reflects a harmonious fusion of different cultural styles. Dadar Nagar Haveli is also famous for its scenic landscapes and tranquil environment.",image: DadarNagarHaveli
             },
             {
                 name: "Silvassa",
-                description: "Silvassa, the capital of Dadra and Nagar Haveli, is known for its historical significance and serene surroundings. The region showcases a unique blend of Indian and Portuguese cultures, with beautiful Portuguese-style buildings. Notable landmarks include the Tribal Cultural Museum, which displays the local tribes' rich traditions and history. Silvassa is also home to several wildlife sanctuaries and nature parks, adding to its appeal as a tourist destination. The historic churches in the town reflect the Portuguese colonial influence. Silvassa's tranquil ambiance makes it a popular getaway."
+                description: "Silvassa, the capital of Dadra and Nagar Haveli, is known for its historical significance and serene surroundings. The region showcases a unique blend of Indian and Portuguese cultures, with beautiful Portuguese-style buildings. Notable landmarks include the Tribal Cultural Museum, which displays the local tribes' rich traditions and history. Silvassa is also home to several wildlife sanctuaries and nature parks, adding to its appeal as a tourist destination. The historic churches in the town reflect the Portuguese colonial influence. Silvassa's tranquil ambiance makes it a popular getaway.",image: Silvassa
             },
             {
                 name: "Church of Our Lady of Piety",
-                description: "The Church of Our Lady of Piety is a significant heritage site in Dadra and Nagar Haveli, representing Portuguese colonial architecture. Built in the 18th century, it reflects the region's Christian history. The church's interior is adorned with intricate woodwork, stained glass windows, and religious artwork. It remains an important site for Christian worship and cultural heritage. The church is an example of the blend of European and Indian architectural styles found in the region. It is also a popular spot for pilgrims and history enthusiasts alike."
-            },
+                description: "The Church of Our Lady of Piety is a significant heritage site in Dadra and Nagar Haveli, representing Portuguese colonial architecture. Built in the 18th century, it reflects the region's Christian history. The church's interior is adorned with intricate woodwork, stained glass windows, and religious artwork. It remains an important site for Christian worship and cultural heritage. The church is an example of the blend of European and Indian architectural styles found in the region. It is also a popular spot for pilgrims and history enthusiasts alike.",image: ChurchOurLadyPiety            },
             {
                 name: "Madhuban Dam",
-                description: "Madhuban Dam, located near Silvassa, is an important site for its scenic beauty and utility. Built across the Daman Ganga River, the dam offers breathtaking views of surrounding hills and lush forests. The dam is not only crucial for water supply but also supports local wildlife and plant life. Its surrounding area is a popular tourist destination, especially for nature lovers and photographers. Madhuban Dam is a symbol of engineering achievement in the region. It offers an ideal spot for picnics, boating, and wildlife observation."
+                description: "Madhuban Dam, located near Silvassa, is an important site for its scenic beauty and utility. Built across the Daman Ganga River, the dam offers breathtaking views of surrounding hills and lush forests. The dam is not only crucial for water supply but also supports local wildlife and plant life. Its surrounding area is a popular tourist destination, especially for nature lovers and photographers. Madhuban Dam is a symbol of engineering achievement in the region. It offers an ideal spot for picnics, boating, and wildlife observation.",image: MadhubanDam
             },
             {
                 name: "Vanganga Lake Garden",
-                description: "Vanganga Lake Garden is a picturesque spot in Dadra and Nagar Haveli, famous for its tranquil beauty and lush greenery. The garden features a beautiful lake surrounded by manicured gardens, walking paths, and bridges. The area is perfect for boating, picnicking, and bird watching, making it a popular site for tourists. The peaceful environment and natural surroundings offer a great escape from the bustle of city life. It is a blend of natural beauty and man-made landscaping. Vanganga Lake is a testament to the region’s dedication to preserving its natural heritage."
+                description: "Vanganga Lake Garden is a picturesque spot in Dadra and Nagar Haveli, famous for its tranquil beauty and lush greenery. The garden features a beautiful lake surrounded by manicured gardens, walking paths, and bridges. The area is perfect for boating, picnicking, and bird watching, making it a popular site for tourists. The peaceful environment and natural surroundings offer a great escape from the bustle of city life. It is a blend of natural beauty and man-made landscaping. Vanganga Lake is a testament to the region’s dedication to preserving its natural heritage.",image: VangangaLakeGarden
             }
 
         ]
@@ -686,23 +685,23 @@ const stateHeritage = [
         heritageSites: [
             {
                 name: "Gateway of India",
-                description: "The Gateway of India, located in Mumbai, is one of Maharashtra's most iconic landmarks. Built in 1924, it was designed to commemorate the visit of King George V and Queen Mary to India. This stunning structure blends Hindu and Muslim architectural styles, symbolizing the unity of India. It overlooks the Arabian Sea and is a major tourist attraction. The monument marks the point from where the last British troops left India in 1948. The Gateway of India remains a symbol of India's rich history and colonial past."
+                description: "The Gateway of India, located in Mumbai, is one of Maharashtra's most iconic landmarks. Built in 1924, it was designed to commemorate the visit of King George V and Queen Mary to India. This stunning structure blends Hindu and Muslim architectural styles, symbolizing the unity of India. It overlooks the Arabian Sea and is a major tourist attraction. The monument marks the point from where the last British troops left India in 1948. The Gateway of India remains a symbol of India's rich history and colonial past.",image: GatewayIndia
             },
             {
                 name: "Ajanta Caves",
-                description: "The Ajanta Caves, a UNESCO World Heritage site, are located in the state’s Aurangabad district. These ancient rock-cut caves, dating from the 2nd century BCE to 6th century CE, feature exquisite Buddhist art and sculpture. The caves are famous for their detailed murals depicting the life of Buddha and his teachings. Visitors marvel at the intricate carvings, which are considered masterpieces of Indian art. The Ajanta Caves are a significant cultural and religious site for Buddhists. They offer a glimpse into ancient Indian civilization and religious practices."
+                description: "The Ajanta Caves, a UNESCO World Heritage site, are located in the state’s Aurangabad district. These ancient rock-cut caves, dating from the 2nd century BCE to 6th century CE, feature exquisite Buddhist art and sculpture. The caves are famous for their detailed murals depicting the life of Buddha and his teachings. Visitors marvel at the intricate carvings, which are considered masterpieces of Indian art. The Ajanta Caves are a significant cultural and religious site for Buddhists. They offer a glimpse into ancient Indian civilization and religious practices.",image: AjantaCaves
             },
             {
                 name: "Ellora Caves",
-                description: "Located near Aurangabad, the Ellora Caves are another UNESCO World Heritage site and a stunning example of Indian rock-cut architecture. The site contains 34 monasteries and temples representing three major religions: Buddhism, Hinduism, and Jainism. The Kailasa temple, a single monolithic structure carved out of a hill, is one of the most remarkable features of Ellora. Dating back to between 600 and 1000 CE, the caves reflect the cultural diversity of India. The Ellora Caves offer visitors a fascinating journey through religious art and ancient history. They attract pilgrims and tourists alike due to their historical and spiritual significance."
+                description: "Located near Aurangabad, the Ellora Caves are another UNESCO World Heritage site and a stunning example of Indian rock-cut architecture. The site contains 34 monasteries and temples representing three major religions: Buddhism, Hinduism, and Jainism. The Kailasa temple, a single monolithic structure carved out of a hill, is one of the most remarkable features of Ellora. Dating back to between 600 and 1000 CE, the caves reflect the cultural diversity of India. The Ellora Caves offer visitors a fascinating journey through religious art and ancient history. They attract pilgrims and tourists alike due to their historical and spiritual significance.",image: ElloraCaves
             },
             {
                 name: "Shaniwar Wada",
-                description: "Shaniwar Wada, located in Pune, is a historical fortification that was once the seat of the Peshwa rulers of the Maratha Empire. Built in 1732, the fort is known for its impressive architecture, including a grand entrance gate, intricate carvings, and the iconic clock tower. Although much of it was destroyed by fire in the 19th century, the ruins still hold significant historical importance. The Wada is famous for its cultural legacy, showcasing the glory of the Maratha Empire. Today, it attracts visitors who explore its architecture, history, and legends. The site is also known for the eerie tales and folklore surrounding it."
+                description: "Shaniwar Wada, located in Pune, is a historical fortification that was once the seat of the Peshwa rulers of the Maratha Empire. Built in 1732, the fort is known for its impressive architecture, including a grand entrance gate, intricate carvings, and the iconic clock tower. Although much of it was destroyed by fire in the 19th century, the ruins still hold significant historical importance. The Wada is famous for its cultural legacy, showcasing the glory of the Maratha Empire. Today, it attracts visitors who explore its architecture, history, and legends. The site is also known for the eerie tales and folklore surrounding it.",image: ShaniwarWada
             },
             {
                 name: "Chhatrapati Shivaji Maharaj Terminus",
-                description: "Chhatrapati Shivaji Maharaj Terminus, also known as CST, is a historic railway station in Mumbai and a UNESCO World Heritage site. Built in 1887, the station is a blend of Victorian Gothic and traditional Indian architectural styles. It was designed by Frederick William Stevens and serves as a major transport hub in Mumbai. The station is known for its stunning facade, intricate carvings, and spacious interiors. CST is not only a functional transportation terminal but also a monumental piece of India's colonial-era architecture. The station remains a symbol of Mumbai's vibrant past and modern present."
+                description: "Chhatrapati Shivaji Maharaj Terminus, also known as CST, is a historic railway station in Mumbai and a UNESCO World Heritage site. Built in 1887, the station is a blend of Victorian Gothic and traditional Indian architectural styles. It was designed by Frederick William Stevens and serves as a major transport hub in Mumbai. The station is known for its stunning facade, intricate carvings, and spacious interiors. CST is not only a functional transportation terminal but also a monumental piece of India's colonial-era architecture. The station remains a symbol of Mumbai's vibrant past and modern present.",image: CST
             }
 
         ]
