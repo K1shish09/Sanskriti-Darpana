@@ -65,7 +65,8 @@ const stateDistrict = [
  
  {
     id: "IN-AP",
-    dist_info:"Andhra Pradesh, with 26 districts, is known for its rich heritage, temples, and coastline. Amaravati, the capital region, is an ancient Buddhist site. Tirupati in Chittoor is one of the most visited pilgrimage sites, housing the iconic Venkateswara Temple. Visakhapatnam, a port city, is famed for its beaches, Araku Valley, and the INS Kursura Submarine Museum. Vijayawada is a cultural hub with landmarks like Kanaka Durga Temple. The Borra Caves in Ananthagiri Hills and Lepakshi Temple in Anantapur highlight Andhra’s natural and historical wealth. Kuchipudi, the classical dance form, originated here, adding to its cultural richness."
+    dist_info:"Andhra Pradesh, with 26 districts, is known for its rich heritage, temples, and coastline. Amaravati, the capital region, is an ancient Buddhist site. Tirupati in Chittoor is one of the most visited pilgrimage sites, housing the iconic Venkateswara Temple. Visakhapatnam, a port city, is famed for its beaches, Araku Valley, and the INS Kursura Submarine Museum. Vijayawada is a cultural hub with landmarks like Kanaka Durga Temple. The Borra Caves in Ananthagiri Hills and Lepakshi Temple in Anantapur highlight Andhra’s natural and historical wealth. Kuchipudi, the classical dance form, originated here, adding to its cultural richness. "
+    
  },
  {
     id: "IN-PY",
@@ -113,6 +114,7 @@ const stateDistrict = [
  {
     id: 'IN-MP',
     dist_info:"Madhya Pradesh, the Heart of India has 52 districts rich in history, wildlife, and architecture. Bhopal, the capital, is known for its lakes and the Bhimbetka rock shelters (UNESCO-listed). Indore, a commercial hub, is famous for street food. Khajuraho’s temples, adorned with intricate sculptures, and Sanchi’s ancient Buddhist stupas are UNESCO World Heritage Sites. The state has numerous national parks, including Kanha and Bandhavgarh, known for tigers. Madhya Pradesh is also famous for its tribal art, including Gond painting and Baiga jewelry."
+
  },
 
  {
@@ -121,7 +123,7 @@ const stateDistrict = [
  },
  {
     id: 'IN-GJ',
-    dist_info:"Gujarat, in western India, is known for its entrepreneurial spirit, historical sites, and vibrant festivals. Ahmedabad, the largest city, houses the Sabarmati Ashram and historic pols. Gandhinagar, the capital, features the Akshardham Temple. The Gir National Park is the only home of the Asiatic lions. Kutch is famous for the Rann Utsav, a desert festival showcasing local culture and handicrafts. Somnath and Dwarka are significant pilgrimage sites. Gujarat is also renowned for its textile industry and cuisine, including dhokla, thepla, and fafda."
+    dist_info:"Gujarat, in western India, is known for its entrepreneurial spiritss, historical sites, and vibrant festivals. Ahmedabad, the largest city, houses the Sabarmati Ashram and historic pols. Gandhinagar, the capital, features the Akshardham Temple. The Gir National Park is the only home of the Asiatic lions. Kutch is famous for the Rann Utsav, a desert festival showcasing local culture and handicrafts. Somnath and Dwarka are significant pilgrimage sites. Gujarat is also renowned for its textilte industry and cuisine, including dhokla, thepla, and fafda."
  },
 
  {
