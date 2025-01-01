@@ -359,7 +359,7 @@ const stateDress = [
  },
  
 
- 
+
  {
     id: 'IN-JK',
     Dresses: [
@@ -372,7 +372,21 @@ const stateDress = [
  },
 
 
+ {
+    id: 'IN-CH',
+    Dresses: [
+        { name: "Salwar Kameez", description: "Traditional attire for women, consisting of a long tunic (Kameez) and loose-fitting trousers (Salwar), often adorned with intricate embroidery and designs." },
+        { name: "Kurta Pajama", description: "Traditional attire for men, consisting of a long tunic (Kurta) and loose-fitting trousers (Pajama), often worn during festivals and celebrations." },
+        { name: "Saree", description: "Traditional attire for women, often worn during festivals and special occasions, characterized by its elegant draping and intricate designs." },
+        { name: "Sherwani", description: "A traditional long coat worn by men, often adorned with intricate embroidery and designs, typically worn during weddings and special occasions." },
+        { name: "Chandigarh Jewelry", description: "Traditional jewelry made from gold and silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
+    ]
+ },
+
+
 ];
+
+
 
 export default stateDress;
 
