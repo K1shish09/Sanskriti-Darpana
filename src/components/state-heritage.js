@@ -41,11 +41,11 @@ import SirJohnRowntreePark from "../Assets/Heritage/SirJohnRowntreePark.jpeg";
 import ChunarFort from "../Assets/Heritage/ChunarFort.jpeg";
 import VindhyavasiniTemple from "../Assets/Heritage/VindhyavasiniTemple.jpeg";
 import RajaTalab from "../Assets/Heritage/RajaTalab.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
+import UjjayantaPalace from "../Assets/Heritage/UjjayantaPalace.jpeg";
+import NeermahalPalace from "../Assets/Heritage/NeermahalPalace.jpeg";
+import TripuraSundariTemple from "../Assets/Heritage/TripuraSundariTemple.jpeg";
+import BhuvaneshwariTemple from "../Assets/Heritage/BhuvaneshwariTemple.jpeg";
+import Sepahijala from "../Assets/Heritage/Sepahijala.jpeg";
 import from "../Assets/Heritage/.jpeg";
 import from "../Assets/Heritage/.jpeg";
 import  from "../Assets/Heritage/.jpeg";
@@ -268,23 +268,23 @@ const stateheritage = [
         heritageSites: [
             {
                 name: "Ujjayanta Palace",
-                description: "Ujjayanta Palace is an iconic heritage site in Tripura, located in the state capital Agartala. The palace was built in 1901 by the Manikya dynasty, showcasing a mix of Indo-Saracenic and Mughal architectural styles. Surrounded by lush gardens and a large artificial lake, it reflects the grandeur of Tripura's royal history. The palace served as the royal residence until 1949. Today, it houses the Tripura State Museum, showcasing artifacts and exhibits related to the state's history. The palace is a major tourist attraction and a symbol of the region’s royal past."
+                description: "Ujjayanta Palace is an iconic heritage site in Tripura, located in the state capital Agartala. The palace was built in 1901 by the Manikya dynasty, showcasing a mix of Indo-Saracenic and Mughal architectural styles. Surrounded by lush gardens and a large artificial lake, it reflects the grandeur of Tripura's royal history. The palace served as the royal residence until 1949. Today, it houses the Tripura State Museum, showcasing artifacts and exhibits related to the state's history. The palace is a major tourist attraction and a symbol of the region’s royal past.",image: UjjayantaPalace
             },
             {
                 name: "Neermahal Palace",
-                description: "Neermahal Palace, also known as the 'Water Palace,' is situated on an island in the middle of Rudrasagar Lake, around 53 km from Agartala. Built in the 1930s by the then Maharaja of Tripura, it blends Hindu and Mughal architectural styles. The palace was once a summer retreat for the royal family. Accessible by boat, it offers a unique experience with scenic views of the lake and surrounding greenery. The palace’s intricate design and peaceful surroundings make it a popular tourist spot. Neermahal is an iconic example of Tripura's royal heritage and architectural beauty."
+                description: "Neermahal Palace, also known as the 'Water Palace,' is situated on an island in the middle of Rudrasagar Lake, around 53 km from Agartala. Built in the 1930s by the then Maharaja of Tripura, it blends Hindu and Mughal architectural styles. The palace was once a summer retreat for the royal family. Accessible by boat, it offers a unique experience with scenic views of the lake and surrounding greenery. The palace’s intricate design and peaceful surroundings make it a popular tourist spot. Neermahal is an iconic example of Tripura's royal heritage and architectural beauty.",image: NeermahalPalace
             },
             {
                 name: "Tripura Sundari Temple",
-                description: "The Tripura Sundari Temple is one of the 51 Shakti Peethas in India, located in Udaipur, Tripura. This temple is dedicated to Goddess Tripura Sundari, one of the most revered deities in the region. It is an important pilgrimage site for Hindus, attracting devotees from across India. The temple is known for its unique architecture and intricate carvings, reflecting the rich cultural heritage of Tripura. It is especially popular during the Durga Puja and other religious festivals. The surrounding area also offers a tranquil atmosphere, perfect for spiritual reflection."
+                description: "The Tripura Sundari Temple is one of the 51 Shakti Peethas in India, located in Udaipur, Tripura. This temple is dedicated to Goddess Tripura Sundari, one of the most revered deities in the region. It is an important pilgrimage site for Hindus, attracting devotees from across India. The temple is known for its unique architecture and intricate carvings, reflecting the rich cultural heritage of Tripura. It is especially popular during the Durga Puja and other religious festivals. The surrounding area also offers a tranquil atmosphere, perfect for spiritual reflection.",image: TripuraSundariTemple
             },
             {
                 name: "Bhuvaneshwari Temple",
-                description: "The Bhuvaneshwari Temple, located in the hills of Tripura, is a significant heritage site dedicated to Goddess Bhuvaneshwari. Known for its serene surroundings, the temple offers a panoramic view of the nearby town of Udaipur. The temple is constructed in a typical style of Tripura’s religious architecture, with unique stone carvings and sculptures. Pilgrims visit this temple for blessings and spiritual peace. The temple is also a hub for local festivals, where traditional rituals are observed. It holds great cultural and religious importance in Tripura."
+                description: "The Bhuvaneshwari Temple, located in the hills of Tripura, is a significant heritage site dedicated to Goddess Bhuvaneshwari. Known for its serene surroundings, the temple offers a panoramic view of the nearby town of Udaipur. The temple is constructed in a typical style of Tripura’s religious architecture, with unique stone carvings and sculptures. Pilgrims visit this temple for blessings and spiritual peace. The temple is also a hub for local festivals, where traditional rituals are observed. It holds great cultural and religious importance in Tripura.",image: BhuvaneshwariTemple
             },
             {
                 name: "Sepahijala Wildlife Sanctuary",
-                description: "Sepahijala Wildlife Sanctuary, located about 25 km from Agartala, is a beautiful combination of wildlife, nature, and heritage. The sanctuary covers an area of 18.5 square kilometers and is home to diverse flora and fauna, including migratory birds and endangered species. It features a well-maintained botanical garden and a lake, adding to its appeal. Visitors can explore the sanctuary through trekking and boat rides, making it a favorite for nature lovers. The sanctuary also houses the Primate Sanctuary, dedicated to the preservation of monkeys. Sepahijala is a key site for eco-tourism and wildlife conservation in Tripura."
+                description: "Sepahijala Wildlife Sanctuary, located about 25 km from Agartala, is a beautiful combination of wildlife, nature, and heritage. The sanctuary covers an area of 18.5 square kilometers and is home to diverse flora and fauna, including migratory birds and endangered species. It features a well-maintained botanical garden and a lake, adding to its appeal. Visitors can explore the sanctuary through trekking and boat rides, making it a favorite for nature lovers. The sanctuary also houses the Primate Sanctuary, dedicated to the preservation of monkeys. Sepahijala is a key site for eco-tourism and wildlife conservation in Tripura.",image: Sepahijala
             }
 
         ]
