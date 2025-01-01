@@ -87,15 +87,15 @@ import WarangalFort from "../Assets/Heritage/WarangalFort.jpeg";
 //import ChilkurBalajiTemple from "../Assets/Heritage/.jpeg";
 import ChilkurBalajiTemple from "../Assets/Heritage/ChilkurBalajiTemple.jpeg";
 
-import from "../Assets/Heritage/.jpeg";
+import BasilicaBomJesus from "../Assets/Heritage/BasilicaBomJesus.jpeg";
 
-import from "../Assets/Heritage/.jpeg";
+import SeCathedral from "../Assets/Heritage/SeCathedral.jpeg";
 
-import from "../Assets/Heritage/.jpeg";
+import ChaporaFort from "../Assets/Heritage/ChaporaFort.jpeg";
 
-import from "../Assets/Heritage/.jpeg";
+import AguadaFort from "../Assets/Heritage/AguadaFort.jpeg";
 
-import from "../Assets/Heritage/.jpeg";
+import StCajetanChurch from "../Assets/Heritage/StCajetanChurch.jpeg";
 
 import from "../Assets/Heritage/.jpeg";
 
@@ -536,23 +536,23 @@ const stateHeritage = [
         heritageSites: [
             {
                 name: "Basilica of Bom Jesus",
-                description: "The Basilica of Bom Jesus is one of Goa’s most iconic heritage sites, famous for housing the remains of St. Francis Xavier. A UNESCO World Heritage site, it is located in Old Goa and dates back to 1605. The church’s Baroque architecture features stunning altars and intricate woodwork. The preserved body of St. Francis Xavier is displayed in a silver casket, attracting pilgrims worldwide. The church hosts an annual feast that draws thousands of devotees. Its historical and religious significance makes it a must-visit landmark in Goa."
+                description: "The Basilica of Bom Jesus is one of Goa’s most iconic heritage sites, famous for housing the remains of St. Francis Xavier. A UNESCO World Heritage site, it is located in Old Goa and dates back to 1605. The church’s Baroque architecture features stunning altars and intricate woodwork. The preserved body of St. Francis Xavier is displayed in a silver casket, attracting pilgrims worldwide. The church hosts an annual feast that draws thousands of devotees. Its historical and religious significance makes it a must-visit landmark in Goa.",image: BasilicaBomJesus
             },
             {
                 name: "Se Cathedral",
-                description: "Se Cathedral is one of the largest and most celebrated churches in Goa, known for its stunning Portuguese-Gothic architecture. Built in the 16th century, it is dedicated to St. Catherine and is located in Old Goa. The cathedral’s golden altar and beautiful wooden carvings are highlights of the structure. It is famous for its 'Golden Bell,' the largest of its kind in Goa. Se Cathedral is a symbol of the Catholic faith and has been a center for religious activities in Goa for centuries. The cathedral’s grandeur and serenity make it a popular tourist and pilgrimage destination."
+                description: "Se Cathedral is one of the largest and most celebrated churches in Goa, known for its stunning Portuguese-Gothic architecture. Built in the 16th century, it is dedicated to St. Catherine and is located in Old Goa. The cathedral’s golden altar and beautiful wooden carvings are highlights of the structure. It is famous for its 'Golden Bell,' the largest of its kind in Goa. Se Cathedral is a symbol of the Catholic faith and has been a center for religious activities in Goa for centuries. The cathedral’s grandeur and serenity make it a popular tourist and pilgrimage destination.",image: SeCathedral
             },
             {
                 name: "Chapora Fort",
-                description: "Chapora Fort is a historic fort located on the Chapora River's northern bank in Goa. Originally built by the Bijapur Sultanate in 1617, it was later renovated by the Portuguese. The fort offers panoramic views of the Arabian Sea and the surrounding coastline, making it a popular spot for tourists. The fort’s dilapidated structure adds to its charm, with remnants of walls and cannons still visible. Chapora Fort is famous for being featured in the Bollywood movie 'Dil Chahta Hai.' It stands as a testament to Goa's colonial history and military heritage."
+                description: "Chapora Fort is a historic fort located on the Chapora River's northern bank in Goa. Originally built by the Bijapur Sultanate in 1617, it was later renovated by the Portuguese. The fort offers panoramic views of the Arabian Sea and the surrounding coastline, making it a popular spot for tourists. The fort’s dilapidated structure adds to its charm, with remnants of walls and cannons still visible. Chapora Fort is famous for being featured in the Bollywood movie 'Dil Chahta Hai.' It stands as a testament to Goa's colonial history and military heritage.",image: ChaporaFort
             },
             {
                 name: "Aguada Fort",
-                description: "Aguada Fort is a 17th-century Portuguese fort overlooking the Arabian Sea, located near Candolim Beach in North Goa. The fort was built to defend against Dutch and Maratha invasions and has a well-preserved lighthouse. Aguada’s strategic position offers breathtaking views of the sea and the coastline. The fort’s architecture includes large bastions, a water reservoir, and prison cells. Today, it remains one of Goa’s most popular tourist attractions, showcasing the region's colonial past. The fort’s serene atmosphere and scenic beauty make it an ideal spot for visitors seeking history and tranquility."
+                description: "Aguada Fort is a 17th-century Portuguese fort overlooking the Arabian Sea, located near Candolim Beach in North Goa. The fort was built to defend against Dutch and Maratha invasions and has a well-preserved lighthouse. Aguada’s strategic position offers breathtaking views of the sea and the coastline. The fort’s architecture includes large bastions, a water reservoir, and prison cells. Today, it remains one of Goa’s most popular tourist attractions, showcasing the region's colonial past. The fort’s serene atmosphere and scenic beauty make it an ideal spot for visitors seeking history and tranquility.",image: AguadaFort
             },
             {
                 name: "Church of St. Cajetan",
-                description: "The Church of St. Cajetan is located in Old Goa and is known for its impressive Baroque architecture, resembling St. Peter’s Basilica in Rome. Built in the 17th century by Italian missionaries, the church features ornate interiors and a magnificent dome. The church is dedicated to St. Cajetan, the founder of the Theatine Order. Its stunning facade, wooden carvings, and altar artwork reflect the rich cultural influences of the time. The Church of St. Cajetan is a UNESCO World Heritage site and attracts visitors with its historical significance and architectural beauty. It remains an active place of worship and a symbol of Goa's colonial heritage."
+                description: "The Church of St. Cajetan is located in Old Goa and is known for its impressive Baroque architecture, resembling St. Peter’s Basilica in Rome. Built in the 17th century by Italian missionaries, the church features ornate interiors and a magnificent dome. The church is dedicated to St. Cajetan, the founder of the Theatine Order. Its stunning facade, wooden carvings, and altar artwork reflect the rich cultural influences of the time. The Church of St. Cajetan is a UNESCO World Heritage site and attracts visitors with its historical significance and architectural beauty. It remains an active place of worship and a symbol of Goa's colonial heritage.",image: StCajetanChurch
             }
         ]
 
