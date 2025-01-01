@@ -21,16 +21,16 @@ import ItanagarFort from "../Assets/Heritage/ItanagarFort.jpeg";
 import MalinithanTemple from "../Assets/Heritage/MalinithanTemple.jpeg";
 import BhismaknagarFort from "../Assets/Heritage/BhismaknagarFort.jpeg";
 import Namdapha from "../Assets/Heritage/Namdapha.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
+import Sunderbans from "../Assets/Heritage/Sunderbans.jpeg";
+import MarblePalace from "../Assets/Heritage/MarblePalace.jpeg";
+import VictoriaMemorial from "../Assets/Heritage/VictoriaMemorial.jpeg";
+import KalimpongMonasteries from "../Assets/Heritage/KalimpongMonasteries.jpeg";
+import Bishnupur from "../Assets/Heritage/Bishnupur.jpeg";
+import KohimaWar from "../Assets/Heritage/KohimaWar.jpeg";
+import hornbillGrounds from "../Assets/Heritage/HornbillGrounds.jpeg";
+import DimapurRuins from "../Assets/Heritage/DimapurRuins.jpeg";
+import NagaVillage from "../Assets/Heritage/NagaVillage.jpeg";
+import DzükouValley from "../Assets/Heritage/DzükouValley.jpeg";
 import from "../Assets/Heritage/.jpeg";
 import from "../Assets/Heritage/.jpeg";
 import from "../Assets/Heritage/.jpeg";
@@ -164,23 +164,23 @@ const stateheritage = [
         heritageSites: [
             {
                 name: "Sunderbans Mangrove Forest",
-                description: "The Sunderbans Mangrove Forest, a UNESCO World Heritage site, is located in the delta region of West Bengal. It is the largest tidal halophytic mangrove forest in the world. The forest is home to diverse flora and fauna, including the Bengal tiger. Its ecosystem plays a vital role in protecting coastal areas from erosion. It is a haven for birdwatchers, with a rich variety of migratory birds. The Sunderbans are also known for their unique waterways, making them a popular destination for eco-tourism."
+                description: "The Sunderbans Mangrove Forest, a UNESCO World Heritage site, is located in the delta region of West Bengal. It is the largest tidal halophytic mangrove forest in the world. The forest is home to diverse flora and fauna, including the Bengal tiger. Its ecosystem plays a vital role in protecting coastal areas from erosion. It is a haven for birdwatchers, with a rich variety of migratory birds. The Sunderbans are also known for their unique waterways, making them a popular destination for eco-tourism.",images: Sunderbans
             },
             {
                 name: "Kolkata's Marble Palace",
-                description: "Marble Palace, built in the 19th century, is a stunning example of colonial-era architecture located in the heart of Kolkata. This grand mansion is made of white marble and is known for its beautiful artwork, including sculptures, paintings, and antique furniture. The palace’s design is a blend of European and Indian architectural styles. It also houses a collection of rare animals and plants in its courtyard. The Marble Palace is a historic monument and a testament to Kolkata's rich colonial past. It remains one of the most prominent heritage sites in the city."
+                description: "Marble Palace, built in the 19th century, is a stunning example of colonial-era architecture located in the heart of Kolkata. This grand mansion is made of white marble and is known for its beautiful artwork, including sculptures, paintings, and antique furniture. The palace’s design is a blend of European and Indian architectural styles. It also houses a collection of rare animals and plants in its courtyard. The Marble Palace is a historic monument and a testament to Kolkata's rich colonial past. It remains one of the most prominent heritage sites in the city.", image: MarblePalace
             },
             {
                 name: "Victoria Memorial",
-                description: "The Victoria Memorial in Kolkata is a magnificent white marble building dedicated to Queen Victoria. Constructed between 1906 and 1921, it is an iconic symbol of the British colonial era. The memorial is surrounded by lush gardens and houses a museum showcasing a collection of paintings, sculptures, and relics from the British period. It is a popular tourist attraction, offering insight into the region’s colonial history. The memorial’s architectural design is a fusion of British and Mughal styles. It is often illuminated at night, making it a spectacular sight."
+                description: "The Victoria Memorial in Kolkata is a magnificent white marble building dedicated to Queen Victoria. Constructed between 1906 and 1921, it is an iconic symbol of the British colonial era. The memorial is surrounded by lush gardens and houses a museum showcasing a collection of paintings, sculptures, and relics from the British period. It is a popular tourist attraction, offering insight into the region’s colonial history. The memorial’s architectural design is a fusion of British and Mughal styles. It is often illuminated at night, making it a spectacular sight.", image: VictoriaMemorial
             },
             {
                 name: "Kalimpong Monasteries",
-                description: "Kalimpong, located in the Darjeeling hills, is home to several beautiful monasteries that reflect the region’s Tibetan Buddhist heritage. The Zang Dhok Palri Phodang monastery, a prominent heritage site, is known for its colorful murals and tranquil environment. These monasteries are not only places of worship but also cultural centers for Tibetan Buddhism. They attract visitors seeking spiritual solace and those interested in the region's unique history. The monasteries are nestled amidst scenic landscapes, offering panoramic views of the surrounding mountains. They are significant for their architectural beauty and cultural importance."
+                description: "Kalimpong, located in the Darjeeling hills, is home to several beautiful monasteries that reflect the region’s Tibetan Buddhist heritage. The Zang Dhok Palri Phodang monastery, a prominent heritage site, is known for its colorful murals and tranquil environment. These monasteries are not only places of worship but also cultural centers for Tibetan Buddhism. They attract visitors seeking spiritual solace and those interested in the region's unique history. The monasteries are nestled amidst scenic landscapes, offering panoramic views of the surrounding mountains. They are significant for their architectural beauty and cultural importance.", image: KalimpongMonasteries
             },
             {
                 name: "Bishnupur Temples",
-                description: "Bishnupur, located in the Bankura district, is famous for its terracotta temples, which are UNESCO World Heritage candidates. The temples, built between the 17th and 18th centuries, are renowned for their intricate terracotta sculptures depicting stories from Hindu mythology. The most famous among them is the Madan Mohan Temple, known for its architectural brilliance. Bishnupur also has a rich history of the Malla dynasty, which commissioned these temples. The terracotta art and the temples' design provide a glimpse into the region’s cultural and religious history. It is a popular heritage site, reflecting the craftsmanship of ancient Bengal."
+                description: "Bishnupur, located in the Bankura district, is famous for its terracotta temples, which are UNESCO World Heritage candidates. The temples, built between the 17th and 18th centuries, are renowned for their intricate terracotta sculptures depicting stories from Hindu mythology. The most famous among them is the Madan Mohan Temple, known for its architectural brilliance. Bishnupur also has a rich history of the Malla dynasty, which commissioned these temples. The terracotta art and the temples' design provide a glimpse into the region’s cultural and religious history. It is a popular heritage site, reflecting the craftsmanship of ancient Bengal.", image: Bishnupur
             }
 
         ]
@@ -190,23 +190,23 @@ const stateheritage = [
         heritageSites: [
             {
                 name: "Kohima War Cemetery",
-                description: "The Kohima War Cemetery is a World War II memorial located in the capital of Nagaland. It commemorates the bravery of soldiers who fought in the Battle of Kohima in 1944. The cemetery houses the graves of over 1,000 soldiers, primarily from the British Indian Army. It is a place of solemn remembrance, symbolizing the sacrifices made for peace. The site is beautifully landscaped with manicured gardens and inscriptions detailing the battle. It serves as a poignant reminder of the region’s historical significance during the war."
+                description: "The Kohima War Cemetery is a World War II memorial located in the capital of Nagaland. It commemorates the bravery of soldiers who fought in the Battle of Kohima in 1944. The cemetery houses the graves of over 1,000 soldiers, primarily from the British Indian Army. It is a place of solemn remembrance, symbolizing the sacrifices made for peace. The site is beautifully landscaped with manicured gardens and inscriptions detailing the battle. It serves as a poignant reminder of the region’s historical significance during the war.", image: KohimaWar
             },
             {
                 name: "Hornbill Festival Grounds",
-                description: "The Hornbill Festival Grounds in Kisama, near Kohima, is the venue for the annual Hornbill Festival, one of the biggest cultural celebrations in Nagaland. This heritage site showcases the diverse cultures, traditions, and dances of Naga tribes. Visitors can experience traditional crafts, performances, and ceremonies. The festival celebrates Naga identity and promotes unity among the different tribes of Nagaland. It is a major tourist attraction, drawing visitors from across the world. The Hornbill Festival Grounds reflect the rich cultural tapestry of Nagaland."
+                description: "The Hornbill Festival Grounds in Kisama, near Kohima, is the venue for the annual Hornbill Festival, one of the biggest cultural celebrations in Nagaland. This heritage site showcases the diverse cultures, traditions, and dances of Naga tribes. Visitors can experience traditional crafts, performances, and ceremonies. The festival celebrates Naga identity and promotes unity among the different tribes of Nagaland. It is a major tourist attraction, drawing visitors from across the world. The Hornbill Festival Grounds reflect the rich cultural tapestry of Nagaland.", image: hornbillGrounds
             },
             {
                 name: "Dimapur Ruins",
-                description: "The Dimapur Ruins, located near the town of Dimapur, are the remnants of the ancient Kachari civilization. The site features several stone ruins, including a large monolithic structure, believed to be part of a temple complex. The ruins date back to the 10th century and provide insights into the region’s early history. Archaeological excavations have uncovered artifacts that highlight the cultural heritage of the Kachari people. The site is of great historical importance and offers a glimpse into the region's pre-colonial past. The ruins stand as a testament to the architectural prowess of ancient Nagaland."
+                description: "The Dimapur Ruins, located near the town of Dimapur, are the remnants of the ancient Kachari civilization. The site features several stone ruins, including a large monolithic structure, believed to be part of a temple complex. The ruins date back to the 10th century and provide insights into the region’s early history. Archaeological excavations have uncovered artifacts that highlight the cultural heritage of the Kachari people. The site is of great historical importance and offers a glimpse into the region's pre-colonial past. The ruins stand as a testament to the architectural prowess of ancient Nagaland.", image: DimapurRuins
             },
             {
                 name: "Naga Heritage Village",
-                description: "The Naga Heritage Village in Kisama is an open-air museum that showcases the traditional Naga way of life. It features traditional Naga houses, costumes, tools, and artifacts from various Naga tribes. The village is a living history museum where visitors can experience authentic Naga customs and practices. It serves as the backdrop for the annual Hornbill Festival, where cultural exhibitions are held. The heritage village offers a deep dive into the traditional architecture and lifestyles of the Naga people. It is a must-visit for those interested in Naga culture and history."
+                description: "The Naga Heritage Village in Kisama is an open-air museum that showcases the traditional Naga way of life. It features traditional Naga houses, costumes, tools, and artifacts from various Naga tribes. The village is a living history museum where visitors can experience authentic Naga customs and practices. It serves as the backdrop for the annual Hornbill Festival, where cultural exhibitions are held. The heritage village offers a deep dive into the traditional architecture and lifestyles of the Naga people. It is a must-visit for those interested in Naga culture and history.", image: NagaVillage
             },
             {
                 name: "Dzükou Valley",
-                description: "Dzükou Valley, located on the border between Nagaland and Manipur, is known for its breathtaking natural beauty and rich biodiversity. The valley is often referred to as the 'Valley of Flowers' due to its stunning array of wildflowers in bloom, particularly during the monsoon season. It is a popular trekking destination, attracting adventure enthusiasts and nature lovers alike. The valley is home to diverse flora and fauna, making it a haven for nature conservation. It is a peaceful and remote site, perfect for those seeking solitude in nature. Dzükou Valley also holds cultural significance for the local tribes, who believe it to be sacred."
+                description: "Dzükou Valley, located on the border between Nagaland and Manipur, is known for its breathtaking natural beauty and rich biodiversity. The valley is often referred to as the 'Valley of Flowers' due to its stunning array of wildflowers in bloom, particularly during the monsoon season. It is a popular trekking destination, attracting adventure enthusiasts and nature lovers alike. The valley is home to diverse flora and fauna, making it a haven for nature conservation. It is a peaceful and remote site, perfect for those seeking solitude in nature. Dzükou Valley also holds cultural significance for the local tribes, who believe it to be sacred.", image: DzükouValley
             }
 
         ]
