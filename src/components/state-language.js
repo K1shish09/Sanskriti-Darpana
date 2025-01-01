@@ -532,7 +532,7 @@ const stateInfo = [
 
  {
     id: "IN-MH",
-    lang_info:"MUMBAI: It’s not the language of money alone that makes Maharashtra rich. When the western state speaks, it does so in 38 different tongues and more, making it one of the most linguistically wealthy places, according to a recent language survey.The results of People’s Linguistic Survey (PLSI), a community-driven documentation of Indian languages by Vadodara-based Bhasha Research and Publication Centre, will be out in August.",
+    lang_info:"MUMBAI: It’s not the language of money alone that makes Maharashtra rich. When the western state speaks, it does so in 38 different tongues and more, making it one of the most linguistically wealthy places, according to a recent language survey.The results of People’s Linguistic Survey (PLSI), a community-driven documentation of Indian languages by Vadodara-based Bhasha Research and Publication Centre, will be out in August.In Maharashtra, the most widely spoken language is Marathi, with approximately 70-75% of the population, which equates to around 85-90 million people. Marathi is the official language of the state and is used in education, administration, and daily life. Hindi is also widely spoken, accounting for about 10-12% of the population, or around 12-14 million people. Due to migration and urbanization, Urdu is spoken by around 5-7% of the population, approximately 6-8 million people, especially in areas with significant Muslim communities. Additionally, tribal languages make up about 5-7% of the population, spoken by around 6-8 million people, primarily by the indigenous tribal groups in rural and remote parts of the state.",
     most_spoken_languages: [
       {
           "language": "Marathi",
@@ -590,7 +590,7 @@ const stateInfo = [
 
  {
     id: 'IN-BR',
-    lang_info:"The people re fluent in Hindi, the official Bihar language. It's the language of administration and education, and it's widely spoken in urban areas. Hindi is spoken by more than 40% of the Indian inhabitants and is the official language of the Indian government, so its usage isn't restricted to the state of Bihar. Hindi, like other Indo-Aryan languages, uses the Devanagari script.",
+    lang_info:"In Bihar, the most spoken language is Hindi, which is spoken by around 50-60% of the population, approximately 25-30 million people. Bhojpuri is another major language, spoken by about 10-15% of the population, which translates to around 3.3 to 4.95 million people. Magahi and Bhojpuri are often grouped together due to their linguistic similarities and are spoken by 10-15% of the population, or roughly 3.3 to 4.95 million people. Additionally, Maithili is widely spoken in northern parts of the state, representing about 5-7% of the population. The state also has a significant number of people speaking Santali and other tribal languages, especially among the tribal communities in the northeastern regions of Bihar.The people re fluent in Hindi, the official Bihar language. It's the language of administration and education, and it's widely spoken in urban areas. Hindi is spoken by more than 40% of the Indian inhabitants and is the official language of the Indian government, so its usage isn't restricted to the state of Bihar. Hindi, like other Indo-Aryan languages, uses the Devanagari script.",
 
     most_spoken_languages: [
       {
