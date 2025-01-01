@@ -16,9 +16,44 @@ import KamakhyaTemple from "../Assets/Heritage/KamakhyaTemple.jpeg";
 import SivasagarMonuments from "../Assets/Heritage/SivasagarMonuments.jpeg";
 
 import Majuli from "../Assets/Heritage/Majuli.jpeg";
-import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
-import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
-import RossIsland from "../Assets/Heritage/Ross-Island.jpeg";
+import TawangMonastery from "../Assets/Heritage/TawangMonastery.jpeg";
+import ItanagarFort from "../Assets/Heritage/ItanagarFort.jpeg";
+import MalinithanTemple from "../Assets/Heritage/MalinithanTemple.jpeg";
+import BhismaknagarFort from "../Assets/Heritage/BhismaknagarFort.jpeg";
+import Namdapha from "../Assets/Heritage/Namdapha.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import  from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
 
 const stateheritage = [
     {
@@ -103,23 +138,23 @@ const stateheritage = [
         heritageSites: [
             {
                 name: "Tawang Monastery",
-                description: "Tawang Monastery is the largest monastery in India, located in the Tawang district of Arunachal Pradesh. Founded in the 17th century, it belongs to the Gelugpa sect of Tibetan Buddhism. Perched at an altitude of 10,000 feet, it offers breathtaking views of the surrounding Himalayas. The monastery houses over 300 monks and is known for its beautiful architecture and vibrant prayer halls. The annual Torgya Festival, held here, attracts pilgrims and tourists alike. It is a spiritual and cultural landmark of the region."
+                description: "Tawang Monastery is the largest monastery in India, located in the Tawang district of Arunachal Pradesh. Founded in the 17th century, it belongs to the Gelugpa sect of Tibetan Buddhism. Perched at an altitude of 10,000 feet, it offers breathtaking views of the surrounding Himalayas. The monastery houses over 300 monks and is known for its beautiful architecture and vibrant prayer halls. The annual Torgya Festival, held here, attracts pilgrims and tourists alike. It is a spiritual and cultural landmark of the region.", image: TawangMonastery
             },
             {
                 name: "Itanagar Fort",
-                description: "Itanagar Fort, also known as Ita Fort, is a historic structure located in the capital city of Arunachal Pradesh. Built in the 14th-15th century, its name 'Ita' means brick, as the fort was constructed using over 8 million bricks. The fort showcases the region's ancient architectural expertise and historical significance. It is believed to have been constructed by the Chutia kings and later used by the Ahoms. The site reflects Arunachal's rich historical heritage. Visitors can explore the ruins and learn about its intriguing past."
+                description: "Itanagar Fort, also known as Ita Fort, is a historic structure located in the capital city of Arunachal Pradesh. Built in the 14th-15th century, its name 'Ita' means brick, as the fort was constructed using over 8 million bricks. The fort showcases the region's ancient architectural expertise and historical significance. It is believed to have been constructed by the Chutia kings and later used by the Ahoms. The site reflects Arunachal's rich historical heritage. Visitors can explore the ruins and learn about its intriguing past.", image: ItanagarFort
             },
             {
                 name: "Malinithan Temple",
-                description: "Malinithan Temple is an archaeological site located in the Likabali area of Arunachal Pradesh. Dedicated to Goddess Durga, the temple dates back to the 14th century and is built in classical Orissan style. The site is famous for its intricate stone carvings and sculptures of deities, animals, and flowers. It is a significant pilgrimage site, attracting devotees and historians alike. Legends link the temple to Lord Krishna and his consort Rukmini. The site offers a glimpse into the ancient cultural and religious practices of the region."
+                description: "Malinithan Temple is an archaeological site located in the Likabali area of Arunachal Pradesh. Dedicated to Goddess Durga, the temple dates back to the 14th century and is built in classical Orissan style. The site is famous for its intricate stone carvings and sculptures of deities, animals, and flowers. It is a significant pilgrimage site, attracting devotees and historians alike. Legends link the temple to Lord Krishna and his consort Rukmini. The site offers a glimpse into the ancient cultural and religious practices of the region.", image: MalinithanTemple
             },
             {
                 name: "Bhismaknagar Fort",
-                description: "Bhismaknagar Fort is an ancient archaeological site located in the Roing district of Arunachal Pradesh. Dating back to the 8th century, it is believed to have been built by the Chutiyas, an ancient ethnic group. The fort's ruins include massive walls, brick structures, and intricate carvings, showcasing the region's historical and architectural heritage. It is considered a sacred place by the local tribes and holds significant cultural importance. The site is surrounded by lush greenery, making it a serene spot for visitors. Bhismaknagar is a testament to the region's glorious past."
+                description: "Bhismaknagar Fort is an ancient archaeological site located in the Roing district of Arunachal Pradesh. Dating back to the 8th century, it is believed to have been built by the Chutiyas, an ancient ethnic group. The fort's ruins include massive walls, brick structures, and intricate carvings, showcasing the region's historical and architectural heritage. It is considered a sacred place by the local tribes and holds significant cultural importance. The site is surrounded by lush greenery, making it a serene spot for visitors. Bhismaknagar is a testament to the region's glorious past.", image: BhismaknagarFort
             },
             {
                 name: "Namdapha National Park",
-                description: "Namdapha National Park, located in Changlang district, is a UNESCO World Heritage Site nominee and a biodiversity hotspot. Spanning over 1,985 square kilometers, it is home to rare and endangered species like the snow leopard, red panda, and clouded leopard. The park also preserves the rich cultural heritage of the local tribes, including the Lisu and Chakma. Dense forests, rivers, and diverse flora and fauna make it a paradise for nature lovers and researchers. Trekking and wildlife safaris offer thrilling experiences. Namdapha is a symbol of Arunachal’s natural and cultural wealth."
+                description: "Namdapha National Park, located in Changlang district, is a UNESCO World Heritage Site nominee and a biodiversity hotspot. Spanning over 1,985 square kilometers, it is home to rare and endangered species like the snow leopard, red panda, and clouded leopard. The park also preserves the rich cultural heritage of the local tribes, including the Lisu and Chakma. Dense forests, rivers, and diverse flora and fauna make it a paradise for nature lovers and researchers. Trekking and wildlife safaris offer thrilling experiences. Namdapha is a symbol of Arunachal’s natural and cultural wealth.", image: Namdapha
             }
 
         ]
