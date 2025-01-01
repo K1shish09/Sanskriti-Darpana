@@ -154,6 +154,17 @@ const stateFolkmusics = [
             { name: "Lambadi Songs", description: "Traditional songs of the Lambadi tribe, characterized by colorful rhythms, intricate melodies, and traditional instruments, often depicting their daily life and culture." }
         ]
     },
+
+    {
+        id: 'IN-PY',
+        Folkmusics: [
+            { name: "Garadi Songs", description: "Traditional songs performed during festivals and celebrations, characterized by vigorous rhythms and accompanied by folk music." },
+            { name: "Kummi Tunes", description: "Folk tunes performed by women, characterized by rhythmic clapping and circular melodies, often performed during festivals and social gatherings." },
+            { name: "Kolattam Music", description: "Traditional stick music performed by women, characterized by rhythmic beats and the use of sticks to create rhythmic patterns." },
+            { name: "Devaraattam Melodies", description: "Traditional melodies performed by the Devarattam community, characterized by graceful rhythms and accompanied by folk music." },
+            { name: "Thappaattam Songs", description: "Folk songs performed by the agricultural community, characterized by rhythmic beats and accompanied by folk tunes." }
+        ]
+    },
  
  
 ];
