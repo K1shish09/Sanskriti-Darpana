@@ -747,9 +747,53 @@ const stateInfo = [
  },
  { id: 'IN-DL',
    lang_info:"Hindi is the official language of Delhi, and is spoken by the majority of the population. It is also the national language of India and is spoken by over 370 million people worldwide. Hindi belongs to the Indo-Aryan branch of the Indo-European language family and is written in the Devanagari script.In Delhi, Hindi is used in everyday conversation, as well as in official communications, education, and mass media. It is also one of the most commonly used languages in government offices and institutions, and is an essential language for those seeking to work or study in Delhi.", 
+   most_spoken_languages: [
+      {
+          "language": "Hindi",
+          "percentage": "70-75%",
+          "population": "approx. 15-16 million people"
+      },
+      {
+          "language": "Punjabi",
+          "percentage": "15-20%",
+          "population": "approx. 3.2-4.3 million people"
+      },
+      {
+          "language": "Urdu",
+          "percentage": "5-7%",
+          "population": "approx. 1.1-1.5 million people"
+      },
+      {
+          "language": "English",
+          "percentage": "3-5%",
+          "population": "approx. 0.64-1.1 million people"
+      }
+  ]
  },
  {id: 'IN-HR',
    lang_info:"Haryanvi (हरियाणवी or हरयाणवी), also called Bangru and Jatu,[2][3] is an Indo-Aryan language spoken primarily in the Indian state of Haryana and the territory of Delhi.[4] Haryanvi is considered to be part of the dialect group of Western Hindi, which also includes Khariboli and Braj. It is written in the Devanagari script.The Rangri dialect of Haryanvi of the Ranghar community is still spoken by Muhajir emigres in the Pakistani provinces of Punjab and Sindh though has become within Haryana itself. The dialect is written in the Nastaliq variant of the Arabic script.[6]",
+   most_spoken_languages: [
+      {
+          "language": "Haryanvi",
+          "percentage": "65-70%",
+          "population": "approx. 23-24 million people"
+      },
+      {
+          "language": "Hindi",
+          "percentage": "15-20%",
+          "population": "approx. 5.5-6.5 million people"
+      },
+      {
+          "language": "Punjabi",
+          "percentage": "10-15%",
+          "population": "approx. 3.6-5.5 million people"
+      },
+      {
+          "language": "English",
+          "percentage": "2-3%",
+          "population": "approx. 0.7-1 million people"
+      }
+  ]
  },
 
  {id: 'IN-UT',
@@ -758,22 +802,110 @@ const stateInfo = [
  },
 
  {id: 'IN-PB',
-   lang_info:"Punjab is a state in northwestern India. Forming part of the larger Punjab region of the Indian subcontinent, the state is bordered by the Indian states of Himachal Pradesh to the north and northeast, Haryana to the south and southeast, and Rajasthan to the southwest; by the Indian union territories of Chandigarh to the east and Jammu and Kashmir to the north. It shares an international border with Punjab, a province of Pakistan to the west. The state covers an area of 50,362 square kilometres (19,445 square miles), which is 1.53% of India's total geographical area,[10] making it the 19th-largest Indian state by area out of 28 Indian states (20th largest, if Union Territories are considered). With over 27 million inhabitants, Punjab is the 16th-largest Indian state by population, comprising 23 districts. Punjabi, written in the Gurmukhi script, is the most widely spoken and the official languageof the state.[11] The main ethnic group are the Punjabis, with Sikhs (57.7%) and Hindus (38.5%) forming the dominant religious groups. The state capital, Chandigarh, is a union territory and also the capital of the neighbouring state of Haryana. Three tributaries of the Indus River — the Sutlej, Beas, and Ravi — flow through Punjab.  HISTORY The History of Punjab refers to the past history of Punjab region which is a geopolitical, cultural, and historical region in the northwest of South Asia, comprising eastern Punjab province in Pakistan and western Punjab state in India. It is believed that the earliest evidence of human habitation in Punjab traces to the Soan valley of the Pothohar, between the Indus and the Jhelum rivers, where Soanian culture developed between 774,000 BC and 11,700 BC. This period goes back to the first interglacial period in the second Ice Age, from which remnants of stone and flint tools have been found.[2] The Punjab region was the site of one of the earliest cradle of civilizations, the Bronze Age Harrapan civilization that flourished from about 3000 B.C. and declined rapidly 1,000 years later, following the Indo-Aryan migrations that overran the region in waves between 1500 and 500 B.C."
+   lang_info:"Punjab is a state in northwestern India. Forming part of the larger Punjab region of the Indian subcontinent, the state is bordered by the Indian states of Himachal Pradesh to the north and northeast, Haryana to the south and southeast, and Rajasthan to the southwest; by the Indian union territories of Chandigarh to the east and Jammu and Kashmir to the north. It shares an international border with Punjab, a province of Pakistan to the west. The state covers an area of 50,362 square kilometres (19,445 square miles), which is 1.53% of India's total geographical area,[10] making it the 19th-largest Indian state by area out of 28 Indian states (20th largest, if Union Territories are considered). With over 27 million inhabitants, Punjab is the 16th-largest Indian state by population, comprising 23 districts. Punjabi, written in the Gurmukhi script, is the most widely spoken and the official languageof the state.[11] The main ethnic group are the Punjabis, with Sikhs (57.7%) and Hindus (38.5%) forming the dominant religious groups. The state capital, Chandigarh, is a union territory and also the capital of the neighbouring state of Haryana. Three tributaries of the Indus River — the Sutlej, Beas, and Ravi — flow through Punjab.  HISTORY The History of Punjab refers to the past history of Punjab region which is a geopolitical, cultural, and historical region in the northwest of South Asia, comprising eastern Punjab province in Pakistan and western Punjab state in India. It is believed that the earliest evidence of human habitation in Punjab traces to the Soan valley of the Pothohar, between the Indus and the Jhelum rivers, where Soanian culture developed between 774,000 BC and 11,700 BC. This period goes back to the first interglacial period in the second Ice Age, from which remnants of stone and flint tools have been found.[2] The Punjab region was the site of one of the earliest cradle of civilizations, the Bronze Age Harrapan civilization that flourished from about 3000 B.C. and declined rapidly 1,000 years later, following the Indo-Aryan migrations that overran the region in waves between 1500 and 500 B.C.",
+   most_spoken_languages: [
+      {
+          "language": "Punjabi",
+          "percentage": "85-90%",
+          "population": "approx. 27-29 million people"
+      },
+      {
+          "language": "Hindi",
+          "percentage": "5-7%",
+          "population": "approx. 1.5-2.1 million people"
+      },
+      {
+          "language": "English",
+          "percentage": "3-5%",
+          "population": "approx. 0.9-1.3 million people"
+      },
+      {
+          "language": "Other Languages",
+          "percentage": "1-3%",
+          "population": "approx. 0.3-0.9 million people"
+      }
+  ]
    
   },
 
   {id: 'IN-HP',
-   lang_info:"Himachal Pradesh, a northern Indian state known for its stunning landscapes and cultural diversity, boasts a rich linguistic heritage. The official language of the state is Hindi, which is widely spoken and serves as the medium for government, education, and daily communication. Alongside Hindi, Pahari languages, a group of Indo-Aryan dialects, are prevalent. These include Mandiali in Mandi, Kulluvi in Kullu, and Sirmauri in Sirmaur, each unique to its regionIn the Kangra Valley, Kangri, a Pahari dialect influenced by Sanskrit and Punjabi, is common. In the tribal district of Kinnaur, the Kinnauri language, part of the Sino-Tibetan family, reflects the region's distinct Buddhist culture and linguistic traditions. Other tribal areas, like Lahaul and Spiti, speak Bhoti, closely related to Tibetan, highlighting their deep connection to Buddhism.Additionally, Punjabi is spoken in districts bordering Punjab, while Dogri, another Indo-Aryan language, is heard in areas close to Jammu. Sanskrit, though not spoken colloquially, is studied and preserved as part of the state’s cultural legacy. The linguistic diversity of Himachal Pradesh mirrors its rich cultural tapestry, with regional dialects connecting people to their ancestral roots and fostering a sense of community."
+   lang_info:"Himachal Pradesh, a northern Indian state known for its stunning landscapes and cultural diversity, boasts a rich linguistic heritage. The official language of the state is Hindi, which is widely spoken and serves as the medium for government, education, and daily communication. Alongside Hindi, Pahari languages, a group of Indo-Aryan dialects, are prevalent. These include Mandiali in Mandi, Kulluvi in Kullu, and Sirmauri in Sirmaur, each unique to its regionIn the Kangra Valley, Kangri, a Pahari dialect influenced by Sanskrit and Punjabi, is common. In the tribal district of Kinnaur, the Kinnauri language, part of the Sino-Tibetan family, reflects the region's distinct Buddhist culture and linguistic traditions. Other tribal areas, like Lahaul and Spiti, speak Bhoti, closely related to Tibetan, highlighting their deep connection to Buddhism.Additionally, Punjabi is spoken in districts bordering Punjab, while Dogri, another Indo-Aryan language, is heard in areas close to Jammu. Sanskrit, though not spoken colloquially, is studied and preserved as part of the state’s cultural legacy. The linguistic diversity of Himachal Pradesh mirrors its rich cultural tapestry, with regional dialects connecting people to their ancestral roots and fostering a sense of community.",
+   most_spoken_languages: [
+      {
+          "language": "Hindi",
+          "percentage": "80-85%",
+          "population": "approx. 6.8-7.3 million people"
+      },
+      {
+          "language": "Pahari",
+          "percentage": "10-12%",
+          "population": "approx. 0.85-1 million people"
+      },
+      {
+          "language": "Punjabi",
+          "percentage": "3-5%",
+          "population": "approx. 0.25-0.4 million people"
+      },
+      {
+          "language": "Other Languages",
+          "percentage": "2-3%",
+          "population": "approx. 0.2-0.3 million people"
+      }
+  ]
 },
 
  {
     id: 'IN-JK',
-    lang_info:"One of the 22 scheduled languages of India, “Kashmiri” is the most common language that is spoken in the region of J&K. Approximately 6.8 million people speak this language and the majority of its speakers are located in the Kashmir Valley, and the Chenab Valley. It is also spoken in the Neelum Valley in the Azad Kashmir part of Pakistan.And for the first time, in 2020, the Kashmiri language became the official language of the union territory of Jammu & Kashmir. Kashmiri is also one of the Dardic languages, along with Shina and Khowar.While the language is Dardic in origin, Kashmiri has predominantly become Indo-Aryan in character. This language spoken in Kashmir has a mixed vocabulary, with words inspired by Sanskrit, Persio-Arabic, as well as Dardic languages."
+    lang_info:"One of the 22 scheduled languages of India, “Kashmiri” is the most common language that is spoken in the region of J&K. Approximately 6.8 million people speak this language and the majority of its speakers are located in the Kashmir Valley, and the Chenab Valley. It is also spoken in the Neelum Valley in the Azad Kashmir part of Pakistan.And for the first time, in 2020, the Kashmiri language became the official language of the union territory of Jammu & Kashmir. Kashmiri is also one of the Dardic languages, along with Shina and Khowar.While the language is Dardic in origin, Kashmiri has predominantly become Indo-Aryan in character. This language spoken in Kashmir has a mixed vocabulary, with words inspired by Sanskrit, Persio-Arabic, as well as Dardic languages.",
+    most_spoken_languages: [
+      {
+          "language": "Kashmiri",
+          "percentage": "50-55%",
+          "population": "approx. 5.4-5.9 million people"
+      },
+      {
+          "language": "Dogri",
+          "percentage": "30-35%",
+          "population": "approx. 3.2-3.7 million people"
+      },
+      {
+          "language": "Urdu",
+          "percentage": "10-12%",
+          "population": "approx. 1.1-1.3 million people"
+      },
+      {
+          "language": "Punjabi",
+          "percentage": "3-5%",
+          "population": "approx. 0.32-0.55 million people"
+      }
+  ]
  },
  
  {
     id: 'IN-CH',
-   lang_info:"Chandigarh, the capital of both Haryana and Punjab, is one of India’s most well-planned cities, renowned for its modern architecture, green spaces, and high standard of living. Located at the foothills of the Shivalik range, it is the first city in India to be designed and developed as a modern, independent urban center post-independence. Spread over an area of 114 square kilometers, Chandigarh serves as a Union Territory, directly governed by the President of India. The city is famous for its orderly layout, with distinct sectors and wide avenues, offering a contrast to the chaotic nature of many other Indian cities.Designed by the famous French architect Le Corbusier, Chandigarh stands out for its innovative urban planning and architecture. The city is divided into 47 sectors, each serving as self-contained neighborhoods with schools, parks, and commercial areas, contributing to a sense of organization and efficiency. Iconic landmarks like the Capitol Complex, the Rock Garden, and Sukhna Lake reflect the city’s modernistic spirit and aesthetic appeal. The Rock Garden, created by Nek Chand from discarded materials, has become a symbol of creativity, while Sukhna Lake, a man-made reservoir, is a popular spot for leisure and recreation."
+   lang_info:"Chandigarh, the capital of both Haryana and Punjab, is one of India’s most well-planned cities, renowned for its modern architecture, green spaces, and high standard of living. Located at the foothills of the Shivalik range, it is the first city in India to be designed and developed as a modern, independent urban center post-independence. Spread over an area of 114 square kilometers, Chandigarh serves as a Union Territory, directly governed by the President of India. The city is famous for its orderly layout, with distinct sectors and wide avenues, offering a contrast to the chaotic nature of many other Indian cities.Designed by the famous French architect Le Corbusier, Chandigarh stands out for its innovative urban planning and architecture. The city is divided into 47 sectors, each serving as self-contained neighborhoods with schools, parks, and commercial areas, contributing to a sense of organization and efficiency. Iconic landmarks like the Capitol Complex, the Rock Garden, and Sukhna Lake reflect the city’s modernistic spirit and aesthetic appeal. The Rock Garden, created by Nek Chand from discarded materials, has become a symbol of creativity, while Sukhna Lake, a man-made reservoir, is a popular spot for leisure and recreation.,",
+   most_spoken_languages: [
+      {
+          "language": "Punjabi",
+          "percentage": "45-50%",
+          "population": "approx. 0.9-1 million people"
+      },
+      {
+          "language": "Hindi",
+          "percentage": "40-45%",
+          "population": "approx. 0.8-0.9 million people"
+      },
+      {
+          "language": "English",
+          "percentage": "5-7%",
+          "population": "approx. 0.1-0.15 million people"
+      },
+      {
+          "language": "Other Languages",
+          "percentage": "3-5%",
+          "population": "approx. 0.06-0.1 million people"
+      }
+  ]
  },
  
  
