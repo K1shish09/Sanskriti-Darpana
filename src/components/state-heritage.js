@@ -1,28 +1,47 @@
 stateInfo.js
 
+import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
+import ViperIsland from "../Assets/Heritage/ViperIsland.jpeg";
+import Anthropological from "../Assets/Heritage/Anthropological.jpeg";
+import ChidiyaTapu from "../Assets/Heritage/ChidiyaTapu.jpeg";
+import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
+import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
+import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
+import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
+import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
+import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
+import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
+import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
+import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
+
+import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
+import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
+import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
+import RossIsland from "../Assets/Heritage/Ross-Island.jpeg";
+
 const stateheritage = [
     {
         id: 'IN-AN',
         heritageSites: [
             {
                 name: "Cellular Jail",
-                description: "Located in Port Blair, the Cellular Jail is a historic site that symbolizes India's struggle for independence. Known as 'Kala Pani,' it was used by the British to imprison freedom fighters in solitary confinement. The structure has a unique design with seven wings radiating from a central tower. Today, it serves as a national memorial and houses a museum and gallery. The light and sound show narrates the story of its historical significance. It stands as a poignant reminder of the sacrifices made for India’s freedom."
+                description: "Located in Port Blair, the Cellular Jail is a historic site that symbolizes India's struggle for independence. Known as 'Kala Pani,' it was used by the British to imprison freedom fighters in solitary confinement. The structure has a unique design with seven wings radiating from a central tower. Today, it serves as a national memorial and houses a museum and gallery. The light and sound show narrates the story of its historical significance. It stands as a poignant reminder of the sacrifices made for India’s freedom.", image: CellularJail
             },
             {
                 name: "Ross Island",
-                description: "Ross Island, now known as Netaji Subhas Chandra Bose Island, was once the administrative headquarters of the British in the Andaman Islands. It features ruins of colonial buildings, such as a church, hospital, and barracks, now overgrown with lush greenery. The island offers a glimpse into the colonial past and is a popular tourist destination. Wildlife such as deer and peacocks roam freely, adding to its charm. It is accessible by a short ferry ride from Port Blair. The island’s tranquil atmosphere makes it a must-visit heritage site."
+                description: "Ross Island, now known as Netaji Subhas Chandra Bose Island, was once the administrative headquarters of the British in the Andaman Islands. It features ruins of colonial buildings, such as a church, hospital, and barracks, now overgrown with lush greenery. The island offers a glimpse into the colonial past and is a popular tourist destination. Wildlife such as deer and peacocks roam freely, adding to its charm. It is accessible by a short ferry ride from Port Blair. The island’s tranquil atmosphere makes it a must-visit heritage site.",image: RossIsland
             },
             {
                 name: "Viper Island",
-                description: "Viper Island is a historic site that predates the Cellular Jail and was used by the British for detaining convicts. The island features ruins of an old jail and gallows where prisoners were executed. It holds significant historical importance as a reminder of the harsh treatment endured by freedom fighters. Surrounded by picturesque scenery, the island is accessible by ferry from Port Blair. The blend of natural beauty and historical relevance attracts history enthusiasts. Visitors can explore its peaceful surroundings while learning about its somber past."
+                description: "Viper Island is a historic site that predates the Cellular Jail and was used by the British for detaining convicts. The island features ruins of an old jail and gallows where prisoners were executed. It holds significant historical importance as a reminder of the harsh treatment endured by freedom fighters. Surrounded by picturesque scenery, the island is accessible by ferry from Port Blair. The blend of natural beauty and historical relevance attracts history enthusiasts. Visitors can explore its peaceful surroundings while learning about its somber past.", image: ViperIsland
             },
             {
                 name: "Anthropological Museum",
-                description: "Located in Port Blair, the Anthropological Museum showcases the rich cultural heritage of the indigenous tribes of the Andaman and Nicobar Islands. It exhibits artifacts, tools, and photographs that provide insights into the lives of tribes like the Great Andamanese, Jarawas, and Nicobarese. The museum preserves the history and traditions of these communities, emphasizing their connection to nature. It is an excellent place for understanding the islands' unique tribal heritage. Educational and informative, it attracts researchers and tourists alike. The museum highlights the importance of preserving indigenous cultures."
+                description: "Located in Port Blair, the Anthropological Museum showcases the rich cultural heritage of the indigenous tribes of the Andaman and Nicobar Islands. It exhibits artifacts, tools, and photographs that provide insights into the lives of tribes like the Great Andamanese, Jarawas, and Nicobarese. The museum preserves the history and traditions of these communities, emphasizing their connection to nature. It is an excellent place for understanding the islands' unique tribal heritage. Educational and informative, it attracts researchers and tourists alike. The museum highlights the importance of preserving indigenous cultures.", image: Anthropological
             },
             {
                 name: "Chidiya Tapu",
-                description: "Known as the 'Bird Island,' Chidiya Tapu is a natural heritage site famous for its rich biodiversity and scenic sunsets. It is home to numerous species of birds, making it a paradise for birdwatchers. The site also features remnants of mangrove forests and coral reefs, emphasizing the islands' ecological importance. Visitors can explore hiking trails leading to Munda Pahad for panoramic views. The area’s tranquil environment and vibrant birdlife make it a popular destination. Chidiya Tapu is a blend of natural beauty and heritage conservation."
+                description: "Known as the 'Bird Island,' Chidiya Tapu is a natural heritage site famous for its rich biodiversity and scenic sunsets. It is home to numerous species of birds, making it a paradise for birdwatchers. The site also features remnants of mangrove forests and coral reefs, emphasizing the islands' ecological importance. Visitors can explore hiking trails leading to Munda Pahad for panoramic views. The area’s tranquil environment and vibrant birdlife make it a popular destination. Chidiya Tapu is a blend of natural beauty and heritage conservation.", image: ChidiyaTapu
             }
 
         ]
