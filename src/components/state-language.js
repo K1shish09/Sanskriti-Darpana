@@ -365,25 +365,142 @@ const stateInfo = [
  
  {
     id: "IN-TG",
-    lang_info:"Telugu: The official language of Telangana, spoken by around 75% of the population. Telugu is a classical language of India Urdu: The second official language of Telangana, spoken by around 12% of the population. Before 1948, Urdu was the official language of Hyderabad State. Other languages: Other languages spoken in Telangana include Lambadi, Marathi, and Hindi."
+    lang_info:"Telugu: The official language of Telangana, spoken by around 75% of the population. Telugu is a classical language of India Urdu: The second official language of Telangana, spoken by around 12% of the population. Before 1948, Urdu was the official language of Hyderabad State. Other languages: Other languages spoken in Telangana include Lambadi, Marathi, and Hindi.",
+    "state": "Telangana",
+        most_spoken_languages: [
+            {
+                "language": "Telugu",
+                "percentage": "80-85%",
+                "population": "approx. 38-40 million people"
+            },
+            {
+                "language": "Urdu",
+                "percentage": "10-12%",
+                "population": "approx. 4.8-5.8 million people"
+            },
+            {
+                "language": "Hindi",
+                "percentage": "2-3%",
+                "population": "approx. 0.96-1.4 million people"
+            },
+            {
+                "language": "Other Tribal Languages",
+                "percentage": "3-5%",
+                "population": "approx. 1.4-2 million people"
+            }
+        ]
  },
  
  {
     id: "IN-GA",
-    lang_info:"Konkani is the official language of Goa and is spoken on the south coast of the country. According to research, 57% of Goans speak Konkani. If interacting with the locals is your thing, learning the language would definitely be an added bonus. You never know if talking in the local language might get you a good bargain in local shops, and cab drivers and get the hands-on information you might be unaware of. "
+    lang_info:"Konkani is the official language of Goa and is spoken on the south coast of the country. According to research, 57% of Goans speak Konkani. If interacting with the locals is your thing, learning the language would definitely be an added bonus. You never know if talking in the local language might get you a good bargain in local shops, and cab drivers and get the hands-on information you might be unaware of. ",
+    most_spoken_languages: [
+      {
+          "language": "Konkani",
+          "percentage": "65-70%",
+          "population": "approx. 1.2-1.4 million people"
+      },
+      {
+          "language": "Marathi",
+          "percentage": "20-25%",
+          "population": "approx. 0.35-0.43 million people"
+      },
+      {
+          "language": "Hindi",
+          "percentage": "5-7%",
+          "population": "approx. 0.09-0.12 million people"
+      },
+      {
+          "language": "English",
+          "percentage": "3-5%",
+          "population": "approx. 0.05-0.08 million people"
+      }
+  ]
  },
  
  {
     id: "IN-CT",
    lang_info:"Chhattisgarhi (छत्तीसगढ़ी) is an Indo-Aryan language spoken by approximately 16.25 million people from Chhattisgarh, Odisha, Madhya Pradesh and Maharashtra in India.[3] It is the official language of Chhattisgarh. It is grouped within the Eastern Hindi languages and is counted by the Indian national census as a dialect of Hindi.",
+   most_spoken_languages: [
+            {
+                "language": "Chhattisgarhi",
+                "percentage": "60-65%",
+                "population": "approx. 13-14 million people"
+            },
+            {
+                "language": "Hindi",
+                "percentage": "25-30%",
+                "population": "approx. 5.5-6.6 million people"
+            },
+            {
+                "language": "Gondi",
+                "percentage": "5-7%",
+                "population": "approx. 1.1-1.5 million people"
+            },
+            {
+                "language": "Other Tribal Languages",
+                "percentage": "3-5%",
+                "population": "approx. 0.7-1 million people"
+            }
+        ]
  },
  {
     id: "IN-KA",
-    lang_info:"Kannada language is a member of the Dravidian language family and is the official language of Karnataka. It is also widely spoken in the neighboring states. Kannada has the status of being one of the classical languages of India and holds significance in the cultural and literary realms of the state. Apart from Kannada, other minority languages spoken in Karnataka include Urdu, Konkani, Marathi, Tulu, Tamil, Telugu, Malayalam, Kodava, and Beary."
+    lang_info:"Kannada language is a member of the Dravidian language family and is the official language of Karnataka. It is also widely spoken in the neighboring states. Kannada has the status of being one of the classical languages of India and holds significance in the cultural and literary realms of the state. Apart from Kannada, other minority languages spoken in Karnataka include Urdu, Konkani, Marathi, Tulu, Tamil, Telugu, Malayalam, Kodava, and Beary.",
+    most_spoken_languages: [
+      {
+          "language": "Kannada",
+          "percentage": "70-75%",
+          "population": "approx. 50-52 million people"
+      },
+      {
+          "language": "Tulu",
+          "percentage": "5-7%",
+          "population": "approx. 3.5-4.2 million people"
+      },
+      {
+          "language": "Urdu",
+          "percentage": "5-7%",
+          "population": "approx. 3.5-4.2 million people"
+      },
+      {
+          "language": "Telugu",
+          "percentage": "4-5%",
+          "population": "approx. 2.8-3.5 million people"
+      }
+  ]
  },
  {
     id: 'IN-OR',
-    lang_info:"Odisha, state of India. Located in the northeastern part of the country, it is bounded by the states of Jharkhand and West Bengal to the north and northeast, by the Bay of Bengal to the east, and by the states of Andhra Pradesh and Telangana to the south and Chhattisgarh to the west. Before India became independent in 1947, Odisha’s capital was at Cuttack. The present capitol was subsequently built at Bhubaneshwar, in the vicinity of the city’s historic temples in the east-central coastal plains. In late 2011 the state’s name was officially changed from Orissa to Odisha. Area 60,119 square miles (155,707 square km). Pop. (2011) 41,947,358HISTORY.Prehistoric Acheulian tools dating to Lower Paleolithic era have been discovered in various places in the region, implying an early settlement by humans. Kalinga has been mentioned in ancient texts like Mahabharata, Vayu Purana and Mahagovinda Suttanta. ccording to political scientist Sudama Misra, the Kalinga janapada originally comprised the area covered by the Puri and Ganjam districts.[38] The Sabar people of Odisha have also been mentioned in the Mahabharata.On 1 April 1936, Bihar and Orissa were split into separate provinces. The new province of Orissa came into existence on a linguistic basis during the British rule in India, with Sir John Austen Hubback as the first governor.[61][62] Following India's independence, on 15 August 1947, 27 princely states signed the document to join Orissa.[63] Most of the Orissa Tributary States, a group of princely states, acceded to Orissa in 1948, after the collapse of the Eastern States Union. Odisha has been divided into 30 districts. These 30 districts have been placed under three different revenue divisions to streamline their governance. The divisions are North, Central and South, with their headquarters at Sambalpur, Cuttack and Berhampur respectively. Each division consists of ten districts and has as its administrative head a Revenue Divisional Commissioner (RDC). The position of the RDC in the administrative hierarchy is that between that of the district administration and the state secretariat. The RDCs report to the Board of Revenue, which is headed by a senior officer of the Indian Administrative Service."
+    lang_info:"Odisha, state of India. Located in the northeastern part of the country, it is bounded by the states of Jharkhand and West Bengal to the north and northeast, by the Bay of Bengal to the east, and by the states of Andhra Pradesh and Telangana to the south and Chhattisgarh to the west. Before India became independent in 1947, Odisha’s capital was at Cuttack. The present capitol was subsequently built at Bhubaneshwar, in the vicinity of the city’s historic temples in the east-central coastal plains. In late 2011 the state’s name was officially changed from Orissa to Odisha. Area 60,119 square miles (155,707 square km). Pop. (2011) 41,947,358HISTORY.Prehistoric Acheulian tools dating to Lower Paleolithic era have been discovered in various places in the region, implying an early settlement by humans. Kalinga has been mentioned in ancient texts like Mahabharata, Vayu Purana and Mahagovinda Suttanta. ccording to political scientist Sudama Misra, the Kalinga janapada originally comprised the area covered by the Puri and Ganjam districts.[38] The Sabar people of Odisha have also been mentioned in the Mahabharata.On 1 April 1936, Bihar and Orissa were split into separate provinces. The new province of Orissa came into existence on a linguistic basis during the British rule in India, with Sir John Austen Hubback as the first governor.[61][62] Following India's independence, on 15 August 1947, 27 princely states signed the document to join Orissa.[63] Most of the Orissa Tributary States, a group of princely states, acceded to Orissa in 1948, after the collapse of the Eastern States Union. Odisha has been divided into 30 districts. These 30 districts have been placed under three different revenue divisions to streamline their governance. The divisions are North, Central and South, with their headquarters at Sambalpur, Cuttack and Berhampur respectively. Each division consists of ten districts and has as its administrative head a Revenue Divisional Commissioner (RDC). The position of the RDC in the administrative hierarchy is that between that of the district administration and the state secretariat. The RDCs report to the Board of Revenue, which is headed by a senior officer of the Indian Administrative Service.",
+    most_spoken_languages: [
+      {
+         "language": "Odia",
+         "percentage": "80-85%",
+         "population": "approx. 35-37 million people"
+     },
+      {
+         "language": "Bengali",
+         "percentage": "2-3%",
+         "population": "approx. 0.85-1.1 million people"
+     },
+      {
+          "language": "Tulu",
+          "percentage": "5-7%",
+          "population": "approx. 3.5-4.2 million people"
+      },
+      {
+          "language": "Urdu",
+          "percentage": "5-7%",
+          "population": "approx. 3.5-4.2 million people"
+      },
+      {
+          "language": "Telugu",
+          "percentage": "4-5%",
+          "population": "approx. 2.8-3.5 million people"
+      }
+
+  ]
  },
 
  {
