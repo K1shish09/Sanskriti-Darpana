@@ -640,7 +640,7 @@ const stateInfo = [
 
  {
    id: 'IN-UP',
-   lang_info:"Uttar Pradesh is a multilingual state with 3 predominant languages and 26 other languages spoken in the state. The languages of Uttar Pradesh primarily belong to two zones in the Indo-Aryan languages, Central and East.After the state's official language Hindi (and co-official Urdu which is mutually intelligible), the Bhojpuri language is the second most spoken language with 25.5 million speakers or 11% of the state's population.[1] Other languages spoken are Awadhi, Braj, Bundeli, Bagheli and Kannauji. ",
+   lang_info:"Uttar Pradesh is a multilingual state with 3 predominant languages and 26 other languages spoken in the state. Hindi, which is spoken by approximately 80-85% of the population, or about 60-65 million people. Hindi is the state's official language and is used in daily communication, administration, and education. Bagheli and Malwi, regional languages spoken in specific regions of the state, are used by around 5-7% of the population, equating to about 3 to 4 million people. Marathi is spoken by around 2-3% of the populationThe languages of Uttar Pradesh primarily belong to two zones in the Indo-Aryan languages, Central and East.After the state's official language Hindi (and co-official Urdu which is mutually intelligible), the Bhojpuri language is the second most spoken language with 25.5 million speakers or 11% of the state's population.[1] Other languages spoken are Awadhi, Braj, Bundeli, Bagheli and Kannauji. ",
    most_spoken_languages: [
       {
           "language": "Hindi",
@@ -721,7 +721,7 @@ const stateInfo = [
  
  {
     id: 'IN-RJ',
-   lang_info:"The Marwari language was known as Maru in antiquity. The inhabitants of the Rajasthani districts of Bikaner, Churu, Ajmer, Nagaur, Pali, Jalore, Jodhpur, Barmer, and Jaisalmer speak Marwari. Sanskrit, Prakrit, and Apbransh are the three main languages used in Marwari literature.The Bagri language is primarily spoken in the districts of Muktsar and Firozepur in Punjab, Hissar and Sirsa in Haryana, and Sriganganagar and Hanumangarh in Rajasthan.The majority of speakers of the Shekhawati language are found in the Rajasthani districts of Jhunjhunu, Sikar, and Churu.",
+   lang_info:"The Marwari language was known as Maru in antiquity. In Rajasthan, the most widely spoken language is Hindi, which is spoken by approximately 75-80% of the population, translating to around 50-55 million people. Rajasthani, a group of languages and dialects including Marwari, Mewari, Jaipuri, and others, is spoken by about 15-20% of the population, or roughly 10-11 million peopleThe inhabitants of the Rajasthani districts of Bikaner, Churu, Ajmer, Nagaur, Pali, Jalore, Jodhpur, Barmer, and Jaisalmer speak Marwari. Sanskrit, Prakrit, and Apbransh are the three main languages used in Marwari literature.The Bagri language is primarily spoken in the districts of Muktsar and Firozepur in Punjab, Hissar and Sirsa in Haryana, and Sriganganagar and Hanumangarh in Rajasthan.The majority of speakers of the Shekhawati language are found in the Rajasthani districts of Jhunjhunu, Sikar, and Churu.",
    most_spoken_languages: [
             {
                 "language": "Hindi",
