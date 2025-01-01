@@ -120,12 +120,14 @@ const Ques = () => {
       answer: "Ashoka",
       explanation: "Emperor Ashoka of the Maurya Dynasty is known for promoting the policy of 'Dhamma' (moral law) and spreading Buddhism.",
     },
+    
     {
       question: "Who was the first Emperor of the Maurya Dynasty?",
       options: ["Chandragupta Maurya", "Ashoka", "Bindusara", "Bimbisara"],
       answer: "Chandragupta Maurya",
       explanation: "Chandragupta Maurya was the founder of the Maurya Empire and its first Emperor.",
     },
+
     {
       question: "In which year did the first Indian satellite, Aryabhata, launch?",
       options: ["1972", "1975", "1980", "1984"],
