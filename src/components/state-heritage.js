@@ -60,7 +60,12 @@ import SreeChitraArtGallery from "../Assets/Heritage/SreeChitraArtGallery.jpeg";
 import FortKochi from "../Assets/Heritage/FortKochi.jpeg";
 import BekalFort from "../Assets/Heritage/BekalFort.jpeg";
 import Meghamalai from "../Assets/Heritage/Meghamalai.jpeg";
-const stateheritage = [
+import BrihadeeswararTemple from "../Assets/Heritage/BrihadeeswararTemple.jpeg";
+import MeenakshiAmmanTemple from "../Assets/Heritage/MeenakshiAmmanTemple.jpeg";
+import KanchipuramTemples from "../Assets/Heritage/KanchipuramTemple.jpeg";
+import RockfortTemple from "../Assets/Heritage/RockfortTemple.jpeg";
+import RamanathaswamyTemple from "../Assets/Heritage/RamanathaswamyTemple.jpeg";
+const stateHeritage = [
     {
         id: 'IN-AN',
         heritageSites: [
@@ -378,23 +383,23 @@ const stateheritage = [
         heritageSites: [
             {
                 name: "Brihadeeswarar Temple",
-                description: "Brihadeeswarar Temple, located in Thanjavur, is a UNESCO World Heritage site and a masterpiece of Dravidian architecture. Built by Raja Raja Chola I in the 11th century, it is dedicated to Lord Shiva. The temple's grand gopuram (tower) rises to 66 meters, making it one of the tallest in India. The central dome is made of a single stone weighing around 80 tons. The temple is renowned for its intricate sculptures and large mandapa (hall). It stands as a testament to the Chola dynasty's architectural and artistic prowess."
+                description: "Brihadeeswarar Temple, located in Thanjavur, is a UNESCO World Heritage site and a masterpiece of Dravidian architecture. Built by Raja Raja Chola I in the 11th century, it is dedicated to Lord Shiva. The temple's grand gopuram (tower) rises to 66 meters, making it one of the tallest in India. The central dome is made of a single stone weighing around 80 tons. The temple is renowned for its intricate sculptures and large mandapa (hall). It stands as a testament to the Chola dynasty's architectural and artistic prowess.",image: BrihadeeswararTemple
             },
             {
                 name: "Meenakshi Amman Temple",
-                description: "The Meenakshi Amman Temple, located in Madurai, is one of the most famous Hindu temples in India. Dedicated to Goddess Meenakshi (a form of Parvati) and her consort Lord Sundareswarar (Shiva), it has a history dating back over 2,500 years. The temple complex is known for its stunning Dravidian architecture, with intricately carved gopurams and thousands of sculptures. The hall of 1,000 pillars is an architectural marvel. The temple is a center of cultural and religious activity, attracting millions of pilgrims and tourists each year."
+                description: "The Meenakshi Amman Temple, located in Madurai, is one of the most famous Hindu temples in India. Dedicated to Goddess Meenakshi (a form of Parvati) and her consort Lord Sundareswarar (Shiva), it has a history dating back over 2,500 years. The temple complex is known for its stunning Dravidian architecture, with intricately carved gopurams and thousands of sculptures. The hall of 1,000 pillars is an architectural marvel. The temple is a center of cultural and religious activity, attracting millions of pilgrims and tourists each year.",image: MeenakshiAmmanTemple
             },
             {
                 name: "Rockfort Temple",
-                description: "The Rockfort Temple, located in Trichy, is a historic site perched atop a 273-foot-high rock. The temple complex consists of three main shrines, with the Ucchi Pillayar Temple at the top dedicated to Lord Ganesha. The temple’s architecture and the climb up the rock offer panoramic views of the city. Built during the 3rd century BC, the site has been expanded over time, with additions from various dynasties. The temple complex also includes a cave shrine and a large fortification. It is a blend of spiritual significance and military history."
+                description: "The Rockfort Temple, located in Trichy, is a historic site perched atop a 273-foot-high rock. The temple complex consists of three main shrines, with the Ucchi Pillayar Temple at the top dedicated to Lord Ganesha. The temple’s architecture and the climb up the rock offer panoramic views of the city. Built during the 3rd century BC, the site has been expanded over time, with additions from various dynasties. The temple complex also includes a cave shrine and a large fortification. It is a blend of spiritual significance and military history.",image: RockfortTemple
             },
             {
                 name: "Ramanathaswamy Temple",
-                description: "Ramanathaswamy Temple, located in Rameswaram, is one of the 12 Jyotirlinga shrines dedicated to Lord Shiva. It is a key pilgrimage site for Hindus, particularly for those undertaking the Char Dham Yatra. The temple is famous for its long corridors, the longest in India, and its exquisite corridor architecture. The temple also houses sacred wells with water from 22 different sources, believed to have healing powers. It is known for its intricate carvings and the grand Rameswaram Bridge, which links the temple island to the mainland. The temple's religious significance makes it an important site in Tamil Nadu."
+                description: "Ramanathaswamy Temple, located in Rameswaram, is one of the 12 Jyotirlinga shrines dedicated to Lord Shiva. It is a key pilgrimage site for Hindus, particularly for those undertaking the Char Dham Yatra. The temple is famous for its long corridors, the longest in India, and its exquisite corridor architecture. The temple also houses sacred wells with water from 22 different sources, believed to have healing powers. It is known for its intricate carvings and the grand Rameswaram Bridge, which links the temple island to the mainland. The temple's religious significance makes it an important site in Tamil Nadu.", image: RamanathaswamyTemple
             },
             {
                 name: "Kanchipuram Temples",
-                description: "Kanchipuram, one of the seven Moksha-puris, is known for its ancient temples, many of which are dedicated to Lord Shiva and Vishnu. The town is home to over 100 temples, including the Kailasanathar Temple, Ekambareswarar Temple, and the Varadaraja Perumal Temple. These temples showcase Dravidian architecture, with massive gopurams, intricately carved pillars, and vast courtyards. Kanchipuram is also known for its rich cultural history, particularly as a center of learning and religious activity in ancient Tamil Nadu. The temples here represent both architectural excellence and deep religious traditions."
+                description: "Kanchipuram, one of the seven Moksha-puris, is known for its ancient temples, many of which are dedicated to Lord Shiva and Vishnu. The town is home to over 100 temples, including the Kailasanathar Temple, Ekambareswarar Temple, and the Varadaraja Perumal Temple. These temples showcase Dravidian architecture, with massive gopurams, intricately carved pillars, and vast courtyards. Kanchipuram is also known for its rich cultural history, particularly as a center of learning and religious activity in ancient Tamil Nadu. The temples here represent both architectural excellence and deep religious traditions.",image: KanchipuramTemples
             }
 
         ]
