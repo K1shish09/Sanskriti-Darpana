@@ -330,7 +330,16 @@ const stateFolkdances = [
     ]
 },
 
-
+{
+    id: 'IN-JK',
+    Folkdances: [
+        { name: "Rouf", description: "A traditional dance performed by women during the spring season, characterized by graceful movements and synchronized footwork." },
+        { name: "Bhand Pather", description: "A traditional theatre form that combines dance, music, and drama, often depicting social issues and cultural themes." },
+        { name: "Dumhal", description: "A traditional dance performed by men of the Wattal tribe, characterized by vigorous movements and the use of long, colorful robes." },
+        { name: "Hafiza Dance", description: "A traditional dance performed by women, characterized by graceful movements and accompanied by Sufi music." },
+        { name: "Bachha Nagma", description: "A traditional dance performed by young boys dressed as girls, characterized by lively movements and vibrant costumes." }
+    ]
+},
  
  
 ];
