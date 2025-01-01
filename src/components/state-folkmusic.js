@@ -22,6 +22,17 @@ const stateFolkmusics = [
             { name: "Dandi Rhythms", description: "Vibrant music form where performers create rhythmic patterns with sticks, often performed during festivals and celebrations." }
         ]
     },
+
+    {
+        id: "IN-AS",
+        Folkmusics: [
+            { name: "Bihu Songs", description: "Traditional songs performed during the Bihu festival, characterized by brisk rhythms and vibrant melodies, symbolizing joy and prosperity." },
+            { name: "Sattriya Music", description: "Classical music originating from the Vaishnavite monasteries of Assam, narrating mythological stories through elegant and disciplined compositions." },
+            { name: "Bhortal Music", description: "Rhythmic and energetic music performed with cymbals, often presented during cultural events and festivals in Assam." },
+            { name: "Jhumur Songs", description: "Folk songs performed by the tea tribe community of Assam, reflecting their daily lives, traditions, and festive spirit through soulful melodies." },
+            { name: "Deodhani Music", description: "Spiritual and ecstatic music performed as a form of offering to the goddess Manasa, marked by intense expressions and dramatic gestures." }
+        ]
+    },
  
  
 ];
