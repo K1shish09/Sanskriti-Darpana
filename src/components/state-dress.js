@@ -164,6 +164,8 @@ const stateDress = [
     ]
  },
   
+
+ 
  {
     id: 'IN-PY',
     Dresses: [
@@ -173,7 +175,11 @@ const stateDress = [
         { name: "Puducherry Saree", description: "A traditional saree from the Puducherry region, known for its fine fabric and intricate designs." },
         { name: "Puducherry Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
     ]
+
  },
+
+
+
   
  {
     id: "IN-TG",
@@ -196,6 +202,17 @@ const stateDress = [
         { name: "Kashti", description: "Traditional attire for men, consisting of a loincloth and a shawl, often adorned with traditional patterns and designs." },
         { name: "Goan Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." },
         { name: "Nav-Vari", description: "A traditional nine-yard saree worn by women, characterized by its elegant draping and intricate designs." }
+    ]
+ },
+
+ {
+    id: "IN-CT",
+    Dresses: [
+        { name: "Lugda", description: "Traditional attire for women, consisting of a saree worn in a unique draping style, often paired with traditional jewelry." },
+        { name: "Kachhora", description: "Traditional attire for women, consisting of a long skirt and blouse, often adorned with gold jewelry." },
+        { name: "Dhoti", description: "Traditional attire for men, consisting of a long piece of cloth wrapped around the waist and legs, often paired with a shirt." },
+        { name: "Chhattisgarhi Jewelry", description: "Traditional jewelry made from silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." },
+        { name: "Bharni", description: "A traditional shawl worn by women, characterized by its vibrant colors and intricate patterns." }
     ]
  },
 
