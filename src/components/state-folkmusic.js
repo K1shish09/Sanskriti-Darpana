@@ -209,6 +209,17 @@ const stateFolkmusics = [
             { name: "Kamsale Music", description: "Folk music performed by devotees of Lord Mahadeshwara, characterized by rhythmic beats and the use of cymbals." }
         ]
     },
+
+    {
+        id: "IN-OR",
+        Folkmusics: [
+            { name: "Odissi Music", description: "Classical music originating from Odisha, known for its graceful melodies, expressive rhythms, and intricate compositions." },
+            { name: "Chhau Tunes", description: "Music accompanying the Chhau dance, a semi-classical Indian dance with martial, tribal, and folk origins." },
+            { name: "Ghumura Beats", description: "Traditional beats performed by the Kalahandi district, characterized by vigorous rhythms and the use of the Ghumura drum." },
+            { name: "Gotipua Melodies", description: "Traditional melodies performed by young boys dressed as girls, known for its acrobatic rhythms and expressive tunes." },
+            { name: "Dalkhai Songs", description: "Folk songs performed by the tribal women of western Odisha, characterized by rhythmic beats and vibrant melodies." }
+        ]
+    },
     
  
  
