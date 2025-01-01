@@ -110,6 +110,17 @@ const stateFolkmusics = [
             { name: "Doregata Songs", description: "Playful songs performed by the Garo tribe, characterized by lively rhythms and traditional instruments." }
         ]
     },
+
+    {
+        id: "IN-SK",
+        Folkmusics: [
+            { name: "Singhi Chham Music", description: "Traditional music performed by the Bhutia community, depicting the snow lion, characterized by rhythmic beats and traditional instruments." },
+            { name: "Yak Cham Tunes", description: "Music portraying the movements of the yak, performed during the Losar festival, characterized by rhythmic beats and traditional instruments." },
+            { name: "Maruni Songs", description: "Popular songs among the Nepali community in Sikkim, performed during the Tihar festival, characterized by vibrant rhythms and traditional instruments." },
+            { name: "Tashi Sabdo Melodies", description: "Traditional melodies performed to celebrate the Tibetan New Year, showcasing the rich cultural heritage of the Tibetan community in Sikkim." },
+            { name: "Chu Faat Tunes", description: "Ritualistic tunes performed by the Lepcha community, invoking the blessings of Mount Kanchenjunga and other sacred peaks." }
+        ]
+    },
     
  
  
