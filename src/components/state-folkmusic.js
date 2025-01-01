@@ -176,6 +176,28 @@ const stateFolkmusics = [
             { name: "Bathukamma Songs", description: "Traditional songs performed by women during the Bathukamma festival, celebrating the floral festival with colorful flower arrangements and rhythmic melodies." }
         ]
     },
+
+    {
+        id: "IN-GA",
+        Folkmusics: [
+            { name: "Dekhni Songs", description: "Semi-classical songs that combine traditional and Western music, often performed by women during festive occasions." },
+            { name: "Fugdi Tunes", description: "Traditional tunes performed by women during Hindu festivals, characterized by fast rhythmic beats and performed in a circular formation." },
+            { name: "Dhalo Melodies", description: "Folk melodies performed by women during the wedding season, characterized by graceful rhythms and accompanied by folk songs." },
+            { name: "Kunbi Music", description: "Tribal music performed by the Kunbi community, showcasing their daily life and culture through rhythmic beats and traditional instruments." },
+            { name: "Corridinho Tunes", description: "Traditional Portuguese tunes that have been adapted by the Goan community, characterized by lively and energetic rhythms." }
+        ]
+    },
+     
+    {
+        id: "IN-CT",
+        Folkmusics: [
+            { name: "Panthi Songs", description: "Traditional songs performed by the Satnami community, characterized by rhythmic beats and devotional melodies." },
+            { name: "Raut Nacha Music", description: "Folk music performed by the Yadav community, celebrating the victory of Lord Krishna over the demon king Kansa." },
+            { name: "Saila Tunes", description: "Stick music performed by young boys during the post-harvest season, characterized by rhythmic beats and vibrant melodies." },
+            { name: "Karma Melodies", description: "Tribal melodies performed during the Karma festival, celebrating the harvest season with lively rhythms and traditional instruments." },
+            { name: "Sua Nacha Songs", description: "Traditional songs performed by women, characterized by graceful rhythms and accompanied by folk instruments." }
+        ]
+    },
  
  
 ];
