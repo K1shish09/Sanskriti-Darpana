@@ -36,11 +36,11 @@ import KanglaFort from "../Assets/Heritage/KanglaFort.jpeg";
 import LoktakLake from "../Assets/Heritage/LoktakLake.jpeg";
 import KeibulLamjao from "../Assets/Heritage/KeibulLamjao.jpeg";
 import AndroVillage from "../Assets/Heritage/AndroVillage.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
+import KaliKhohTemple from "../Assets/Heritage/KaliKhohTemple.jpeg";
+import SirJohnRowntreePark from "../Assets/Heritage/SirJohnRowntreePark.jpeg";
+import ChunarFort from "../Assets/Heritage/ChunarFort.jpeg";
+import VindhyavasiniTemple from "../Assets/Heritage/VindhyavasiniTemple.jpeg";
+import RajaTalab from "../Assets/Heritage/RajaTalab.jpeg";
 import from "../Assets/Heritage/.jpeg";
 import from "../Assets/Heritage/.jpeg";
 import from "../Assets/Heritage/.jpeg";
@@ -242,23 +242,23 @@ const stateheritage = [
         heritageSites: [
             {
                 name: "Raja Talab",
-                description: "Raja Talab is a historic water body in Mirzapur, built by the local rulers. It holds great cultural significance and serves as a hub for local festivals and religious rituals. The site is surrounded by temples, adding to its spiritual ambiance. The water body itself is a serene spot, offering scenic views of the surrounding landscape. Raja Talab has been a focal point of the town's history, reflecting the architectural and engineering skills of its creators. It is a popular tourist spot, especially for those interested in local heritage and nature."
+                description: "Raja Talab is a historic water body in Mirzapur, built by the local rulers. It holds great cultural significance and serves as a hub for local festivals and religious rituals. The site is surrounded by temples, adding to its spiritual ambiance. The water body itself is a serene spot, offering scenic views of the surrounding landscape. Raja Talab has been a focal point of the town's history, reflecting the architectural and engineering skills of its creators. It is a popular tourist spot, especially for those interested in local heritage and nature.",image: RajaTalab
             },
             {
                 name: "Vindhyavasini Temple",
-                description: "The Vindhyavasini Temple is a revered Hindu temple dedicated to Goddess Vindhyavasini, located in the Vindhya mountain range near Mirzapur. The temple is one of the prominent pilgrimage sites in the region. It is believed that visiting the temple can fulfill one's wishes and bring prosperity. The architecture of the temple is intricately designed with beautiful carvings and sculptures. Devotees from across the country visit, especially during festivals like Navaratri. The serene and peaceful environment around the temple adds to its spiritual significance."
+                description: "The Vindhyavasini Temple is a revered Hindu temple dedicated to Goddess Vindhyavasini, located in the Vindhya mountain range near Mirzapur. The temple is one of the prominent pilgrimage sites in the region. It is believed that visiting the temple can fulfill one's wishes and bring prosperity. The architecture of the temple is intricately designed with beautiful carvings and sculptures. Devotees from across the country visit, especially during festivals like Navaratri. The serene and peaceful environment around the temple adds to its spiritual significance.",image: VindhyavasiniTemple
             },
             {
                 name: "Chunar Fort",
-                description: "Chunar Fort, located near Mirzapur, is an ancient fort with a rich historical legacy. It has witnessed several significant events during various empires, including the Mughal and British eras. The fort's architecture is a blend of Mughal and Rajput styles, with massive walls and intricate carvings. It offers a panoramic view of the Ganges River and the surrounding landscape. Visitors can explore the fort's various structures, including gates, watchtowers, and palaces. Chunar Fort holds a special place in the history of Mirzapur and attracts history enthusiasts and tourists alike."
+                description: "Chunar Fort, located near Mirzapur, is an ancient fort with a rich historical legacy. It has witnessed several significant events during various empires, including the Mughal and British eras. The fort's architecture is a blend of Mughal and Rajput styles, with massive walls and intricate carvings. It offers a panoramic view of the Ganges River and the surrounding landscape. Visitors can explore the fort's various structures, including gates, watchtowers, and palaces. Chunar Fort holds a special place in the history of Mirzapur and attracts history enthusiasts and tourists alike.",image: ChunarFort
             },
             {
                 name: "Sir John Rowntree Memorial Park",
-                description: "Sir John Rowntree Memorial Park is a historical site dedicated to the memory of Sir John Rowntree, a British philanthropist. The park is known for its peaceful atmosphere and beautiful landscaping. It has become a popular spot for locals to relax and enjoy the outdoors. The site features a memorial plaque, commemorating Sir Rowntree's contributions to the region. The park also hosts cultural and social events throughout the year. The serene environment and historical significance make it an important heritage site in Mirzapur."
+                description: "Sir John Rowntree Memorial Park is a historical site dedicated to the memory of Sir John Rowntree, a British philanthropist. The park is known for its peaceful atmosphere and beautiful landscaping. It has become a popular spot for locals to relax and enjoy the outdoors. The site features a memorial plaque, commemorating Sir Rowntree's contributions to the region. The park also hosts cultural and social events throughout the year. The serene environment and historical significance make it an important heritage site in Mirzapur.",image: SirJohnRowntreePark
             },
             {
                 name: "Kali Khoh Temple",
-                description: "Kali Khoh Temple is a significant religious and heritage site located near Mirzapur, dedicated to Goddess Kali. The temple is believed to have been established in ancient times and is revered by Hindus. The temple complex includes several smaller shrines and is known for its peaceful and spiritual atmosphere. Pilgrims visit the temple, especially during the festivals of Kali Puja and Diwali. The natural surroundings, including hills and forests, add to the temple’s sacredness. Kali Khoh Temple is an important landmark for both devotees and tourists interested in spiritual heritage."
+                description: "Kali Khoh Temple is a significant religious and heritage site located near Mirzapur, dedicated to Goddess Kali. The temple is believed to have been established in ancient times and is revered by Hindus. The temple complex includes several smaller shrines and is known for its peaceful and spiritual atmosphere. Pilgrims visit the temple, especially during the festivals of Kali Puja and Diwali. The natural surroundings, including hills and forests, add to the temple’s sacredness. Kali Khoh Temple is an important landmark for both devotees and tourists interested in spiritual heritage.",image: KaliKhohTemple
             }
 
         ]
