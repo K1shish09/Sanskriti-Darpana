@@ -66,6 +66,17 @@ const stateFolkmusics = [
             { name: "Moatsu Songs", description: "Traditional songs performed by the Ao tribe during the Moatsu festival, marking the end of the sowing season." }
         ]
     },
+
+    {
+        id: "IN-MN",
+        Folkmusics: [
+            { name: "Ras Leela Music", description: "Classical music of Manipur, depicting the love story of Radha and Krishna, characterized by graceful melodies and traditional instruments." },
+            { name: "Pung Cholom Beats", description: "Traditional music performed with drums, showcasing acrobatic movements and rhythmic beats, often performed during festivals and celebrations." },
+            { name: "Thang Ta Tunes", description: "Martial music form that combines combat techniques with rhythmic beats, performed with swords and spears." },
+            { name: "Lai Haraoba Melodies", description: "Ritualistic music performed to please the deities, characterized by slow and graceful melodies, often accompanied by traditional instruments and songs." },
+            { name: "Khamba Thoibi Songs", description: "Traditional songs depicting the love story of Khamba and Thoibi, performed during the Lai Haraoba festival, showcasing the rich cultural heritage of Manipur." }
+        ]
+    },
  
  
 ];
