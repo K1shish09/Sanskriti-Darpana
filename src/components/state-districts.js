@@ -39,33 +39,9 @@ const stateDistrict = [
     id: "IN-LD",
     dist_info:"There are 10 Gramsabhas in all the islands consisting of persons registered in the electoral rolls relating to that particular island. The Administration UT of Lakshadweep prepares the electoral roll under the superintendence, direction and control of the Election Commission appointed by the Central Government for the Union territory. The Gramsabha shall convene its meetings at least twice in a financial year.",
     districts: [
-      "1. Anjaw",
-      "2. Bichom *",
-      "3. Siang",
-      "4. Changlang",
-      "5. Dibang Valley",
-      "6. East Kameng",
-      "7. East Siang",
-      "8. Kamle",
-      "9. Keyi Panyor *",
-      "10. Kra Daadi",
-      "11. Kurung Kumey",
-      "12. Lepa Rada *",
-      "13. Lohit",
-      "14. Longding",
-      "15. Lower Dibang Valley",
-      "16. Lower Siang",
-      "17. Lower Subansiri",
-      "18. Namsai",
-      "19. Pakke Kessang *",
-      "20. Papum Pare",
-      "21. Shi Yomi *",
-      "22. Tawang",
-      "23. Tirap",
-      "24. Upper Siang",
-      "25. Upper Subansiri",
-      "26. West Kameng",
-      "27. West Siang"
+      "1. Lakshadweep"
+ 
+
   ]
     },
 
@@ -147,68 +123,63 @@ const stateDistrict = [
  {
     id: "IN-WB",
     dist_info:"The Himalayas lies in the north of West Bengal and the Bay of Bengal is at the south. Between them, the river Ganga flows eastwards and its main distributary, the Hooghly River, flows south to reach the Bay of Bengal. The Siliguri Corridor, which connects North-East India with rest of the India, lies in the North Bengal region of the state. Geographically, West Bengal is divided into a variety of regions—Darjeeling Himalayan hill region, Terai and Dooars region, North Bengal plains, Rarh region, Western plateau and high lands, coastal plains, Sundarbans and the Ganga Delta.[1]In 1947, when India gained independence, the state of West Bengal was formed, with 14 districts, as per partition plan of the then Bengal province of British India.[2][3] The former princely state Koch Bihar joined as a district on 26 January 1950,[4] and the former French enclave Chandannagore joined as part of the Hooghly district in 1954.[5] The States Reorganisation Act of 1956 led to addition of Purulia district to the state and to enlargement of West Dinajpur district.[6] Later, larger districts such as West Dinajpur, 24 Parganas and Midnapore were bifurcated.",
+    Capital: ["Kolkata"],
+    Total_districts: [23],
     districts: [
-      "1. Anjaw",
-      "2. Bichom *",
-      "3. Siang",
-      "4. Changlang",
-      "5. Dibang Valley",
-      "6. East Kameng",
-      "7. East Siang",
-      "8. Kamle",
-      "9. Keyi Panyor *",
-      "10. Kra Daadi",
-      "11. Kurung Kumey",
-      "12. Lepa Rada *",
-      "13. Lohit",
-      "14. Longding",
-      "15. Lower Dibang Valley",
-      "16. Lower Siang",
-      "17. Lower Subansiri",
-      "18. Namsai",
-      "19. Pakke Kessang *",
-      "20. Papum Pare",
-      "21. Shi Yomi *",
-      "22. Tawang",
-      "23. Tirap",
-      "24. Upper Siang",
-      "25. Upper Subansiri",
-      "26. West Kameng",
-      "27. West Siang"
+      
+      "1. Alipurduar",
+      "2. Bankura",
+      "3. Birbhum",
+      "4. Cooch Behar",
+      "5. Dakshin Dinajpur",
+      "6. Darjeeling",
+      "7. Hooghly",
+      "8. Howrah",
+      "9. Jalpaiguri",
+      "10. Jhargram",
+      "11. Kalimpong",
+      "12. Kolkata",
+      "13. Malda",
+      "14. Murshidabad",
+      "15. Nadia",
+      "16. North 24 Parganas",
+      "17. Paschim Bardhaman",
+      "18. Paschim Medinipur",
+      "19. Purba Bardhaman",
+      "20. Purba Medinipur",
+      "21. Purulia",
+      "22. South 24 Parganas",
+      "23. Uttar Dinajpur"
+      
+      
+      
+      
+      
+      
+      
+      
+      
   ]
  },
  {
     id: "IN-NL",
     dist_info:"Nagaland, the Land of Festivals, comprises 16 districts, each showcasing unique tribal customs. Kohima, the capital, is famous for the Hornbill Festival, celebrating Naga culture, and the WWII Cemetery. Dimapur, the gateway to Nagaland, features the ancient Kachari Ruins and a thriving local market. Mon is home to the Konyak tribe, known for their headhunting history and vibrant tattoos. Mokokchung, a cultural hub for the Ao tribe, is adorned with lush hills and traditional villages. Zunheboto boasts Asia’s largest Baptist church, while Wokha is known for its oranges and hilltop views. The Dzukou Valley, shared with Manipur, is a trekker’s paradise, especially during the blooming of the Dzukou Lily. Nagaland's rich heritage and scenic beauty make it a must-visit destination.",
+    Capital: ["Kohima"],
+Total_Districts: [12],
     districts: [
-      "1. Anjaw",
-      "2. Bichom *",
-      "3. Siang",
-      "4. Changlang",
-      "5. Dibang Valley",
-      "6. East Kameng",
-      "7. East Siang",
-      "8. Kamle",
-      "9. Keyi Panyor *",
-      "10. Kra Daadi",
-      "11. Kurung Kumey",
-      "12. Lepa Rada *",
-      "13. Lohit",
-      "14. Longding",
-      "15. Lower Dibang Valley",
-      "16. Lower Siang",
-      "17. Lower Subansiri",
-      "18. Namsai",
-      "19. Pakke Kessang *",
-      "20. Papum Pare",
-      "21. Shi Yomi *",
-      "22. Tawang",
-      "23. Tirap",
-      "24. Upper Siang",
-      "25. Upper Subansiri",
-      "26. West Kameng",
-      "27. West Siang"
-  ]
+
+     "1. Dimapur",
+      "2. Kiphire",
+      "3. Kohima",
+      "4. Longleng",
+      "5. Mokokchung",
+      "6. Mon",
+      "7. Peren",
+      "8. Phek",
+      "9. Tuensang",
+      "10. Wokha",
+      "11. Zunheboto"
+    ]
  },
 
  {
