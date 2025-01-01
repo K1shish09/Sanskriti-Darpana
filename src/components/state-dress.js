@@ -113,6 +113,42 @@ const stateDress = [
  },
 
 
+ {
+    id: "IN-SK",
+    Dresses: [
+        { name: "Bakhu", description: "Traditional attire for both men and women, consisting of a loose cloak, often paired with a belt and adorned with traditional patterns and designs." },
+        { name: "Kho", description: "A traditional dress worn by women, characterized by its elegant draping and intricate patterns." },
+        { name: "Shuruval", description: "Traditional attire for men, consisting of a long coat and trousers, often adorned with traditional patterns and designs." },
+        { name: "Sikkimese Ornaments", description: "Traditional jewelry worn by the people of Sikkim, often made from beads, silver, and other materials." },
+        { name: "Pangden", description: "A traditional apron worn by married women, characterized by its vibrant colors and intricate patterns." }
+    ]
+ },
+ 
+  
+ {
+    id: "IN-KL",
+    Dresses: [
+        { name: "Mundu", description: "Traditional attire for men, consisting of a white cloth wrapped around the waist and legs, often paired with a shirt." },
+        { name: "Kasavu Saree", description: "Traditional attire for women, consisting of a white saree with a gold border, often worn during festivals and special occasions." },
+        { name: "Settu Mundu", description: "A traditional two-piece garment worn by women, consisting of a wraparound skirt and a blouse, often adorned with gold jewelry." },
+        { name: "Mundu Neriyathum", description: "Traditional attire for women, consisting of a white cloth wrapped around the waist and legs, often paired with a blouse and adorned with gold jewelry." },
+        { name: "Kerala Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
+    ]
+ },
+  
+ {
+    id: "IN-TN",
+    Dresses: [
+        { name: "Saree", description: "Traditional attire for women, often worn during festivals and special occasions, characterized by its elegant draping and intricate designs." },
+        { name: "Veshti", description: "Traditional attire for men, consisting of a white cloth wrapped around the waist and legs, often paired with a shirt." },
+        { name: "Pavadai Davani", description: "A traditional two-piece garment worn by young girls, consisting of a skirt and a blouse, often adorned with gold jewelry." },
+        { name: "Kanchipuram Saree", description: "A traditional silk saree from the Kanchipuram region, known for its rich fabric and elaborate patterns." },
+        { name: "Tamil Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
+    ]
+ },
+  
+
+
 
 
 
