@@ -124,6 +124,7 @@ const stateDress = [
     ]
  },
  
+
   
  {
     id: "IN-KL",
@@ -134,7 +135,10 @@ const stateDress = [
         { name: "Mundu Neriyathum", description: "Traditional attire for women, consisting of a white cloth wrapped around the waist and legs, often paired with a blouse and adorned with gold jewelry." },
         { name: "Kerala Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
     ]
+
  },
+
+ 
   
  {
     id: "IN-TN",
@@ -144,9 +148,56 @@ const stateDress = [
         { name: "Pavadai Davani", description: "A traditional two-piece garment worn by young girls, consisting of a skirt and a blouse, often adorned with gold jewelry." },
         { name: "Kanchipuram Saree", description: "A traditional silk saree from the Kanchipuram region, known for its rich fabric and elaborate patterns." },
         { name: "Tamil Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
+
+    ]
+ },
+
+
+ {
+    id: "IN-AP",
+    Dresses: [
+        { name: "Saree", description: "Traditional attire for women, often worn during festivals and special occasions, characterized by its elegant draping and intricate designs." },
+        { name: "Dhoti", description: "Traditional attire for men, consisting of a long piece of cloth wrapped around the waist and legs, often paired with a shirt." },
+        { name: "Langa Voni", description: "A traditional two-piece garment worn by young girls, consisting of a skirt and a blouse, often adorned with gold jewelry." },
+        { name: "Gadwal Saree", description: "A traditional saree from the Gadwal region, known for its fine cotton fabric and intricate designs." },
+        { name: "Andhra Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
     ]
  },
   
+ {
+    id: 'IN-PY',
+    Dresses: [
+        { name: "Saree", description: "Traditional attire for women, often worn during festivals and special occasions, characterized by its elegant draping and intricate designs." },
+        { name: "Veshti", description: "Traditional attire for men, consisting of a white cloth wrapped around the waist and legs, often paired with a shirt." },
+        { name: "Pavadai Davani", description: "A traditional two-piece garment worn by young girls, consisting of a skirt and a blouse, often adorned with gold jewelry." },
+        { name: "Puducherry Saree", description: "A traditional saree from the Puducherry region, known for its fine fabric and intricate designs." },
+        { name: "Puducherry Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
+    ]
+ },
+  
+ {
+    id: "IN-TG",
+    Dresses: [
+        { name: "Saree", description: "Traditional attire for women, often worn during festivals and special occasions, characterized by its elegant draping and intricate designs." },
+        { name: "Dhoti", description: "Traditional attire for men, consisting of a long piece of cloth wrapped around the waist and legs, often paired with a shirt." },
+        { name: "Langa Voni", description: "A traditional two-piece garment worn by young girls, consisting of a skirt and a blouse, often adorned with gold jewelry." },
+        { name: "Pochampally Saree", description: "A traditional saree from the Pochampally region, known for its fine fabric and intricate designs." },
+        { name: "Telangana Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
+    ]
+ },
+  
+
+
+ {
+    id: "IN-GA",
+    Dresses: [
+        { name: "Kunbi Saree", description: "Traditional attire for women, consisting of a saree worn in a unique draping style, often paired with traditional jewelry." },
+        { name: "Pano Bhaju", description: "Traditional attire for women, consisting of a long skirt and blouse, often adorned with gold jewelry." },
+        { name: "Kashti", description: "Traditional attire for men, consisting of a loincloth and a shawl, often adorned with traditional patterns and designs." },
+        { name: "Goan Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." },
+        { name: "Nav-Vari", description: "A traditional nine-yard saree worn by women, characterized by its elegant draping and intricate designs." }
+    ]
+ },
 
 
 
