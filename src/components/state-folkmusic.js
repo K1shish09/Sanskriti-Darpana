@@ -55,6 +55,17 @@ const stateFolkmusics = [
             { name: "Santhali Music", description: "Traditional music of the Santhal tribe, characterized by rhythmic beats and vibrant melodies." }
         ]
     },
+
+    {
+        id: "IN-NL",
+        Folkmusics: [
+            { name: "Chang Lo Songs", description: "Traditional songs performed by the Chang tribe during the Naknyulum festival, characterized by energetic and rhythmic melodies." },
+            { name: "Zeliang Music", description: "Music performed by the Zeliang tribe, usually during the festival of Mimkut, showcasing their rich cultural heritage." },
+            { name: "Aoling Melodies", description: "Traditional melodies performed by the Konyak tribe during the Aoling festival, celebrating the arrival of spring." },
+            { name: "Sekrenyi Tunes", description: "Music performed by the Angami tribe during the Sekrenyi festival, celebrating purification and renewal." },
+            { name: "Moatsu Songs", description: "Traditional songs performed by the Ao tribe during the Moatsu festival, marking the end of the sowing season." }
+        ]
+    },
  
  
 ];
