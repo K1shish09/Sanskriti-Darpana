@@ -12,11 +12,73 @@ const stateInfo = [
  },
  {
     id: "IN-AS",
-    lang_info:"The Ahomiya language is mostly spoken alongside other few dialects, like Nagamese and Bodo-Kachari, in upper Assam, as referred to by the people of Assam. The upper Assam region consists of Guwahati, Dispur, Jorhat, and Dibrugarh. In the lower Assam region, a mixture of Sylheti Bangla and Karbi among few other languages and dialects is mostly prevalent. The Assamese language has been heavily influenced by several languages like the Ahom language mostly and other languages such as the Sylheti Bangla, Bishnupriya Manipuri, Rajbangsi, Maithili, and the Rohingya that shaped the language of Assamese we know today. "},
+    lang_info:"The Ahomiya language is mostly spoken alongside other few dialects, like Nagamese and Bodo-Kachari, in upper Assam, as referred to by the people of Assam. The upper Assam region consists of Guwahati, Dispur, Jorhat, and Dibrugarh. In the lower Assam region, a mixture of Sylheti Bangla and Karbi among few other languages and dialects is mostly prevalent. The Assamese language has been heavily influenced by several languages like the Ahom language mostly and other languages such as the Sylheti Bangla, Bishnupriya Manipuri, Rajbangsi, Maithili, and the Rohingya that shaped the language of Assamese we know today. ",
+   
+    most_spoken_languages: [
+      {
+          "language": "Assamese",
+          "percentage": "60-65%",
+          "population": "approx. 16-17 million people"
+      },
+      {
+          "language": "Bengali",
+          "percentage": "25-30%",
+          "population": "approx. 6.5-7.8 million people"
+      },
+      {
+          "language": "Bodo",
+          "percentage": "4-5%",
+          "population": "approx. 1.1-1.3 million people"
+      },
+      {
+          "language": "Hindi",
+          "percentage": "2-3%",
+          "population": "approx. 0.52-0.78 million people"
+      
+      },
+   
+      {
+          "language": "Other Tribal Languages",
+          "percentage": "5-7%",
+          "population": "approx. 1.3-1.8 million people"
+      }
+  ]},
 
  {
     id: "IN-AR",
-    lang_info:"Arunachal Pradesh is a state in northeast India. It was formed from the North-East Frontier Agency (NEFA) region, and India declared it as a state on 20 February 1987. Itanagar is its capital and largest town. It borders the Indian states of Assam and Nagaland to the south. It shares international borders with Bhutan in the west, Myanmar in the east, and a disputed 1,129 km border with China's Tibet Autonomous Region in the north at the McMahon Line.[21] Arunachal Pradesh is claimed by China as South Tibet as part of the Tibet Autonomous Region;[22] China occupied some regions of Arunachal Pradesh in 1962 but later withdrew its forces.[23][24]s of the 2011 Census of India, Arunachal Pradesh has a population of 1,383,727 and an area of 83,743 square kilometres (32,333 sq mi). With only 17 inhabitants per square kilometre, it is the least densely populated state of India. It is an ethnically diverse state, with predominantly Monpa people in the west, Tani people in the centre, Mishmi and Tai people in the east, and Naga people in the southeast of the state. About 23 major tribes and 100 sub-tribes live in the state,[citation needed] including Nocte, Adi, Nyishi, Singpho, Galo, Tagin, Apatani. The Nyishi are the largest ethnic group in the region. The Mishmi tribe has three sub-tribes, namely Idu-Mishmi, Digaru-Mishmi and Miju-Mishmi"
+    lang_info:"Arunachal Pradesh is a state in northeast India. It was formed from the North-East Frontier Agency (NEFA) region, and India declared it as a state on 20 February 1987. Itanagar is its capital and largest town. It borders the Indian states of Assam and Nagaland to the south. It shares international borders with Bhutan in the west, Myanmar in the east, and a disputed 1,129 km border with China's Tibet Autonomous Region in the north at the McMahon Line.[21] Arunachal Pradesh is claimed by China as South Tibet as part of the Tibet Autonomous Region;[22] China occupied some regions of Arunachal Pradesh in 1962 but later withdrew its forces.[23][24]s of the 2011 Census of India, Arunachal Pradesh has a population of 1,383,727 and an area of 83,743 square kilometres (32,333 sq mi). With only 17 inhabitants per square kilometre, it is the least densely populated state of India. It is an ethnically diverse state, with predominantly Monpa people in the west, Tani people in the centre, Mishmi and Tai people in the east, and Naga people in the southeast of the state. About 23 major tribes and 100 sub-tribes live in the state,[citation needed] including Nocte, Adi, Nyishi, Singpho, Galo, Tagin, Apatani. The Nyishi are the largest ethnic group in the region. The Mishmi tribe has three sub-tribes, namely Idu-Mishmi, Digaru-Mishmi and Miju-Mishmi",
+    most_spoken_languages: [
+      {
+          "language": "Adi",
+          "percentage": "20-25%",
+          "population": "approx. 0.2-0.25 million people"
+      },
+      {
+          "language": "Nyishi",
+          "percentage": "20-25%",
+          "population": "approx. 0.2-0.25 million people"
+      },
+      {
+          "language": "Apatani",
+          "percentage": "5-7%",
+          "population": "approx. 0.05-0.07 million people"
+      },
+      {
+          "language": "Hindi",
+          "percentage": "10-12%",
+          "population": "approx. 0.1-0.12 million people"
+      },
+      {
+          "language": "English",
+          "percentage": "5-7%",
+          "population": "approx. 0.05-0.07 million people"
+      },
+      {
+          "language": "Other Tribal Languages",
+          "percentage": "30-35%",
+          "population": "approx. 0.3-0.35 million people"
+      }
+  ]
  },
 
  {
@@ -111,7 +173,25 @@ const stateInfo = [
 
  {
     id: 'IN-BR',
-    lang_info:"The people re fluent in Hindi, the official Bihar language. It's the language of administration and education, and it's widely spoken in urban areas. Hindi is spoken by more than 40% of the Indian inhabitants and is the official language of the Indian government, so its usage isn't restricted to the state of Bihar. Hindi, like other Indo-Aryan languages, uses the Devanagari script."
+    lang_info:"The people re fluent in Hindi, the official Bihar language. It's the language of administration and education, and it's widely spoken in urban areas. Hindi is spoken by more than 40% of the Indian inhabitants and is the official language of the Indian government, so its usage isn't restricted to the state of Bihar. Hindi, like other Indo-Aryan languages, uses the Devanagari script.",
+
+    most_spoken_languages: [
+      {
+          "language": "Hindi",
+          "percentage": "60%",
+          "population": "approx. 20 million people"
+      },
+      {
+          "language": "Santali",
+          "percentage": "20%",
+          "population": "approx. 6.6 million people"
+      },
+      {
+          "language": "Magahi and Bhojpuri",
+          "percentage": "10-15%",
+          "population": "approx. 3.3 to 4.95 million people"
+      }
+   ]
  },
 
  {
