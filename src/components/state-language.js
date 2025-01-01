@@ -640,21 +640,110 @@ const stateInfo = [
 
  {
    id: 'IN-UP',
-   lang_info:"Uttar Pradesh is a multilingual state with 3 predominant languages and 26 other languages spoken in the state. The languages of Uttar Pradesh primarily belong to two zones in the Indo-Aryan languages, Central and East.After the state's official language Hindi (and co-official Urdu which is mutually intelligible), the Bhojpuri language is the second most spoken language with 25.5 million speakers or 11% of the state's population.[1] Other languages spoken are Awadhi, Braj, Bundeli, Bagheli and Kannauji. "
+   lang_info:"Uttar Pradesh is a multilingual state with 3 predominant languages and 26 other languages spoken in the state. The languages of Uttar Pradesh primarily belong to two zones in the Indo-Aryan languages, Central and East.After the state's official language Hindi (and co-official Urdu which is mutually intelligible), the Bhojpuri language is the second most spoken language with 25.5 million speakers or 11% of the state's population.[1] Other languages spoken are Awadhi, Braj, Bundeli, Bagheli and Kannauji. ",
+   most_spoken_languages: [
+      {
+          "language": "Hindi",
+          "percentage": "80-85%",
+          "population": "approx. 140-150 million people"
+      },
+      {
+          "language": "Bhojpuri",
+          "percentage": "10-12%",
+          "population": "approx. 17-20 million people"
+      },
+      {
+          "language": "Awadhi",
+          "percentage": "5-7%",
+          "population": "approx. 8-11 million people"
+      },
+      {
+          "language": "Other Regional Languages",
+          "percentage": "3-5%",
+          "population": "approx. 5-7 million people"
+      }
+  ]
  },
  {
     id: 'IN-GJ',
     lang_info:"It is an Indo-Aryan language that is mostly spoken in Gujarat, India, and other parts of the world. It has a long and interesting past and culture that goes back hundreds of years. It is also known for its unique way of writing. It is used in all parts of daily life, such as business, government, and schooling. Gujarati has been an important part of Gujarat's culture and political history. The language has been influenced by other Indian languages, including Sanskrit, Hindi, and Marathi, as well as by Persian and Arabic. Today, Gujarati is widely spoken and appreciated throughout the world due to its unique writing system, rich literary history, and cultural significance. Gujarati has many dialects, including Standard Gujarati (which includes the varieties spoken in Mumbai and Ahmedabad), Surati, Kathiyawadi, Kharwa, Khakari, Tarimukhi etc. These dialects may differ in terms of vocabulary, pronunciation, and grammar, but they are all considered part of the broader Gujarati language.",
+    most_spoken_languages: [
+      {
+          "language": "Gujarati",
+          "percentage": "85-90%",
+          "population": "approx. 55-59 million people"
+      },
+      {
+          "language": "Hindi",
+          "percentage": "5-7%",
+          "population": "approx. 3.3-4.6 million people"
+      },
+      {
+          "language": "Marathi",
+          "percentage": "2-3%",
+          "population": "approx. 1.3-1.9 million people"
+      },
+      {
+          "language": "Other Languages",
+          "percentage": "3-5%",
+          "population": "approx. 1.9-2.7 million people"
+      }
+  ]
  },
 
  {
     id: 'IN-DD',
-    lang_info:"Gujarati and Hindi are the official languages of Daman and Diu. English works as the additional de facto language of the Union Territory. Portuguese was the official language of Goa, Daman and Diu before their accession to India, hence we can see Portuguese speakers in Daman and Diu. There are two variety of Indo Portuguese Creole spoken here. Besides, these language Marathi, Bengali, Odia, Nepali, and Malayalam can be heard in Daman and Diu. There are few tribal languages spoken in the pockets of Daman and Diu.Gujarati is spoken by the 50.83 percent of Daman and Diu people whereas it is followed by  Hindi (36.31%), Marathi (4.53%), Bengali (2.15%), Odia (1.82%), Nepali (0.58%), Malayalam (0.51%), and Assamese (0.49%). Bengali, Odia, Nepali, Malayalam and Assamese speaking are in Daman and Diu because of work opportunities available."
+    lang_info:"Gujarati and Hindi are the official languages of Daman and Diu. English works as the additional de facto language of the Union Territory. Portuguese was the official language of Goa, Daman and Diu before their accession to India, hence we can see Portuguese speakers in Daman and Diu. There are two variety of Indo Portuguese Creole spoken here. Besides, these language Marathi, Bengali, Odia, Nepali, and Malayalam can be heard in Daman and Diu. There are few tribal languages spoken in the pockets of Daman and Diu.Gujarati is spoken by the 50.83 percent of Daman and Diu people whereas it is followed by  Hindi (36.31%), Marathi (4.53%), Bengali (2.15%), Odia (1.82%), Nepali (0.58%), Malayalam (0.51%), and Assamese (0.49%). Bengali, Odia, Nepali, Malayalam and Assamese speaking are in Daman and Diu because of work opportunities available.",
+    most_spoken_languages: [
+            {
+                "language": "Gujarati",
+                "percentage": "70-75%",
+                "population": "approx. 0.06-0.07 million people"
+            },
+            {
+                "language": "Hindi",
+                "percentage": "15-20%",
+                "population": "approx. 0.01-0.02 million people"
+            },
+            {
+                "language": "Portuguese",
+                "percentage": "5-10%",
+                "population": "approx. 0.004-0.008 million people"
+            },
+            {
+                "language": "Other Tribal Languages",
+                "percentage": "5-10%",
+                "population": "approx. 0.004-0.008 million people"
+            }
+        ]
+
  },
  
  {
     id: 'IN-RJ',
    lang_info:"The Marwari language was known as Maru in antiquity. The inhabitants of the Rajasthani districts of Bikaner, Churu, Ajmer, Nagaur, Pali, Jalore, Jodhpur, Barmer, and Jaisalmer speak Marwari. Sanskrit, Prakrit, and Apbransh are the three main languages used in Marwari literature.The Bagri language is primarily spoken in the districts of Muktsar and Firozepur in Punjab, Hissar and Sirsa in Haryana, and Sriganganagar and Hanumangarh in Rajasthan.The majority of speakers of the Shekhawati language are found in the Rajasthani districts of Jhunjhunu, Sikar, and Churu.",
+   most_spoken_languages: [
+            {
+                "language": "Hindi",
+                "percentage": "75-80%",
+                "population": "approx. 57-61 million people"
+            },
+            {
+                "language": "Marwari",
+                "percentage": "10-12%",
+                "population": "approx. 7.6-9 million people"
+            },
+            {
+                "language": "Mewari",
+                "percentage": "5-7%",
+                "population": "approx. 3.8-5 million people"
+            },
+            {
+                "language": "Other Regional Languages",
+                "percentage": "5-7%",
+                "population": "approx. 3.8-5 million people"
+            }
+        ]
  },
  { id: 'IN-DL',
    lang_info:"Hindi is the official language of Delhi, and is spoken by the majority of the population. It is also the national language of India and is spoken by over 370 million people worldwide. Hindi belongs to the Indo-Aryan branch of the Indo-European language family and is written in the Devanagari script.In Delhi, Hindi is used in everyday conversation, as well as in official communications, education, and mass media. It is also one of the most commonly used languages in government offices and institutions, and is an essential language for those seeking to work or study in Delhi.", 
