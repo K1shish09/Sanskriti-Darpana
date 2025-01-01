@@ -65,6 +65,10 @@ import MeenakshiAmmanTemple from "../Assets/Heritage/MeenakshiAmmanTemple.jpeg";
 import KanchipuramTemples from "../Assets/Heritage/KanchipuramTemple.jpeg";
 import RockfortTemple from "../Assets/Heritage/RockfortTemple.jpeg";
 import RamanathaswamyTemple from "../Assets/Heritage/RamanathaswamyTemple.jpeg";
+import Naharlagun from "../Assets/Heritage/Naharlagun.jpeg";
+import Itanagar from "../Assets/Heritage/Itanagar.jpeg";
+import SelaPass from "../Assets/Heritage/SelaPass.jpeg";
+import MadhuriLake from "../Assets/Heritage/MadhuriLake.jpeg";
 const stateHeritage = [
     {
         id: 'IN-AN',
@@ -409,24 +413,23 @@ const stateHeritage = [
         heritageSites: [
             {
                 name: "Tawang Monastery",
-                description: "Tawang Monastery, located in the Tawang district, is one of the largest Buddhist monasteries in India. It is a significant pilgrimage site for Buddhists and holds historical and cultural importance. The monastery is perched at an altitude of 10,000 feet, offering breathtaking views of the surrounding mountains. Built in the 17th century, it houses ancient manuscripts, murals, and sculptures. The annual Tawang festival attracts visitors and showcases local traditions. Tawang Monastery is a symbol of spiritual heritage and architectural grandeur in Arunachal Pradesh."
+                description: "Tawang Monastery, located in the Tawang district, is one of the largest Buddhist monasteries in India. It is a significant pilgrimage site for Buddhists and holds historical and cultural importance. The monastery is perched at an altitude of 10,000 feet, offering breathtaking views of the surrounding mountains. Built in the 17th century, it houses ancient manuscripts, murals, and sculptures. The annual Tawang festival attracts visitors and showcases local traditions. Tawang Monastery is a symbol of spiritual heritage and architectural grandeur in Arunachal Pradesh.",image: TawangMonastery
             },
             {
                 name: "Naharlagun",
-                description: "Naharlagun, near the state capital Itanagar, is a historical site with archaeological significance. It is home to remnants of the Ita Fort, dating back to the 14th century, which stands as a symbol of the region's past. The fort's walls are made from stone and are considered a testament to the region's craftsmanship. Naharlagun is also the site of several ancient temples and structures that reflect the rich cultural heritage of Arunachal Pradesh. It’s a place where history, culture, and nature beautifully blend. Naharlagun continues to be a significant heritage destination."
+                description: "Naharlagun, near the state capital Itanagar, is a historical site with archaeological significance. It is home to remnants of the Ita Fort, dating back to the 14th century, which stands as a symbol of the region's past. The fort's walls are made from stone and are considered a testament to the region's craftsmanship. Naharlagun is also the site of several ancient temples and structures that reflect the rich cultural heritage of Arunachal Pradesh. It’s a place where history, culture, and nature beautifully blend. Naharlagun continues to be a significant heritage destination.",image: Naharlagun
             },
             {
                 name: "Itanagar",
-                description: "Itanagar, the capital city of Arunachal Pradesh, is known for its blend of history, culture, and natural beauty. It houses the remnants of the Ita Fort, which was built during the 14th century by the Kings of the region. The fort's stone walls and ancient structures are historical treasures. The city is also home to numerous monasteries, temples, and historical sites. Itanagar offers visitors a glimpse into the region’s vibrant past and offers access to nearby natural attractions. Its rich heritage and cultural diversity make Itanagar a must-visit."
+                description: "Itanagar, the capital city of Arunachal Pradesh, is known for its blend of history, culture, and natural beauty. It houses the remnants of the Ita Fort, which was built during the 14th century by the Kings of the region. The fort's stone walls and ancient structures are historical treasures. The city is also home to numerous monasteries, temples, and historical sites. Itanagar offers visitors a glimpse into the region’s vibrant past and offers access to nearby natural attractions. Its rich heritage and cultural diversity make Itanagar a must-visit.",image: Itanagar
             },
             {
                 name: "Sela Pass",
-                description: "Sela Pass, located at an altitude of 13,700 feet, is an important heritage site in Arunachal Pradesh. It connects Tawang with the rest of the state and has immense religious and cultural significance. The pass is home to several sacred lakes, including the Sela Lake, which is considered holy by locals. The area is surrounded by majestic snow-capped mountains and dense forests, offering a serene and peaceful environment. Sela Pass holds historical importance as a key transit point for pilgrims and travelers. It is a popular site for trekking and adventure tourism."
+                description: "Sela Pass, located at an altitude of 13,700 feet, is an important heritage site in Arunachal Pradesh. It connects Tawang with the rest of the state and has immense religious and cultural significance. The pass is home to several sacred lakes, including the Sela Lake, which is considered holy by locals. The area is surrounded by majestic snow-capped mountains and dense forests, offering a serene and peaceful environment. Sela Pass holds historical importance as a key transit point for pilgrims and travelers. It is a popular site for trekking and adventure tourism.",image: SelaPass
             },
             {
                 name: "Madhuri Lake",
-                description: "Madhuri Lake, located in the Tawang district, is a stunning heritage site surrounded by snow-capped mountains. The lake is named after Bollywood actress Madhuri Dixit, who shot a film here in the 1990s. It is a serene spot that holds great significance among locals, with several legends associated with it. The crystal-clear waters and the picturesque backdrop make it a popular tourist destination. Madhuri Lake is also a place for quiet reflection and offers scenic trekking opportunities. Its untouched natural beauty makes it a hidden gem in Arunachal Pradesh."
-            }
+                description: "Madhuri Lake, located in the Tawang district, is a stunning heritage site surrounded by snow-capped mountains. The lake is named after Bollywood actress Madhuri Dixit, who shot a film here in the 1990s. It is a serene spot that holds great significance among locals, with several legends associated with it. The crystal-clear waters and the picturesque backdrop make it a popular tourist destination. Madhuri Lake is also a place for quiet reflection and offers scenic trekking opportunities. Its untouched natural beauty makes it a hidden gem in Arunachal Pradesh.",image: MadhuriLake          }
 
         ]
     },
