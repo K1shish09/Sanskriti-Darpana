@@ -116,10 +116,19 @@ import ChhenaPoda from "../Assets/Food/ChhenaPoda.jpeg";
 import machaTarkari from "../Assets/Food/MachaTarkari.jpeg";
 import DahiPakhala from "../Assets/Food/DahiPakhala.jpeg";
 
-import Samosa from "../Assets/Food/Samosa.jpeg";
-import Samosa from "../Assets/Food/Samosa.jpeg";
-import Samosa from "../Assets/Food/Samosa.jpeg";
-import Samosa from "../Assets/Food/Samosa.jpeg";
+import dhokala from "../Assets/Food/dhokala.jpeg";
+import Farcha from "../Assets/Food/Farcha.jpeg";
+import Khaman from "../Assets/Food/Khaman.jpeg";
+import Patra from "../Assets/Food/Patra.jpeg";
+import Pulao from "../Assets/Food/Pulao.jpeg";
+import PuranPoli from "../Assets/Food/Puran Poli.jpeg";
+import vadapav from "../Assets/Food/vadapav.jpeg";
+import Bhakri from "../Assets/Food/Bhakri.jpeg";
+import MisalPav from "../Assets/Food/MisalPav.jpeg";
+import Khaman from "../Assets/Food/Khaman.jpeg";
+import Khaman from "../Assets/Food/Khaman.jpeg";
+import Khaman from "../Assets/Food/Khaman.jpeg";
+
 
 
 
@@ -687,24 +696,24 @@ const stateFoods = [
 
         food: [
             {
-                name: "Dhokla",
-                description: "Dhokla is a popular steamed snack, made from fermented rice and chickpea flour. It has a spongy texture and is mildly sour, often flavored with mustard seeds, green chilies, and curry leaves. The dish is typically served with tamarind chutney and coriander chutney. Dhokla is enjoyed as a breakfast, snack, or even as a light meal. It's a healthy, low-calorie option that is light on the stomach. This dish is a perfect blend of flavors and is widely consumed in Dadar and Nagar Haveli.", image:
+                name: "Dokhala",
+                description: "Dhokla is a popular steamed snack, made from fermented rice and chickpea flour. It has a spongy texture and is mildly sour, often flavored with mustard seeds, green chilies, and curry leaves. The dish is typically served with tamarind chutney and coriander chutney. Dhokla is enjoyed as a breakfast, snack, or even as a light meal. It's a healthy, low-calorie option that is light on the stomach. This dish is a perfect blend of flavors and is widely consumed in Dadar and Nagar Haveli.", image:dhokala
             },
             {
                 name: "Farcha",
-                description: "Farcha is a famous deep-fried chicken dish that is seasoned with a blend of aromatic spices. The chicken is marinated with ingredients like ginger, garlic, red chili powder, and garam masala to bring out a rich, flavorful taste. It is crispy on the outside and tender on the inside, making it a popular street food. Farcha is often served with fresh onions, lemon wedges, and a side of mint chutney. It has a golden, crispy texture and is loved for its spicy kick. The dish is usually paired with a hot cup of tea.", image:
+                description: "Farcha is a famous deep-fried chicken dish that is seasoned with a blend of aromatic spices. The chicken is marinated with ingredients like ginger, garlic, red chili powder, and garam masala to bring out a rich, flavorful taste. It is crispy on the outside and tender on the inside, making it a popular street food. Farcha is often served with fresh onions, lemon wedges, and a side of mint chutney. It has a golden, crispy texture and is loved for its spicy kick. The dish is usually paired with a hot cup of tea.", image: Farcha
             },
             {
                 name: "Khaman",
-                description: "Khaman is a savory, steamed snack made from chickpea flour, similar to Dhokla but with a more spongy, fluffy texture. It is traditionally flavored with mustard seeds, curry leaves, and a dash of sugar to balance the savory taste. Khaman is often garnished with fresh coriander and a squeeze of lemon for added zest. It is commonly served with a side of chutneys, such as tamarind or coconut chutney. The dish is light, nutritious, and easy to digest. Popular during festivals and as a tea-time snack, Khaman is widely enjoyed.", image:
+                description: "Khaman is a savory, steamed snack made from chickpea flour, similar to Dhokla but with a more spongy, fluffy texture. It is traditionally flavored with mustard seeds, curry leaves, and a dash of sugar to balance the savory taste. Khaman is often garnished with fresh coriander and a squeeze of lemon for added zest. It is commonly served with a side of chutneys, such as tamarind or coconut chutney. The dish is light, nutritious, and easy to digest. Popular during festivals and as a tea-time snack, Khaman is widely enjoyed.", image: Khaman
             },
             {
                 name: "Patra",
-                description: "Patra is a savory snack made by spreading a spiced chickpea flour paste on colocasia leaves, then rolling them up and steaming the roll. The leaf roll is sliced into bite-sized pieces, showcasing a beautiful spiral pattern. It has a unique combination of flavors, with the bitterness of the leaves and the spiciness of the chickpea flour mix. Patra is often served with tamarind or green chutney for added taste. It is a popular street food and snack in Dadar and Nagar Haveli, often eaten during festivals. The dish is nutritious and offers a delightful texture.", image:
+                description: "Patra is a savory snack made by spreading a spiced chickpea flour paste on colocasia leaves, then rolling them up and steaming the roll. The leaf roll is sliced into bite-sized pieces, showcasing a beautiful spiral pattern. It has a unique combination of flavors, with the bitterness of the leaves and the spiciness of the chickpea flour mix. Patra is often served with tamarind or green chutney for added taste. It is a popular street food and snack in Dadar and Nagar Haveli, often eaten during festivals. The dish is nutritious and offers a delightful texture.", image: Patra
             },
             {
                 name: "Pulao",
-                description: "Pulao is a fragrant rice dish cooked with a variety of spices, including cinnamon, cloves, and cardamom, often mixed with vegetables or meat. It is commonly made with basmati rice, giving it a delicate aroma. The rice is cooked with the spices and other ingredients to create a flavorful, one-pot dish. Pulao can be served as a side dish or as a main course, depending on the accompaniments. It pairs well with curries, raita, and salads, making it a versatile meal. This dish is widely loved in Dadar and Nagar Haveli for its rich, aromatic flavor.", image:
+                description: "Pulao is a fragrant rice dish cooked with a variety of spices, including cinnamon, cloves, and cardamom, often mixed with vegetables or meat. It is commonly made with basmati rice, giving it a delicate aroma. The rice is cooked with the spices and other ingredients to create a flavorful, one-pot dish. Pulao can be served as a side dish or as a main course, depending on the accompaniments. It pairs well with curries, raita, and salads, making it a versatile meal. This dish is widely loved in Dadar and Nagar Haveli for its rich, aromatic flavor.", image: Pulao
             }
         ]
 
@@ -716,19 +725,19 @@ const stateFoods = [
 
             {
                 name: "Puran Poli",
-                description: "Puran Poli is a traditional Maharashtrian sweet flatbread made during festivals like Gudi Padwa. It is stuffed with a mixture of jaggery and chana dal (split chickpeas) and flavored with cardamom. The dough is soft and golden brown once cooked. Puran Poli is served with ghee, making it a rich and indulgent treat. This dish is a part of many religious celebrations and is highly popular in the state. Its perfect balance of sweetness and spice makes it a beloved dish in Maharashtra.", image:
+                description: "Puran Poli is a traditional Maharashtrian sweet flatbread made during festivals like Gudi Padwa. It is stuffed with a mixture of jaggery and chana dal (split chickpeas) and flavored with cardamom. The dough is soft and golden brown once cooked. Puran Poli is served with ghee, making it a rich and indulgent treat. This dish is a part of many religious celebrations and is highly popular in the state. Its perfect balance of sweetness and spice makes it a beloved dish in Maharashtra.", image: PuranPoli
             },
             {
                 name: "Vada Pav",
-                description: "Vada Pav is often referred to as Mumbai’s iconic street food, a spicy potato fritter served in a bun. The patty is made from mashed potatoes mixed with spices, dipped in chickpea flour batter, and deep-fried. It’s served with chutneys like garlic and tamarind and sometimes with fried green chilies. The sandwich-like preparation makes it an easy and delicious snack, loved by all. Vada Pav can be found in nearly every corner of Mumbai and Maharashtra. It’s a perfect blend of crispy, spicy, and savory flavors.", image:
+                description: "Vada Pav is often referred to as Mumbai’s iconic street food, a spicy potato fritter served in a bun. The patty is made from mashed potatoes mixed with spices, dipped in chickpea flour batter, and deep-fried. It’s served with chutneys like garlic and tamarind and sometimes with fried green chilies. The sandwich-like preparation makes it an easy and delicious snack, loved by all. Vada Pav can be found in nearly every corner of Mumbai and Maharashtra. It’s a perfect blend of crispy, spicy, and savory flavors.", image:vadapav
             },
             {
                 name: "Bhakri",
-                description: "Bhakri is a traditional flatbread made from various flours like jowar, bajra, or wheat. It’s thick, hearty, and slightly dense, often served with curry or chutney. In rural Maharashtra, it’s considered a staple food and is typically eaten with buttermilk or a side of vegetables. The robust flavor of bhakri complements the spicy gravies and lentils it’s paired with. It is particularly enjoyed in the monsoon season as comfort food. Bhakri is a true representation of Maharashtra's rural culinary traditions.", image:
+                description: "Bhakri is a traditional flatbread made from various flours like jowar, bajra, or wheat. It’s thick, hearty, and slightly dense, often served with curry or chutney. In rural Maharashtra, it’s considered a staple food and is typically eaten with buttermilk or a side of vegetables. The robust flavor of bhakri complements the spicy gravies and lentils it’s paired with. It is particularly enjoyed in the monsoon season as comfort food. Bhakri is a true representation of Maharashtra's rural culinary traditions.", image: Bhakri
             },
             {
                 name: "Misal Pav",
-                description: "Misal Pav is a spicy and savory curry made with sprouted lentils, topped with farsan (crunchy fried snacks) and served with pav (bread rolls). The dish is a perfect balance of spicy, tangy, and crunchy. The base is a flavorful curry made from onions, tomatoes, and a blend of spices. Misal Pav is often", image:
+                description: "Misal Pav is a spicy and savory curry made with sprouted lentils, topped with farsan (crunchy fried snacks) and served with pav (bread rolls). The dish is a perfect balance of spicy, tangy, and crunchy. The base is a flavorful curry made from onions, tomatoes, and a blend of spices. Misal Pav is often", image: MisalPav
             }
 
         ]
