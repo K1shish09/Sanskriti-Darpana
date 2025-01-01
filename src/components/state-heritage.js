@@ -97,23 +97,41 @@ import AguadaFort from "../Assets/Heritage/AguadaFort.jpeg";
 
 import StCajetanChurch from "../Assets/Heritage/StCajetanChurch.jpeg";
 
+import KailashKotumsarCaves from "../Assets/Heritage/KailashKotumsarCaves.jpeg";
+
+import ChitrakoteWaterfall from "../Assets/Heritage/ChitrakoteWaterfall.jpeg";
+
+import Rajim from "../Assets/Heritage/Rajim.jpeg";
+
+import Sirpur from "../Assets/Heritage/Sirpur.jpeg";
+
+import BhoramdeoTemple from "../Assets/Heritage/BhoramdeoTemple.jpeg";
+
+import Hampi from "../Assets/Heritage/Hampi.jpeg";
+
+import Badami from "../Assets/Heritage/Badami.jpeg";
+
+import BelurHalebidu from "../Assets/Heritage/BelurHalebidu.jpeg";
+
+import Bijapur from "../Assets/Heritage/Bijapur.jpeg";
+import Somanathapura from "../Assets/Heritage/Somanathapura.jpeg";
+import KonarkSunTemple from "../Assets/Heritage/KonarkSunTemple.jpeg";
+import BhubaneswarTemples from "../Assets/Heritage/BhubaneswarTemples.jpeg";
+import ChilikaLake from "../Assets/Heritage/ChilikaLake.jpeg";
+import JagannathTemple from "../Assets/Heritage/JagannathTemple.jpeg";
+import UdaigiriKhandagiriCaves from "../Assets/Heritage/UdaigiriKhandagiriCaves.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
+import from "../Assets/Heritage/.jpeg";
 import from "../Assets/Heritage/.jpeg";
 
-import from "../Assets/Heritage/.jpeg";
-
-import from "../Assets/Heritage/.jpeg";
-
-import from "../Assets/Heritage/.jpeg";
-
-import from "../Assets/Heritage/.jpeg";
-
-import from "../Assets/Heritage/.jpeg";
-
-import from "../Assets/Heritage/.jpeg";
-
-import from "../Assets/Heritage/.jpeg";
-
-import from "../Assets/Heritage/.jpeg";
 
 
 
@@ -563,23 +581,23 @@ const stateHeritage = [
         heritageSites: [
             {
                 name: "Kailash and Kotumsar Caves",
-                description: "The Kailash and Kotumsar Caves are located in the Kanger Valley National Park in Chhattisgarh. These caves are famous for their stunning stalactites and stalagmites formations. Kotumsar Cave is renowned for being one of the longest caves in India, with unique limestone structures. The Kailash Cave, located nearby, is named after Mount Kailash in Tibet due to its resemblance. Both caves hold spiritual significance, with many believing them to be places of divine energy. Visitors can explore the caves on guided tours while enjoying the natural beauty of the park."
+                description: "The Kailash and Kotumsar Caves are located in the Kanger Valley National Park in Chhattisgarh. These caves are famous for their stunning stalactites and stalagmites formations. Kotumsar Cave is renowned for being one of the longest caves in India, with unique limestone structures. The Kailash Cave, located nearby, is named after Mount Kailash in Tibet due to its resemblance. Both caves hold spiritual significance, with many believing them to be places of divine energy. Visitors can explore the caves on guided tours while enjoying the natural beauty of the park.",image: KailashKotumsarCaves
             },
             {
                 name: "Chitrakote Waterfall",
-                description: "Chitrakote Waterfall is often referred to as the 'Niagara of India,' located in the Bastar region of Chhattisgarh. It is the widest waterfall in India, measuring over 300 meters across. The waterfall is a major tourist attraction due to its stunning beauty and seasonal variations. During the monsoon, it becomes a majestic sight, with water flowing in full force. The surrounding area is rich in flora and fauna, making it ideal for nature lovers. The tranquil atmosphere and scenic landscape make it a popular spot for photography and picnics."
+                description: "Chitrakote Waterfall is often referred to as the 'Niagara of India,' located in the Bastar region of Chhattisgarh. It is the widest waterfall in India, measuring over 300 meters across. The waterfall is a major tourist attraction due to its stunning beauty and seasonal variations. During the monsoon, it becomes a majestic sight, with water flowing in full force. The surrounding area is rich in flora and fauna, making it ideal for nature lovers. The tranquil atmosphere and scenic landscape make it a popular spot for photography and picnics.",image: ChitrakoteWaterfall
             },
             {
                 name: "Rajim",
-                description: "Rajim is a historical town in Chhattisgarh known for its temples and religious significance. It is home to the Rajiv Lochan Temple, dedicated to Lord Vishnu, which attracts devotees and tourists alike. The town is often referred to as the 'Prayag of Chhattisgarh' due to its location at the confluence of three rivers: Mahanadi, Pairi, and Sondur. Rajim is famous for its ancient temples, including the prominent Rajiv Lochan and the ancient ancient Surang Tila. The town also hosts an annual Rajim Kumbh Mela, drawing large crowds. Its spiritual ambiance and rich history make it a cultural hub."
+                description: "Rajim is a historical town in Chhattisgarh known for its temples and religious significance. It is home to the Rajiv Lochan Temple, dedicated to Lord Vishnu, which attracts devotees and tourists alike. The town is often referred to as the 'Prayag of Chhattisgarh' due to its location at the confluence of three rivers: Mahanadi, Pairi, and Sondur. Rajim is famous for its ancient temples, including the prominent Rajiv Lochan and the ancient ancient Surang Tila. The town also hosts an annual Rajim Kumbh Mela, drawing large crowds. Its spiritual ambiance and rich history make it a cultural hub.",image: Rajim
             },
             {
                 name: "Sirpur",
-                description: "Sirpur is an ancient archaeological site located in the Mahasamund district of Chhattisgarh. It was a major center of art, culture, and learning during the 5th to 12th centuries. The site is known for its well-preserved temples, including the famous Lakshman Temple and the ancient Buddhist monasteries. Sirpur also houses remnants of Buddhist stupas, indicating the region’s historical significance in Buddhist culture. The archaeological excavations in Sirpur have revealed intricate sculptures, inscriptions, and artifacts from ancient times. It offers a glimpse into the grandeur of ancient Indian civilization and architecture."
+                description: "Sirpur is an ancient archaeological site located in the Mahasamund district of Chhattisgarh. It was a major center of art, culture, and learning during the 5th to 12th centuries. The site is known for its well-preserved temples, including the famous Lakshman Temple and the ancient Buddhist monasteries. Sirpur also houses remnants of Buddhist stupas, indicating the region’s historical significance in Buddhist culture. The archaeological excavations in Sirpur have revealed intricate sculptures, inscriptions, and artifacts from ancient times. It offers a glimpse into the grandeur of ancient Indian civilization and architecture.",image: Sirpur
             },
             {
                 name: "Bhoramdeo Temple",
-                description: "The Bhoramdeo Temple, located in the Kabirdham district, is often referred to as the 'Khajuraho of Chhattisgarh' due to its intricate erotic sculptures. The temple is dedicated to Lord Shiva and is believed to date back to the 11th century. It is known for its stunning architecture, with carvings that depict various deities, divine dances, and celestial beings. The temple is set amidst lush greenery, creating a serene and peaceful atmosphere. It is one of the most significant religious and architectural landmarks in Chhattisgarh. The temple’s intricate carvings and beautiful surroundings make it a must-visit heritage site."
+                description: "The Bhoramdeo Temple, located in the Kabirdham district, is often referred to as the 'Khajuraho of Chhattisgarh' due to its intricate erotic sculptures. The temple is dedicated to Lord Shiva and is believed to date back to the 11th century. It is known for its stunning architecture, with carvings that depict various deities, divine dances, and celestial beings. The temple is set amidst lush greenery, creating a serene and peaceful atmosphere. It is one of the most significant religious and architectural landmarks in Chhattisgarh. The temple’s intricate carvings and beautiful surroundings make it a must-visit heritage site.",image: BhoramdeoTemple
             }
 
         ]
@@ -589,23 +607,23 @@ const stateHeritage = [
         heritageSites: [
             {
                 name: "Hampi",
-                description: "Hampi, a UNESCO World Heritage Site, is a historic village in Karnataka known for its ancient ruins. Once the capital of the Vijayanagara Empire, it boasts architectural marvels, such as the Virupaksha Temple and the Stone Chariot. The site is renowned for its majestic temples, palaces, and monuments, reflecting the grandeur of the Vijayanagara era. It also features breathtaking landscapes of boulders and rivers. Hampi is a popular tourist destination for history lovers and architecture enthusiasts. The site’s historical significance and stunning beauty make it one of Karnataka’s most visited heritage locations."
+                description: "Hampi, a UNESCO World Heritage Site, is a historic village in Karnataka known for its ancient ruins. Once the capital of the Vijayanagara Empire, it boasts architectural marvels, such as the Virupaksha Temple and the Stone Chariot. The site is renowned for its majestic temples, palaces, and monuments, reflecting the grandeur of the Vijayanagara era. It also features breathtaking landscapes of boulders and rivers. Hampi is a popular tourist destination for history lovers and architecture enthusiasts. The site’s historical significance and stunning beauty make it one of Karnataka’s most visited heritage locations.",image: Hampi
             },
             {
                 name: "Badami",
-                description: "Badami, the capital of the Chalukya dynasty, is famous for its rock-cut temples and ancient architecture. The site is known for its temples carved into sandstone cliffs, particularly the Badami Cave Temples. These temples, dedicated to Hindu gods and Jain Tirthankaras, showcase exquisite craftsmanship. The Agastya Lake and the Fort are other notable attractions in Badami. The town is also famous for its archaeological importance and its role in the history of South India. Badami offers visitors a glimpse into ancient Indian art, culture, and architecture."
+                description: "Badami, the capital of the Chalukya dynasty, is famous for its rock-cut temples and ancient architecture. The site is known for its temples carved into sandstone cliffs, particularly the Badami Cave Temples. These temples, dedicated to Hindu gods and Jain Tirthankaras, showcase exquisite craftsmanship. The Agastya Lake and the Fort are other notable attractions in Badami. The town is also famous for its archaeological importance and its role in the history of South India. Badami offers visitors a glimpse into ancient Indian art, culture, and architecture.",image: Badami
             },
             {
                 name: "Belur and Halebidu",
-                description: "Belur and Halebidu are two towns known for their stunning Hoysala architecture and temple complexes. The Chennakesava Temple in Belur is famous for its intricate carvings and detailed sculptures, depicting scenes from Hindu mythology. Halebidu, once the capital of the Hoysala Empire, is home to the Hoysaleswara Temple, renowned for its beautifully detailed stone carvings. Both sites are excellent examples of the Hoysala dynasty's artistic achievements. These temples, with their fine architecture and sculptural work, are a significant part of Karnataka’s cultural heritage. They draw thousands of visitors each year for their historical value and beauty."
+                description: "Belur and Halebidu are two towns known for their stunning Hoysala architecture and temple complexes. The Chennakesava Temple in Belur is famous for its intricate carvings and detailed sculptures, depicting scenes from Hindu mythology. Halebidu, once the capital of the Hoysala Empire, is home to the Hoysaleswara Temple, renowned for its beautifully detailed stone carvings. Both sites are excellent examples of the Hoysala dynasty's artistic achievements. These temples, with their fine architecture and sculptural work, are a significant part of Karnataka’s cultural heritage. They draw thousands of visitors each year for their historical value and beauty.",image: BelurHalebidu
             },
             {
                 name: "Bijapur",
-                description: "Bijapur, known for its Islamic monuments, is a historically rich city in Karnataka. The Gol Gumbaz, one of India’s largest domes, is the most famous structure in the city. Other notable monuments include the Ibrahim Rauza, a beautiful tomb complex, and the Jama Masjid. Bijapur was once the capital of the Adil Shahi dynasty, and its monuments reflect the grandeur of that era. The fusion of Persian, Afghan, and Deccan architectural styles is evident in the city’s structures. Bijapur’s rich history and architectural wonders make it a key heritage destination in Karnataka."
+                description: "Bijapur, known for its Islamic monuments, is a historically rich city in Karnataka. The Gol Gumbaz, one of India’s largest domes, is the most famous structure in the city. Other notable monuments include the Ibrahim Rauza, a beautiful tomb complex, and the Jama Masjid. Bijapur was once the capital of the Adil Shahi dynasty, and its monuments reflect the grandeur of that era. The fusion of Persian, Afghan, and Deccan architectural styles is evident in the city’s structures. Bijapur’s rich history and architectural wonders make it a key heritage destination in Karnataka.",image: Bijapur
             },
             {
                 name: "Somanathapura",
-                description: "Somanathapura is home to the renowned Keshava Temple, an exemplary structure of Hoysala architecture. Located on the banks of the River Cauvery, the temple is known for its intricate sculptures, depicting Hindu deities and mythological stories. The temple's design, featuring a star-shaped layout and elaborately carved pillars, stands as a symbol of the artistic brilliance of the Hoysala period. The site is less crowded than other major temples, offering a peaceful and serene environment. Somanathapura is an important pilgrimage and historical site in Karnataka. Its architectural and artistic grandeur attracts visitors and scholars alike."
+                description: "Somanathapura is home to the renowned Keshava Temple, an exemplary structure of Hoysala architecture. Located on the banks of the River Cauvery, the temple is known for its intricate sculptures, depicting Hindu deities and mythological stories. The temple's design, featuring a star-shaped layout and elaborately carved pillars, stands as a symbol of the artistic brilliance of the Hoysala period. The site is less crowded than other major temples, offering a peaceful and serene environment. Somanathapura is an important pilgrimage and historical site in Karnataka. Its architectural and artistic grandeur attracts visitors and scholars alike.",image: Somanathapura
             }
 
         ]
@@ -615,23 +633,23 @@ const stateHeritage = [
         heritageSites: [
             {
                 name: "Konark Sun Temple",
-                description: "The Konark Sun Temple, a UNESCO World Heritage Site, is one of Odisha's most iconic landmarks. Built in the 13th century by King Narasimhadeva, it is dedicated to the Sun God, Surya. The temple is designed in the shape of a chariot, with 24 intricately carved wheels and seven horses. Known for its stunning architecture and detailed stone carvings, it symbolizes the peak of ancient Indian temple design. The temple complex also includes sacred ponds, a dance hall, and a beautiful courtyard. Despite suffering from natural and human damage, it remains a symbol of Odisha’s cultural heritage."
+                description: "The Konark Sun Temple, a UNESCO World Heritage Site, is one of Odisha's most iconic landmarks. Built in the 13th century by King Narasimhadeva, it is dedicated to the Sun God, Surya. The temple is designed in the shape of a chariot, with 24 intricately carved wheels and seven horses. Known for its stunning architecture and detailed stone carvings, it symbolizes the peak of ancient Indian temple design. The temple complex also includes sacred ponds, a dance hall, and a beautiful courtyard. Despite suffering from natural and human damage, it remains a symbol of Odisha’s cultural heritage.",image: KonarkSunTemple
             },
             {
                 name: "Bhubaneswar Temples",
-                description: "Bhubaneswar, known as the 'Temple City of India,' is home to more than 700 temples, many of which are architectural marvels. The Lingaraj Temple, dedicated to Lord Shiva, is one of the city's most famous temples, built in the 11th century. The temples showcase exquisite Kalinga architecture, with intricately carved structures and beautifully adorned walls. Other notable temples include the Rajarani Temple, Parashurameswar Temple, and Ananta Vasudeva Temple. Bhubaneswar's temples are significant pilgrimage sites, attracting visitors for both spiritual and cultural experiences. The city is a key center for Odisha's ancient religious practices."
+                description: "Bhubaneswar, known as the 'Temple City of India,' is home to more than 700 temples, many of which are architectural marvels. The Lingaraj Temple, dedicated to Lord Shiva, is one of the city's most famous temples, built in the 11th century. The temples showcase exquisite Kalinga architecture, with intricately carved structures and beautifully adorned walls. Other notable temples include the Rajarani Temple, Parashurameswar Temple, and Ananta Vasudeva Temple. Bhubaneswar's temples are significant pilgrimage sites, attracting visitors for both spiritual and cultural experiences. The city is a key center for Odisha's ancient religious practices.",image: BhubaneswarTemples
             },
             {
                 name: "Chilika Lake",
-                description: "Chilika Lake, Asia’s largest brackish water lagoon, is located on the eastern coast of Odisha. A biodiversity hotspot, it is home to numerous migratory bird species, making it a vital wetland ecosystem. The lake spans over 1,100 square kilometers and is surrounded by picturesque landscapes, including forests, islands, and beaches. It is also known for its rich marine life and fishing communities. The Nalabana Bird Sanctuary within the lake is a sanctuary for birdwatchers. Chilika Lake is an essential part of Odisha’s natural heritage and holds immense ecological importance."
+                description: "Chilika Lake, Asia’s largest brackish water lagoon, is located on the eastern coast of Odisha. A biodiversity hotspot, it is home to numerous migratory bird species, making it a vital wetland ecosystem. The lake spans over 1,100 square kilometers and is surrounded by picturesque landscapes, including forests, islands, and beaches. It is also known for its rich marine life and fishing communities. The Nalabana Bird Sanctuary within the lake is a sanctuary for birdwatchers. Chilika Lake is an essential part of Odisha’s natural heritage and holds immense ecological importance.",image: ChilikaLake
             },
             {
                 name: "Jagannath Temple, Puri",
-                description: "The Jagannath Temple in Puri is one of the Char Dham pilgrimage sites and is dedicated to Lord Jagannath. Built in the 12th century, it is a significant spiritual and cultural center for Hindus. The temple is famous for its grand annual Rath Yatra (Chariot Festival), where the deities are carried through the streets in massive chariots. The temple’s architecture features a towering spire and intricate sculptures, showcasing the Kalinga style. Puri's Jagannath Temple is a focal point of Odisha’s religious identity and attracts millions of pilgrims and tourists each year. It holds deep religious significance and plays a key role in the state's culture."
+                description: "The Jagannath Temple in Puri is one of the Char Dham pilgrimage sites and is dedicated to Lord Jagannath. Built in the 12th century, it is a significant spiritual and cultural center for Hindus. The temple is famous for its grand annual Rath Yatra (Chariot Festival), where the deities are carried through the streets in massive chariots. The temple’s architecture features a towering spire and intricate sculptures, showcasing the Kalinga style. Puri's Jagannath Temple is a focal point of Odisha’s religious identity and attracts millions of pilgrims and tourists each year. It holds deep religious significance and plays a key role in the state's culture.",image: JagannathTemple
             },
             {
                 name: "Udaigiri and Khandagiri Caves",
-                description: "The Udaigiri and Khandagiri Caves, located near Bhubaneswar, are ancient rock-cut caves dating back to the 1st century BCE. These caves were carved out by Jain monks and served as their residential and meditation spaces. The caves feature exquisite carvings of Jain Tirthankaras, intricate inscriptions, and beautiful architectural details. Udaigiri is known for its large number of caves, with some being intricately designed. The site is a testament to ancient Jain culture and religious practices. These caves are not only important religious sites but also offer stunning views of the surrounding landscapes."
+                description: "The Udaigiri and Khandagiri Caves, located near Bhubaneswar, are ancient rock-cut caves dating back to the 1st century BCE. These caves were carved out by Jain monks and served as their residential and meditation spaces. The caves feature exquisite carvings of Jain Tirthankaras, intricate inscriptions, and beautiful architectural details. Udaigiri is known for its large number of caves, with some being intricately designed. The site is a testament to ancient Jain culture and religious practices. These caves are not only important religious sites but also offer stunning views of the surrounding landscapes.",image: UdaigiriKhandagiriCaves
             }
 
 
