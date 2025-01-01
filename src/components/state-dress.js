@@ -274,6 +274,39 @@ const stateDress = [
  },
 
 
+ {
+    id: 'IN-BR',
+    Dresses: [
+        { name: "Tussar Silk Saree", description: "Traditional attire for women, consisting of a silk saree known for its rich fabric and intricate designs." },
+        { name: "Dhoti-Kurta", description: "Traditional attire for men, consisting of a dhoti (a long piece of cloth wrapped around the waist and legs) and a kurta (a long tunic), often worn during festivals and celebrations." },
+        { name: "Madhubani Saree", description: "A traditional saree characterized by its intricate Madhubani paintings and vibrant colors." },
+        { name: "Bihar Jewelry", description: "Traditional jewelry made from gold and silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." },
+        { name: "Gamcha", description: "A traditional towel worn by men, often paired with traditional attire, providing both style and functionality." }
+    ]
+ },
+ 
+ {
+    id: 'IN-MP',
+    Dresses: [
+        { name: "Chanderi Saree", description: "Traditional attire for women, consisting of a silk saree known for its lightweight fabric and intricate designs." },
+        { name: "Dhoti", description: "Traditional attire for men, consisting of a long piece of cloth wrapped around the waist and legs, often paired with a shirt." },
+        { name: "Maheshwari Saree", description: "A traditional saree from the Maheshwar region, known for its fine fabric and unique patterns." },
+        { name: "Madhya Pradesh Jewelry", description: "Traditional jewelry made from silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." },
+        { name: "Bundi", description: "A traditional jacket worn by men, often paired with traditional attire, providing both style and warmth." }
+    ]
+ },
+ 
+ {
+    id: 'IN-GJ',
+    Dresses: [
+        { name: "Chaniya Choli", description: "Traditional attire for women, consisting of a long skirt (Chaniya) and a blouse (Choli), often adorned with intricate embroidery and mirror work." },
+        { name: "Kediyu", description: "Traditional attire for men, consisting of a long tunic (Kediyu) and a dhoti, often adorned with traditional patterns and designs." },
+        { name: "Bandhani Saree", description: "A traditional saree characterized by its unique tie-dye patterns and vibrant colors." },
+        { name: "Gujarat Jewelry", description: "Traditional jewelry made from silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." },
+        { name: "Pagdi", description: "A traditional headgear worn by men, often adorned with traditional patterns and designs." }
+    ]
+ },
+
 ];
 
 export default stateDress;
