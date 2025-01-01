@@ -77,6 +77,17 @@ const stateFolkmusics = [
             { name: "Khamba Thoibi Songs", description: "Traditional songs depicting the love story of Khamba and Thoibi, performed during the Lai Haraoba festival, showcasing the rich cultural heritage of Manipur." }
         ]
     },
+
+    {
+        id: "IN-MZ",
+        Folkmusics: [
+            { name: "Cheraw Music", description: "Traditional music accompanying the Cheraw dance, also known as the Bamboo Dance, characterized by rhythmic beats and vibrant melodies." },
+            { name: "Khuallam Songs", description: "Traditional songs performed during the Khuangchawi festival, symbolizing the spirit of unity and brotherhood among the Mizos." },
+            { name: "Chheihlam Tunes", description: "Music performed to the accompaniment of songs called 'Chheih Hla', usually performed in a circle." },
+            { name: "Chai Melodies", description: "Traditional melodies performed during the Chapchar Kut festival, characterized by rhythmic beats and vibrant tunes." },
+            { name: "Sarlamkai Music", description: "War music performed by the Mara tribe, depicting the bravery and valor of warriors." }
+        ]
+    },
  
  
 ];
