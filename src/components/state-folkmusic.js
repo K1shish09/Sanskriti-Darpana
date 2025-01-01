@@ -88,6 +88,18 @@ const stateFolkmusics = [
             { name: "Sarlamkai Music", description: "War music performed by the Mara tribe, depicting the bravery and valor of warriors." }
         ]
     },
+
+    {
+        id: "IN-TR",
+        Folkmusics: [
+            { name: "Hojagiri Songs", description: "Traditional songs performed by the Reang community, characterized by rhythmic beats and melodic tunes." },
+            { name: "Garia Music", description: "Music performed during the Garia Puja festival, characterized by traditional instruments and devotional songs." },
+            { name: "Lebang Boomani Tunes", description: "Folk tunes depicting the catching of Lebang insects, characterized by lively rhythms and traditional instruments." },
+            { name: "Mamita Melodies", description: "Traditional melodies performed by the Jamatia tribe during the Mamita festival, celebrating the harvest season." },
+            { name: "Wangala Songs", description: "Harvest songs performed by the Garo tribe, celebrating the Wangala festival, characterized by rhythmic beats and vibrant melodies." }
+        ]
+    },
+    
  
  
 ];
