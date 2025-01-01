@@ -122,6 +122,16 @@ const stateFolkmusics = [
         ]
     },
     
+    {
+        id: "IN-KL",
+        Folkmusics: [
+            { name: "Kathakali Music", description: "Classical music accompanying the Kathakali dance-drama, known for its intricate rhythms and expressive melodies." },
+            { name: "Mohiniyattam Songs", description: "Classical songs performed by women, characterized by graceful melodies and emotive expressions, often narrating stories of love and devotion." },
+            { name: "Theyyam Tunes", description: "Ritualistic tunes performed in temples, where musicians embody deities and spirits, known for its vibrant rhythms and dramatic performances." },
+            { name: "Thiruvathirakali Melodies", description: "Traditional melodies performed by women during the festival of Thiruvathira, characterized by rhythmic beats and graceful tunes." },
+            { name: "Kalaripayattu Music", description: "Ancient martial music form that combines combat techniques with rhythmic beats, showcasing agility, strength, and coordination." }
+        ]
+    },
  
  
 ];
