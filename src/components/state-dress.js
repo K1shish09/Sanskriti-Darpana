@@ -34,6 +34,28 @@ const stateDress = [
     ]
  },
 
+ {
+    id: "IN-AR",
+    Dresses: [
+        { name: "Gale", description: "Traditional attire for women, consisting of a wraparound skirt, often paired with a blouse and adorned with beads and jewelry." },
+        { name: "Jacket and Skirt", description: "Traditional attire for men, consisting of a jacket and a wraparound skirt, often adorned with traditional patterns and designs." },
+        { name: "Sherdukpen Shawl", description: "A traditional shawl worn by the Sherdukpen tribe, characterized by its intricate patterns and vibrant colors." },
+        { name: "Monpa Attire", description: "Traditional attire of the Monpa tribe, consisting of a long robe for men and a wraparound skirt for women, often adorned with beads and jewelry." },
+        { name: "Apatani Ornaments", description: "Traditional jewelry worn by the Apatani tribe, often made from beads, silver, and other materials." }
+    ]
+ },
+ 
+  {
+    id: "IN-WB",
+    Dresses: [
+        { name: "Saree", description: "Traditional attire for women, often worn during festivals and special occasions, characterized by its elegant draping and intricate designs." },
+        { name: "Dhoti-Kurta", description: "Traditional attire for men, consisting of a dhoti (a long piece of cloth wrapped around the waist and legs) and a kurta (a long tunic), often worn during festivals and celebrations." },
+        { name: "Shantipuri Saree", description: "A traditional saree from the Shantipur region, known for its fine cotton fabric and intricate designs." },
+        { name: "Baluchari Saree", description: "A traditional saree from the Baluchar region, characterized by its rich silk fabric and elaborate patterns depicting mythological scenes." },
+        { name: "Bengali Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
+    ]
+ },
+
 
 
 
