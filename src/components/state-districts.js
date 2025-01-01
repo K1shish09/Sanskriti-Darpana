@@ -134,15 +134,7 @@ Total_Districts: [25],
       "20. Purba Medinipur",
       "21. Purulia",
       "22. South 24 Parganas",
-      "23. Uttar Dinajpur"
-      
-      
-      
-      
-      
-      
-      
-      
+      "23. Uttar Dinajpur"  
       
   ]
  },
@@ -195,37 +187,23 @@ Total_Districts: [12],
  {
     id: "IN-MZ",
     dist_info:"Mizoram, located in northeast India, is divided into 11 districts, each with its unique features and significance. Aizawl, the state capital, is the political, cultural, and economic hub, known for attractions like Solomon's Temple and the Mizoram State Museum. Lunglei, the second-largest town, is a picturesque region famous for its rock formations and natural beauty. Champhai, dubbed the is rich in agriculture and offers breathtaking views of the Myanmar hills. Serchhip is home to Mizoram's highest peak, Phawngpui, and has a vibrant cultural scene. Kolasib, an agricultural district, is known for its proximity to Assam and scenic landscapes. Lawngtlai is an ecotourism destination with diverse flora and fauna, while Saiha serves as a gateway to the Palak Wildlife Sanctuary. Mamit is a wildlife hotspot, housing the Dampa Tiger Reserve. Hnahthial and Khawzawl are newer districts focusing on local development and tourism, and Saitual is known for its serene environment and traditional Mizo lifestyle. Together, these districts showcase Mizoram’s rich cultural heritage and natural beauty.",
-    districts: [
-      "1. Anjaw",
-      "2. Bichom *",
-      "3. Siang",
-      "4. Changlang",
-      "5. Dibang Valley",
-      "6. East Kameng",
-      "7. East Siang",
-      "8. Kamle",
-      "9. Keyi Panyor *",
-      "10. Kra Daadi",
-      "11. Kurung Kumey",
-      "12. Lepa Rada *",
-      "13. Lohit",
-      "14. Longding",
-      "15. Lower Dibang Valley",
-      "16. Lower Siang",
-      "17. Lower Subansiri",
-      "18. Namsai",
-      "19. Pakke Kessang *",
-      "20. Papum Pare",
-      "21. Shi Yomi *",
-      "22. Tawang",
-      "23. Tirap",
-      "24. Upper Siang",
-      "25. Upper Subansiri",
-      "26. West Kameng",
-      "27. West Siang"
-  ]
- },
-
+    
+    Capital:["Aizawl"],
+    Total_Districts: [11],
+    Districts:[
+    "1. Aizawl",
+    "2. Champhai",
+    "3. Kolasib",
+    "4. Lawngtlai",
+    "5. Lunglei",
+    "6. Mamit",
+    "7. Saiha",
+    "8. Serchhip",
+    "9. Hnahthial",
+    "10. Siaha",
+    "11. Khawzawl"
+ ]
+},
  {
     id: "IN-TR",
     dist_info:"Tripura, the third smallest Indian state, boasts 8 districts with a mix of history, culture, and natural beauty. Agartala, the capital, houses the grand Ujjayanta Palace, now a state museum, and Neermahal, a water palace on Rudrasagar Lake. Unakoti features ancient rock-cut sculptures, believed to date back to the 7th–9th centuries. Sepahijala Wildlife Sanctuary is a biodiversity hotspot, home to the unique spectacled monkey. The Tripura Sundari Temple in Gomati is one of the 51 Shakti Peethas. Jampui Hills in North Tripura offers panoramic views and a serene escape, especially during the Orange Festival. Tribal crafts, bamboo products, and traditional dances like Garia add to the cultural tapestry.",
