@@ -69,6 +69,54 @@ import Naharlagun from "../Assets/Heritage/Naharlagun.jpeg";
 import Itanagar from "../Assets/Heritage/Itanagar.jpeg";
 import SelaPass from "../Assets/Heritage/SelaPass.jpeg";
 import MadhuriLake from "../Assets/Heritage/MadhuriLake.jpeg";
+import AurobindoAshram from "../Assets/Heritage/AurobindoAshram.jpeg";
+import BasilicaSacredHeart from "../Assets/Heritage/BasilicaSacredHeart.jpeg";
+import Auroville from "../Assets/Heritage/Auroville.jpeg";
+
+import FrenchWarMemorial from "../Assets/Heritage/FrenchWarMemorial.jpeg";
+import Arikamedu from "../Assets/Heritage/Arikamedu.jpeg";
+
+import Charminar from "../Assets/Heritage/Charminar.jpeg";
+
+import GolcondaFort from "../Assets/Heritage/GolcondaFort.jpeg";
+
+import QutbShahiTombs from "../Assets/Heritage/QutbShahiTombs.jpeg";
+
+import WarangalFort from "../Assets/Heritage/WarangalFort.jpeg";
+
+//import ChilkurBalajiTemple from "../Assets/Heritage/.jpeg";
+import ChilkurBalajiTemple from "../Assets/Heritage/ChilkurBalajiTemple.jpeg";
+
+import from "../Assets/Heritage/.jpeg";
+
+import from "../Assets/Heritage/.jpeg";
+
+import from "../Assets/Heritage/.jpeg";
+
+import from "../Assets/Heritage/.jpeg";
+
+import from "../Assets/Heritage/.jpeg";
+
+import from "../Assets/Heritage/.jpeg";
+
+import from "../Assets/Heritage/.jpeg";
+
+import from "../Assets/Heritage/.jpeg";
+
+import from "../Assets/Heritage/.jpeg";
+
+import from "../Assets/Heritage/.jpeg";
+
+import from "../Assets/Heritage/.jpeg";
+
+import from "../Assets/Heritage/.jpeg";
+
+import from "../Assets/Heritage/.jpeg";
+
+import from "../Assets/Heritage/.jpeg";
+
+
+
 const stateHeritage = [
     {
         id: 'IN-AN',
@@ -438,24 +486,22 @@ const stateHeritage = [
         heritageSites: [
             {
                 name: "Sri Aurobindo Ashram",
-                description: "Sri Aurobindo Ashram, located in the heart of Puducherry, is one of the most significant spiritual centers in India. Founded in 1926 by Sri Aurobindo and his spiritual collaborator, The Mother, it attracts seekers from all over the world. The ashram focuses on integral yoga and offers a peaceful environment for meditation and reflection. The tomb of Sri Aurobindo and The Mother is a major attraction, visited by thousands of devotees. The surrounding gardens add to the tranquil atmosphere. The ashram is an embodiment of Sri Aurobindo's teachings on human evolution and spiritual growth."
+                description: "Sri Aurobindo Ashram, located in the heart of Puducherry, is one of the most significant spiritual centers in India. Founded in 1926 by Sri Aurobindo and his spiritual collaborator, The Mother, it attracts seekers from all over the world. The ashram focuses on integral yoga and offers a peaceful environment for meditation and reflection. The tomb of Sri Aurobindo and The Mother is a major attraction, visited by thousands of devotees. The surrounding gardens add to the tranquil atmosphere. The ashram is an embodiment of Sri Aurobindo's teachings on human evolution and spiritual growth.",image: AurobindoAshram
             },
             {
                 name: "Basilica of the Sacred Heart of Jesus",
-                description: "The Basilica of the Sacred Heart of Jesus is an iconic Catholic church in Puducherry, known for its Gothic architecture. Built in 1907, it stands as a symbol of religious harmony and architectural beauty. The church is famous for its stained glass windows depicting scenes from the life of Christ. The basilica’s towering spires and intricate facade make it a major landmark in the city. It is an important pilgrimage site for Catholics in the region. The church’s serene ambiance offers a space for prayer, reflection, and religious celebrations."
+                description: "The Basilica of the Sacred Heart of Jesus is an iconic Catholic church in Puducherry, known for its Gothic architecture. Built in 1907, it stands as a symbol of religious harmony and architectural beauty. The church is famous for its stained glass windows depicting scenes from the life of Christ. The basilica’s towering spires and intricate facade make it a major landmark in the city. It is an important pilgrimage site for Catholics in the region. The church’s serene ambiance offers a space for prayer, reflection, and religious celebrations.",image: BasilicaSacredHeart
             },
             {
                 name: "Auroville",
-                description: "Auroville, an international township near Puducherry, was founded in 1968 by The Mother with the vision of creating a universal community living in peace and harmony. The township is home to over 2,000 residents from around the world, who live according to principles of sustainable development and spiritual growth. The Matrimandir, a golden dome at the center of Auroville, serves as a place of meditation and spiritual exploration. Auroville promotes an ideal of human unity and is recognized as a UNESCO recognized heritage site. Visitors can explore its unique culture, eco-friendly living, and diverse artistic expressions."
-            },
+                description: "Auroville, an international township near Puducherry, was founded in 1968 by The Mother with the vision of creating a universal community living in peace and harmony. The township is home to over 2,000 residents from around the world, who live according to principles of sustainable development and spiritual growth. The Matrimandir, a golden dome at the center of Auroville, serves as a place of meditation and spiritual exploration. Auroville promotes an ideal of human unity and is recognized as a UNESCO recognized heritage site. Visitors can explore its unique culture, eco-friendly living, and diverse artistic expressions.",image: Auroville           },
             {
                 name: "French War Memorial",
-                description: "The French War Memorial in Puducherry stands as a tribute to the soldiers from the French Indian community who died during World War I. Built in 1937, the monument is a reminder of the city’s historical connection to French colonial rule. The memorial is located near the Government Park, making it a popular spot for locals and tourists. Each year, on Bastille Day, a ceremony is held to honor the fallen soldiers. The monument is characterized by a simple yet elegant design, with an inscription dedicated to the martyrs. It holds great significance in Puducherry’s French heritage."
+                description: "The French War Memorial in Puducherry stands as a tribute to the soldiers from the French Indian community who died during World War I. Built in 1937, the monument is a reminder of the city’s historical connection to French colonial rule. The memorial is located near the Government Park, making it a popular spot for locals and tourists. Each year, on Bastille Day, a ceremony is held to honor the fallen soldiers. The monument is characterized by a simple yet elegant design, with an inscription dedicated to the martyrs. It holds great significance in Puducherry’s French heritage.",image: FrenchWarMemorial
             },
             {
                 name: "Arikamedu",
-                description: "Arikamedu is an ancient archaeological site located near Puducherry, known for its historical importance as a Roman trading center. Excavations have revealed artifacts dating back to the 1st century BCE, showing evidence of trade between the Romans and the local Tamil population. The site features remains of Roman pottery, beads, and other goods, reflecting the rich cultural exchanges of the period. Arikamedu’s strategic location along the ancient maritime trade routes makes it an important historical landmark. It provides valuable insights into Puducherry's early connections with global trade. The site is also a testament to the region's ancient urbanization and cosmopolitan culture."
-            }
+                description: "Arikamedu is an ancient archaeological site located near Puducherry, known for its historical importance as a Roman trading center. Excavations have revealed artifacts dating back to the 1st century BCE, showing evidence of trade between the Romans and the local Tamil population. The site features remains of Roman pottery, beads, and other goods, reflecting the rich cultural exchanges of the period. Arikamedu’s strategic location along the ancient maritime trade routes makes it an important historical landmark. It provides valuable insights into Puducherry's early connections with global trade. The site is also a testament to the region's ancient urbanization and cosmopolitan culture.",image: Arikamedu
 
         ]
     },
@@ -464,23 +510,23 @@ const stateHeritage = [
         heritageSites: [
             {
                 name: "Charminar",
-                description: "Charminar, located in the heart of Hyderabad, is one of the most iconic landmarks of Telangana. Built in 1591 by Sultan Muhammad Quli Qutb Shah, it stands as a symbol of the city. The monument is known for its stunning Islamic architecture, with four grand arches and intricately carved minarets. It is surrounded by a vibrant market, offering a glimpse into the old-world charm of Hyderabad. The Charminar is a popular tourist attraction and a central figure in Hyderabad's history. It also holds cultural significance as a place of gathering and celebration."
+                description: "Charminar, located in the heart of Hyderabad, is one of the most iconic landmarks of Telangana. Built in 1591 by Sultan Muhammad Quli Qutb Shah, it stands as a symbol of the city. The monument is known for its stunning Islamic architecture, with four grand arches and intricately carved minarets. It is surrounded by a vibrant market, offering a glimpse into the old-world charm of Hyderabad. The Charminar is a popular tourist attraction and a central figure in Hyderabad's history. It also holds cultural significance as a place of gathering and celebration.",image: Charminar
             },
             {
                 name: "Golconda Fort",
-                description: "Golconda Fort, a historical fortress located in Hyderabad, was once the capital of medieval Golconda Sultanate. Known for its unique acoustics and sophisticated water supply system, the fort is a marvel of engineering. The fort's massive gates, watchtowers, and the grand Bala Hissar gate are among its impressive features. It offers a panoramic view of the surrounding areas and is a major tourist destination. The fort also houses the tombs of the Qutb Shahi rulers. Its rich history and strategic importance make it a must-visit heritage site."
+                description: "Golconda Fort, a historical fortress located in Hyderabad, was once the capital of medieval Golconda Sultanate. Known for its unique acoustics and sophisticated water supply system, the fort is a marvel of engineering. The fort's massive gates, watchtowers, and the grand Bala Hissar gate are among its impressive features. It offers a panoramic view of the surrounding areas and is a major tourist destination. The fort also houses the tombs of the Qutb Shahi rulers. Its rich history and strategic importance make it a must-visit heritage site.",image: GolcondaFort
             },
             {
                 name: "Qutb Shahi Tombs",
-                description: "The Qutb Shahi Tombs in Hyderabad are the burial sites of the rulers of the Qutb Shahi dynasty. Situated near Golconda Fort, these tombs are known for their Persian-inspired architecture. The tombs are made of granite and feature domes and intricate carvings. The tombs of the kings, queens, and royal family members are scattered across the site. It is an excellent example of Islamic architecture, blending local and Persian styles. The site is a peaceful retreat, offering insights into the history of the Qutb Shahi dynasty."
+                description: "The Qutb Shahi Tombs in Hyderabad are the burial sites of the rulers of the Qutb Shahi dynasty. Situated near Golconda Fort, these tombs are known for their Persian-inspired architecture. The tombs are made of granite and feature domes and intricate carvings. The tombs of the kings, queens, and royal family members are scattered across the site. It is an excellent example of Islamic architecture, blending local and Persian styles. The site is a peaceful retreat, offering insights into the history of the Qutb Shahi dynasty.",image: QutbShahiTombs
             },
             {
                 name: "Warangal Fort",
-                description: "Warangal Fort, located in the city of Warangal, is a historical site that dates back to the 13th century. It was the capital of the Kakatiya dynasty, which ruled over present-day Telangana. The fort is famous for its impressive gateways, intricate stone carvings, and the remnants of its once majestic structures. The Thousand Pillar Temple and the Bhadrakali Temple are part of the fort complex. Warangal Fort is a UNESCO World Heritage tentative site and a significant symbol of the Kakatiya architectural style. The site attracts both history buffs and pilgrims."
+                description: "Warangal Fort, located in the city of Warangal, is a historical site that dates back to the 13th century. It was the capital of the Kakatiya dynasty, which ruled over present-day Telangana. The fort is famous for its impressive gateways, intricate stone carvings, and the remnants of its once majestic structures. The Thousand Pillar Temple and the Bhadrakali Temple are part of the fort complex. Warangal Fort is a UNESCO World Heritage tentative site and a significant symbol of the Kakatiya architectural style. The site attracts both history buffs and pilgrims.",image: WarangalFort
             },
             {
                 name: "Chilkur Balaji Temple",
-                description: "Chilkur Balaji Temple, located near Hyderabad, is one of the oldest and most revered temples dedicated to Lord Venkateswara. The temple is popularly known as the 'Visa Balaji Temple' due to the belief that devotees visiting the temple and offering prayers will be blessed with success in obtaining visas. The temple's unique aspect is its traditional, non-commercialized approach, with no special offerings or rituals. It is surrounded by beautiful greenery, providing a serene atmosphere for visitors. The temple is a popular destination for both locals and tourists seeking spiritual solace. Its rich history and sacredness make it a significant heritage site."
+                description: "Chilkur Balaji Temple, located near Hyderabad, is one of the oldest and most revered temples dedicated to Lord Venkateswara. The temple is popularly known as the 'Visa Balaji Temple' due to the belief that devotees visiting the temple and offering prayers will be blessed with success in obtaining visas. The temple's unique aspect is its traditional, non-commercialized approach, with no special offerings or rituals. It is surrounded by beautiful greenery, providing a serene atmosphere for visitors. The temple is a popular destination for both locals and tourists seeking spiritual solace. Its rich history and sacredness make it a significant heritage site.",image: ChilkurBalajiTemple
             }
 
         ]
