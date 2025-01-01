@@ -83,55 +83,284 @@ const stateInfo = [
 
  {
     id: "IN-WB",
-    lang_infote_info:"The state's official languages are Bengali and English;[4] Nepali has additional official status in the three subdivisions of Darjeeling district.[4] In 2012, the state government passed a bill granting additional official status to Hindi, Odia, Punjabi, Santali and Urdu in areas where speakers exceed 10% of the population.[4] In 2019, another bill was passed by the government to include Kamtapuri, Kurmali and Rajbanshi as additional official languages in blocks, divisions or districts where the speakers exceed 10% of the population.[4] On 24 December 2020, Chief Minister Mamata Banerjee announced Telugu as an additional official language.[4] As of the 2011 census, 86.22% of the population spoke Bengali, 5.00% Hindi, 2.66% Santali, 1.82% Urdu and "},
+    lang_infote_info:"The state's official languages are Bengali and English;[4] Nepali has additional official status in the three subdivisions of Darjeeling district.[4] In 2012, the state government passed a bill granting additional official status to Hindi, Odia, Punjabi, Santali and Urdu in areas where speakers exceed 10% of the population.[4] In 2019, another bill was passed by the government to include Kamtapuri, Kurmali and Rajbanshi as additional official languages in blocks, divisions or districts where the speakers exceed 10% of the population.[4] On 24 December 2020, Chief Minister Mamata Banerjee announced Telugu as an additional official language.[4] As of the 2011 census, 86.22% of the population spoke Bengali, 5.00% Hindi, .66% Santali, 1.82% Urdu and ",
+    most_spoken_languages: [
+      {
+          "language": "Bengali",
+          "percentage": "85-90%",
+          "population": "approx. 75-80 million people"
+      },
+      {
+          "language": "Hindi",
+          "percentage": "5-7%",
+          "population": "approx. 4.5-6 million people"
+      },
+      {
+          "language": "Urdu",
+          "percentage": "4-5%",
+          "population": "approx. 3.6-4.5 million people"
+      },
+      {
+          "language": "Santali",
+          "percentage": "2-3%",
+          "population": "approx. 1.8-2.7 million people"
+      },
+      {
+          "language": "Other Tribal Languages",
+          "percentage": "1-2%",
+          "population": "approx. 0.9-1.8 million people"
+      }
+  ]
+},
 
  {
     id: "IN-NL",
     lang_info:"Other than Meitei language, in Manipur, there is a huge amount of linguistic diversity, as is the case in most of the Northeast India. Almost all of the languages are Sino-Tibetan, with many different subgroups represented. There are multiple Kuki-Chin languages, the largest being Thadou and is spoken in all the hill districts. Another major language family is the Naga languages, like Tangkhul, Poula, Rongmei and Mao. Less than 5% speak Indo-European languages, mostly Nepali and Sylheti (also considered as a dialect of Bengali), which is the major language of Jiribam district.[114]",
+    most_spoken_languages: [
+      {
+          "language": "Nagamese",
+          "percentage": "50%",
+          "population": "approx. 1 million people"
+      },
+      {
+          "language": "English",
+          "percentage": "30-40%",
+          "population": "approx. 600,000 to 800,000 people"
+      },
+      {
+          "language": "Other Tribal Languages",
+          "percentage": "20-30%",
+          "population": "approx. 400,000 to 600,000 people"
+      }
+  ]
  },
 
  {
     id: "IN-MN",
-    lang_info:"Manipur, located in the northeastern part of India, is a state known for its stunning landscapes, rich culture, and historical significance. Covering an area of 22,327 square kilometers, Manipur is bordered by Nagaland to the north, Mizoram to the south, Assam to the west, and Myanmar (Burma) to the east. The state is often referred to as the Switzerland of India due to its picturesque landscapes, including lush green hills, valleys, and rivers. Imphal, the capital city, is the largest urban center and the political and cultural heart of the state.Manipur has a diverse cultural heritage, influenced by various indigenous communities. The majority of the population belongs to the Meitei ethnic group, who predominantly follow Hinduism, while a significant number of tribal groups, including Nagas and Kukis, practice Christianity and indigenous faiths. The state is known for its traditional arts, including dance forms like Manipuri dance, which is a classical dance style that has been recognized internationally. The famous festival of Lai Haraoba, celebrated by the Meitei people, is an important cultural event that honors the gods and celebrates traditional customs.The state’s economy is mainly agrarian, with agriculture being the primary occupation of the people. Rice is the staple food, and crops like maize, pulses, vegetables, and fruits are widely cultivated. Manipur also has a growing handloom and handicraft industry, with products like Manipuri shawls, bamboo crafts, and pottery being highly valued. While agriculture forms the backbone of the state’s economy, tourism also plays a significant role due to its natural beauty, cultural diversity, and historical landmarks."
+    lang_info:"Manipur, located in the northeastern part of India, is a state known for its stunning landscapes, rich culture, and historical significance. Covering an area of 22,327 square kilometers, Manipur is bordered by Nagaland to the north, Mizoram to the south, Assam to the west, and Myanmar (Burma) to the east. The state is often referred to as the Switzerland of India due to its picturesque landscapes, including lush green hills, valleys, and rivers. Imphal, the capital city, is the largest urban center and the political and cultural heart of the state.Manipur has a diverse cultural heritage, influenced by various indigenous communities. The majority of the population belongs to the Meitei ethnic group, who predominantly follow Hinduism, while a significant number of tribal groups, including Nagas and Kukis, practice Christianity and indigenous faiths. The state is known for its traditional arts, including dance forms like Manipuri dance, which is a classical dance style that has been recognized internationally. The famous festival of Lai Haraoba, celebrated by the Meitei people, is an important cultural event that honors the gods and celebrates traditional customs.The state’s economy is mainly agrarian, with agriculture being the primary occupation of the people. Rice is the staple food, and crops like maize, pulses, vegetables, and fruits are widely cultivated. Manipur also has a growing handloom and handicraft industry, with products like Manipuri shawls, bamboo crafts, and pottery being highly valued. While agriculture forms the backbone of the state’s economy, tourism also plays a significant role due to its natural beauty, cultural diversity, and historical landmarks.",
+    most_spoken_languages: [
+            {
+                "language": "Meitei (Manipuri)",
+                "percentage": "60%",
+                "population": "approx. 1.8 million people"
+            },
+            {
+                "language": "Bengali",
+                "percentage": "10-15%",
+                "population": "approx. 300,000 to 450,000 people"
+            },
+            {
+                "language": "Hindi",
+                "percentage": "5-7%",
+                "population": "approx. 150,000 to 210,000 people"
+            },
+            {
+                "language": "Other Tribal Languages",
+                "percentage": "20-25%",
+                "population": "approx. 600,000 to 750,000 people"
+            }
+        ]
  },
 
  {
     id: "IN-MZ",
-    lang_info:"Mizoram is a state situated on the extreme south of northeastern India, it is a land of unending natural beauty with a variety of flora and fauna. The word Mizo means highlander Mizoram is located between 21-58o to 24o 29' north latitude and 92o 29' to 93o 22' east longitude. The tropic of Cancer passes near the capital, Aizawl town. Mizoram occupies the north east corner of India. It is bounded on the north by the state of Assam and the state of Manipur, on the east and south by Chin Hills and Arakan (Myanmar), and on the west by the Chittagong hill tracts of Bangladesh and the state of Tripura. Mizoram borders three states of India - Assam, Manipur and Tripura. Its geographical borders with Assam, Manipur and Tripura extended over 123 km, 95 km and 66 km, respectively. Mizoram is a land of hills. The hills run in ridges from north to south. They have an average height of 900 meters, the highest point being the Blue Mountain After independence of India, Mizoram continued to be part of Assam. The district was carved out of Assam under the reorganization act of 1971 raised to the status of a union territory on January 21, 1972. In 1987, Mizoram became the 23rd full-fledged state of the country."
+    lang_info:"Mizoram is a state situated on the extreme south of northeastern India, it is a land of unending natural beauty with a variety of flora and fauna. The word Mizo means highlander Mizoram is located between 21-58o to 24o 29' north latitude and 92o 29' to 93o 22' east longitude. The tropic of Cancer passes near the capital, Aizawl town. Mizoram occupies the north east corner of India. It is bounded on the north by the state of Assam and the state of Manipur, on the east and south by Chin Hills and Arakan (Myanmar), and on the west by the Chittagong hill tracts of Bangladesh and the state of Tripura. Mizoram borders three states of India - Assam, Manipur and Tripura. Its geographical borders with Assam, Manipur and Tripura extended over 123 km, 95 km and 66 km, respectively. Mizoram is a land of hills. The hills run in ridges from north to south. They have an average height of 900 meters, the highest point being the Blue Mountain After independence of India, Mizoram continued to be part of Assam. The district was carved out of Assam under the reorganization act of 1971 raised to the status of a union territory on January 21, 1972. In 1987, Mizoram became the 23rd full-fledged state of the country.",
+    most_spoken_languages: [
+      {
+          "language": "Mizo",
+          "percentage": "90%",
+          "population": "approx. 1.08 million people"
+      },
+      {
+          "language": "Bengali",
+          "percentage": "5%",
+          "population": "approx. 60,000 people"
+      },
+      {
+          "language": "Hindi",
+          "percentage": "5%",
+          "population": "approx. 60,000 people"
+      }
+  ]
+
  },
 
  {
     id: "IN-TR",
-    lang_info:"Languages of Tripura, a state in the Northeast India, include Bengali and Kokborok as official languages, and many other minority languages.[1][2][3][4] As in the rest of India, English is used for official purpose.[1] Bengali is the most spoken language, due to the predominance of Bengali people in the state. Kokborok is spoken by the Tripuri people."
+    lang_info:"Languages of Tripura, a state in the Northeast India, include Bengali and Kokborok as official languages, and many other minority languages.[1][2][3][4] As in the rest of India, English is used for official purpose.[1] Bengali is the most spoken language, due to the predominance of Bengali people in the state. Kokborok is spoken by the Tripuri people.",
+    most_spoken_languages: [
+      {
+          "language": "Bengali",
+          "percentage": "65-70%",
+          "population": "approx. 2.5-2.66 million people"
+      },
+      {
+          "language": "Kokborok",
+          "percentage": "25-30%",
+          "population": "approx. 0.95-1.14 million people"
+      },
+      {
+          "language": "Hindi",
+          "percentage": "5-7%",
+          "population": "approx. 0.19-0.27 million people"
+      }
+  ]
  },
 
  {
     id: "IN-ML",
-    lang_info:" Meghalaya, meaning abode of clouds is a northeastern state of India known for its scenic beauty, diverse tribal culture, and rich heritage. It shares borders with Assam and Bangladesh and is known for its picturesque landscapes, including rolling hills, vast forests, waterfalls, and caves. The state is the wettest region of India, with the wettest areas in the southern Khasi Hills recording an average of 12,000 mm (470 in) of rain a year. English is official language of Meghalaya It extends for about 300 kilometres in length and about 100 kilometres in breadth. The capital of Meghalaya is Shillong. About 70 per cent of the state is forested. The Meghalaya subtropical forests ecoregion encompasses Meghalaya has predominantly an agrarian economy with a significant commercial forestry industry. The important crops are potatoes, rice, maize, pineapples, bananas, papayas, and spices. The service sector is made up of real estate and insurance companies.  The state is geologically rich in minerals, but it has no significant industries. The state has about 1,170 km (730 mi) of national highways. It is also a major logistical center for trade with Bangladesh. A theory for the origin of rice is by Ian Glover while states, India is centof greatest diversity of domesticated rice with over 20,000 identified species and Northeast India is the most favorable single area of the origin of domesticated rice. The limited archaeology done in the hills of Meghalaya suggest human settlement since ancient times.  Meghalaya is one of the Seven Sister States of northeast India. The state of Meghalaya is mountainous, with stretches of valley and highland plateaus, and it is geologically rich. It consists mainly of Archean rock formations. These rock formations contain rich deposits coal, limestone, uranium and sillimanite. of valuable minerals like The name Meghalaya was given by Shiba P. Chatterjee, a geography professor at the University of Calcutta. "
+    lang_info:" Meghalaya, meaning abode of clouds is a northeastern state of India known for its scenic beauty, diverse tribal culture, and rich heritage. It shares borders with Assam and Bangladesh and is known for its picturesque landscapes, including rolling hills, vast forests, waterfalls, and caves. The state is the wettest region of India, with the wettest areas in the southern Khasi Hills recording an average of 12,000 mm (470 in) of rain a year. English is official language of Meghalaya It extends for about 300 kilometres in length and about 100 kilometres in breadth. The capital of Meghalaya is Shillong. About 70 per cent of the state is forested. The Meghalaya subtropical forests ecoregion encompasses Meghalaya has predominantly an agrarian economy with a significant commercial forestry industry. The important crops are potatoes, rice, maize, pineapples, bananas, papayas, and spices. The service sector is made up of real estate and insurance companies.  The state is geologically rich in minerals, but it has no significant industries. The state has about 1,170 km (730 mi) of national highways. It is also a major logistical center for trade with Bangladesh. A theory for the origin of rice is by Ian Glover while states, India is centof greatest diversity of domesticated rice with over 20,000 identified species and Northeast India is the most favorable single area of the origin of domesticated rice. The limited archaeology done in the hills of Meghalaya suggest human settlement since ancient times.  Meghalaya is one of the Seven Sister States of northeast India. The state of Meghalaya is mountainous, with stretches of valley and highland plateaus, and it is geologically rich. It consists mainly of Archean rock formations. These rock formations contain rich deposits coal, limestone, uranium and sillimanite. of valuable minerals like The name Meghalaya was given by Shiba P. Chatterjee, a geography professor at the University of Calcutta. ",
+    most_spoken_languages: [
+      {
+          "language": "Khasi",
+          "percentage": "30-40%",
+          "population": "approx. 990,000 to 1.32 million people"
+      },
+      {
+          "language": "Garo",
+          "percentage": "30-40%",
+          "population": "approx. 990,000 to 1.32 million people"
+      },
+      {
+          "language": "English",
+          "percentage": "10-15%",
+          "population": "approx. 330,000 to 495,000 people"
+      },
+      {
+          "language": "Other Tribal Languages",
+          "percentage": "5-10%",
+          "population": "approx. 165,000 to 330,000 people"
+      }
+  ]
  },
 
  {
     id: "IN-SK",
-    lang_info:"Lepcha language is generally spoken by the Lepchas, though the dialect is not used to a great extent in Sikkim. The Bhutias commonly speak 'Sikkimese' language and the dialect dominates the state in minority. The Nepalese, being in majority, dominates the major part of Sikkim with their dialect. The people, who migrated from Tibet, have joined the hoard of Lepchas and Bhutias; yet old people speak the language. English is used especially for official matters; nonetheless Hindi is spoken and understood by the maximum number of people."
+    lang_info:"Lepcha language is generally spoken by the Lepchas, though the dialect is not used to a great extent in Sikkim. The Bhutias commonly speak 'Sikkimese' language and the dialect dominates the state in minority. The Nepalese, being in majority, dominates the major part of Sikkim with their dialect. The people, who migrated from Tibet, have joined the hoard of Lepchas and Bhutias; yet old people speak the language. English is used especially for official matters; nonetheless Hindi is spoken and understood by the maximum number of people.",
+    most_spoken_languages: [
+            {
+                "language": "Nepali",
+                "percentage": "60-70%",
+                "population": "approx. 420,000 to 490,000 people"
+            },
+            {
+                "language": "Bhutia",
+                "percentage": "15-20%",
+                "population": "approx. 105,000 to 140,000 people"
+            },
+            {
+                "language": "Tibetan",
+                "percentage": "5-7%",
+                "population": "approx. 35,000 to 49,000 people"
+            },
+            {
+                "language": "Other Languages",
+                "percentage": "10-15%",
+                "population": "approx. 70,000 to 105,000 people"
+            }
+        ]
  },
  
  {
     id: "IN-KL",
-    lang_info:"Lakshadweep, an enchanting archipelago nestled in the Arabian Sea, is a melting pot of diverse cultures and languages as well as a paradise of pristine beaches and coral reefs. Despite its small size, Lakshadweep has a diverse linguistic tapestry that reflects the indigenous communities’ distinct heritage. Visitors can explore this stunning destination through various Lakshadweep packages, which offer opportunities to experience the beauty and culture of the islands firsthand."
+    lang_info:"Lakshadweep, an enchanting archipelago nestled in the Arabian Sea, is a melting pot of diverse cultures and languages as well as a paradise of pristine beaches and coral reefs. Despite its small size, Lakshadweep has a diverse linguistic tapestry that reflects the indigenous communities’ distinct heritage. Visitors can explore this stunning destination through various Lakshadweep packages, which offer opportunities to experience the beauty and culture of the islands firsthand.",
+    most_spoken_languages: [
+            {
+                "language": "Malayalam",
+                "percentage": "96%",
+                "population": "approx. 33.6 million people"
+            },
+            {
+                "language": "Tamil",
+                "percentage": "2-3%",
+                "population": "approx. 700,000 to 1 million people"
+            },
+            {
+                "language": "Hindi",
+                "percentage": "1-2%",
+                "population": "approx. 350,000 to 700,000 people"
+            }
+        ]
  },
  {
     
     id: "IN-TN",
-    lang_info:"Tamil Nadu is the fourth largest state of India and is located in the extreme south of the Indian subcontinent. Tamil is the primary language of the people of Tamil Nadu. It is also one of the classical languages of the world, with a rich heritage of art & culture and literature. In addition to Tamil, several other languages such as Kannada, Telugu, Urdu and Malayalam, and even English are spoken in the state."
+    lang_info:"Tamil Nadu is the fourth largest state of India and is located in the extreme south of the Indian subcontinent. Tamil is the primary language of the people of Tamil Nadu. It is also one of the classical languages of the world, with a rich heritage of art & culture and literature. In addition to Tamil, several other languages such as Kannada, Telugu, Urdu and Malayalam, and even English are spoken in the state.",
+    most_spoken_languages: [
+            {
+                "language": "Tamil",
+                "percentage": "90%",
+                "population": "approx. 69.3 million people"
+            },
+            {
+                "language": "Telugu",
+                "percentage": "5%",
+                "population": "approx. 3.85 million people"
+            },
+            {
+                "language": "Urdu",
+                "percentage": "3%",
+                "population": "approx. 2.3 million people"
+            },
+            {
+                "language": "Hindi",
+                "percentage": "2%",
+                "population": "approx. 1.5 million people"
+            }
+        ]
  },
  
  {
     id: "IN-AP",
     lang_info:"Telugu is the official language of Andhra Pradesh and holds a significant value as it is one of the six classical languages of India. It is the largest spoken language within the Southern Central Dravidian language family and it is also utilized as the medium of instruction by the state government. The majority of the state’s population can speak and understand it. ",
+    most_spoken_languages: [
+      {
+          "language": "Telugu",
+          "percentage": "85-90%",
+          "population": "approx. 34-36 million people"
+      },
+      {
+          "language": "Urdu",
+          "percentage": "10-12%",
+          "population": "approx. 4-4.8 million people"
+      },
+      {
+          "language": "Hindi",
+          "percentage": "3-5%",
+          "population": "approx. 1.2-2 million people"
+      }
+  ]
  },
  {
     id: "IN-PY",
-    lang_info:"Puducherry, formerly known as Pondicherry, is a Union Territory of India, renowned for its colonial charm, serene beaches, and spiritual ambiance. Covering an area of 483 square kilometers, Puducherry consists of four geographically distinct regions: Puducherry and Karaikal on the east coast near Tamil Nadu, Yanam in Andhra Pradesh, and Mahe on the west coast in Kerala. Puducherry town serves as the administrative capital, and the region features a coastline along the Bay of Bengal and the Arabian Sea.Historically, Puducherry has been influenced by various South Indian dynasties, including the Cholas and Pallavas. Its modern history began with the arrival of the French in 1674, who ruled the region until 1954. Other European powers, such as the Dutch and British, also briefly controlled parts of the area. Puducherry officially became a part of India on November 1, 1954, following a referendum, and was designated as a Union Territory in 1963.The culture of Puducherry is a fascinating blend of French and Indian traditions. The region’s population, approximately 1.25 million, speaks languages like Tamil, Telugu, Malayalam, and French, with English widely used in administration and tourism. Predominantly Hindu, the region also has significant Christian and Muslim communities. French influence is evident in the architecture, street names, cuisine, and festivals. Events like Bastille Day, alongside local festivals such as Pongal and Masi Magam, showcase the unique cultural amalgamation."
+    lang_info:"Puducherry, formerly known as Pondicherry, is a Union Territory of India, renowned for its colonial charm, serene beaches, and spiritual ambiance. Covering an area of 483 square kilometers, Puducherry consists of four geographically distinct regions: Puducherry and Karaikal on the east coast near Tamil Nadu, Yanam in Andhra Pradesh, and Mahe on the west coast in Kerala. Puducherry town serves as the administrative capital, and the region features a coastline along the Bay of Bengal and the Arabian Sea.Historically, Puducherry has been influenced by various South Indian dynasties, including the Cholas and Pallavas. Its modern history began with the arrival of the French in 1674, who ruled the region until 1954. Other European powers, such as the Dutch and British, also briefly controlled parts of the area. Puducherry officially became a part of India on November 1, 1954, following a referendum, and was designated as a Union Territory in 1963.The culture of Puducherry is a fascinating blend of French and Indian traditions. The region’s population, approximately 1.25 million, speaks languages like Tamil, Telugu, Malayalam, and French, with English widely used in administration and tourism. Predominantly Hindu, the region also has significant Christian and Muslim communities. French influence is evident in the architecture, street names, cuisine, and festivals. Events like Bastille Day, alongside local festivals such as Pongal and Masi Magam, showcase the unique cultural amalgamation.",
+    most_spoken_languages: [
+      {
+          "language": "Tamil",
+          "percentage": "65-70%",
+          "population": "approx. 0.5-0.6 million people"
+      },
+      {
+          "language": "Telugu",
+          "percentage": "10-15%",
+          "population": "approx. 0.08-0.12 million people"
+      },
+      {
+          "language": "Hindi",
+          "percentage": "5-7%",
+          "population": "approx. 0.04-0.06 million people"
+      },
+      {
+          "language": "French",
+          "percentage": "3-5%",
+          "population": "approx. 0.02-0.03 million people"
+      },
+      {
+          "language": "Other Languages",
+          "percentage": "5-7%",
+          "population": "approx. 0.04-0.06 million people"
+      }
+  ]
  },
  
  {
