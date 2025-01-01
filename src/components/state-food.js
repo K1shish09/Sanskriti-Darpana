@@ -26,17 +26,17 @@ import AlooPosto from "../Assets/Food/AlooPosto.jpeg";
 import ChingriMalaiCurry from "../Assets/Food/ChingriMalaiCurry.jpeg";
 import Rosogolla from "../Assets/Food/Rosogolla,jpeg";
 import SmokedPork from "../Assets/Food/SmokedPorkwithBambooShoot.jpeg";
-import NagaStew from "../Assets/Food/NagaStew.jpeg"; 
-import Akhuni from "../Assets/Food/Akhuni.jpeg"; 
-import Galho from "../Assets/Food/Galho.jpeg"; 
-import PorkwithNagaChilli from "../Assets/Food/PorkwithNagaChilli.jpeg"; 
-import Eromba from "../Assets/Food/Eromba.jpeg"; 
-import NgaThongba from "../Assets/Food/NgaThongba.jpeg"; 
-import Chamthong from "../Assets/Food/Chamthong.jpeg"; 
-import ChakHaoKheer from "../Assets/Food/ChakHaoKheer.jpeg"; 
-import Singju from "../Assets/Food/Singju.jpeg"; 
-import kachori from "../Assets/Food/KachoriSabzi.jpeg"; 
-import BaatiChokha from "../Assets/Food/Baati-Chokha.jpeg"; 
+import NagaStew from "../Assets/Food/NagaStew.jpeg";
+import Akhuni from "../Assets/Food/Akhuni.jpeg";
+import Galho from "../Assets/Food/Galho.jpeg";
+import PorkwithNagaChilli from "../Assets/Food/PorkwithNagaChilli.jpeg";
+import Eromba from "../Assets/Food/Eromba.jpeg";
+import NgaThongba from "../Assets/Food/NgaThongba.jpeg";
+import Chamthong from "../Assets/Food/Chamthong.jpeg";
+import ChakHaoKheer from "../Assets/Food/ChakHaoKheer.jpeg";
+import Singju from "../Assets/Food/Singju.jpeg";
+import kachori from "../Assets/Food/KachoriSabzi.jpeg";
+import BaatiChokha from "../Assets/Food/Baati-Chokha.jpeg";
 import Litti from "../Assets/Food/Litti.jpeg";
 import TandooriRotiwithMuttonCurry from "../Assets/Food/Tandoori-RotiwithMuttonCurry.jpeg";
 import ChanaMasala from "../Assets/Food/ChanaMasala.jpeg";
@@ -147,10 +147,24 @@ import Gatte from "../Assets/Food/Gatte.jpeg";
 import LaalMaas from "../Assets/Food/LaalMaas.jpeg";
 import KerSangri from "../Assets/Food/Kersangri.jpeg";
 import MawaKachori from "../Assets/Food/MawaKachori.jpeg";
-import Undhiyu from "../Assets/Food/Undhiyu.jpeg";
+import BhatureChole from "../Assets/Food/BhatureChole.jpeg";
 
+import Butterchicken from "../Assets/Food/ButterChicken.jpeg";
+import Paranthas from "../Assets/Food/Paranthas.jpeg";
+import Alootikki from "../Assets/Food/AlooTikki.jpeg";
+import Kulfifalooda from "../Assets/Food/KulfiFalooda.jpeg";
+import BesanMasalaRoti from "../Assets/Food/BesanMasalaRoti.jpeg";
+import HaryanviKadhi from "../Assets/Food/HaryanviKadhi.jpeg";
+import BajraKhichdi from "../Assets/Food/BajraKhichdi.jpeg";
+import MitheChawal from "../Assets/Food/MitheChawal.jpeg";
+import DumAloo from "../Assets/Food/DumAloo.jpeg";
+import RoganJosh from "../Assets/Food/RoganJosh.jpeg";
+import Yakhni from "../Assets/Food/Yakhni.jpeg";
 
-
+import ModurPulao from "../Assets/Food/ModurPulao.jpeg";
+import RajmaChawal from "../Assets/Food/RajmaChawal.jpeg";
+import AmritsariKulcha from "../Assets/Food/AmritsariKulcha.jpeg";
+import Lassi from "../Assets/Food/Lassi.jpeg";
 
 const stateFoods = [
     {
@@ -159,7 +173,7 @@ const stateFoods = [
             {
                 name: "Coconut Prawn Curry",
                 description: "This dish combines the sweetness of coconut with the rich flavors of prawns. Prawns are simmered in a gravy made with coconut milk, curry leaves, and mustard seeds. The dish is mildly spiced, allowing the coconut to dominate. It is served with hot rice or freshly baked bread. The aromatic curry leaves and mustard add an authentic touch. This dish is a signature of the island cuisine.",
-                image:CoconutPrawnCurry
+                image: CoconutPrawnCurry
             },
             {
                 name: "Barbecued Seafood",
@@ -174,12 +188,12 @@ const stateFoods = [
             {
                 name: "Fish Curry",
                 description: "A staple dish of the Andaman and Nicobar Islands, fish curry is made using fresh local catch. The dish features a flavorful blend of spices like turmeric, coriander, and chili. Coconut milk is often added for a creamy texture. Served with steamed rice, it's a comfort food for locals. Each region has its variation, making it uniquely flavorful. The use of tamarind adds a tangy twist to the curry.",
-                image:fishcurry
+                image: fishcurry
             },
             {
                 name: "Grilled Lobster",
                 description: "Grilled lobster is a delicacy that highlights the Islands' rich seafood culture. Freshly caught lobsters are marinated with lime, garlic, and chili. They are grilled to perfection, giving them a smoky flavor. Served with tangy dipping sauces, this dish is a must-try for seafood lovers. The simplicity of preparation lets the lobster's natural flavor shine. Often enjoyed at beachside shacks, it embodies the island lifestyle.",
-                image:GrilledLobster
+                image: GrilledLobster
             }
         ]
     },
@@ -190,17 +204,17 @@ const stateFoods = [
                 name: "Tuna Curry", description: "A popular dish in Lakshadweep, made with fresh tuna, coconut milk, and a blend of spices, giving it a creamy and spicy flavor.",
                 image: tunacurry
             },
-            
+
 
             {
                 name: "Malabar Parotta with Chicken Curry",
                 description: "A layered flatbread served with a rich and spicy chicken curry, reflecting the influence of Malabar cuisine.",
-                image:MalabarParotta
+                image: MalabarParotta
             },
 
             { name: "Fish Tikka", description: "Grilled chunks of fresh fish marinated in aromatic spices, showcasing the coastal flavors of Lakshadweep." },
 
-            { name: "Coconut Rice", description: "A fragrant rice dish cooked with grated coconut, curry leaves, and spices, often served as a staple alongside seafood dishes.",image:fishtikka },
+            { name: "Coconut Rice", description: "A fragrant rice dish cooked with grated coconut, curry leaves, and spices, often served as a staple alongside seafood dishes.", image: fishtikka },
 
             { name: "Octopus Fry", description: "A delicacy made by frying octopus with a flavorful mix of spices, a specialty of Lakshadweep's coastal cuisine.", image: OctopusFry },
 
@@ -229,7 +243,7 @@ const stateFoods = [
             {
                 name: "Duck Meat Curry",
                 description: "Duck Meat Curry, known as Hanhor Mangkho, is a festive delicacy in Assam. The meat is slow-cooked with spices like ginger, garlic, onion, and black pepper, often with additions like ash gourd or sesame. It has a rich and hearty flavor, making it a centerpiece for celebrations and special occasions. The use of mustard oil enhances its unique taste. The dish pairs well with rice and is loved for its tender and juicy texture. Its preparation requires patience but is rewarding in its robust flavor. It reflects the Assamese love for bold and earthy cuisine.",
-                image:duckmeat
+                image: duckmeat
             },
             {
                 name: "Aloo Pitika",
@@ -248,7 +262,7 @@ const stateFoods = [
                     {
                         name: "Thukpa",
                         description: "Thukpa is a traditional noodle soup enjoyed widely in Arunachal Pradesh. It is a Tibetan-inspired dish often served with vegetables, chicken, or mutton. The soup has a rich, flavorful broth made with spices and herbs native to the region. It is warm, comforting, and ideal for the chilly climate of Arunachal. Variations include vegetarian options with locally grown leafy greens. Its preparation reflects the fusion of Tibetan and Arunachali flavors. Thukpa is a must-try for anyone visiting the state.",
-                        image:Thukpa
+                        image: Thukpa
                     },
                     {
                         name: "Apong",
@@ -256,12 +270,12 @@ const stateFoods = [
                     },
                     {
                         name: "Pika Pila",
-                        description: "Pika Pila is a traditional pickle made by the Apatani tribe of Arunachal Pradesh. It is prepared using bamboo shoots, pork fat, and local spices. The pickle has a tangy and spicy flavor, complementing rice dishes perfectly. It is stored in bamboo containers, adding to its unique taste. Pika Pila is often made during festivals or special occasions. Its recipe is passed down through generations, preserving its authenticity. The pickle is a culinary delight for those who enjoy bold flavors.",image:pikapila
+                        description: "Pika Pila is a traditional pickle made by the Apatani tribe of Arunachal Pradesh. It is prepared using bamboo shoots, pork fat, and local spices. The pickle has a tangy and spicy flavor, complementing rice dishes perfectly. It is stored in bamboo containers, adding to its unique taste. Pika Pila is often made during festivals or special occasions. Its recipe is passed down through generations, preserving its authenticity. The pickle is a culinary delight for those who enjoy bold flavors.", image: pikapila
                     },
                     {
                         name: "Bamboo Shoot Curry",
                         description: "Bamboo Shoot Curry is a popular dish in Arunachal Pradesh, known for its fresh and earthy flavor. The curry is prepared using tender bamboo shoots, which are marinated and cooked with spices. It can be made vegetarian or combined with meat like pork or fish. The dish showcases the abundance of bamboo in the region's forests. It is a staple food for many tribes and is often accompanied by steamed rice. The preparation involves minimal ingredients, highlighting the natural taste of bamboo shoots. This curry is a true reflection of Arunachal's connection with nature.",
-                        image:bambooShoots
+                        image: bambooShoots
                     },
                     {
                         name: "Chura Sabzi",
@@ -396,7 +410,7 @@ const stateFoods = [
             },
             {
                 name: "Bhangui",
-                description: "Bhangui is a traditional rice dish from Tripura, often considered the state's signature food. The dish is made with rice, cooked in a mixture of mustard oil, spices, and sometimes with vegetables or fish. It's commonly served with a variety of sides like chutneys and curries. Bhangui is part of the indigenous cuisine and reflects the agricultural lifestyle of the people of Tripura. It’s a staple in the daily diet, enjoyed for its light and flavorful nature. The rice is often cooked over a slow fire, which enhances the flavor. It can be made with or without meat, depending on preference.",image: Bhangui
+                description: "Bhangui is a traditional rice dish from Tripura, often considered the state's signature food. The dish is made with rice, cooked in a mixture of mustard oil, spices, and sometimes with vegetables or fish. It's commonly served with a variety of sides like chutneys and curries. Bhangui is part of the indigenous cuisine and reflects the agricultural lifestyle of the people of Tripura. It’s a staple in the daily diet, enjoyed for its light and flavorful nature. The rice is often cooked over a slow fire, which enhances the flavor. It can be made with or without meat, depending on preference.", image: Bhangui
             },
             {
                 name: "Wahan Mung",
@@ -428,7 +442,7 @@ const stateFoods = [
             },
             {
                 name: "Minil",
-                description: "Minil is a popular side dish from Meghalaya, made from fermented fish and rice. The dish is often enjoyed with boiled rice and provides a unique combination of flavors from the fermented fish, which adds a distinctive umami taste. Minil is typically prepared using small local fish, which are fermented for several days to achieve the right level of flavor. This dish reflects the Khasi people's connection with their environment and their preference for fermented foods. It is usually eaten with vegetables or meats, making it a versatile addition to any meal.", image:null
+                description: "Minil is a popular side dish from Meghalaya, made from fermented fish and rice. The dish is often enjoyed with boiled rice and provides a unique combination of flavors from the fermented fish, which adds a distinctive umami taste. Minil is typically prepared using small local fish, which are fermented for several days to achieve the right level of flavor. This dish reflects the Khasi people's connection with their environment and their preference for fermented foods. It is usually eaten with vegetables or meats, making it a versatile addition to any meal.", image: null
             },
             {
                 name: "Pukhlein",
@@ -452,7 +466,7 @@ const stateFoods = [
             },
             {
                 name: "Momo",
-                description: "Momo is a famous Tibetan-style dumpling widely loved in Sikkim. These steamed or fried dumplings are typically filled with vegetables or meat such as chicken, pork, or beef. The dough is soft, and the filling is flavorful, with the right mix of spices and herbs. They are usually served with a spicy dipping sauce known as achar. Momos are commonly found in Sikkimese street food stalls, making them a convenient and delicious snack. The dish is enjoyed by people of all ages, often as a starter or main meal. The versatility of momos makes them a favorite comfort food.", image:momo
+                description: "Momo is a famous Tibetan-style dumpling widely loved in Sikkim. These steamed or fried dumplings are typically filled with vegetables or meat such as chicken, pork, or beef. The dough is soft, and the filling is flavorful, with the right mix of spices and herbs. They are usually served with a spicy dipping sauce known as achar. Momos are commonly found in Sikkimese street food stalls, making them a convenient and delicious snack. The dish is enjoyed by people of all ages, often as a starter or main meal. The versatility of momos makes them a favorite comfort food.", image: momo
             },
             {
                 name: "Thukpa",
@@ -475,7 +489,7 @@ const stateFoods = [
         foods: [
             {
                 name: "Sadya",
-                description: "Sadya is a traditional vegetarian feast served on a banana leaf, typically during festivals and celebrations in Kerala. It consists of a variety of dishes including rice, sambhar, avial, and payasam. The dishes are served in a specific order to enhance the dining experience. The combination of spices and ingredients makes Sadya a rich, flavorful meal. It is often accompanied by curd, pickle, and pappadam. The food is prepared using locally grown vegetables and pulses. Sadya is a symbol of Kerala’s culture and hospitality, reflecting the state’s culinary diversity.",image: Sadya
+                description: "Sadya is a traditional vegetarian feast served on a banana leaf, typically during festivals and celebrations in Kerala. It consists of a variety of dishes including rice, sambhar, avial, and payasam. The dishes are served in a specific order to enhance the dining experience. The combination of spices and ingredients makes Sadya a rich, flavorful meal. It is often accompanied by curd, pickle, and pappadam. The food is prepared using locally grown vegetables and pulses. Sadya is a symbol of Kerala’s culture and hospitality, reflecting the state’s culinary diversity.", image: Sadya
             },
             {
                 name: "Kerala Parotta",
@@ -560,11 +574,11 @@ const stateFoods = [
             },
             {
                 name: "Fish Curry",
-                description: "Fish curry in Puducherry is a spicy and tangy dish made with fresh, local fish like seer fish or mackerel. The curry is prepared with a blend of mustard seeds, curry leaves, and tamarind, providing a balance of heat and sourness. Coconut milk is often added to make the gravy creamy and rich. The use of traditional French cooking techniques along with South Indian spices gives it a unique flavor profile. It is commonly served with rice or crusty French bread. The dish is a popular choice along the coastal regions of Puducherry.", image:fishcurry
+                description: "Fish curry in Puducherry is a spicy and tangy dish made with fresh, local fish like seer fish or mackerel. The curry is prepared with a blend of mustard seeds, curry leaves, and tamarind, providing a balance of heat and sourness. Coconut milk is often added to make the gravy creamy and rich. The use of traditional French cooking techniques along with South Indian spices gives it a unique flavor profile. It is commonly served with rice or crusty French bread. The dish is a popular choice along the coastal regions of Puducherry.", image: fishcurry
             },
             {
                 name: "Dosa with Puducherry Style Sambar",
-                description: "Dosa, a thin, crispy pancake made from fermented rice and lentil batter, is a staple in Puducherry. It’s often paired with Puducherry-style sambar, a spiced lentil soup enriched with vegetables like drumsticks, carrots, and tomatoes. The sambar is uniquely flavored with a blend of roasted spices, including cumin and coriander. A side of coconut chutney adds a cool contrast to the spicy sambar. The dosa’s crispy texture complements the rich, flavorful sambar. This dish reflects the region's deep-rooted South Indian culinary traditions.", image:dosa
+                description: "Dosa, a thin, crispy pancake made from fermented rice and lentil batter, is a staple in Puducherry. It’s often paired with Puducherry-style sambar, a spiced lentil soup enriched with vegetables like drumsticks, carrots, and tomatoes. The sambar is uniquely flavored with a blend of roasted spices, including cumin and coriander. A side of coconut chutney adds a cool contrast to the spicy sambar. The dosa’s crispy texture complements the rich, flavorful sambar. This dish reflects the region's deep-rooted South Indian culinary traditions.", image: dosa
             },
             {
                 name: "Puducherry Vegetable Stew",
@@ -572,7 +586,7 @@ const stateFoods = [
             },
             {
                 name: "French Patisserie",
-                description: "Due to Puducherry’s French colonial history, the region has developed a strong tradition of French patisserie. Classic French pastries like croissants, éclairs, and tarts are commonly found in local bakeries. These pastries are known for their light, flaky textures and rich fillings, often made with a variety of creams, fruits, and chocolates. The blend of French techniques with local ingredients such as coconut and jaggery adds a unique twist to these delicacies. Puducherry’s French cafes serve these pastries alongside strong coffee, making for a delightful breakfast or dessert.", image:null
+                description: "Due to Puducherry’s French colonial history, the region has developed a strong tradition of French patisserie. Classic French pastries like croissants, éclairs, and tarts are commonly found in local bakeries. These pastries are known for their light, flaky textures and rich fillings, often made with a variety of creams, fruits, and chocolates. The blend of French techniques with local ingredients such as coconut and jaggery adds a unique twist to these delicacies. Puducherry’s French cafes serve these pastries alongside strong coffee, making for a delightful breakfast or dessert.", image: null
             }
         ]
 
@@ -583,7 +597,7 @@ const stateFoods = [
 
             {
                 name: "Hyderabadi Biryani",
-                description: "Hyderabadi Biryani is the most iconic dish of Telangana, a fragrant rice dish made with basmati rice and marinated meat, usually chicken or mutton. The meat is marinated with a mix of yogurt, spices, and saffron before being cooked with rice. The slow-cooking method, known as 'Dum', ensures that the flavors are perfectly infused. The dish is known for its rich taste and delicate fragrance. Often served with a side of raita or salan (spicy gravy), it’s a must-try for anyone visiting Telangana.", image:Hyderabadi
+                description: "Hyderabadi Biryani is the most iconic dish of Telangana, a fragrant rice dish made with basmati rice and marinated meat, usually chicken or mutton. The meat is marinated with a mix of yogurt, spices, and saffron before being cooked with rice. The slow-cooking method, known as 'Dum', ensures that the flavors are perfectly infused. The dish is known for its rich taste and delicate fragrance. Often served with a side of raita or salan (spicy gravy), it’s a must-try for anyone visiting Telangana.", image: Hyderabadi
             },
             {
                 name: "Sarva Pindi",
@@ -599,7 +613,7 @@ const stateFoods = [
             },
             {
                 name: "Pesarattu",
-                description: "Pesarattu is a savory pancake made from green gram (moong dal) batter, popular in Telangana and Andhra Pradesh. The batter is seasoned with ginger, green chilies, and cumin, giving it a spicy, flavorful taste. It’s typically served with ginger chutney or coconut chutney. The dosa-like texture is crispy on the outside while soft on the inside. Pesarattu is commonly eaten for breakfast or as a snack, and it’s cherished for its healthy ingredients and filling nature.", image:dosa
+                description: "Pesarattu is a savory pancake made from green gram (moong dal) batter, popular in Telangana and Andhra Pradesh. The batter is seasoned with ginger, green chilies, and cumin, giving it a spicy, flavorful taste. It’s typically served with ginger chutney or coconut chutney. The dosa-like texture is crispy on the outside while soft on the inside. Pesarattu is commonly eaten for breakfast or as a snack, and it’s cherished for its healthy ingredients and filling nature.", image: dosa
             }
         ]
 
@@ -619,7 +633,7 @@ const stateFoods = [
             },
             {
                 name: "Goan Fish Curry",
-                description: "Goan Fish Curry is a fragrant, spicy curry made with fresh fish like pomfret or mackerel, cooked in a tangy, coconut-based gravy. The curry is flavored with a mix of aromatic spices such as turmeric, coriander, and tamarind. The coconut milk gives the curry a creamy texture, while the tamarind adds a sharp, sour note. This dish is often served with steamed rice and is a staple of Goan cuisine. The use of fresh, local seafood elevates the dish's authenticity and richness. It’s an iconic comfort food in Goa, offering a balance of spice and acidity.", image:fishcurry
+                description: "Goan Fish Curry is a fragrant, spicy curry made with fresh fish like pomfret or mackerel, cooked in a tangy, coconut-based gravy. The curry is flavored with a mix of aromatic spices such as turmeric, coriander, and tamarind. The coconut milk gives the curry a creamy texture, while the tamarind adds a sharp, sour note. This dish is often served with steamed rice and is a staple of Goan cuisine. The use of fresh, local seafood elevates the dish's authenticity and richness. It’s an iconic comfort food in Goa, offering a balance of spice and acidity.", image: fishcurry
             },
             {
                 name: "Sorpotel",
@@ -647,7 +661,7 @@ const stateFoods = [
             },
             {
                 name: "Bora",
-                description: "Bora is a deep-fried rice flour snack, often prepared with a filling of mashed potatoes, lentils, and various spices. The dough is seasoned with cumin and mustard seeds, giving it a unique flavor. It is shaped into small round balls and fried until golden brown. Bora is crispy on the outside and soft on the inside, making it a delicious treat. It is often served with chutneys or curd to balance the spiciness. This dish is a favorite at tea-time or as a snack during festive celebrations.", image:bora
+                description: "Bora is a deep-fried rice flour snack, often prepared with a filling of mashed potatoes, lentils, and various spices. The dough is seasoned with cumin and mustard seeds, giving it a unique flavor. It is shaped into small round balls and fried until golden brown. Bora is crispy on the outside and soft on the inside, making it a delicious treat. It is often served with chutneys or curd to balance the spiciness. This dish is a favorite at tea-time or as a snack during festive celebrations.", image: bora
             },
             {
                 name: "Dubki Kadhi",
@@ -714,7 +728,7 @@ const stateFoods = [
         food: [
             {
                 name: "Dokhala",
-                description: "Dhokla is a popular steamed snack, made from fermented rice and chickpea flour. It has a spongy texture and is mildly sour, often flavored with mustard seeds, green chilies, and curry leaves. The dish is typically served with tamarind chutney and coriander chutney. Dhokla is enjoyed as a breakfast, snack, or even as a light meal. It's a healthy, low-calorie option that is light on the stomach. This dish is a perfect blend of flavors and is widely consumed in Dadar and Nagar Haveli.", image:dhokala
+                description: "Dhokla is a popular steamed snack, made from fermented rice and chickpea flour. It has a spongy texture and is mildly sour, often flavored with mustard seeds, green chilies, and curry leaves. The dish is typically served with tamarind chutney and coriander chutney. Dhokla is enjoyed as a breakfast, snack, or even as a light meal. It's a healthy, low-calorie option that is light on the stomach. This dish is a perfect blend of flavors and is widely consumed in Dadar and Nagar Haveli.", image: dhokala
             },
             {
                 name: "Farcha",
@@ -746,7 +760,7 @@ const stateFoods = [
             },
             {
                 name: "Vada Pav",
-                description: "Vada Pav is often referred to as Mumbai’s iconic street food, a spicy potato fritter served in a bun. The patty is made from mashed potatoes mixed with spices, dipped in chickpea flour batter, and deep-fried. It’s served with chutneys like garlic and tamarind and sometimes with fried green chilies. The sandwich-like preparation makes it an easy and delicious snack, loved by all. Vada Pav can be found in nearly every corner of Mumbai and Maharashtra. It’s a perfect blend of crispy, spicy, and savory flavors.", image:vadapav
+                description: "Vada Pav is often referred to as Mumbai’s iconic street food, a spicy potato fritter served in a bun. The patty is made from mashed potatoes mixed with spices, dipped in chickpea flour batter, and deep-fried. It’s served with chutneys like garlic and tamarind and sometimes with fried green chilies. The sandwich-like preparation makes it an easy and delicious snack, loved by all. Vada Pav can be found in nearly every corner of Mumbai and Maharashtra. It’s a perfect blend of crispy, spicy, and savory flavors.", image: vadapav
             },
             {
                 name: "Bhakri",
@@ -821,7 +835,7 @@ const stateFoods = [
 
             {
                 "name": "Dhokla",
-                "description": "Dhokla is a savory steamed cake made from fermented rice and chickpea flour. It is spongy, light, and mildly tangy, often garnished with mustard seeds, green chilies, and fresh coriander. This snack is typically served with chutneys and is a popular breakfast or tea-time treat. Originating from Gujarat, it is known for its delicate texture and vibrant flavor. Dhokla is often enjoyed as a snack or appetizer, especially during festivals and gatherings. It can be served hot or cold and is loved for its versatility.", image:dhokala
+                "description": "Dhokla is a savory steamed cake made from fermented rice and chickpea flour. It is spongy, light, and mildly tangy, often garnished with mustard seeds, green chilies, and fresh coriander. This snack is typically served with chutneys and is a popular breakfast or tea-time treat. Originating from Gujarat, it is known for its delicate texture and vibrant flavor. Dhokla is often enjoyed as a snack or appetizer, especially during festivals and gatherings. It can be served hot or cold and is loved for its versatility.", image: dhokala
             },
             {
                 "name": "Khandvi",
@@ -833,7 +847,7 @@ const stateFoods = [
             },
             {
                 "name": "Farsan",
-                "description": "Farsan refers to a variety of savory snacks that are commonly enjoyed in Gujarat. These include snacks like patra, fafda, and sev. Farsan is known for its crunchy texture and spicy, tangy flavors, often made with chickpea flour and seasoned with a variety of spices. These snacks are typically served with chutneys, pickles, and yogurt. Farsan is a popular street food, offering a quick and tasty bite for those on the go. It is also a common offering during festivals and family gatherings in Gujarat.", image:Farcha
+                "description": "Farsan refers to a variety of savory snacks that are commonly enjoyed in Gujarat. These include snacks like patra, fafda, and sev. Farsan is known for its crunchy texture and spicy, tangy flavors, often made with chickpea flour and seasoned with a variety of spices. These snacks are typically served with chutneys, pickles, and yogurt. Farsan is a popular street food, offering a quick and tasty bite for those on the go. It is also a common offering during festivals and family gatherings in Gujarat.", image: Farcha
             },
             {
                 "name": "Thepla",
@@ -851,11 +865,11 @@ const stateFoods = [
 
             { name: "Fish Curry Rice", description: "Fish Curry Rice is a popular dish in Daman and Diu, made with fresh fish cooked in a tangy, spiced curry. The curry typically uses coconut milk and tamarind for its sourness. The dish is served with steamed rice, making it a complete and satisfying meal. Local varieties of fish like pomfret and mackerel are commonly used. It’s rich in flavors, and seafood lovers will find this dish irresistible. This meal represents the coastal lifestyle of the region.", image: fishrice },
 
-            { name: "Dhokla", description: "Dhokla is a savory steamed snack, originating from Gujarat, but widely enjoyed in Daman and Diu. It’s made from fermented rice and chickpea flour batter, which is then steamed. Dhokla is light, fluffy, and often served with tangy chutneys. It can be enjoyed for breakfast, as a snack, or even a light lunch. Its mild spiciness and texture make it a favorite among both locals and tourists. Dhokla is healthy, flavorful, and perfect for those looking for vegetarian options.", image:dhokala },
+            { name: "Dhokla", description: "Dhokla is a savory steamed snack, originating from Gujarat, but widely enjoyed in Daman and Diu. It’s made from fermented rice and chickpea flour batter, which is then steamed. Dhokla is light, fluffy, and often served with tangy chutneys. It can be enjoyed for breakfast, as a snack, or even a light lunch. Its mild spiciness and texture make it a favorite among both locals and tourists. Dhokla is healthy, flavorful, and perfect for those looking for vegetarian options.", image: dhokala },
 
-            { name: "Sorpotel", description: "Sorpotel is a spicy pork dish popular in Daman and Diu, often enjoyed during festive occasions. It is made from pork, vinegar, and a variety of spices like cinnamon, cloves, and chili. The dish is cooked slowly to absorb the rich, bold flavors. Sorpotel is often served with sannas (soft, sweet bread) or rice. It has a deep, tangy taste due to the use of vinegar, making it a distinct and unforgettable experience. The dish reflects the Portuguese influence on Goan and Daman cuisine.", image:Sorpotel },
+            { name: "Sorpotel", description: "Sorpotel is a spicy pork dish popular in Daman and Diu, often enjoyed during festive occasions. It is made from pork, vinegar, and a variety of spices like cinnamon, cloves, and chili. The dish is cooked slowly to absorb the rich, bold flavors. Sorpotel is often served with sannas (soft, sweet bread) or rice. It has a deep, tangy taste due to the use of vinegar, making it a distinct and unforgettable experience. The dish reflects the Portuguese influence on Goan and Daman cuisine.", image: Sorpotel },
 
-            { name: "Bebinca,", description: "Bebinca is a rich, multi-layered dessert from Daman and Diu, made with coconut milk, eggs, sugar, and butter. Each layer is baked individually to achieve its unique texture and flavor. The dessert is sweet, creamy, and has a custard-like consistency. Bebinca is often served during festive seasons and celebrations, especially Christmas. Its intricate preparation makes it a labor of love and a must-try sweet treat. This dessert is a signature of the region’s Portuguese culinary influence.", image:Bebinca }
+            { name: "Bebinca,", description: "Bebinca is a rich, multi-layered dessert from Daman and Diu, made with coconut milk, eggs, sugar, and butter. Each layer is baked individually to achieve its unique texture and flavor. The dessert is sweet, creamy, and has a custard-like consistency. Bebinca is often served during festive seasons and celebrations, especially Christmas. Its intricate preparation makes it a labor of love and a must-try sweet treat. This dessert is a signature of the region’s Portuguese culinary influence.", image: Bebinca }
         ]
 
 
@@ -892,6 +906,25 @@ const stateFoods = [
         id: 'IN-DL',
         foods: [
             {
+
+                name: "BhatureChole ",
+                description: "Chole Bhature is a quintessential Delhi dish made with spicy chickpeas(chole) served alongside deep- fried fluffy bread(bhature).The chole is cooked with a blend of aromatic spices, giving it a rich and tangy flavor.Bhature, made from fermented dough, is light yet indulgent.It’s a favorite breakfast or lunch dish for locals.Often served with a side of pickles, onions, and green chutney.This dish is a must-try for its hearty and comforting appeal.Found in almost every nook and corner of Delhi.", image: BhatureChole
+            },
+            {
+                name: "Butter Chicken",
+                description: "Butter Chicken is a creamy and flavorful dish that originated in Delhi.It features tender chicken cooked in a tomato - based gravy enriched with butter and cream.The smoky flavor comes from grilling the chicken before adding it to the gravy.This iconic dish pairs perfectly with naan, roti, or steamed rice.The rich and velvety texture of the curry makes it a hit among all age groups.Butter Chicken is a representation of Delhi’s love for indulgent and royal flavors.", image: Butterchicken
+            },
+            {
+                name: "Paranthas",
+                description: "Paranthas are a versatile and beloved food in Delhi, often enjoyed for breakfast or lunch.They are flatbreads stuffed with a variety of fillings like potatoes, paneer, radish, or mixed vegetables.Cooked with generous amounts of ghee, they have a crisp exterior and soft, flavorful interior.Paranthas are typically served with curd, pickles, and a dollop of butter.The Paranthe Wali Gali in Old Delhi is famous for its wide range of stuffed paranthas.This dish showcases the soul of Delhi’s street food culture.", image: Paranthas
+            },
+            {
+                name: "Aloo Tikki",
+                description: "Aloo Tikki is a popular street food made from spiced mashed potatoes shaped into patties and shallow fried until golden brown.Served with tangy tamarind chutney, spicy mint chutney, and yogurt, it delivers a burst of flavors.It’s often topped with onions, pomegranate seeds, and chaat masala.The crispy exterior and soft interior make it a crowd favorite.This snack is synonymous with the bustling markets of Delhi.Aloo Tikki is a delightful treat that showcases the capital's vibrant street food scene.", image: Alootikki
+            },
+            {
+                name: "Kulfi Falooda",
+                description: "Kulfi Falooda is a traditional dessert that is a perfect indulgence on hot Delhi days.It consists of rich and creamy kulfi(Indian ice cream) served with falooda(vermicelli) and rose syrup.Often garnished with nuts like almonds and pistachios, it offers a delightful combination of textures and flavors.The dish is a blend of cold, sweet, and floral notes that refresh the palate.Found in many sweet shops and street vendors across Delhi.Kulfi Falooda is a timeless favorite among locals and tourists alike.", image: Kulfifalooda
                 name: "Chole Bhature",
                 description: "Chole Bhature is a quintessential Delhi dish made with spicy chickpeas(chole) served alongside deep- fried fluffy bread(bhature).The chole is cooked with a blend of aromatic spices, giving it a rich and tangy flavor.Bhature, made from fermented dough, is light yet indulgent.It’s a favorite breakfast or lunch dish for locals.Often served with a side of pickles, onions, and green chutney.This dish is a must-try for its hearty and comforting appeal.Found in almost every nook and corner of Delhi.", 
             },
@@ -909,7 +942,7 @@ const stateFoods = [
             },
             {
                 name: "Kulfi Falooda",
-                description: "Kulfi Falooda is a traditional dessert that is a perfect indulgence on hot Delhi days.It consists of rich and creamy kulfi(Indian ice cream) served with falooda(vermicelli) and rose syrup.Often garnished with nuts like almonds and pistachios, it offers a delightful combination of textures and flavors.The dish is a blend of cold, sweet, and floral notes that refresh the palate.Found in many sweet shops and street vendors across Delhi.Kulfi Falooda is a timeless favorite among locals and tourists alike.", 
+                description: "Kulfi Falooda is a traditional dessert that is a perfect indulgence on hot Delhi days.It consists of rich and creamy kulfi(Indian ice cream) served with falooda(vermicelli) and rose syrup.Often garnished with nuts like almonds and pistachios, it offers a delightful combination of textures and flavors.The dish is a blend of cold, sweet, and floral notes that refresh the palate.Found in many sweet shops and street vendors across Delhi.Kulfi Falooda is a timeless favorite among locals and tourists
             }
 
         ]
@@ -919,6 +952,23 @@ const stateFoods = [
         foods: [
             {
                 name: "Bhutte Ka Kees",
+                description: "A traditional dish made from grated corn, Bhutte Ka Kees is a popular delicacy in Haryana.It is flavored with ghee, mustard seeds, and green chilies, offering a rich and savory taste.The creamy texture comes from curd and gram flour added during cooking.This dish is typically garnished with fresh coriander and lemon juice for a tangy twist.It is a healthy and nutritious snack enjoyed with tea.Served piping hot, it is perfect for cold evenings in Haryana.", image: bhutteKaKees
+            },
+            {
+                name: "Besan Masala Roti",
+                description: "Besan Masala Roti is a flavorful Indian flatbread made from gram flour and wheat flour.It is spiced with ajwain, coriander, chili powder, and turmeric to give it a unique taste.This roti is often paired with yogurt or pickle for a wholesome meal.Known for its nutritional value, it is rich in protein and is a staple in many Haryanvi households.It is quick and easy to prepare, making it a popular choice for breakfast.The roti has a slightly crisp texture when cooked over a hot tava.", image: BesanMasalaRoti
+            },
+            {
+                name: "Haryanvi Kadhi",
+                description: "Haryanvi Kadhi is a delicious yogurt- based curry with gram flour and spices.It is often served with steamed rice, making it a comforting and hearty meal.The kadhi is tempered with ghee, mustard seeds, and curry leaves, giving it an aromatic flavor.In some versions, pakoras(fritters) are added to enhance the dish.Its tangy and mildly spicy taste makes it a favorite among locals.This dish reflects the simple yet rich culinary traditions of Haryana.", image: HaryanviKadhi
+            },
+            {
+                name: "Bajra Khichdi",
+                description: "Bajra Khichdi is a nutritious dish made with pearl millet, moong dal, and vegetables.It is a staple in Haryana, especially during winter, as it provides warmth and energy.This wholesome dish is seasoned with ghee, cumin seeds, and green chilies for added flavor.Served with curd or buttermilk, it is a comfort food that is easy to digest.Bajra Khichdi is highly nutritious, rich in fiber, and promotes good health.It embodies the rustic flavors of Haryana's rural life.", image: BajraKhichdi
+            },
+            {
+                name: "Mithe Chawal",
+                description: "Mithe Chawal is a traditional sweet rice dish cooked with sugar, saffron, and cardamom.Often garnished with dry fruits like almonds and raisins, it is prepared during festivals and celebrations.The rice is cooked to perfection, absorbing the sweetness and aroma of saffron.Ghee is added for a rich and buttery texture.Mithe Chawal is not only delicious but also a symbol of joy and togetherness in Haryanvi culture.It pairs well with spicy curries or is enjoyed as a standalone dessert.", image: MitheChawal
                 description: "A traditional dish made from grated corn, Bhutte Ka Kees is a popular delicacy in Haryana.It is flavored with ghee, mustard seeds, and green chilies, offering a rich and savory taste.The creamy texture comes from curd and gram flour added during cooking.This dish is typically garnished with fresh coriander and lemon juice for a tangy twist.It is a healthy and nutritious snack enjoyed with tea.Served piping hot, it is perfect for cold evenings in Haryana.",
             },
             {
@@ -936,6 +986,7 @@ const stateFoods = [
             {
                 name: "Mithe Chawal",
                 description: "Mithe Chawal is a traditional sweet rice dish cooked with sugar, saffron, and cardamom.Often garnished with dry fruits like almonds and raisins, it is prepared during festivals and celebrations.The rice is cooked to perfection, absorbing the sweetness and aroma of saffron.Ghee is added for a rich and buttery texture.Mithe Chawal is not only delicious but also a symbol of joy and togetherness in Haryanvi culture.It pairs well with spicy curries or is enjoyed as a standalone dessert.", 
+
             }
 
         ]
@@ -945,6 +996,25 @@ const stateFoods = [
         foods: [
             {
                 name: "Rogan Josh",
+
+                description: "A signature dish of Kashmiri cuisine, Rogan Josh is a flavorful curry made with tender pieces of lamb cooked in a rich gravy of yogurt, spices, and saffron.The dish is known for its vibrant red color, derived from Kashmiri red chilies and ratan jot(a natural dye).The slow- cooked process ensures the meat absorbs the aromatic spices like cardamom, cinnamon, and cloves.It pairs excellently with steamed rice or traditional Kashmiri breads.Originating from Persian influences, this dish has become a staple in Wazwan feasts.Its rich, aromatic flavors make it a favorite among food enthusiasts worldwide.", image: RoganJosh
+            },
+            {
+                name: "Dum Aloo",
+                description: "A vegetarian delight, Dum Aloo is a popular Kashmiri dish made with baby potatoes cooked in a spicy yogurt- based gravy.The potatoes are fried to golden perfection before being simmered in a blend of Kashmiri spices like fennel, ginger powder, and asafoetida.The dish is known for its creamy texture and mildly spicy flavor profile.It is traditionally served as part of the Wazwan meal, a ceremonial feast in Kashmiri culture.Dum Aloo is best enjoyed with naan, roti, or steamed rice.Its rich, comforting flavors make it a hit for all occasions.", image: DumAloo
+            },
+            {
+                name: "Yakhni",
+                description: "A delicate and aromatic dish, Yakhni is a yogurt - based mutton curry that showcases the subtle flavors of Kashmiri cuisine.The dish is seasoned with mild spices like bay leaves, cardamom, cloves, and fennel, creating a fragrant and creamy sauce.The mutton is slow - cooked until tender, allowing the flavors to meld beautifully.Yakhni is often served with saffron - infused rice, making it a wholesome and satisfying meal.Its light yet flavorful taste sets it apart from other spicy curries.A symbol of Kashmiri hospitality, Yakhni is a must -try for those seeking authentic regional flavors.", image: Yakhni
+            },
+            {
+                name: "Modur Pulao",
+                description: "A sweet and fragrant rice dish, Modur Pulao is a traditional Kashmiri recipe made with basmati rice, milk, and ghee.It is flavored with saffron, cinnamon, cardamom, and cloves, giving it a delightful aroma.The dish is enriched with dried fruits and nuts like almonds, raisins, and cashews, adding a delightful crunch and sweetness.Often served as a festive dish, Modur Pulao is a perfect accompaniment to spicy curries.Its golden hue and unique taste make it a centerpiece in Kashmiri celebrations.The dish is cherished for its blend of sweet and savory flavors.", image: ModurPulao
+            },
+            {
+                name: "Gushtaba",
+                description: "Known as the 'King of Kashmiri Cuisine',  Gushtaba is a royal dish made with minced mutton shaped into soft meatballs.These meatballs are cooked in a luscious yogurt gravy spiced with cardamom, fennel, and cloves.The preparation of Gushtaba is labor - intensive and requires expert hands, making it a dish of celebration and importance.It is traditionally served at the end of a Wazwan feast as a sign of respect to guests.The creamy, tangy sauce pairs perfectly with steamed rice.Gushtaba embodies the essence of Kashmiri hospitality and culinary artistry.", image: Gushtaba
+
                 description: "A signature dish of Kashmiri cuisine, Rogan Josh is a flavorful curry made with tender pieces of lamb cooked in a rich gravy of yogurt, spices, and saffron.The dish is known for its vibrant red color, derived from Kashmiri red chilies and ratan jot(a natural dye).The slow- cooked process ensures the meat absorbs the aromatic spices like cardamom, cinnamon, and cloves.It pairs excellently with steamed rice or traditional Kashmiri breads.Originating from Persian influences, this dish has become a staple in Wazwan feasts.Its rich, aromatic flavors make it a favorite among food enthusiasts worldwide.", 
             },
             {
@@ -962,6 +1032,7 @@ const stateFoods = [
             {
                 name: "Gushtaba",
                 description: "Known as the 'King of Kashmiri Cuisine',  Gushtaba is a royal dish made with minced mutton shaped into soft meatballs.These meatballs are cooked in a luscious yogurt gravy spiced with cardamom, fennel, and cloves.The preparation of Gushtaba is labor - intensive and requires expert hands, making it a dish of celebration and importance.It is traditionally served at the end of a Wazwan feast as a sign of respect to guests.The creamy, tangy sauce pairs perfectly with steamed rice.Gushtaba embodies the essence of Kashmiri hospitality and culinary artistry.", 
+
             }
 
 
@@ -972,6 +1043,27 @@ const stateFoods = [
         foods: [
             {
                 name: "Butter Chicken",
+
+                description: "A rich and creamy dish made with tender chicken cooked in a luscious tomato and butter-based gravy. Originating from Punjab, it has become a signature dish in Chandigarh. It is characterized by its smooth texture, mild spices, and aromatic flavor. Often paired with naan or steamed rice, it’s a comforting indulgence. The addition of cream and butter enhances the richness, making it irresistible. Perfect for those who enjoy a balance of spice and sweetness.", image: Butterchicken
+            },
+            {
+                name: "Chole Bhature",
+                description: "A classic Punjabi dish, immensely popular in Chandigarh, consisting of spicy chickpeas (chole) and deep-fried bread (bhature). Known for its bold and tangy flavors, it’s a breakfast favorite. The chickpeas are cooked in a robust mix of spices and served hot with fluffy bhature. Accompaniments like pickles, onions, and green chutney elevate the taste. It’s a hearty and satisfying meal enjoyed by locals and visitors alike. The crispy texture of the bhature contrasts perfectly with the soft and spicy chole.", image: BhatureChole
+            },
+            {
+                name: "Rajma Chawal",
+                description: "A staple comfort food in Chandigarh, featuring kidney beans (rajma) cooked in a flavorful tomato and onion gravy. Served with steamed rice, it’s a wholesome and nutritious meal. The dish is seasoned with a blend of Punjabi spices, giving it a signature rich and earthy taste. Popular for its simplicity and homely essence, it’s a favorite among families. Often garnished with coriander and paired with curd or pickles, it’s a soulful treat. Rajma Chawal holds a special place in the hearts of Chandigarh locals.", image: RajmaChawal
+            },
+            {
+                name: "Amritsari Kulcha",
+                description: "A stuffed bread delicacy that’s a must-try in Chandigarh, filled with spiced potatoes or paneer. Cooked in a tandoor, it has a crispy exterior and soft, flavorful inside. Typically served with chole (chickpea curry) and a side of tangy chutney or pickled onions. The kulcha is brushed with butter or ghee, enhancing its flavor. Its flaky texture and savory stuffing make it a beloved street food. Amritsari Kulcha is perfect for a fulfilling breakfast or lunch.", image: AmritsariKulcha
+            },
+            {
+                name: "Lassi",
+                description: "A quintessential Punjabi drink, cherished in Chandigarh, made from thick yogurt blended with sugar, water, and optional spices. Served in tall glasses, it’s a refreshing accompaniment to heavy meals. Often topped with a dollop of malai (cream) or flavored with cardamom and saffron for added richness. Available in sweet and salty variations, it’s a perfect coolant for hot summer days. The creamy consistency and tangy taste are irresistible. It reflects the vibrant and hearty culture of the region.", image: Lassi
+            }
+
+
                 description: "A rich and creamy dish made with tender chicken cooked in a luscious tomato and butter-based gravy. Originating from Punjab, it has become a signature dish in Chandigarh. It is characterized by its smooth texture, mild spices, and aromatic flavor. Often paired with naan or steamed rice, it’s a comforting indulgence. The addition of cream and butter enhances the richness, making it irresistible. Perfect for those who enjoy a balance of spice and sweetness.",
                 image: "path/to/butter-chicken.jpg"
             },
@@ -985,6 +1077,7 @@ const stateFoods = [
                 description: "A staple comfort food in Chandigarh, featuring kidney beans (rajma) cooked in a flavorful tomato and onion gravy. Served with steamed rice, it’s a wholesome and nutritious meal. The dish is seasoned with a blend of Punjabi spices, giving it a signature rich and earthy taste. Popular for its simplicity and homely essence, it’s a favorite among families. Often garnished with coriander and paired with curd or pickles, it’s a soulful treat. Rajma Chawal holds a special place in the hearts of Chandigarh locals.",
                 image: "path/to/rajma-chawal.jpg"
             },
+
         ]
     },
 ]
