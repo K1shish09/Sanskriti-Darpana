@@ -55,7 +55,11 @@ import PemayangtseMonastery from "../Assets/Heritage/PemayangtseMonastery.jpeg";
 import Khangchendzonga from "../Assets/Heritage/Khangchendzonga.jpeg";
 import TashidingMonastery from "../Assets/Heritage/TashidingMonastery.jpeg";
 import NorbugangChorten from "../Assets/Heritage/NorbugangChorten.jpeg";
-
+import PadmanabhapuramPalace from "../Assets/Heritage/PadmanabhapuramPalace.jpeg";
+import SreeChitraArtGallery from "../Assets/Heritage/SreeChitraArtGallery.jpeg";
+import FortKochi from "../Assets/Heritage/FortKochi.jpeg";
+import BekalFort from "../Assets/Heritage/BekalFort.jpeg";
+import Meghamalai from "../Assets/Heritage/Meghamalai.jpeg";
 const stateheritage = [
     {
         id: 'IN-AN',
@@ -347,23 +351,23 @@ const stateheritage = [
         heritageSites: [
             {
                 name: "Padmanabhapuram Palace",
-                description: "Located in the Kanyakumari district of Tamil Nadu, but historically part of Kerala, Padmanabhapuram Palace is an exquisite example of traditional Kerala architecture. It was the seat of the Travancore dynasty for centuries. The palace is known for its intricate wooden carvings, murals, and the beautifully crafted interiors. The architecture reflects the grandeur of the era, with wooden columns, sloping roofs, and open courtyards. It also houses ancient artifacts and royal memorabilia. The palace is a major tourist attraction due to its historical and architectural significance."
+                description: "Located in the Kanyakumari district of Tamil Nadu, but historically part of Kerala, Padmanabhapuram Palace is an exquisite example of traditional Kerala architecture. It was the seat of the Travancore dynasty for centuries. The palace is known for its intricate wooden carvings, murals, and the beautifully crafted interiors. The architecture reflects the grandeur of the era, with wooden columns, sloping roofs, and open courtyards. It also houses ancient artifacts and royal memorabilia. The palace is a major tourist attraction due to its historical and architectural significance.",image: PadmanabhapuramPalace
             },
             {
                 name: "Sree Chitra Art Gallery",
-                description: "Located in Thiruvananthapuram, Sree Chitra Art Gallery is one of Kerala’s most important cultural heritage sites. The gallery showcases a rich collection of traditional Kerala paintings, as well as works from other Indian schools of art and international masterpieces. The most famous exhibits include the Raja Ravi Varma paintings and artworks from the Mughal, Rajput, and Tanjore schools. The gallery also hosts periodic exhibitions of contemporary art. Its tranquil surroundings and unique collections attract art lovers and historians. The site reflects Kerala’s deep artistic and cultural traditions."
+                description: "Located in Thiruvananthapuram, Sree Chitra Art Gallery is one of Kerala’s most important cultural heritage sites. The gallery showcases a rich collection of traditional Kerala paintings, as well as works from other Indian schools of art and international masterpieces. The most famous exhibits include the Raja Ravi Varma paintings and artworks from the Mughal, Rajput, and Tanjore schools. The gallery also hosts periodic exhibitions of contemporary art. Its tranquil surroundings and unique collections attract art lovers and historians. The site reflects Kerala’s deep artistic and cultural traditions.",image: SreeChitraArtGallery
             },
             {
                 name: "Fort Kochi",
-                description: "Fort Kochi, a historic neighborhood in Kochi, is a blend of European, Indian, and Chinese influences. The fort was built by the Portuguese in the 16th century and later expanded by the Dutch. The area features colonial-era architecture, such as the St. Francis Church, the oldest European church in India. It is also home to the famous Chinese fishing nets, a unique way of fishing introduced by the Chinese. The vibrant streets of Fort Kochi are lined with galleries, shops, and cafes. The blend of history and modernity makes it one of the most charming heritage sites in Kerala."
+                description: "Fort Kochi, a historic neighborhood in Kochi, is a blend of European, Indian, and Chinese influences. The fort was built by the Portuguese in the 16th century and later expanded by the Dutch. The area features colonial-era architecture, such as the St. Francis Church, the oldest European church in India. It is also home to the famous Chinese fishing nets, a unique way of fishing introduced by the Chinese. The vibrant streets of Fort Kochi are lined with galleries, shops, and cafes. The blend of history and modernity makes it one of the most charming heritage sites in Kerala.",image: FortKochi
             },
             {
                 name: "Bekal Fort",
-                description: "Bekal Fort, located in the Kasaragod district, is one of Kerala’s largest and best-preserved forts. The fort offers stunning views of the Arabian Sea and is a popular tourist destination. It was built by the Nayaks of Bijapur in the 17th century, with its unique keyhole-shaped structure designed to defend the region. The fort is known for its large observation tower, which provides panoramic views of the coastline. Bekal Fort is also surrounded by beautiful beaches, adding to its scenic appeal. The site is a reminder of Kerala's rich military history and coastal defense."
+                description: "Bekal Fort, located in the Kasaragod district, is one of Kerala’s largest and best-preserved forts. The fort offers stunning views of the Arabian Sea and is a popular tourist destination. It was built by the Nayaks of Bijapur in the 17th century, with its unique keyhole-shaped structure designed to defend the region. The fort is known for its large observation tower, which provides panoramic views of the coastline. Bekal Fort is also surrounded by beautiful beaches, adding to its scenic appeal. The site is a reminder of Kerala's rich military history and coastal defense.",image: BekalFort
             },
             {
                 name: "Meghamalai",
-                description: "Meghamalai, also known as the 'High Wavy Mountains,' is located in the Idukki district of Kerala, known for its pristine natural beauty. The region is famous for its lush tea gardens, cloud-covered hills, and biodiversity. It is an important heritage site due to its rich flora and fauna, including several endemic species of plants and animals. The area also has cultural significance for the tribal communities living there. Meghamalai offers scenic viewpoints, waterfalls, and trekking trails, making it a popular destination for nature lovers. It remains relatively less commercialized, preserving its natural charm."
+                description: "Meghamalai, also known as the 'High Wavy Mountains,' is located in the Idukki district of Kerala, known for its pristine natural beauty. The region is famous for its lush tea gardens, cloud-covered hills, and biodiversity. It is an important heritage site due to its rich flora and fauna, including several endemic species of plants and animals. The area also has cultural significance for the tribal communities living there. Meghamalai offers scenic viewpoints, waterfalls, and trekking trails, making it a popular destination for nature lovers. It remains relatively less commercialized, preserving its natural charm.",image: Meghamalai
             }
 
         ]
