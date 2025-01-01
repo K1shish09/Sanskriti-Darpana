@@ -220,6 +220,20 @@ const stateFolkmusics = [
             { name: "Dalkhai Songs", description: "Folk songs performed by the tribal women of western Odisha, characterized by rhythmic beats and vibrant melodies." }
         ]
     },
+
+    {
+        id: 'IN-DN',
+        Folkmusics: [
+            { name: "Tarpa Music", description: "Traditional music performed by the Varli tribe, characterized by circular rhythms and accompanied by the Tarpa, a wind instrument." },
+            { name: "Dhol Beats", description: "Folk beats performed with the Dhol drum, characterized by vigorous rhythms and energetic melodies." },
+            { name: "Bhagoria Tunes", description: "Traditional tunes performed during the Bhagoria festival, characterized by lively rhythms and vibrant melodies." },
+            { name: "Pavri Nach Melodies", description: "Traditional melodies performed by the Kokna tribe, characterized by rhythmic beats and accompanied by the Pavri, a wind instrument." },
+            { name: "Gheria Songs", description: "Folk songs performed by the Dhodia tribe, characterized by energetic rhythms and traditional instruments." }
+        ]
+    },
+    
+    
+    
     
  
  
