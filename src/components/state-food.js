@@ -125,10 +125,18 @@ import PuranPoli from "../Assets/Food/Puran Poli.jpeg";
 import vadapav from "../Assets/Food/vadapav.jpeg";
 import Bhakri from "../Assets/Food/Bhakri.jpeg";
 import MisalPav from "../Assets/Food/MisalPav.jpeg";
-import Khaman from "../Assets/Food/Khaman.jpeg";
-import Khaman from "../Assets/Food/Khaman.jpeg";
-import Khaman from "../Assets/Food/Khaman.jpeg";
+import Littichokha from "../Assets/Food/LittiChokha.jpeg";
+import Thekua from "../Assets/Food/Thekua.jpeg";
+import Dhuska from "../Assets/Food/Dhuska.jpeg";
 
+
+import Chaura from "../Assets/Food/Chaura.jpeg";
+import poha from "../Assets/Food/poha.jpeg";
+import bhutteKaKees from "../Assets/Food/BhutteKaKees.jpeg";
+import DalBafla from "../Assets/Food/DalBafla.jpeg";
+import Shikanji from "../Assets/Food/Shikanji.jpeg";
+import MawaBaati from "../Assets/Food/MawaBaati.jpeg";
+import Dhuska from "../Assets/Food/Dhuska.jpeg";
 
 
 
@@ -748,23 +756,23 @@ const stateFoods = [
 
             {
                 name: "Litti Chokha",
-                description: "Litti Chokha is a traditional dish from Jharkhand, consisting of round wheat flour dough balls stuffed with roasted gram flour and spices. These littis are roasted over an open flame, giving them a smoky flavor. Chokha is a mashed mixture of vegetables like eggplant, tomatoes, and potatoes, seasoned with mustard oil, garlic, and green chilies. This dish is served with ghee, enhancing its richness. It’s a popular snack or meal, especially during festivals and special occasions. Litti Chokha is a great example of the rustic flavors of Jharkhand’s cuisine.", image:
+                description: "Litti Chokha is a traditional dish from Jharkhand, consisting of round wheat flour dough balls stuffed with roasted gram flour and spices. These littis are roasted over an open flame, giving them a smoky flavor. Chokha is a mashed mixture of vegetables like eggplant, tomatoes, and potatoes, seasoned with mustard oil, garlic, and green chilies. This dish is served with ghee, enhancing its richness. It’s a popular snack or meal, especially during festivals and special occasions. Litti Chokha is a great example of the rustic flavors of Jharkhand’s cuisine.", image: Littichokha
             },
             {
                 name: "Thekua",
-                description: "Thekua is a traditional sweet snack from Jharkhand, often prepared during festivals like Chhath Puja. Made from wheat flour, jaggery, and ghee, the dough is shaped into small round or oval pieces and deep-fried until crispy. The sweetness comes from the jaggery, which gives it a distinct, earthy flavor. It is a crunchy, yet soft snack that pairs perfectly with tea or milk. Thekua is loved for its rich, wholesome taste and is a significant part of the cultural food heritage of the region. It symbolizes prosperity and is an essential part of Jharkhand’s culinary traditions.", image:
+                description: "Thekua is a traditional sweet snack from Jharkhand, often prepared during festivals like Chhath Puja. Made from wheat flour, jaggery, and ghee, the dough is shaped into small round or oval pieces and deep-fried until crispy. The sweetness comes from the jaggery, which gives it a distinct, earthy flavor. It is a crunchy, yet soft snack that pairs perfectly with tea or milk. Thekua is loved for its rich, wholesome taste and is a significant part of the cultural food heritage of the region. It symbolizes prosperity and is an essential part of Jharkhand’s culinary traditions.", image: Thekua
             },
             {
                 name: "Dhuska",
-                description: "Dhuska is a savory fried snack made from a mixture of rice and lentils, often enjoyed with a variety of chutneys or curries. The ingredients are soaked overnight, ground into a batter, and deep-fried into small, crispy patties. The dish has a soft inside with a crunchy exterior, offering a delightful contrast in texture. It's typically served with aloo curry (potato curry) or meat curry, making it a hearty meal. Dhuska is a common dish in the homes of Jharkhand and is also widely served during festivals and gatherings. It is flavorful, spicy, and enjoyed by people of all ages.", image:
+                description: "Dhuska is a savory fried snack made from a mixture of rice and lentils, often enjoyed with a variety of chutneys or curries. The ingredients are soaked overnight, ground into a batter, and deep-fried into small, crispy patties. The dish has a soft inside with a crunchy exterior, offering a delightful contrast in texture. It's typically served with aloo curry (potato curry) or meat curry, making it a hearty meal. Dhuska is a common dish in the homes of Jharkhand and is also widely served during festivals and gatherings. It is flavorful, spicy, and enjoyed by people of all ages.", image: Dhuska
             },
             {
                 name: "Patra",
-                description: "Patra is a steamed snack made from colocasia leaves, which are coated with a spicy gram flour mixture, rolled up, and then steamed. It is typically sliced into round pieces, which look like little pinwheels. The gram flour mixture is seasoned with mustard seeds, turmeric, ginger, garlic, and green chilies, giving it a vibrant, aromatic flavor. Patra is a popular snack in Jharkhand and often served with a tangy tamarind or green chutney. It’s a healthy, low-fat snack that offers a unique combination of flavors and textures. This dish showcases the use of local ingredients in Jharkhand’s cuisine.", image:
+                description: "Patra is a steamed snack made from colocasia leaves, which are coated with a spicy gram flour mixture, rolled up, and then steamed. It is typically sliced into round pieces, which look like little pinwheels. The gram flour mixture is seasoned with mustard seeds, turmeric, ginger, garlic, and green chilies, giving it a vibrant, aromatic flavor. Patra is a popular snack in Jharkhand and often served with a tangy tamarind or green chutney. It’s a healthy, low-fat snack that offers a unique combination of flavors and textures. This dish showcases the use of local ingredients in Jharkhand’s cuisine.", image: Patra
             },
             {
                 name: "Chaura",
-                description: "Chaura is a simple yet flavorful rice dish commonly eaten in Jharkhand, especially by tribal communities. It’s made by boiling rice and then adding a variety of vegetables such as peas, potatoes, and carrots. The dish is seasoned with mustard oil, cumin seeds, turmeric, and salt, giving it a mild, aromatic taste. It is often accompanied by chutneys or lentil dishes for a complete meal. Chaura is light, nutritious, and is typically served for breakfast or lunch. It is a comfort food in Jharkhand, loved for its simplicity and wholesome flavors.", image:
+                description: "Chaura is a simple yet flavorful rice dish commonly eaten in Jharkhand, especially by tribal communities. It’s made by boiling rice and then adding a variety of vegetables such as peas, potatoes, and carrots. The dish is seasoned with mustard oil, cumin seeds, turmeric, and salt, giving it a mild, aromatic taste. It is often accompanied by chutneys or lentil dishes for a complete meal. Chaura is light, nutritious, and is typically served for breakfast or lunch. It is a comfort food in Jharkhand, loved for its simplicity and wholesome flavors.", image: Chaura
             }
         ]
 
@@ -776,23 +784,23 @@ const stateFoods = [
 
             {
                 "name": "Poha",
-                "description": "Poha is a popular breakfast dish made from flattened rice, commonly served with peanuts and green chilies. It is garnished with fresh coriander, mustard seeds, and a squeeze of lemon juice. This dish is light yet satisfying, with a mildly tangy and savory flavor. It's usually enjoyed with a cup of tea or coffee. Poha is known for being quick to prepare and offers a great start to the day. Its variations, like the Indori Poha, have earned a special place in Madhya Pradesh's cuisine.", image:
+                "description": "Poha is a popular breakfast dish made from flattened rice, commonly served with peanuts and green chilies. It is garnished with fresh coriander, mustard seeds, and a squeeze of lemon juice. This dish is light yet satisfying, with a mildly tangy and savory flavor. It's usually enjoyed with a cup of tea or coffee. Poha is known for being quick to prepare and offers a great start to the day. Its variations, like the Indori Poha, have earned a special place in Madhya Pradesh's cuisine.", image: poha
             },
             {
                 "name": "Bhutte Ka Kees",
-                "description": "Bhutte Ka Kees is a unique dish made from grated corn cooked with spices and milk. The dish is a mix of sweet and savory flavors, offering a creamy texture with the crunch of corn. It's usually prepared with cumin seeds, mustard seeds, and green chilies. A regional favorite, Bhutte Ka Kees is enjoyed as a side dish or snack. It has its roots in the rural areas of Madhya Pradesh, where corn is widely grown. The dish is both nutritious and delicious, with a comforting quality.", image:
+                "description": "Bhutte Ka Kees is a unique dish made from grated corn cooked with spices and milk. The dish is a mix of sweet and savory flavors, offering a creamy texture with the crunch of corn. It's usually prepared with cumin seeds, mustard seeds, and green chilies. A regional favorite, Bhutte Ka Kees is enjoyed as a side dish or snack. It has its roots in the rural areas of Madhya Pradesh, where corn is widely grown. The dish is both nutritious and delicious, with a comforting quality.", image: bhutteKaKees
             },
             {
                 "name": "Dal Bafla",
-                "description": "Dal Bafla is a traditional dish consisting of wheat dough balls, similar to dumplings, which are steamed or baked. The baflas are served with a rich and spicy dal made from lentils. It is typically served with ghee (clarified butter) for extra richness and flavor. Dal Bafla is a hearty and filling meal, popular during festivals and special occasions. It is often accompanied by pickles and yogurt. The dish is a staple in the Malwa region and is beloved across Madhya Pradesh.", image:
+                "description": "Dal Bafla is a traditional dish consisting of wheat dough balls, similar to dumplings, which are steamed or baked. The baflas are served with a rich and spicy dal made from lentils. It is typically served with ghee (clarified butter) for extra richness and flavor. Dal Bafla is a hearty and filling meal, popular during festivals and special occasions. It is often accompanied by pickles and yogurt. The dish is a staple in the Malwa region and is beloved across Madhya Pradesh.", image: DalBafla
             },
             {
                 "name": "Shikanji",
-                "description": "Shikanji is a refreshing lemonade drink made with a blend of lemon juice, sugar, and a variety of spices such as cumin powder and black salt. This tangy, spicy drink is especially popular in the hot summer months. It is often served chilled, making it a great thirst quencher. Shikanji is a street-side favorite, and each vendor has its own unique twist to the drink. It is garnished with fresh mint and a slice of lemon. This drink is not only flavorful but also helps with digestion.", image:
+                "description": "Shikanji is a refreshing lemonade drink made with a blend of lemon juice, sugar, and a variety of spices such as cumin powder and black salt. This tangy, spicy drink is especially popular in the hot summer months. It is often served chilled, making it a great thirst quencher. Shikanji is a street-side favorite, and each vendor has its own unique twist to the drink. It is garnished with fresh mint and a slice of lemon. This drink is not only flavorful but also helps with digestion.", image: Shikanji
             },
             {
                 "name": "Mawa Baati",
-                "description": "Mawa Baati is a popular dessert in Madhya Pradesh, especially in the Indore region. These are round dumplings made from mawa (condensed milk), flour, and sugar, deep-fried to a golden brown. The baatis are then soaked in sugar syrup, giving them a sweet, rich flavor. Mawa Baati is often served warm, making it a perfect dessert for festive occasions. The combination of mawa and sugar creates a deliciously rich and indulgent treat. It is a favorite sweet for those with a penchant for traditional desserts.", image:
+                "description": "Mawa Baati is a popular dessert in Madhya Pradesh, especially in the Indore region. These are round dumplings made from mawa (condensed milk), flour, and sugar, deep-fried to a golden brown. The baatis are then soaked in sugar syrup, giving them a sweet, rich flavor. Mawa Baati is often served warm, making it a perfect dessert for festive occasions. The combination of mawa and sugar creates a deliciously rich and indulgent treat. It is a favorite sweet for those with a penchant for traditional desserts.", image: MawaBaati
             }
         ]
 
