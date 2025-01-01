@@ -99,6 +99,17 @@ const stateFolkmusics = [
             { name: "Wangala Songs", description: "Harvest songs performed by the Garo tribe, celebrating the Wangala festival, characterized by rhythmic beats and vibrant melodies." }
         ]
     },
+
+    {
+        id: "IN-ML",
+        Folkmusics: [
+            { name: "Nongkrem Music", description: "Traditional music performed by the Khasi tribe during the Nongkrem festival, characterized by rhythmic beats and traditional instruments." },
+            { name: "Shad Suk Mynsiem Songs", description: "Songs performed by the Khasi tribe to celebrate the arrival of spring, characterized by joyful melodies and traditional instruments." },
+            { name: "Wangala Tunes", description: "Harvest tunes performed by the Garo tribe, celebrating the Wangala festival, characterized by rhythmic beats and vibrant melodies." },
+            { name: "Laho Melodies", description: "Traditional melodies performed by the Jaintia tribe during festivals and social gatherings, characterized by lively rhythms and traditional instruments." },
+            { name: "Doregata Songs", description: "Playful songs performed by the Garo tribe, characterized by lively rhythms and traditional instruments." }
+        ]
+    },
     
  
  
