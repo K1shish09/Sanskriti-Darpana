@@ -165,6 +165,17 @@ const stateFolkmusics = [
             { name: "Thappaattam Songs", description: "Folk songs performed by the agricultural community, characterized by rhythmic beats and accompanied by folk tunes." }
         ]
     },
+
+    {
+        id: "IN-TG",
+        Folkmusics: [
+            { name: "Perini Shivatandavam Music", description: "Traditional music form dedicated to Lord Shiva, characterized by vigorous rhythms and performed by male musicians." },
+            { name: "Lambadi Songs", description: "Traditional songs of the Lambadi tribe, characterized by colorful rhythms, intricate melodies, and traditional instruments, often depicting their daily life and culture." },
+            { name: "Dappu Tunes", description: "Vibrant tunes performed with the 'Dappu' drum, characterized by rhythmic beats and energetic melodies, often performed during festivals and celebrations." },
+            { name: "Gussadi Melodies", description: "Tribal melodies performed by the Gonds during the Dussehra festival, characterized by elaborate rhythms and energetic tunes." },
+            { name: "Bathukamma Songs", description: "Traditional songs performed by women during the Bathukamma festival, celebrating the floral festival with colorful flower arrangements and rhythmic melodies." }
+        ]
+    },
  
  
 ];
