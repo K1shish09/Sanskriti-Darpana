@@ -46,10 +46,10 @@ import NeermahalPalace from "../Assets/Heritage/NeermahalPalace.jpeg";
 import TripuraSundariTemple from "../Assets/Heritage/TripuraSundariTemple.jpeg";
 import BhuvaneshwariTemple from "../Assets/Heritage/BhuvaneshwariTemple.jpeg";
 import Sepahijala from "../Assets/Heritage/Sepahijala.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
-import  from "../Assets/Heritage/.jpeg";
-import from "../Assets/Heritage/.jpeg";
+import ShillongPeak from "../Assets/Heritage/ShillongPeak.jpeg";
+import NongkhnumIsland from "../Assets/Heritage/NongkhnumIsland.jpeg";
+import MawphlangForest from "../Assets/Heritage/MawphlangForest.jpeg";
+import SijuCaves from "../Assets/Heritage/ SijuCaves.jpeg";
 import from "../Assets/Heritage/.jpeg";
 import from "../Assets/Heritage/.jpeg";
 import from "../Assets/Heritage/.jpeg";
@@ -293,23 +293,23 @@ const stateheritage = [
         heritageSites: [
             {
                 name: "Shillong Peak",
-                description: "Shillong Peak is the highest point in Meghalaya, standing at 1,965 meters above sea level. It offers panoramic views of the capital city, Shillong, and the surrounding landscapes. The peak is a popular tourist destination for nature lovers and adventure enthusiasts. It is considered sacred by the local Khasi people, who believe it is the abode of their deities. The area is also home to a diverse range of flora and fauna, making it a favorite spot for wildlife enthusiasts. The peak is accessible through a well-maintained road, and visitors can enjoy scenic views along the way."
+                description: "Shillong Peak is the highest point in Meghalaya, standing at 1,965 meters above sea level. It offers panoramic views of the capital city, Shillong, and the surrounding landscapes. The peak is a popular tourist destination for nature lovers and adventure enthusiasts. It is considered sacred by the local Khasi people, who believe it is the abode of their deities. The area is also home to a diverse range of flora and fauna, making it a favorite spot for wildlife enthusiasts. The peak is accessible through a well-maintained road, and visitors can enjoy scenic views along the way.",image: ShillongPeak
             },
             {
                 name: "Umiam Lake",
-                description: "Umiam Lake, located near Shillong, is a stunning man-made reservoir surrounded by lush greenery and hills. It is a serene spot, perfect for boating and picnics. The lake is part of the Umiam River and was created to supply water to Shillong. It is also a popular destination for water sports, such as kayaking and water-skiing. The lake offers breathtaking views of the surrounding mountains, particularly during sunrise and sunset. Visitors can explore nearby gardens and enjoy a peaceful retreat away from the bustle of the city."
+                description: "Umiam Lake, located near Shillong, is a stunning man-made reservoir surrounded by lush greenery and hills. It is a serene spot, perfect for boating and picnics. The lake is part of the Umiam River and was created to supply water to Shillong. It is also a popular destination for water sports, such as kayaking and water-skiing. The lake offers breathtaking views of the surrounding mountains, particularly during sunrise and sunset. Visitors can explore nearby gardens and enjoy a peaceful retreat away from the bustle of the city.",image: UmiamLake
             },
             {
                 name: "Nongkhnum Island",
-                description: "Nongkhnum Island, located in the West Khasi Hills district, is the largest river island in India. The island is known for its scenic beauty, surrounded by the clear waters of the Nongkhnum River. It is a peaceful haven, offering a glimpse into rural life in Meghalaya. The island is popular among trekkers and nature enthusiasts who explore its vast grasslands and dense forests. The place is rich in biodiversity, with various species of birds and animals. Nongkhnum Island remains relatively untouched, making it a hidden gem for those seeking tranquility."
+                description: "Nongkhnum Island, located in the West Khasi Hills district, is the largest river island in India. The island is known for its scenic beauty, surrounded by the clear waters of the Nongkhnum River. It is a peaceful haven, offering a glimpse into rural life in Meghalaya. The island is popular among trekkers and nature enthusiasts who explore its vast grasslands and dense forests. The place is rich in biodiversity, with various species of birds and animals. Nongkhnum Island remains relatively untouched, making it a hidden gem for those seeking tranquility.",image: NongkhnumIsland
             },
             {
                 name: "Mawphlang Sacred Forest",
-                description: "The Mawphlang Sacred Forest is a unique ecological and cultural site, located about 25 km from Shillong. The forest is considered sacred by the Khasi tribe and is believed to be inhabited by ancestral spirits. It has a rich biodiversity, with numerous species of plants, trees, and animals that are preserved due to its spiritual significance. The forest is a living example of traditional Khasi conservation practices. Visitors can take guided tours to explore the flora and fauna while learning about the cultural and religious importance of the site. Mawphlang is also famous for its picturesque walking trails."
+                description: "The Mawphlang Sacred Forest is a unique ecological and cultural site, located about 25 km from Shillong. The forest is considered sacred by the Khasi tribe and is believed to be inhabited by ancestral spirits. It has a rich biodiversity, with numerous species of plants, trees, and animals that are preserved due to its spiritual significance. The forest is a living example of traditional Khasi conservation practices. Visitors can take guided tours to explore the flora and fauna while learning about the cultural and religious importance of the site. Mawphlang is also famous for its picturesque walking trails.",image: MawphlangForest
             },
             {
                 name: "Siju Caves",
-                description: "The Siju Caves, located in the South Garo Hills, are one of the most significant archaeological and geological sites in Meghalaya. The caves are renowned for their limestone formations and intricate stalactites and stalagmites. They are also known as the 'Sistine Chapel of India' due to the remarkable natural sculptures inside. The caves are home to ancient rock paintings and fossilized remains, making them an important site for history and archaeology. Visitors can explore the caves with the help of guides, who provide insights into the region's rich history. The surrounding area is lush and peaceful, adding to the charm of the caves."
+                description: "The Siju Caves, located in the South Garo Hills, are one of the most significant archaeological and geological sites in Meghalaya. The caves are renowned for their limestone formations and intricate stalactites and stalagmites. They are also known as the 'Sistine Chapel of India' due to the remarkable natural sculptures inside. The caves are home to ancient rock paintings and fossilized remains, making them an important site for history and archaeology. Visitors can explore the caves with the help of guides, who provide insights into the region's rich history. The surrounding area is lush and peaceful, adding to the charm of the caves.",image: SijuCaves
             }
 
         ]
