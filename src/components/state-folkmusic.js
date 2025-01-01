@@ -12,6 +12,16 @@ const stateFolkmusics = [
         ]
     },
 
+    {
+        id: "IN-LD",
+        Folkmusics: [
+            { name: "Lava Songs", description: "Traditional songs performed by the men of Lakshadweep, characterized by rhythmic drumming and vibrant melodies, often accompanied by folk songs." },
+            { name: "Kolkali Tunes", description: "Folk tunes performed with rhythmic stick patterns, often accompanied by traditional instruments." },
+            { name: "Parichakali Beats", description: "Martial music form featuring rhythmic beats and traditional instruments, depicting the martial arts of the region." },
+            { name: "Opana Melodies", description: "Traditional melodies performed by women, showcasing the cultural heritage and customs of Lakshadweep." },
+            { name: "Dandi Rhythms", description: "Vibrant music form where performers create rhythmic patterns with sticks, often performed during festivals and celebrations." }
+        ]
+    },
  
  
 ];
