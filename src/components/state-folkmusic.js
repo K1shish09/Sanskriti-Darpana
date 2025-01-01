@@ -232,6 +232,18 @@ const stateFolkmusics = [
         ]
     },
     
+    {
+        id: "IN-MH",
+        Folkmusics: [
+            { name: "Lavani Songs", description: "Traditional songs known for their powerful rhythms and expressive melodies, often performed to the beats of the dholki drum." },
+            { name: "Koli Music", description: "Folk music performed by the Koli fisherfolk community, depicting their daily life and fishing activities." },
+            { name: "Tamasha Tunes", description: "Traditional Marathi theatre music that combines dance, music, and drama, often performed during festivals and celebrations." },
+            { name: "Dhangari Gaja Melodies", description: "Folk melodies performed by the Dhangar shepherd community, characterized by vigorous rhythms and traditional instruments." },
+            { name: "Povadas Songs", description: "Traditional songs that narrate the heroic tales of the Maratha rulers, performed with energetic rhythms and powerful melodies." }
+        ]
+    },
+    
+    
     
     
     
