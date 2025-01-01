@@ -242,6 +242,30 @@ const stateFolkmusics = [
             { name: "Povadas Songs", description: "Traditional songs that narrate the heroic tales of the Maratha rulers, performed with energetic rhythms and powerful melodies." }
         ]
     },
+    {
+        id: "IN-JH",
+        Folkmusics: [
+            { name: "Chhau Music", description: "Music accompanying the Chhau dance, a semi-classical Indian dance with martial, tribal, and folk origins." },
+            { name: "Paika Tunes", description: "Traditional tunes performed by the Paika community, depicting their martial skills and valor." },
+            { name: "Jhumar Melodies", description: "Folk melodies performed during the harvest season, characterized by graceful rhythms and traditional instruments." },
+            { name: "Mundari Songs", description: "Traditional songs performed by the Munda tribe, showcasing their cultural heritage and daily life." },
+            { name: "Santhali Music", description: "Traditional music of the Santhal tribe, characterized by rhythmic beats and vibrant melodies." }
+        ]
+    },
+
+    {
+        id: "IN-BR",
+        Folkmusics: [
+            { name: "Jat-Jatin Songs", description: "Traditional songs depicting the love story of Jat and Jatin, characterized by graceful rhythms and folk melodies." },
+            { name: "Jhijhian Music", description: "Folk music performed by women to appease the rain god during drought, characterized by rhythmic beats and devotional melodies." },
+            { name: "Bidesia Tunes", description: "Traditional theatre music that combines dance, music, and drama, often depicting social issues and cultural themes." },
+            { name: "Kajari Melodies", description: "Folk melodies performed during the monsoon season, characterized by soulful rhythms and traditional instruments." },
+            { name: "Sohar-Khilouna Songs", description: "Traditional songs performed during childbirth celebrations, characterized by joyful rhythms and folk melodies." }
+        ]
+    },
+    
+    
+    
     
     
     
