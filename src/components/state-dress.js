@@ -90,6 +90,17 @@ const stateDress = [
     ]
  },
 
+ {
+    id: "IN-TR",
+    Dresses: [
+        { name: "Rignai", description: "Traditional attire for women, consisting of a wraparound skirt, often paired with a blouse and adorned with beads and jewelry." },
+        { name: "Risa", description: "A traditional shawl worn by women, often paired with a Rignai and adorned with intricate patterns." },
+        { name: "Kamchwlwi Borok", description: "Traditional attire for men, consisting of a loincloth and a shawl, often adorned with traditional patterns and designs." },
+        { name: "Tripuri Ornaments", description: "Traditional jewelry worn by the Tripuri people, often made from beads, silver, and other materials." },
+        { name: "Pachra", description: "Traditional attire for women, consisting of a wraparound skirt, often paired with a blouse and adorned with beads and jewelry." }
+    ]
+ },
+
 
 
 
