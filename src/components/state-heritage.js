@@ -170,6 +170,8 @@ import ShankaracharyaTemple from "../Assets/Heritage/ShankaracharyaTemple.jpeg";
 import MughalGardens from "../Assets/Heritage/MughalGardens.jpeg";
 import HemisMonastery from "../Assets/Heritage/HemisMonastery.jpeg";
 import JamaMasjid from "../Assets/Heritage/JamaMasjid.jpeg";
+import KangerValleyNationalPark from "../Assets/Heritage/KangerValleyNationalPark.jpeg";
+import ChitrakootWaterfall from "../Assets/Heritage/ChitrakootWaterfall.jpeg";
 const stateHeritage = [
     {
         id: 'IN-AN',
@@ -952,27 +954,28 @@ const stateHeritage = [
         heritageSites: [
             {
                 name: "Kanger Valley National Park",
-                description: "Kanger Valley National Park is one of Chhattisgarh’s most significant heritage sites, located near Jagdalpur. It is famous for its rich biodiversity and scenic landscapes, including waterfalls, caves, and forests. The park is home to rare wildlife species such as the Bengal tiger, leopards, and the endangered wild buffalo. Its main attraction, the Kutumsar Cave, is one of the largest limestone caves in India. The park also has a cultural connection with the indigenous tribal communities. It’s a haven for nature lovers and wildlife enthusiasts alike."
+                description: "Kanger Valley National Park is one of Chhattisgarh’s most significant heritage sites, located near Jagdalpur. It is famous for its rich biodiversity and scenic landscapes, including waterfalls, caves, and forests. The park is home to rare wildlife species such as the Bengal tiger, leopards, and the endangered wild buffalo. Its main attraction, the Kutumsar Cave, is one of the largest limestone caves in India. The park also has a cultural connection with the indigenous tribal communities. It’s a haven for nature lovers and wildlife enthusiasts alike.",image: KangerValleyNationalPark
             },
             {
                 name: "Chitrakoot Waterfall",
-                description: "Chitrakoot Waterfall, often referred to as the ‘Niagara of India,’ is located in the Bastar region of Chhattisgarh. This majestic waterfall, which cascades down from a height of 29 meters, is the largest in the state. Surrounded by lush green forests, it creates a serene and picturesque environment. The waterfall is especially stunning during the monsoon season when the flow is at its peak. It is an important tourist destination in Chhattisgarh and a sacred site for local tribal communities. Chitrakoot Waterfall holds both natural beauty and cultural significance."
+                description: "Chitrakoot Waterfall, often referred to as the ‘Niagara of India,’ is located in the Bastar region of Chhattisgarh. This majestic waterfall, which cascades down from a height of 29 meters, is the largest in the state. Surrounded by lush green forests, it creates a serene and picturesque environment. The waterfall is especially stunning during the monsoon season when the flow is at its peak. It is an important tourist destination in Chhattisgarh and a sacred site for local tribal communities. Chitrakoot Waterfall holds both natural beauty and cultural significance.",image: ChitrakootWaterfall
             },
             {
                 name: "Sirpur",
-                description: "Sirpur, an ancient city in Chhattisgarh, is an archaeological site that dates back to the 5th century AD. It was a prominent center of culture, art, and religion during the rule of the Panduvanshi dynasty. The site is home to several temples, including the famous Lakshmana Temple, and numerous monasteries. Sirpur was an important Buddhist and Hindu pilgrimage site and a hub of trade. Excavations have uncovered a wealth of sculptures, coins, and inscriptions that reveal its historical and cultural significance. Today, Sirpur stands as a key heritage site in Chhattisgarh."
+                description: "Sirpur, an ancient city in Chhattisgarh, is an archaeological site that dates back to the 5th century AD. It was a prominent center of culture, art, and religion during the rule of the Panduvanshi dynasty. The site is home to several temples, including the famous Lakshmana Temple, and numerous monasteries. Sirpur was an important Buddhist and Hindu pilgrimage site and a hub of trade. Excavations have uncovered a wealth of sculptures, coins, and inscriptions that reveal its historical and cultural significance. Today, Sirpur stands as a key heritage site in Chhattisgarh.",
+                image: Sirpur
             },
             {
                 name: "Bhoramdeo Temple",
-                description: "The Bhoramdeo Temple, located in the Kawardha region of Chhattisgarh, is a stunning architectural marvel dedicated to Lord Shiva. It is often referred to as the 'Khajuraho of Chhattisgarh' due to its intricate carvings and sculptures. The temple is surrounded by lush green forests and offers a peaceful and spiritual atmosphere. Built between the 7th and 11th centuries, it showcases a blend of Hindu and local architectural styles. The temple is not only a sacred site but also a testament to the artistic heritage of Chhattisgarh. It is a popular destination for both history enthusiasts and pilgrims."
+                description: "The Bhoramdeo Temple, located in the Kawardha region of Chhattisgarh, is a stunning architectural marvel dedicated to Lord Shiva. It is often referred to as the 'Khajuraho of Chhattisgarh' due to its intricate carvings and sculptures. The temple is surrounded by lush green forests and offers a peaceful and spiritual atmosphere. Built between the 7th and 11th centuries, it showcases a blend of Hindu and local architectural styles. The temple is not only a sacred site but also a testament to the artistic heritage of Chhattisgarh. It is a popular destination for both history enthusiasts and pilgrims.",image: BhoramdeoTemple
             },
             {
                
                 name: "Rajim",
-                description: "Rajim is an ancient town located on the banks of the Mahanadi River, known for its temples and historical significance. The Rajim temples, particularly the Rajiv Lochan Temple, are important pilgrimage sites dedicated to Lord Vishnu. Rajim is often called the ‘Prayag of Chhattisgarh’ due to the confluence of three rivers – Mahanadi, Pairi, and Sondur. The town holds religious importance, especially during the annual Rajim Kumbh Mela, attracting thousands of devotees. The temples in Rajim are known for their exquisite carvings and intricate artwork. It is a significant site for both religious tourism and historical exploration."
+                description: "Rajim is an ancient town located on the banks of the Mahanadi River, known for its temples and historical significance. The Rajim temples, particularly the Rajiv Lochan Temple, are important pilgrimage sites dedicated to Lord Vishnu. Rajim is often called the ‘Prayag of Chhattisgarh’ due to the confluence of three rivers – Mahanadi, Pairi, and Sondur. The town holds religious importance, especially during the annual Rajim Kumbh Mela, attracting thousands of devotees. The temples in Rajim are known for their exquisite carvings and intricate artwork. It is a significant site for both religious tourism and historical exploration.",image: Rajim
             }
 
         ]
-    },
+    }
 ]
-export default stateheritage;
+export default stateHeritage;
