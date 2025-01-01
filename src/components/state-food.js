@@ -102,6 +102,15 @@ import Sorpotel from "../Assets/Food/Sorpotel.jpeg";
 import Xacuti from "../Assets/Food/Xacuti.jpeg";
 
 import Samosa from "../Assets/Food/Samosa.jpeg";
+import fara from "../Assets/Food/Fara.jpeg";
+import bora from "../Assets/Food/Bora.jpeg";
+import dubkiKadhi from "../Assets/Food/DubkiKadhi.jpeg";
+import Chhattisgarhirice from "../Assets/Food/ChhattisgarhiRice.jpeg";
+import Pindi from "../Assets/Food/Pindi.jpeg";
+import Pindi from "../Assets/Food/Pindi.jpeg";
+import Pindi from "../Assets/Food/Pindi.jpeg";
+
+
 
 
 
@@ -597,19 +606,19 @@ const stateFoods = [
             },
             {
                 name: "Fara",
-                description: "Fara is a traditional Chhattisgarhi dish made from rice flour dough filled with spicy lentils. The dough is shaped into small dumplings, which are then steamed to retain their flavor and nutritional value. The lentil filling is seasoned with spices like ginger, garlic, and green chilies. Fara is often served with chutney or curd. This dish is rich in proteins and carbohydrates, making it both filling and nutritious. It is commonly prepared during festivals and special occasions.", image:
+                description: "Fara is a traditional Chhattisgarhi dish made from rice flour dough filled with spicy lentils. The dough is shaped into small dumplings, which are then steamed to retain their flavor and nutritional value. The lentil filling is seasoned with spices like ginger, garlic, and green chilies. Fara is often served with chutney or curd. This dish is rich in proteins and carbohydrates, making it both filling and nutritious. It is commonly prepared during festivals and special occasions.", image: fara
             },
             {
                 name: "Bora",
-                description: "Bora is a deep-fried rice flour snack, often prepared with a filling of mashed potatoes, lentils, and various spices. The dough is seasoned with cumin and mustard seeds, giving it a unique flavor. It is shaped into small round balls and fried until golden brown. Bora is crispy on the outside and soft on the inside, making it a delicious treat. It is often served with chutneys or curd to balance the spiciness. This dish is a favorite at tea-time or as a snack during festive celebrations.", image:
+                description: "Bora is a deep-fried rice flour snack, often prepared with a filling of mashed potatoes, lentils, and various spices. The dough is seasoned with cumin and mustard seeds, giving it a unique flavor. It is shaped into small round balls and fried until golden brown. Bora is crispy on the outside and soft on the inside, making it a delicious treat. It is often served with chutneys or curd to balance the spiciness. This dish is a favorite at tea-time or as a snack during festive celebrations.", image:bora
             },
             {
                 name: "Dubki Kadhi",
-                description: "Dubki Kadhi is a traditional Chhattisgarhi curry made with gram flour (besan) dumplings cooked in a yogurt-based gravy. The dumplings, known as 'dubki,' are made from besan, water, and spices, and then deep-fried until golden brown. The kadhi gravy is made with yogurt, spices like turmeric, mustard, and cumin, and sometimes tamarind for a tangy flavor. Dubki Kadhi is typically served with rice or roti. It is a comforting and hearty dish, especially during colder months. This dish is often prepared during family gatherings or festivals.", image:
+                description: "Dubki Kadhi is a traditional Chhattisgarhi curry made with gram flour (besan) dumplings cooked in a yogurt-based gravy. The dumplings, known as 'dubki,' are made from besan, water, and spices, and then deep-fried until golden brown. The kadhi gravy is made with yogurt, spices like turmeric, mustard, and cumin, and sometimes tamarind for a tangy flavor. Dubki Kadhi is typically served with rice or roti. It is a comforting and hearty dish, especially during colder months. This dish is often prepared during family gatherings or festivals.", image: dubkiKadhi
             },
             {
                 name: "Chhattisgarhi Rice",
-                description: "Chhattisgarhi Rice is an essential part of the local cuisine, often served with dal, kadhi, or chutney. The rice is typically cooked in a traditional way, often using a steam method for extra fluffiness. It is known for its mild flavor, making it the perfect accompaniment to spicy and flavorful gravies. Locally grown rice varieties are used, which are softer and fluffier compared to other types. The rice can also be served in a variety of forms, including pulao or khichdi. This dish is a staple in every Chhattisgarhi household, often enjoyed with a variety of side dishes.", image:
+                description: "Chhattisgarhi Rice is an essential part of the local cuisine, often served with dal, kadhi, or chutney. The rice is typically cooked in a traditional way, often using a steam method for extra fluffiness. It is known for its mild flavor, making it the perfect accompaniment to spicy and flavorful gravies. Locally grown rice varieties are used, which are softer and fluffier compared to other types. The rice can also be served in a variety of forms, including pulao or khichdi. This dish is a staple in every Chhattisgarhi household, often enjoyed with a variety of side dishes.", image: Chhattisgarhirice
             }
         ]
 
