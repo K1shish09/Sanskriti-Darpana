@@ -460,11 +460,11 @@ const stateFoods = [
             },
             {
                 name: "Sel Roti",
-                description: "Sel Roti is a traditional homemade rice doughnut from Sikkim and other parts of Nepal. This sweet, ring-shaped delicacy is deep-fried, resulting in a crispy outer layer and soft inner texture. The dough is made from rice flour, sugar, and a touch of cardamom. Sel Roti is commonly prepared during festivals, family gatherings, and celebrations. It is often paired with tea or served as a dessert after meals. Despite its simplicity, the unique taste and texture make it a favorite among both locals and visitors. This dish carries a distinct cultural significance, symbolizing hospitality and tradition.", image: SelRoti
+                description: "Sel Roti is a traditional homemade rice doughnut from Sikkim and other parts of Nepal. This sweet, ring-shaped delicacy is deep-fried, resulting in a crispy outer layer and soft inner texture. The dough is made from rice flour, sugar, and a touch of cardamom. Sel Roti is commonly prepared during festivals, family gatherings, and celebrations. It is often paired with tea or served as a dessert after meals. Despite its simplicity, the unique taste and texture make it a favorite among both locals and visitors. This dish carries a distinct cultural significances, symbolizing hospitality and tradition.", image: SelRoti
             },
             {
                 name: "Chhurpi",
-                description: "Chhurpi is a traditional Sikkimese cheese made from yak or cow milk. It is a firm, dry cheese that can be enjoyed in two forms: fresh and aged. Fresh chhurpi is soft and slightly tangy, while aged chhurpi becomes hard and is often chewed like a snack. It’s commonly used in soups or as a side dish with rice. Chhurpi is rich in protein and is often considered a nutritious food. This cheese is beloved by the locals of Sikkim for its unique taste and texture. It is also known for its ability to last for a long time without refrigeration, making it ideal for the high-altitude lifestyle.", image: Chhurpi
+                description: "Chhurpi is a traditional Sikkimese cheese made from yak or cow milk. It is a firm, dry cheese that can be enjoyed in two forms: fresh and aged. Fresh chhurpi is soft and slightly tangy, while aged chhurpi becomes hard and is often chewed like a snack. It’s commonly used in soups or as a side dish with rice. Chhurpi is rich in protein and is often considered a nutritious food. This cheese is beloved by the locals of Sikkim for its unique taste and texture. It is also known for its ability to last for a long time without refrigeration, making it ideal fo the high-altitude lifestyle.", image: Chhurpi
             }
         ]
 
