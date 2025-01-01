@@ -291,31 +291,30 @@ const stateFoods = [
     {
         id: "IN-WB",
         foods: [
-            [
-                {
-                    name: "Macher Jhol",
-                    description: "Macher Jhol is a traditional Bengali fish curry made with fresh fish, typically Rui or Katla. It's cooked in a light, aromatic broth with spices like turmeric, cumin, and coriander. The dish is served with rice, making it a staple in Bengali households. The flavor is mildly spicy, and the texture of the fish is soft and delicate. It is often accompanied by potato and tomatoes. This dish is enjoyed as comfort food, especially in rural areas. Macher Jhol represents the simplicity and freshness of Bengali cuisine.",
-                    image: MacherJhol
-                },
-                {
-                    name: "Shorshe Ilish",
-                    description: "Shorshe Ilish is a signature dish of West Bengal, made from Hilsa fish cooked in mustard paste. The fish is marinated with mustard oil, turmeric, and green chilies before being steamed or cooked in a gravy. This dish is rich in flavors with a combination of bitterness from mustard and the bold, tender texture of Hilsa. It is usually served with plain steamed rice. Shorshe Ilish is especially popular during the monsoon season when Hilsa fish is in abundance. This dish is a symbol of Bengali festivity and tradition. The unique mustard flavor is what sets it apart from other fish curries.", image: ShorsheIlish
-                },
-                {
-                    name: "Aloo Posto",
-                    description: "Aloo Posto is a simple yet flavorful Bengali vegetarian dish made with potatoes and poppy seeds. The poppy seeds are ground into a paste and sautéed with mustard oil, green chilies, and spices. The dish is mild in flavor but has a unique texture thanks to the poppy seeds. It is commonly served with plain rice or paratha. Aloo Posto is considered comfort food and is often made during festivals or special occasions. The dish reflects the Bengali love for mustard oil and subtle, earthy flavors. It’s a vegan-friendly dish that's quick and easy to prepare.", image: AlooPosto
-                },
-                {
-                    name: "Chingri Malai Curry",
-                    description: "Chingri Malai Curry is a luxurious Bengali prawn curry cooked in a creamy coconut milk base. The prawns are sautéed with spices like turmeric, cumin, and garam masala before being simmered in coconut milk. The curry is rich, flavorful, and slightly sweet due to the coconut milk, while the prawns retain their soft texture. This dish is usually served with basmati rice or pulao. It’s a popular festive dish, often enjoyed during weddings and special occasions. The use of coconut milk makes it a distinctive and delicious seafood dish. Chingri Malai Curry is a true representation of Bengali seafood cuisine.", image: ChingriMalaiCurry
-                },
-                {
-                    name: "Rosogolla",
-                    description: "Rosogolla is one of the most iconic Bengali sweets, made from chhena (cottage cheese) and soaked in sugary syrup. The spongy, round-shaped dumplings absorb the syrup, making them soft and syrupy. The origins of Rosogolla trace back to West Bengal, where it is considered a traditional dessert. It is a popular choice during festivals, weddings, and special occasions. Rosogolla has a delicate sweetness that contrasts with its soft, melt-in-the-mouth texture. It has gained international popularity as a symbol of Indian sweets. The preparation involves boiling the chhena and then soaking it in a sugary syrup.",
-                    image: Rosogolla
-                }
-            ]
-
+            {
+                name: "Macher Jhol",
+                description: "Macher Jhol is a traditional Bengali fish curry made with fresh fish, typically Rui or Katla. It's cooked in a light, aromatic broth with spices like turmeric, cumin, and coriander. The dish is served with rice, making it a staple in Bengali households. The flavor is mildly spicy, and the texture of the fish is soft and delicate. It is often accompanied by potato and tomatoes. This dish is enjoyed as comfort food, especially in rural areas. Macher Jhol represents the simplicity and freshness of Bengali cuisine.",
+                image: MacherJhol
+            },
+            {
+                name: "Shorshe Ilish",
+                description: "Shorshe Ilish is a signature dish of West Bengal, made from Hilsa fish cooked in mustard paste. The fish is marinated with mustard oil, turmeric, and green chilies before being steamed or cooked in a gravy. This dish is rich in flavors with a combination of bitterness from mustard and the bold, tender texture of Hilsa. It is usually served with plain steamed rice. Shorshe Ilish is especially popular during the monsoon season when Hilsa fish is in abundance. This dish is a symbol of Bengali festivity and tradition. The unique mustard flavor is what sets it apart from other fish curries.",
+                image: ShorsheIlish
+            },
+            {
+                name: "Chingri Malai Curry",
+                description: "Chingri Malai Curry is a luxurious Bengali dish made with prawns cooked in a creamy coconut milk gravy. The prawns are marinated with turmeric and salt, then cooked with spices like cumin, coriander, and garam masala. The addition of coconut milk gives the curry a rich and smooth texture. It is typically served with steamed rice. This dish is often prepared during special occasions and festivals. The combination of prawns and coconut milk creates a delightful flavor that is both savory and slightly sweet.",
+                image: ChingriMalaiCurry
+            },
+            {
+                name: "Aloo Posto",
+                description: "Aloo Posto is a simple yet flavorful Bengali vegetarian dish made with potatoes and poppy seeds. The poppy seeds are ground into a paste and sautéed with mustard oil, green chilies, and spices. The dish is mild in flavor but has a unique texture thanks to the poppy seeds. It is commonly served with plain rice or paratha. Aloo Posto is considered comfort food and is often made during festivals or special occasions. The dish reflects the Bengali love for mustard oil and subtle, earthy flavors. It’s a vegan-friendly dish that's quick and easy to prepare.", image: AlooPosto
+            },
+            {
+                name: "Rosogolla",
+                description: "Rosogolla is one of the most iconic Bengali sweets, made from chhena (cottage cheese) and soaked in sugary syrup. The spongy, round-shaped dumplings absorb the syrup, making them soft and syrupy. The origins of Rosogolla trace back to West Bengal, where it is considered a traditional dessert. It is a popular choice during festivals, weddings, and special occasions. Rosogolla has a delicate sweetness that contrasts with its soft, melt-in-the-mouth texture. It has gained international popularity as a symbol of Indian sweets. The preparation involves boiling the chhena and then soaking it in a sugary syrup.",
+                image: Rosogolla
+            }
         ]
 
     },
@@ -475,11 +474,11 @@ const stateFoods = [
             },
             {
                 name: "Sel Roti",
-                description: "Sel Roti is a traditional homemade rice doughnut from Sikkim and other parts of Nepal. This sweet, ring-shaped delicacy is deep-fried, resulting in a crispy outer layer and soft inner texture. The dough is made from rice flour, sugar, and a touch of cardamom. Sel Roti is commonly prepared during festivals, family gatherings, and celebrations. It is often paired with tea or served as a dessert after meals. Despite its simplicity, the unique taste and texture make it a favorite among both locals and visitors. This dish carries a distinct cultural significance, symbolizing hospitality and tradition.", image: SelRoti
+                description: "Sel Roti is a traditional homemade rice doughnut from Sikkim and other parts of Nepal. This sweet, ring-shaped delicacy is deep-fried, resulting in a crispy outer layer and soft inner texture. The dough is made from rice flour, sugar, and a touch of cardamom. Sel Roti is commonly prepared during festivals, family gatherings, and celebrations. It is often paired with tea or served as a dessert after meals. Despite its simplicity, the unique taste and texture make it a favorite among both locals and visitors. This dish carries a distinct cultural significances, symbolizing hospitality and tradition.", image: SelRoti
             },
             {
                 name: "Chhurpi",
-                description: "Chhurpi is a traditional Sikkimese cheese made from yak or cow milk. It is a firm, dry cheese that can be enjoyed in two forms: fresh and aged. Fresh chhurpi is soft and slightly tangy, while aged chhurpi becomes hard and is often chewed like a snack. It’s commonly used in soups or as a side dish with rice. Chhurpi is rich in protein and is often considered a nutritious food. This cheese is beloved by the locals of Sikkim for its unique taste and texture. It is also known for its ability to last for a long time without refrigeration, making it ideal for the high-altitude lifestyle.", image: Chhurpi
+                description: "Chhurpi is a traditional Sikkimese cheese made from yak or cow milk. It is a firm, dry cheese that can be enjoyed in two forms: fresh and aged. Fresh chhurpi is soft and slightly tangy, while aged chhurpi becomes hard and is often chewed like a snack. It’s commonly used in soups or as a side dish with rice. Chhurpi is rich in protein and is often considered a nutritious food. This cheese is beloved by the locals of Sikkim for its unique taste and texture. It is also known for its ability to last for a long time without refrigeration, making it ideal fo the high-altitude lifestyle.", image: Chhurpi
             }
         ]
 
@@ -907,6 +906,7 @@ const stateFoods = [
         id: 'IN-DL',
         foods: [
             {
+
                 name: "BhatureChole ",
                 description: "Chole Bhature is a quintessential Delhi dish made with spicy chickpeas(chole) served alongside deep- fried fluffy bread(bhature).The chole is cooked with a blend of aromatic spices, giving it a rich and tangy flavor.Bhature, made from fermented dough, is light yet indulgent.It’s a favorite breakfast or lunch dish for locals.Often served with a side of pickles, onions, and green chutney.This dish is a must-try for its hearty and comforting appeal.Found in almost every nook and corner of Delhi.", image: BhatureChole
             },
@@ -925,6 +925,24 @@ const stateFoods = [
             {
                 name: "Kulfi Falooda",
                 description: "Kulfi Falooda is a traditional dessert that is a perfect indulgence on hot Delhi days.It consists of rich and creamy kulfi(Indian ice cream) served with falooda(vermicelli) and rose syrup.Often garnished with nuts like almonds and pistachios, it offers a delightful combination of textures and flavors.The dish is a blend of cold, sweet, and floral notes that refresh the palate.Found in many sweet shops and street vendors across Delhi.Kulfi Falooda is a timeless favorite among locals and tourists alike.", image: Kulfifalooda
+                name: "Chole Bhature",
+                description: "Chole Bhature is a quintessential Delhi dish made with spicy chickpeas(chole) served alongside deep- fried fluffy bread(bhature).The chole is cooked with a blend of aromatic spices, giving it a rich and tangy flavor.Bhature, made from fermented dough, is light yet indulgent.It’s a favorite breakfast or lunch dish for locals.Often served with a side of pickles, onions, and green chutney.This dish is a must-try for its hearty and comforting appeal.Found in almost every nook and corner of Delhi.", 
+            },
+            {
+                name: "Butter Chicken",
+                description: "Butter Chicken is a creamy and flavorful dish that originated in Delhi.It features tender chicken cooked in a tomato - based gravy enriched with butter and cream.The smoky flavor comes from grilling the chicken before adding it to the gravy.This iconic dish pairs perfectly with naan, roti, or steamed rice.The rich and velvety texture of the curry makes it a hit among all age groups.Butter Chicken is a representation of Delhi’s love for indulgent and royal flavors.", 
+            },
+            {
+                name: "Paranthas",
+                description: "Paranthas are a versatile and beloved food in Delhi, often enjoyed for breakfast or lunch.They are flatbreads stuffed with a variety of fillings like potatoes, paneer, radish, or mixed vegetables.Cooked with generous amounts of ghee, they have a crisp exterior and soft, flavorful interior.Paranthas are typically served with curd, pickles, and a dollop of butter.The Paranthe Wali Gali in Old Delhi is famous for its wide range of stuffed paranthas.This dish showcases the soul of Delhi’s street food culture.", 
+            },
+            {
+                name: "Aloo Tikki",
+                description: "Aloo Tikki is a popular street food made from spiced mashed potatoes shaped into patties and shallow fried until golden brown.Served with tangy tamarind chutney, spicy mint chutney, and yogurt, it delivers a burst of flavors.It’s often topped with onions, pomegranate seeds, and chaat masala.The crispy exterior and soft interior make it a crowd favorite.This snack is synonymous with the bustling markets of Delhi.Aloo Tikki is a delightful treat that showcases the capital's vibrant street food scene.", 
+            },
+            {
+                name: "Kulfi Falooda",
+                description: "Kulfi Falooda is a traditional dessert that is a perfect indulgence on hot Delhi days.It consists of rich and creamy kulfi(Indian ice cream) served with falooda(vermicelli) and rose syrup.Often garnished with nuts like almonds and pistachios, it offers a delightful combination of textures and flavors.The dish is a blend of cold, sweet, and floral notes that refresh the palate.Found in many sweet shops and street vendors across Delhi.Kulfi Falooda is a timeless favorite among locals and tourists
             }
 
         ]
@@ -951,6 +969,24 @@ const stateFoods = [
             {
                 name: "Mithe Chawal",
                 description: "Mithe Chawal is a traditional sweet rice dish cooked with sugar, saffron, and cardamom.Often garnished with dry fruits like almonds and raisins, it is prepared during festivals and celebrations.The rice is cooked to perfection, absorbing the sweetness and aroma of saffron.Ghee is added for a rich and buttery texture.Mithe Chawal is not only delicious but also a symbol of joy and togetherness in Haryanvi culture.It pairs well with spicy curries or is enjoyed as a standalone dessert.", image: MitheChawal
+                description: "A traditional dish made from grated corn, Bhutte Ka Kees is a popular delicacy in Haryana.It is flavored with ghee, mustard seeds, and green chilies, offering a rich and savory taste.The creamy texture comes from curd and gram flour added during cooking.This dish is typically garnished with fresh coriander and lemon juice for a tangy twist.It is a healthy and nutritious snack enjoyed with tea.Served piping hot, it is perfect for cold evenings in Haryana.",
+            },
+            {
+                name: "Besan Masala Roti",
+                description: "Besan Masala Roti is a flavorful Indian flatbread made from gram flour and wheat flour.It is spiced with ajwain, coriander, chili powder, and turmeric to give it a unique taste.This roti is often paired with yogurt or pickle for a wholesome meal.Known for its nutritional value, it is rich in protein and is a staple in many Haryanvi households.It is quick and easy to prepare, making it a popular choice for breakfast.The roti has a slightly crisp texture when cooked over a hot tava.", 
+            },
+            {
+                name: "Haryanvi Kadhi",
+                description: "Haryanvi Kadhi is a delicious yogurt- based curry with gram flour and spices.It is often served with steamed rice, making it a comforting and hearty meal.The kadhi is tempered with ghee, mustard seeds, and curry leaves, giving it an aromatic flavor.In some versions, pakoras(fritters) are added to enhance the dish.Its tangy and mildly spicy taste makes it a favorite among locals.This dish reflects the simple yet rich culinary traditions of Haryana.", 
+            },
+            {
+                name: "Bajra Khichdi",
+                description: "Bajra Khichdi is a nutritious dish made with pearl millet, moong dal, and vegetables.It is a staple in Haryana, especially during winter, as it provides warmth and energy.This wholesome dish is seasoned with ghee, cumin seeds, and green chilies for added flavor.Served with curd or buttermilk, it is a comfort food that is easy to digest.Bajra Khichdi is highly nutritious, rich in fiber, and promotes good health.It embodies the rustic flavors of Haryana's rural life.", 
+            },
+            {
+                name: "Mithe Chawal",
+                description: "Mithe Chawal is a traditional sweet rice dish cooked with sugar, saffron, and cardamom.Often garnished with dry fruits like almonds and raisins, it is prepared during festivals and celebrations.The rice is cooked to perfection, absorbing the sweetness and aroma of saffron.Ghee is added for a rich and buttery texture.Mithe Chawal is not only delicious but also a symbol of joy and togetherness in Haryanvi culture.It pairs well with spicy curries or is enjoyed as a standalone dessert.", 
+
             }
 
         ]
@@ -960,6 +996,7 @@ const stateFoods = [
         foods: [
             {
                 name: "Rogan Josh",
+
                 description: "A signature dish of Kashmiri cuisine, Rogan Josh is a flavorful curry made with tender pieces of lamb cooked in a rich gravy of yogurt, spices, and saffron.The dish is known for its vibrant red color, derived from Kashmiri red chilies and ratan jot(a natural dye).The slow- cooked process ensures the meat absorbs the aromatic spices like cardamom, cinnamon, and cloves.It pairs excellently with steamed rice or traditional Kashmiri breads.Originating from Persian influences, this dish has become a staple in Wazwan feasts.Its rich, aromatic flavors make it a favorite among food enthusiasts worldwide.", image: RoganJosh
             },
             {
@@ -977,6 +1014,25 @@ const stateFoods = [
             {
                 name: "Gushtaba",
                 description: "Known as the 'King of Kashmiri Cuisine',  Gushtaba is a royal dish made with minced mutton shaped into soft meatballs.These meatballs are cooked in a luscious yogurt gravy spiced with cardamom, fennel, and cloves.The preparation of Gushtaba is labor - intensive and requires expert hands, making it a dish of celebration and importance.It is traditionally served at the end of a Wazwan feast as a sign of respect to guests.The creamy, tangy sauce pairs perfectly with steamed rice.Gushtaba embodies the essence of Kashmiri hospitality and culinary artistry.", image: Gushtaba
+
+                description: "A signature dish of Kashmiri cuisine, Rogan Josh is a flavorful curry made with tender pieces of lamb cooked in a rich gravy of yogurt, spices, and saffron.The dish is known for its vibrant red color, derived from Kashmiri red chilies and ratan jot(a natural dye).The slow- cooked process ensures the meat absorbs the aromatic spices like cardamom, cinnamon, and cloves.It pairs excellently with steamed rice or traditional Kashmiri breads.Originating from Persian influences, this dish has become a staple in Wazwan feasts.Its rich, aromatic flavors make it a favorite among food enthusiasts worldwide.", 
+            },
+            {
+                name: "Dum Aloo",
+                description: "A vegetarian delight, Dum Aloo is a popular Kashmiri dish made with baby potatoes cooked in a spicy yogurt- based gravy.The potatoes are fried to golden perfection before being simmered in a blend of Kashmiri spices like fennel, ginger powder, and asafoetida.The dish is known for its creamy texture and mildly spicy flavor profile.It is traditionally served as part of the Wazwan meal, a ceremonial feast in Kashmiri culture.Dum Aloo is best enjoyed with naan, roti, or steamed rice.Its rich, comforting flavors make it a hit for all occasions.", 
+            },
+            {
+                name: "Yakhni",
+                description: "A delicate and aromatic dish, Yakhni is a yogurt - based mutton curry that showcases the subtle flavors of Kashmiri cuisine.The dish is seasoned with mild spices like bay leaves, cardamom, cloves, and fennel, creating a fragrant and creamy sauce.The mutton is slow - cooked until tender, allowing the flavors to meld beautifully.Yakhni is often served with saffron - infused rice, making it a wholesome and satisfying meal.Its light yet flavorful taste sets it apart from other spicy curries.A symbol of Kashmiri hospitality, Yakhni is a must -try for those seeking authentic regional flavors.", 
+            },
+            {
+                name: "Modur Pulao",
+                description: "A sweet and fragrant rice dish, Modur Pulao is a traditional Kashmiri recipe made with basmati rice, milk, and ghee.It is flavored with saffron, cinnamon, cardamom, and cloves, giving it a delightful aroma.The dish is enriched with dried fruits and nuts like almonds, raisins, and cashews, adding a delightful crunch and sweetness.Often served as a festive dish, Modur Pulao is a perfect accompaniment to spicy curries.Its golden hue and unique taste make it a centerpiece in Kashmiri celebrations.The dish is cherished for its blend of sweet and savory flavors.", 
+            },
+            {
+                name: "Gushtaba",
+                description: "Known as the 'King of Kashmiri Cuisine',  Gushtaba is a royal dish made with minced mutton shaped into soft meatballs.These meatballs are cooked in a luscious yogurt gravy spiced with cardamom, fennel, and cloves.The preparation of Gushtaba is labor - intensive and requires expert hands, making it a dish of celebration and importance.It is traditionally served at the end of a Wazwan feast as a sign of respect to guests.The creamy, tangy sauce pairs perfectly with steamed rice.Gushtaba embodies the essence of Kashmiri hospitality and culinary artistry.", 
+
             }
 
 
@@ -987,6 +1043,7 @@ const stateFoods = [
         foods: [
             {
                 name: "Butter Chicken",
+
                 description: "A rich and creamy dish made with tender chicken cooked in a luscious tomato and butter-based gravy. Originating from Punjab, it has become a signature dish in Chandigarh. It is characterized by its smooth texture, mild spices, and aromatic flavor. Often paired with naan or steamed rice, it’s a comforting indulgence. The addition of cream and butter enhances the richness, making it irresistible. Perfect for those who enjoy a balance of spice and sweetness.", image: Butterchicken
             },
             {
@@ -1006,9 +1063,23 @@ const stateFoods = [
                 description: "A quintessential Punjabi drink, cherished in Chandigarh, made from thick yogurt blended with sugar, water, and optional spices. Served in tall glasses, it’s a refreshing accompaniment to heavy meals. Often topped with a dollop of malai (cream) or flavored with cardamom and saffron for added richness. Available in sweet and salty variations, it’s a perfect coolant for hot summer days. The creamy consistency and tangy taste are irresistible. It reflects the vibrant and hearty culture of the region.", image: Lassi
             }
 
-        ]
-    }
 
+                description: "A rich and creamy dish made with tender chicken cooked in a luscious tomato and butter-based gravy. Originating from Punjab, it has become a signature dish in Chandigarh. It is characterized by its smooth texture, mild spices, and aromatic flavor. Often paired with naan or steamed rice, it’s a comforting indulgence. The addition of cream and butter enhances the richness, making it irresistible. Perfect for those who enjoy a balance of spice and sweetness.",
+                image: "path/to/butter-chicken.jpg"
+            },
+            {
+                name: "Chole Bhature",
+                description: "A classic Punjabi dish, immensely popular in Chandigarh, consisting of spicy chickpeas (chole) and deep-fried bread (bhature). Known for its bold and tangy flavors, it’s a breakfast favorite. The chickpeas are cooked in a robust mix of spices and served hot with fluffy bhature. Accompaniments like pickles, onions, and green chutney elevate the taste. It’s a hearty and satisfying meal enjoyed by locals and visitors alike. The crispy texture of the bhature contrasts perfectly with the soft and spicy chole.",
+                image: "path/to/chole-bhature.jpg"
+            },
+            {
+                name: "Rajma Chawal",
+                description: "A staple comfort food in Chandigarh, featuring kidney beans (rajma) cooked in a flavorful tomato and onion gravy. Served with steamed rice, it’s a wholesome and nutritious meal. The dish is seasoned with a blend of Punjabi spices, giving it a signature rich and earthy taste. Popular for its simplicity and homely essence, it’s a favorite among families. Often garnished with coriander and paired with curd or pickles, it’s a soulful treat. Rajma Chawal holds a special place in the hearts of Chandigarh locals.",
+                image: "path/to/rajma-chawal.jpg"
+            },
+
+        ]
+    },
 ]
 
 export default stateFoods;
