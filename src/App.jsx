@@ -9,32 +9,25 @@ import Login from './Pages/Login'
 import Layout from './Layout'
 import NewsSection from './Pages/News'
 import Unesco from './Pages/Unesco'
+import stateFolkDances from './components/state-folkdance'
+
 const App = () => {
   return (
-<<<<<<< HEAD
-    <div>
-      <Unesco/>
-    </div>
-=======
-    <>
-      <Router>
+    <Router>
+      <Layout>
         <Routes>
-          <Route element={<Layout />}>
-            <Route path='/' element={<Home />} />
-            <Route path='/about' element={<AboutUs />} />
-            <Route path='/quiz' element={<QuizPage />} />
-            <Route path='/reviews' element={<Review />} />
-            <Route path='/news' element={<NewsSection />} />
-            <Route path='/login' element={<Login />} />
-            <Route path='/ques' element={<Ques />} />
-            <Route path='/unesco' element={<Unesco />} /> 
-          </Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/quiz" element={<QuizPage />} />
+          <Route path="/ques" element={<Ques />} />
+          <Route path="/review" element={<Review />} /> 
+          <Route path="/login" element={<Login />} />
+          <Route path="/news" element={<NewsSection />} />
+          <Route path="/unesco" element={<Unesco />} />
         </Routes>
-      </Router>
-    </>
->>>>>>> 0ddae95446cae9192dbf33db2bfa96d75356d147
+      </Layout>
+    </Router>
   )
 }
 
 export default App
-
