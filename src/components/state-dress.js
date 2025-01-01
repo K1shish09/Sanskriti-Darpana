@@ -321,6 +321,7 @@ const stateDress = [
     ]
  },
   
+
  {
     id: 'IN-RJ',
     Dresses: [
@@ -332,6 +333,8 @@ const stateDress = [
     ]
  },
   
+
+
  {
     id: 'IN-DL',
     Dresses: [
@@ -340,6 +343,31 @@ const stateDress = [
         { name: "Saree", description: "Traditional attire for women, often worn during festivals and special occasions, characterized by its elegant draping and intricate designs." },
         { name: "Sherwani", description: "A traditional long coat worn by men, often adorned with intricate embroidery and designs, typically worn during weddings and special occasions." },
         { name: "Delhi Jewelry", description: "Traditional jewelry made from gold and silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
+    ]
+ },
+
+
+ {
+    id: 'IN-HR',
+    Dresses: [
+        { name: "Damaan", description: "Traditional attire for women, consisting of a long skirt (Damaan) and a blouse, often adorned with intricate embroidery and designs." },
+        { name: "Kurta Pajama", description: "Traditional attire for men, consisting of a long tunic (Kurta) and loose-fitting trousers (Pajama), often worn during festivals and celebrations." },
+        { name: "Ghagra", description: "A traditional long skirt worn by women, often paired with a blouse and adorned with intricate embroidery and designs." },
+        { name: "Pagri", description: "A traditional headgear worn by men, often adorned with traditional patterns and designs." },
+        { name: "Haryana Jewelry", description: "Traditional jewelry made from gold and silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
+    ]
+ },
+ 
+
+ 
+ {
+    id: 'IN-JK',
+    Dresses: [
+        { name: "Pheran", description: "Traditional attire for both men and women, consisting of a long loose gown, often adorned with intricate embroidery and designs." },
+        { name: "Goncha", description: "Traditional attire for men, consisting of a long robe, often paired with a waistcoat and adorned with traditional patterns and designs." },
+        { name: "Kashmiri Saree", description: "A traditional saree known for its fine fabric and intricate embroidery." },
+        { name: "Kashmiri Shawl", description: "A traditional shawl known for its fine fabric and intricate embroidery, often worn by both men and women." },
+        { name: "Kashmiri Jewelry", description: "Traditional jewelry made from gold and silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
     ]
  },
 
