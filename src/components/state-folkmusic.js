@@ -264,7 +264,49 @@ const stateFolkmusics = [
         ]
     },
     
+    {
+        id: "IN-MP",
+        Folkmusics: [
+            { name: "Gaur Music", description: "Traditional music performed by the Gond tribe, depicting the hunting activities of the tribe." },
+            { name: "Tertali Tunes", description: "Folk tunes performed by the Kamar tribe, characterized by rhythmic beats and the use of small cymbals." },
+            { name: "Jawara Melodies", description: "Harvest melodies performed by the farmers, celebrating the abundance of crops with lively rhythms and traditional instruments." },
+            { name: "Matki Songs", description: "Traditional songs performed by women, characterized by balancing earthen pots on the head and graceful rhythms." },
+            { name: "Phulpati Music", description: "Folk music performed during the Holi festival, characterized by vibrant rhythms and colorful melodies." }
+        ]
+    },
     
+    {
+        id: 'IN-GJ',
+        Folkmusics: [
+            { name: "Garba Songs", description: "Traditional songs performed during the Navratri festival, characterized by circular rhythms and vibrant melodies." },
+            { name: "Dandiya Raas Tunes", description: "Folk tunes performed with sticks, where musicians create rhythmic patterns by striking the sticks together, often performed during Navratri." },
+            { name: "Tippani Melodies", description: "Traditional melodies performed by women, using long sticks to create rhythmic patterns, often performed during festivals and celebrations." },
+            { name: "Padhar Music", description: "Folk music performed by the Padhar community, depicting their daily life and cultural heritage through graceful rhythms." },
+            { name: "Hudo Songs", description: "Traditional songs performed by the Bharwad community, characterized by energetic rhythms and vibrant melodies." }
+        ]
+    },
+    
+    {
+        id: 'IN-DD',
+        Folkmusics: [
+            { name: "Mando Songs", description: "Traditional songs performed during weddings and festive occasions, characterized by graceful rhythms and accompanied by folk music." },
+            { name: "Verdigao Tunes", description: "Folk tunes performed by the fishing community, depicting their daily life and cultural heritage through rhythmic melodies." },
+            { name: "Garba Songs", description: "Traditional songs performed during the Navratri festival, characterized by circular rhythms and vibrant melodies." },
+            { name: "Dandiya Raas Tunes", description: "Folk tunes performed with sticks, where musicians create rhythmic patterns by striking the sticks together, often performed during Navratri." },
+            { name: "Tippani Melodies", description: "Traditional melodies performed by women, using long sticks to create rhythmic patterns, often performed during festivals and celebrations." }
+        ]
+    },
+     
+    {
+        id: 'IN-RJ',
+        Folkmusics: [
+            { name: "Ghoomar Songs", description: "Traditional songs performed by women, characterized by graceful rhythms and swirling melodies, often performed during festivals and celebrations." },
+            { name: "Kalbelia Tunes", description: "Folk tunes performed by the Kalbelia community, known for its energetic rhythms and snake-like melodies." },
+            { name: "Bhavai Melodies", description: "Traditional melodies where performers balance multiple pots on their heads, showcasing their skill and balance." },
+            { name: "Chari Music", description: "Folk music performed by women, balancing brass pots with lit lamps on their heads, characterized by graceful rhythms." },
+            { name: "Kachhi Ghodi Songs", description: "Traditional songs performed by men, depicting tales of local bandits and heroes, characterized by vibrant rhythms and energetic melodies." }
+        ]
+    },
     
     
     
