@@ -798,7 +798,28 @@ const stateInfo = [
 
  {id: 'IN-UT',
   lang_info:"Telugu is the official language of Andhra Pradesh and holds a significant value as it is one of the six classical languages of India. It is the largest spoken language within the Southern Central Dravidian language family and it is also utilized as the medium of instruction by the state government. The majority of the state’s population can speak and understand it. ",
-  
+  most_spoken_languages: [
+   {
+       "language": "Hindi",
+       "percentage": "70-75%",
+       "population": "approx. 8.4-9 million people"
+   },
+   {
+       "language": "Garhwali",
+       "percentage": "10-15%",
+       "population": "approx. 1.2-1.8 million people"
+   },
+   {
+       "language": "Kumaoni",
+       "percentage": "10-12%",
+       "population": "approx. 1.2-1.4 million people"
+   },
+   {
+       "language": "Punjabi",
+       "percentage": "3-5%",
+       "population": "approx. 0.36-0.6 million people"
+   }
+]
  },
 
  {id: 'IN-PB',
