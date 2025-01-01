@@ -10,12 +10,12 @@ import AgattiIsland from "../Assets/Heritage/AgattiIsland.jpeg";
 import Kavaratti from "../Assets/Heritage/Kavaratti.jpeg";
 
 import Kalpeni from "../Assets/Heritage/Kalpeni.jpeg";
-import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
-import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
-import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
-import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
+import Kaziranga from "../Assets/Heritage/Kaziranga.jpeg";
+import Manas from "../Assets/Heritage/Manas.jpeg";
+import KamakhyaTemple from "../Assets/Heritage/KamakhyaTemple.jpeg";
+import SivasagarMonuments from "../Assets/Heritage/SivasagarMonuments.jpeg";
 
-import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
+import Majuli from "../Assets/Heritage/Majuli.jpeg";
 import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
 import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
 import RossIsland from "../Assets/Heritage/Ross-Island.jpeg";
@@ -76,23 +76,23 @@ const stateheritage = [
         heritageSites: [
             {
                 name: "Kaziranga National Park",
-                description: "A UNESCO World Heritage Site, Kaziranga National Park is renowned for its population of the one-horned rhinoceros. Spanning across 430 sq km, it is also home to tigers, elephants, and diverse bird species. Located along the Brahmaputra River, the park's wetlands and grasslands are a sanctuary for wildlife. It is a significant hub for conservation and ecotourism in Assam. Jeep and elephant safaris offer visitors an immersive experience in the wilderness. The park symbolizes Assam’s commitment to preserving biodiversity."
+                description: "A UNESCO World Heritage Site, Kaziranga National Park is renowned for its population of the one-horned rhinoceros. Spanning across 430 sq km, it is also home to tigers, elephants, and diverse bird species. Located along the Brahmaputra River, the park's wetlands and grasslands are a sanctuary for wildlife. It is a significant hub for conservation and ecotourism in Assam. Jeep and elephant safaris offer visitors an immersive experience in the wilderness. The park symbolizes Assam’s commitment to preserving biodiversity.", images: Kaziranga
             },
             {
                 name: "Manas National Park",
-                description: "Another UNESCO World Heritage Site, Manas National Park is known for its breathtaking landscapes and rich biodiversity. Situated in the foothills of the Himalayas, it serves as a tiger and elephant reserve. The park is also famous for rare species like the pygmy hog and golden langur. Its rivers, grasslands, and forests make it a visual and ecological marvel. Manas is a crucial part of Assam's natural heritage and a conservation hotspot. It offers thrilling experiences like river rafting and wildlife safaris."
+                description: "Another UNESCO World Heritage Site, Manas National Park is known for its breathtaking landscapes and rich biodiversity. Situated in the foothills of the Himalayas, it serves as a tiger and elephant reserve. The park is also famous for rare species like the pygmy hog and golden langur. Its rivers, grasslands, and forests make it a visual and ecological marvel. Manas is a crucial part of Assam's natural heritage and a conservation hotspot. It offers thrilling experiences like river rafting and wildlife safaris.", images: Manas
             },
             {
                 name: "Kamakhya Temple",
-                description: "The Kamakhya Temple, located in Guwahati, is one of the most revered Shakti Peethas in India. Dedicated to Goddess Kamakhya, it is an important pilgrimage site, especially during the annual Ambubachi Mela. The temple's architecture reflects a blend of ancient Assamese and Hindu styles. It stands on Nilachal Hill, offering panoramic views of the Brahmaputra River. The shrine holds immense spiritual and cultural significance for devotees. Kamakhya Temple is a symbol of Assam's deep-rooted religious heritage."
+                description: "The Kamakhya Temple, located in Guwahati, is one of the most revered Shakti Peethas in India. Dedicated to Goddess Kamakhya, it is an important pilgrimage site, especially during the annual Ambubachi Mela. The temple's architecture reflects a blend of ancient Assamese and Hindu styles. It stands on Nilachal Hill, offering panoramic views of the Brahmaputra River. The shrine holds immense spiritual and cultural significance for devotees. Kamakhya Temple is a symbol of Assam's deep-rooted religious heritage.", images: KamakhyaTemple
             },
             {
                 name: "Sivasagar Monuments",
-                description: "Sivasagar is home to iconic monuments like Rang Ghar, Talatal Ghar, and Shiva Dol, showcasing Assam's Ahom dynasty's architectural brilliance. Rang Ghar, Asia’s oldest amphitheater, reflects the grandeur of Ahom culture. Talatal Ghar, a seven-story palace, includes secret tunnels and historical intrigue. Shiva Dol is one of the tallest Shiva temples in India, symbolizing spiritual devotion. These monuments are surrounded by the tranquil Sivasagar tank, adding to their charm. They are a testament to Assam’s rich historical legacy."
+                description: "Sivasagar is home to iconic monuments like Rang Ghar, Talatal Ghar, and Shiva Dol, showcasing Assam's Ahom dynasty's architectural brilliance. Rang Ghar, Asia’s oldest amphitheater, reflects the grandeur of Ahom culture. Talatal Ghar, a seven-story palace, includes secret tunnels and historical intrigue. Shiva Dol is one of the tallest Shiva temples in India, symbolizing spiritual devotion. These monuments are surrounded by the tranquil Sivasagar tank, adding to their charm. They are a testament to Assam’s rich historical legacy.", images: SivasagarMonuments
             },
             {
                 name: "Majuli Island",
-                description: "Majuli, the world's largest river island, is a cultural and spiritual hub of Assam. Located on the Brahmaputra River, it is famous for its Vaishnavite monasteries, known as Satras. These Satras, established by Srimanta Sankardev, preserve Assam's traditional art, music, and dance forms. Majuli's picturesque landscapes and unique biodiversity attract nature lovers. It is a living heritage site, blending culture, spirituality, and environmental harmony. The island showcases the sustainable lifestyle of the local Mishing community."
+                description: "Majuli, the world's largest river island, is a cultural and spiritual hub of Assam. Located on the Brahmaputra River, it is famous for its Vaishnavite monasteries, known as Satras. These Satras, established by Srimanta Sankardev, preserve Assam's traditional art, music, and dance forms. Majuli's picturesque landscapes and unique biodiversity attract nature lovers. It is a living heritage site, blending culture, spirituality, and environmental harmony. The island showcases the sustainable lifestyle of the local Mishing community.", images: Majuli
             }
         ]
 
