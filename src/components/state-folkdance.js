@@ -75,6 +75,29 @@ import ButtaBommalu from "src/Assets/Dance/Butta Bommalu.jpg";
 import DappuDance from "src/Assets/Dance/Dappu Dance.jpg";
 import LambadiDance from "src/Assets/Dance/Lambadi Dance.webp";
 
+import Garadi from "src/Assets/Dance/Garadi.jpg";
+import Kummi from "src/Assets/Dance/Kummi2.jpg";
+import Kolattam from "src/Assets/Dance/Kolattam.jpg";
+import Devaraattam from "src/Assets/Dance/Devaraattam.jpg";
+import Thappaattam from "src/Assets/Dance/Thappaattam.jpg";
+import PeriniShivatandavam from "src/Assets/Dance/Perini Shivatandavam.jpg";
+import LambadiDance from "src/Assets/Dance/Lambadi Dance.webp";
+import DappuDance from "src/Assets/Dance/Dappu Dance2.jpg";
+import GussadiDance from "src/Assets/Dance/Gussadi Dance.jpg";
+import BathukammaDance from "src/Assets/Dance/Butta Bommalu.jpg";
+import DekhniDance from "src/Assets/Dance/Dekhni Dance.webp";
+import FugdiDance from "src/Assets/Dance/Fugdi Dance.jpg";
+import DhaloDance from "src/Assets/Dance/Dhalo Dance.webp";
+import KunbiDance from "src/Assets/Dance/Kunbi Dance.webp";
+import CorridinhoDance from "src/Assets/Dance/Corridinho Dance.jpg";
+import PanthiDance from "src/Assets/Dance/Panthi Dance.jpg";
+import RautNacha from "src/Assets/Dance/Raut Nacha.avif";
+import SailaDance from "src/Assets/Dance/Saila Dance.jpg";
+import KarmaDance from "src/Assets/Dance/Karma Dance.jpg";
+import SuaNacha from "src/Assets/Dance/Sua Nacha.jpg";
+
+
+
 
 
 
@@ -269,11 +292,11 @@ const stateFolkdances = [
 
     id: 'IN-PY',
     Folkdances: [
-        { layout: , name: "Garadi", description: "A traditional dance performed during festivals and celebrations, characterized by vigorous movements and accompanied by folk music." },
-        { layout: , name: "Kummi", description: "A folk dance performed by women, characterized by rhythmic clapping and circular movements, often performed during festivals and social gatherings." },
-        { layout: , name: "Kolattam", description: "A traditional stick dance performed by women, characterized by rhythmic movements and the use of sticks to create rhythmic patterns." },
-        { layout: , name: "Devaraattam", description: "A traditional dance performed by the Devarattam community, characterized by graceful movements and accompanied by folk music." },
-        { layout: , name: "Thappaattam", description: "A folk dance performed by the agricultural community, characterized by rhythmic movements and accompanied by folk songs." }
+        { layout: Garadi, name: "Garadi", description: "A traditional dance performed during festivals and celebrations, characterized by vigorous movements and accompanied by folk music." },
+        { layout: Kummi, name: "Kummi", description: "A folk dance performed by women, characterized by rhythmic clapping and circular movements, often performed during festivals and social gatherings." },
+        { layout: Kolattam, name: "Kolattam", description: "A traditional stick dance performed by women, characterized by rhythmic movements and the use of sticks to create rhythmic patterns." },
+        { layout: Devaraattam, name: "Devaraattam", description: "A traditional dance performed by the Devarattam community, characterized by graceful movements and accompanied by folk music." },
+        { layout: Thappaattam, name: "Thappaattam", description: "A folk dance performed by the agricultural community, characterized by rhythmic movements and accompanied by folk songs." }
     ]
 
 },
@@ -282,11 +305,11 @@ const stateFolkdances = [
 
     id: "IN-TG",
     Folkdances: [
-        { layout: , name: "Perini Shivatandavam", description: "A traditional dance form dedicated to Lord Shiva, characterized by vigorous movements and performed by male dancers." },
-        { layout: , name: "Lambadi Dance", description: "A traditional dance of the Lambadi tribe, characterized by colorful costumes, intricate jewelry, and rhythmic movements, often depicting their daily life and culture." },
-        { layout: , name: "Dappu Dance", description: "A vibrant dance form performed with the 'Dappu' drum, characterized by rhythmic beats and energetic movements, often performed during festivals and celebrations." },
-        { layout: , name: "Gussadi Dance", description: "A tribal dance performed by the Gonds during the Dussehra festival, characterized by elaborate costumes and energetic movements." },
-        { layout: , name: "Bathukamma Dance", description: "A traditional dance performed by women during the Bathukamma festival, celebrating the floral festival with colorful flower arrangements and rhythmic movements." }
+        { layout: PeriniShivatandavam, name: "Perini Shivatandavam", description: "A traditional dance form dedicated to Lord Shiva, characterized by vigorous movements and performed by male dancers." },
+        { layout: LambadiDance, name: "Lambadi Dance", description: "A traditional dance of the Lambadi tribe, characterized by colorful costumes, intricate jewelry, and rhythmic movements, often depicting their daily life and culture." },
+        { layout: DappuDance, name: "Dappu Dance", description: "A vibrant dance form performed with the 'Dappu' drum, characterized by rhythmic beats and energetic movements, often performed during festivals and celebrations." },
+        { layout: GussadiDance, name: "Gussadi Dance", description: "A tribal dance performed by the Gonds during the Dussehra festival, characterized by elaborate costumes and energetic movements." },
+        { layout: BathukammaDance, name: "Bathukamma Dance", description: "A traditional dance performed by women during the Bathukamma festival, celebrating the floral festival with colorful flower arrangements and rhythmic movements." }
     ]
 
 },
@@ -295,11 +318,11 @@ const stateFolkdances = [
 
     id: "IN-GA",
     Folkdances: [
-        { layout: , name: "Dekhni Dance", description: "A semi-classical dance form that combines traditional and Western music, often performed by women during festive occasions." },
-        { layout: , name: "Fugdi Dance", description: "A traditional dance performed by women during Hindu festivals, characterized by fast rhythmic movements and performed in a circular formation." },
-        { layout: , name: "Dhalo Dance", description: "A folk dance performed by women during the wedding season, characterized by graceful movements and accompanied by folk songs." },
-        { layout: , name: "Kunbi Dance", description: "A tribal dance performed by the Kunbi community, showcasing their daily life and culture through rhythmic movements and traditional music." },
-        { layout: , name: "Corridinho Dance", description: "A traditional Portuguese dance form that has been adapted by the Goan community, characterized by lively and energetic movements." }
+        { layout: DekhniDance, name: "Dekhni Dance", description: "A semi-classical dance form that combines traditional and Western music, often performed by women during festive occasions." },
+        { layout: FugdiDance, name: "Fugdi Dance", description: "A traditional dance performed by women during Hindu festivals, characterized by fast rhythmic movements and performed in a circular formation." },
+        { layout: DhaloDance, name: "Dhalo Dance", description: "A folk dance performed by women during the wedding season, characterized by graceful movements and accompanied by folk songs." },
+        { layout: KunbiDance, name: "Kunbi Dance", description: "A tribal dance performed by the Kunbi community, showcasing their daily life and culture through rhythmic movements and traditional music." },
+        { layout: CorridinhoDance, name: "Corridinho Dance", description: "A traditional Portuguese dance form that has been adapted by the Goan community, characterized by lively and energetic movements." }
     ]
 
 },
@@ -308,11 +331,11 @@ const stateFolkdances = [
 
     id: "IN-CT",
     Folkdances: [
-        { layout: , name: "Panthi Dance", description: "A traditional dance performed by the Satnami community, characterized by rhythmic movements and devotional songs." },
-        { layout: , name: "Raut Nacha", description: "A folk dance performed by the Yadav community, celebrating the victory of Lord Krishna over the demon king Kansa." },
-        { layout: , name: "Saila Dance", description: "A stick dance performed by young boys during the post-harvest season, characterized by rhythmic movements and vibrant music." },
-        { layout: , name: "Karma Dance", description: "A tribal dance performed during the Karma festival, celebrating the harvest season with lively movements and traditional music." },
-        { layout: , name: "Sua Nacha", description: "A traditional dance performed by women, characterized by graceful movements and accompanied by folk songs." }
+        { layout: PanthiDance, name: "Panthi Dance", description: "A traditional dance performed by the Satnami community, characterized by rhythmic movements and devotional songs." },
+        { layout: RautNacha, name: "Raut Nacha", description: "A folk dance performed by the Yadav community, celebrating the victory of Lord Krishna over the demon king Kansa." },
+        { layout: SailaDance, name: "Saila Dance", description: "A stick dance performed by young boys during the post-harvest season, characterized by rhythmic movements and vibrant music." },
+        { layout: KarmaDance, name: "Karma Dance", description: "A tribal dance performed during the Karma festival, celebrating the harvest season with lively movements and traditional music." },
+        { layout: SuaNacha, name: "Sua Nacha", description: "A traditional dance performed by women, characterized by graceful movements and accompanied by folk songs." }
     ]
 
 },
