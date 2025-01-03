@@ -47,7 +47,34 @@ import HojagiriDance from "src/Assets/Dance/Hojagiri Dance.jpg";
 import GariaDance from "src/Assets/Dance/Garia Dance.jpg";
 import LebangBoomaniDance from "src/Assets/Dance/Lebang Boomani Dance.jpg";
 import MamitaDance from "src/Assets/Dance/Mamita dance.jpg";
-import WangalaDance from "src/Assets/Dance/Wangala Dance.jpg"
+import WangalaDance from "src/Assets/Dance/Wangala Dance.jpg";
+
+import NongkremDance from "src/Assets/Dance/Nongkrem Dance.jpg";
+import ShadSukMynsiem from "src/Assets/Dance/Shad Suk Mynsiem.webp";
+import WangalaDance from "src/Assets/Dance/Wangala Dance2.jpg";
+import LahoDance from "src/Assets/Dance/Laho Dance.jpg";
+import DoregataDance from "src/Assets/Dance/Doregata Dance.jpg";
+import SinghiChham from "src/Assets/Dance/Singhi Chham.jpg";
+import YakCham from "src/Assets/Dance/Yak Cham.png";
+import MaruniDance from "src/Assets/Dance/Maruni Dance.jpg";
+import TashiSabdo from "src/Assets/Dance/Tashi Sabdo.jpg";
+import ChuFaatDance from "src/Assets/Dance/Chu Faat Dance.jpg";
+import Kathakali from "src/Assets/Dance/Kathakali.jpg";
+import Mohiniyattam from "src/Assets/Dance/Mohiniyattam.jpg";
+import Theyyam from "src/Assets/Dance/Theyyam.jpg";
+import Thiruvathirakali from "src/Assets/Dance/Thiruvathirakali.jpg";
+import Kalaripayattu from "src/Assets/Dance/Kalaripayattu.jpg";
+import Bharatanatyam from "src/Assets/Dance/bharatnatyam'.jpg";
+import Karagattam from "src/Assets/Dance/Karagattam.webp";
+import Kummi from "src/Assets/Dance/Kummi.jpg";
+import Mayilattam from "src/Assets/Dance/Mayilattam.jpg";
+import Oyilattam from "src/Assets/Dance/Oyilattam.jpg";
+import Kuchipudi from "src/Assets/Dance/Kuchipudi.jpg";
+import Veeranatyam from "src/Assets/Dance/Veeranatyam.jpg";
+import ButtaBommalu from "src/Assets/Dance/Butta Bommalu.jpg";
+import DappuDance from "src/Assets/Dance/Dappu Dance.jpg";
+import LambadiDance from "src/Assets/Dance/Lambadi Dance.webp";
+
 
 
 
@@ -176,11 +203,11 @@ const stateFolkdances = [
 
     id: "IN-ML",
     Folkdances: [
-        { layout: , name: "Nongkrem Dance", description: "A traditional dance performed by the Khasi tribe during the Nongkrem festival, which is a harvest thanksgiving festival." },
-        { layout: , name: "Shad Suk Mynsiem", description: "Also known as the 'Dance of Joyful Hearts', it is performed by the Khasi tribe to celebrate the arrival of spring." },
-        { layout: , name: "Wangala Dance", description: "A harvest dance performed by the Garo tribe, celebrating the Wangala festival, which marks the end of the agricultural year." },
-        { layout: , name: "Laho Dance", description: "A traditional dance performed by the Jaintia tribe, usually during festivals and social gatherings, characterized by its lively and rhythmic movements." },
-        { layout: , name: "Doregata Dance", description: "A playful dance performed by the Garo tribe, where dancers try to knock off each other's headgear using their heads." }
+        { layout: NongkremDance, name: "Nongkrem Dance", description: "A traditional dance performed by the Khasi tribe during the Nongkrem festival, which is a harvest thanksgiving festival." },
+        { layout: ShadSukMynsiem, name: "Shad Suk Mynsiem", description: "Also known as the 'Dance of Joyful Hearts', it is performed by the Khasi tribe to celebrate the arrival of spring." },
+        { layout: WangalaDance, name: "Wangala Dance", description: "A harvest dance performed by the Garo tribe, celebrating the Wangala festival, which marks the end of the agricultural year." },
+        { layout: LahoDance, name: "Laho Dance", description: "A traditional dance performed by the Jaintia tribe, usually during festivals and social gatherings, characterized by its lively and rhythmic movements." },
+        { layout: DoregataDance, name: "Doregata Dance", description: "A playful dance performed by the Garo tribe, where dancers try to knock off each other's headgear using their heads." }
     ]
 
 },
@@ -189,11 +216,11 @@ const stateFolkdances = [
 
     id: "IN-SK",
     Folkdances: [
-        { layout: , name: "Singhi Chham", description: "A traditional dance performed by the Bhutia community, depicting the snow lion, which is a symbol of Sikkim." },
-        { layout: , name: "Yak Cham", description: "A dance that portrays the movements of the yak, performed during the Losar festival, symbolizing prosperity and well-being." },
-        { layout: , name: "Maruni Dance", description: "A popular dance among the Nepali community in Sikkim, performed during the Tihar festival, characterized by vibrant costumes and lively music." },
-        { layout: , name: "Tashi Sabdo", description: "A traditional dance performed to celebrate the Tibetan New Year, showcasing the rich cultural heritage of the Tibetan community in Sikkim." },
-        { layout: , name: "Chu Faat Dance", description: "A ritualistic dance performed by the Lepcha community, invoking the blessings of Mount Kanchenjunga and other sacred peaks." }
+        { layout: SinghiChham, name: "Singhi Chham", description: "A traditional dance performed by the Bhutia community, depicting the snow lion, which is a symbol of Sikkim." },
+        { layout: YakCham, name: "Yak Cham", description: "A dance that portrays the movements of the yak, performed during the Losar festival, symbolizing prosperity and well-being." },
+        { layout: MaruniDance, name: "Maruni Dance", description: "A popular dance among the Nepali community in Sikkim, performed during the Tihar festival, characterized by vibrant costumes and lively music." },
+        { layout: TashiSabdo, name: "Tashi Sabdo", description: "A traditional dance performed to celebrate the Tibetan New Year, showcasing the rich cultural heritage of the Tibetan community in Sikkim." },
+        { layout: ChuFaatDance, name: "Chu Faat Dance", description: "A ritualistic dance performed by the Lepcha community, invoking the blessings of Mount Kanchenjunga and other sacred peaks." }
     ]
 
 },
@@ -203,11 +230,11 @@ const stateFolkdances = [
 
     id: "IN-KL",
     Folkdances: [
-        { layout: , name: "Kathakali", description: "A classical dance-drama known for its elaborate costumes, intricate makeup, and expressive gestures, depicting stories from Hindu epics." },
-        { layout: , name: "Mohiniyattam", description: "A classical dance form performed by women, characterized by graceful movements and emotive expressions, often narrating stories of love and devotion." },
-        { layout: , name: "Theyyam", description: "A ritualistic dance form performed in temples, where dancers embody deities and spirits, known for its vibrant costumes and dramatic performances." },
-        { layout: , name: "Thiruvathirakali", description: "A traditional dance performed by women during the festival of Thiruvathira, characterized by rhythmic movements and graceful steps." },
-        { layout: , name: "Kalaripayattu", description: "An ancient martial art form that combines combat techniques with dance-like movements, showcasing agility, strength, and coordination." }
+        { layout: Kathakali, name: "Kathakali", description: "A classical dance-drama known for its elaborate costumes, intricate makeup, and expressive gestures, depicting stories from Hindu epics." },
+        { layout: Mohiniyattam, name: "Mohiniyattam", description: "A classical dance form performed by women, characterized by graceful movements and emotive expressions, often narrating stories of love and devotion." },
+        { layout: Theyyam, name: "Theyyam", description: "A ritualistic dance form performed in temples, where dancers embody deities and spirits, known for its vibrant costumes and dramatic performances." },
+        { layout: Thiruvathirakali, name: "Thiruvathirakali", description: "A traditional dance performed by women during the festival of Thiruvathira, characterized by rhythmic movements and graceful steps." },
+        { layout: Kalaripayattu, name: "Kalaripayattu", description: "An ancient martial art form that combines combat techniques with dance-like movements, showcasing agility, strength, and coordination." }
     ]
 
 },
@@ -216,11 +243,11 @@ const stateFolkdances = [
 
     id: "IN-TN",
     Folkdances: [
-        { layout: , name: "Bharatanatyam", description: "A classical dance form known for its fixed upper torso, bent legs, and intricate footwork, often depicting Hindu religious themes and spiritual ideas." },
-        { layout: , name: "Karagattam", description: "A traditional folk dance performed in praise of the rain goddess Mariamman, characterized by balancing pots on the head and rhythmic movements." },
-        { layout: , name: "Kummi", description: "A folk dance performed by women, characterized by rhythmic clapping and circular movements, often performed during festivals and social gatherings." },
-        { layout: , name: "Mayilattam", description: "Also known as the Peacock Dance, it is performed by dancers dressed as peacocks, showcasing graceful and vibrant movements." },
-        { layout: , name: "Oyilattam", description: "A traditional dance form performed by men, characterized by energetic movements and the use of handkerchiefs, often performed during festivals and celebrations." }
+        { layout: Bharatanatyam, name: "Bharatanatyam", description: "A classical dance form known for its fixed upper torso, bent legs, and intricate footwork, often depicting Hindu religious themes and spiritual ideas." },
+        { layout: Karagattam, name: "Karagattam", description: "A traditional folk dance performed in praise of the rain goddess Mariamman, characterized by balancing pots on the head and rhythmic movements." },
+        { layout: Kummi, name: "Kummi", description: "A folk dance performed by women, characterized by rhythmic clapping and circular movements, often performed during festivals and social gatherings." },
+        { layout: Mayilattam, name: "Mayilattam", description: "Also known as the Peacock Dance, it is performed by dancers dressed as peacocks, showcasing graceful and vibrant movements." },
+        { layout: Oyilattam, name: "Oyilattam", description: "A traditional dance form performed by men, characterized by energetic movements and the use of handkerchiefs, often performed during festivals and celebrations." }
     ]
 
 },
@@ -229,11 +256,11 @@ const stateFolkdances = [
 
     id: "IN-AP",
     Folkdances: [
-        { layout: , name: "Kuchipudi", description: "A classical dance form originating from Andhra Pradesh, known for its graceful movements, expressive gestures, and dramatic storytelling." },
-        { layout: , name: "Veeranatyam", description: "A traditional dance performed in honor of Lord Shiva, characterized by vigorous movements and the use of traditional instruments like the 'Veerabhadra' drum." },
-        { layout: , name: "Butta Bommalu", description: "A folk dance where performers wear large, colorful masks and costumes, depicting various characters and stories from mythology and folklore." },
-        { layout: , name: "Dappu Dance", description: "A vibrant dance form performed with the 'Dappu' drum, characterized by rhythmic beats and energetic movements, often performed during festivals and celebrations." },
-        { layout: , name: "Lambadi Dance", description: "A traditional dance of the Lambadi tribe, characterized by colorful costumes, intricate jewelry, and rhythmic movements, often depicting their daily life and culture." }
+        { layout: Kuchipudi, name: "Kuchipudi", description: "A classical dance form originating from Andhra Pradesh, known for its graceful movements, expressive gestures, and dramatic storytelling." },
+        { layout: Veeranatyam, name: "Veeranatyam", description: "A traditional dance performed in honor of Lord Shiva, characterized by vigorous movements and the use of traditional instruments like the 'Veerabhadra' drum." },
+        { layout: ButtaBommalu, name: "Butta Bommalu", description: "A folk dance where performers wear large, colorful masks and costumes, depicting various characters and stories from mythology and folklore." },
+        { layout: DappuDance, name: "Dappu Dance", description: "A vibrant dance form performed with the 'Dappu' drum, characterized by rhythmic beats and energetic movements, often performed during festivals and celebrations." },
+        { layout: LambadiDance, name: "Lambadi Dance", description: "A traditional dance of the Lambadi tribe, characterized by colorful costumes, intricate jewelry, and rhythmic movements, often depicting their daily life and culture." }
     ]
 
 },
