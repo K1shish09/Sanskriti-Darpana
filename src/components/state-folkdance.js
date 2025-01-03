@@ -96,6 +96,28 @@ import SailaDance from "src/Assets/Dance/Saila Dance.jpg";
 import KarmaDance from "src/Assets/Dance/Karma Dance.jpg";
 import SuaNacha from "src/Assets/Dance/Sua Nacha.jpg";
 
+import Yakshagana from "src/Assets/Dance/Yakshagana.jpg";
+import DolluKunitha from "src/Assets/Dance/Dollu Kunitha.jpg";
+import BhoothaAradhane from "src/Assets/Dance/Bhootha Aradhane.jpg";
+import Veeragase from "src/Assets/Dance/Veeragase.jpg";
+import Kamsale from "src/Assets/Dance/Kamsale.jpg";
+import Odissi from "src/Assets/Dance/Chhau.jpg";
+import ChhauDance from "src/Assets/Dance/Chhau Dance.webp";
+import GhumuraDance from "src/Assets/Dance/Ghumura Dance.jpg";
+import GotipuaDance from "src/Assets/Dance/Gotipua Dance.jpg";
+import DalkhaiDance from "src/Assets/Dance/Dalkhai Dance.jpg";
+import TarpaDance from "src/Assets/Dance/Tarpa Dance.jpg";
+import DholDance from "src/Assets/Dance/Dhol Dance.webp";
+import BhagoriaDance from "src/Assets/Dance/Bhagoria Dance.jpg";
+import PavriNach from "src/Assets/Dance/Pavri Nach.jpg";
+import GheriaDance from "src/Assets/Dance/Gheria Dance.jpg";
+import Lavani from "src/Assets/Dance/Lavani.jpg";
+import Tamasha from "src/Assets/Dance/Tamasha.jpg";
+import KoliDance from "src/Assets/Dance/Koli Dance.jpg";
+import DhangariGaja from "src/Assets/Dance/DhangariGaja.jpg";
+import Powada from "src/Assets/Dance/Powada.jpg";
+
+
 
 
 
@@ -344,11 +366,11 @@ const stateFolkdances = [
 
     id: "IN-KA",
     Folkdances: [
-        { layout: , name: "Yakshagana", description: "A traditional theatre form combining dance, music, dialogue, and costumes, depicting stories from Hindu epics." },
-        { layout: , name: "Dollu Kunitha", description: "A drum dance performed by the Kuruba community, characterized by vigorous movements and rhythmic beats." },
-        { layout: , name: "Bhootha Aradhane", description: "A ritualistic dance form performed to appease spirits, known for its elaborate costumes and dramatic performances." },
-        { layout: , name: "Veeragase", description: "A traditional dance form performed during festivals, characterized by vigorous movements and depicting the heroism of Veerabhadra." },
-        { layout: , name: "Kamsale", description: "A folk dance performed by devotees of Lord Mahadeshwara, characterized by rhythmic movements and the use of cymbals." }
+        { layout: Yakshagana, name: "Yakshagana", description: "A traditional theatre form combining dance, music, dialogue, and costumes, depicting stories from Hindu epics." },
+        { layout: DolluKunitha, name: "Dollu Kunitha", description: "A drum dance performed by the Kuruba community, characterized by vigorous movements and rhythmic beats." },
+        { layout: BhoothaAradhane, name: "Bhootha Aradhane", description: "A ritualistic dance form performed to appease spirits, known for its elaborate costumes and dramatic performances." },
+        { layout: Veeragase, name: "Veeragase", description: "A traditional dance form performed during festivals, characterized by vigorous movements and depicting the heroism of Veerabhadra." },
+        { layout: Kamsale, name: "Kamsale", description: "A folk dance performed by devotees of Lord Mahadeshwara, characterized by rhythmic movements and the use of cymbals." }
     ]
 
 },
@@ -357,11 +379,11 @@ const stateFolkdances = [
 
     id: "IN-OR",
     Folkdances: [
-        { layout: , name: "Odissi", description: "A classical dance form originating from Odisha, known for its graceful movements, expressive gestures, and intricate footwork." },
-        { layout: , name: "Chhau Dance", description: "A semi-classical dance form with martial, tribal, and folk origins, performed in the eastern Indian states of Odisha, West Bengal, and Jharkhand." },
-        { layout: , name: "Ghumura Dance", description: "A traditional dance performed by the Kalahandi district, characterized by vigorous movements and the use of the Ghumura drum." },
-        { layout: , name: "Gotipua Dance", description: "A traditional dance performed by young boys dressed as girls, known for its acrobatic movements and expressive gestures." },
-        { layout: , name: "Dalkhai Dance", description: "A folk dance performed by the tribal women of western Odisha, characterized by rhythmic movements and vibrant costumes." }
+        { layout: Odissi, name: "Odissi", description: "A classical dance form originating from Odisha, known for its graceful movements, expressive gestures, and intricate footwork." },
+        { layout: ChhauDance, name: "Chhau Dance", description: "A semi-classical dance form with martial, tribal, and folk origins, performed in the eastern Indian states of Odisha, West Bengal, and Jharkhand." },
+        { layout: GhumuraDance, name: "Ghumura Dance", description: "A traditional dance performed by the Kalahandi district, characterized by vigorous movements and the use of the Ghumura drum." },
+        { layout: GotipuaDance, name: "Gotipua Dance", description: "A traditional dance performed by young boys dressed as girls, known for its acrobatic movements and expressive gestures." },
+        { layout: DalkhaiDance, name: "Dalkhai Dance", description: "A folk dance performed by the tribal women of western Odisha, characterized by rhythmic movements and vibrant costumes." }
     ]
 
 },
@@ -370,27 +392,26 @@ const stateFolkdances = [
 
     id: 'IN-DN',
     Folkdances: [
-        { layout: , name: "Tarpa Dance", description: "A traditional dance performed by the Varli tribe, characterized by circular movements and accompanied by the Tarpa, a wind instrument." },
-        { layout: , name: "Dhol Dance", description: "A folk dance performed with the Dhol drum, characterized by vigorous movements and rhythmic beats." },
-        { layout: , name: "Bhagoria Dance", description: "A traditional dance performed during the Bhagoria festival, characterized by lively movements and vibrant music." },
-        { layout: , name: "Pavri Nach", description: "A traditional dance performed by the Kokna tribe, characterized by rhythmic movements and accompanied by the Pavri, a wind instrument." },
-        { layout: , name: "Gheria Dance", description: "A folk dance performed by the Dhodia tribe, characterized by energetic movements and traditional music." }
+        { layout: TarpaDance, name: "Tarpa Dance", description: "A traditional dance performed by the Varli tribe, characterized by circular movements and accompanied by the Tarpa, a wind instrument." },
+        { layout: DholDance, name: "Dhol Dance", description: "A folk dance performed with the Dhol drum, characterized by vigorous movements and rhythmic beats." },
+        { layout: BhagoriaDance, name: "Bhagoria Dance", description: "A traditional dance performed during the Bhagoria festival, characterized by lively movements and vibrant music." },
+        { layout: PavriNach, name: "Pavri Nach", description: "A traditional dance performed by the Kokna tribe, characterized by rhythmic movements and accompanied by the Pavri, a wind instrument." },
+        { layout: GheriaDance, name: "Gheria Dance", description: "A folk dance performed by the Dhodia tribe, characterized by energetic movements and traditional music." }
     ]
 
 },
 
- {
-
-    id: "IN-OR",
+{
+    "id": "IN-MH",
     Folkdances: [
-        { layout: , name: "Odissi", description: "A classical dance form originating from Odisha, known for its graceful movements, expressive gestures, and intricate footwork." },
-        { layout: , name: "Chhau Dance", description: "A semi-classical dance form with martial, tribal, and folk origins, performed in the eastern Indian states of Odisha, West Bengal, and Jharkhand." },
-        { layout: , name: "Ghumura Dance", description: "A traditional dance performed by the Kalahandi district, characterized by vigorous movements and the use of the Ghumura drum." },
-        { layout: , name: "Gotipua Dance", description: "A traditional dance performed by young boys dressed as girls, known for its acrobatic movements and expressive gestures." },
-        { layout: , name: "Dalkhai Dance", description: "A folk dance performed by the tribal women of western Odisha, characterized by rhythmic movements and vibrant costumes." }
+        { layout: Lavani, name: "Lavani", description: "A traditional folk dance of Maharashtra known for its powerful rhythm, swift movements, and expressive gestures, performed to the beats of the dholki drum."},
+        { layout: Tamasha, name: "Tamasha", description: "A lively folk performance art form that includes a mix of dance, drama, and music, popular in rural Maharashtra."},
+        { layout: KoliDance, name: "Koli Dance", description: "A traditional dance performed by the Koli fisherfolk community of Maharashtra, reflecting their lifestyle and maritime traditions."},
+        { layout: DhangariGaja, name: "Dhangari Gaja", description: "A folk dance performed by the Dhangar community to honor their deity, Biruba, featuring vigorous movements and traditional attire."},
+        { layout: Powada, name: "Powada", description: "A dramatic form of folk dance and singing, narrating tales of heroism, especially those of Maratha warriors like Shivaji Maharaj."}
     ]
+}
 
-},
 
 {
 
