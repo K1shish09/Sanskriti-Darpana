@@ -20,9 +20,9 @@ const AboutUs = () => {
                             <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white">
                                 <img src="" alt="User 1" className="w-full h-full object-cover" />
                             </div>
-                            <h3 className="mt-4 text-xl font-semibold">Kashishr</h3>
+                            <h3 className="mt-4 text-xl font-semibold">Kashish Dadghaye</h3>
                             <p className="mt-2 text-sm text-gray-200 text-center">
-                                A passionate Web Developer with a love for coding and design. She is a dedicated B.Sc. IT student with a talent for creativity and precision. Her expertise shines through in her work, especially when she designs and develops captivating review pages.
+                                A passionate Web Developer with a love for coding and design. She is a dedicated B.Sc. IT student. Her expertise shines through in her work, especially when she designs and develops captivating Quiz, News Page.
                             </p>
                         </div>
 
