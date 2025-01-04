@@ -3,7 +3,45 @@ stateInfo.js
 const stateInfo = [
  {
     id: 'IN-AN',
-    lang_info:"The Andamanese languages are the various languages spoken by the indigenous peoples of the Andaman Islands in the Indian Ocean. There are two known Andamanese language families, Great Andamanese and Ongan, as well as two presumed but unattested languages, Sentinelese and Jangil.Although the languages in the Andaman Islands were once assumed to be in the same language family, it is now widely accepted that Great Andamanese and Ongan have no genealogical relationship. Thus, the term Andamanese is now a geographic label."
+    lang_info:"The Andamanese languages are the various languages spoken by the indigenous peoples of the Andaman Islands in the Indian Ocean. There are two known Andamanese language families, Great Andamanese and Ongan, as well as two presumed but unattested languages, Sentinelese and Jangil.Although the languages in the Andaman Islands were once assumed to be in the same language family, it is now widely accepted that Great Andamanese and Ongan have no genealogical relationship. Thus, the term Andamanese is now a geographic label.",
+    most_spoken_languages: [
+        {
+            "language": "Hindi",
+            "percentage": "32-35%",
+            "population": "approx. 150,000-170,000 people"
+        },
+        {
+            "language": "Bengali",
+            "percentage": "25-30%",
+            "population": "approx. 120,000-145,000 people"
+        },
+        {
+            "language": "Tamil",
+            "percentage": "15-18%",
+            "population": "approx. 65,000-80,000 people"
+        },
+        {
+            "language": "Telugu",
+            "percentage": "7-9%",
+            "population": "approx. 30,000-45,000 people"
+        },
+        {
+            "language": "Nicobarese",
+            "percentage": "5-6%",
+            "population": "approx. 20,000-25,000 people"
+        },
+        {
+            "language": "Malayalam",
+            "percentage": "3-4%",
+            "population": "approx. 12,000-15,000 people"
+        },
+        {
+            "language": "Other Tribal and Indigenous Languages",
+            "percentage": "2-3%",
+            "population": "approx. 8,000-12,000 people"
+        }
+    ]
+    
  }, 
     
  {
