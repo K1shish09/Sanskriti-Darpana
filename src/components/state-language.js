@@ -4,7 +4,7 @@ const stateInfo = [
  {
     id: 'IN-AN',
     lang_info:"The Andamanese languages are the various languages spoken by the indigenous peoples of the Andaman Islands in the Indian Ocean. There are two known Andamanese language families, Great Andamanese and Ongan, as well as two presumed but unattested languages, Sentinelese and Jangil.Although the languages in the Andaman Islands were once assumed to be in the same language family, it is now widely accepted that Great Andamanese and Ongan have no genealogical relationship. Thus, the term Andamanese is now a geographic label."
- },
+ }, 
     
  {
     id: "IN-LD",

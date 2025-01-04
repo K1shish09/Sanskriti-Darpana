@@ -72,7 +72,7 @@ Total_Districts:[ 33],
  },
  {
     id: "IN-AR",
-    dist_info: "As of February 2024, the Indian state Arunachal Pradesh comprised 27 districts, not including Itanagar capital complex, with more districts proposed. Most of the districts are inhabited by various indigenous tribes.",
+    dist_info: "As of February 2024, the Indian state Arunachal Pradesh comprised 27 districts, not including Itanagar capital complex, with more districts proposed. Most of the districts are inhabited by various indigenous tribes. The districts are further divided into sub-divisions, circles, and villages. The districts, with their headquarters, are listed below:",
     Capital: ["Itanagar"],
 Total_Districts: [25],
     districts: [
@@ -341,7 +341,7 @@ Districts:[
  
  {
     id: "IN-AP",
-    dist_info:"Arunachal Pradesh is made up of 26 districts. Every district of the state is governed by a district collector who also looks after the requirements of the regional population. Given below are the names of the 16 districts of Arunachal Pradesh: ",
+    dist_info:"Arunachal Pradesh is made up of 26 districts. Every district of the state is governed by a district collector who also looks after the requirements of the regional population. Given below are the names of the 16 districts of Arunachal Pradesh along with their headquarters:",
     Capital: ["Amaravati"],
     Total_Districts: [26],
     Districts:[
