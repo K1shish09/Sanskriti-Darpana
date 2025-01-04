@@ -46,7 +46,25 @@ const stateInfo = [
     
  {
     id: "IN-LD",
-    lang_info:"English is the official language of the union territory.[4] Jeseri (also known as Dweep Basha), a dialect of Malayalam, is widely spoken language in the Amindivi and Laccadive islands. Mahl, a dialect of Dhivehi, is spoken in Minicoy.[75][76] There are minor variations of the same dialect across islands.[77]Malayalam, written in the Malayalam script, was introduced as the primary language of Lakshadweep during the British Raj. This policy has been continued since independence, with Malayalam serving as a link language on all islands, including Minicoy.[78] Previously, a type of Arabic script, known as the Ponnani or Arabi Malayalam script, was used as the writing system."
+    lang_info:"English is the official language of the union territory.[4] Jeseri (also known as Dweep Basha), a dialect of Malayalam, is widely spoken language in the Amindivi and Laccadive islands. Mahl, a dialect of Dhivehi, is spoken in Minicoy.[75][76] There are minor variations of the same dialect across islands.[77]Malayalam, written in the Malayalam script, was introduced as the primary language of Lakshadweep during the British Raj. This policy has been continued since independence, with Malayalam serving as a link language on all islands, including Minicoy.[78] Previously, a type of Arabic script, known as the Ponnani or Arabi Malayalam script, was used as the writing system.",
+    most_spoken_languages: [
+        {
+            "language": "Malayalam",
+            "percentage": "95-97%",
+            "population": "approx. 65,000-68,000 people"
+        },
+        {
+            "language": "Jeseri (Dweep Bhasha)",
+            "percentage": "2-3%",
+            "population": "approx. 1,500-2,000 people"
+        },
+        {
+            "language": "Mahls",
+            "percentage": "1-2%",
+            "population": "approx. 800-1,200 people"
+        }
+    ]
+    
  },
  {
     id: "IN-AS",
