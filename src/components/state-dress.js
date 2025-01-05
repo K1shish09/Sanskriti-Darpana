@@ -58,6 +58,32 @@ import Shuruval from "../Assets/Attire/Shuruval.webp";
 import SikkimeseOrnaments from "../Assets/Attire/Sikkimese Ornaments.jpg";
 import Pangden from "../Assets/Attire/Pangden.jpg";
 
+import Mundu1 from "../Assets/Attire/Mundu1.JPG";
+import KasavuSaree from "../Assets/Attire/Kasavu Saree.webp";
+import SettuMundu from "../Assets/Attire/Settu Mundu.jpg";
+import MunduNeriyathum from "../Assets/Attire/Mundu Neriyathum.webp";
+import KeralaJewelry from "../Assets/Attire/Kerala Jewelry.jpg";
+import Saree2 from "../Assets/Attire/Saree2.webp";
+import Veshti from "../Assets/Attire/Veshti.jpg";
+import PavadaiDavani from "../Assets/Attire/Pavadai Davani.webp";
+import KanchipuramSaree from "../Assets/Attire/Kanchipuram Saree.jpg";
+import TamilJewelry from "../Assets/Attire/Tamil Jewelry.jpg";
+import Saree3 from "../Assets/Attire/Saree3.jpg";
+import Dhoti from "../Assets/Attire/Dhoti.jpeg";
+import LangaVoni from "../Assets/Attire/Langa Voni.jpg";
+import GadwalSaree from "../Assets/Attire/Gadwal Saree.jpg";
+import AndhraJewelry from "../Assets/Attire/Andhra Jewelry.jpg";
+import Saree4 from "../Assets/Attire/Saree4.jpg";
+import Veshti1 from "../Assets/Attire/Veshti1.jpg";
+import PavadaiDavani1 from "../Assets/Attire/Pavadai Davani1.jpg";
+import PuducherrySare from "../Assets/Attire/Puducherry Sare.jpg";
+import PuducherryJewelry from "../Assets/Attire/Puducherry Jewelry.jpg";
+import Saree5 from "../Assets/Attire/Saree5.webp";
+import Dhoti1 from "../Assets/Attire/Dhoti1.jpg";
+import  from "";
+import  from "";
+import  from "";
+
 
 const stateDress = [
    {
@@ -187,11 +213,11 @@ const stateDress = [
  {
     id: "IN-KL",
     Dresses: [
-        { name: "Mundu", description: "Traditional attire for men, consisting of a white cloth wrapped around the waist and legs, often paired with a shirt." },
-        { name: "Kasavu Saree", description: "Traditional attire for women, consisting of a white saree with a gold border, often worn during festivals and special occasions." },
-        { name: "Settu Mundu", description: "A traditional two-piece garment worn by women, consisting of a wraparound skirt and a blouse, often adorned with gold jewelry." },
-        { name: "Mundu Neriyathum", description: "Traditional attire for women, consisting of a white cloth wrapped around the waist and legs, often paired with a blouse and adorned with gold jewelry." },
-        { name: "Kerala Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
+        { layout: Mundu1, name: "Mundu", description: "Traditional attire for men, consisting of a white cloth wrapped around the waist and legs, often paired with a shirt." },
+        { layout: KasavuSaree, name: "Kasavu Saree", description: "Traditional attire for women, consisting of a white saree with a gold border, often worn during festivals and special occasions." },
+        { layout: SettuMundu, name: "Settu Mundu", description: "A traditional two-piece garment worn by women, consisting of a wraparound skirt and a blouse, often adorned with gold jewelry." },
+        { layout: MunduNeriyathum, name: "Mundu Neriyathum", description: "Traditional attire for women, consisting of a white cloth wrapped around the waist and legs, often paired with a blouse and adorned with gold jewelry." },
+        { layout: KeralaJewelry, name: "Kerala Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
     ]
 
  },
@@ -201,11 +227,11 @@ const stateDress = [
  {
     id: "IN-TN",
     Dresses: [
-        { name: "Saree", description: "Traditional attire for women, often worn during festivals and special occasions, characterized by its elegant draping and intricate designs." },
-        { name: "Veshti", description: "Traditional attire for men, consisting of a white cloth wrapped around the waist and legs, often paired with a shirt." },
-        { name: "Pavadai Davani", description: "A traditional two-piece garment worn by young girls, consisting of a skirt and a blouse, often adorned with gold jewelry." },
-        { name: "Kanchipuram Saree", description: "A traditional silk saree from the Kanchipuram region, known for its rich fabric and elaborate patterns." },
-        { name: "Tamil Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
+        { layout: Saree2, name: "Saree", description: "Traditional attire for women, often worn during festivals and special occasions, characterized by its elegant draping and intricate designs." },
+        { layout: Veshti, name: "Veshti", description: "Traditional attire for men, consisting of a white cloth wrapped around the waist and legs, often paired with a shirt." },
+        { layout: PavadaiDavani, name: "Pavadai Davani", description: "A traditional two-piece garment worn by young girls, consisting of a skirt and a blouse, often adorned with gold jewelry." },
+        { layout: KanchipuramSaree, name: "Kanchipuram Saree", description: "A traditional silk saree from the Kanchipuram region, known for its rich fabric and elaborate patterns." },
+        { layout: TamilJewelry, name: "Tamil Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
 
     ]
  },
@@ -214,11 +240,11 @@ const stateDress = [
  {
     id: "IN-AP",
     Dresses: [
-        { name: "Saree", description: "Traditional attire for women, often worn during festivals and special occasions, characterized by its elegant draping and intricate designs." },
-        { name: "Dhoti", description: "Traditional attire for men, consisting of a long piece of cloth wrapped around the waist and legs, often paired with a shirt." },
-        { name: "Langa Voni", description: "A traditional two-piece garment worn by young girls, consisting of a skirt and a blouse, often adorned with gold jewelry." },
-        { name: "Gadwal Saree", description: "A traditional saree from the Gadwal region, known for its fine cotton fabric and intricate designs." },
-        { name: "Andhra Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
+        { layout: Saree3, name: "Saree", description: "Traditional attire for women, often worn during festivals and special occasions, characterized by its elegant draping and intricate designs." },
+        { layout: Dhoti, name: "Dhoti", description: "Traditional attire for men, consisting of a long piece of cloth wrapped around the waist and legs, often paired with a shirt." },
+        { layout: LangaVoni, name: "Langa Voni", description: "A traditional two-piece garment worn by young girls, consisting of a skirt and a blouse, often adorned with gold jewelry." },
+        { layout: GadwalSaree, name: "Gadwal Saree", description: "A traditional saree from the Gadwal region, known for its fine cotton fabric and intricate designs." },
+        { layout: AndhraJewelry, name: "Andhra Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
     ]
  },
   
@@ -227,11 +253,11 @@ const stateDress = [
  {
     id: 'IN-PY',
     Dresses: [
-        { name: "Saree", description: "Traditional attire for women, often worn during festivals and special occasions, characterized by its elegant draping and intricate designs." },
-        { name: "Veshti", description: "Traditional attire for men, consisting of a white cloth wrapped around the waist and legs, often paired with a shirt." },
-        { name: "Pavadai Davani", description: "A traditional two-piece garment worn by young girls, consisting of a skirt and a blouse, often adorned with gold jewelry." },
-        { name: "Puducherry Saree", description: "A traditional saree from the Puducherry region, known for its fine fabric and intricate designs." },
-        { name: "Puducherry Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
+        { layout: Saree4, name: "Saree", description: "Traditional attire for women, often worn during festivals and special occasions, characterized by its elegant draping and intricate designs." },
+        { layout: Veshti1, name: "Veshti", description: "Traditional attire for men, consisting of a white cloth wrapped around the waist and legs, often paired with a shirt." },
+        { layout: PavadaiDavani1, name: "Pavadai Davani", description: "A traditional two-piece garment worn by young girls, consisting of a skirt and a blouse, often adorned with gold jewelry." },
+        { layout: PuducherrySare, name: "Puducherry Saree", description: "A traditional saree from the Puducherry region, known for its fine fabric and intricate designs." },
+        { layout: PuducherryJewelry, name: "Puducherry Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
     ]
 
  },
@@ -242,11 +268,11 @@ const stateDress = [
  {
     id: "IN-TG",
     Dresses: [
-        { name: "Saree", description: "Traditional attire for women, often worn during festivals and special occasions, characterized by its elegant draping and intricate designs." },
-        { name: "Dhoti", description: "Traditional attire for men, consisting of a long piece of cloth wrapped around the waist and legs, often paired with a shirt." },
-        { name: "Langa Voni", description: "A traditional two-piece garment worn by young girls, consisting of a skirt and a blouse, often adorned with gold jewelry." },
-        { name: "Pochampally Saree", description: "A traditional saree from the Pochampally region, known for its fine fabric and intricate designs." },
-        { name: "Telangana Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
+        { layout: Saree5, name: "Saree", description: "Traditional attire for women, often worn during festivals and special occasions, characterized by its elegant draping and intricate designs." },
+        { layout: Dhoti1, name: "Dhoti", description: "Traditional attire for men, consisting of a long piece of cloth wrapped around the waist and legs, often paired with a shirt." },
+        { layout: , name: "Langa Voni", description: "A traditional two-piece garment worn by young girls, consisting of a skirt and a blouse, often adorned with gold jewelry." },
+        { layout: , name: "Pochampally Saree", description: "A traditional saree from the Pochampally region, known for its fine fabric and intricate designs." },
+        { layout: , name: "Telangana Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
     ]
  },
   
