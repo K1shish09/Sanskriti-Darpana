@@ -1,26 +1,24 @@
 import durgapuja from "../Assets/Festivals/durgapuja.jpg";
 import kalipuja from "../Assets/Festivals/kalipuja.jpg";
 import poila from "../Assets/Festivals/Poila Baisakh.jpg";
-import saraswatipuja from "../Assets/Festivals/saraswatipuja.jpg";
-import ganesh from "../Assets/Festivals/Ganesh.jpg";
+import saraswatipuja from "../Assets/Festivals/Saraswatipuja.jpg";
+import ganesh from "../Assets/Festivals/Ganesh .jpg";
 import eid from "../Assets/Festivals/Eid.jpg";
-import holi from "../Assets/Festivals/Holi.jpg";
+import holi from "../Assets/Festivals/Holi .jpg";
 import diwali from "../Assets/Festivals/Diwali.jpg";
 import baisakhi from "../Assets/Festivals/Baisakhi.jpg";
 import losar from "../Assets/Festivals/Losar.jpg";
 import solung from "../Assets/Festivals/Solung.jpg";
 import nyokum from "../Assets/Festivals/Nyokum.jpg";
-import navratri from "../Assets/Festivals/Navratri.jpg";
+import navratri from "../Assets/Festivals/Navratri .jpg";
 import christmas from "../Assets/Festivals/christmas.jpg";
 import janmashtami from "../Assets/Festivals/janmashtami.jpg";
 import lohri from "../Assets/Festivals/lohri.jpg";
-import carnival from '../Assets/Festivals/carnival.jpg';
 import makar from '../Assets/Festivals/makar.jpg';
 import dussera from '../Assets/Festivals/dussera.jpg';
 import rathyatra from '../Assets/Festivals/rathyatra.jpg';
 import gurupurab from '../Assets/Festivals/gurupurab.jpg';
-import chhath from '../Assets/Festivals/chhath.jpg';
-import shivratri from '../Assets/Festivals/shivratri.jpg';
+import chhath from '../Assets/Festivals/chhath .jpg';
 import nariyal from '../Assets/Festivals/nariyal.jpg';
 import rose from "../Assets/Festivals/rose.jpg";
 import tihar from "../Assets/Festivals/tihar.jpg";
@@ -31,13 +29,10 @@ import gudi from "../Assets/Festivals/gudi.jpg";
 import gita from "../Assets/Festivals/gita.jpg";
 import mopin from "../Assets/Festivals/mopin.jpg";
 import nuakhai from "../Assets/Festivals/nuakhai.jpg";
-import sitamata from "../Assets/Festivals/sitamata.jpg";
+import sitamata from "../Assets/Festivals/stamata.jpg";
 import mp from "../Assets/Festivals/mp.jpg";
 import ramnavami from "../Assets/Festivals/ramnavami.jpg";
-import sir from "../Assets/Festivals/subhash sir.jpg";
-import island from "../Assets/Festivals/island.jpg";
-import beach from "../Assets/Festivals/beach.jpg";
-import minicoy from "../Assets/Festivals/minicoy.jpg";
+import minicoy from "../Assets/Festivals/minicoy .jpg";
 import lakshdweep from "../Assets/Festivals/lakshdweep.jpg";
 import magh from "../Assets/Festivals/magh.jpg";
 import bihu from "../Assets/Festivals/bihu.jpg";
@@ -45,17 +40,17 @@ import tea from "../Assets/Festivals/tea.jpg";
 import hornbill from "../Assets/Festivals/hornbill.jpg";
 import sekrenyi from "../Assets/Festivals/sekrenyi.jpg";
 import aoling from "../Assets/Festivals/aoling.jpg";
-import moatsu from "../Assets/Festivals/moatsu.jpg";
+import moatsu from "../Assets/Festivals/moatsu .jpg";
 import ngada from "../Assets/Festivals/ngada.jpg";
 import yaoshang from "../Assets/Festivals/yaoshang.jpg";
 import lai from "../Assets/Festivals/lai.jpg";
-import ningol from "../Assets/Festivals/ningol.jpg";
-import mera from "../Assets/Festivals/mera.jpg";
+import ningol from "../Assets/Festivals/nariyal.jpg";
+import mera from "../Assets/Festivals/mera .jpg";
 import chera from "../Assets/Festivals/chera.jpg";
 import kharchi from "../Assets/Festivals/kharchi.jpg";
 import buddha from "../Assets/Festivals/buddha.jpg";
 import chapchar from "../Assets/Festivals/chapchar.jpg";
-import kut from "../Assets/Festivals/kut.jpg";
+import kut from "../Assets/Festivals/karaga.jpg";
 import wanghla from "../Assets/Festivals/wanghla.jpg";
 import vishu from "../Assets/Festivals/vishu.jpg";
 import pongal from "../Assets/Festivals/pongal.jpg";
@@ -80,7 +75,11 @@ import thaipusam from "../Assets/Festivals/thaipusam.jpg";
 import behdi from "../Assets/Festivals/behdi.jpg";
 import ryngku from "../Assets/Festivals/ryngku.jpg";
 import shadsuk from "../Assets/Festivals/shadsuk.jpg";
-
+import island from "../Assets/Festivals/island.jpg";
+import shivratri from '../Assets/Festivals/shivratri.jpg';
+import sir from "../Assets/Festivals/subhash sir.jpg";
+import carnival from '../Assets/Festivals/carnival.jpg';
+import beach from "../Assets/Festivals/beach.jpg";
 
 const stateFestivals = [
  {
@@ -371,7 +370,7 @@ const stateFestivals = [
         { layout:navratri, name: "Navratri", month: "September/October", description: "Navratri is one of the most celebrated festivals in Gujarat, dedicated to the worship of Goddess Durga. The festival spans nine nights, during which devotees fast, offer prayers, and participate in vibrant Garba and Dandiya dances. Cities like Ahmedabad and Vadodara host grand festivities, with people dressed in traditional attire. The festival culminates on Dussehra, symbolizing the victory of good over evil." },
         { layout:diwali, name: "Diwali", month: "October/November", description: "Diwali, the Festival of Lights, is celebrated with immense enthusiasm in Gujarat. Homes and streets are illuminated with oil lamps (diyas), and people burst fireworks to mark the triumph of light over darkness. The celebration includes worshipping Goddess Lakshmi for prosperity, as well as the exchange of sweets and gifts among families. It’s also the beginning of the new year for many Gujaratis, celebrated as Bestu Varas." },
         {  layout:makar, name: "Makar Sankranti", month: "January", description: "Makar Sankranti in Gujarat marks the transition of the sun into Capricorn and is celebrated with great fervor. The festival is famous for the kite-flying tradition, where people of all ages gather on rooftops to fly colorful kites, competing to cut each other's kites. Special sweets like tilgul (made from sesame and jaggery) are shared among friends and family. The day symbolizes a harvest festival and is marked by community celebrations." },
-        { layoutjanmashtami, name: "Janmashtami", month: "August/September", description: "Janmashtami celebrates the birth of Lord Krishna and is widely observed in Gujarat, especially in cities like Dwarka. The festival involves fasting, devotional singing, and dramatic reenactments of Lord Krishna’s life. A popular tradition in Gujarat is the ‘Dahi Handi’ competition, where groups of young men form human pyramids to break a pot filled with yogurt. It is a time for devotion, celebration, and community participation." },
+        { layout:janmashtami, name: "Janmashtami", month: "August/September", description: "Janmashtami celebrates the birth of Lord Krishna and is widely observed in Gujarat, especially in cities like Dwarka. The festival involves fasting, devotional singing, and dramatic reenactments of Lord Krishna’s life. A popular tradition in Gujarat is the ‘Dahi Handi’ competition, where groups of young men form human pyramids to break a pot filled with yogurt. It is a time for devotion, celebration, and community participation." },
         {  layout:rathyatra, name: "Rath Yatra", month: "June/July", description: "The Rath Yatra in Ahmedabad is one of the most famous and grand festivals of Gujarat, dedicated to Lord Jagannath. The festival features a procession of large chariots carrying the idols of Lord Jagannath, Lord Balabhadra, and Devi Subhadra. Devotees pull the chariots through the streets with ropes, singing devotional songs and chanting prayers. The event attracts millions of pilgrims and visitors and is a symbol of faith and devotion." }
     ]
     

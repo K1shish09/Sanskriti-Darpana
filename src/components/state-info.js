@@ -1,4 +1,4 @@
-import andaman  from "../Assets/Map/andaman.jpg"
+
 import arunachal from "../Assets/Map/arunachal_pradesh.jpg"
 import nagaland from "../Assets/Map/nagaland.jpg"
 import odisha from "../Assets/Map/odisha.png"
@@ -6,31 +6,32 @@ import punjab from "../Assets/Map/PUNJAB.jpg"
 import andhra from "../Assets/Map/andhra.jpg"
 import assam from "../Assets/Map/Assam Map.jpg"
 import bihar from "../Assets/Map/Bihar Map.jpg"
-import chandigarh from "../Assets/Map/Chandigarh.jpg"
-import chhattisgarh from "../Assets/Map/Chhattisgarh.jpg"
-import Dadra  from "../Assets/Map/Dadra and Nagar Haveli.jpg"
-import delhi from "../Assets/Map/Delhi.jpg"
-import Gujarat from "../Assets/Map/Gujarat.jpg"
+import chandigarh from "../Assets/Map/Chandigarh .jpg";
+import chhattisgarh from "../Assets/Map/Chhattisgarh Map.jpg"
+import Dadra  from "../Assets/Map/Dadra.jpg"
+import delhi from "../Assets/Map/Delhi .jpg"
+import Gujarat from "../Assets/Map/Gujarat .jpg"
 import haryana from "../Assets/Map/Haryana.jpg"
-import himachal from "../Assets/Map/Himachal Pradesh.jpg"
-import jharkhand from "../Assets/Map/Jharkhand.jpg"
+import himachal from "../Assets/Map/Himachal Pradesh .jpg"
+import jharkhand from "../Assets/Map/Jharkhand .jpg"
 import jm from "../Assets/Map/Jm.jpg"
-import kerala from "../Assets/Map/Kerala.jpg"
-import laksh from "../Assets/Map/Lakshadweep.jpg"
-import madhya from "../Assets/Map/Madhya Pradesh.jpg"
+import kerala from "../Assets/Map/Kerala .jpg"
+import laksh from "../Assets/Map/Lakshadweep .jpg"
+import madhya from "../Assets/Map/Madhya Pradesh .jpg"
 import maharashtra from "../Assets/Map/Maharashtra.jpg"
 import manipur from "../Assets/Map/Manipur.jpg"
 import meghalaya from "../Assets/Map/Meghalaya.jpg"
 import mizoram from "../Assets/Map/Mizoram.jpg"
-import rajasthan from "../Assets/Map/Rajasthan.jpg"
-import sikkim from "../Assets/Map/Sikkim.jpg"
+import rajasthan from "../Assets/Map/Rajasthan .jpg"
+import sikkim from "../Assets/Map/Sikkim .jpg"
 import tamil from "../Assets/Map/Tamil Nadu.jpg"
 import telangana from "../Assets/Map/Telangana.jpg"
-import tripura from "../Assets/Map/Tripura.jpg"
-import uttar from "../Assets/Map/Uttar Pradesh.jpg"
-import uttarakhand from "../Assets/Map/Uttarakhand.jpg"
-import west from "../Assets/Map/West Bengal.jpg"
+import tripura from "../Assets/Map/Tripura .jpg"
+import uttar from "../Assets/Map/Uttar Pradesh .jpg"
+import uttarakhand from "../Assets/Map/Uttarakhand .jpg"
+import west from "../Assets/Map/West Bengal .jpg"
 import karnataka from "../Assets/Map/karnataka.jpg"
+import andaman  from "../Assets/Map/andaman.jpg"
 const stateInfo = [
  {
     id: 'IN-AN',
@@ -134,7 +135,7 @@ const stateInfo = [
  
  {
     id: "IN-GA",
-    layout:goa,
+    layout:telangana,
     state_info:"Goa, the smallest state in India by area, is renowned for its stunning beaches, vibrant culture, and Portuguese heritage. Located on the western coast along the Arabian Sea, Goa spans an area of 3,702 square kilometers and is bordered by Maharashtra to the north, Karnataka to the east and south, and the Arabian Sea to the west. Panaji is the state capital, while Vasco da Gama is its largest city. Known as the Pearl of the Orient, Goa is a blend of scenic beauty, colonial architecture, and modern tourism, making it one of India's most popular destinations.Historically, Goa has been influenced by several dynasties, including the Mauryas, Satavahanas, and Chalukyas, before being annexed by the Portuguese in 1510. The Portuguese ruled Goa for over 450 years, leaving a lasting imprint on its culture, architecture, and cuisine. Goa was liberated from Portuguese control in 1961 and became the 25th state of India on May 30, 1987. The state’s unique blend of Indian and Portuguese traditions is evident in its festivals, language, and lifestyle.Tourism is the backbone of Goa's economy, attracting millions of domestic and international visitors annually. The state is famous for its pristine beaches like Calangute, Baga, Anjuna, and Palolem, as well as its vibrant nightlife and water sports. Goa’s historical sites, including the Basilica of Bom Jesus, a UNESCO World Heritage Site, and the forts of Aguada and Chapora, reflect its rich colonial past. The state also hosts vibrant festivals like Carnival and Shigmo, which showcase its diverse cultural heritage."
  },
  
