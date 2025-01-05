@@ -1,24 +1,27 @@
-import React, { useState } from "react";
-import "tailwindcss/tailwind.css";
+import React, { useState } from 'react';
 import Introduction from "../components/Introduction.jsx";
+import Districts from '../components/Districts.jsx';
+import Religion from '../components/Religion.jsx';
+import Attire from '../components/Attire.jsx';
+import Food from '../components/Food.jsx';
+import Festival from '../components/Festival.jsx';
+import Dance from '../components/Dance.jsx';
+import Music from '../components/Music.jsx';
+import Floraandfauna from '../components/Floraandfauna.jsx';
+import Heritagesites from '../components/Heritagesites.jsx';
+import Languages from '../components/Languages.jsx';
+
 
 const Intro = () => {
   const [selected, setSelected] = useState("Introduction");
   const [isOpen, setIsOpen] = useState(false);
 
-  const menuItems = [
-    "Introduction",
-    "Languages",
-    "Districts",
-    "Religion",
-    "Traditional Attire", 
-    "Food",
-    "Festivals",
-    "Folk Dance",
-    "Folk Music",
-    "Flora and Fauna",
-    "Heritage Sites",
-  ];
+  const menuItems = ["Introduction", "Districts","Languages", "Religion", "Traditional Attire", "Food", "Festival", "Folk Dance", "Folk Music", "Flora and Fauna", "Heritage Sites"];
+
+  const handleScroll = (id) => {
+    setSelected(id);
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+  };
 
   return (
     <div className="flex flex-col md:flex-row h-screen font-sans">
@@ -31,7 +34,7 @@ const Intro = () => {
             <li
               key={index}
               className={`cursor-pointer p-3 rounded-lg hover:bg-pink-600 transition duration-300 text-lg font-semibold transform hover:scale-105 ${selected === item ? "bg-pink-800" : ""}`}
-              onClick={() => setSelected(item)}
+              onClick={() => handleScroll(item.replace(/\s+/g, ''))}
             >
               <span className="flex items-center">
                 <span className="mr-3 text-xl text-white">▶</span>
@@ -49,10 +52,53 @@ const Intro = () => {
       >
         {isOpen ? "Close" : "Menu"}
       </button>
-
+     
       {/* Main Content */}
-      <div className="flex-1 p-6">
-        <Introduction selected={selected} />
+      <div className="flex-1 p-6 overflow-y-auto">
+        <div>
+         
+      
+      <button
+  type="button"
+  className="fixed top-4 left-[1300px] px-6 py-3 bg-pink-600 text-white font-bold rounded-lg shadow-lg z-10"
+>
+  Start Quiz
+</button>
+
+        </div>
+        <div id="Introduction">
+          <Introduction selected="Introduction" />
+        </div>
+        <div id="Districts">
+          <Districts selected="Districts" />
+        </div>
+        <div id="Languages">
+          <Languages selected="Languages" />
+        </div>
+        <div id="Religion">
+          <Religion selected="Religion" />
+        </div>
+        <div id="TraditionalAttire">
+          <Attire selected="Traditional Attire" />
+        </div>
+        <div id="Food">
+          <Food selected="Food" />
+        </div>
+        <div id="Festival">
+          <Festival selected="Festival" />
+        </div>
+        <div id="FolkDance">
+          <Dance selected="Folk Dance" />
+        </div>
+        <div id="FolkMusic">
+          <Music selected="Folk Music" />
+        </div>
+        <div id="FloraandFauna">
+          <Floraandfauna selected="Flora and Fauna" />
+        </div>
+        <div id="HeritageSites">
+          <Heritagesites selected="Heritage Sites" />
+        </div>
       </div>
     </div>
   );

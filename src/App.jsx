@@ -11,13 +11,15 @@ import NewsSection from './Pages/News'
 import Unesco from './Pages/Unesco'
 import Intro from './Pages/Intro'
 
+
 const App = () => {
   return (
     <Router>
       <Routes>
-       
+      
+       {/* <Route path='/' element={<Intro />} />  */}
         <Route element={<Layout />}>
-         
+           
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<AboutUs />} />
           <Route path='/quiz' element={<QuizPage />} />
@@ -34,3 +36,4 @@ const App = () => {
 }
 
 export default App
+

@@ -1,4 +1,4 @@
-stateInfo.js
+
 
 const stateDistrict = [
  {
