@@ -42,6 +42,22 @@ import Kawrchei from "../Assets/Attire/Kawrchei.webp";
 import Ngotekherh from "../Assets/Attire/Ngotekherh.jpg";
 import MizoOrnaments from "../Assets/Attire/Mizo Ornaments.jpg";
 
+import Rignai from "../Assets/Attire/Rignai.webp";
+import Risa from "../Assets/Attire/Risa.jpeg";
+import KamchwlwiBorok from "../Assets/Attire/Kamchwlwi Borok.jpg";
+import TripuriOrnaments from "../Assets/Attire/Tripuri Ornaments.jpg";
+import Pachra from "../Assets/Attire/Pachra.jpg";
+import Jainsem from "../Assets/Attire/Jainsem.jpg";
+import Dhara from "../Assets/Attire/Dhara.jpg";
+import Jymphong from "../Assets/Attire/Jymphong.jpg";
+import MeghalayaOrnaments from "../Assets/Attire/Meghalaya Ornaments.jpg";
+import Tapmohkhlieh from "../Assets/Attire/Tapmohkhlieh.png";
+import Bakhu from "../Assets/Attire/Bakhu.jpg";
+import Kho from "../Assets/Attire/Kho.jpg";
+import Shuruval from "../Assets/Attire/Shuruval.webp";
+import SikkimeseOrnaments from "../Assets/Attire/Sikkimese Ornaments.jpg";
+import Pangden from "../Assets/Attire/Pangden.jpg";
+
 
 const stateDress = [
    {
@@ -135,22 +151,22 @@ const stateDress = [
  {
     id: "IN-TR",
     Dresses: [
-        { name: "Rignai", description: "Traditional attire for women, consisting of a wraparound skirt, often paired with a blouse and adorned with beads and jewelry." },
-        { name: "Risa", description: "A traditional shawl worn by women, often paired with a Rignai and adorned with intricate patterns." },
-        { name: "Kamchwlwi Borok", description: "Traditional attire for men, consisting of a loincloth and a shawl, often adorned with traditional patterns and designs." },
-        { name: "Tripuri Ornaments", description: "Traditional jewelry worn by the Tripuri people, often made from beads, silver, and other materials." },
-        { name: "Pachra", description: "Traditional attire for women, consisting of a wraparound skirt, often paired with a blouse and adorned with beads and jewelry." }
+        { layout: Rignai, name: "Rignai", description: "Traditional attire for women, consisting of a wraparound skirt, often paired with a blouse and adorned with beads and jewelry." },
+        { layout: Risa, name: "Risa", description: "A traditional shawl worn by women, often paired with a Rignai and adorned with intricate patterns." },
+        { layout: KamchwlwiBorok, name: "Kamchwlwi Borok", description: "Traditional attire for men, consisting of a loincloth and a shawl, often adorned with traditional patterns and designs." },
+        { layout: TripuriOrnaments, name: "Tripuri Ornaments", description: "Traditional jewelry worn by the Tripuri people, often made from beads, silver, and other materials." },
+        { layout: Pachra, name: "Pachra", description: "Traditional attire for women, consisting of a wraparound skirt, often paired with a blouse and adorned with beads and jewelry." }
     ]
  },
 
  {
     id: "IN-ML",
     Dresses: [
-        { name: "Jainsem", description: "Traditional attire for women, consisting of a wraparound skirt, often paired with a blouse and adorned with beads and jewelry." },
-        { name: "Dhara", description: "A traditional dress worn by women during festivals and special occasions, characterized by its vibrant colors and intricate patterns." },
-        { name: "Jymphong", description: "Traditional attire for men, consisting of a sleeveless coat, often paired with a dhoti and adorned with traditional patterns and designs." },
-        { name: "Meghalaya Ornaments", description: "Traditional jewelry worn by the people of Meghalaya, often made from beads, silver, and other materials." },
-        { name: "Tapmohkhlieh", description: "A traditional headscarf worn by women, often paired with traditional attire, providing both style and modesty." }
+        { layout: Jainsem, name: "Jainsem", description: "Traditional attire for women, consisting of a wraparound skirt, often paired with a blouse and adorned with beads and jewelry." },
+        { layout: Dhara, name: "Dhara", description: "A traditional dress worn by women during festivals and special occasions, characterized by its vibrant colors and intricate patterns." },
+        { layout: Jymphong, name: "Jymphong", description: "Traditional attire for men, consisting of a sleeveless coat, often paired with a dhoti and adorned with traditional patterns and designs." },
+        { layout: MeghalayaOrnaments, name: "Meghalaya Ornaments", description: "Traditional jewelry worn by the people of Meghalaya, often made from beads, silver, and other materials." },
+        { layout: Tapmohkhlieh, name: "Tapmohkhlieh", description: "A traditional headscarf worn by women, often paired with traditional attire, providing both style and modesty." }
     ]
  },
 
@@ -158,11 +174,11 @@ const stateDress = [
  {
     id: "IN-SK",
     Dresses: [
-        { name: "Bakhu", description: "Traditional attire for both men and women, consisting of a loose cloak, often paired with a belt and adorned with traditional patterns and designs." },
-        { name: "Kho", description: "A traditional dress worn by women, characterized by its elegant draping and intricate patterns." },
-        { name: "Shuruval", description: "Traditional attire for men, consisting of a long coat and trousers, often adorned with traditional patterns and designs." },
-        { name: "Sikkimese Ornaments", description: "Traditional jewelry worn by the people of Sikkim, often made from beads, silver, and other materials." },
-        { name: "Pangden", description: "A traditional apron worn by married women, characterized by its vibrant colors and intricate patterns." }
+        { layout: Bakhu, name: "Bakhu", description: "Traditional attire for both men and women, consisting of a loose cloak, often paired with a belt and adorned with traditional patterns and designs." },
+        { layout: Kho, name: "Kho", description: "A traditional dress worn by women, characterized by its elegant draping and intricate patterns." },
+        { layout: Shuruval, name: "Shuruval", description: "Traditional attire for men, consisting of a long coat and trousers, often adorned with traditional patterns and designs." },
+        { layout: SikkimeseOrnaments, name: "Sikkimese Ornaments", description: "Traditional jewelry worn by the people of Sikkim, often made from beads, silver, and other materials." },
+        { layout: Pangden, name: "Pangden", description: "A traditional apron worn by married women, characterized by its vibrant colors and intricate patterns." }
     ]
  },
  
