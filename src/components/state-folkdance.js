@@ -1,177 +1,179 @@
-stateInfo.js
 
 
 
 
-import NicobareseDance from "src/Assets/Dance/Nicobarese Dance.jpg";
-import LungiDance from "src/Assets/Dance/Lungi Dance.jpg";
-import PaloDance from "src/Assets/Dance/Palo Dance.jpg";
-import SareeDance from "src/Assets/Dance/Saree Dance.jpg";
-import ShellDance from "src/Assets/Dance/Shell Dance.png";
-import LavaDance from "src/Assets/Dance/Lava Dance.jpg";
-import KolkaliDance from "src/Assets/Dance/Kolkali Dance.jpg";
-import ParichakaliDance from "src/Assets/Dance/Parichakali Dance.jpg";
-import OpanaDance from "src/Assets/Dance/Opana Dance.jpg";
-import DandiDance from "src/Assets/Dance/Dandi Dance.jpg";
-import BihuDance from "src/Assets/Dance/Bihu Dance.jpg";
-import SattriyaDance from "src/Assets/Dance/Sattriya Dance.jpg";
-import BhortalDance from "src/Assets/Dance/Bhortal Dance.jpg";
-import JhumurDance from "src/Assets/Dance/Jhumur Dance.webp";
-import DeodhaniDance from "src/Assets/Dance/Deodhani Dance.jpg";
-import BardoChham from "src/Assets/Dance/Bardo Chham.jpg";
-import WanchoDance from "src/Assets/Dance/Wancho Dance.jpg";
-import PasiKongki from "src/Assets/Dance/Pasi Kongki.jpg";
-import PopirDance from "src/Assets/Dance/Popir Dance.jpg";
-import PonungDance from "src/Assets/Dance/Ponung Dance.jpg";
-import BengaliBaul from "src/Assets/Dance/Bengali Baul.jpg";
-import Chhau from "src/Assets/Dance/Chhau.jpg";
-import Jatra from "src/Assets/Dance/Jatra.jpg";
-import Gambhira from "src/Assets/Dance/Gambhira.jpg";
-import SanthaliDance from "src/Assets/Dance/Santhali Dance.jpg";
-import ChangLo from "src/Assets/Dance/Chang Lo.jpg";
-import ZeliangDance from "src/Assets/Dance/Zeliang Dance.jpg";
-import AolingDance from "src/Assets/Dance/Aoling Dance.jpg";
-import SekrenyiDance from "src/Assets/Dance/Sekrenyi Dance.jpg";
-import MoatsuDance from "src/Assets/Dance/Moatsu Dance.jpg";
-import RasLeela from "src/Assets/Dance/Ras Leela.jpg";
-import PungCholom from "src/Assets/Dance/Pung Cholam.jpg";
-import ThangTa from "src/Assets/Dance/Thang Ta.jpg";
-import LaiHaraoba from "src/Assets/Dance/Lai Haroba.jpg";
-import KhambaThoibiDance from "src/Assets/Dance/Khamba Thoibi Dance.jpg";
-import CherawDance from "src/Assets/Dance/Cheraw Dance.jpg";
-import KhuallamDance from "src/Assets/Dance/Khuallam Dance.jpg";
-import ChheihlamDance from "src/Assets/Dance/Chheihlam Dance.jpg";
-import ChaiDance from "src/Assets/Dance/Chai Dance.jpg";
-import SarlamkaiDance from "src/Assets/Dance/Sarlamkai Dance.jpg"
-import HojagiriDance from "src/Assets/Dance/Hojagiri Dance.jpg";
-import GariaDance from "src/Assets/Dance/Garia Dance.jpg";
-import LebangBoomaniDance from "src/Assets/Dance/Lebang Boomani Dance.jpg";
-import MamitaDance from "src/Assets/Dance/Mamita dance.jpg";
-import WangalaDance from "src/Assets/Dance/Wangala Dance.jpg";
 
-import NongkremDance from "src/Assets/Dance/Nongkrem Dance.jpg";
-import ShadSukMynsiem from "src/Assets/Dance/Shad Suk Mynsiem.webp";
-import WangalaDance from "src/Assets/Dance/Wangala Dance2.jpg";
-import LahoDance from "src/Assets/Dance/Laho Dance.jpg";
-import DoregataDance from "src/Assets/Dance/Doregata Dance.jpg";
-import SinghiChham from "src/Assets/Dance/Singhi Chham.jpg";
-import YakCham from "src/Assets/Dance/Yak Cham.png";
-import MaruniDance from "src/Assets/Dance/Maruni Dance.jpg";
-import TashiSabdo from "src/Assets/Dance/Tashi Sabdo.jpg";
-import ChuFaatDance from "src/Assets/Dance/Chu Faat Dance.jpg";
-import Kathakali from "src/Assets/Dance/Kathakali.jpg";
-import Mohiniyattam from "src/Assets/Dance/Mohiniyattam.jpg";
-import Theyyam from "src/Assets/Dance/Theyyam.jpg";
-import Thiruvathirakali from "src/Assets/Dance/Thiruvathirakali.jpg";
-import Kalaripayattu from "src/Assets/Dance/Kalaripayattu.jpg";
-import Bharatanatyam from "src/Assets/Dance/bharatnatyam'.jpg";
-import Karagattam from "src/Assets/Dance/Karagattam.webp";
-import Kummi from "src/Assets/Dance/Kummi.jpg";
-import Mayilattam from "src/Assets/Dance/Mayilattam.jpg";
-import Oyilattam from "src/Assets/Dance/Oyilattam.jpg";
-import Kuchipudi from "src/Assets/Dance/Kuchipudi.jpg";
-import Veeranatyam from "src/Assets/Dance/Veeranatyam.jpg";
-import ButtaBommalu from "src/Assets/Dance/Butta Bommalu.jpg";
-import DappuDance from "src/Assets/Dance/Dappu Dance.jpg";
-import LambadiDance from "src/Assets/Dance/Lambadi Dance.webp";
 
-import Garadi from "src/Assets/Dance/Garadi.jpg";
-import Kummi from "src/Assets/Dance/Kummi2.jpg";
-import Kolattam from "src/Assets/Dance/Kolattam.jpg";
-import Devaraattam from "src/Assets/Dance/Devaraattam.jpg";
-import Thappaattam from "src/Assets/Dance/Thappaattam.jpg";
-import PeriniShivatandavam from "src/Assets/Dance/Perini Shivatandavam.jpg";
-import LambadiDance from "src/Assets/Dance/Lambadi Dance.webp";
-import DappuDance from "src/Assets/Dance/Dappu Dance2.jpg";
-import GussadiDance from "src/Assets/Dance/Gussadi Dance.jpg";
-import BathukammaDance from "src/Assets/Dance/Butta Bommalu.jpg";
-import DekhniDance from "src/Assets/Dance/Dekhni Dance.webp";
-import FugdiDance from "src/Assets/Dance/Fugdi Dance.jpg";
-import DhaloDance from "src/Assets/Dance/Dhalo Dance.webp";
-import KunbiDance from "src/Assets/Dance/Kunbi Dance.webp";
-import CorridinhoDance from "src/Assets/Dance/Corridinho Dance.jpg";
-import PanthiDance from "src/Assets/Dance/Panthi Dance.jpg";
-import RautNacha from "src/Assets/Dance/Raut Nacha.avif";
-import SailaDance from "src/Assets/Dance/Saila Dance.jpg";
-import KarmaDance from "src/Assets/Dance/Karma Dance.jpg";
-import SuaNacha from "src/Assets/Dance/Sua Nacha.jpg";
+import LavaDance from "../Assets/Dance/Lava Dance.jpg";
+import KolkaliDance from "../Assets/Dance/Kolkali Dance.jpg";
+import ParichakaliDance from "../Assets/Dance/Parichakali Dance.jpg";
+import OpanaDance from "../Assets/Dance/Opana Dance.jpg";
+import DandiDance from "../Assets/Dance/Dandi Dance.jpg";
+import BihuDance from "../Assets/Dance/Bihu Dance.jpg";
+import SattriyaDance from "../Assets/Dance/Sattriya Dance.jpg";
+import BhortalDance from "../Assets/Dance/Bhortal Dance.jpg";
+import JhumurDance from "../Assets/Dance/Jhumur Dance.webp";
+import DeodhaniDance from "../Assets/Dance/Deodhani Dance.jpg";
+import BardoChham from "../Assets/Dance/Bardo Chham.jpg";
+import WanchoDance from "../Assets/Dance/Wancho Dance.jpg";
+import PasiKongki from "../Assets/Dance/Pasi Kongki.jpg";
+import PopirDance from "../Assets/Dance/Popir Dance.jpg";
+import PonungDance from "../Assets/Dance/Ponung Dance.jpg";
+import BengaliBaul from "../Assets/Dance/Bengali Baul.jpg";
+import Chhau from "../Assets/Dance/Chhau.jpg";
+import Jatra from "../Assets/Dance/Jatra.jpg";
+import Gambhira from "../Assets/Dance/Gambhira.jpg";
+import SanthaliDance from "../Assets/Dance/Santhali Dance.jpg";
+import ChangLo from "../Assets/Dance/Chang Lo.jpg";
+import ZeliangDance from "../Assets/Dance/Zeliang Dance.jpg";
+import AolingDance from "../Assets/Dance/Aoling Dance.jpg";
+import SekrenyiDance from "../Assets/Dance/Sekrenyi Dance.jpg";
+import MoatsuDance from "../Assets/Dance/Moatsu Dance.jpg";
+import RasLeela from "../Assets/Dance/Ras Leela.jpg";
+import PungCholom from "../Assets/Dance/Pung Cholam.jpg";
+import ThangTa from "../Assets/Dance/Thang Ta.jpg";
+import LaiHaraoba from "../Assets/Dance/Lai Haroba.jpg";
+import KhambaThoibiDance from "../Assets/Dance/Khamba Thoibi Dance.jpg";
+import CherawDance from "../Assets/Dance/Cheraw Dance.jpg";
+import KhuallamDance from "../Assets/Dance/Khuallam Dance.jpg";
+import ChheihlamDance from "../Assets/Dance/Chheihlam Dance.jpg";
+import ChaiDance from "../Assets/Dance/Chai Dance.jpg";
+import SarlamkaiDance from "../Assets/Dance/Sarlamkai Dance.jpg"
+import HojagiriDance from "../Assets/Dance/Hojagiri Dance.jpg";
+import GariaDance from "../Assets/Dance/Garia Dance.jpg";
+import LebangBoomaniDance from "../Assets/Dance/Lebang Boomani Dance.jpg";
+import MamitaDance from "../Assets/Dance/Mamita dance.jpg";
+import WangalaDance from "../Assets/Dance/Wangala Dance.jpg";
 
-import Yakshagana from "src/Assets/Dance/Yakshagana.jpg";
-import DolluKunitha from "src/Assets/Dance/Dollu Kunitha.jpg";
-import BhoothaAradhane from "src/Assets/Dance/Bhootha Aradhane.jpg";
-import Veeragase from "src/Assets/Dance/Veeragase.jpg";
-import Kamsale from "src/Assets/Dance/Kamsale.jpg";
-import Odissi from "src/Assets/Dance/Chhau.jpg";
-import ChhauDance from "src/Assets/Dance/Chhau Dance.webp";
-import GhumuraDance from "src/Assets/Dance/Ghumura Dance.jpg";
-import GotipuaDance from "src/Assets/Dance/Gotipua Dance.jpg";
-import DalkhaiDance from "src/Assets/Dance/Dalkhai Dance.jpg";
-import TarpaDance from "src/Assets/Dance/Tarpa Dance.jpg";
-import DholDance from "src/Assets/Dance/Dhol Dance.webp";
-import BhagoriaDance from "src/Assets/Dance/Bhagoria Dance.jpg";
-import PavriNach from "src/Assets/Dance/Pavri Nach.jpg";
-import GheriaDance from "src/Assets/Dance/Gheria Dance.jpg";
-import Lavani from "src/Assets/Dance/Lavani.jpg";
-import Tamasha from "src/Assets/Dance/Tamasha.jpg";
-import KoliDance from "src/Assets/Dance/Koli Dance.jpg";
-import DhangariGaja from "src/Assets/Dance/DhangariGaja.jpg";
-import Powada from "src/Assets/Dance/Powada.jpg";
+import NongkremDance from "../Assets/Dance/Nongkrem Dance.jpg";
+import ShadSukMynsiem from "../Assets/Dance/Shad Suk Mynsiem.webp";
+import WangalaDance2 from "../Assets/Dance/Wangala Dance2.jpg";
+import LahoDance from "../Assets/Dance/Laho Dance.jpg";
+import DoregataDance from "../Assets/Dance/Doregata Dance.jpg";
+import SinghiChham from "../Assets/Dance/Singhi Chham.jpg";
+import YakCham from "../Assets/Dance/Yak Cham.png";
+import MaruniDance from "../Assets/Dance/Maruni Dance.jpg";
+import TashiSabdo from "../Assets/Dance/Tashi Sabdo.jpg";
+import ChuFaatDance from "../Assets/Dance/Chu Faat Dance.jpg";
+import Kathakali from "../Assets/Dance/Kathakali.jpg";
+import Mohiniyattam from "../Assets/Dance/Mohiniyattam.jpg";
+import Theyyam from "../Assets/Dance/Theyyam.jpg";
+import Thiruvathirakali from "../Assets/Dance/Thiruvathirakali.jpg";
+import Kalaripayattu from "../Assets/Dance/Kalaripayattu.jpg";
+import Bharatanatyam from "../Assets/Dance/bharatnatyam'.jpg";
+import Karagattam from "../Assets/Dance/Karagattam.webp";
+import Kummi from "../Assets/Dance/Kummi.jpg";
+import Mayilattam from "../Assets/Dance/Mayilattam.jpg";
+import Oyilattam from "../Assets/Dance/Oyilattam.jpg";
+import Kuchipudi from "../Assets/Dance/Kuchipudi.jpg";
+import Veeranatyam from "../Assets/Dance/Veeranatyam.jpg";
+import ButtaBommalu from "../Assets/Dance/Butta Bommalu.jpg";
+import DappuDance from "../Assets/Dance/Dappu Dance.jpg";
+import LambadiDance from "../Assets/Dance/Lambadi Dance.webp";
+
+import Garadi from "../Assets/Dance/Garadi.jpg";
+import Kummi2 from "../Assets/Dance/Kummi2.jpg";
+import Kolattam from "../Assets/Dance/Kolattam.jpg";
+import Devaraattam from "../Assets/Dance/Devaraattam.jpg";
+import Thappaattam from "../Assets/Dance/Thappaattam.jpg";
+import PeriniShivatandavam from "../Assets/Dance/Perini Shivatandavam.jpg";
+import LambadiDance1 from "../Assets/Dance/Lambadi Dance.webp";
+import DappuDance1 from "../Assets/Dance/Dappu Dance2.jpg";
+import GussadiDance from "../Assets/Dance/Gussadi Dance.jpg";
+import BathukammaDance from "../Assets/Dance/Butta Bommalu.jpg";
+import DekhniDance from "../Assets/Dance/Dekhni Dance.webp";
+import FugdiDance from "../Assets/Dance/Fugdi Dance.jpg";
+import DhaloDance from "../Assets/Dance/Dhalo Dance.webp";
+import KunbiDance from "../Assets/Dance/Kunbi Dance.webp";
+import CorridinhoDance from "../Assets/Dance/Corridinho Dance.jpg";
+import PanthiDance from "../Assets/Dance/Panthi Dance.jpg";
+import RautNacha from "../Assets/Dance/Raut Nacha.avif";
+import SailaDance from "../Assets/Dance/Saila Dance.jpg";
+import KarmaDance from "../Assets/Dance/Karma Dance.jpg";
+import SuaNacha from "../Assets/Dance/Sua Nacha.jpg";
+
+import Yakshagana from "../Assets/Dance/Yakshagana.jpg";
+import DolluKunitha from "../Assets/Dance/Dollu Kunitha.jpg";
+import BhoothaAradhane from "../Assets/Dance/Bhootha Aradhane.jpg";
+import Veeragase from "../Assets/Dance/Veeragase.jpg";
+import Kamsale from "../Assets/Dance/Kamsale.jpg";
+import Odissi from "../Assets/Dance/Chhau.jpg";
+import ChhauDance from "../Assets/Dance/Chhau Dance.webp";
+import GhumuraDance from "../Assets/Dance/Ghumura Dance.jpg";
+import GotipuaDance from "../Assets/Dance/Gotipua Dance.jpg";
+import DalkhaiDance from "../Assets/Dance/Dalkhai Dance.jpg";
+import TarpaDance from "../Assets/Dance/Tarpa Dance.jpg";
+import DholDance from "../Assets/Dance/Dhol Dance.webp";
+import BhagoriaDance from "../Assets/Dance/Bhagoria Dance.jpg";
+import PavriNach from "../Assets/Dance/Pavri Nach.jpg";
+import GheriaDance from "../Assets/Dance/Gheria Dance.jpg";
+import Lavani from "../Assets/Dance/Lavani.jpg";
+import Tamasha from "../Assets/Dance/Tamasha.jpg";
+import KoliDance from "../Assets/Dance/Koli Dance.jpg";
+import DhangariGaja from "../Assets/Dance/DhangariGaja.jpg";
+import Powada from "../Assets/Dance/Powada.jpg";
 
  
-import ChhauDance from "src/Assets/Dance/Chhau.jpg";
-import PaikaDance from "src/Assets/Dance/Paika Dance.avif";
-import Jhumar from "src/Assets/Dance/Jhumar.webp";
-import MundariDance from "src/Assets/Dance/Mundari Dance.jpg";
-import SanthaliDance from "src/Assets/Dance/Santhali Dance2.jpg";
-import JatJatin from "src/Assets/Dance/JatJatin.jpg";
-import Jhijhian from "src/Assets/Dance/Jhijhian.jpg";
-import Bidesia from "src/Assets/Dance/Bidesia.jpg";
-import Kajari from "src/Assets/Dance/Kajari.jpg";
-import SoharKhilouna from "src/Assets/Dance/Sohar-Khilouna.jpg";
-import GaurDance from "src/Assets/Dance/Gaur Dance.webp";
-import TertaliDance from "src/Assets/Dance/Tertali Dance.jpg";
-import JawaraDance from "src/Assets/Dance/Jawara Dance.webp";
-import MatkiDance from "src/Assets/Dance/Matki Dance.jpg";
-import PhulpatiDance from "src/Assets/Dance/Phulpati Dance.jpg";
+import ChhauDance1 from "../Assets/Dance/Chhau.jpg";
+import PaikaDance from "../Assets/Dance/Paika Dance.avif";
+import Jhumar from "../Assets/Dance/Jhumar.webp";
+import MundariDance from "../Assets/Dance/Mundari Dance.jpg";
+import SanthaliDance1 from "../Assets/Dance/Santhali Dance2.jpg";
+import JatJatin from "../Assets/Dance/JatJatin.jpg";
+import Jhijhian from "../Assets/Dance/Jhijhian.jpg";
+import Bidesia from "../Assets/Dance/Bidesia.jpg";
+import Kajari from "../Assets/Dance/Kajari.jpg";
+import SoharKhilouna from "../Assets/Dance/Sohar-Khilouna.jpg";
+import GaurDance from "../Assets/Dance/Gaur Dance.webp";
+import TertaliDance from "../Assets/Dance/Tertali Dance.jpg";
+import JawaraDance from "../Assets/Dance/Jawara Dance.webp";
+import MatkiDance from "../Assets/Dance/Matki Dance.jpg";
+import PhulpatiDance from "../Assets/Dance/Phulpati Dance.jpg";
 
-import Garba from "src/Assets/Dance/Garba.avif";
-import DandiyaRaas from "src/Assets/Dance/Dandiya Raas 2.jpg";
-import TippaniDance from "src/Assets/Dance/Tippani Dance.jpg";
-import PadharDance from "src/Assets/Dance/Padhar Dance.jpg";
-import HudoDance from "src/Assets/Dance/Hudo Dance.jpg";
-import MandoDance from "src/Assets/Dance/Mando Dance.jpg";
-import VerdigaoDance from "src/Assets/Dance/Verdigao Dance.jpg";
-import Garba from "src/Assets/Dance/Garba2.avif";
-import DandiyaRaas from "src/Assets/Dance/Dandiya Raas.jpg";
-import TippaniDance from "src/Assets/Dance/Tippani Dance2.jpg";
-import Ghoomar from "src/Assets/Dance/Ghoomar.jpg";
-import Kalbelia from "src/Assets/Dance/Kalbelia.jpg";
-import Bhavai from "src/Assets/Dance/Bhavai.jpg";
-import ChariDance from "src/Assets/Dance/Chari Dance.jpg";
-import KachhiGhodi from "src/Assets/Dance/Kachhi Ghodi.jpg";
-import Kathak from "src/Assets/Dance/kathak.webp";
-import DandiyaRaas from "src/Assets/Dance/Dandiya Raas.webp";
-import Bhangra from "src/Assets/Dance/Bhangra.jpg";
-import Gidda from "src/Assets/Dance/Gidda.jpg";
-import ChhauDance from "src/Assets/Dance/Chhau Dance2.jpg";
+import Garba from "../Assets/Dance/Garba.avif";
+import DandiyaRaas from "../Assets/Dance/Dandiya Raas 2.jpg";
+import TippaniDance1 from "../Assets/Dance/Tippani Dance.jpg";
+import PadharDance from "../Assets/Dance/Padhar Dance.jpg";
+import HudoDance from "../Assets/Dance/Hudo Dance.jpg";
+import MandoDance from "../Assets/Dance/Mando Dance.jpg";
+import VerdigaoDance from "../Assets/Dance/Verdigao Dance.jpg";
+import Garba1 from "../Assets/Dance/Garba2.avif";
+import DandiyaRaas1 from "../Assets/Dance/Dandiya Raas.jpg";
+import TippaniDance from "../Assets/Dance/Tippani Dance2.jpg";
+import Ghoomar from "../Assets/Dance/Ghoomar.jpg";
+import Kalbelia from "../Assets/Dance/Kalbelia.jpg";
+import Bhavai from "../Assets/Dance/Bhavai.jpg";
+import ChariDance from "../Assets/Dance/Chari Dance.jpg";
+import KachhiGhodi from "../Assets/Dance/Kachhi Ghodi.jpg";
+import Kathak from "../Assets/Dance/kathak.webp";
+import DandiyaRaas3 from "../Assets/Dance/Dandiya Raas.webp";
+import Bhangra from "../Assets/Dance/Bhangra.jpg";
+import Gidda from "../Assets/Dance/Gidda.jpg";
+import ChhauDance3 from "../Assets/Dance/Chhau Dance2.jpg";
 
 
-import Saang from "src/Assets/Dance/Saang.jpg";
-import Dhamal from "src/Assets/Dance/Dhamal.webp";
-import PhagDance from "src/Assets/Dance/Phag Dance.jpg";
-import LoorDance from "src/Assets/Dance/Loor Dance.jpg";
-import Ghoomar from "src/Assets/Dance/Ghoomar2.jpg";
-import Rouf from "src/Assets/Dance/Rouf.jpg";
-import BhandPather from "src/Assets/Dance/Bhand Pather.jpg";
-import Dumhal from "src/Assets/Dance/Dumhal.jpg";
-import HafizaDance from "src/Assets/Dance/Hafiza Dance.jpg";
-import BachhaNagma from "src/Assets/Dance/Bachha Nagma.jpg";
+import Saang from "../Assets/Dance/Saang.jpg";
+import Dhamal from "../Assets/Dance/Dhamal.webp";
+import PhagDance from "../Assets/Dance/Phag Dance.jpg";
+import LoorDance from "../Assets/Dance/Loor Dance.jpg";
+import Ghoomar2 from "../Assets/Dance/Ghoomar2.jpg";
+import Rouf from "../Assets/Dance/Rouf.jpg";
+import BhandPather from "../Assets/Dance/Bhand Pather.jpg";
+import Dumhal from "../Assets/Dance/Dumhal.jpg";
+import HafizaDance from "../Assets/Dance/Hafiza Dance.jpg";
+import BachhaNagma from "../Assets/Dance/Bachha Nagma.jpg";
 
-import Gidda from "src/Assets/Dance/Gidda2.jpg";
-import Bhangra from "src/Assets/Dance/Bhangra2.avif";
-import Jhoomar from "src/Assets/Dance/Jhoomar.jpg";
-import Sammi from "src/Assets/Dance/Sammi.jpg";
-import Dhamal from "src/Assets/Dance/Dhamal2.jpg";
+import Gidda2 from "../Assets/Dance/Gidda2.jpg";
+import Bhangra2 from "../Assets/Dance/Bhangra2.avif";
+import Jhoomar from "../Assets/Dance/Jhoomar.jpg";
+import Sammi from "../Assets/Dance/Sammi.jpg";
+import Dhamal2 from "../Assets/Dance/Dhamal2.jpg";
+
+import NicobareseDance from "../Assets/Dance/Nicobarese Dance.jpg";
+import LungiDance from "../Assets/Dance/Lungi Dance.jpg";
+import PaloDance from "../Assets/Dance/Palo Dance.jpg";
+import SareeDance from "../Assets/Dance/Saree Dance.jpg";
+import ShellDance from "../Assets/Dance/Shell Dance.png";
 
 
 
@@ -185,14 +187,17 @@ const stateFolkdances = [
 
         id: 'IN-AN',
         Folkdances: [
-            { layout: NicobareseDance, name: "Nicobarese Dance", description: "A traditional dance performed by the Nicobarese tribe during the Ossuary Feast, celebrating the spirits of the deceased." },
-            { layout: LungiDance, name: "Lungi Dance", description: "A popular dance among the locals, performed with vibrant lungis (sarongs) and characterized by rhythmic movements and lively music." },
-            { layout: PaloDance, name: "Palo Dance", description: "A dance form performed by the indigenous tribes of Andaman, often depicting their daily activities and cultural stories." },
-            { layout: SareeDance, name: "Saree Dance", description: "A traditional dance performed by women wearing sarees, showcasing the cultural heritage and customs of the islands." },
-            { layout: ShellDance, name: "Shell Dance", description: "A unique dance form where performers use shells as musical instruments, creating a rhythmic and melodious performance." }
+            { layout: NicobareseDance, name: "Nicobarese Dance", description: "A traditional dance performed by the Nicobarese tribe during the Ossuary Feast, celebrating the spirits of the deceased.It is a vibrant expression of their reverence for ancestors. The dance involves intricate footwork and synchronized group movements. Traditional instruments like drums and bamboo flutes add a rhythmic charm. Participants wear colorful tribal attire adorned with shells and beads. " },
+            { layout: LungiDance, name: "Lungi Dance", description: "A popular dance among the locals, performed with vibrant lungis (sarongs) and characterized by rhythmic movements and lively music.Each movement in the Lungi Dance reflects the simplicity and spontaneity of island life. Drumming beats set a pulsating tempo, keeping the audience engaged. The lungis worn by performers often feature vibrant, handwoven patterns. This dance is frequently part of welcoming ceremonies for visitors. " },
+            { layout: PaloDance, name: "Palo Dance", description: "A dance form performed by the indigenous tribes of Andaman, often depicting their daily activities and cultural stories.The dance serves as a medium to preserve tribal folklore and history. Performers use handmade props to illustrate hunting, fishing, and other traditional practices. The vibrant costumes and body paint reflect the tribe's artistic sensibilities. The Palo Dance is both an art form and a storytelling method that connects generations.  " },
+            { layout: SareeDance, name: "Saree Dance", description: "A traditional dance performed by women wearing sarees, showcasing the cultural heritage and customs of the islands. Graceful movements symbolize the elegance and strength of island women. Intricate hand gestures, or mudras, add a narrative layer to the performance. Accompanied by folk tunes, the dance celebrates femininity and traditional values. It is often performed during festivals and ceremonies, adding a spiritual touch to the occasion. " },
+            { layout: ShellDance, name: "Shell Dance", description: "A unique dance form where performers use shells as musical instruments, creating a rhythmic and melodious performance. The clinking sound of shells harmonizes with the natural surroundings. Dancers wear outfits adorned with shells, enhancing the aesthetic appeal. The dance reflects the intimate relationship between the islanders and the sea. Often performed during cultural festivals, it serves as a tribute to the marine ecosystem that sustains the community.  " }
         ]
 
     },
+
+
+    
     
     {
 
@@ -306,7 +311,7 @@ const stateFolkdances = [
     Folkdances: [
         { layout: NongkremDance, name: "Nongkrem Dance", description: "A traditional dance performed by the Khasi tribe during the Nongkrem festival, which is a harvest thanksgiving festival." },
         { layout: ShadSukMynsiem, name: "Shad Suk Mynsiem", description: "Also known as the 'Dance of Joyful Hearts', it is performed by the Khasi tribe to celebrate the arrival of spring." },
-        { layout: WangalaDance, name: "Wangala Dance", description: "A harvest dance performed by the Garo tribe, celebrating the Wangala festival, which marks the end of the agricultural year." },
+        { layout: WangalaDance2, name: "Wangala Dance", description: "A harvest dance performed by the Garo tribe, celebrating the Wangala festival, which marks the end of the agricultural year." },
         { layout: LahoDance, name: "Laho Dance", description: "A traditional dance performed by the Jaintia tribe, usually during festivals and social gatherings, characterized by its lively and rhythmic movements." },
         { layout: DoregataDance, name: "Doregata Dance", description: "A playful dance performed by the Garo tribe, where dancers try to knock off each other's headgear using their heads." }
     ]
@@ -371,7 +376,7 @@ const stateFolkdances = [
     id: 'IN-PY',
     Folkdances: [
         { layout: Garadi, name: "Garadi", description: "A traditional dance performed during festivals and celebrations, characterized by vigorous movements and accompanied by folk music." },
-        { layout: Kummi, name: "Kummi", description: "A folk dance performed by women, characterized by rhythmic clapping and circular movements, often performed during festivals and social gatherings." },
+        { layout: Kummi2, name: "Kummi", description: "A folk dance performed by women, characterized by rhythmic clapping and circular movements, often performed during festivals and social gatherings." },
         { layout: Kolattam, name: "Kolattam", description: "A traditional stick dance performed by women, characterized by rhythmic movements and the use of sticks to create rhythmic patterns." },
         { layout: Devaraattam, name: "Devaraattam", description: "A traditional dance performed by the Devarattam community, characterized by graceful movements and accompanied by folk music." },
         { layout: Thappaattam, name: "Thappaattam", description: "A folk dance performed by the agricultural community, characterized by rhythmic movements and accompanied by folk songs." }
@@ -384,8 +389,8 @@ const stateFolkdances = [
     id: "IN-TG",
     Folkdances: [
         { layout: PeriniShivatandavam, name: "Perini Shivatandavam", description: "A traditional dance form dedicated to Lord Shiva, characterized by vigorous movements and performed by male dancers." },
-        { layout: LambadiDance, name: "Lambadi Dance", description: "A traditional dance of the Lambadi tribe, characterized by colorful costumes, intricate jewelry, and rhythmic movements, often depicting their daily life and culture." },
-        { layout: DappuDance, name: "Dappu Dance", description: "A vibrant dance form performed with the 'Dappu' drum, characterized by rhythmic beats and energetic movements, often performed during festivals and celebrations." },
+        { layout: LambadiDance1, name: "Lambadi Dance", description: "A traditional dance of the Lambadi tribe, characterized by colorful costumes, intricate jewelry, and rhythmic movements, often depicting their daily life and culture." },
+        { layout: DappuDance1, name: "Dappu Dance", description: "A vibrant dance form performed with the 'Dappu' drum, characterized by rhythmic beats and energetic movements, often performed during festivals and celebrations." },
         { layout: GussadiDance, name: "Gussadi Dance", description: "A tribal dance performed by the Gonds during the Dussehra festival, characterized by elaborate costumes and energetic movements." },
         { layout: BathukammaDance, name: "Bathukamma Dance", description: "A traditional dance performed by women during the Bathukamma festival, celebrating the floral festival with colorful flower arrangements and rhythmic movements." }
     ]
@@ -466,18 +471,18 @@ const stateFolkdances = [
         { layout: DhangariGaja, name: "Dhangari Gaja", description: "A folk dance performed by the Dhangar community to honor their deity, Biruba, featuring vigorous movements and traditional attire."},
         { layout: Powada, name: "Powada", description: "A dramatic form of folk dance and singing, narrating tales of heroism, especially those of Maratha warriors like Shivaji Maharaj."}
     ]
-}
+},
 
 
 {
 
     id: "IN-JH",
     Folkdances: [
-        { layout: ChhauDance, name: "Chhau Dance", description: "A semi-classical dance form with martial, tribal, and folk origins, performed in the eastern Indian states of Jharkhand, Odisha, and West Bengal." },
+        { layout: ChhauDance1, name: "Chhau Dance", description: "A semi-classical dance form with martial, tribal, and folk origins, performed in the eastern Indian states of Jharkhand, Odisha, and West Bengal." },
         { layout: PaikaDance, name: "Paika Dance", description: "A traditional dance performed by the Paika community, depicting their martial skills and valor." },
         { layout: Jhumar, name: "Jhumar", description: "A folk dance performed during harvest season, characterized by graceful movements and traditional music." },
         { layout: MundariDance, name: "Mundari Dance", description: "A traditional dance performed by the Munda tribe, showcasing their cultural heritage and daily life." },
-        { layout: SanthaliDance, name: "Santhali Dance", description: "A traditional dance of the Santhal tribe, characterized by rhythmic movements and vibrant costumes." }
+        { layout: SanthaliDance1, name: "Santhali Dance", description: "A traditional dance of the Santhal tribe, characterized by rhythmic movements and vibrant costumes." }
     ]
 
 },
@@ -513,8 +518,8 @@ const stateFolkdances = [
     id: 'IN-GJ',
     Folkdances: [
         { layout: Garba, name: "Garba", description: "A traditional dance performed during the Navratri festival, characterized by circular movements and rhythmic clapping." },
-        { layout: DandiyaRaas, name: "Dandiya Raas", description: "A folk dance performed with sticks, where dancers form a circle and rhythmically strike the sticks together, often performed during Navratri." },
-        { layout: TippaniDance, name: "Tippani Dance", description: "A traditional dance performed by women, using long sticks to create rhythmic patterns, often performed during festivals and celebrations." },
+        { layout: DandiyaRaas1, name: "Dandiya Raas", description: "A folk dance performed with sticks, where dancers form a circle and rhythmically strike the sticks together, often performed during Navratri." },
+        { layout: TippaniDance1, name: "Tippani Dance", description: "A traditional dance performed by women, using long sticks to create rhythmic patterns, often performed during festivals and celebrations." },
         { layout: PadharDance, name: "Padhar Dance", description: "A folk dance performed by the Padhar community, depicting their daily life and cultural heritage through graceful movements." },
         { layout: HudoDance, name: "Hudo Dance", description: "A traditional dance performed by the Bharwad community, characterized by energetic movements and vibrant music." }
     ]
@@ -527,7 +532,7 @@ const stateFolkdances = [
     Folkdances: [
         { layout: MandoDance, name: "Mando Dance", description: "A traditional dance performed during weddings and festive occasions, characterized by graceful movements and accompanied by folk music." },
         { layout: VerdigaoDance, name: "Verdigao Dance", description: "A folk dance performed by the fishing community, depicting their daily life and cultural heritage through rhythmic movements." },
-        { layout: Garba, name: "Garba", description: "A traditional dance performed during the Navratri festival, characterized by circular movements and rhythmic clapping." },
+        { layout: Garba1, name: "Garba", description: "A traditional dance performed during the Navratri festival, characterized by circular movements and rhythmic clapping." },
         { layout: DandiyaRaas, name: "Dandiya Raas", description: "A folk dance performed with sticks, where dancers form a circle and rhythmically strike the sticks together, often performed during Navratri." },
         { layout: TippaniDance, name: "Tippani Dance", description: "A traditional dance performed by women, using long sticks to create rhythmic patterns, often performed during festivals and celebrations." }
     ]
@@ -552,10 +557,10 @@ const stateFolkdances = [
     id: 'IN-DL',
     Folkdances: [
         { layout: Kathak, name: "Kathak", description: "A classical dance form known for its intricate footwork, expressive gestures, and storytelling, often depicting tales from Hindu mythology." },
-        { layout: DandiyaRaas, name: "Dandiya Raas", description: "A folk dance performed with sticks, where dancers form a circle and rhythmically strike the sticks together, often performed during Navratri." },
+        { layout: DandiyaRaas3, name: "Dandiya Raas", description: "A folk dance performed with sticks, where dancers form a circle and rhythmically strike the sticks together, often performed during Navratri." },
         { layout: Bhangra, name: "Bhangra", description: "A lively and energetic dance form originating from Punjab, characterized by vigorous movements and vibrant music." },
-        { layout: Gidda, name: "Gidda", description: "A traditional dance performed by women, characterized by graceful movements and rhythmic clapping, often performed during festivals and celebrations." },
-        { layout: ChhauDance, name: "Chhau Dance", description: "A semi-classical dance form with martial, tribal, and folk origins, performed in the eastern Indian states of Odisha, West Bengal, and Jharkhand." }
+        { layout: Gidda2, name: "Gidda", description: "A traditional dance performed by women, characterized by graceful movements and rhythmic clapping, often performed during festivals and celebrations." },
+        { layout: ChhauDance3, name: "Chhau Dance", description: "A semi-classical dance form with martial, tribal, and folk origins, performed in the eastern Indian states of Odisha, West Bengal, and Jharkhand." }
     ]
 
 },
@@ -568,7 +573,7 @@ const stateFolkdances = [
         { layout: Dhamal, name: "Dhamal", description: "A folk dance performed by men, characterized by vigorous movements and rhythmic beats, often performed during festivals and celebrations." },
         { layout: PhagDance, name: "Phag Dance", description: "A traditional dance performed during the Holi festival, characterized by lively movements and vibrant music." },
         { layout: LoorDance, name: "Loor Dance", description: "A folk dance performed by women during the harvest season, characterized by graceful movements and traditional music." },
-        { layout: Ghoomar, name: "Ghoomar", description: "A traditional dance performed by women, characterized by graceful movements and swirling skirts, often performed during festivals and celebrations." }
+        { layout: Ghoomar2, name: "Ghoomar", description: "A traditional dance performed by women, characterized by graceful movements and swirling skirts, often performed during festivals and celebrations." }
     ]
 
 },
@@ -591,10 +596,10 @@ const stateFolkdances = [
     id: 'IN-CH',
     Folkdances: [
         { layout: Gidda, name: "Gidda", description: "A traditional dance performed by women, characterized by graceful movements and rhythmic clapping, often performed during festivals and celebrations." },
-        { layout: Bhangra, name: "Bhangra", description: "A lively and energetic dance form originating from Punjab, characterized by vigorous movements and vibrant music." },
+        { layout: Bhangra2, name: "Bhangra", description: "A lively and energetic dance form originating from Punjab, characterized by vigorous movements and vibrant music." },
         { layout: Jhoomar, name: "Jhoomar", description: "A traditional dance performed by men, characterized by slow and graceful movements, often performed during harvest festivals." },
         { layout: Sammi, name: "Sammi", description: "A traditional dance performed by women, characterized by graceful hand movements and vibrant costumes." },
-        { layout: Dhamal, name: "Dhamal", description: "A folk dance performed by men, characterized by vigorous movements and rhythmic beats, often performed during festivals and celebrations." }
+        { layout: Dhamal2, name: "Dhamal", description: "A folk dance performed by men, characterized by vigorous movements and rhythmic beats, often performed during festivals and celebrations." }
     ]
 
 },
