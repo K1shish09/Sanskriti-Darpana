@@ -80,9 +80,9 @@ import PuducherrySare from "../Assets/Attire/Puducherry Sare.jpg";
 import PuducherryJewelry from "../Assets/Attire/Puducherry Jewelry.jpg";
 import Saree5 from "../Assets/Attire/Saree5.webp";
 import Dhoti1 from "../Assets/Attire/Dhoti1.jpg";
-import  from "";
-import  from "";
-import  from "";
+import LangaVoni1 from "src/Assets/Attire/Langa Voni1.webp";
+import PochampallySaree from "src/Assets/Attire/Pochampally Saree.jpg";
+import TelanganaJewelry from "src/Assets/Attire/Telangana Jewelry.jpg";
 
 
 const stateDress = [
@@ -270,9 +270,9 @@ const stateDress = [
     Dresses: [
         { layout: Saree5, name: "Saree", description: "Traditional attire for women, often worn during festivals and special occasions, characterized by its elegant draping and intricate designs." },
         { layout: Dhoti1, name: "Dhoti", description: "Traditional attire for men, consisting of a long piece of cloth wrapped around the waist and legs, often paired with a shirt." },
-        { layout: , name: "Langa Voni", description: "A traditional two-piece garment worn by young girls, consisting of a skirt and a blouse, often adorned with gold jewelry." },
-        { layout: , name: "Pochampally Saree", description: "A traditional saree from the Pochampally region, known for its fine fabric and intricate designs." },
-        { layout: , name: "Telangana Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
+        { layout: LangaVoni1, name: "Langa Voni", description: "A traditional two-piece garment worn by young girls, consisting of a skirt and a blouse, often adorned with gold jewelry." },
+        { layout: PochampallySaree, name: "Pochampally Saree", description: "A traditional saree from the Pochampally region, known for its fine fabric and intricate designs." },
+        { layout: TelanganaJewelry, name: "Telangana Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
     ]
  },
   
