@@ -1,8 +1,7 @@
 stateInfo.js
 
 
-import andaban from "../Assets/Religion/andaban-piechart.png";
-import 
+
 
 const stateDress = [
    {

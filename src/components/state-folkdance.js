@@ -117,6 +117,62 @@ import KoliDance from "src/Assets/Dance/Koli Dance.jpg";
 import DhangariGaja from "src/Assets/Dance/DhangariGaja.jpg";
 import Powada from "src/Assets/Dance/Powada.jpg";
 
+ 
+import ChhauDance from "src/Assets/Dance/Chhau.jpg";
+import PaikaDance from "src/Assets/Dance/Paika Dance.avif";
+import Jhumar from "src/Assets/Dance/Jhumar.webp";
+import MundariDance from "src/Assets/Dance/Mundari Dance.jpg";
+import SanthaliDance from "src/Assets/Dance/Santhali Dance2.jpg";
+import JatJatin from "src/Assets/Dance/JatJatin.jpg";
+import Jhijhian from "src/Assets/Dance/Jhijhian.jpg";
+import Bidesia from "src/Assets/Dance/Bidesia.jpg";
+import Kajari from "src/Assets/Dance/Kajari.jpg";
+import SoharKhilouna from "src/Assets/Dance/Sohar-Khilouna.jpg";
+import GaurDance from "src/Assets/Dance/Gaur Dance.webp";
+import TertaliDance from "src/Assets/Dance/Tertali Dance.jpg";
+import JawaraDance from "src/Assets/Dance/Jawara Dance.webp";
+import MatkiDance from "src/Assets/Dance/Matki Dance.jpg";
+import PhulpatiDance from "src/Assets/Dance/Phulpati Dance.jpg";
+
+import Garba from "src/Assets/Dance/Garba.avif";
+import DandiyaRaas from "src/Assets/Dance/Dandiya Raas 2.jpg";
+import TippaniDance from "src/Assets/Dance/Tippani Dance.jpg";
+import PadharDance from "src/Assets/Dance/Padhar Dance.jpg";
+import HudoDance from "src/Assets/Dance/Hudo Dance.jpg";
+import MandoDance from "src/Assets/Dance/Mando Dance.jpg";
+import VerdigaoDance from "src/Assets/Dance/Verdigao Dance.jpg";
+import Garba from "src/Assets/Dance/Garba2.avif";
+import DandiyaRaas from "src/Assets/Dance/Dandiya Raas.jpg";
+import TippaniDance from "src/Assets/Dance/Tippani Dance2.jpg";
+import Ghoomar from "src/Assets/Dance/Ghoomar.jpg";
+import Kalbelia from "src/Assets/Dance/Kalbelia.jpg";
+import Bhavai from "src/Assets/Dance/Bhavai.jpg";
+import ChariDance from "src/Assets/Dance/Chari Dance.jpg";
+import KachhiGhodi from "src/Assets/Dance/Kachhi Ghodi.jpg";
+import Kathak from "src/Assets/Dance/kathak.webp";
+import DandiyaRaas from "src/Assets/Dance/Dandiya Raas.webp";
+import Bhangra from "src/Assets/Dance/Bhangra.jpg";
+import Gidda from "src/Assets/Dance/Gidda.jpg";
+import ChhauDance from "src/Assets/Dance/Chhau Dance2.jpg";
+
+
+import Saang from "src/Assets/Dance/Saang.jpg";
+import Dhamal from "src/Assets/Dance/Dhamal.webp";
+import PhagDance from "src/Assets/Dance/Phag Dance.jpg";
+import LoorDance from "src/Assets/Dance/Loor Dance.jpg";
+import Ghoomar from "src/Assets/Dance/Ghoomar2.jpg";
+import Rouf from "src/Assets/Dance/Rouf.jpg";
+import BhandPather from "src/Assets/Dance/Bhand Pather.jpg";
+import Dumhal from "src/Assets/Dance/Dumhal.jpg";
+import HafizaDance from "src/Assets/Dance/Hafiza Dance.jpg";
+import BachhaNagma from "src/Assets/Dance/Bachha Nagma.jpg";
+
+import Gidda from "src/Assets/Dance/Gidda2.jpg";
+import Bhangra from "src/Assets/Dance/Bhangra2.avif";
+import Jhoomar from "src/Assets/Dance/Jhoomar.jpg";
+import Sammi from "src/Assets/Dance/Sammi.jpg";
+import Dhamal from "src/Assets/Dance/Dhamal2.jpg";
+
 
 
 
@@ -417,11 +473,11 @@ const stateFolkdances = [
 
     id: "IN-JH",
     Folkdances: [
-        { layout: , name: "Chhau Dance", description: "A semi-classical dance form with martial, tribal, and folk origins, performed in the eastern Indian states of Jharkhand, Odisha, and West Bengal." },
-        { layout: , name: "Paika Dance", description: "A traditional dance performed by the Paika community, depicting their martial skills and valor." },
-        { layout: , name: "Jhumar", description: "A folk dance performed during harvest season, characterized by graceful movements and traditional music." },
-        { layout: , name: "Mundari Dance", description: "A traditional dance performed by the Munda tribe, showcasing their cultural heritage and daily life." },
-        { layout: , name: "Santhali Dance", description: "A traditional dance of the Santhal tribe, characterized by rhythmic movements and vibrant costumes." }
+        { layout: ChhauDance, name: "Chhau Dance", description: "A semi-classical dance form with martial, tribal, and folk origins, performed in the eastern Indian states of Jharkhand, Odisha, and West Bengal." },
+        { layout: PaikaDance, name: "Paika Dance", description: "A traditional dance performed by the Paika community, depicting their martial skills and valor." },
+        { layout: Jhumar, name: "Jhumar", description: "A folk dance performed during harvest season, characterized by graceful movements and traditional music." },
+        { layout: MundariDance, name: "Mundari Dance", description: "A traditional dance performed by the Munda tribe, showcasing their cultural heritage and daily life." },
+        { layout: SanthaliDance, name: "Santhali Dance", description: "A traditional dance of the Santhal tribe, characterized by rhythmic movements and vibrant costumes." }
     ]
 
 },
@@ -430,11 +486,11 @@ const stateFolkdances = [
 
     id: "IN-BR",
     Folkdances: [
-        { layout: , name: "Jat-Jatin", description: "A traditional dance form depicting the love story of Jat and Jatin, characterized by graceful movements and folk music." },
-        { layout: , name: "Jhijhian", description: "A folk dance performed by women to appease the rain god during drought, characterized by rhythmic movements and devotional songs." },
-        { layout: , name: "Bidesia", description: "A traditional dance-drama form that combines dance, music, and drama, often depicting social issues and cultural themes." },
-        { layout: , name: "Kajari", description: "A folk dance performed during the monsoon season, characterized by soulful music and graceful movements." },
-        { layout: , name: "Sohar-Khilouna", description: "A traditional dance performed during childbirth celebrations, characterized by joyful movements and folk songs." }
+        { layout: JatJatin, name: "Jat-Jatin", description: "A traditional dance form depicting the love story of Jat and Jatin, characterized by graceful movements and folk music." },
+        { layout: Jhijhian, name: "Jhijhian", description: "A folk dance performed by women to appease the rain god during drought, characterized by rhythmic movements and devotional songs." },
+        { layout: Bidesia, name: "Bidesia", description: "A traditional dance-drama form that combines dance, music, and drama, often depicting social issues and cultural themes." },
+        { layout: Kajari, name: "Kajari", description: "A folk dance performed during the monsoon season, characterized by soulful music and graceful movements." },
+        { layout: SoharKhilouna, name: "Sohar-Khilouna", description: "A traditional dance performed during childbirth celebrations, characterized by joyful movements and folk songs." }
     ]
 
 },
@@ -443,11 +499,11 @@ const stateFolkdances = [
 
     id: "IN-MP",
     Folkdances: [
-        { layout: , name: "Gaur Dance", description: "A traditional dance performed by the Gond tribe, depicting the hunting activities of the tribe." },
-        { layout: , name: "Tertali Dance", description: "A folk dance performed by the Kamar tribe, characterized by rhythmic movements and the use of small cymbals." },
-        { layout: , name: "Jawara Dance", description: "A harvest dance performed by the farmers, celebrating the abundance of crops with lively movements and traditional music." },
-        { layout: , name: "Matki Dance", description: "A traditional dance performed by women, characterized by balancing earthen pots on the head and graceful movements." },
-        { layout: , name: "Phulpati Dance", description: "A folk dance performed during the Holi festival, characterized by vibrant movements and colorful costumes." }
+        { layout: GaurDance, name: "Gaur Dance", description: "A traditional dance performed by the Gond tribe, depicting the hunting activities of the tribe." },
+        { layout: TertaliDance, name: "Tertali Dance", description: "A folk dance performed by the Kamar tribe, characterized by rhythmic movements and the use of small cymbals." },
+        { layout: JawaraDance, name: "Jawara Dance", description: "A harvest dance performed by the farmers, celebrating the abundance of crops with lively movements and traditional music." },
+        { layout: MatkiDance, name: "Matki Dance", description: "A traditional dance performed by women, characterized by balancing earthen pots on the head and graceful movements." },
+        { layout: PhulpatiDance, name: "Phulpati Dance", description: "A folk dance performed during the Holi festival, characterized by vibrant movements and colorful costumes." }
     ]
 
 },
@@ -456,11 +512,11 @@ const stateFolkdances = [
 
     id: 'IN-GJ',
     Folkdances: [
-        { layout: , name: "Garba", description: "A traditional dance performed during the Navratri festival, characterized by circular movements and rhythmic clapping." },
-        { layout: , name: "Dandiya Raas", description: "A folk dance performed with sticks, where dancers form a circle and rhythmically strike the sticks together, often performed during Navratri." },
-        { layout: , name: "Tippani Dance", description: "A traditional dance performed by women, using long sticks to create rhythmic patterns, often performed during festivals and celebrations." },
-        { layout: , name: "Padhar Dance", description: "A folk dance performed by the Padhar community, depicting their daily life and cultural heritage through graceful movements." },
-        { layout: , name: "Hudo Dance", description: "A traditional dance performed by the Bharwad community, characterized by energetic movements and vibrant music." }
+        { layout: Garba, name: "Garba", description: "A traditional dance performed during the Navratri festival, characterized by circular movements and rhythmic clapping." },
+        { layout: DandiyaRaas, name: "Dandiya Raas", description: "A folk dance performed with sticks, where dancers form a circle and rhythmically strike the sticks together, often performed during Navratri." },
+        { layout: TippaniDance, name: "Tippani Dance", description: "A traditional dance performed by women, using long sticks to create rhythmic patterns, often performed during festivals and celebrations." },
+        { layout: PadharDance, name: "Padhar Dance", description: "A folk dance performed by the Padhar community, depicting their daily life and cultural heritage through graceful movements." },
+        { layout: HudoDance, name: "Hudo Dance", description: "A traditional dance performed by the Bharwad community, characterized by energetic movements and vibrant music." }
     ]
 
 },
@@ -469,11 +525,11 @@ const stateFolkdances = [
 
     id: 'IN-DD',
     Folkdances: [
-        { layout: , name: "Mando Dance", description: "A traditional dance performed during weddings and festive occasions, characterized by graceful movements and accompanied by folk music." },
-        { layout: , name: "Verdigao Dance", description: "A folk dance performed by the fishing community, depicting their daily life and cultural heritage through rhythmic movements." },
-        { layout: , name: "Garba", description: "A traditional dance performed during the Navratri festival, characterized by circular movements and rhythmic clapping." },
-        { layout: , name: "Dandiya Raas", description: "A folk dance performed with sticks, where dancers form a circle and rhythmically strike the sticks together, often performed during Navratri." },
-        { layout: , name: "Tippani Dance", description: "A traditional dance performed by women, using long sticks to create rhythmic patterns, often performed during festivals and celebrations." }
+        { layout: MandoDance, name: "Mando Dance", description: "A traditional dance performed during weddings and festive occasions, characterized by graceful movements and accompanied by folk music." },
+        { layout: VerdigaoDance, name: "Verdigao Dance", description: "A folk dance performed by the fishing community, depicting their daily life and cultural heritage through rhythmic movements." },
+        { layout: Garba, name: "Garba", description: "A traditional dance performed during the Navratri festival, characterized by circular movements and rhythmic clapping." },
+        { layout: DandiyaRaas, name: "Dandiya Raas", description: "A folk dance performed with sticks, where dancers form a circle and rhythmically strike the sticks together, often performed during Navratri." },
+        { layout: TippaniDance, name: "Tippani Dance", description: "A traditional dance performed by women, using long sticks to create rhythmic patterns, often performed during festivals and celebrations." }
     ]
 
 },
@@ -482,11 +538,11 @@ const stateFolkdances = [
 
     id: 'IN-RJ',
     Folkdances: [
-        { layout: , name: "Ghoomar", description: "A traditional dance performed by women, characterized by graceful movements and swirling skirts, often performed during festivals and celebrations." },
-        { layout: , name: "Kalbelia", description: "A folk dance performed by the Kalbelia community, known for its energetic movements and snake-like dance steps." },
-        { layout: , name: "Bhavai", description: "A traditional dance form where performers balance multiple pots on their heads, showcasing their skill and balance." },
-        { layout: , name: "Chari Dance", description: "A folk dance performed by women, balancing brass pots with lit lamps on their heads, characterized by graceful movements." },
-        { layout: , name: "Kachhi Ghodi", description: "A traditional dance performed by men, depicting tales of local bandits and heroes, characterized by vibrant costumes and energetic movements." }
+        { layout: Ghoomar, name: "Ghoomar", description: "A traditional dance performed by women, characterized by graceful movements and swirling skirts, often performed during festivals and celebrations." },
+        { layout: Kalbelia, name: "Kalbelia", description: "A folk dance performed by the Kalbelia community, known for its energetic movements and snake-like dance steps." },
+        { layout: Bhavai, name: "Bhavai", description: "A traditional dance form where performers balance multiple pots on their heads, showcasing their skill and balance." },
+        { layout: ChariDance, name: "Chari Dance", description: "A folk dance performed by women, balancing brass pots with lit lamps on their heads, characterized by graceful movements." },
+        { layout: KachhiGhodi, name: "Kachhi Ghodi", description: "A traditional dance performed by men, depicting tales of local bandits and heroes, characterized by vibrant costumes and energetic movements." }
     ]
 
 },
@@ -495,11 +551,11 @@ const stateFolkdances = [
 
     id: 'IN-DL',
     Folkdances: [
-        { layout: , name: "Kathak", description: "A classical dance form known for its intricate footwork, expressive gestures, and storytelling, often depicting tales from Hindu mythology." },
-        { layout: , name: "Dandiya Raas", description: "A folk dance performed with sticks, where dancers form a circle and rhythmically strike the sticks together, often performed during Navratri." },
-        { layout: , name: "Bhangra", description: "A lively and energetic dance form originating from Punjab, characterized by vigorous movements and vibrant music." },
-        { layout: , name: "Gidda", description: "A traditional dance performed by women, characterized by graceful movements and rhythmic clapping, often performed during festivals and celebrations." },
-        { layout: , name: "Chhau Dance", description: "A semi-classical dance form with martial, tribal, and folk origins, performed in the eastern Indian states of Odisha, West Bengal, and Jharkhand." }
+        { layout: Kathak, name: "Kathak", description: "A classical dance form known for its intricate footwork, expressive gestures, and storytelling, often depicting tales from Hindu mythology." },
+        { layout: DandiyaRaas, name: "Dandiya Raas", description: "A folk dance performed with sticks, where dancers form a circle and rhythmically strike the sticks together, often performed during Navratri." },
+        { layout: Bhangra, name: "Bhangra", description: "A lively and energetic dance form originating from Punjab, characterized by vigorous movements and vibrant music." },
+        { layout: Gidda, name: "Gidda", description: "A traditional dance performed by women, characterized by graceful movements and rhythmic clapping, often performed during festivals and celebrations." },
+        { layout: ChhauDance, name: "Chhau Dance", description: "A semi-classical dance form with martial, tribal, and folk origins, performed in the eastern Indian states of Odisha, West Bengal, and Jharkhand." }
     ]
 
 },
@@ -508,11 +564,11 @@ const stateFolkdances = [
 
     id: 'IN-HR',
     Folkdances: [
-        { layout: , name: "Saang", description: "A traditional folk theatre form that combines dance, music, and drama, often depicting social issues and cultural themes." },
-        { layout: , name: "Dhamal", description: "A folk dance performed by men, characterized by vigorous movements and rhythmic beats, often performed during festivals and celebrations." },
-        { layout: , name: "Phag Dance", description: "A traditional dance performed during the Holi festival, characterized by lively movements and vibrant music." },
-        { layout: , name: "Loor Dance", description: "A folk dance performed by women during the harvest season, characterized by graceful movements and traditional music." },
-        { layout: , name: "Ghoomar", description: "A traditional dance performed by women, characterized by graceful movements and swirling skirts, often performed during festivals and celebrations." }
+        { layout: Saang, name: "Saang", description: "A traditional folk theatre form that combines dance, music, and drama, often depicting social issues and cultural themes." },
+        { layout: Dhamal, name: "Dhamal", description: "A folk dance performed by men, characterized by vigorous movements and rhythmic beats, often performed during festivals and celebrations." },
+        { layout: PhagDance, name: "Phag Dance", description: "A traditional dance performed during the Holi festival, characterized by lively movements and vibrant music." },
+        { layout: LoorDance, name: "Loor Dance", description: "A folk dance performed by women during the harvest season, characterized by graceful movements and traditional music." },
+        { layout: Ghoomar, name: "Ghoomar", description: "A traditional dance performed by women, characterized by graceful movements and swirling skirts, often performed during festivals and celebrations." }
     ]
 
 },
@@ -521,11 +577,11 @@ const stateFolkdances = [
 
     id: 'IN-JK',
     Folkdances: [
-        { layout: , name: "Rouf", description: "A traditional dance performed by women during the spring season, characterized by graceful movements and synchronized footwork." },
-        { layout: , name: "Bhand Pather", description: "A traditional theatre form that combines dance, music, and drama, often depicting social issues and cultural themes." },
-        { layout: , name: "Dumhal", description: "A traditional dance performed by men of the Wattal tribe, characterized by vigorous movements and the use of long, colorful robes." },
-        { layout: , name: "Hafiza Dance", description: "A traditional dance performed by women, characterized by graceful movements and accompanied by Sufi music." },
-        { layout: , name: "Bachha Nagma", description: "A traditional dance performed by young boys dressed as girls, characterized by lively movements and vibrant costumes." }
+        { layout: Rouf, name: "Rouf", description: "A traditional dance performed by women during the spring season, characterized by graceful movements and synchronized footwork." },
+        { layout: BhandPather, name: "Bhand Pather", description: "A traditional theatre form that combines dance, music, and drama, often depicting social issues and cultural themes." },
+        { layout: Dumhal, name: "Dumhal", description: "A traditional dance performed by men of the Wattal tribe, characterized by vigorous movements and the use of long, colorful robes." },
+        { layout: HafizaDance, name: "Hafiza Dance", description: "A traditional dance performed by women, characterized by graceful movements and accompanied by Sufi music." },
+        { layout: BachhaNagma, name: "Bachha Nagma", description: "A traditional dance performed by young boys dressed as girls, characterized by lively movements and vibrant costumes." }
     ]
 
 },
@@ -534,11 +590,11 @@ const stateFolkdances = [
 
     id: 'IN-CH',
     Folkdances: [
-        { layout: , name: "Gidda", description: "A traditional dance performed by women, characterized by graceful movements and rhythmic clapping, often performed during festivals and celebrations." },
-        { layout: , name: "Bhangra", description: "A lively and energetic dance form originating from Punjab, characterized by vigorous movements and vibrant music." },
-        { layout: , name: "Jhoomar", description: "A traditional dance performed by men, characterized by slow and graceful movements, often performed during harvest festivals." },
-        { layout: , name: "Sammi", description: "A traditional dance performed by women, characterized by graceful hand movements and vibrant costumes." },
-        { layout: , name: "Dhamal", description: "A folk dance performed by men, characterized by vigorous movements and rhythmic beats, often performed during festivals and celebrations." }
+        { layout: Gidda, name: "Gidda", description: "A traditional dance performed by women, characterized by graceful movements and rhythmic clapping, often performed during festivals and celebrations." },
+        { layout: Bhangra, name: "Bhangra", description: "A lively and energetic dance form originating from Punjab, characterized by vigorous movements and vibrant music." },
+        { layout: Jhoomar, name: "Jhoomar", description: "A traditional dance performed by men, characterized by slow and graceful movements, often performed during harvest festivals." },
+        { layout: Sammi, name: "Sammi", description: "A traditional dance performed by women, characterized by graceful hand movements and vibrant costumes." },
+        { layout: Dhamal, name: "Dhamal", description: "A folk dance performed by men, characterized by vigorous movements and rhythmic beats, often performed during festivals and celebrations." }
     ]
 
 },
