@@ -241,7 +241,7 @@ const langInfo = [
 
  {
     id: "IN-TR",
-    lang_info:"Languages of Tripura, a state in the Northeast India, include Bengali and Kokborok as official languages, and many other minority languages.[1][2][3][4] As in the rest of India, English is used for official purpose.[1] Bengali is the most spoken language, due to the predominance of Bengali people in the state. Kokborok is spoken by the Tripuri people.",
+    lang_info:"Languages of Tripura, a state in the Northeast India, include Bengali and Kokborok as official languages, and many other minority languages. As in the rest of India, English is used for official purpose.[1] Bengali is the most spoken language, due to the predominance of Bengali people in the state. Kokborok is spoken by the Tripuri people.",
     most_spoken_languages: [
       {
           "language": "Bengali",

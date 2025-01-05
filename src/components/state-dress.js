@@ -1,8 +1,5 @@
 stateInfo.js
 
-
-
-
 const stateDress = [
    {
       id: 'IN-AN',

@@ -1,8 +1,5 @@
 stateInfo.js
 
-
-
-
 import NicobareseDance from "src/Assets/Dance/Nicobarese Dance.jpg";
 import LungiDance from "src/Assets/Dance/Lungi Dance.jpg";
 import PaloDance from "src/Assets/Dance/Palo Dance.jpg";
@@ -31,7 +28,7 @@ import SanthaliDance from "src/Assets/Dance/Santhali Dance.jpg";
 import ChangLo from "src/Assets/Dance/Chang Lo.jpg";
 import ZeliangDance from "src/Assets/Dance/Zeliang Dance.jpg";
 import AolingDance from "src/Assets/Dance/Aoling Dance.jpg";
-import SekrenyiDance from "src/Assets/Dance/Sekrenyi Dance.jpg";
+import SekrenyiDance from "src/Assets/Dance/SekrenyiDance.jpg";
 import MoatsuDance from "src/Assets/Dance/Moatsu Dance.jpg";
 import RasLeela from "src/Assets/Dance/Ras Leela.jpg";
 import PungCholom from "src/Assets/Dance/Pung Cholam.jpg";
@@ -47,11 +44,10 @@ import HojagiriDance from "src/Assets/Dance/Hojagiri Dance.jpg";
 import GariaDance from "src/Assets/Dance/Garia Dance.jpg";
 import LebangBoomaniDance from "src/Assets/Dance/Lebang Boomani Dance.jpg";
 import MamitaDance from "src/Assets/Dance/Mamita dance.jpg";
-import WangalaDance from "src/Assets/Dance/Wangala Dance.jpg";
-
+import WangalaDance1 from "src/Assets/Dance/Wangala Dance.jpg";
 import NongkremDance from "src/Assets/Dance/Nongkrem Dance.jpg";
 import ShadSukMynsiem from "src/Assets/Dance/Shad Suk Mynsiem.webp";
-import WangalaDance from "src/Assets/Dance/Wangala Dance2.jpg";
+import WangalaDance2 from "src/Assets/Dance/Wangala Dance2.jpg";
 import LahoDance from "src/Assets/Dance/Laho Dance.jpg";
 import DoregataDance from "src/Assets/Dance/Doregata Dance.jpg";
 import SinghiChham from "src/Assets/Dance/Singhi Chham.jpg";
@@ -74,7 +70,6 @@ import Veeranatyam from "src/Assets/Dance/Veeranatyam.jpg";
 import ButtaBommalu from "src/Assets/Dance/Butta Bommalu.jpg";
 import DappuDance from "src/Assets/Dance/Dappu Dance.jpg";
 import LambadiDance from "src/Assets/Dance/Lambadi Dance.webp";
-
 import Garadi from "src/Assets/Dance/Garadi.jpg";
 import Kummi from "src/Assets/Dance/Kummi2.jpg";
 import Kolattam from "src/Assets/Dance/Kolattam.jpg";
@@ -95,7 +90,6 @@ import RautNacha from "src/Assets/Dance/Raut Nacha.avif";
 import SailaDance from "src/Assets/Dance/Saila Dance.jpg";
 import KarmaDance from "src/Assets/Dance/Karma Dance.jpg";
 import SuaNacha from "src/Assets/Dance/Sua Nacha.jpg";
-
 import Yakshagana from "src/Assets/Dance/Yakshagana.jpg";
 import DolluKunitha from "src/Assets/Dance/Dollu Kunitha.jpg";
 import BhoothaAradhane from "src/Assets/Dance/Bhootha Aradhane.jpg";
@@ -116,8 +110,6 @@ import Tamasha from "src/Assets/Dance/Tamasha.jpg";
 import KoliDance from "src/Assets/Dance/Koli Dance.jpg";
 import DhangariGaja from "src/Assets/Dance/DhangariGaja.jpg";
 import Powada from "src/Assets/Dance/Powada.jpg";
-
- 
 import ChhauDance from "src/Assets/Dance/Chhau.jpg";
 import PaikaDance from "src/Assets/Dance/Paika Dance.avif";
 import Jhumar from "src/Assets/Dance/Jhumar.webp";
@@ -133,7 +125,6 @@ import TertaliDance from "src/Assets/Dance/Tertali Dance.jpg";
 import JawaraDance from "src/Assets/Dance/Jawara Dance.webp";
 import MatkiDance from "src/Assets/Dance/Matki Dance.jpg";
 import PhulpatiDance from "src/Assets/Dance/Phulpati Dance.jpg";
-
 import Garba from "src/Assets/Dance/Garba.avif";
 import DandiyaRaas from "src/Assets/Dance/Dandiya Raas 2.jpg";
 import TippaniDance from "src/Assets/Dance/Tippani Dance.jpg";
@@ -154,8 +145,6 @@ import DandiyaRaas from "src/Assets/Dance/Dandiya Raas.webp";
 import Bhangra from "src/Assets/Dance/Bhangra.jpg";
 import Gidda from "src/Assets/Dance/Gidda.jpg";
 import ChhauDance from "src/Assets/Dance/Chhau Dance2.jpg";
-
-
 import Saang from "src/Assets/Dance/Saang.jpg";
 import Dhamal from "src/Assets/Dance/Dhamal.webp";
 import PhagDance from "src/Assets/Dance/Phag Dance.jpg";
@@ -166,18 +155,11 @@ import BhandPather from "src/Assets/Dance/Bhand Pather.jpg";
 import Dumhal from "src/Assets/Dance/Dumhal.jpg";
 import HafizaDance from "src/Assets/Dance/Hafiza Dance.jpg";
 import BachhaNagma from "src/Assets/Dance/Bachha Nagma.jpg";
-
 import Gidda from "src/Assets/Dance/Gidda2.jpg";
 import Bhangra from "src/Assets/Dance/Bhangra2.avif";
 import Jhoomar from "src/Assets/Dance/Jhoomar.jpg";
 import Sammi from "src/Assets/Dance/Sammi.jpg";
 import Dhamal from "src/Assets/Dance/Dhamal2.jpg";
-
-
-
-
-
-
 
 const stateFolkdances = [
 
@@ -190,9 +172,7 @@ const stateFolkdances = [
             { layout: PaloDance, name: "Palo Dance", description: "A dance form performed by the indigenous tribes of Andaman, often depicting their daily activities and cultural stories." },
             { layout: SareeDance, name: "Saree Dance", description: "A traditional dance performed by women wearing sarees, showcasing the cultural heritage and customs of the islands." },
             { layout: ShellDance, name: "Shell Dance", description: "A unique dance form where performers use shells as musical instruments, creating a rhythmic and melodious performance." }
-        ]
-
-    },
+        ] },
     
     {
 
@@ -204,7 +184,6 @@ const stateFolkdances = [
             { layout: OpanaDance, name: "Opana Dance", description: "A traditional dance performed by women, showcasing the cultural heritage and customs of Lakshadweep, often accompanied by folk music." },
             { layout: DandiDance, name: "Dandi Dance", description: "A vibrant dance form where performers use sticks to create rhythmic patterns, often performed during festivals and celebrations." }
         ]
-
     },
 
  {
@@ -232,8 +211,6 @@ const stateFolkdances = [
     ]
 
 },
-
-
  {
 
     id: "IN-WB",
@@ -244,7 +221,6 @@ const stateFolkdances = [
         { layout: Gambhira, name: "Gambhira", description: "A folk dance and song form that originated in the Malda district of West Bengal, known for its satirical and humorous content." },
         { layout: SanthaliDance, name: "Santhali Dance", description: "A traditional dance of the Santhal tribe, characterized by rhythmic movements and vibrant costumes." }
     ]
-
  },
 
 {
@@ -257,11 +233,9 @@ const stateFolkdances = [
         { layout: SekrenyiDance, name: "Sekrenyi Dance", description: "Performed by the Angami tribe during the Sekrenyi festival, this dance is a celebration of purification and renewal." },
         { layout: MoatsuDance, name: "Moatsu Dance", description: "A traditional dance performed by the Ao tribe during the Moatsu festival, marking the end of the sowing season." }
     ]
-
 },
 
 {
-
     id: "IN-MN",
     Folkdances: [
         { layout: RasLeela, name: "Ras Leela", description: "A classical dance form of Manipur, depicting the love story of Radha and Krishna, characterized by graceful movements and traditional music." },
@@ -270,7 +244,6 @@ const stateFolkdances = [
         { layout: LaiHaraoba, name: "Lai Haraoba", description: "A ritualistic dance performed to please the deities, characterized by slow and graceful movements, often accompanied by traditional music and songs." },
         { layout: KhambaThoibiDance, name: "Khamba Thoibi Dance", description: "A traditional dance depicting the love story of Khamba and Thoibi, performed during the Lai Haraoba festival, showcasing the rich cultural heritage of Manipur." }
     ]
-
 },
 
 
@@ -284,7 +257,6 @@ const stateFolkdances = [
         { layout: ChaiDance, name: "Chai Dance", description: "A traditional dance performed during the Chapchar Kut festival, characterized by rhythmic movements and vibrant costumes." },
         { layout: SarlamkaiDance, name: "Sarlamkai Dance", description: "A war dance performed by the Mara tribe, depicting the bravery and valor of warriors." }
     ]
-
 },
 
 {
@@ -297,7 +269,6 @@ const stateFolkdances = [
         { layout: MamitaDance, name: "Mamita Dance", description: "A traditional dance performed by the Jamatia tribe, usually during the Mamita festival, celebrating the harvest season." },
         { layout: WangalaDance, name: "Wangala Dance", description: "A harvest dance performed by the Garo tribe, celebrating the Wangala festival, which marks the end of the agricultural year." }
     ]
-
 },
 
 {
@@ -306,11 +277,10 @@ const stateFolkdances = [
     Folkdances: [
         { layout: NongkremDance, name: "Nongkrem Dance", description: "A traditional dance performed by the Khasi tribe during the Nongkrem festival, which is a harvest thanksgiving festival." },
         { layout: ShadSukMynsiem, name: "Shad Suk Mynsiem", description: "Also known as the 'Dance of Joyful Hearts', it is performed by the Khasi tribe to celebrate the arrival of spring." },
-        { layout: WangalaDance, name: "Wangala Dance", description: "A harvest dance performed by the Garo tribe, celebrating the Wangala festival, which marks the end of the agricultural year." },
+        { layout: WangalaDance2, name: "Wangala Dance", description: "A harvest dance performed by the Garo tribe, celebrating the Wangala festival, which marks the end of the agricultural year." },
         { layout: LahoDance, name: "Laho Dance", description: "A traditional dance performed by the Jaintia tribe, usually during festivals and social gatherings, characterized by its lively and rhythmic movements." },
         { layout: DoregataDance, name: "Doregata Dance", description: "A playful dance performed by the Garo tribe, where dancers try to knock off each other's headgear using their heads." }
     ]
-
 },
 
 {
@@ -337,7 +307,6 @@ const stateFolkdances = [
         { layout: Thiruvathirakali, name: "Thiruvathirakali", description: "A traditional dance performed by women during the festival of Thiruvathira, characterized by rhythmic movements and graceful steps." },
         { layout: Kalaripayattu, name: "Kalaripayattu", description: "An ancient martial art form that combines combat techniques with dance-like movements, showcasing agility, strength, and coordination." }
     ]
-
 },
  
 {
@@ -466,7 +435,7 @@ const stateFolkdances = [
         { layout: DhangariGaja, name: "Dhangari Gaja", description: "A folk dance performed by the Dhangar community to honor their deity, Biruba, featuring vigorous movements and traditional attire."},
         { layout: Powada, name: "Powada", description: "A dramatic form of folk dance and singing, narrating tales of heroism, especially those of Maratha warriors like Shivaji Maharaj."}
     ]
-}
+},
 
 
 {
