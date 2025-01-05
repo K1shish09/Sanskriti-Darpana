@@ -1,9 +1,5 @@
-stateInfo.js
 
-import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
-import ViperIsland from "../Assets/Heritage/ViperIsland.jpeg";
-import Anthropological from "../Assets/Heritage/Anthropological.jpeg";
-import ChidiyaTapu from "../Assets/Heritage/ChidiyaTapu.jpeg";
+
 import BangaramAtoll from "../Assets/Heritage/BangaramAtoll.jpeg";
 import Lighthouse from "../Assets/Heritage/Lighthouse.jpeg";
 import AgattiIsland from "../Assets/Heritage/AgattiIsland.jpeg";
@@ -49,7 +45,7 @@ import Sepahijala from "../Assets/Heritage/Sepahijala.jpeg";
 import ShillongPeak from "../Assets/Heritage/ShillongPeak.jpeg";
 import NongkhnumIsland from "../Assets/Heritage/NongkhnumIsland.jpeg";
 import MawphlangForest from "../Assets/Heritage/MawphlangForest.jpeg";
-import SijuCaves from "../Assets/Heritage/ SijuCaves.jpeg";
+import SijuCaves from "../Assets/Heritage/SijuCaves.jpeg";
 import RumtekMonastery from "../Assets/Heritage/RumtekMonastery.jpeg";
 import PemayangtseMonastery from "../Assets/Heritage/PemayangtseMonastery.jpeg";
 import Khangchendzonga from "../Assets/Heritage/Khangchendzonga.jpeg";
@@ -62,7 +58,7 @@ import BekalFort from "../Assets/Heritage/BekalFort.jpeg";
 import Meghamalai from "../Assets/Heritage/Meghamalai.jpeg";
 import BrihadeeswararTemple from "../Assets/Heritage/BrihadeeswararTemple.jpeg";
 import MeenakshiAmmanTemple from "../Assets/Heritage/MeenakshiAmmanTemple.jpeg";
-import KanchipuramTemples from "../Assets/Heritage/KanchipuramTemple.jpeg";
+import KanchipuramTemples from "../Assets/Heritage/KanchipuramTemples.jpeg";
 import RockfortTemple from "../Assets/Heritage/RockfortTemple.jpeg";
 import RamanathaswamyTemple from "../Assets/Heritage/RamanathaswamyTemple.jpeg";
 import Naharlagun from "../Assets/Heritage/Naharlagun.jpeg";
@@ -72,12 +68,9 @@ import MadhuriLake from "../Assets/Heritage/MadhuriLake.jpeg";
 import AurobindoAshram from "../Assets/Heritage/AurobindoAshram.jpeg";
 import BasilicaSacredHeart from "../Assets/Heritage/BasilicaSacredHeart.jpeg";
 import Auroville from "../Assets/Heritage/Auroville.jpeg";
-
 import FrenchWarMemorial from "../Assets/Heritage/FrenchWarMemorial.jpeg";
-import Arikamedu from "../Assets/Heritage/Arikamedu.jpeg";
-
+//import Arikamedu from "../Assets/Heritage/Arikamedu.jpeg";
 import Charminar from "../Assets/Heritage/Charminar.jpeg";
-
 import GolcondaFort from "../Assets/Heritage/GolcondaFort.jpeg";
 
 import QutbShahiTombs from "../Assets/Heritage/QutbShahiTombs.jpeg";
@@ -172,6 +165,12 @@ import HemisMonastery from "../Assets/Heritage/HemisMonastery.jpeg";
 import JamaMasjid from "../Assets/Heritage/JamaMasjid.jpeg";
 import KangerValleyNationalPark from "../Assets/Heritage/KangerValleyNationalPark.jpeg";
 import ChitrakootWaterfall from "../Assets/Heritage/ChitrakootWaterfall.jpeg";
+
+
+import CellularJail from "../Assets/Heritage/Cellular-Jail.jpeg";
+import ViperIsland from "../Assets/Heritage/ViperIsland.jpeg";
+import Anthropological from "../Assets/Heritage/Anthropological.jpeg";
+import ChidiyaTapu from "../Assets/Heritage/ChidiyaTapu.jpeg";
 const stateHeritage = [
     {
         id: 'IN-AN',
@@ -182,7 +181,7 @@ const stateHeritage = [
             },
             {
                 name: "Ross Island",
-                description: "Ross Island, now known as Netaji Subhas Chandra Bose Island, was once the administrative headquarters of the British in the Andaman Islands. It features ruins of colonial buildings, such as a church, hospital, and barracks, now overgrown with lush greenery. The island offers a glimpse into the colonial past and is a popular tourist destination. Wildlife such as deer and peacocks roam freely, adding to its charm. It is accessible by a short ferry ride from Port Blair. The island’s tranquil atmosphere makes it a must-visit heritage site.", image: RossIsland
+                description: "Ross Island, now known as Netaji Subhas Chandra Bose Island, was once the administrative headquarters of the British in the Andaman Islands. It features ruins of colonial buildings, such as a church, hospital, and barracks, now overgrown with lush greenery. The island offers a glimpse into the colonial past and is a popular tourist destination. Wildlife such as deer and peacocks roam freely, adding to its charm. It is accessible by a short ferry ride from Port Blair. The island’s tranquil atmosphere makes it a must-visit heritage site.", image: Anthropological
             },
             {
                 name: "Viper Island",
@@ -414,7 +413,7 @@ const stateHeritage = [
             },
             {
                 name: "Umiam Lake",
-                description: "Umiam Lake, located near Shillong, is a stunning man-made reservoir surrounded by lush greenery and hills. It is a serene spot, perfect for boating and picnics. The lake is part of the Umiam River and was created to supply water to Shillong. It is also a popular destination for water sports, such as kayaking and water-skiing. The lake offers breathtaking views of the surrounding mountains, particularly during sunrise and sunset. Visitors can explore nearby gardens and enjoy a peaceful retreat away from the bustle of the city.", image: UmiamLake
+                description: "Umiam Lake, located near Shillong, is a stunning man-made reservoir surrounded by lush greenery and hills. It is a serene spot, perfect for boating and picnics. The lake is part of the Umiam River and was created to supply water to Shillong. It is also a popular destination for water sports, such as kayaking and water-skiing. The lake offers breathtaking views of the surrounding mountains, particularly during sunrise and sunset. Visitors can explore nearby gardens and enjoy a peaceful retreat away from the bustle of the city.", image: Sepahijala 
             },
             {
                 name: "Nongkhnum Island",
@@ -558,7 +557,7 @@ const stateHeritage = [
             },
             {
                 name: "Arikamedu",
-                description: "Arikamedu is an ancient archaeological site located near Puducherry, known for its historical importance as a Roman trading center. Excavations have revealed artifacts dating back to the 1st century BCE, showing evidence of trade between the Romans and the local Tamil population. The site features remains of Roman pottery, beads, and other goods, reflecting the rich cultural exchanges of the period. Arikamedu’s strategic location along the ancient maritime trade routes makes it an important historical landmark. It provides valuable insights into Puducherry's early connections with global trade. The site is also a testament to the region's ancient urbanization and cosmopolitan culture.", image: Arikamedu
+                description: "Arikamedu is an ancient archaeological site located near Puducherry, known for its historical importance as a Roman trading center. Excavations have revealed artifacts dating back to the 1st century BCE, showing evidence of trade between the Romans and the local Tamil population. The site features remains of Roman pottery, beads, and other goods, reflecting the rich cultural exchanges of the period. Arikamedu’s strategic location along the ancient maritime trade routes makes it an important historical landmark. It provides valuable insights into Puducherry's early connections with global trade. The site is also a testament to the region's ancient urbanization and cosmopolitan culture.", image: FrenchWarMemorial
             }
         ]
     },
@@ -785,7 +784,7 @@ const stateHeritage = [
             },
             {
                 name: "Khajuraho Group of Monuments",
-                description: "The Khajuraho Group of Monuments, a UNESCO World Heritage site, is known for its stunning temples with intricate erotic carvings. Located in Chhatarpur district, these temples were built during the Chandela dynasty between 950 and 1050 CE. The temples represent a blend of Hindu and Jain architecture, with exquisite sculptures illustrating various deities, celestial beings, and daily life. The western group of temples is the most famous, including the Kandariya Mahadev Temple and the Lakshmana Temple. The temples are renowned for their architectural innovation and artistic finesse. They attract tourists and scholars from across the world.", image: Khajuraho
+                description: "The Khajuraho Group of Monuments, a UNESCO World Heritage site, is known for its stunning temples with intricate erotic carvings. Located in Chhatarpur district, these temples were built during the Chandela dynasty between 950 and 1050 CE. The temples represent a blend of Hindu and Jain architecture, with exquisite sculptures illustrating various deities, celestial beings, and daily life. The western group of temples is the most famous, including the Kandariya Mahadev Temple and the Lakshmana Temple. The temples are renowned for their architectural innovation and artistic finesse. They attract tourists and scholars from across the world.", image: KanchMandir
             },
             {
                 name: "Mandu Fort",
@@ -871,7 +870,7 @@ const stateHeritage = [
             },
             {
                 name: "Mehrangarh Fort",
-                description: "Mehrangarh Fort, situated in Jodhpur, is one of the largest and most impressive forts in India. Built in the 15th century by Rao Jodha, the fort is perched on a 150-meter-high hill. It features several palaces, temples, and courtyards, along with a museum showcasing artifacts of Rajasthan’s royal history. The fort’s architecture is an example of Rajput military ingenuity, with thick walls, bastions, and expansive gates. Visitors can explore the fort’s galleries, which include weapons, paintings, and other historical relics. Mehrangarh Fort is not only a testament to Rajasthan’s rich heritage but also offers stunning views of Jodhpur.", image: MehrangarhFort
+                description: "Mehrangarh Fort, situated in Jodhpur, is one of the largest and most impressive forts in India. Built in the 15th century by Rao Jodha, the fort is perched on a 150-meter-high hill. It features several palaces, temples, and courtyards, along with a museum showcasing artifacts of Rajasthan’s royal history. The fort’s architecture is an example of Rajput military ingenuity, with thick walls, bastions, and expansive gates. Visitors can explore the fort’s galleries, which include weapons, paintings, and other historical relics. Mehrangarh Fort is not only a testament to Rajasthan’s rich heritage but also offers stunning views of Jodhpur.", image: UdaipurCityPalace
             }
 
         ]
