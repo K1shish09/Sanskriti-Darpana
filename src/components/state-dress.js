@@ -15,16 +15,32 @@ import RihaMuga from "../Assets/Attire/Riha-Muga.webp";
 import EriShawl from "../Assets/Attire/Eri Shawl.webp";
 import AssameseJewelry from "../Assets/Attire/Assamese Jewelry.jpg";
 
-import Gale from "src/Assets/Attire/Gale.jpg";
-import JacketandSkirt from "src/Assets/Attire/Jacket and Skirt.jpg";
-import SherdukpenShawl from "src/Assets/Attire/Sherdukpen Shawl.jpeg";
-import MonpaAttire from "src/Assets/Attire/Monpa Attire.jpg";
-import ApataniOrnaments from "src/Assets/Attire/Apatani Ornaments.jpg";
-import Saree1 from "src/Assets/Attire/Saree1.jpg";
-import DhotiKurta from "src/Assets/Attire/Dhoti-Kurta.jpg";
-import ShantipuriSaree from "src/Assets/Attire/Shantipuri Saree.jpg";
-import BaluchariSaree from "src/Assets/Attire/Baluchari Saree.jpg";
-import BengaliJewelry from "src/Assets/Attire/Bengali Jewelry.webp";
+import Gale from "../Assets/Attire/Gale.jpg";
+import JacketandSkirt from "../Assets/Attire/Jacket and Skirt.jpg";
+import SherdukpenShawl from "../Assets/Attire/Sherdukpen Shawl.jpeg";
+import MonpaAttire from "../Assets/Attire/Monpa Attire.jpg";
+import ApataniOrnaments from "../Assets/Attire/Apatani Ornaments.jpg";
+import Saree1 from "../Assets/Attire/Saree1.jpg";
+import DhotiKurta from "../Assets/Attire/Dhoti-Kurta.jpg";
+import ShantipuriSaree from "../Assets/Attire/Shantipuri Saree.jpg";
+import BaluchariSaree from "../Assets/Attire/Baluchari Saree.jpg";
+import BengaliJewelry from "../Assets/Attire/Bengali Jewelry.webp";
+
+import NagaShawl from "../Assets/Attire/Naga Shawl.jpeg";
+import AngamiSkirt from "../Assets/Attire/Angami Skirt.jpg";
+import AoWarriorAttire from "../Assets/Attire/Ao Warrior Attire.webp";
+import ZeliangOrnaments from "../Assets/Attire/Zeliang Ornaments.jpg";
+import KonyakHeadgear from "../Assets/Attire/Konyak Headgear.jpg";
+import InnaphiandPhanek from "../Assets/Attire/Innaphi and Phanek.jpg";
+import Khudei from "../Assets/Attire/Khudei.jpg";
+import RaniPhee from "../Assets/Attire/Rani Phee.jpg";
+import ManipuriJewelry from "../Assets/Attire/Manipuri Jewelry.webp";
+import Potloi from "../Assets/Attire/Potloi.webp";
+import Puan from "../Assets/Attire/Puan.webp";
+import Puanchei from "../Assets/Attire/Puanchei.jpg";
+import Kawrchei from "../Assets/Attire/Kawrchei.webp";
+import Ngotekherh from "../Assets/Attire/Ngotekherh.jpg";
+import MizoOrnaments from "../Assets/Attire/Mizo Ornaments.jpg";
 
 
 const stateDress = [
@@ -85,22 +101,22 @@ const stateDress = [
  {
     id: "IN-NL",
     Dresses: [
-        { name: "Naga Shawl", description: "Traditional shawl worn by both men and women, characterized by its vibrant colors and intricate patterns." },
-        { name: "Angami Skirt", description: "Traditional attire for women of the Angami tribe, consisting of a wraparound skirt, often paired with a blouse and adorned with beads and jewelry." },
-        { name: "Ao Warrior Attire", description: "Traditional attire for men of the Ao tribe, consisting of a loincloth and a shawl, often adorned with traditional patterns and designs." },
-        { name: "Zeliang Ornaments", description: "Traditional jewelry worn by the Zeliang tribe, often made from beads, shells, and other materials." },
-        { name: "Konyak Headgear", description: "Traditional headgear worn by the Konyak tribe, often adorned with feathers, beads, and other decorations." }
+        { layout: NagaShawl, name: "Naga Shawl", description: "Traditional shawl worn by both men and women, characterized by its vibrant colors and intricate patterns." },
+        { layout: AngamiSkirt, name: "Angami Skirt", description: "Traditional attire for women of the Angami tribe, consisting of a wraparound skirt, often paired with a blouse and adorned with beads and jewelry." },
+        { layout: AoWarriorAttire, name: "Ao Warrior Attire", description: "Traditional attire for men of the Ao tribe, consisting of a loincloth and a shawl, often adorned with traditional patterns and designs." },
+        { layout: ZeliangOrnaments, name: "Zeliang Ornaments", description: "Traditional jewelry worn by the Zeliang tribe, often made from beads, shells, and other materials." },
+        { layout: KonyakHeadgear, name: "Konyak Headgear", description: "Traditional headgear worn by the Konyak tribe, often adorned with feathers, beads, and other decorations." }
     ]
  },
  
  {
     id: "IN-MN",
     Dresses: [
-        { name: "Innaphi and Phanek", description: "Traditional attire for women, consisting of a shawl (Innaphi) and a wraparound skirt (Phanek), often adorned with intricate designs." },
-        { name: "Khudei", description: "Traditional attire for men, consisting of a white cloth wrapped around the waist and legs, often paired with a shirt." },
-        { name: "Rani Phee", description: "A traditional shawl worn by women, characterized by its elegant draping and intricate patterns." },
-        { name: "Manipuri Jewelry", description: "Traditional jewelry made from gold and silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." },
-        { name: "Potloi", description: "Traditional bridal attire for women, characterized by its elaborate designs and vibrant colors." }
+        { layout: InnaphiandPhanek, name: "Innaphi and Phanek", description: "Traditional attire for women, consisting of a shawl (Innaphi) and a wraparound skirt (Phanek), often adorned with intricate designs." },
+        { layout: Khudei, name: "Khudei", description: "Traditional attire for men, consisting of a white cloth wrapped around the waist and legs, often paired with a shirt." },
+        { layout: RaniPhee, name: "Rani Phee", description: "A traditional shawl worn by women, characterized by its elegant draping and intricate patterns." },
+        { layout: ManipuriJewelry, name: "Manipuri Jewelry", description: "Traditional jewelry made from gold and silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." },
+        { layout: Potloi, name: "Potloi", description: "Traditional bridal attire for women, characterized by its elaborate designs and vibrant colors." }
     ]
  },
  
@@ -108,11 +124,11 @@ const stateDress = [
  {
     id: "IN-MZ",
     Dresses: [
-        { name: "Puan", description: "Traditional attire for women, consisting of a wraparound skirt, often paired with a blouse and adorned with beads and jewelry." },
-        { name: "Puanchei", description: "A traditional skirt worn by women during festivals and special occasions, characterized by its vibrant colors and intricate patterns." },
-        { name: "Kawrchei", description: "Traditional blouse worn by women, often paired with a Puan and adorned with beads and jewelry." },
-        { name: "Ngotekherh", description: "Traditional attire for men, consisting of a wraparound skirt and a shirt, often adorned with traditional patterns and designs." },
-        { name: "Mizo Ornaments", description: "Traditional jewelry worn by the Mizo people, often made from beads, shells, and other materials." }
+        { layout: Puan, name: "Puan", description: "Traditional attire for women, consisting of a wraparound skirt, often paired with a blouse and adorned with beads and jewelry." },
+        { layout: Puanchei, name: "Puanchei", description: "A traditional skirt worn by women during festivals and special occasions, characterized by its vibrant colors and intricate patterns." },
+        { layout: Kawrchei, name: "Kawrchei", description: "Traditional blouse worn by women, often paired with a Puan and adorned with beads and jewelry." },
+        { layout: Ngotekherh, name: "Ngotekherh", description: "Traditional attire for men, consisting of a wraparound skirt and a shirt, often adorned with traditional patterns and designs." },
+        { layout: MizoOrnaments, name: "Mizo Ornaments", description: "Traditional jewelry worn by the Mizo people, often made from beads, shells, and other materials." }
     ]
  },
 
