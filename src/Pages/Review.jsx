@@ -28,7 +28,7 @@ const Review = () => {
               Discover User Experiences
             </h1>
             <p className="text-lg max-w-3xl mx-auto mb-8 animate__animated animate__fadeInUp animate__delay-1s">
-              Join the many who have explored India's rich heritage through Sanskriti Darpan. Hear their stories and experiences!
+              Join the many who have explored India's rich heritages through Sanskriti Darpana. Hear their stories and experiences!
             </p>
 
             {/* CTA Button with Hover Effect */}
