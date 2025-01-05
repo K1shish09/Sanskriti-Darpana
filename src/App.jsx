@@ -9,35 +9,21 @@ import Login from './Pages/Login'
 import Layout from './Layout'
 import NewsSection from './Pages/News'
 import Unesco from './Pages/Unesco'
-
-import stateFolkDances from './components/state-folkdance'
 import Intro from './Pages/Intro'
-
 
 
 const App = () => {
   return (
     <Router>
-
-      <Layout>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about-us" element={<AboutUs />} />
-          <Route path="/quiz" element={<QuizPage />} />
-          <Route path="/ques" element={<Ques />} />
-          <Route path="/review" element={<Review />} /> 
-          <Route path="/login" element={<Login />} />
-          <Route path="/news" element={<NewsSection />} />
-          <Route path="/unesco" element={<Unesco />} />
-        </Routes>
-      </Layout>
-
       <Routes>
-      
+
+       <Route path='/' element={<Intro />} />  
+
         <Route path='/' element={<Intro />} />  
+
         <Route element={<Layout />}>
            
-          <Route path='/' element={<Home />} />
+          <Route path='/home' element={<Home />} />
           <Route path='/about' element={<AboutUs />} />
           <Route path='/quiz' element={<QuizPage />} />
           <Route path='/reviews' element={<Review />} />
@@ -48,9 +34,13 @@ const App = () => {
           <Route path='/intro' element={<Intro />} />
         </Route>
       </Routes>
-
     </Router>
   )
 }
 
 export default App
+
+
+
+
+
