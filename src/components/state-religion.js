@@ -1,26 +1,24 @@
-stateInfo.js
 
-import andaban from "../Assets/Religion/andaban-piechart.png";
 import lakshdeep from "../Assets/Religion/lakshdeep-chart.png";
 import assam from "../Assets/Religion/assam-chart.png";
-import arunachal from "../Assets/Religion/arunachal-piechart.png";
-import westbengal from "../Assets/Religion/westbengal-chart.png";
+import arunachal from "../Assets/Religion/arunachal-pie.png";
+import westbengal from "../Assets/Religion/westbangle-piechart.png";
 import nagaland from "../Assets/Religion/nagaland-chart.png";
 import manipur from "../Assets/Religion/manipur-chart.png";
-import kerala from "../Assets/Religion/kerala-chart.png";
-import telangana from "../Assets/Religion/telangana-chart.png";
+import kerala from "../Assets/Religion/kerala-piechart.png";
+import telangana from "../Assets/Religion/telangana-piechart.png";
 import tamilnadu from "../Assets/Religion/tamilnadu-chart.png";
 import andrapradesh from "../Assets/Religion/andrapradesh-chart.png";
 import puducherry from "../Assets/Religion/puducherry-chart.png";
-import goa from "../Assets/Religion/goa-chart.png";
-import chhattisgarh from "../Assets/Religion/chhattisgarh-chart.png";
-import kaenataka from "../Assets/Religion/karnataka-piechart.jpeg";
+import goa from "../Assets/Religion/goa-piechart.png";
+import chhattisgarh from "../Assets/Religion/chhattisgard-piechart.png";
+import karnataka from "../Assets/Religion/karnataka-piechart.jpeg";
 import odisa from "../Assets/Religion/odisa-pie.png";
 import maharashtra from "../Assets/Religion/maharashtra-chart.png";
-import jharkhand from "../Assets/Religion/jharkhand-piechart.png";
+//import jharkhand from "../Assets/Religion/jharkhand-piechart.png";
 import bihar from "../Assets/Religion/bihar-chart.png";
 import mp from "../Assets/Religion/mp-piechart.png";
-import gujarat from "../Assets/Religion/gujarat-piechart.png";
+import gujarat from "../Assets/Religion/gujarat-pirchart.png";
 import rajasthan from "../Assets/Religion/rajasthan.png";
 import delhi from "../Assets/Religion/delhi-piechart.jpg";
 import hariyana from "../Assets/Religion/haryana-piechart.png";
@@ -30,6 +28,7 @@ import chandigard from "../Assets/Religion/chandigard-piechart.png";
 import meghalaya from "../Assets/Religion/meghalaya-piechart.png";
 import sikkim from "../Assets/Religion/sikkim-piechart.jpg";
 
+import andaban from "../Assets/Religion/andaban-piechart.png";
 
 
 const statereligions = [
@@ -142,7 +141,7 @@ const statereligions = [
     {
         id: "IN-KA",
         religions: "The majority of the population in Karnataka is Hindu,Hinduism: 84 % of the population,Islam: 12.92 % of the population,Christianity: 1.87 % of the population.Jainism: 0.72 % of the population,Buddhism: 0.16 % of the population,Sikhism: 0.05 % of the population,In Karnataka, Hinduism is practiced in both Sanskrit and vernacular languages.Upper castes mostly practice Hinduism in Sanskrit, while lower - class people practice it in the vernacular language of the region. The Karnataka Protection of Right to Freedom of Religion Ordinance was promulgated in 2022 to address the issue of religious freedom in the state.Jainism had a stronghold in Karnataka in the early medieval period at Shravanabelagola as its most important centre.Buddhism was once popular in Karnataka during the first millennium in places such as Gulbarga and Banavasi.",
-        image: kaenataka,
+        image: karnataka,
     },
     {
         id: 'IN-OR',
@@ -162,7 +161,7 @@ const statereligions = [
     {
         id: 'IN-JH',
         religions: "Jharkhand, located in eastern India, is a state known for its cultural and religious diversity. The religious demographics of Jharkhand, based on the 2011 Census,Hinduism is the majority religion in Jharkhand, with 67.83% of the population practicing it.The state is home to several ancient Hindu temples, such as the famous Baidyanath Temple in Deoghar, dedicated to Lord Shiva, which is a significant pilgrimage site.Tribal Religions(Sarna/ Animism) (12.84 %), Islam is practiced by 14.53 % of Jharkhand's population, making it the second-largest religion in the state.Christianity has a notable presence, especially among the tribal population. It constitutes 4.3% of the state's population.Churches and missionary organizations have been active in Jharkhand for centuries, with educational and healthcare contributions.Buddhism, Jainism, and Sikhism have a small presence in Jharkhand, collectively making up about 0.5 % of the population.Jharkhand's religious diversity reflects its rich history and culture. The coexistence of tribal traditions with mainstream religions like Hinduism, Islam, and Christianity adds a unique dimension to its social fabric. ",
-        image: jharkhand,
+        image: bihar,
     },
     {
         id: 'IN-BR',
