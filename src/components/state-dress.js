@@ -100,6 +100,30 @@ import Lungi3 from "../Assets/Attire/Lungi3.jpg";
 import PanacheKachche from "../Assets/Attire/Panache Kachche.jpg";
 import KarnatakaJewelry from "../Assets/Attire/Karnataka Jewelry.webp";
 
+import SambalpuriSaree from "../Assets/Attire/Sambalpuri Saree.webp";
+import PasapalliSaree from "../Assets/Attire/Pasapalli Saree.jpg";
+import KhanduaSaree from "../Assets/Attire/Khandua Saree.webp";
+import Dhoti3 from "../Assets/Attire/Dhoti3.webp";
+import OdishaJewelry from "../Assets/Attire/Odisha Jewelry.webp";
+import Lugra from "../Assets/Attire/Lugra.avif";
+import Dhoti4 from "../Assets/Attire/Dhoti4.avif";
+import Pagdi from "../Assets/Attire/Pagdi.jpg";
+import DadraJewelry from "../Assets/Attire/Dadra Jewelry.jpg";
+import Kachhi from "../Assets/Attire/Kachhi.jpg";
+import NauvariSaree from "../Assets/Attire/Nauvari Saree.jpeg";
+import DhotiKurta1 from "../Assets/Attire/Dhoti-Kurta1.jpg";
+import PaithaniSaree from "../Assets/Attire/Paithani Saree.jpg";
+import Pheta from "../Assets/Attire/Pheta.webp";
+import MaharashtrianJewelry from "../Assets/Attire/Maharashtrian Jewelry.png";
+import PanchiandParhan from "../Assets/Attire/Panchi and Parhan.jpg";
+import Dhoti5 from "../Assets/Attire/Dhoti5.jpg";
+import TussarSilkSaree from "../Assets/Attire/Tussar Silk Saree.jpg";
+import JharkhandJewelry from "../Assets/Attire/Jharkhand Jewelry.jpg-org";
+import Gamcha from "../Assets/Attire/Gamcha.webp";
+
+
+
+
 
 const stateDress = [
    {
@@ -330,33 +354,33 @@ const stateDress = [
  {
     id: "IN-OR",
     Dresses: [
-        { name: "Sambalpuri Saree", description: "Traditional attire for women, consisting of a saree known for its unique patterns and vibrant colors." },
-        { name: "Pasapalli Saree", description: "A traditional saree characterized by its intricate checkered patterns and vibrant colors." },
-        { name: "Khandua Saree", description: "A traditional silk saree known for its rich fabric and intricate designs." },
-        { name: "Dhoti", description: "Traditional attire for men, consisting of a long piece of cloth wrapped around the waist and legs, often paired with a shirt." },
-        { name: "Odisha Jewelry", description: "Traditional jewelry made from silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
+        { layout: SambalpuriSaree, name: "Sambalpuri Saree", description: "Traditional attire for women, consisting of a saree known for its unique patterns and vibrant colors." },
+        { layout: PasapalliSaree, name: "Pasapalli Saree", description: "A traditional saree characterized by its intricate checkered patterns and vibrant colors." },
+        { layout: KhanduaSaree, name: "Khandua Saree", description: "A traditional silk saree known for its rich fabric and intricate designs." },
+        { layout: Dhoti3, name: "Dhoti", description: "Traditional attire for men, consisting of a long piece of cloth wrapped around the waist and legs, often paired with a shirt." },
+        { layout: OdishaJewelry, name: "Odisha Jewelry", description: "Traditional jewelry made from silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
     ]
  },
  
  {
     id: 'IN-DN',
     Dresses: [
-        { name: "Lugra", description: "Traditional attire for women, consisting of a wraparound skirt, often paired with a blouse and adorned with beads and jewelry." },
-        { name: "Dhoti", description: "Traditional attire for men, consisting of a long piece of cloth wrapped around the waist and legs, often paired with a shirt." },
-        { name: "Pagdi", description: "A traditional headgear worn by men, often adorned with traditional patterns and designs." },
-        { name: "Dadra Jewelry", description: "Traditional jewelry made from silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." },
-        { name: "Kachhi", description: "Traditional attire for women, consisting of a long skirt and blouse, often adorned with gold jewelry." }
+        { layout: Lugra, name: "Lugra", description: "Traditional attire for women, consisting of a wraparound skirt, often paired with a blouse and adorned with beads and jewelry." },
+        { layout: Dhoti4, name: "Dhoti", description: "Traditional attire for men, consisting of a long piece of cloth wrapped around the waist and legs, often paired with a shirt." },
+        { layout: Pagdi, name: "Pagdi", description: "A traditional headgear worn by men, often adorned with traditional patterns and designs." },
+        { layout: DadraJewelry, name: "Dadra Jewelry", description: "Traditional jewelry made from silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." },
+        { layout: Kachhi, name: "Kachhi", description: "Traditional attire for women, consisting of a long skirt and blouse, often adorned with gold jewelry." }
     ]
  },
  
  {
     id: "IN-MH",
     Dresses: [
-        { name: "Nauvari Saree", description: "Traditional attire for women, consisting of a nine-yard saree worn in a unique draping style, often paired with traditional jewelry." },
-        { name: "Dhoti-Kurta", description: "Traditional attire for men, consisting of a dhoti (a long piece of cloth wrapped around the waist and legs) and a kurta (a long tunic), often worn during festivals and celebrations." },
-        { name: "Paithani Saree", description: "A traditional silk saree from the Paithan region, known for its rich fabric and elaborate patterns." },
-        { name: "Pheta", description: "A traditional headgear worn by men, often adorned with traditional patterns and designs." },
-        { name: "Maharashtrian Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
+        { layout: NauvariSaree, name: "Nauvari Saree", description: "Traditional attire for women, consisting of a nine-yard saree worn in a unique draping style, often paired with traditional jewelry." },
+        { layout: DhotiKurta1, name: "Dhoti-Kurta", description: "Traditional attire for men, consisting of a dhoti (a long piece of cloth wrapped around the waist and legs) and a kurta (a long tunic), often worn during festivals and celebrations." },
+        { layout: PaithaniSaree, name: "Paithani Saree", description: "A traditional silk saree from the Paithan region, known for its rich fabric and elaborate patterns." },
+        { layout: Pheta, name: "Pheta", description: "A traditional headgear worn by men, often adorned with traditional patterns and designs." },
+        { layout: MaharashtrianJewelry, name: "Maharashtrian Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
     ]
  },
  
@@ -365,11 +389,11 @@ const stateDress = [
  {
     id: 'IN-JH',
     Dresses: [
-        { name: "Panchi and Parhan", description: "Traditional attire for women, consisting of a wraparound skirt (Panchi) and a blouse (Parhan), often adorned with beads and jewelry." },
-        { name: "Dhoti", description: "Traditional attire for men, consisting of a long piece of cloth wrapped around the waist and legs, often paired with a shirt." },
-        { name: "Tussar Silk Saree", description: "A traditional silk saree known for its rich fabric and intricate designs." },
-        { name: "Jharkhand Jewelry", description: "Traditional jewelry made from silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." },
-        { name: "Gamcha", description: "A traditional towel worn by men, often paired with traditional attire, providing both style and functionality." }
+        { layout: PanchiandParhan, name: "Panchi and Parhan", description: "Traditional attire for women, consisting of a wraparound skirt (Panchi) and a blouse (Parhan), often adorned with beads and jewelry." },
+        { layout: Dhoti5, name: "Dhoti", description: "Traditional attire for men, consisting of a long piece of cloth wrapped around the waist and legs, often paired with a shirt." },
+        { layout: TussarSilkSaree, name: "Tussar Silk Saree", description: "A traditional silk saree known for its rich fabric and intricate designs." },
+        { layout: JharkhandJewelry, name: "Jharkhand Jewelry", description: "Traditional jewelry made from silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." },
+        { layout: Gamcha, name: "Gamcha", description: "A traditional towel worn by men, often paired with traditional attire, providing both style and functionality." }
     ]
  },
 
