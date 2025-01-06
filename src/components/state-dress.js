@@ -153,6 +153,21 @@ import Saree6 from "../Assets/Attire/Saree6.jpeg";
 import Sherwani from "../Assets/Attire/Sherwani.webp";
 import DelhiJewelry from "../Assets/Attire/Delhi Jewelry.jpg";
 
+import Damaan from "../Assets/Attire/Damaan.webp";
+import KurtaPajama1 from "../Assets/Attire/Kurta Pajama1.jpg";
+import Ghagra from "../Assets/Attire/Ghagra.jpg";
+import Pagri from "../Assets/Attire/Pagri.jpg";
+import HaryanaJewelry from "../Assets/Attire/Haryana Jewelry.jpg";
+import Pheran from "../Assets/Attire/Pheran.jpg";
+import Goncha from "../Assets/Attire/Goncha.jpg";
+import KashmiriSaree from "../Assets/Attire/Kashmiri Saree.jpg";
+import KashmiriShawl from "../Assets/Attire/Kashmiri Shawl.jpg";
+import KashmiriJewelry from "../Assets/Attire/Kashmiri Jewelry.jpg";
+import SalwarKameez1 from "../Assets/Attire/Salwar Kameez1.avif";
+import KurtaPajama2 from "../Assets/Attire/Kurta Pajama2.avif";
+import Saree7 from "../Assets/Attire/Saree7.avif";
+import Sherwani1 from "../Assets/Attire/Sherwani1.jpeg";
+import ChandigarhJewelry from "../Assets/Attire/Chandigarh Jewelry.avif";
 
 const stateDress = [
    {
@@ -503,11 +518,11 @@ const stateDress = [
  {
     id: 'IN-HR',
     Dresses: [
-        { name: "Damaan", description: "Traditional attire for women, consisting of a long skirt (Damaan) and a blouse, often adorned with intricate embroidery and designs." },
-        { name: "Kurta Pajama", description: "Traditional attire for men, consisting of a long tunic (Kurta) and loose-fitting trousers (Pajama), often worn during festivals and celebrations." },
-        { name: "Ghagra", description: "A traditional long skirt worn by women, often paired with a blouse and adorned with intricate embroidery and designs." },
-        { name: "Pagri", description: "A traditional headgear worn by men, often adorned with traditional patterns and designs." },
-        { name: "Haryana Jewelry", description: "Traditional jewelry made from gold and silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
+        { layout: Damaan, name: "Damaan", description: "Traditional attire for women, consisting of a long skirt (Damaan) and a blouse, often adorned with intricate embroidery and designs." },
+        { layout: KurtaPajama1, name: "Kurta Pajama", description: "Traditional attire for men, consisting of a long tunic (Kurta) and loose-fitting trousers (Pajama), often worn during festivals and celebrations." },
+        { layout: Ghagra, name: "Ghagra", description: "A traditional long skirt worn by women, often paired with a blouse and adorned with intricate embroidery and designs." },
+        { layout: Pagri, name: "Pagri", description: "A traditional headgear worn by men, often adorned with traditional patterns and designs." },
+        { layout: HaryanaJewelry, name: "Haryana Jewelry", description: "Traditional jewelry made from gold and silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
     ]
  },
  
@@ -516,11 +531,11 @@ const stateDress = [
  {
     id: 'IN-JK',
     Dresses: [
-        { name: "Pheran", description: "Traditional attire for both men and women, consisting of a long loose gown, often adorned with intricate embroidery and designs." },
-        { name: "Goncha", description: "Traditional attire for men, consisting of a long robe, often paired with a waistcoat and adorned with traditional patterns and designs." },
-        { name: "Kashmiri Saree", description: "A traditional saree known for its fine fabric and intricate embroidery." },
-        { name: "Kashmiri Shawl", description: "A traditional shawl known for its fine fabric and intricate embroidery, often worn by both men and women." },
-        { name: "Kashmiri Jewelry", description: "Traditional jewelry made from gold and silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
+        { layout: Pheran, name: "Pheran", description: "Traditional attire for both men and women, consisting of a long loose gown, often adorned with intricate embroidery and designs." },
+        { layout: Goncha, name: "Goncha", description: "Traditional attire for men, consisting of a long robe, often paired with a waistcoat and adorned with traditional patterns and designs." },
+        { layout: KashmiriSaree, name: "Kashmiri Saree", description: "A traditional saree known for its fine fabric and intricate embroidery." },
+        { layout: KashmiriShawl, name: "Kashmiri Shawl", description: "A traditional shawl known for its fine fabric and intricate embroidery, often worn by both men and women." },
+        { layout: KashmiriJewelry, name: "Kashmiri Jewelry", description: "Traditional jewelry made from gold and silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
     ]
  },
 
@@ -528,11 +543,11 @@ const stateDress = [
  {
     id: 'IN-CH',
     Dresses: [
-        { name: "Salwar Kameez", description: "Traditional attire for women, consisting of a long tunic (Kameez) and loose-fitting trousers (Salwar), often adorned with intricate embroidery and designs." },
-        { name: "Kurta Pajama", description: "Traditional attire for men, consisting of a long tunic (Kurta) and loose-fitting trousers (Pajama), often worn during festivals and celebrations." },
-        { name: "Saree", description: "Traditional attire for women, often worn during festivals and special occasions, characterized by its elegant draping and intricate designs." },
-        { name: "Sherwani", description: "A traditional long coat worn by men, often adorned with intricate embroidery and designs, typically worn during weddings and special occasions." },
-        { name: "Chandigarh Jewelry", description: "Traditional jewelry made from gold and silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
+        { layout: SalwarKameez1, name: "Salwar Kameez", description: "Traditional attire for women, consisting of a long tunic (Kameez) and loose-fitting trousers (Salwar), often adorned with intricate embroidery and designs." },
+        { layout: KurtaPajama2, name: "Kurta Pajama", description: "Traditional attire for men, consisting of a long tunic (Kurta) and loose-fitting trousers (Pajama), often worn during festivals and celebrations." },
+        { layout: Saree7, name: "Saree", description: "Traditional attire for women, often worn during festivals and special occasions, characterized by its elegant draping and intricate designs." },
+        { layout: Sherwani1, name: "Sherwani", description: "A traditional long coat worn by men, often adorned with intricate embroidery and designs, typically worn during weddings and special occasions." },
+        { layout: ChandigarhJewelry, name: "Chandigarh Jewelry", description: "Traditional jewelry made from gold and silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
     ]
  },
 
