@@ -80,9 +80,25 @@ import PuducherrySare from "../Assets/Attire/Puducherry Sare.jpg";
 import PuducherryJewelry from "../Assets/Attire/Puducherry Jewelry.jpg";
 import Saree5 from "../Assets/Attire/Saree5.webp";
 import Dhoti1 from "../Assets/Attire/Dhoti1.jpg";
-import LangaVoni1 from "src/Assets/Attire/Langa Voni1.webp";
-import PochampallySaree from "src/Assets/Attire/Pochampally Saree.jpg";
-import TelanganaJewelry from "src/Assets/Attire/Telangana Jewelry.jpg";
+import LangaVoni1 from "../Assets/Attire/Langa Voni1.webp";
+import PochampallySaree from "../Assets/Attire/Pochampally Saree.jpg";
+import TelanganaJewelry from "../Assets/Attire/Telangana Jewelry.jpg";
+
+import KunbiSaree from "../Assets/Attire/Kunbi Saree.jpg";
+import PanoBhaju from "../Assets/Attire/PanoBhaju.jpg";
+import Kashti from "../Assets/Attire/Kashti.jpg";
+import GoanJewelry from "../Assets/Attire/GoanJewelry.jpg";
+import NavVari from "../Assets/Attire/Nav-Vari.jpg";
+import Lugda from "../Assets/Attire/Lugda.jpg";
+import Kachhora from "../Assets/Attire/Kachhora.jpg";
+import Dhoti2 from "../Assets/Attire/Dhoti2.avif";
+import ChhattisgarhiJewelry from "../Assets/Attire/Chhattisgarhi Jewelry.jpg";
+import Bharni from "../Assets/Attire/Bharni.jpg";
+import MysoreSilkSaree from "../Assets/Attire/MysoreSilkSaree.webp";
+import IlkalSaree from "../Assets/Attire/Ilkal Saree.png";
+import Lungi3 from "../Assets/Attire/Lungi3.jpg";
+import PanacheKachche from "../Assets/Attire/Panache Kachche.jpg";
+import KarnatakaJewelry from "../Assets/Attire/Karnataka Jewelry.webp";
 
 
 const stateDress = [
@@ -281,33 +297,33 @@ const stateDress = [
  {
     id: "IN-GA",
     Dresses: [
-        { name: "Kunbi Saree", description: "Traditional attire for women, consisting of a saree worn in a unique draping style, often paired with traditional jewelry." },
-        { name: "Pano Bhaju", description: "Traditional attire for women, consisting of a long skirt and blouse, often adorned with gold jewelry." },
-        { name: "Kashti", description: "Traditional attire for men, consisting of a loincloth and a shawl, often adorned with traditional patterns and designs." },
-        { name: "Goan Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." },
-        { name: "Nav-Vari", description: "A traditional nine-yard saree worn by women, characterized by its elegant draping and intricate designs." }
+        { layout: KunbiSaree, name: "Kunbi Saree", description: "Traditional attire for women, consisting of a saree worn in a unique draping style, often paired with traditional jewelry." },
+        { layout: PanoBhaju, name: "Pano Bhaju", description: "Traditional attire for women, consisting of a long skirt and blouse, often adorned with gold jewelry." },
+        { layout: Kashti, name: "Kashti", description: "Traditional attire for men, consisting of a loincloth and a shawl, often adorned with traditional patterns and designs." },
+        { layout: GoanJewelry, name: "Goan Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." },
+        { layout: NavVari, name: "Nav-Vari", description: "A traditional nine-yard saree worn by women, characterized by its elegant draping and intricate designs." }
     ]
  },
 
  {
     id: "IN-CT",
     Dresses: [
-        { name: "Lugda", description: "Traditional attire for women, consisting of a saree worn in a unique draping style, often paired with traditional jewelry." },
-        { name: "Kachhora", description: "Traditional attire for women, consisting of a long skirt and blouse, often adorned with gold jewelry." },
-        { name: "Dhoti", description: "Traditional attire for men, consisting of a long piece of cloth wrapped around the waist and legs, often paired with a shirt." },
-        { name: "Chhattisgarhi Jewelry", description: "Traditional jewelry made from silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." },
-        { name: "Bharni", description: "A traditional shawl worn by women, characterized by its vibrant colors and intricate patterns." }
+        { layout: Lugda, name: "Lugda", description: "Traditional attire for women, consisting of a saree worn in a unique draping style, often paired with traditional jewelry." },
+        { layout: Kachhora, name: "Kachhora", description: "Traditional attire for women, consisting of a long skirt and blouse, often adorned with gold jewelry." },
+        { layout: Dhoti2, name: "Dhoti", description: "Traditional attire for men, consisting of a long piece of cloth wrapped around the waist and legs, often paired with a shirt." },
+        { layout: ChhattisgarhiJewelry, name: "Chhattisgarhi Jewelry", description: "Traditional jewelry made from silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." },
+        { layout: Bharni, name: "Bharni", description: "A traditional shawl worn by women, characterized by its vibrant colors and intricate patterns." }
     ]
  },
 
  {
     id: "IN-KA",
     Dresses: [
-        { name: "Mysore Silk Saree", description: "Traditional attire for women, consisting of a silk saree known for its rich fabric and intricate designs." },
-        { name: "Ilkal Saree", description: "A traditional saree from the Ilkal region, known for its fine fabric and unique patterns." },
-        { name: "Lungi", description: "A popular garment among the locals, worn by both men and women, characterized by its vibrant colors and patterns." },
-        { name: "Panache Kachche", description: "Traditional attire for men, consisting of a long piece of cloth wrapped around the waist and legs, often paired with a shirt." },
-        { name: "Karnataka Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
+        { layout: MysoreSilkSaree, name: "Mysore Silk Saree", description: "Traditional attire for women, consisting of a silk saree known for its rich fabric and intricate designs." },
+        { layout: IlkalSaree, name: "Ilkal Saree", description: "A traditional saree from the Ilkal region, known for its fine fabric and unique patterns." },
+        { layout: Lungi3, name: "Lungi", description: "A popular garment among the locals, worn by both men and women, characterized by its vibrant colors and patterns." },
+        { layout: PanacheKachche, name: "Panache Kachche", description: "Traditional attire for men, consisting of a long piece of cloth wrapped around the waist and legs, often paired with a shirt." },
+        { layout: KarnatakaJewelry, name: "Karnataka Jewelry", description: "Traditional jewelry made from gold, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." }
     ]
  },
  
