@@ -32,7 +32,7 @@ const QuizPage = () => {
         {/* "Explore India Quiz" Button at the Top */}
         <div className="absolute top-10 left-1/2 transform -translate-x-1/2 z-20">
           <button className="text-white bg-gradient-to-r from-pink-500 to-red-500 hover:from-red-500 hover:to-pink-500 font-semibold py-3 px-12 rounded-lg shadow-lg transition duration-300">
-            Explore India Quiz
+            Explore India's Quiz
           </button>
         </div>
 

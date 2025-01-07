@@ -40,7 +40,7 @@ function NewsSection() {
         'https://www.bing.com/th?id=OVFT.lA1xd1b9QXaV5-hzMhKVqi&pid=News&w=234&h=132&c=14&rs=2&qlt=90',
       title: 'Tulsi Vivah is a sacred Hind ritual',
       description:
-        'Tulsi Vivah is a sacred Hindu ritual that symbolizes the ceremonial marriages of the Tulsi plant (holy basil) with Lord Vishnu, usually in his avatar as Shaligram or Lord Krishna.',
+        'Tulsi Vivah is a sacred Hindu rituals that symbolizes the ceremonial marriages of the Tulsi plant (holy basil) with Lord Vishnu, usually in his avatar as Shaligram or Lord Krishna.',
     },
     {
       imageUrl:
@@ -82,7 +82,7 @@ function NewsSection() {
         </h2>
         <div className="flex items-center justify-center mt-4">
           <p className="text-white font-medium text-lg px-4 py-3 bg-gradient-to-tr from-red-700 to-pink-600 rounded-full shadow-lg transform transition duration-200 hover:scale-105">
-            Discover the latest events and cultural highlighted through Sanskriti Darpana.
+            Discover the latest events and cultural highlighted through Sanskriti Darpan.
           </p>
         </div>
       </div>
