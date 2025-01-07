@@ -1,11 +1,7 @@
-stateInfo.js
-import CoconutPrawnCurry from "../Assets/Food/cCoconut-Prawn-Curry.jpg";
-import BarbecuedSeafood from "../Assets/Food/Barbecued-Seafood.jpg";
-import GrilledLobster from "../Assets/Food/Grilled-Lobster.jpg";
-import fishcurry from "../Assets/Food/fishcurry.jpg";
-import nicobarichickencurry from "../Assets/Food/NicobariChickenCurry.jpg";
+
+
 import tunacurry from "../Assets/Food/tunacurry.jpg";
-import MalabarParotta from "../Assets/Food/MalabarParotta.jpeg";
+import MalabarParotta from "../Assets/Food/Malabar-Parotta.jpeg";
 import fishtikka from "../Assets/Food/fishtikka.jpeg";
 
 import OctopusFry from "../Assets/Food/OctopusFry.jpg";
@@ -19,12 +15,12 @@ import Thukpa from "../Assets/Food/Thukpa.jpg";
 import Apong from "../Assets/Food/Apong.jpg";
 import pikapila from "../Assets/Food/pikapila.jpeg";
 import ChuraSabzi from "../Assets/Food/ChuraSabzi.jpeg";
-import MacherJhol from "../Assets/Food/MacherJhol jpeg";
+import MacherJhol from "../Assets/Food/MacherJhol.jpeg";
 import bambooShoots from "../Assets/Food/bambooShoots.jpeg";
 import ShorsheIlish from "../Assets/Food/ShorsheIlish.jpeg";
 import AlooPosto from "../Assets/Food/AlooPosto.jpeg";
 import ChingriMalaiCurry from "../Assets/Food/ChingriMalaiCurry.jpeg";
-import Rosogolla from "../Assets/Food/Rosogolla,jpeg";
+import Rosogolla from "../Assets/Food/Rosogolla.jpeg";
 import SmokedPork from "../Assets/Food/SmokedPorkwithBambooShoot.jpeg";
 import NagaStew from "../Assets/Food/NagaStew.jpeg";
 import Akhuni from "../Assets/Food/Akhuni.jpeg";
@@ -54,17 +50,17 @@ import momo from "../Assets/Food/momo.jpeg";
 import SelRoti from "../Assets/Food/Sel-Roti.jpeg";
 import Chhurpi from "../Assets/Food/Chhurpi.jpeg";
 import Sadya from "../Assets/Food/Sadya.jpeg";
-import SKeralaParotta from "../Assets/Food/Kerala-Parotta.jpeg";
+import KeralaParotta from "../Assets/Food/Kerala-Parotta.jpeg";
 import Appam from "../Assets/Food/Appam.jpeg";
 
 
-import KarimeenPollichathu from "../Assets/Food/ Karimeen-Pollichathu.jpeg";
+import KarimeenPollichathu from "../Assets/Food/Karimeen-Pollichathu.jpeg";
 
 import PuttuandKadalaCurry from "../Assets/Food/Puttu-KadalaCurry.jpeg";
 
 import Hyderabadi from "../Assets/Food/Hyderabadi.jpeg";
 
-import SarvaPindi from "../Assets/Food/SarvaPindi.jpeg";
+import SarvaPindi from "../Assets/Food/Sarva Pindi.jpeg";
 
 import Haleem from "../Assets/Food/Haleem.jpeg";
 
@@ -76,12 +72,12 @@ import AndhraBiryani from "../Assets/Food/AndhraBiryani.jpeg";
 
 import Pulihora from "../Assets/Food/Pulihora.jpeg";
 
-import GonguraPachadi from "../Assets/Food/Gongura Pachadi.jpeg";
+import GonguraPachadi from "../Assets/Food/GonguraPachadi.jpeg";
 
 import Vepudu from "../Assets/Food/RoyyalaVepudu.jpeg";
 import Pesarattu from "../Assets/Food/Pesarattu.jpeg";
 
-import PuducherryBiryani from "../Assets/Food/Puducherry Biryani.jpeg";
+import PuducherryBiryani from "../Assets/Food/PuducherryBiryani.jpeg";
 
 import dosa from "../Assets/Food/dosa.jpeg";
 
@@ -165,6 +161,12 @@ import ModurPulao from "../Assets/Food/ModurPulao.jpeg";
 import RajmaChawal from "../Assets/Food/RajmaChawal.jpeg";
 import AmritsariKulcha from "../Assets/Food/AmritsariKulcha.jpeg";
 import Lassi from "../Assets/Food/Lassi.jpeg";
+
+import CoconutPrawnCurry from "../Assets/Food/Coconut-Prawn-Curry.jpg";
+import BarbecuedSeafood from "../Assets/Food/Barbecued-Seafood.jpg";
+import GrilledLobster from "../Assets/Food/GrilledLobster.jpg";
+import fishcurry from "../Assets/Food/fishcurry.jpg";
+import nicobarichickencurry from "../Assets/Food/NicobariChickenCurry.jpg";
 
 const stateFoods = [
     {
@@ -493,7 +495,7 @@ const stateFoods = [
             },
             {
                 name: "Kerala Parotta",
-                description: "Kerala Parotta is a flaky, layered flatbread made from refined flour. It is soft on the inside with a crispy exterior, making it a favorite in Kerala. Parotta is often paired with spicy curries such as beef or chicken curry, and it is a popular street food. It is made by kneading dough with ghee or oil, then rolling it into thin layers and frying. The technique of flipping and stretching the dough gives it its signature texture. Parotta is a common breakfast or dinner dish in Kerala. It is widely loved for its versatility and delicious taste.", image: SKeralaParotta
+                description: "Kerala Parotta is a flaky, layered flatbread made from refined flour. It is soft on the inside with a crispy exterior, making it a favorite in Kerala. Parotta is often paired with spicy curries such as beef or chicken curry, and it is a popular street food. It is made by kneading dough with ghee or oil, then rolling it into thin layers and frying. The technique of flipping and stretching the dough gives it its signature texture. Parotta is a common breakfast or dinner dish in Kerala. It is widely loved for its versatility and delicious taste.", image: KeralaParotta
             },
             {
                 name: "Appam",
@@ -1014,7 +1016,8 @@ const stateFoods = [
             },
             {
                 name: "Gushtaba",
-                description: "Known as the 'King of Kashmiri Cuisine',  Gushtaba is a royal dish made with minced mutton shaped into soft meatballs.These meatballs are cooked in a luscious yogurt gravy spiced with cardamom, fennel, and cloves.The preparation of Gushtaba is labor - intensive and requires expert hands, making it a dish of celebration and importance.It is traditionally served at the end of a Wazwan feast as a sign of respect to guests.The creamy, tangy sauce pairs perfectly with steamed rice.Gushtaba embodies the essence of Kashmiri hospitality and culinary artistry.", image: Gushtaba
+                description: "Known as the 'King of Kashmiri Cuisine',  Gushtaba is a royal dish made with minced mutton shaped into soft meatballs.These meatballs are cooked in a luscious yogurt gravy spiced with cardamom, fennel, and cloves.The preparation of Gushtaba is labor - intensive and requires expert hands, making it a dish of celebration and importance.It is traditionally served at the end of a Wazwan feast as a sign of respect to guests.The creamy, tangy sauce pairs perfectly with steamed rice.Gushtaba embodies the essence of Kashmiri hospitality and culinary artistry.",
+                image: ModurPulao
 
             },
             {

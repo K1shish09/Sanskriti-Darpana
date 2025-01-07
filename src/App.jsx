@@ -21,6 +21,7 @@ const App = () => {
         <Route element={<Layout />}>
            
           <Route path='/home' element={<Home />} />
+          <Route path='/home' element={<Home />} />
           <Route path='/about' element={<AboutUs />} />
           <Route path='/quiz' element={<QuizPage />} />
           <Route path='/reviews' element={<Review />} />
@@ -36,4 +37,8 @@ const App = () => {
 }
 
 export default App
+
+
+
+
 
