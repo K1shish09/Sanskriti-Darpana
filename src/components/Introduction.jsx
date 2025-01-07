@@ -2,7 +2,7 @@ import React from 'react';
 import stateInfo from '../components/state-info'; // Adjust the path as needed
 
 function Information({ selected }) {
-  const tempId = 'IN-MH'; // Replace with the ID you want to test
+  const tempId = 'IN-GA'; // Replace with the ID you want to test
   const content = stateInfo.find((info) => info.id === tempId);
 
   if (!content) {
