@@ -1,36 +1,55 @@
 stateInfo.js
 
+import NicobareseChanting from "../Assets/Music/Nicobarese Chanting.jpg";
+import LungiSongs from "../Assets/Music/Lungi Songs.jpg";
+import PaloMelodies from "../Assets/Music/Palo Melodies.jpg";
+import SareeSongs from "../Assets/Music/Saree Songs.jpg";
+import ShellMusic from "../Assets/Music/Shell Music.jpg";
+import LavaSongs from "../Assets/Music/Lava Songs.webp";
+import KolkaliTunes from "../Assets/Music/Kolkali Tunes.jpg";
+import ParichakaliBeats from "../Assets/Music/Parichakali Beats.jpg";
+import OpanaMelodies from "../Assets/Music/Opana Melodies.webp";
+import DandiRhythms from "../Assets/Music/Dandi Rhythms.webp";
+
+
+import BihuSongs from "../Assets/Music/Bihu Songs.jpg";
+import SattriyaMusic from "../Assets/Music/Sattriya Music.jpg";
+import BhortalMusic from "../Assets/Music/Bhortal Music.jpg";
+import JhumurSongs from "../Assets/Music/Jhumur Songs.jpg";
+import DeodhaniMusic from "../Assets/Music/Deodhani Music.jpg";
+
+
 const stateFolkmusics = [
     {
         id: 'IN-AN',
         Folkmusics: [
-            { name: "Nicobarese Chanting", description: "Traditional chanting performed by the Nicobarese tribe during various ceremonies and festivals, featuring rhythmic drumming and vocal harmonies." },
-            { name: "Lungi Songs", description: "Popular songs among the locals, characterized by vibrant rhythms and traditional instruments, often performed during celebrations." },
-            { name: "Palo Melodies", description: "Melodic tunes performed by the indigenous tribes of Andaman, often depicting their daily activities and cultural stories." },
-            { name: "Saree Songs", description: "Traditional songs performed by women wearing sarees, showcasing the cultural heritage and customs of the islands through soulful melodies." },
-            { name: "Shell Music", description: "Unique music form where performers use shells as musical instruments, creating a rhythmic and melodious performance." }
+            { layout: NicobareseChanting, name: "Nicobarese Chanting", description: "Traditional chanting performed by the Nicobarese tribe during various ceremonies and festivals, featuring rhythmic drumming and vocal harmonies." },
+            { layout: LungiSongs, name: "Lungi Songs", description: "Popular songs among the locals, characterized by vibrant rhythms and traditional instruments, often performed during celebrations." },
+            { layout: PaloMelodies, name: "Palo Melodies", description: "Melodic tunes performed by the indigenous tribes of Andaman, often depicting their daily activities and cultural stories." },
+            { layout: SareeSongs, name: "Saree Songs", description: "Traditional songs performed by women wearing sarees, showcasing the cultural heritage and customs of the islands through soulful melodies." },
+            { layout: ShellMusic, name: "Shell Music", description: "Unique music form where performers use shells as musical instruments, creating a rhythmic and melodious performance." }
         ]
     },
 
     {
         id: "IN-LD",
         Folkmusics: [
-            { name: "Lava Songs", description: "Traditional songs performed by the men of Lakshadweep, characterized by rhythmic drumming and vibrant melodies, often accompanied by folk songs." },
-            { name: "Kolkali Tunes", description: "Folk tunes performed with rhythmic stick patterns, often accompanied by traditional instruments." },
-            { name: "Parichakali Beats", description: "Martial music form featuring rhythmic beats and traditional instruments, depicting the martial arts of the region." },
-            { name: "Opana Melodies", description: "Traditional melodies performed by women, showcasing the cultural heritage and customs of Lakshadweep." },
-            { name: "Dandi Rhythms", description: "Vibrant music form where performers create rhythmic patterns with sticks, often performed during festivals and celebrations." }
+            { layout: LavaSongs, name: "Lava Songs", description: "Traditional songs performed by the men of Lakshadweep, characterized by rhythmic drumming and vibrant melodies, often accompanied by folk songs." },
+            { layout: KolkaliTunes, name: "Kolkali Tunes", description: "Folk tunes performed with rhythmic stick patterns, often accompanied by traditional instruments." },
+            { layout: ParichakaliBeats, name: "Parichakali Beats", description: "Martial music form featuring rhythmic beats and traditional instruments, depicting the martial arts of the region." },
+            { layout: OpanaMelodies, name: "Opana Melodies", description: "Traditional melodies performed by women, showcasing the cultural heritage and customs of Lakshadweep." },
+            { layout: DandiRhythms, name: "Dandi Rhythms", description: "Vibrant music form where performers create rhythmic patterns with sticks, often performed during festivals and celebrations." }
         ]
     },
 
     {
         id: "IN-AS",
         Folkmusics: [
-            { name: "Bihu Songs", description: "Traditional songs performed during the Bihu festival, characterized by brisk rhythms and vibrant melodies, symbolizing joy and prosperity." },
-            { name: "Sattriya Music", description: "Classical music originating from the Vaishnavite monasteries of Assam, narrating mythological stories through elegant and disciplined compositions." },
-            { name: "Bhortal Music", description: "Rhythmic and energetic music performed with cymbals, often presented during cultural events and festivals in Assam." },
-            { name: "Jhumur Songs", description: "Folk songs performed by the tea tribe community of Assam, reflecting their daily lives, traditions, and festive spirit through soulful melodies." },
-            { name: "Deodhani Music", description: "Spiritual and ecstatic music performed as a form of offering to the goddess Manasa, marked by intense expressions and dramatic gestures." }
+            { layout: BihuSongs, name: "Bihu Songs", description: "Traditional songs performed during the Bihu festival, characterized by brisk rhythms and vibrant melodies, symbolizing joy and prosperity." },
+            { layout: SattriyaMusic, name: "Sattriya Music", description: "Classical music originating from the Vaishnavite monasteries of Assam, narrating mythological stories through elegant and disciplined compositions." },
+            { layout: BhortalMusic, name: "Bhortal Music", description: "Rhythmic and energetic music performed with cymbals, often presented during cultural events and festivals in Assam." },
+            { layout: JhumurSongs, name: "Jhumur Songs", description: "Folk songs performed by the tea tribe community of Assam, reflecting their daily lives, traditions, and festive spirit through soulful melodies." },
+            { layout: DeodhaniMusic, name: "Deodhani Music", description: "Spiritual and ecstatic music performed as a form of offering to the goddess Manasa, marked by intense expressions and dramatic gestures." }
         ]
     },
 

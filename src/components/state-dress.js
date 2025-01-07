@@ -1,10 +1,7 @@
 stateInfo.js
 
 
-import NicobareseAttire from "../Assets/Attire/Nicobarese Attire.webp";
-import Lungi from "../Assets/Attire/Lungi.jpg";
-import Saree from "../Assets/Attire/Saree.jpg";
-import ShellOrnaments from "../Assets/Attire/Shell Ornaments.webp";
+
 import Mundu from "../Assets/Attire/Mundu.jpg";
 import Kachi from "../Assets/Attire/Kachi.jpg";
 import Lungi2 from "../Assets/Attire/Lungi2.jpg";
@@ -58,7 +55,7 @@ import Shuruval from "../Assets/Attire/Shuruval.webp";
 import SikkimeseOrnaments from "../Assets/Attire/Sikkimese Ornaments.jpg";
 import Pangden from "../Assets/Attire/Pangden.jpg";
 
-import Mundu1 from "../Assets/Attire/Mundu1.JPG";
+import Mundu2 from "../Assets/Attire/Mundu2.webp";
 import KasavuSaree from "../Assets/Attire/Kasavu Saree.webp";
 import SettuMundu from "../Assets/Attire/Settu Mundu.jpg";
 import MunduNeriyathum from "../Assets/Attire/Mundu Neriyathum.webp";
@@ -118,11 +115,11 @@ import MaharashtrianJewelry from "../Assets/Attire/Maharashtrian Jewelry.png";
 import PanchiandParhan from "../Assets/Attire/Panchi and Parhan.jpg";
 import Dhoti5 from "../Assets/Attire/Dhoti5.jpg";
 import TussarSilkSaree from "../Assets/Attire/Tussar Silk Saree.jpg";
-import JharkhandJewelry from "../Assets/Attire/Jharkhand Jewelry.jpg-org";
+import JharkhandJewelry from "../Assets/Attire/Jharkhand Jewelry.jpg";
 import Gamcha from "../Assets/Attire/Gamcha.webp";
 
-import TussarSilkSaree from "../Assets/Attire/TussarSilkSaree.webp";
-import DhotiKurta from "../Assets/Attire/Dhoti Kurta.webp";
+import TussarSilkSaree1 from "../Assets/Attire/TussarSilkSaree.webp";
+import DhotiKurta2 from "../Assets/Attire/Dhoti Kurta.webp";
 import MadhubaniSaree from "../Assets/Attire/Madhubani Saree.webp";
 import BiharJewelry from "../Assets/Attire/Bihar Jewelry.jpg";
 import Gamcha1 from "../Assets/Attire/Gamcha1.jpeg";
@@ -139,7 +136,7 @@ import Pagdi1 from "../Assets/Attire/Pagdi1.jpg";
 import GhagraCholi from "../Assets/Attire/Ghagra Choli.jpg";
 import Dhoti7 from "../Assets/Attire/Dhoti7.jpg";
 import DamanandDiuJewelry from "../Assets/Attire/Daman and Diu Jewelry.webp";
-import Pagdi from "../Assets/Attire/Pagdi.jpg";
+import Pagdi4 from "../Assets/Attire/Pagdi.jpg";
 import Kachhi1 from "../Assets/Attire/Kachhi1.webp";
 
 import GhagraCholi1 from "../Assets/Attire/Ghagra Choli1.jpg";
@@ -168,6 +165,12 @@ import KurtaPajama2 from "../Assets/Attire/Kurta Pajama2.avif";
 import Saree7 from "../Assets/Attire/Saree7.avif";
 import Sherwani1 from "../Assets/Attire/Sherwani1.jpeg";
 import ChandigarhJewelry from "../Assets/Attire/Chandigarh Jewelry.avif";
+
+
+import NicobareseAttire from "../Assets/Attire/Nicobarese Attire.webp";
+import Lungi from "../Assets/Attire/Lungi.jpg";
+import Saree from "../Assets/Attire/Saree.jpg";
+import ShellOrnaments from "../Assets/Attire/Shell Ornaments.webp";
 
 const stateDress = [
    {
@@ -297,7 +300,7 @@ const stateDress = [
  {
     id: "IN-KL",
     Dresses: [
-        { layout: Mundu1, name: "Mundu", description: "Traditional attire for men, consisting of a white cloth wrapped around the waist and legs, often paired with a shirt." },
+        { layout: Mundu2, name: "Mundu", description: "Traditional attire for men, consisting of a white cloth wrapped around the waist and legs, often paired with a shirt." },
         { layout: KasavuSaree, name: "Kasavu Saree", description: "Traditional attire for women, consisting of a white saree with a gold border, often worn during festivals and special occasions." },
         { layout: SettuMundu, name: "Settu Mundu", description: "A traditional two-piece garment worn by women, consisting of a wraparound skirt and a blouse, often adorned with gold jewelry." },
         { layout: MunduNeriyathum, name: "Mundu Neriyathum", description: "Traditional attire for women, consisting of a white cloth wrapped around the waist and legs, often paired with a blouse and adorned with gold jewelry." },
@@ -445,8 +448,8 @@ const stateDress = [
  {
     id: 'IN-BR',
     Dresses: [
-        { layout: TussarSilkSaree, name: "Tussar Silk Saree", description: "Traditional attire for women, consisting of a silk saree known for its rich fabric and intricate designs." },
-        { layout: DhotiKurta, name: "Dhoti-Kurta", description: "Traditional attire for men, consisting of a dhoti (a long piece of cloth wrapped around the waist and legs) and a kurta (a long tunic), often worn during festivals and celebrations." },
+        { layout: TussarSilkSaree1, name: "Tussar Silk Saree", description: "Traditional attire for women, consisting of a silk saree known for its rich fabric and intricate designs." },
+        { layout: DhotiKurta2, name: "Dhoti-Kurta", description: "Traditional attire for men, consisting of a dhoti (a long piece of cloth wrapped around the waist and legs) and a kurta (a long tunic), often worn during festivals and celebrations." },
         { layout: MadhubaniSaree, name: "Madhubani Saree", description: "A traditional saree characterized by its intricate Madhubani paintings and vibrant colors." },
         { layout: BiharJewelry, name: "Bihar Jewelry", description: "Traditional jewelry made from gold and silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." },
         { layout: Gamcha1, name: "Gamcha", description: "A traditional towel worn by men, often paired with traditional attire, providing both style and functionality." }
@@ -484,7 +487,7 @@ const stateDress = [
         { layout: GhagraCholi, name: "Ghagra Choli", description: "Traditional attire for women, consisting of a long skirt (Ghagra) and a blouse (Choli), often adorned with intricate embroidery and mirror work." },
         { layout: Dhoti7, name: "Dhoti", description: "Traditional attire for men, consisting of a long piece of cloth wrapped around the waist and legs, often paired with a shirt." },
         { layout: DamanandDiuJewelry, name: "Daman and Diu Jewelry", description: "Traditional jewelry made from silver, often worn by women as part of their traditional attire, including necklaces, earrings, and bangles." },
-        { layout: Pagdi, name: "Pagdi", description: "A traditional headgear worn by men, often adorned with traditional patterns and designs." },
+        { layout: Pagdi4, name: "Pagdi", description: "A traditional headgear worn by men, often adorned with traditional patterns and designs." },
         { layout: Kachhi1, name: "Kachhi", description: "Traditional attire for women, consisting of a long skirt and blouse, often adorned with gold jewelry." }
     ]
  },
