@@ -16,13 +16,11 @@ const App = () => {
   return (
     <Router>
       <Routes>
-
+      
        <Route path='/' element={<Intro />} />  
-
-        <Route path='/' element={<Intro />} />  
-
         <Route element={<Layout />}>
            
+          <Route path='/home' element={<Home />} />
           <Route path='/home' element={<Home />} />
           <Route path='/about' element={<AboutUs />} />
           <Route path='/quiz' element={<QuizPage />} />
