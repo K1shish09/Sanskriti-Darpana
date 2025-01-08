@@ -18,6 +18,31 @@ import BhortalMusic from "../Assets/Music/Bhortal Music.jpg";
 import JhumurSongs from "../Assets/Music/Jhumur Songs.jpg";
 import DeodhaniMusic from "../Assets/Music/Deodhani Music.jpg";
 
+import BardoChhamMusic from "../Assets/Music/Bardo Chham Music.jpg";
+import WanchoSongs from "../Assets/Music/Wancho Songs.jpg";
+import PasiKongkiTunes from "../Assets/Music/Pasi Kongki Tunes.webp";
+import PopirMelodies from "../Assets/Music/Popir Melodies.jpg";
+import PonungSongs from "../Assets/Music/Ponung Songs.jpg";
+import BaulSongs from "../Assets/Music/Baul Songs.jpg";
+import ChhauMusic from "../Assets/Music/Chhau Music.jpg";
+import JatraMusic from "../Assets/Music/Jatra Music.jpg";
+import GambhiraSongs from "../Assets/Music/Gambhira Songs.jpg";
+import SanthaliMusic from "../Assets/Music/Santhali Music.jpg";
+import ChangLoSongs from "../Assets/Music/Chang Lo Songs.jpg";
+import ZeliangMusic from "../Assets/Music/Zeliang Music.jpg";
+import AolingMelodies from "../Assets/Music/Aoling Melodies.jpg";
+import SekrenyiTunes from "../Assets/Music/Sekrenyi Tunes.webp";
+import MoatsuSongs from "../Assets/Music/Moatsu Songs.jpg";
+import RasLeelaMusic from "../Assets/Music/Ras Leela Music.jpg";
+import PungCholomBeats from "../Assets/Music/Pung Cholom Beats.jpg";
+import ThangTaTunes from "../Assets/Music/Thang Ta Tunes.jpg";
+import LaiHaraobaMelodies from "../Assets/Music/Lai Haraoba Melodies.jpg";
+import KhambaThoibiSongs from "../Assets/Music/Khamba Thoibi Songs.jpg";
+import CherawMusic from "../Assets/Music/Cheraw Music.jpg";
+import KhuallamSongs from "../Assets/Music/Khuallam Songs.jpg";
+import ChheihlamTunes from "../Assets/Music/Chheihlam Tunes.jpg";
+import ChaiMelodies from "../Assets/Music/Chai Melodies.jpg";
+import SarlamkaiMusic from "../Assets/Music/Sarlamkai Music.gif";
 
 const stateFolkmusics = [
     {
@@ -56,55 +81,55 @@ const stateFolkmusics = [
     {
         id: "IN-AR",
         Folkmusics: [
-            { name: "Bardo Chham Music", description: "Traditional music performed by the Sherdukpens of Arunachal Pradesh, depicting the victory of good over evil." },
-            { name: "Wancho Songs", description: "Music performed by the Wancho tribe, characterized by rhythmic beats and traditional instruments." },
-            { name: "Pasi Kongki Tunes", description: "Music performed by the Adi tribe, often during festivals and celebrations, showcasing their rich cultural heritage." },
-            { name: "Popir Melodies", description: "Popular music of the Adi tribe, performed by young girls during the Solung festival, symbolizing joy and prosperity." },
-            { name: "Ponung Songs", description: "Traditional songs performed by the Adi tribe, usually during the harvest festival, accompanied by folk instruments and music." }
+            { layout: BardoChhamMusic, name: "Bardo Chham Music", description: "Traditional music performed by the Sherdukpens of Arunachal Pradesh, depicting the victory of good over evil." },
+            { layout: WanchoSongs, name: "Wancho Songs", description: "Music performed by the Wancho tribe, characterized by rhythmic beats and traditional instruments." },
+            { layout: PasiKongkiTunes, name: "Pasi Kongki Tunes", description: "Music performed by the Adi tribe, often during festivals and celebrations, showcasing their rich cultural heritage." },
+            { layout: PopirMelodies, name: "Popir Melodies", description: "Popular music of the Adi tribe, performed by young girls during the Solung festival, symbolizing joy and prosperity." },
+            { layout: PonungSongs, name: "Ponung Songs", description: "Traditional songs performed by the Adi tribe, usually during the harvest festival, accompanied by folk instruments and music." }
         ]
     },
 
     {
         id: "IN-WB",
         Folkmusics: [
-            { name: "Baul Songs", description: "A form of folk music performed by the Bauls, a group of mystic minstrels from Bengal, characterized by soulful melodies and philosophical lyrics." },
-            { name: "Chhau Music", description: "Music accompanying the Chhau dance, a semi-classical Indian dance with martial, tribal, and folk origins." },
-            { name: "Jatra Music", description: "Traditional Bengali folk theatre music, combining acting, songs, and instrumental music." },
-            { name: "Gambhira Songs", description: "Folk songs originating in the Malda district of West Bengal, known for their satirical and humorous content." },
-            { name: "Santhali Music", description: "Traditional music of the Santhal tribe, characterized by rhythmic beats and vibrant melodies." }
+            { layout: BaulSongs, name: "Baul Songs", description: "A form of folk music performed by the Bauls, a group of mystic minstrels from Bengal, characterized by soulful melodies and philosophical lyrics." },
+            { layout: ChhauMusic, name: "Chhau Music", description: "Music accompanying the Chhau dance, a semi-classical Indian dance with martial, tribal, and folk origins." },
+            { layout: JatraMusic, name: "Jatra Music", description: "Traditional Bengali folk theatre music, combining acting, songs, and instrumental music." },
+            { layout: GambhiraSongs, name: "Gambhira Songs", description: "Folk songs originating in the Malda district of West Bengal, known for their satirical and humorous content." },
+            { layout: SanthaliMusic, name: "Santhali Music", description: "Traditional music of the Santhal tribe, characterized by rhythmic beats and vibrant melodies." }
         ]
     },
 
     {
         id: "IN-NL",
         Folkmusics: [
-            { name: "Chang Lo Songs", description: "Traditional songs performed by the Chang tribe during the Naknyulum festival, characterized by energetic and rhythmic melodies." },
-            { name: "Zeliang Music", description: "Music performed by the Zeliang tribe, usually during the festival of Mimkut, showcasing their rich cultural heritage." },
-            { name: "Aoling Melodies", description: "Traditional melodies performed by the Konyak tribe during the Aoling festival, celebrating the arrival of spring." },
-            { name: "Sekrenyi Tunes", description: "Music performed by the Angami tribe during the Sekrenyi festival, celebrating purification and renewal." },
-            { name: "Moatsu Songs", description: "Traditional songs performed by the Ao tribe during the Moatsu festival, marking the end of the sowing season." }
+            { layout: ChangLoSongs, name: "Chang Lo Songs", description: "Traditional songs performed by the Chang tribe during the Naknyulum festival, characterized by energetic and rhythmic melodies." },
+            { layout: ZeliangMusic, name: "Zeliang Music", description: "Music performed by the Zeliang tribe, usually during the festival of Mimkut, showcasing their rich cultural heritage." },
+            { layout: AolingMelodies, name: "Aoling Melodies", description: "Traditional melodies performed by the Konyak tribe during the Aoling festival, celebrating the arrival of spring." },
+            { layout: SekrenyiTunes, name: "Sekrenyi Tunes", description: "Music performed by the Angami tribe during the Sekrenyi festival, celebrating purification and renewal." },
+            { layout: MoatsuSongs, name: "Moatsu Songs", description: "Traditional songs performed by the Ao tribe during the Moatsu festival, marking the end of the sowing season." }
         ]
     },
 
     {
         id: "IN-MN",
         Folkmusics: [
-            { name: "Ras Leela Music", description: "Classical music of Manipur, depicting the love story of Radha and Krishna, characterized by graceful melodies and traditional instruments." },
-            { name: "Pung Cholom Beats", description: "Traditional music performed with drums, showcasing acrobatic movements and rhythmic beats, often performed during festivals and celebrations." },
-            { name: "Thang Ta Tunes", description: "Martial music form that combines combat techniques with rhythmic beats, performed with swords and spears." },
-            { name: "Lai Haraoba Melodies", description: "Ritualistic music performed to please the deities, characterized by slow and graceful melodies, often accompanied by traditional instruments and songs." },
-            { name: "Khamba Thoibi Songs", description: "Traditional songs depicting the love story of Khamba and Thoibi, performed during the Lai Haraoba festival, showcasing the rich cultural heritage of Manipur." }
+            { layout: RasLeelaMusic, name: "Ras Leela Music", description: "Classical music of Manipur, depicting the love story of Radha and Krishna, characterized by graceful melodies and traditional instruments." },
+            { layout: PungCholomBeats, name: "Pung Cholom Beats", description: "Traditional music performed with drums, showcasing acrobatic movements and rhythmic beats, often performed during festivals and celebrations." },
+            { layout: ThangTaTunes, name: "Thang Ta Tunes", description: "Martial music form that combines combat techniques with rhythmic beats, performed with swords and spears." },
+            { layout: LaiHaraobaMelodies, name: "Lai Haraoba Melodies", description: "Ritualistic music performed to please the deities, characterized by slow and graceful melodies, often accompanied by traditional instruments and songs." },
+            { layout: KhambaThoibiSongs, name: "Khamba Thoibi Songs", description: "Traditional songs depicting the love story of Khamba and Thoibi, performed during the Lai Haraoba festival, showcasing the rich cultural heritage of Manipur." }
         ]
     },
 
     {
         id: "IN-MZ",
         Folkmusics: [
-            { name: "Cheraw Music", description: "Traditional music accompanying the Cheraw dance, also known as the Bamboo Dance, characterized by rhythmic beats and vibrant melodies." },
-            { name: "Khuallam Songs", description: "Traditional songs performed during the Khuangchawi festival, symbolizing the spirit of unity and brotherhood among the Mizos." },
-            { name: "Chheihlam Tunes", description: "Music performed to the accompaniment of songs called 'Chheih Hla', usually performed in a circle." },
-            { name: "Chai Melodies", description: "Traditional melodies performed during the Chapchar Kut festival, characterized by rhythmic beats and vibrant tunes." },
-            { name: "Sarlamkai Music", description: "War music performed by the Mara tribe, depicting the bravery and valor of warriors." }
+            { layout: CherawMusic, name: "Cheraw Music", description: "Traditional music accompanying the Cheraw dance, also known as the Bamboo Dance, characterized by rhythmic beats and vibrant melodies." },
+            { layout: KhuallamSongs, name: "Khuallam Songs", description: "Traditional songs performed during the Khuangchawi festival, symbolizing the spirit of unity and brotherhood among the Mizos." },
+            { layout: ChheihlamTunes, name: "Chheihlam Tunes", description: "Music performed to the accompaniment of songs called 'Chheih Hla', usually performed in a circle." },
+            { layout: ChaiMelodies, name: "Chai Melodies", description: "Traditional melodies performed during the Chapchar Kut festival, characterized by rhythmic beats and vibrant tunes." },
+            { layout: SarlamkaiMusic, name: "Sarlamkai Music", description: "War music performed by the Mara tribe, depicting the bravery and valor of warriors." }
         ]
     },
 
