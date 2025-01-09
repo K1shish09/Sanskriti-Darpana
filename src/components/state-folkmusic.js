@@ -116,6 +116,43 @@ import GheriaSongs from "../Assets/Attire/Gheria Songs.jpg";
 
 
 
+
+
+import LavaniSongs from "../Assets/Attire/Lavani Songs.jpg";
+import KoliMusic from "../Assets/Attire/Koli Music.jpg";
+import TamashaTunes from "../Assets/Attire/Tamasha Tunes.webp";
+import DhangariGajaMelodies from "../Assets/Attire/Dhangari Gaja Melodies.jpg";
+import PovadasSongs from "../Assets/Attire/Povadas Songs.webp";
+import ChhauMusic1 from "../Assets/Attire/Chhau Music1.jpg";
+import PaikaTunes from "../Assets/Attire/Paika Tunes.jpg";
+import JhumarMelodies from "../Assets/Attire/Jhumar Melodies.jpg";
+import MundariSongs from "../Assets/Attire/Mundari Songs.jpg";
+import SanthaliMusic1 from "../Assets/Attire/Santhali Music1.webp";
+import JatJatiSongs from "../Assets/Attire/Jat-Jatin Songs.avif";
+import JhijhianMusic from "../Assets/Attire/Jharkhand Jewelry.jpg-org";
+import BidesiaTunes from "../Assets/Attire/Bidesia Tunes.jpg";
+import KajariMelodies from "../Assets/Attire/Kajari Melodies.jpg";
+import SoharKhilounaSongs from "../Assets/Attire/Sohar-Khilouna Songs.jpg";
+import GaurMusic from "../Assets/Attire/Gaur Music.jpg";
+import TertaliTunes from "../Assets/Attire/Tertali Tunes.jpg";
+import JawaraMelodies from "../Assets/Attire/Jawara Melodies.jpg";
+import MatkiSongs from "../Assets/Attire/Matki Songs.jpg";
+import PhulpatiMusic from "../Assets/Attire/Phulpati Music.jpg";
+import GarbaSongs from "../Assets/Attire/GarbaSongs.jpg";
+import DandiyaRaasTunes from "../Assets/Attire/Dandiya Raas Tunes.jpg";
+import TippaniMelodies from "../Assets/Attire/Tippani Melodies.jpg";
+import PadharMusic from "../Assets/Attire/Padhar Music.jpg";
+import HudoSongs from "src/Assets/Attire/HudoSongs.jpg";
+import  from "";
+import  from "";
+import  from "";
+import  from "";
+import  from "";
+import  from "";
+
+
+
+
 const stateFolkmusics = [
     {
         id: 'IN-AN',
@@ -351,54 +388,54 @@ const stateFolkmusics = [
     {
         id: "IN-MH",
         Folkmusics: [
-            { name: "Lavani Songs", description: "Traditional songs known for their powerful rhythms and expressive melodies, often performed to the beats of the dholki drum." },
-            { name: "Koli Music", description: "Folk music performed by the Koli fisherfolk community, depicting their daily life and fishing activities." },
-            { name: "Tamasha Tunes", description: "Traditional Marathi theatre music that combines dance, music, and drama, often performed during festivals and celebrations." },
-            { name: "Dhangari Gaja Melodies", description: "Folk melodies performed by the Dhangar shepherd community, characterized by vigorous rhythms and traditional instruments." },
-            { name: "Povadas Songs", description: "Traditional songs that narrate the heroic tales of the Maratha rulers, performed with energetic rhythms and powerful melodies." }
+            { layout: LavaniSongs, name: "Lavani Songs", description: "Traditional songs known for their powerful rhythms and expressive melodies, often performed to the beats of the dholki drum." },
+            { layout: KoliMusic, name: "Koli Music", description: "Folk music performed by the Koli fisherfolk community, depicting their daily life and fishing activities." },
+            { layout: TamashaTunes, name: "Tamasha Tunes", description: "Traditional Marathi theatre music that combines dance, music, and drama, often performed during festivals and celebrations." },
+            { layout: DhangariGajaMelodies, name: "Dhangari Gaja Melodies", description: "Folk melodies performed by the Dhangar shepherd community, characterized by vigorous rhythms and traditional instruments." },
+            { layout: PovadasSongs, name: "Povadas Songs", description: "Traditional songs that narrate the heroic tales of the Maratha rulers, performed with energetic rhythms and powerful melodies." }
         ]
     },
     {
         id: "IN-JH",
         Folkmusics: [
-            { name: "Chhau Music", description: "Music accompanying the Chhau dance, a semi-classical Indian dance with martial, tribal, and folk origins." },
-            { name: "Paika Tunes", description: "Traditional tunes performed by the Paika community, depicting their martial skills and valor." },
-            { name: "Jhumar Melodies", description: "Folk melodies performed during the harvest season, characterized by graceful rhythms and traditional instruments." },
-            { name: "Mundari Songs", description: "Traditional songs performed by the Munda tribe, showcasing their cultural heritage and daily life." },
-            { name: "Santhali Music", description: "Traditional music of the Santhal tribe, characterized by rhythmic beats and vibrant melodies." }
+            { layout: ChhauMusic1, name: "Chhau Music", description: "Music accompanying the Chhau dance, a semi-classical Indian dance with martial, tribal, and folk origins." },
+            { layout: PaikaTunes, name: "Paika Tunes", description: "Traditional tunes performed by the Paika community, depicting their martial skills and valor." },
+            { layout: JhumarMelodies, name: "Jhumar Melodies", description: "Folk melodies performed during the harvest season, characterized by graceful rhythms and traditional instruments." },
+            { layout: MundariSongs, name: "Mundari Songs", description: "Traditional songs performed by the Munda tribe, showcasing their cultural heritage and daily life." },
+            { layout: SanthaliMusic1, name: "Santhali Music", description: "Traditional music of the Santhal tribe, characterized by rhythmic beats and vibrant melodies." }
         ]
     },
 
     {
         id: "IN-BR",
         Folkmusics: [
-            { name: "Jat-Jatin Songs", description: "Traditional songs depicting the love story of Jat and Jatin, characterized by graceful rhythms and folk melodies." },
-            { name: "Jhijhian Music", description: "Folk music performed by women to appease the rain god during drought, characterized by rhythmic beats and devotional melodies." },
-            { name: "Bidesia Tunes", description: "Traditional theatre music that combines dance, music, and drama, often depicting social issues and cultural themes." },
-            { name: "Kajari Melodies", description: "Folk melodies performed during the monsoon season, characterized by soulful rhythms and traditional instruments." },
-            { name: "Sohar-Khilouna Songs", description: "Traditional songs performed during childbirth celebrations, characterized by joyful rhythms and folk melodies." }
+            { layout: JatJatiSongs, name: "Jat-Jatin Songs", description: "Traditional songs depicting the love story of Jat and Jatin, characterized by graceful rhythms and folk melodies." },
+            { layout: JhijhianMusic, name: "Jhijhian Music", description: "Folk music performed by women to appease the rain god during drought, characterized by rhythmic beats and devotional melodies." },
+            { layout: BidesiaTunes, name: "Bidesia Tunes", description: "Traditional theatre music that combines dance, music, and drama, often depicting social issues and cultural themes." },
+            { layout: KajariMelodies, name: "Kajari Melodies", description: "Folk melodies performed during the monsoon season, characterized by soulful rhythms and traditional instruments." },
+            { layout: SoharKhilounaSongs, name: "Sohar-Khilouna Songs", description: "Traditional songs performed during childbirth celebrations, characterized by joyful rhythms and folk melodies." }
         ]
     },
     
     {
         id: "IN-MP",
         Folkmusics: [
-            { name: "Gaur Music", description: "Traditional music performed by the Gond tribe, depicting the hunting activities of the tribe." },
-            { name: "Tertali Tunes", description: "Folk tunes performed by the Kamar tribe, characterized by rhythmic beats and the use of small cymbals." },
-            { name: "Jawara Melodies", description: "Harvest melodies performed by the farmers, celebrating the abundance of crops with lively rhythms and traditional instruments." },
-            { name: "Matki Songs", description: "Traditional songs performed by women, characterized by balancing earthen pots on the head and graceful rhythms." },
-            { name: "Phulpati Music", description: "Folk music performed during the Holi festival, characterized by vibrant rhythms and colorful melodies." }
+            { layout: GaurMusic, name: "Gaur Music", description: "Traditional music performed by the Gond tribe, depicting the hunting activities of the tribe." },
+            { layout: TertaliTunes, name: "Tertali Tunes", description: "Folk tunes performed by the Kamar tribe, characterized by rhythmic beats and the use of small cymbals." },
+            { layout: JawaraMelodies, name: "Jawara Melodies", description: "Harvest melodies performed by the farmers, celebrating the abundance of crops with lively rhythms and traditional instruments." },
+            { layout: MatkiSongs, name: "Matki Songs", description: "Traditional songs performed by women, characterized by balancing earthen pots on the head and graceful rhythms." },
+            { layout: PhulpatiMusic, name: "Phulpati Music", description: "Folk music performed during the Holi festival, characterized by vibrant rhythms and colorful melodies." }
         ]
     },
     
     {
         id: 'IN-GJ',
         Folkmusics: [
-            { name: "Garba Songs", description: "Traditional songs performed during the Navratri festival, characterized by circular rhythms and vibrant melodies." },
-            { name: "Dandiya Raas Tunes", description: "Folk tunes performed with sticks, where musicians create rhythmic patterns by striking the sticks together, often performed during Navratri." },
-            { name: "Tippani Melodies", description: "Traditional melodies performed by women, using long sticks to create rhythmic patterns, often performed during festivals and celebrations." },
-            { name: "Padhar Music", description: "Folk music performed by the Padhar community, depicting their daily life and cultural heritage through graceful rhythms." },
-            { name: "Hudo Songs", description: "Traditional songs performed by the Bharwad community, characterized by energetic rhythms and vibrant melodies." }
+            { layout: GarbaSongs, name: "Garba Songs", description: "Traditional songs performed during the Navratri festival, characterized by circular rhythms and vibrant melodies." },
+            { layout: DandiyaRaasTunes, name: "Dandiya Raas Tunes", description: "Folk tunes performed with sticks, where musicians create rhythmic patterns by striking the sticks together, often performed during Navratri." },
+            { layout: TippaniMelodies, name: "Tippani Melodies", description: "Traditional melodies performed by women, using long sticks to create rhythmic patterns, often performed during festivals and celebrations." },
+            { layout: PadharMusic, name: "Padhar Music", description: "Folk music performed by the Padhar community, depicting their daily life and cultural heritage through graceful rhythms." },
+            { layout: HudoSongs, name: "Hudo Songs", description: "Traditional songs performed by the Bharwad community, characterized by energetic rhythms and vibrant melodies." }
         ]
     },
     
