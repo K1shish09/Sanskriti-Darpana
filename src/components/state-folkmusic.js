@@ -45,104 +45,104 @@ import ChaiMelodies from "../Assets/Music/Chai Melodies.jpg";
 import SarlamkaiMusic from "../Assets/Music/Sarlamkai Music.gif";
 
 import HojagiriSongs from "../Assets/Music/Hojagiri Songs.jpg";
-import GariaMusic from "../Assets/Attire/Garia Music.jpg";
-import LebangBoomaniTunes from "../Assets/Attire/Lebang Boomani Tunes.jpg";
-import MamitaMelodies from "../Assets/Attire/Mamita Melodies.jpg";
-import WangalaSongs from "../Assets/Attire/Wangala Songs.jpg";
-import NongkremMusic from "../Assets/Attire/Nongkrem Music.webp";
-import ShadSukMynsiemSongs from "../Assets/Attire/Shad Suk Mynsiem Songs.jpg";
-import WangalaTunes from "../Assets/Attire/Wangala Tunes.avif";
-import LahoMelodies from "../Assets/Attire/Laho Melodies.jpg";
-import DoregataSongs from "../Assets/Attire/Doregata Songs.jpg";
-import SinghiChhamMusic from "../Assets/Attire/Singhi Chham Music.avif";
-import YakChamTunes from "../Assets/Attire/Yak Cham Tunes.jpg";
-import MaruniSongs from "../Assets/Attire/Maruni Songs.jpg";
-import TashiSabdoMelodies from "../Assets/Attire/Tashi Sabdo Melodies.jpg";
-import ChuFaatTunes from "../Assets/Attire/Chu Faat Tunes.jpg";
-import KathakaliMusic from "../Assets/Attire/Kathakali Music.avif";
-import MohiniyattamSongs from "../Assets/Attire/Mohiniyattam Songs.jpg";
-import TheyyamTunes from "../Assets/Attire/Theyyam Tunes.jpg";
-import ThiruvathirakaliMelodies from "../Assets/Attire/Thiruvathirakali Melodies.jpg";
-import KalaripayattuMusic from "../Assets/Attire/Kalaripayattu Music.webp";
-import BharatanatyamMusic from "../Assets/Attire/Bharatanatyam Music.jpeg";
-import KaragattamSongs from "../Assets/Attire/Karagattam Songs.jpg";
-import KummiTunes from "../Assets/Attire/Kummi Tunes.jpg";
-import MayilattamMelodies from "../Assets/Attire/Mayilattam Melodies.webp";
-import OyilattamMusic from "../Assets/Attire/Oyilattam Music.jpg";
-import KuchipudiMusic from "../Assets/Attire/Kuchipudi Music.jpg";
-import VeeranatyamSongs from "../Assets/Attire/Veeranatyam Songs.webp";
-import ButtaBommaluTunes from "../Assets/Attire/Butta Bommalu Tunes.jpg";
-import DappuMelodies from "../Assets/Attire/Dappu Melodies.jpg";
-import LambadiSongs from "../Assets/Attire/Lambadi Songs.jpeg";
+import GariaMusic from "../Assets/Music/Garia Music.jpg";
+import LebangBoomaniTunes from "../Assets/Music/Lebang Boomani Tunes.jpg";
+import MamitaMelodies from "../Assets/Music/Mamita Melodies.jpg";
+import WangalaSongs from "../Assets/Music/Wangala Songs.jpg";
+import NongkremMusic from "../Assets/Music/Nongkrem Music.webp";
+import ShadSukMynsiemSongs from "../Assets/Music/Shad Suk Mynsiem Songs.jpg";
+import WangalaTunes from "../Assets/Music/Wangala Tunes.avif";
+import LahoMelodies from "../Assets/Music/Laho Melodies.jpg";
+import DoregataSongs from "../Assets/Music/Doregata Songs.jpg";
+import SinghiChhamMusic from "../Assets/Music/Singhi Chham Music.avif";
+import YakChamTunes from "../Assets/Music/Yak Cham Tunes.jpg";
+import MaruniSongs from "../Assets/Music/Maruni Songs.jpg";
+import TashiSabdoMelodies from "../Assets/Music/Tashi Sabdo Melodies.jpg";
+import ChuFaatTunes from "../Assets/Music/Chu Faat Tunes.jpg";
+import KathakaliMusic from "../Assets/Music/Kathakali Music.avif";
+import MohiniyattamSongs from "../Assets/Music/Mohiniyattam Songs.jpg";
+import TheyyamTunes from "../Assets/Music/Theyyam Tunes.jpg";
+import ThiruvathirakaliMelodies from "../Assets/Music/Thiruvathirakali Melodies.jpg";
+import KalaripayattuMusic from "../Assets/Music/Kalaripayattu Music.webp";
+import BharatanatyamMusic from "../Assets/Music/Bharatanatyam Music.jpeg";
+import KaragattamSongs from "../Assets/Music/Karagattam Songs.jpg";
+import KummiTunes from "../Assets/Music/Kummi Tunes.jpg";
+import MayilattamMelodies from "../Assets/Music/Mayilattam Melodies.webp";
+import OyilattamMusic from "../Assets/Music/Oyilattam Music.jpg";
+import KuchipudiMusic from "../Assets/Music/Kuchipudi Music.jpg";
+import VeeranatyamSongs from "../Assets/Music/Veeranatyam Songs.webp";
+import ButtaBommaluTunes from "../Assets/Music/Butta Bommalu Tunes.jpg";
+import DappuMelodies from "../Assets/Music/Dappu Melodies.jpg";
+import LambadiSongs from "../Assets/Music/Lambadi Songs.jpeg";
 
 
 
 
-import GaradiSongs from "../Assets/Attire/Garadi Songs.avif";
-import KummiTunes1 from "../Assets/Attire/Kummi Tunes1.jpg";
-import KolattamMusic from "../Assets/Attire/Kolattam Music.jpg";
-import DevaraattamMelodies from "../Assets/Attire/Devaraattam Melodies.jpg";
-import ThappaattamSongs from "../Assets/Attire/Thappaattam Songs.jpg";
-import PeriniShivatandavamMusic from "../Assets/Attire/Perini Shivatandavam Music.png";
-import LambadiSongs1 from "../Assets/Attire/Lambadi Songs1.jpg";
-import DappuTunes from "../Assets/Attire/Dappu Tunes.webp";
-import GussadiMelodies from "../Assets/Attire/Gussadi Melodies.jpg";
-import BathukammaSongs from "../Assets/Attire/Bathukamma Songs.jpg";
-import DekhniSongs from "../Assets/Attire/Dekhni Songs.jpeg";
-import FugdiTunes from "../Assets/Attire/Fugdi Tunes.jpg";
-import DhaloMelodies from "..c/Assets/Attire/Dhalo Melodies.jpg";
-import KunbiMusic from "../Assets/Attire/Kunbi Music.jpg";
-import CorridinhoTunes from "../Assets/Attire/Corridinho Tunes.jpg";
-import PanthiSongs from "../Assets/Attire/Panthi Songs.jpg";
-import RautNachaMusic from "../Assets/Attire/Raut Nacha Music.jpg";
-import SailaTunes from "../Assets/Attire/Saila Tunes.jpg";
-import KarmaMelodies from "../Assets/Attire/Karma Melodies.webp";
-import SuaNachaSongs from "../Assets/Attire/Sua Nacha Songs.jpg";
-import YakshaganaMusic from "../Assets/Attire/Yakshagana Music.avif";
-import DolluKunithaBeats from "../Assets/Attire/Dollu Kunitha Beats.jpg";
-import BhoothaAradhaneTunes from "../Assets/Attire/Bhootha Aradhane Tunes.jpg";
-import VeeragaseMelodies from "..c/Assets/Attire/Veeragase Melodies.jpg";
-import KamsaleMusic from "../Assets/Attire/Kamsale Music.jpg";
-import OdissiMusic from "../Assets/Attire/Odissi Music.jpg";
-import ChhauTunes from "../Assets/Attire/Chhau Tunes.jpg";
-import GhumuraBeats from "../Assets/Attire/Ghumura Beats.jpg";
-import GotipuaMelodies from "../Assets/Attire/Gotipua Melodies.webp";
-import DalkhaiSongs from "../Assets/Attire/Dalkhai Songs.jpg";
-import TarpaMusic from "../Assets/Attire/Tarpa Music.jpg";
-import DholBeats from "../Assets/Attire/Dhol Beats.jpeg";
-import BhagoriaTunes from "../Assets/Attire/Bhagoria Tunes.jpg";
-import PavriNachMelodies from "../Assets/Attire/Pavri Nach Melodies.jpg";
-import GheriaSongs from "../Assets/Attire/Gheria Songs.jpg";
+import GaradiSongs from "../Assets/Music/Garadi Songs.avif";
+import KummiTunes1 from "../Assets/Music/Kummi Tunes1.jpg";
+import KolattamMusic from "../Assets/Music/Kolattam Music.jpg";
+import DevaraattamMelodies from "../Assets/Music/Devaraattam Melodies.jpg";
+import ThappaattamSongs from "../Assets/Music/Thappaattam Songs.jpg";
+import PeriniShivatandavamMusic from "../Assets/Music/Perini Shivatandavam Music.png";
+import LambadiSongs1 from "../Assets/Music/Lambadi Songs1.jpg";
+import DappuTunes from "../Assets/Music/Dappu Tunes.webp";
+import GussadiMelodies from "../Assets/Music/Gussadi Melodies.jpg";
+import BathukammaSongs from "../Assets/Music/Bathukamma Songs.jpg";
+import DekhniSongs from "../Assets/Music/Dekhni Songs.jpeg";
+import FugdiTunes from "../Assets/Music/Fugdi Tunes.jpg";
+import DhaloMelodies from "../Assets/Music/Dhalo Melodies.jpg";
+import KunbiMusic from "../Assets/Music/Kunbi Music.jpg";
+import CorridinhoTunes from "../Assets/Music/Corridinho Tunes.jpg";
+import PanthiSongs from "../Assets/Music/Panthi Songs.jpg";
+import RautNachaMusic from "../Assets/Music/Raut Nacha Music.jpg";
+import SailaTunes from "../Assets/Music/Saila Tunes.jpg";
+import KarmaMelodies from "../Assets/Music/Karma Melodies.webp";
+import SuaNachaSongs from "../Assets/Music/Sua Nacha Songs.jpg";
+import YakshaganaMusic from "../Assets/Music/Yakshagana Music.avif";
+import DolluKunithaBeats from "../Assets/Music/Dollu Kunitha Beats.jpg";
+import BhoothaAradhaneTunes from "../Assets/Music/Bhootha Aradhane Tunes.jpg";
+import VeeragaseMelodies from "../Assets/Music/Veeragase Melodies.jpg";
+import KamsaleMusic from "../Assets/Music/Kamsale Music.jpg";
+import OdissiMusic from "../Assets/Music/Odissi Music.jpg";
+import ChhauTunes from "../Assets/Music/Chhau Tunes.jpg";
+import GhumuraBeats from "../Assets/Music/Ghumura Beats.jpg";
+import GotipuaMelodies from "../Assets/Music/Gotipua Melodies.webp";
+import DalkhaiSongs from "../Assets/Music/Dalkhai Songs.jpg";
+import TarpaMusic from "../Assets/Music/Tarpa Music.jpg";
+import DholBeats from "../Assets/Music/Dhol Beats.jpeg";
+import BhagoriaTunes from "../Assets/Music/Bhagoria Tunes.jpg";
+import PavriNachMelodies from "../Assets/Music/Pavri Nach Melodies.jpg";
+import GheriaSongs from "../Assets/Music/Gheria Songs.jpg";
 
 
 
 
 
-import LavaniSongs from "../Assets/Attire/Lavani Songs.jpg";
-import KoliMusic from "../Assets/Attire/Koli Music.jpg";
-import TamashaTunes from "../Assets/Attire/Tamasha Tunes.webp";
-import DhangariGajaMelodies from "../Assets/Attire/Dhangari Gaja Melodies.jpg";
-import PovadasSongs from "../Assets/Attire/Povadas Songs.webp";
-import ChhauMusic1 from "../Assets/Attire/Chhau Music1.jpg";
-import PaikaTunes from "../Assets/Attire/Paika Tunes.jpg";
-import JhumarMelodies from "../Assets/Attire/Jhumar Melodies.jpg";
-import MundariSongs from "../Assets/Attire/Mundari Songs.jpg";
-import SanthaliMusic1 from "../Assets/Attire/Santhali Music1.webp";
-import JatJatiSongs from "../Assets/Attire/Jat-Jatin Songs.avif";
-import JhijhianMusic from "../Assets/Attire/Jharkhand Jewelry.jpg-org";
-import BidesiaTunes from "../Assets/Attire/Bidesia Tunes.jpg";
-import KajariMelodies from "../Assets/Attire/Kajari Melodies.jpg";
-import SoharKhilounaSongs from "../Assets/Attire/Sohar-Khilouna Songs.jpg";
-import GaurMusic from "../Assets/Attire/Gaur Music.jpg";
-import TertaliTunes from "../Assets/Attire/Tertali Tunes.jpg";
-import JawaraMelodies from "../Assets/Attire/Jawara Melodies.jpg";
-import MatkiSongs from "../Assets/Attire/Matki Songs.jpg";
-import PhulpatiMusic from "../Assets/Attire/Phulpati Music.jpg";
-import GarbaSongs from "../Assets/Attire/GarbaSongs.jpg";
-import DandiyaRaasTunes from "../Assets/Attire/Dandiya Raas Tunes.jpg";
-import TippaniMelodies from "../Assets/Attire/Tippani Melodies.jpg";
-import PadharMusic from "../Assets/Attire/Padhar Music.jpg";
-import HudoSongs from "../Assets/Attire/HudoSongs.jpg";
+import LavaniSongs from "../Assets/Music/Lavani Songs.jpg";
+import KoliMusic from "../Assets/Music/Koli Music.jpg";
+import TamashaTunes from "../Assets/Music/Tamasha Tunes.webp";
+import DhangariGajaMelodies from "../Assets/Music/Dhangari Gaja Melodies.jpg";
+import PovadasSongs from "../Assets/Music/Povadas Songs.webp";
+import ChhauMusic1 from "../Assets/Music/Chhau Music1.jpg";
+import PaikaTunes from "../Assets/Music/Paika Tunes.jpg";
+import JhumarMelodies from "../Assets/Music/Jhumar Melodies.jpg";
+import MundariSongs from "../Assets/Music/Mundari Songs.jpg";
+import SanthaliMusic1 from "../Assets/Music/Santhali Music1.webp";
+import JatJatiSongs from "../Assets/Music/Jat-Jatin Songs.avif";
+import JhijhianMusic from "../Assets/Music/Jharkhand Jewelry.jpg-org";
+import BidesiaTunes from "../Assets/Music/Bidesia Tunes.jpg";
+import KajariMelodies from "../Assets/Music/Kajari Melodies.jpg";
+import SoharKhilounaSongs from "../Assets/Music/Sohar-Khilouna Songs.jpg";
+import GaurMusic from "../Assets/Music/Gaur Music.jpg";
+import TertaliTunes from "../Assets/Music/Tertali Tunes.jpg";
+import JawaraMelodies from "../AssetsMusic/Jawara Melodies.jpg";
+import MatkiSongs from "../Assets/Music/Matki Songs.jpg";
+import PhulpatiMusic from "../Assets/Music/Phulpati Music.jpg";
+import GarbaSongs from "../Assets/Music/GarbaSongs.jpg";
+import DandiyaRaasTunes from "../Assets/Music/Dandiya Raas Tunes.jpg";
+import TippaniMelodies from "../AssetsMusic/Tippani Melodies.jpg";
+import PadharMusic from "../Assets/Music/Padhar Music.jpg";
+import HudoSongs from "../Assets/Music/HudoSongs.jpg";
 
 
 
@@ -164,6 +164,25 @@ import BhangraBeats from "../Assets/Music/Bhangra Beats.jpg";
 import GiddaSongs from "../Assets/Music/Gidda Songs.jpg";
 import ChhauMusic2 from "../Assets/Music/Chhau Music2.jpg";
 
+
+
+
+
+import SaangMusic from "../Assets/Music/Saang Music.jpg";
+import DhamalBeats from "../Assets/Music/Dhamal Beats.jpeg";
+import PhagTunes from "../Assets/Music/Phag Tunes.jpg";
+import LoorMelodies from "../Assets/Music/Loor Melodies.jpg";
+import GhoomarSongs1 from "../Assets/Music/Ghoomar Songs1.jpg";
+import RoufSongs from "../Assets/Music/Rouf Songs.jpg";
+import BhandPatherMusic from "../Assets/Music/Bhand Pather Music.webp";
+import DumhalTunes from "../Assets/Music/Dumhal Tunes.jpg";
+import HafizaMelodies from "../Assets/Music/Hafiza Melodies.jpg";
+import BachhaNagmaSongs from "../Assets/Music/Bachha Nagma Songs.jpg";
+import GiddaSongs1 from "../Assets/Music/Gidda Songs1.jpg";
+import BhangraBeats1 from "../Assets/Music/Bhangra Beats1.jpg";
+import JhoomarTunes from "../Assets/Music/Jhoomar Tunes.jpg";
+import SammiMelodies from "../Assets/Music/Sammi Melodies.jpg";
+import DhamalMusic from "../Assets/Music/Dhamal Music.jpg";
 
 
 
@@ -489,33 +508,33 @@ const stateFolkmusics = [
     {
         id: 'IN-HR',
         Folkmusics: [
-            { layout: , name: "Saang Music", description: "Traditional folk theatre music that combines dance, music, and drama, often depicting social issues and cultural themes." },
-            { layout: , name: "Dhamal Beats", description: "Folk beats performed by men, characterized by vigorous rhythms and energetic melodies, often performed during festivals and celebrations." },
-            { layout: , name: "Phag Tunes", description: "Traditional tunes performed during the Holi festival, characterized by lively rhythms and vibrant melodies." },
-            { layout: , name: "Loor Melodies", description: "Folk melodies performed by women during the harvest season, characterized by graceful rhythms and traditional instruments." },
-            { layout: , name: "Ghoomar Songs", description: "Traditional songs performed by women, characterized by graceful rhythms and swirling melodies, often performed during festivals and celebrations." }
+            { layout: SaangMusic, name: "Saang Music", description: "Traditional folk theatre music that combines dance, music, and drama, often depicting social issues and cultural themes." },
+            { layout: DhamalBeats, name: "Dhamal Beats", description: "Folk beats performed by men, characterized by vigorous rhythms and energetic melodies, often performed during festivals and celebrations." },
+            { layout: PhagTunes, name: "Phag Tunes", description: "Traditional tunes performed during the Holi festival, characterized by lively rhythms and vibrant melodies." },
+            { layout: LoorMelodies, name: "Loor Melodies", description: "Folk melodies performed by women during the harvest season, characterized by graceful rhythms and traditional instruments." },
+            { layout: GhoomarSongs1, name: "Ghoomar Songs", description: "Traditional songs performed by women, characterized by graceful rhythms and swirling melodies, often performed during festivals and celebrations." }
         ]
     },
     
     {
         id: 'IN-JK',
         Folkmusics: [
-            { layout: , name: "Rouf Songs", description: "Traditional songs performed by women during the spring season, characterized by graceful rhythms and synchronized melodies." },
-            { layout: , name: "Bhand Pather Music", description: "Traditional theatre music that combines dance, music, and drama, often depicting social issues and cultural themes." },
-            { layout: , name: "Dumhal Tunes", description: "Traditional tunes performed by men of the Wattal tribe, characterized by vigorous rhythms and the use of long, colorful robes." },
-            { layout: , name: "Hafiza Melodies", description: "Traditional melodies performed by women, characterized by graceful rhythms and accompanied by Sufi music." },
-            { layout: , name: "Bachha Nagma Songs", description: "Traditional songs performed by young boys dressed as girls, characterized by lively rhythms and vibrant melodies." }
+            { layout: RoufSongs, name: "Rouf Songs", description: "Traditional songs performed by women during the spring season, characterized by graceful rhythms and synchronized melodies." },
+            { layout: BhandPatherMusic, name: "Bhand Pather Music", description: "Traditional theatre music that combines dance, music, and drama, often depicting social issues and cultural themes." },
+            { layout: DumhalTunes, name: "Dumhal Tunes", description: "Traditional tunes performed by men of the Wattal tribe, characterized by vigorous rhythms and the use of long, colorful robes." },
+            { layout: HafizaMelodies, name: "Hafiza Melodies", description: "Traditional melodies performed by women, characterized by graceful rhythms and accompanied by Sufi music." },
+            { layout: BachhaNagmaSongs, name: "Bachha Nagma Songs", description: "Traditional songs performed by young boys dressed as girls, characterized by lively rhythms and vibrant melodies." }
         ]
     },
      
     {
         id: 'IN-CH',
         Folkmusics: [
-            { layout: , name: "Gidda Songs", description: "Traditional songs performed by women, characterized by graceful rhythms and rhythmic clapping, often performed during festivals and celebrations." },
-            { layout: , name: "Bhangra Beats", description: "Lively and energetic beats originating from Punjab, characterized by vigorous rhythms and vibrant melodies." },
-            { layout: , name: "Jhoomar Tunes", description: "Traditional tunes performed by men, characterized by slow and graceful rhythms, often performed during harvest festivals." },
-            { layout: , name: "Sammi Melodies", description: "Traditional melodies performed by women, characterized by graceful hand movements and vibrant rhythms." },
-            { layout: , name: "Dhamal Music", description: "Folk music performed by men, characterized by vigorous rhythms and energetic beats, often performed during festivals and celebrations." }
+            { layout: GiddaSongs1, name: "Gidda Songs", description: "Traditional songs performed by women, characterized by graceful rhythms and rhythmic clapping, often performed during festivals and celebrations." },
+            { layout: BhangraBeats1, name: "Bhangra Beats", description: "Lively and energetic beats originating from Punjab, characterized by vigorous rhythms and vibrant melodies." },
+            { layout: JhoomarTunes, name: "Jhoomar Tunes", description: "Traditional tunes performed by men, characterized by slow and graceful rhythms, often performed during harvest festivals." },
+            { layout: SammiMelodies, name: "Sammi Melodies", description: "Traditional melodies performed by women, characterized by graceful hand movements and vibrant rhythms." },
+            { layout: DhamalMusic, name: "Dhamal Music", description: "Folk music performed by men, characterized by vigorous rhythms and energetic beats, often performed during festivals and celebrations." }
         ]
     },
     
