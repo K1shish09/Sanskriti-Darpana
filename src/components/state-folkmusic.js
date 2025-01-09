@@ -44,7 +44,7 @@ import ChheihlamTunes from "../Assets/Music/Chheihlam Tunes.jpg";
 import ChaiMelodies from "../Assets/Music/Chai Melodies.jpg";
 import SarlamkaiMusic from "../Assets/Music/Sarlamkai Music.gif";
 
-import HojagiriSongs from "../Assets/Attire/Hojagiri Songs.jpg";
+import HojagiriSongs from "../Assets/Music/Hojagiri Songs.jpg";
 import GariaMusic from "../Assets/Attire/Garia Music.jpg";
 import LebangBoomaniTunes from "../Assets/Attire/Lebang Boomani Tunes.jpg";
 import MamitaMelodies from "../Assets/Attire/Mamita Melodies.jpg";
@@ -142,13 +142,27 @@ import GarbaSongs from "../Assets/Attire/GarbaSongs.jpg";
 import DandiyaRaasTunes from "../Assets/Attire/Dandiya Raas Tunes.jpg";
 import TippaniMelodies from "../Assets/Attire/Tippani Melodies.jpg";
 import PadharMusic from "../Assets/Attire/Padhar Music.jpg";
-import HudoSongs from "src/Assets/Attire/HudoSongs.jpg";
-import  from "";
-import  from "";
-import  from "";
-import  from "";
-import  from "";
-import  from "";
+import HudoSongs from "../Assets/Attire/HudoSongs.jpg";
+
+
+
+
+
+import MandoSongs from "../Assets/Music/Mando Songs.jpg";
+import VerdigaoTunes from "../Assets/Music/VerdigaoTunes.jpg";
+import GarbaSongs from "../Assets/Music/Garadi Songs.avif";
+import DandiyaRaasTunes1 from "../Assets/Music/Dandiya Raas Tunes1.jpg";
+import TippaniMelodies2 from "../Assets/Music/Tippani Melodies2.jpg";
+import GhoomarSongs from "../Assets/Music/Ghoomar Songs.webp";
+import KalbeliaTunes from "../Assets/Music/Kalbelia Tunes.jpg";
+import BhavaiMelodies from "../Assets/Music/Bhavai Melodies.jpg";
+import ChariMusic from "../Assets/Music/Chari Music.jpg";
+import KachhiGhodiSongs from "../Assets/Music/Kachhi Ghodi Songs.jpg";
+import KathakMusic from "../Assets/Music/Kathak Music.webp";
+import DandiyaRaasTunes2 from "../Assets/Music/Dandiya Raas Tunes2.jpg";
+import BhangraBeats from "../Assets/Music/Bhangra Beats.jpg";
+import GiddaSongs from "../Assets/Music/Gidda Songs.jpg";
+import ChhauMusic2 from "../Assets/Music/Chhau Music2.jpg";
 
 
 
@@ -442,66 +456,66 @@ const stateFolkmusics = [
     {
         id: 'IN-DD',
         Folkmusics: [
-            { name: "Mando Songs", description: "Traditional songs performed during weddings and festive occasions, characterized by graceful rhythms and accompanied by folk music." },
-            { name: "Verdigao Tunes", description: "Folk tunes performed by the fishing community, depicting their daily life and cultural heritage through rhythmic melodies." },
-            { name: "Garba Songs", description: "Traditional songs performed during the Navratri festival, characterized by circular rhythms and vibrant melodies." },
-            { name: "Dandiya Raas Tunes", description: "Folk tunes performed with sticks, where musicians create rhythmic patterns by striking the sticks together, often performed during Navratri." },
-            { name: "Tippani Melodies", description: "Traditional melodies performed by women, using long sticks to create rhythmic patterns, often performed during festivals and celebrations." }
+            { layout: MandoSongs, name: "Mando Songs", description: "Traditional songs performed during weddings and festive occasions, characterized by graceful rhythms and accompanied by folk music." },
+            { layout: VerdigaoTunes, name: "Verdigao Tunes", description: "Folk tunes performed by the fishing community, depicting their daily life and cultural heritage through rhythmic melodies." },
+            { layout: GarbaSongs, name: "Garba Songs", description: "Traditional songs performed during the Navratri festival, characterized by circular rhythms and vibrant melodies." },
+            { layout: DandiyaRaasTunes1, name: "Dandiya Raas Tunes", description: "Folk tunes performed with sticks, where musicians create rhythmic patterns by striking the sticks together, often performed during Navratri." },
+            { layout: TippaniMelodies2, name: "Tippani Melodies", description: "Traditional melodies performed by women, using long sticks to create rhythmic patterns, often performed during festivals and celebrations." }
         ]
     },
      
     {
         id: 'IN-RJ',
         Folkmusics: [
-            { name: "Ghoomar Songs", description: "Traditional songs performed by women, characterized by graceful rhythms and swirling melodies, often performed during festivals and celebrations." },
-            { name: "Kalbelia Tunes", description: "Folk tunes performed by the Kalbelia community, known for its energetic rhythms and snake-like melodies." },
-            { name: "Bhavai Melodies", description: "Traditional melodies where performers balance multiple pots on their heads, showcasing their skill and balance." },
-            { name: "Chari Music", description: "Folk music performed by women, balancing brass pots with lit lamps on their heads, characterized by graceful rhythms." },
-            { name: "Kachhi Ghodi Songs", description: "Traditional songs performed by men, depicting tales of local bandits and heroes, characterized by vibrant rhythms and energetic melodies." }
+            { layout: GhoomarSongs, name: "Ghoomar Songs", description: "Traditional songs performed by women, characterized by graceful rhythms and swirling melodies, often performed during festivals and celebrations." },
+            { layout: KalbeliaTunes, name: "Kalbelia Tunes", description: "Folk tunes performed by the Kalbelia community, known for its energetic rhythms and snake-like melodies." },
+            { layout: BhavaiMelodies, name: "Bhavai Melodies", description: "Traditional melodies where performers balance multiple pots on their heads, showcasing their skill and balance." },
+            { layout: ChariMusic, name: "Chari Music", description: "Folk music performed by women, balancing brass pots with lit lamps on their heads, characterized by graceful rhythms." },
+            { layout: KachhiGhodiSongs, name: "Kachhi Ghodi Songs", description: "Traditional songs performed by men, depicting tales of local bandits and heroes, characterized by vibrant rhythms and energetic melodies." }
         ]
     },
 
     {
         id: 'IN-DL',
         Folkmusics: [
-            { name: "Kathak Music", description: "Classical music known for its intricate rhythms, expressive melodies, and storytelling, often depicting tales from Hindu mythology." },
-            { name: "Dandiya Raas Tunes", description: "Folk tunes performed with sticks, where musicians create rhythmic patterns by striking the sticks together, often performed during Navratri." },
-            { name: "Bhangra Beats", description: "Lively and energetic beats originating from Punjab, characterized by vigorous rhythms and vibrant melodies." },
-            { name: "Gidda Songs", description: "Traditional songs performed by women, characterized by graceful rhythms and rhythmic clapping, often performed during festivals and celebrations." },
-            { name: "Chhau Music", description: "Music accompanying the Chhau dance, a semi-classical Indian dance with martial, tribal, and folk origins." }
+            { layout: KathakMusic, name: "Kathak Music", description: "Classical music known for its intricate rhythms, expressive melodies, and storytelling, often depicting tales from Hindu mythology." },
+            { layout: DandiyaRaasTunes2, name: "Dandiya Raas Tunes", description: "Folk tunes performed with sticks, where musicians create rhythmic patterns by striking the sticks together, often performed during Navratri." },
+            { layout: BhangraBeats, name: "Bhangra Beats", description: "Lively and energetic beats originating from Punjab, characterized by vigorous rhythms and vibrant melodies." },
+            { layout: GiddaSongs, name: "Gidda Songs", description: "Traditional songs performed by women, characterized by graceful rhythms and rhythmic clapping, often performed during festivals and celebrations." },
+            { layout: ChhauMusic2, name: "Chhau Music", description: "Music accompanying the Chhau dance, a semi-classical Indian dance with martial, tribal, and folk origins." }
         ]
     },
      
     {
         id: 'IN-HR',
         Folkmusics: [
-            { name: "Saang Music", description: "Traditional folk theatre music that combines dance, music, and drama, often depicting social issues and cultural themes." },
-            { name: "Dhamal Beats", description: "Folk beats performed by men, characterized by vigorous rhythms and energetic melodies, often performed during festivals and celebrations." },
-            { name: "Phag Tunes", description: "Traditional tunes performed during the Holi festival, characterized by lively rhythms and vibrant melodies." },
-            { name: "Loor Melodies", description: "Folk melodies performed by women during the harvest season, characterized by graceful rhythms and traditional instruments." },
-            { name: "Ghoomar Songs", description: "Traditional songs performed by women, characterized by graceful rhythms and swirling melodies, often performed during festivals and celebrations." }
+            { layout: , name: "Saang Music", description: "Traditional folk theatre music that combines dance, music, and drama, often depicting social issues and cultural themes." },
+            { layout: , name: "Dhamal Beats", description: "Folk beats performed by men, characterized by vigorous rhythms and energetic melodies, often performed during festivals and celebrations." },
+            { layout: , name: "Phag Tunes", description: "Traditional tunes performed during the Holi festival, characterized by lively rhythms and vibrant melodies." },
+            { layout: , name: "Loor Melodies", description: "Folk melodies performed by women during the harvest season, characterized by graceful rhythms and traditional instruments." },
+            { layout: , name: "Ghoomar Songs", description: "Traditional songs performed by women, characterized by graceful rhythms and swirling melodies, often performed during festivals and celebrations." }
         ]
     },
     
     {
         id: 'IN-JK',
         Folkmusics: [
-            { name: "Rouf Songs", description: "Traditional songs performed by women during the spring season, characterized by graceful rhythms and synchronized melodies." },
-            { name: "Bhand Pather Music", description: "Traditional theatre music that combines dance, music, and drama, often depicting social issues and cultural themes." },
-            { name: "Dumhal Tunes", description: "Traditional tunes performed by men of the Wattal tribe, characterized by vigorous rhythms and the use of long, colorful robes." },
-            { name: "Hafiza Melodies", description: "Traditional melodies performed by women, characterized by graceful rhythms and accompanied by Sufi music." },
-            { name: "Bachha Nagma Songs", description: "Traditional songs performed by young boys dressed as girls, characterized by lively rhythms and vibrant melodies." }
+            { layout: , name: "Rouf Songs", description: "Traditional songs performed by women during the spring season, characterized by graceful rhythms and synchronized melodies." },
+            { layout: , name: "Bhand Pather Music", description: "Traditional theatre music that combines dance, music, and drama, often depicting social issues and cultural themes." },
+            { layout: , name: "Dumhal Tunes", description: "Traditional tunes performed by men of the Wattal tribe, characterized by vigorous rhythms and the use of long, colorful robes." },
+            { layout: , name: "Hafiza Melodies", description: "Traditional melodies performed by women, characterized by graceful rhythms and accompanied by Sufi music." },
+            { layout: , name: "Bachha Nagma Songs", description: "Traditional songs performed by young boys dressed as girls, characterized by lively rhythms and vibrant melodies." }
         ]
     },
      
     {
         id: 'IN-CH',
         Folkmusics: [
-            { name: "Gidda Songs", description: "Traditional songs performed by women, characterized by graceful rhythms and rhythmic clapping, often performed during festivals and celebrations." },
-            { name: "Bhangra Beats", description: "Lively and energetic beats originating from Punjab, characterized by vigorous rhythms and vibrant melodies." },
-            { name: "Jhoomar Tunes", description: "Traditional tunes performed by men, characterized by slow and graceful rhythms, often performed during harvest festivals." },
-            { name: "Sammi Melodies", description: "Traditional melodies performed by women, characterized by graceful hand movements and vibrant rhythms." },
-            { name: "Dhamal Music", description: "Folk music performed by men, characterized by vigorous rhythms and energetic beats, often performed during festivals and celebrations." }
+            { layout: , name: "Gidda Songs", description: "Traditional songs performed by women, characterized by graceful rhythms and rhythmic clapping, often performed during festivals and celebrations." },
+            { layout: , name: "Bhangra Beats", description: "Lively and energetic beats originating from Punjab, characterized by vigorous rhythms and vibrant melodies." },
+            { layout: , name: "Jhoomar Tunes", description: "Traditional tunes performed by men, characterized by slow and graceful rhythms, often performed during harvest festivals." },
+            { layout: , name: "Sammi Melodies", description: "Traditional melodies performed by women, characterized by graceful hand movements and vibrant rhythms." },
+            { layout: , name: "Dhamal Music", description: "Folk music performed by men, characterized by vigorous rhythms and energetic beats, often performed during festivals and celebrations." }
         ]
     },
     
