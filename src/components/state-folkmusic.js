@@ -76,6 +76,46 @@ import DappuMelodies from "../Assets/Attire/Dappu Melodies.jpg";
 import LambadiSongs from "../Assets/Attire/Lambadi Songs.jpeg";
 
 
+
+
+import GaradiSongs from "../Assets/Attire/Garadi Songs.avif";
+import KummiTunes1 from "../Assets/Attire/Kummi Tunes1.jpg";
+import KolattamMusic from "../Assets/Attire/Kolattam Music.jpg";
+import DevaraattamMelodies from "../Assets/Attire/Devaraattam Melodies.jpg";
+import ThappaattamSongs from "../Assets/Attire/Thappaattam Songs.jpg";
+import PeriniShivatandavamMusic from "../Assets/Attire/Perini Shivatandavam Music.png";
+import LambadiSongs1 from "../Assets/Attire/Lambadi Songs1.jpg";
+import DappuTunes from "../Assets/Attire/Dappu Tunes.webp";
+import GussadiMelodies from "../Assets/Attire/Gussadi Melodies.jpg";
+import BathukammaSongs from "../Assets/Attire/Bathukamma Songs.jpg";
+import DekhniSongs from "../Assets/Attire/Dekhni Songs.jpeg";
+import FugdiTunes from "../Assets/Attire/Fugdi Tunes.jpg";
+import DhaloMelodies from "..c/Assets/Attire/Dhalo Melodies.jpg";
+import KunbiMusic from "../Assets/Attire/Kunbi Music.jpg";
+import CorridinhoTunes from "../Assets/Attire/Corridinho Tunes.jpg";
+import PanthiSongs from "../Assets/Attire/Panthi Songs.jpg";
+import RautNachaMusic from "../Assets/Attire/Raut Nacha Music.jpg";
+import SailaTunes from "../Assets/Attire/Saila Tunes.jpg";
+import KarmaMelodies from "../Assets/Attire/Karma Melodies.webp";
+import SuaNachaSongs from "../Assets/Attire/Sua Nacha Songs.jpg";
+import YakshaganaMusic from "../Assets/Attire/Yakshagana Music.avif";
+import DolluKunithaBeats from "../Assets/Attire/Dollu Kunitha Beats.jpg";
+import BhoothaAradhaneTunes from "../Assets/Attire/Bhootha Aradhane Tunes.jpg";
+import VeeragaseMelodies from "..c/Assets/Attire/Veeragase Melodies.jpg";
+import KamsaleMusic from "../Assets/Attire/Kamsale Music.jpg";
+import OdissiMusic from "../Assets/Attire/Odissi Music.jpg";
+import ChhauTunes from "../Assets/Attire/Chhau Tunes.jpg";
+import GhumuraBeats from "../Assets/Attire/Ghumura Beats.jpg";
+import GotipuaMelodies from "../Assets/Attire/Gotipua Melodies.webp";
+import DalkhaiSongs from "../Assets/Attire/Dalkhai Songs.jpg";
+import TarpaMusic from "../Assets/Attire/Tarpa Music.jpg";
+import DholBeats from "../Assets/Attire/Dhol Beats.jpeg";
+import BhagoriaTunes from "../Assets/Attire/Bhagoria Tunes.jpg";
+import PavriNachMelodies from "../Assets/Attire/Pavri Nach Melodies.jpg";
+import GheriaSongs from "../Assets/Attire/Gheria Songs.jpg";
+
+
+
 const stateFolkmusics = [
     {
         id: 'IN-AN',
@@ -234,77 +274,77 @@ const stateFolkmusics = [
     {
         id: 'IN-PY',
         Folkmusics: [
-            { name: "Garadi Songs", description: "Traditional songs performed during festivals and celebrations, characterized by vigorous rhythms and accompanied by folk music." },
-            { name: "Kummi Tunes", description: "Folk tunes performed by women, characterized by rhythmic clapping and circular melodies, often performed during festivals and social gatherings." },
-            { name: "Kolattam Music", description: "Traditional stick music performed by women, characterized by rhythmic beats and the use of sticks to create rhythmic patterns." },
-            { name: "Devaraattam Melodies", description: "Traditional melodies performed by the Devarattam community, characterized by graceful rhythms and accompanied by folk music." },
-            { name: "Thappaattam Songs", description: "Folk songs performed by the agricultural community, characterized by rhythmic beats and accompanied by folk tunes." }
+            { layout: GaradiSongs, name: "Garadi Songs", description: "Traditional songs performed during festivals and celebrations, characterized by vigorous rhythms and accompanied by folk music." },
+            { layout: KummiTunes1, name: "Kummi Tunes", description: "Folk tunes performed by women, characterized by rhythmic clapping and circular melodies, often performed during festivals and social gatherings." },
+            { layout: KolattamMusic, name: "Kolattam Music", description: "Traditional stick music performed by women, characterized by rhythmic beats and the use of sticks to create rhythmic patterns." },
+            { layout: DevaraattamMelodies, name: "Devaraattam Melodies", description: "Traditional melodies performed by the Devarattam community, characterized by graceful rhythms and accompanied by folk music." },
+            { layout: ThappaattamSongs, name: "Thappaattam Songs", description: "Folk songs performed by the agricultural community, characterized by rhythmic beats and accompanied by folk tunes." }
         ]
     },
 
     {
         id: "IN-TG",
         Folkmusics: [
-            { name: "Perini Shivatandavam Music", description: "Traditional music form dedicated to Lord Shiva, characterized by vigorous rhythms and performed by male musicians." },
-            { name: "Lambadi Songs", description: "Traditional songs of the Lambadi tribe, characterized by colorful rhythms, intricate melodies, and traditional instruments, often depicting their daily life and culture." },
-            { name: "Dappu Tunes", description: "Vibrant tunes performed with the 'Dappu' drum, characterized by rhythmic beats and energetic melodies, often performed during festivals and celebrations." },
-            { name: "Gussadi Melodies", description: "Tribal melodies performed by the Gonds during the Dussehra festival, characterized by elaborate rhythms and energetic tunes." },
-            { name: "Bathukamma Songs", description: "Traditional songs performed by women during the Bathukamma festival, celebrating the floral festival with colorful flower arrangements and rhythmic melodies." }
+            { layout: PeriniShivatandavamMusic, name: "Perini Shivatandavam Music", description: "Traditional music form dedicated to Lord Shiva, characterized by vigorous rhythms and performed by male musicians." },
+            { layout: LambadiSongs1, name: "Lambadi Songs", description: "Traditional songs of the Lambadi tribe, characterized by colorful rhythms, intricate melodies, and traditional instruments, often depicting their daily life and culture." },
+            { layout: DappuTunes, name: "Dappu Tunes", description: "Vibrant tunes performed with the 'Dappu' drum, characterized by rhythmic beats and energetic melodies, often performed during festivals and celebrations." },
+            { layout: GussadiMelodies, name: "Gussadi Melodies", description: "Tribal melodies performed by the Gonds during the Dussehra festival, characterized by elaborate rhythms and energetic tunes." },
+            { layout: BathukammaSongs, name: "Bathukamma Songs", description: "Traditional songs performed by women during the Bathukamma festival, celebrating the floral festival with colorful flower arrangements and rhythmic melodies." }
         ]
     },
 
     {
         id: "IN-GA",
         Folkmusics: [
-            { name: "Dekhni Songs", description: "Semi-classical songs that combine traditional and Western music, often performed by women during festive occasions." },
-            { name: "Fugdi Tunes", description: "Traditional tunes performed by women during Hindu festivals, characterized by fast rhythmic beats and performed in a circular formation." },
-            { name: "Dhalo Melodies", description: "Folk melodies performed by women during the wedding season, characterized by graceful rhythms and accompanied by folk songs." },
-            { name: "Kunbi Music", description: "Tribal music performed by the Kunbi community, showcasing their daily life and culture through rhythmic beats and traditional instruments." },
-            { name: "Corridinho Tunes", description: "Traditional Portuguese tunes that have been adapted by the Goan community, characterized by lively and energetic rhythms." }
+            { layout: DekhniSongs, name: "Dekhni Songs", description: "Semi-classical songs that combine traditional and Western music, often performed by women during festive occasions." },
+            { layout: FugdiTunes, name: "Fugdi Tunes", description: "Traditional tunes performed by women during Hindu festivals, characterized by fast rhythmic beats and performed in a circular formation." },
+            { layout: DhaloMelodies, name: "Dhalo Melodies", description: "Folk melodies performed by women during the wedding season, characterized by graceful rhythms and accompanied by folk songs." },
+            { layout: KunbiMusic, name: "Kunbi Music", description: "Tribal music performed by the Kunbi community, showcasing their daily life and culture through rhythmic beats and traditional instruments." },
+            { layout: CorridinhoTunes, name: "Corridinho Tunes", description: "Traditional Portuguese tunes that have been adapted by the Goan community, characterized by lively and energetic rhythms." }
         ]
     },
      
     {
         id: "IN-CT",
         Folkmusics: [
-            { name: "Panthi Songs", description: "Traditional songs performed by the Satnami community, characterized by rhythmic beats and devotional melodies." },
-            { name: "Raut Nacha Music", description: "Folk music performed by the Yadav community, celebrating the victory of Lord Krishna over the demon king Kansa." },
-            { name: "Saila Tunes", description: "Stick music performed by young boys during the post-harvest season, characterized by rhythmic beats and vibrant melodies." },
-            { name: "Karma Melodies", description: "Tribal melodies performed during the Karma festival, celebrating the harvest season with lively rhythms and traditional instruments." },
-            { name: "Sua Nacha Songs", description: "Traditional songs performed by women, characterized by graceful rhythms and accompanied by folk instruments." }
+            { layout: PanthiSongs, name: "Panthi Songs", description: "Traditional songs performed by the Satnami community, characterized by rhythmic beats and devotional melodies." },
+            { layout: RautNachaMusic, name: "Raut Nacha Music", description: "Folk music performed by the Yadav community, celebrating the victory of Lord Krishna over the demon king Kansa." },
+            { layout: SailaTunes, name: "Saila Tunes", description: "Stick music performed by young boys during the post-harvest season, characterized by rhythmic beats and vibrant melodies." },
+            { layout: KarmaMelodies, name: "Karma Melodies", description: "Tribal melodies performed during the Karma festival, celebrating the harvest season with lively rhythms and traditional instruments." },
+            { layout: SuaNachaSongs, name: "Sua Nacha Songs", description: "Traditional songs performed by women, characterized by graceful rhythms and accompanied by folk instruments." }
         ]
     },
 
     {
         id: "IN-KA",
         Folkmusics: [
-            { name: "Yakshagana Music", description: "Traditional theatre music combining dance, music, dialogue, and costumes, depicting stories from Hindu epics." },
-            { name: "Dollu Kunitha Beats", description: "Drum music performed by the Kuruba community, characterized by vigorous rhythms and energetic beats." },
-            { name: "Bhootha Aradhane Tunes", description: "Ritualistic tunes performed to appease spirits, known for its elaborate rhythms and dramatic performances." },
-            { name: "Veeragase Melodies", description: "Traditional melodies performed during festivals, characterized by vigorous rhythms and depicting the heroism of Veerabhadra." },
-            { name: "Kamsale Music", description: "Folk music performed by devotees of Lord Mahadeshwara, characterized by rhythmic beats and the use of cymbals." }
+            { layout: YakshaganaMusic, name: "Yakshagana Music", description: "Traditional theatre music combining dance, music, dialogue, and costumes, depicting stories from Hindu epics." },
+            { layout: DolluKunithaBeats, name: "Dollu Kunitha Beats", description: "Drum music performed by the Kuruba community, characterized by vigorous rhythms and energetic beats." },
+            { layout: BhoothaAradhaneTunes, name: "Bhootha Aradhane Tunes", description: "Ritualistic tunes performed to appease spirits, known for its elaborate rhythms and dramatic performances." },
+            { layout: VeeragaseMelodies, name: "Veeragase Melodies", description: "Traditional melodies performed during festivals, characterized by vigorous rhythms and depicting the heroism of Veerabhadra." },
+            { layout: KamsaleMusic, name: "Kamsale Music", description: "Folk music performed by devotees of Lord Mahadeshwara, characterized by rhythmic beats and the use of cymbals." }
         ]
     },
 
     {
         id: "IN-OR",
         Folkmusics: [
-            { name: "Odissi Music", description: "Classical music originating from Odisha, known for its graceful melodies, expressive rhythms, and intricate compositions." },
-            { name: "Chhau Tunes", description: "Music accompanying the Chhau dance, a semi-classical Indian dance with martial, tribal, and folk origins." },
-            { name: "Ghumura Beats", description: "Traditional beats performed by the Kalahandi district, characterized by vigorous rhythms and the use of the Ghumura drum." },
-            { name: "Gotipua Melodies", description: "Traditional melodies performed by young boys dressed as girls, known for its acrobatic rhythms and expressive tunes." },
-            { name: "Dalkhai Songs", description: "Folk songs performed by the tribal women of western Odisha, characterized by rhythmic beats and vibrant melodies." }
+            { layout: OdissiMusic, name: "Odissi Music", description: "Classical music originating from Odisha, known for its graceful melodies, expressive rhythms, and intricate compositions." },
+            { layout: ChhauTunes, name: "Chhau Tunes", description: "Music accompanying the Chhau dance, a semi-classical Indian dance with martial, tribal, and folk origins." },
+            { layout: GhumuraBeats, name: "Ghumura Beats", description: "Traditional beats performed by the Kalahandi district, characterized by vigorous rhythms and the use of the Ghumura drum." },
+            { layout: GotipuaMelodies, name: "Gotipua Melodies", description: "Traditional melodies performed by young boys dressed as girls, known for its acrobatic rhythms and expressive tunes." },
+            { layout: DalkhaiSongs, name: "Dalkhai Songs", description: "Folk songs performed by the tribal women of western Odisha, characterized by rhythmic beats and vibrant melodies." }
         ]
     },
 
     {
         id: 'IN-DN',
         Folkmusics: [
-            { name: "Tarpa Music", description: "Traditional music performed by the Varli tribe, characterized by circular rhythms and accompanied by the Tarpa, a wind instrument." },
-            { name: "Dhol Beats", description: "Folk beats performed with the Dhol drum, characterized by vigorous rhythms and energetic melodies." },
-            { name: "Bhagoria Tunes", description: "Traditional tunes performed during the Bhagoria festival, characterized by lively rhythms and vibrant melodies." },
-            { name: "Pavri Nach Melodies", description: "Traditional melodies performed by the Kokna tribe, characterized by rhythmic beats and accompanied by the Pavri, a wind instrument." },
-            { name: "Gheria Songs", description: "Folk songs performed by the Dhodia tribe, characterized by energetic rhythms and traditional instruments." }
+            { layout: TarpaMusic, name: "Tarpa Music", description: "Traditional music performed by the Varli tribe, characterized by circular rhythms and accompanied by the Tarpa, a wind instrument." },
+            { layout: DholBeats, name: "Dhol Beats", description: "Folk beats performed with the Dhol drum, characterized by vigorous rhythms and energetic melodies." },
+            { layout: BhagoriaTunes, name: "Bhagoria Tunes", description: "Traditional tunes performed during the Bhagoria festival, characterized by lively rhythms and vibrant melodies." },
+            { layout: PavriNachMelodies, name: "Pavri Nach Melodies", description: "Traditional melodies performed by the Kokna tribe, characterized by rhythmic beats and accompanied by the Pavri, a wind instrument." },
+            { layout: GheriaSongs, name: "Gheria Songs", description: "Folk songs performed by the Dhodia tribe, characterized by energetic rhythms and traditional instruments." }
         ]
     },
     
