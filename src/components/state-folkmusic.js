@@ -44,6 +44,38 @@ import ChheihlamTunes from "../Assets/Music/Chheihlam Tunes.jpg";
 import ChaiMelodies from "../Assets/Music/Chai Melodies.jpg";
 import SarlamkaiMusic from "../Assets/Music/Sarlamkai Music.gif";
 
+import HojagiriSongs from "../Assets/Attire/Hojagiri Songs.jpg";
+import GariaMusic from "../Assets/Attire/Garia Music.jpg";
+import LebangBoomaniTunes from "../Assets/Attire/Lebang Boomani Tunes.jpg";
+import MamitaMelodies from "../Assets/Attire/Mamita Melodies.jpg";
+import WangalaSongs from "../Assets/Attire/Wangala Songs.jpg";
+import NongkremMusic from "../Assets/Attire/Nongkrem Music.webp";
+import ShadSukMynsiemSongs from "../Assets/Attire/Shad Suk Mynsiem Songs.jpg";
+import WangalaTunes from "../Assets/Attire/Wangala Tunes.avif";
+import LahoMelodies from "../Assets/Attire/Laho Melodies.jpg";
+import DoregataSongs from "../Assets/Attire/Doregata Songs.jpg";
+import SinghiChhamMusic from "../Assets/Attire/Singhi Chham Music.avif";
+import YakChamTunes from "../Assets/Attire/Yak Cham Tunes.jpg";
+import MaruniSongs from "../Assets/Attire/Maruni Songs.jpg";
+import TashiSabdoMelodies from "../Assets/Attire/Tashi Sabdo Melodies.jpg";
+import ChuFaatTunes from "../Assets/Attire/Chu Faat Tunes.jpg";
+import KathakaliMusic from "../Assets/Attire/Kathakali Music.avif";
+import MohiniyattamSongs from "../Assets/Attire/Mohiniyattam Songs.jpg";
+import TheyyamTunes from "../Assets/Attire/Theyyam Tunes.jpg";
+import ThiruvathirakaliMelodies from "../Assets/Attire/Thiruvathirakali Melodies.jpg";
+import KalaripayattuMusic from "../Assets/Attire/Kalaripayattu Music.webp";
+import BharatanatyamMusic from "../Assets/Attire/Bharatanatyam Music.jpeg";
+import KaragattamSongs from "../Assets/Attire/Karagattam Songs.jpg";
+import KummiTunes from "../Assets/Attire/Kummi Tunes.jpg";
+import MayilattamMelodies from "../Assets/Attire/Mayilattam Melodies.webp";
+import OyilattamMusic from "../Assets/Attire/Oyilattam Music.jpg";
+import KuchipudiMusic from "../Assets/Attire/Kuchipudi Music.jpg";
+import VeeranatyamSongs from "../Assets/Attire/Veeranatyam Songs.webp";
+import ButtaBommaluTunes from "../Assets/Attire/Butta Bommalu Tunes.jpg";
+import DappuMelodies from "../Assets/Attire/Dappu Melodies.jpg";
+import LambadiSongs from "../Assets/Attire/Lambadi Songs.jpeg";
+
+
 const stateFolkmusics = [
     {
         id: 'IN-AN',
@@ -136,66 +168,66 @@ const stateFolkmusics = [
     {
         id: "IN-TR",
         Folkmusics: [
-            { name: "Hojagiri Songs", description: "Traditional songs performed by the Reang community, characterized by rhythmic beats and melodic tunes." },
-            { name: "Garia Music", description: "Music performed during the Garia Puja festival, characterized by traditional instruments and devotional songs." },
-            { name: "Lebang Boomani Tunes", description: "Folk tunes depicting the catching of Lebang insects, characterized by lively rhythms and traditional instruments." },
-            { name: "Mamita Melodies", description: "Traditional melodies performed by the Jamatia tribe during the Mamita festival, celebrating the harvest season." },
-            { name: "Wangala Songs", description: "Harvest songs performed by the Garo tribe, celebrating the Wangala festival, characterized by rhythmic beats and vibrant melodies." }
+            { layout: HojagiriSongs, name: "Hojagiri Songs", description: "Traditional songs performed by the Reang community, characterized by rhythmic beats and melodic tunes." },
+            { layout: GariaMusic, name: "Garia Music", description: "Music performed during the Garia Puja festival, characterized by traditional instruments and devotional songs." },
+            { layout: LebangBoomaniTunes, name: "Lebang Boomani Tunes", description: "Folk tunes depicting the catching of Lebang insects, characterized by lively rhythms and traditional instruments." },
+            { layout: MamitaMelodies, name: "Mamita Melodies", description: "Traditional melodies performed by the Jamatia tribe during the Mamita festival, celebrating the harvest season." },
+            { layout: WangalaSongs, name: "Wangala Songs", description: "Harvest songs performed by the Garo tribe, celebrating the Wangala festival, characterized by rhythmic beats and vibrant melodies." }
         ]
     },
 
     {
         id: "IN-ML",
         Folkmusics: [
-            { name: "Nongkrem Music", description: "Traditional music performed by the Khasi tribe during the Nongkrem festival, characterized by rhythmic beats and traditional instruments." },
-            { name: "Shad Suk Mynsiem Songs", description: "Songs performed by the Khasi tribe to celebrate the arrival of spring, characterized by joyful melodies and traditional instruments." },
-            { name: "Wangala Tunes", description: "Harvest tunes performed by the Garo tribe, celebrating the Wangala festival, characterized by rhythmic beats and vibrant melodies." },
-            { name: "Laho Melodies", description: "Traditional melodies performed by the Jaintia tribe during festivals and social gatherings, characterized by lively rhythms and traditional instruments." },
-            { name: "Doregata Songs", description: "Playful songs performed by the Garo tribe, characterized by lively rhythms and traditional instruments." }
+            { layout: NongkremMusic, name: "Nongkrem Music", description: "Traditional music performed by the Khasi tribe during the Nongkrem festival, characterized by rhythmic beats and traditional instruments." },
+            { layout: ShadSukMynsiemSongs, name: "Shad Suk Mynsiem Songs", description: "Songs performed by the Khasi tribe to celebrate the arrival of spring, characterized by joyful melodies and traditional instruments." },
+            { layout: WangalaTunes, name: "Wangala Tunes", description: "Harvest tunes performed by the Garo tribe, celebrating the Wangala festival, characterized by rhythmic beats and vibrant melodies." },
+            { layout: LahoMelodies, name: "Laho Melodies", description: "Traditional melodies performed by the Jaintia tribe during festivals and social gatherings, characterized by lively rhythms and traditional instruments." },
+            { layout: DoregataSongs, name: "Doregata Songs", description: "Playful songs performed by the Garo tribe, characterized by lively rhythms and traditional instruments." }
         ]
     },
 
     {
         id: "IN-SK",
         Folkmusics: [
-            { name: "Singhi Chham Music", description: "Traditional music performed by the Bhutia community, depicting the snow lion, characterized by rhythmic beats and traditional instruments." },
-            { name: "Yak Cham Tunes", description: "Music portraying the movements of the yak, performed during the Losar festival, characterized by rhythmic beats and traditional instruments." },
-            { name: "Maruni Songs", description: "Popular songs among the Nepali community in Sikkim, performed during the Tihar festival, characterized by vibrant rhythms and traditional instruments." },
-            { name: "Tashi Sabdo Melodies", description: "Traditional melodies performed to celebrate the Tibetan New Year, showcasing the rich cultural heritage of the Tibetan community in Sikkim." },
-            { name: "Chu Faat Tunes", description: "Ritualistic tunes performed by the Lepcha community, invoking the blessings of Mount Kanchenjunga and other sacred peaks." }
+            { layout: SinghiChhamMusic, name: "Singhi Chham Music", description: "Traditional music performed by the Bhutia community, depicting the snow lion, characterized by rhythmic beats and traditional instruments." },
+            { layout: YakChamTunes, name: "Yak Cham Tunes", description: "Music portraying the movements of the yak, performed during the Losar festival, characterized by rhythmic beats and traditional instruments." },
+            { layout: MaruniSongs, name: "Maruni Songs", description: "Popular songs among the Nepali community in Sikkim, performed during the Tihar festival, characterized by vibrant rhythms and traditional instruments." },
+            { layout: TashiSabdoMelodies, name: "Tashi Sabdo Melodies", description: "Traditional melodies performed to celebrate the Tibetan New Year, showcasing the rich cultural heritage of the Tibetan community in Sikkim." },
+            { layout: ChuFaatTunes, name: "Chu Faat Tunes", description: "Ritualistic tunes performed by the Lepcha community, invoking the blessings of Mount Kanchenjunga and other sacred peaks." }
         ]
     },
     
     {
         id: "IN-KL",
         Folkmusics: [
-            { name: "Kathakali Music", description: "Classical music accompanying the Kathakali dance-drama, known for its intricate rhythms and expressive melodies." },
-            { name: "Mohiniyattam Songs", description: "Classical songs performed by women, characterized by graceful melodies and emotive expressions, often narrating stories of love and devotion." },
-            { name: "Theyyam Tunes", description: "Ritualistic tunes performed in temples, where musicians embody deities and spirits, known for its vibrant rhythms and dramatic performances." },
-            { name: "Thiruvathirakali Melodies", description: "Traditional melodies performed by women during the festival of Thiruvathira, characterized by rhythmic beats and graceful tunes." },
-            { name: "Kalaripayattu Music", description: "Ancient martial music form that combines combat techniques with rhythmic beats, showcasing agility, strength, and coordination." }
+            { layout: KathakaliMusic, name: "Kathakali Music", description: "Classical music accompanying the Kathakali dance-drama, known for its intricate rhythms and expressive melodies." },
+            { layout: MohiniyattamSongs, name: "Mohiniyattam Songs", description: "Classical songs performed by women, characterized by graceful melodies and emotive expressions, often narrating stories of love and devotion." },
+            { layout: TheyyamTunes, name: "Theyyam Tunes", description: "Ritualistic tunes performed in temples, where musicians embody deities and spirits, known for its vibrant rhythms and dramatic performances." },
+            { layout: ThiruvathirakaliMelodies, name: "Thiruvathirakali Melodies", description: "Traditional melodies performed by women during the festival of Thiruvathira, characterized by rhythmic beats and graceful tunes." },
+            { layout: KalaripayattuMusic, name: "Kalaripayattu Music", description: "Ancient martial music form that combines combat techniques with rhythmic beats, showcasing agility, strength, and coordination." }
         ]
     },
 
     {
         id: "IN-TN",
         Folkmusics: [
-            { name: "Bharatanatyam Music", description: "Classical music accompanying the Bharatanatyam dance, known for its intricate rhythms and expressive melodies." },
-            { name: "Karagattam Songs", description: "Traditional songs performed in praise of the rain goddess Mariamman, characterized by rhythmic beats and vibrant melodies." },
-            { name: "Kummi Tunes", description: "Folk tunes performed by women, characterized by rhythmic clapping and circular melodies, often performed during festivals and social gatherings." },
-            { name: "Mayilattam Melodies", description: "Traditional melodies performed by dancers dressed as peacocks, showcasing graceful and vibrant tunes." },
-            { name: "Oyilattam Music", description: "Traditional music performed by men, characterized by energetic rhythms and the use of handkerchiefs, often performed during festivals and celebrations." }
+            { layout: BharatanatyamMusic, name: "Bharatanatyam Music", description: "Classical music accompanying the Bharatanatyam dance, known for its intricate rhythms and expressive melodies." },
+            { layout: KaragattamSongs, name: "Karagattam Songs", description: "Traditional songs performed in praise of the rain goddess Mariamman, characterized by rhythmic beats and vibrant melodies." },
+            { layout: KummiTunes, name: "Kummi Tunes", description: "Folk tunes performed by women, characterized by rhythmic clapping and circular melodies, often performed during festivals and social gatherings." },
+            { layout: MayilattamMelodies, name: "Mayilattam Melodies", description: "Traditional melodies performed by dancers dressed as peacocks, showcasing graceful and vibrant tunes." },
+            { layout: OyilattamMusic, name: "Oyilattam Music", description: "Traditional music performed by men, characterized by energetic rhythms and the use of handkerchiefs, often performed during festivals and celebrations." }
         ]
     },
 
     {
         id: "IN-AP",
         Folkmusics: [
-            { name: "Kuchipudi Music", description: "Classical music accompanying the Kuchipudi dance, known for its graceful melodies, expressive rhythms, and dramatic storytelling." },
-            { name: "Veeranatyam Songs", description: "Traditional songs performed in honor of Lord Shiva, characterized by vigorous rhythms and the use of traditional instruments like the 'Veerabhadra' drum." },
-            { name: "Butta Bommalu Tunes", description: "Folk tunes where performers wear large, colorful masks and costumes, depicting various characters and stories from mythology and folklore." },
-            { name: "Dappu Melodies", description: "Vibrant melodies performed with the 'Dappu' drum, characterized by rhythmic beats and energetic tunes, often performed during festivals and celebrations." },
-            { name: "Lambadi Songs", description: "Traditional songs of the Lambadi tribe, characterized by colorful rhythms, intricate melodies, and traditional instruments, often depicting their daily life and culture." }
+            { layout: KuchipudiMusic, name: "Kuchipudi Music", description: "Classical music accompanying the Kuchipudi dance, known for its graceful melodies, expressive rhythms, and dramatic storytelling." },
+            { layout: VeeranatyamSongs, name: "Veeranatyam Songs", description: "Traditional songs performed in honor of Lord Shiva, characterized by vigorous rhythms and the use of traditional instruments like the 'Veerabhadra' drum." },
+            { layout: ButtaBommaluTunes, name: "Butta Bommalu Tunes", description: "Folk tunes where performers wear large, colorful masks and costumes, depicting various characters and stories from mythology and folklore." },
+            { layout: DappuMelodies, name: "Dappu Melodies", description: "Vibrant melodies performed with the 'Dappu' drum, characterized by rhythmic beats and energetic tunes, often performed during festivals and celebrations." },
+            { layout: LambadiSongs, name: "Lambadi Songs", description: "Traditional songs of the Lambadi tribe, characterized by colorful rhythms, intricate melodies, and traditional instruments, often depicting their daily life and culture." }
         ]
     },
 
