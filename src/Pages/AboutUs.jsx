@@ -1,69 +1,125 @@
-import React from 'react'
-
-import Navbar from '../components/Navbar'
+import React from 'react';
+import Navbar from '../components/Navbar';
 
 const AboutUs = () => {
     return (
         <>
             <Navbar />
-            <div className="bg-gray-100 flex flex-col items-center min-h-screen">
-                {/* Heading */}
-                <h2 className="text-center font-bold bg-red-600 bg-gradient-to-tr from-red-700 to-pink-600 text-3xl text-white mt-32 mx-4 sm:mx-8 md:mx-16 lg:mx-96 my-6 sm:text-2xl md:text-3xl lg:text-4xl rounded-lg shadow-lg p-4">
-                    Team Members
-                </h2>
+            {/* Hero Section */}
+            <div className="bg-gradient-to-tr from-red-600 to-pink-500 text-white py-20">
+                <div className="text-center max-w-4xl mx-auto px-6">
+                    <h1 className="text-5xl font-extrabold">Our Dynamic Team</h1>
+                    <p className="mt-4 text-lg">
+                        Driven by passion, creativity, and teamwork, our goal is to create exceptional digital experiences. Meet the minds behind the magic!
+                    </p>
+                </div>
+            </div>
 
-                {/* Cards */}
-                <div className="container mx-auto p-4">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                        {/* Card 1 */}
-                        <div className="rounded-lg shadow-md p-6 flex flex-col items-center bg-gradient-to-tr from-red-700 to-pink-600 text-white">
-                            <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white">
-                                <img src="" alt="User 1" className="w-full h-full object-cover" />
-                            </div>
-                            <h3 className="mt-4 text-xl font-semibold">Kashish Dadghaye</h3>
-                            <p className="mt-2 text-sm text-gray-200 text-center">
-                                A passionate Web Developer with a love for coding and design. She is a dedicated B.Sc. IT student. Her expertise shines through in her work, especially when she designs and develops captivating Quiz, News Page.
-                            </p>
-                        </div>
+            {/* Interactive Team Section */}
+            <div className="bg-gray-100 py-16">
+                <div className="container mx-auto px-6">
+                    <h2 className="text-center text-3xl font-bold text-gray-800 mb-12">
+                        Meet Our Team
+                    </h2>
 
-                        {/* Card 2 */}
-                        <div className="rounded-lg shadow-md p-6 flex flex-col items-center bg-gradient-to-tr from-red-700 to-pink-600 text-white">
-                            <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white">
-                                {/* <img src={prerna} alt="User 2" className="w-full h-full object-cover" /> */}
-                            </div>
-                            <h3 className="mt-4 text-xl font-semibold">Prerna Barde</h3>
-                            <p className="mt-2 text-sm text-gray-200 text-center">
-                                Prerna, a dedicated B.Sc. IT student with a talent for creativity and precision. Her expertise shines through in her work, especially when she designs and develops captivating home pages and components.
-                            </p>
-                        </div>
+                    {/* Team Timeline */}
+                    <div className="relative">
+                        {/* Line for Timeline */}
+                        <div className="absolute left-1/2 transform -translate-x-1/2 bg-gradient-to-b from-red-600 to-pink-500 w-1 h-full z-0"></div>
 
-                        {/* Card 3 */}
-                        <div className="rounded-lg shadow-md p-6 flex flex-col items-center bg-gradient-to-tr from-red-700 to-pink-600 text-white">
-                            <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white">
-                                <img src="https://via.placeholder.com/150" alt="User 3" className="w-full h-full object-cover" />
+                        {/* Cards */}
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-16">
+                            {/* Card 1 */}
+                            <div className="relative z-10 flex lg:justify-end">
+                                <div className="bg-white shadow-xl rounded-lg p-6 max-w-md mx-auto lg:mr-6 transform hover:scale-105 transition-transform duration-300">
+                                    <div className="flex items-center space-x-4">
+                                        <div className="w-20 h-20 rounded-full border-4 border-pink-500">
+                                            <img
+                                                src="https://via.placeholder.com/150"
+                                                alt="Kashish Dadghaye"
+                                                className="w-full h-full rounded-full object-cover"
+                                            />
+                                        </div>
+                                        <div>
+                                            <h3 className="text-xl font-semibold text-gray-800">Kashish Dadghaye</h3>
+                                            <p className="text-sm text-gray-600">
+                                                A dedicated Web Developer passionate about creating engaging quizzes and news pages.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <h3 className="mt-4 text-xl font-semibold">Vaishnavi Ambatre</h3>
-                            <p className="mt-2 text-sm text-gray-200 text-center">
-                                She is a dedicated B.Sc. IT student with a talent for creativity and precision. Her expertise shines through in her work, especially when she designs and develops captivating review pages.
-                            </p>
-                        </div>
 
-                        {/* Card 4 */}
-                        <div className="rounded-lg shadow-md p-6 flex flex-col items-center bg-gradient-to-tr from-red-700 to-pink-600 text-white">
-                            <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white">
-                                {/* <img src={tanvi} alt="User 4" className="w-full h-full object-cover" /> */}
+                            {/* Card 2 */}
+                            <div className="relative z-10 flex lg:justify-start">
+                                <div className="bg-white shadow-xl rounded-lg p-6 max-w-md mx-auto lg:ml-6 transform hover:scale-105 transition-transform duration-300">
+                                    <div className="flex items-center space-x-4">
+                                        <div className="w-20 h-20 rounded-full border-4 border-pink-500">
+                                            <img
+                                                src="https://via.placeholder.com/150"
+                                                alt="Prerna Barde"
+                                                className="w-full h-full rounded-full object-cover"
+                                            />
+                                        </div>
+                                        <div>
+                                            <h3 className="text-xl font-semibold text-gray-800">Prerna Barde</h3>
+                                            <p className="text-sm text-gray-600">
+                                                A creative developer excelling in building captivating home pages and seamless components.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <h3 className="mt-4 text-xl font-semibold">Tanvi Barbate</h3>
-                            <p className="mt-2 text-sm text-gray-200 text-center">
-                                A passionate Web Developer with a love for coding and design. She is also a good UI/UX designer.
-                            </p>
+
+                            {/* Card 3 */}
+                            <div className="relative z-10 flex lg:justify-end">
+                                <div className="bg-white shadow-xl rounded-lg p-6 max-w-md mx-auto lg:mr-6 transform hover:scale-105 transition-transform duration-300">
+                                    <div className="flex items-center space-x-4">
+                                        <div className="w-20 h-20 rounded-full border-4 border-pink-500">
+                                            <img
+                                                src="https://via.placeholder.com/150"
+                                                alt="Vaishnavi Ambatre"
+                                                className="w-full h-full rounded-full object-cover"
+                                            />
+                                        </div>
+                                        <div>
+                                            <h3 className="text-xl font-semibold text-gray-800">Vaishnavi Ambatre</h3>
+                                            <p className="text-sm text-gray-600">
+                                                An expert in creating user-friendly review pages with a focus on precision and creativity.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Card 4 */}
+                            <div className="relative z-10 flex lg:justify-start">
+                                <div className="bg-white shadow-xl rounded-lg p-6 max-w-md mx-auto lg:ml-6 transform hover:scale-105 transition-transform duration-300">
+                                    <div className="flex items-center space-x-4">
+                                        <div className="w-20 h-20 rounded-full border-4 border-pink-500">
+                                            <img
+                                                src="https://via.placeholder.com/150"
+                                                alt="Tanvi Barbate"
+                                                className="w-full h-full rounded-full object-cover"
+                                            />
+                                        </div>
+                                        <div>
+                                            <h3 className="text-xl font-semibold text-gray-800">Tanvi Barbate</h3>
+                                            <p className="text-sm text-gray-600">
+                                                A talented UI/UX designer who blends innovation and functionality to deliver exceptional designs.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
+          
         </>
-    )
-}
+    );
+};
 
-export default AboutUs
+export default AboutUs;
