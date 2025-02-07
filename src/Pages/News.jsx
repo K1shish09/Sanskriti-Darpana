@@ -33,19 +33,19 @@ function NewsSection() {
         'https://th-i.thgim.com/public/incoming/sjzla0/article68845885.ece/alternates/LANDSCAPE_1200/2303_8_11_2024_18_24_58_1_FMMUSICFEST.JPG',
       title: 'Kannada language through Bhakti Sangeetha touches core of your heart',
       description:
-        'Nirmala Sitharaman Union Finance Minister inaugurates three-day Mysuru Sangeetha Suganda Music Festival that celebrates the Dasa tradition of Carnatic music.',
+        'Nirmala Sitharaman Union Finance Minister inaugurated three-day Mysuru Sangeetha Suganda Music Festival that celebrates the Dasa tradition of Carnatic music.',
     },
     {
       imageUrl:
         'https://www.bing.com/th?id=OVFT.lA1xd1b9QXaV5-hzMhKVqi&pid=News&w=234&h=132&c=14&rs=2&qlt=90',
-      title: 'Tulsi Vivah is a sacred Hindu ritual',
+      title: 'Tulsi Vivah is a sacred Hind ritual',
       description:
-        'Tulsi Vivah is a sacred Hindu ritual that symbolizes the ceremonial marriage of the Tulsi plant (holy basil) with Lord Vishnu, usually in his avatar as Shaligram or Lord Krishna.',
+        'Tulsi Vivah is a sacred Hindu rituals that symbolizes the ceremonial marriages of the Tulsi plant (holy basil) with Lord Vishnu, usually in his avatar as Shaligram or Lord Krishna.',
     },
     {
       imageUrl:
         'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1tV8GW.img?w=768&h=432&m=6',
-      title: 'Kartiki Ekadashi celebrations at Pandharpur',
+      title: 'Kartiki Ekadashi celebrations at Pandharpurs',
       description:
         'Kartiki Ekadashi celebrations at Pandharpur: Vitthala and Rukmini Mata temple offers 24-hour darshan, symbolizing the ceremonial marriage of the Tulsi plant with Lord Vishnu.',
     },
@@ -54,20 +54,20 @@ function NewsSection() {
         'https://www.bing.com/th?id=OVFT.twHxRta2Dkj2l0GH0_hZbC&pid=News&w=234&h=132&c=14&rs=2&qlt=90',
       title: 'Nagaraj Rao Havaldar says',
       description:
-        'Music is a great unifying and connecting factor, says Nagaraj Rao Havaldar, highlighting Karnataka’s unique status as a state that has nurtured both Hindustani and Carnatic traditions.',
+        'Music is a great unifying and connecting factors, says Nagaraj Rao Havaldar, highlighting Karnataka’s unique status as a state that has nurtured both Hindustani and Carnatic traditions.',
     },
     {
       title: 'Mohiniyattam pan-Indian traditions and fusion:',
       imageUrl: 'https://www.bing.com/th?id=OVFT.8l97vUkSXm9kJapxXuVqIS&pid=News&w=234&h=132&c=14&rs=2&qlt=90',
       description:
-        'Mohiniyattam pioneer Vijayalakshmi brings to town a medley of pan-Indian traditions, blending tradition with contemporary themes.',
+        'Mohiniyattam pioneer Vijayalakshmi brings to towns a medley of pan-Indian traditions, blending tradition with contemporary themes.',
     },
     {
       imageUrl:
         'https://www.bing.com/th?id=OVFT.-uJBbIrbI-ZXwiI0Fb8QZy&pid=News&w=234&h=132&c=14&rs=2&qlt=90',
       title: 'Chhath Puja is more than just a festival',
       description:
-        'Chhath Puja is more than just a festivals; it embodies a vivid display of devotion, tradition, and respect for nature, predominantly celebrated in Bihar and Jharkhand.',
+        'Chhath Puja is more than just a festivals; it embodies a vivid display of devotions, tradition, and respect for nature, predominantly celebrated in Bihar and Jharkhand.',
     },
   ];
 
@@ -82,7 +82,7 @@ function NewsSection() {
         </h2>
         <div className="flex items-center justify-center mt-4">
           <p className="text-white font-medium text-lg px-4 py-3 bg-gradient-to-tr from-red-700 to-pink-600 rounded-full shadow-lg transform transition duration-200 hover:scale-105">
-            Discover the latest events and cultural highlightb through Sanskriti Darpan.
+            Discover the latest events and cultural highlighted through Sanskriti Darpan.
           </p>
         </div>
       </div>

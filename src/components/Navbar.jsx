@@ -50,7 +50,7 @@ function Navbar() {
           <a href="/news" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">News</a>
           <a href="/login" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Signin</a>
 
-          <div className="ml-4">
+          {/* <div className="ml-4">
             <a href="">
               <img
                 src={map}
@@ -58,7 +58,8 @@ function Navbar() {
                 className="h-[60px] w-[60px] md:h-[70px] md:w-[60px] transition-transform duration-200 transform hover:scale-105"
               />
             </a>
-          </div>
+          </div> */}
+
         </div>
       </div>
 
@@ -70,7 +71,7 @@ function Navbar() {
           <a href="/quiz" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">Quiz</a>
           <a href="/reviews" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">Reviews</a>
           <a href="/news" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">News</a>
-          <a href="/login" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">Signin</a>
+          <a href="/login" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">Login</a>
         </div>
 
         {/* Map icon below the menu for mobile */}
