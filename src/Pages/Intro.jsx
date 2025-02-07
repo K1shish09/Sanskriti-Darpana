@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "tailwindcss/tailwind.css";
 
-const App = () => {
+const Intro = () => {
   const [selected, setSelected] = useState("Introduction");
 
   const menuItems = [
@@ -46,10 +46,10 @@ const App = () => {
       image: "https://via.placeholder.com/400x250?text=Food+of+Maharashtra",
     },
     Festivals: {
-        text:
-          "From Vada Pav to Puran Poli, Maharashtra offers a delectable range of traditional dishes loved across the globe.",
-        image: "https://via.placeholder.com/400x250?text=Food+of+Maharashtra",
-      },
+      text:
+        "From Vada Pav to Puran Poli, Maharashtra offers a delectable range of traditional dishes loved across the globe.",
+      image: "https://via.placeholder.com/400x250?text=Food+of+Maharashtra",
+    },
   };
 
   return (
@@ -62,9 +62,8 @@ const App = () => {
           {menuItems.map((item, index) => (
             <li
               key={index}
-              className={`cursor-pointer p-3 rounded-lg hover:bg-pink-600 transition duration-300 text-lg font-semibold transform hover:scale-105 ${
-                selected === item ? "bg-pink-800" : ""
-              }`}
+              className={`cursor-pointer p-3 rounded-lg hover:bg-pink-600 transition duration-300 text-lg font-semibold transform hover:scale-105 ${selected === item ? "bg-pink-800" : ""
+                }`}
               onClick={() => setSelected(item)}
             >
               <span className="flex items-center">
@@ -105,4 +104,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Intro;
