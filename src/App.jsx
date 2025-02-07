@@ -10,17 +10,16 @@ import Layout from './Layout'
 import NewsSection from './Pages/News'
 import Unesco from './Pages/Unesco'
 import Intro from './Pages/Intro'
+import IndiaMap from './components/InteractiveIndiaMap'
 
 
 const App = () => {
   return (
     <Router>
       <Routes>
-      
-    
+        <Route path='/intro' element={<Intro />} />
+        <Route path='/map' element={<IndiaMap />} />
         <Route element={<Layout />}>
-        <Route path='/' element={<Intro />} /> 
-         
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<AboutUs />} />
           <Route path='/quiz' element={<QuizPage />} />
@@ -28,8 +27,7 @@ const App = () => {
           <Route path='/news' element={<NewsSection />} />
           <Route path='/login' element={<Login />} />
           <Route path='/ques' element={<Ques />} />
-          <Route path='/unesco' element={<Unesco />} /> 
-          <Route path='/intro' element={<Intro />} />
+          <Route path='/unesco' element={<Unesco />} />
         </Route>
       </Routes>
     </Router>
