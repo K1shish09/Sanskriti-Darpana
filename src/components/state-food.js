@@ -101,7 +101,7 @@ import Samosa from "../Assets/Food/Samosa.jpeg";
 import fara from "../Assets/Food/Fara.jpeg";
 import bora from "../Assets/Food/Bora.jpeg";
 import dubkiKadhi from "../Assets/Food/DubkiKadhi.jpeg";
-import Chhattisgarhirice from "../Assets/Food/ChhattisgarhiRice.jpeg";
+import Chhattisgarhirice from "../Assets/Food/Chhattisgarhirice.jpeg";
 import bisiBeleBath from "../Assets/Food/BisiBeleBath.jpeg";
 import ragiMudde from "../Assets/Food/RagiMudde.jpeg";
 import MysorePak from "../Assets/Food/MysorePak.jpeg";
