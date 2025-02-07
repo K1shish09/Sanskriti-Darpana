@@ -5,7 +5,7 @@ import logo from './../Assets/logo.jpg'
 import logo1 from './../Assets/logo.png'
 import './Navbar.css'
 
-function Navbar() {
+function HomeNav() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   // Toggle function for mobile menu
@@ -83,12 +83,15 @@ function Navbar() {
             />
           </a>
         </div>
+        
+
       </div>
+
     </>
   );
 }
 
-export default Navbar;
+export default HomeNav;
 
 
 
