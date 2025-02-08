@@ -11,6 +11,7 @@ import NewsSection from './Pages/News'
 import Unesco from './Pages/Unesco'
 import Intro from './Pages/Intro'
 import IndiaMap from './components/InteractiveIndiaMap'
+import SignUp from './Pages/SignUp'
 
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
           <Route path='/reviews' element={<Review />} />
           <Route path='/news' element={<NewsSection />} />
           <Route path='/login' element={<Login />} />
+          <Route path='/signup' element={<SignUp />} />
           <Route path='/ques' element={<Ques />} />
           <Route path='/unesco' element={<Unesco />} />
         </Route>
