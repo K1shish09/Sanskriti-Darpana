@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { states } from './states-data'; // Import states data
 import { useNavigate } from 'react-router-dom'; // Use useNavigate from React Router v6
@@ -6,59 +7,61 @@ import interactiveIndiaMapData from './InteractiveIndiaMapData';
 const IndiaMap = () => {
     const [zoomedState, setZoomedState] = useState(null); // Track the state being zoomed in
     const [isZooming, setIsZooming] = useState(false); // Track the zoom state
-    const navigate = useNavigate(); // Use useNavigate instead of useHistory
+    const navigate = useNavigate(); // React Router navigation
 
     const handleClick = (state) => {
         setZoomedState(state.id); // Set the clicked state to be zoomed
         setIsZooming(true); // Trigger zoom animation
 
-        // Wait for the animation to complete before redirecting
+        // Wait for animation to complete before navigating
         setTimeout(() => {
-            navigate(state.link); // Navigate to the state's link
-        }, 1000); // Time should match your animation duration
+            navigate(`/state/${state.id}`); // Navigate to state URL with ID
+        }, 1000); // Time should match animation duration
     };
 
     return (
-        <div className="flex items-center justify-center h-screen w-full" style={{ backgroundColor: '#1a202c', borderRadius: '10px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)' }}>
-            <div className='bg-blue-500'>
+        <div className="flex items-center justify-center h-screen w-full bg-gray-900 rounded-lg shadow-lg">
+            <div className="bg-blue-500">
                 <svg xmlns="http://www.w3.org/2000/svg" width="1519" height="1773" version="1.1">
                     {states.map((state) => (
                         <g key={state.id} id={state.id} title={state.name}>
                             {state.paths.map((path, index) => (
                                 <a
                                     key={`${state.id}-path-${index}`}
-                                    href="#!"
+                                    href={`#/state/${state.id}`} // Better user experience
                                     onClick={(e) => {
                                         e.preventDefault();
-                                        handleClick(state); // Pass the entire state to handleClick
+                                        handleClick(state); // Pass state data
                                     }}
                                 >
                                     <path
                                         d={path.path}
                                         style={{
-                                            fill: state.color, // Apply state color to all paths by default
+                                            fill: state.color, // Default state color
                                             stroke: state.stroke,
                                             strokeWidth: state.strokeWidth,
-                                            transition: "fill 0.3s ease, transform 1s ease-in-out", // Include transition for smooth zoom
+                                            transition: "fill 0.3s ease, transform 1s ease-in-out", // Smooth zoom
                                             transform: zoomedState === state.id ? "scale(4)" : "scale(1)", // Scale on click
-                                            transformOrigin: "center", // Zoom from the center of the state
+                                            transformOrigin: "center",
                                         }}
                                         onMouseEnter={(e) => {
                                             e.target.setAttribute("fill", path.hoverColor || state.hoverColor); // Set hover color
                                         }}
                                         onMouseLeave={(e) => {
-                                            e.target.setAttribute("fill", state.color); // Reset to default color
+                                            e.target.setAttribute("fill", state.color); // Reset color
                                         }}
                                     />
                                 </a>
                             ))}
                         </g>
                     ))}
+
+                    {/* State Name with ID */}
                     <g id="layer35" style={{ display: 'inline' }}>
                         <g style={{ fontSize: '24px', fill: '#ffffff', stroke: 'none', fontFamily: 'Arial' }}>
                             {Object.entries(interactiveIndiaMapData).map(([state, { x, y, id }]) => (
                                 <text key={id} x={x} y={y} id={id}>
-                                    <tspan x={x} y={y}>{state}</tspan>
+                                    <tspan x={x} y={y}>{`${state} (${id})`}</tspan> {/* Display State Name with ID */}
                                 </text>
                             ))}
                         </g>

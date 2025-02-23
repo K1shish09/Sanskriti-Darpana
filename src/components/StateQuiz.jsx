@@ -53,7 +53,7 @@ const StateInfo = () => {
       >
         <div className="absolute top-0 left-0 right-0 h-10 bg-gradient-to-r from-pink-600 to-pink-500 transform rotate-12 -z-10"></div>
         <h2 className="text-3xl font-extrabold mb-6 relative z-10 animate-text-glow">
-          Explore
+          Explore {state.name}
         </h2>
         <ul className="space-y-4">
           {menuItems.map((item, index) => (
@@ -81,39 +81,39 @@ const StateInfo = () => {
           <p className="mt-2">{state.description || "No description available."}</p>
         </div>
 
-        {/* Sections */}
+        {/* Sections with useParams applied */}
         <div id="Introduction">
-          <Introduction selected="Introduction" />
+          <Introduction selected="Introduction" state={state} />
         </div>
         <div id="Districts">
-          <Districts selected="Districts" />
+          <Districts selected="Districts" state={state} />
         </div>
         <div id="Languages">
-          <Languages selected="Languages" />
+          <Languages selected="Languages" state={state} />
         </div>
         <div id="Religion">
-          <Religion selected="Religion" />
+          <Religion selected="Religion" state={state} />
         </div>
         <div id="TraditionalAttire">
-          <Attire selected="Traditional Attire" />
+          <Attire selected="Traditional Attire" state={state} />
         </div>
         <div id="Food">
-          <Food selected="Food" />
+          <Food selected="Food" state={state} />
         </div>
         <div id="Festival">
-          <Festival selected="Festival" />
+          <Festival selected="Festival" state={state} />
         </div>
         <div id="FolkDance">
-          <Dance selected="Folk Dance" />
+          <Dance selected="Folk Dance" state={state} />
         </div>
         <div id="FolkMusic">
-          <Music selected="Folk Music" />
+          <Music selected="Folk Music" state={state} />
         </div>
         <div id="FloraandFauna">
-          <Floraandfauna selected="Flora and Fauna" />
+          <Floraandfauna selected="Flora and Fauna" state={state} />
         </div>
         <div id="HeritageSites">
-          <Heritagesites selected="Heritage Sites" />
+          <Heritagesites selected="Heritage Sites" state={state} />
         </div>
       </div>
     </div>

@@ -51,7 +51,7 @@ function HomeNav() {
 
 
           <div className="ml-4">
-            <a href="">
+            <a href="/map">
               <img
                 src={map}
                 alt="Map Logo"
