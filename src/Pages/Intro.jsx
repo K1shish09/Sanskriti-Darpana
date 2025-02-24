@@ -60,7 +60,7 @@ const Intro = () => {
       
       <button
   type="button"
-  className="fixed top-4 left-[1300px] px-6 py-3 bg-pink-600 text-white font-bold rounded-lg shadow-lg z-10"
+  className="fixed animate-text-glow top-14 left-[1300px] px-6 py-3 bg-pink-600 text-white font-bold rounded-lg shadow-lg z-10"
 >
   Start Quiz
 </button>
