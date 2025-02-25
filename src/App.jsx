@@ -12,17 +12,15 @@ import Unesco from './Pages/Unesco'
 import Intro from './Pages/Intro'
 
 
+
 const App = () => {
   return (
     <Router>
       <Routes>
-
-       
-
-
+      {/* <Route path='/' element={<Intro />} /> */}
         <Route element={<Layout />}>
            
-          <Route path='/' element={<Intro />} />
+        <Route path='/' element={<Intro />} />
           <Route path='/about' element={<AboutUs />} />
           <Route path='/quiz' element={<QuizPage />} />
           <Route path='/reviews' element={<Review />} />
@@ -30,7 +28,7 @@ const App = () => {
           <Route path='/login' element={<Login />} />
           <Route path='/ques' element={<Ques />} />
           <Route path='/unesco' element={<Unesco />} /> 
-          <Route path='/intro' element={<Intro />} />
+          
         </Route>
       </Routes>
     </Router>
@@ -38,8 +36,3 @@ const App = () => {
 }
 
 export default App
-
-
-
-
-
