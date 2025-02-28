@@ -34,7 +34,7 @@ const Ques = () => {
       question: "What is the distance between the Earth and the Sun?",
       options: ["93 million miles", "100 million miles", "120 million miles", "150 million miles"],
       answer: "93 million miles",
-      explanation: "The average distance between Earth and the Sun is about 93 million miles (or 150 million kilometers)."
+      explanation: "The average distance between Earth and the Sun i about 93 million miles (or 150 million kilometers)."
     },
     {
       question: "Which Indian leader is associated with the slogan 'Jai Jawan Jai Kisan'?",

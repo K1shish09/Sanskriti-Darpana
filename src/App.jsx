@@ -10,36 +10,33 @@ import Layout from './Layout'
 import NewsSection from './Pages/News'
 import Unesco from './Pages/Unesco'
 import Intro from './Pages/Intro'
-
+import IndiaMap from './components/InteractiveIndiaMap'
+import SignUp from './Pages/SignUp'
+import StateInfo from './Pages/StateInfo'
 
 
 const App = () => {
   return (
     <Router>
       <Routes>
-      
-      
+    
+
+        <Route path='/map' element={<IndiaMap />} />
         <Route element={<Layout />}>
-           
           <Route path='/' element={<Home />} />
-      
           <Route path='/about' element={<AboutUs />} />
           <Route path='/quiz' element={<QuizPage />} />
           <Route path='/reviews' element={<Review />} />
           <Route path='/news' element={<NewsSection />} />
           <Route path='/login' element={<Login />} />
+          <Route path='/signup' element={<SignUp />} />
           <Route path='/ques' element={<Ques />} />
-          <Route path='/unesco' element={<Unesco />} /> 
-          <Route path='/intro' element={<Intro />} />
+          <Route path='/unesco' element={<Unesco />} />
+          <Route path="/state/:id" element={<StateInfo />} />
         </Route>
       </Routes>
     </Router>
   )
-}
+ }
 
 export default App
-
-
-
-
-

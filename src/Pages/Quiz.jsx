@@ -14,7 +14,7 @@ const QuizPage = () => {
       {/* Title Section Below Navbar */}
       <div className="relative z-10 mt-32 flex justify-center">
         <h2 className="text-white bg-gradient-to-r from-pink-500 to-red-500 font-bold py-2 px-6 rounded-lg shadow-xl text-2xl md:text-3xl lg:text-4xl">
-          Quiz Your Knowledge on Indian Culture
+          Quiz Your Knowledge on Indian Culture!
         </h2>
       </div>
 
@@ -32,7 +32,7 @@ const QuizPage = () => {
         {/* "Explore India Quiz" Button at the Top */}
         <div className="absolute top-10 left-1/2 transform -translate-x-1/2 z-20">
           <button className="text-white bg-gradient-to-r from-pink-500 to-red-500 hover:from-red-500 hover:to-pink-500 font-semibold py-3 px-12 rounded-lg shadow-lg transition duration-300">
-            Explore India Quiz
+            Explore India's Quiz
           </button>
         </div>
 
@@ -80,7 +80,7 @@ const QuizPage = () => {
                 <span role="img" aria-label="cloud" className="text-6xl text-white">☁️</span>
               </div>
               <h2 className="feature-box-text text-2xl font-extrabold text-white mt-4 tracking-wider drop-shadow-lg transition-all duration-300 ease-in-out hover:text-gray-200">
-                Updated Question
+                Updated Questions
               </h2>
             </div>
 
@@ -101,7 +101,7 @@ const QuizPage = () => {
                 <span role="img" aria-label="verified" className="text-6xl text-white">🏅</span>
               </div>
               <h2 className="feature-box-text text-2xl font-extrabold text-white mt-4 tracking-wider drop-shadow-lg transition-all duration-300 ease-in-out hover:text-gray-200">
-                Verified Questions.
+                Verified Questions
               </h2>
             </div>
           </div>
