@@ -12,13 +12,14 @@ import Unesco from './Pages/Unesco'
 import Intro from './Pages/Intro'
 import IndiaMap from './components/InteractiveIndiaMap'
 import SignUp from './Pages/SignUp'
+import StateInfo from './Pages/StateInfo'
 
 
 const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path='/intro' element={<Intro />} />
+        <Route path='/' element={<Intro />} />
         <Route path='/map' element={<IndiaMap />} />
         <Route element={<Layout />}>
           <Route path='/' element={<Home />} />
@@ -30,15 +31,11 @@ const App = () => {
           <Route path='/signup' element={<SignUp />} />
           <Route path='/ques' element={<Ques />} />
           <Route path='/unesco' element={<Unesco />} />
+          <Route path="/state/:id" element={<StateInfo />} />
         </Route>
       </Routes>
     </Router>
   )
-}
+ }
 
 export default App
-
-
-
-
-

@@ -13,7 +13,7 @@ const AboutUs = () => {
                         <h1 className="text-5xl font-extrabold mb-4">Our Dynamic Team</h1>
                         <p className="text-lg">
                             We’re a team of passionate developers, designers, and innovators working together to bring ideas to life. 
-                            Our expertise spans multiple domains, ensuring creativity and precision in everything we do.
+                            Our expertise spans multiple domains, ensuring creativity and precisions in everything we do.
                         </p>
                     </div>
                     <div className="absolute inset-0 opacity-20 bg-gradient-to-br from-red-700 to-pink-600 rounded-full blur-3xl"></div>
