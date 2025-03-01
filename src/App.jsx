@@ -19,8 +19,8 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<Intro />} />
-        <Route path='/map' element={<IndiaMap />} />
+        
+        <Route path='/' element={<IndiaMap />} />
         <Route element={<Layout />}>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<AboutUs />} />
@@ -32,6 +32,8 @@ const App = () => {
           <Route path='/ques' element={<Ques />} />
           <Route path='/unesco' element={<Unesco />} />
           <Route path="/state/:id" element={<StateInfo />} />
+          
+
         </Route>
       </Routes>
     </Router>
