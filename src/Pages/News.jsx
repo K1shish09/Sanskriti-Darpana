@@ -33,21 +33,26 @@ function NewsSection() {
         'https://th-i.thgim.com/public/incoming/sjzla0/article68845885.ece/alternates/LANDSCAPE_1200/2303_8_11_2024_18_24_58_1_FMMUSICFEST.JPG',
       title: 'Kannada language through Bhakti Sangeetha touches core of your heart',
       description:
-        'Nirmala Sitharaman Union Finance Minister inaugurated three-day Mysuru Sangeetha Suganda Music Festival that celebrates the Dasa tradition of Carnatic music.',
+        'Nirmala Sitharaman Union Finance Ministers inaugurated three-day Mysuru Sangeetha Suganda Music Festival that celebrates the Dasa tradition of Carnatic music.',
     },
     {
       imageUrl:
+
         'https://th.bing.com/th?q=Tulsi+Vivah+Patrika&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247',
       title: 'Tulsi Vivah is a sacred Hindu ritual',
+
+        'https://www.bing.com/th?id=OVFT.lA1xd1b9QXaV5-hzMhKVqi&pid=News&w=234&h=132&c=14&rs=2&qlt=90',
+      title: 'Tulsi Vivah is a sacred Hind ritual',
+
       description:
-        'Tulsi Vivah is a sacred Hindu ritual that symbolizes the ceremonial marriage of the Tulsi plant (holy basil) with Lord Vishnu, usually in his avatar as Shaligram or Lord Krishna.',
+        'Tulsi Vivah is a sacred Hindu ritual that symbolizes the ceremonial marriages of the Tulsi plant (holy basil) with Lord Vishnu, usually in his avatar as Shaligram or Lord Krishna.',
     },
     {
       imageUrl:
         'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1tV8GW.img?w=768&h=432&m=6',
       title: 'Kartiki Ekadashi celebrations at Pandharpurs',
       description:
-        'Kartiki Ekadashi celebrations at Pandharpur: Vitthala and Rukmini Mata temple offers 24-hour darshan, symbolizing the ceremonial marriage of the Tulsi plant with Lord Vishnu.',
+        'Kartiki Ekadashi celebrations at Pandharpur: Vitthala and Rukminis Mata temple offers 24-hour darshan, symbolizing the ceremonial marriage of the Tulsi plant with Lord Vishnu.',
     },
     {
       imageUrl:
@@ -82,7 +87,7 @@ function NewsSection() {
         </h2>
         <div className="flex items-center justify-center mt-4">
           <p className="text-white font-medium text-lg px-4 py-3 bg-gradient-to-tr from-red-700 to-pink-600 rounded-full shadow-lg transform transition duration-200 hover:scale-105">
-            Discover the latest events and cultural highlighted through Sanskriti Darpana.
+            Discover the latest events and cultural highlighted through Sanskriti Darpan.
           </p>
         </div>
       </div>

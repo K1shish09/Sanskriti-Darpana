@@ -17,7 +17,7 @@ import snow from "../Assets/Fauna/snow.jpg";
 import wolf from "../Assets/Fauna/wolf.jpg";
 import acacia from "../Assets/Fauna/acacia.jpg";
 import black from "../Assets/Fauna/black.jpg"
-import palm from "../Assets/Fauna/palm.jpg";
+
 import teak from "../Assets/Fauna/teak.jpg"
 import date from "../Assets/Fauna/date.jpg";
 import gulmohar from "../Assets/Fauna/gulmohar.jpg";
@@ -37,35 +37,35 @@ import gazella from "../Assets/Fauna/gazella.jpg";
 import busturd from "../Assets/Fauna/busturd.jpg";
 import khejri from "../Assets/Fauna/khejri.jpg";
 import musk from "../Assets/Fauna/musk dear.jpg";
-import donkey from "../Assets/Fauna/musk donkey.jpg";
-import elephant from "../Assets/Fauna/musk elephant.jpg";
-import lion from "../Assets/Fauna/musk lion.jpg";
-import mahua from "../Assets/Fauna/musk mahua.jpg";
-import rhino from "../Assets/Fauna/musk rhino.jpg";
-import sarus from "../Assets/Fauna/musk sarus.jpg";
-import nilgai from "../Assets/Fauna/musk nilgai.jpg";
-import dolphin from "../Assets/Fauna/musk dolphin.jpg";
-import ridley from "../Assets/Fauna/musk ridley.jpg";
-import sundari from "../Assets/Fauna/musk sundari.jpg";
-import pangolin from "../Assets/Fauna/musk pangolin.jpg";
-import goanbull from "../Assets/Fauna/musk goanbull.jpg";
-import cashew from "../Assets/Fauna/musk cashew.jpg";
-import bullfrog from "../Assets/Fauna/musk bullfrog.jpg";
-import ibis from "../Assets/Fauna/musk ibis.jpg";
-import bougainvillea from "../Assets/Fauna/musk bougainvillea.jpg";
-import tortoise from "../Assets/Fauna/musk tortoise.jpg";
-import liontailed from "../Assets/Fauna/musk liontailed.jpg";
-import hornbill from "../Assets/Fauna/musk hornbill.jpg";
-import tea from "../Assets/Fauna/musk tea.jpg";
-import rubber from "../Assets/Fauna/musk rubber.jpg";
-import tahr from "../Assets/Fauna/musk tahr.jpg";
-import slowloris from "../Assets/Fauna/musk slowloris.jpg";
-import redpanda from "../Assets/Fauna/musk redpanda.jpg";
-import jackfruit from "../Assets/Fauna/musk jackfruit.jpg";
-import clouded from "../Assets/Fauna/musk clouded.jpg";
-import bluepoppy from "../Assets/Fauna/musk bluepoppy.jpg";
-import golden from "../Assets/Fauna/musk golden.jpg";
-import wildbanana from "../Assets/Fauna/wildbanana.jpg";
+import donkey from "../Assets/Fauna/donkey.jpg";
+import elephant from "../Assets/Fauna/elephant.jpg";
+import lion from "../Assets/Fauna/lion.jpg";
+import mahua from "../Assets/Fauna/mahua.jpg";
+import rhino from "../Assets/Fauna/rhino.jpg";
+import sarus from "../Assets/Fauna/sarus.jpg";
+import nilgai from "../Assets/Fauna/nilgai.jpg";
+import dolphin from "../Assets/Fauna/dolphin.jpg";
+import ridley from "../Assets/Fauna/ridley.jpg";
+
+import pangolin from "../Assets/Fauna/pangolin.jpg";
+import goanbull from "../Assets/Fauna/goanbull.jpg";
+import cashew from "../Assets/Fauna/cashew.jpg";
+import bullfrog from "../Assets/Fauna/bullfrog.jpg";
+import ibis from "../Assets/Fauna/ibis.jpg";
+import bougainvillea from "../Assets/Fauna/bougainvillea.jpg";
+import tortoise from "../Assets/Fauna/tortoise.jpg";
+import liontailed from "../Assets/Fauna/liontailed.jpg";
+import hornbill from "../Assets/Fauna/hornbill.jpg";
+import tea from "../Assets/Fauna/tea.jpg";
+import rubber from "../Assets/Fauna/rubber.jpg";
+import tahr from "../Assets/Fauna/tahr.jpg";
+import slowloris from "../Assets/Fauna/slowloris.jpg";
+import redpanda from "../Assets/Fauna/redpanda.jpg";
+import jackfruit from "../Assets/Fauna/jackfruit.jpg";
+import clouded from "../Assets/Fauna/clouded.jpg";
+import bluepoppy from "../Assets/Fauna/bluepoppy.jpg";
+import golden from "../Assets/Fauna/golden.jpg";
+
 import sunbear from "../Assets/Fauna/sunbear.jpg";
 import serow from "../Assets/Fauna/serow.jpg";
 import leafmonkey from "../Assets/Fauna/leafmonkey.jpg";
@@ -79,7 +79,7 @@ import hog from "../Assets/Fauna/hog.jpg";
 import gibbon from "../Assets/Fauna/gibbon.jpg";
 import hollock from "../Assets/Fauna/hollock.jpg";
 import browndeer from "../Assets/Fauna/browndeer.jpg";
-import starling from "../Assets/Fauna/starling";
+import starling from "../Assets/Fauna/sloth.jpg";
 import yew from "../Assets/Fauna/yew.jpg";
 import takin from "../Assets/Fauna/takin.jpg";
 import seagrass from "../Assets/Fauna/seagrass.jpg";
@@ -91,8 +91,8 @@ import pig from "../Assets/Fauna/pig.jpg";
 import crocodile from "../Assets/Fauna/crocodile.jpg";
 import megapode from "../Assets/Fauna/megapode.jpg";
 import padauk from "../Assets/Fauna/padauk.jpg";
-
-
+import palm from "../Assets/Fauna/palm.jpg";
+import sundari from "../Assets/Fauna/sundari.jpg";
 
 
 const stateFlora= [
@@ -205,7 +205,7 @@ const stateFlora= [
     id: "IN-MZ",
     flora: [
         {  layout:bamboo, name: 'Bamboo', description: 'A dominant plant in Mizoram, vital for construction, crafts, and the economy.' },
-        {layout:wildbanana, name: 'Wild Banana', description: 'Native to Mizoram’s forests, it supports local wildlife and has cultural significance.' },
+        {layout:wolf, name: 'Wild Banana', description: 'Native to Mizoram’s forests, it supports local wildlife and has cultural significance.' },
         {  layout:orchid, name: 'Orchids', description: 'Mizoram is home to a variety of orchid species, known for their beauty and diversity.' }
     ],
     fauna: [

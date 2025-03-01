@@ -1,69 +1,109 @@
-import React from 'react'
-
-import Navbar from '../components/Navbar'
+import React from 'react';
+import Navbar from '../components/Navbar';
 
 const AboutUs = () => {
     return (
         <>
             <Navbar />
-            <div className="bg-gray-100 flex flex-col items-center min-h-screen">
-                {/* Heading */}
-                <h2 className="text-center font-bold bg-red-600 bg-gradient-to-tr from-red-700 to-pink-600 text-3xl text-white mt-32 mx-4 sm:mx-8 md:mx-16 lg:mx-96 my-6 sm:text-2xl md:text-3xl lg:text-4xl rounded-lg shadow-lg p-4">
-                    Team Members
-                </h2>
+            {/* Add space between Navbar and Hero Section */}
+            <div className="mt-20">
+                {/* Hero Section */}
+                <div className="relative bg-gradient-to-br from-red-600 to-pink-500 text-white py-20">
+                    <div className="text-center max-w-3xl mx-auto px-6">
+                        <h1 className="text-5xl font-extrabold mb-4">Our Dynamic Team</h1>
+                        <p className="text-lg">
+                            We’re a team of passionate developers, designers, and innovators working together to bring ideas to life. 
+                            Our expertise spans multiple domains, ensuring creativity and precisions in everything we do.
+                        </p>
+                    </div>
+                    <div className="absolute inset-0 opacity-20 bg-gradient-to-br from-red-700 to-pink-600 rounded-full blur-3xl"></div>
+                </div>
+            </div>
 
-                {/* Cards */}
-                <div className="container mx-auto p-4">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* Team Members Section */}
+            <div className="py-16 bg-gray-100">
+                <div className="container mx-auto px-6">
+                    <h2 className="text-center text-3xl font-bold text-gray-800 mb-12">
+                        Our Talented Team
+                    </h2>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
                         {/* Card 1 */}
-                        <div className="rounded-lg shadow-md p-6 flex flex-col items-center bg-gradient-to-tr from-red-700 to-pink-600 text-white">
-                            <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white">
-                                <img src="" alt="User 1" className="w-full h-full object-cover" />
+                        <div className="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300">
+                            <div className="relative">
+                                <div className="w-full h-36 bg-gradient-to-br from-red-600 to-pink-500"></div>
+                                <img
+                                    src="https://via.placeholder.com/150"
+                                    alt="Kashish Dadghaye"
+                                    className="absolute top-12 left-1/2 transform -translate-x-1/2 w-24 h-24 rounded-full border-4 border-white"
+                                />
                             </div>
-                            <h3 className="mt-4 text-xl font-semibold">Kashish Dadghaye</h3>
-                            <p className="mt-2 text-sm text-gray-200 text-center">
-                                A passionate Web Developer with a love for coding and design. She is a dedicated B.Sc. IT student. Her expertise shines through in her work, especially when she designs and develops captivating Quiz, News Page.
-                            </p>
+                            <div className="p-6 text-center mt-8">
+                                <h3 className="text-xl font-semibold text-gray-800">Kashish Dadghaye</h3>
+                                <p className="mt-2 text-sm text-gray-600">
+                                    A passionate Web Developer and dedicated B.Sc. IT student. Specializes in creating engaging quizzes and news pages.
+                                </p>
+                            </div>
                         </div>
 
                         {/* Card 2 */}
-                        <div className="rounded-lg shadow-md p-6 flex flex-col items-center bg-gradient-to-tr from-red-700 to-pink-600 text-white">
-                            <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white">
-                                {/* <img src={prerna} alt="User 2" className="w-full h-full object-cover" /> */}
+                        <div className="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300">
+                            <div className="relative">
+                                <div className="w-full h-36 bg-gradient-to-br from-red-600 to-pink-500"></div>
+                                <img
+                                    src="https://via.placeholder.com/150"
+                                    alt="Prerna Barde"
+                                    className="absolute top-12 left-1/2 transform -translate-x-1/2 w-24 h-24 rounded-full border-4 border-white"
+                                />
                             </div>
-                            <h3 className="mt-4 text-xl font-semibold">Prerna Barde</h3>
-                            <p className="mt-2 text-sm text-gray-200 text-center">
-                                Prerna, a dedicated B.Sc. IT student with a talent for creativity and precision. Her expertise shines through in her work, especially when she designs and develops captivating home pages and components.
-                            </p>
+                            <div className="p-6 text-center mt-8">
+                                <h3 className="text-xl font-semibold text-gray-800">Prerna Barde</h3>
+                                <p className="mt-2 text-sm text-gray-600">
+                                    Prerna is a creative B.Sc. IT student who excels in crafting beautiful home pages and intuitive components.
+                                </p>
+                            </div>
                         </div>
 
                         {/* Card 3 */}
-                        <div className="rounded-lg shadow-md p-6 flex flex-col items-center bg-gradient-to-tr from-red-700 to-pink-600 text-white">
-                            <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white">
-                                <img src="https://via.placeholder.com/150" alt="User 3" className="w-full h-full object-cover" />
+                        <div className="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300">
+                            <div className="relative">
+                                <div className="w-full h-36 bg-gradient-to-br from-red-600 to-pink-500"></div>
+                                <img
+                                    src="https://via.placeholder.com/150"
+                                    alt="Vaishnavi Ambatre"
+                                    className="absolute top-12 left-1/2 transform -translate-x-1/2 w-24 h-24 rounded-full border-4 border-white"
+                                />
                             </div>
-                            <h3 className="mt-4 text-xl font-semibold">Vaishnavi Ambatre</h3>
-                            <p className="mt-2 text-sm text-gray-200 text-center">
-                                She is a dedicated B.Sc. IT student with a talent for creativity and precision. Her expertise shines through in her work, especially when she designs and develops captivating review pages.
-                            </p>
+                            <div className="p-6 text-center mt-8">
+                                <h3 className="text-xl font-semibold text-gray-800">Vaishnavi Ambatre</h3>
+                                <p className="mt-2 text-sm text-gray-600">
+                                    Vaishnavi specializes in designing user-friendly review pages with a flair for creativity and precision.
+                                </p>
+                            </div>
                         </div>
 
                         {/* Card 4 */}
-                        <div className="rounded-lg shadow-md p-6 flex flex-col items-center bg-gradient-to-tr from-red-700 to-pink-600 text-white">
-                            <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white">
-                                {/* <img src={tanvi} alt="User 4" className="w-full h-full object-cover" /> */}
+                        <div className="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300">
+                            <div className="relative">
+                                <div className="w-full h-36 bg-gradient-to-br from-red-600 to-pink-500"></div>
+                                <img
+                                    src="https://via.placeholder.com/150"
+                                    alt="Tanvi Barbate"
+                                    className="absolute top-12 left-1/2 transform -translate-x-1/2 w-24 h-24 rounded-full border-4 border-white"
+                                />
                             </div>
-                            <h3 className="mt-4 text-xl font-semibold">Tanvi Barbate</h3>
-                            <p className="mt-2 text-sm text-gray-200 text-center">
-                                A passionate Web Developer with a love for coding and design. She is also a good UI/UX designer.
-                            </p>
+                            <div className="p-6 text-center mt-8">
+                                <h3 className="text-xl font-semibold text-gray-800">Tanvi Barbate</h3>
+                                <p className="mt-2 text-sm text-gray-600">
+                                    Tanvi is a skilled UI/UX designer and web developer who creates visually appealing and functional designs.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </>
-    )
-}
+    );
+};
 
-export default AboutUs
+export default AboutUs;
