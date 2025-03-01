@@ -32,6 +32,8 @@ const App = () => {
           <Route path='/ques' element={<Ques />} />
           <Route path='/unesco' element={<Unesco />} />
           <Route path="/state/:id" element={<StateInfo />} />
+          
+
         </Route>
       </Routes>
     </Router>
