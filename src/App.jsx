@@ -21,12 +21,17 @@ const App = () => {
     <Router>
       <Routes>
 
+        {/* <Route path='/' element={<Intro />} /> */}
+        <Route path='/map' element={<IndiaMap />} />
+
+
       {/* <Route path='/' element={<Intro />} /> */}
         <Route element={<Layout />}>
            
         <Route path='/' element={<Intro />} />
 
         <Route path='/' element={<IndiaMap />} />
+
         <Route element={<Layout />}>
           <Route path='/' element={<Home />} />
 
@@ -49,10 +54,14 @@ const App = () => {
       </Routes>
     </Router>
   )
+
+}
+
  
 }
 
  }
  
+
 
 export default App
