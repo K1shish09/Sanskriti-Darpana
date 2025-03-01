@@ -1,8 +1,6 @@
 import React from 'react';
 
 const content = {
-
-
   "Attire": {
     festivals: [
       { name: "Minicoy Festival", month: "December", description: "A vibrant celebration of Minicoy Island’s rich culture. The festival features local music, dance, and traditional performances. It highlights the unique Maldivian influence on the island’s culture and cuisine. Visitors can experience the island’s distinctive lifestyle and traditions." },
