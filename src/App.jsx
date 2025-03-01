@@ -14,54 +14,27 @@ import IndiaMap from './components/InteractiveIndiaMap'
 import SignUp from './Pages/SignUp'
 import StateInfo from './Pages/StateInfo'
 
-
-
 const App = () => {
   return (
     <Router>
       <Routes>
-
-        {/* <Route path='/' element={<Intro />} /> */}
-        <Route path='/map' element={<IndiaMap />} />
-
-
-      {/* <Route path='/' element={<Intro />} /> */}
         <Route element={<Layout />}>
-           
-        <Route path='/' element={<Intro />} />
-
-        <Route path='/' element={<IndiaMap />} />
-
-        <Route element={<Layout />}>
-          <Route path='/' element={<Home />} />
-
-          <Route path='/about' element={<AboutUs />} />
-          <Route path='/quiz' element={<QuizPage />} />
-          <Route path='/reviews' element={<Review />} />
-          <Route path='/news' element={<NewsSection />} />
-          <Route path='/login' element={<Login />} />
-          <Route path='/signup' element={<SignUp />} />
-          <Route path='/ques' element={<Ques />} />
-
-          <Route path='/unesco' element={<Unesco />} /> 
-          
-
-          <Route path='/unesco' element={<Unesco />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/quiz" element={<QuizPage />} />
+          <Route path="/reviews" element={<Review />} />
+          <Route path="/news" element={<NewsSection />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/ques" element={<Ques />} />
+          <Route path="/unesco" element={<Unesco />} />
           <Route path="/state/:id" element={<StateInfo />} />
-          
-
+          <Route path="/intro" element={<Intro />} />
+          <Route path="/map" element={<IndiaMap />} />
         </Route>
       </Routes>
     </Router>
   )
-
 }
-
- 
-}
-
- }
- 
-
 
 export default App

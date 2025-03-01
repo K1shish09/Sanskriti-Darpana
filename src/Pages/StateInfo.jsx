@@ -4,7 +4,7 @@ import { states } from "../components/states-data"; // Assuming state data is st
 import Introduction from "../components/Introduction.jsx";
 import Districts from "../components/Districts.jsx";
 import Religion from "../components/Religion.jsx";
-import Attire from "../components/Attire.jsx";
+import Attire from "../components/Dress.jsx";
 import Food from "../components/Food.jsx";
 import Festival from "../components/Festival.jsx";
 import Dance from "../components/Dance.jsx";
