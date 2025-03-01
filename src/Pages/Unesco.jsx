@@ -50,6 +50,7 @@ const heritageSites = [
 
 function HeritageTable() {
   return (
+  
     <div className="bg-gradient-to-b from-indigo-50 to-white min-h-screen p-8 flex flex-col items-center">
       <div className="max-w-6xl w-full shadow-xl rounded-3xl overflow-hidden bg-white bg-opacity-70 backdrop-blur-lg transform hover:scale-105 transition-all duration-500 mb-8">
         <h1 className="text-5xl font-extrabold text-center mb-12 text-white bg-gradient-to-r from-red-500 to-pink-500 p-6 rounded-t-3xl shadow-lg">
