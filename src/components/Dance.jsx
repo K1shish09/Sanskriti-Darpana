@@ -11,7 +11,7 @@ function Dance({ selected }) {
 
   return (
     <div className="flex-1 p-4 md:p-8 bg-gradient-to-r from-pink-100 to-pink-200">
-      <div className="bg-green-50 rounded-xl shadow-xl p-4 md:p-8">
+      <div className="bg-pink-50 rounded-xl shadow-xl p-4 md:p-8">
         <h1 className="text-3xl md:text-5xl font-extrabold text-center text-pink-700 mb-4 md:mb-8 underline">
           {selected}
         </h1>
