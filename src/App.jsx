@@ -15,14 +15,20 @@ import SignUp from './Pages/SignUp'
 import StateInfo from './Pages/StateInfo'
 
 
+
 const App = () => {
   return (
     <Router>
       <Routes>
+
+
         {/* <Route path='/' element={<Intro />} /> */}
-        <Route path='/map' element={<IndiaMap />} />
+
+        <Route path='/' element={<IndiaMap />} />
+
         <Route element={<Layout />}>
           <Route path='/' element={<Home />} />
+
           <Route path='/about' element={<AboutUs />} />
           <Route path='/quiz' element={<QuizPage />} />
           <Route path='/reviews' element={<Review />} />
@@ -32,12 +38,12 @@ const App = () => {
           <Route path='/ques' element={<Ques />} />
           <Route path='/unesco' element={<Unesco />} />
           <Route path="/state/:id" element={<StateInfo />} />
-          
+
 
         </Route>
       </Routes>
     </Router>
   )
-}
 
-export default App
+}
+  export default App
