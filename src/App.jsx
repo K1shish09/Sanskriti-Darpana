@@ -19,7 +19,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<Intro />} />
+        {/* <Route path='/' element={<Intro />} /> */}
         <Route path='/map' element={<IndiaMap />} />
         <Route element={<Layout />}>
           <Route path='/' element={<Home />} />
@@ -36,6 +36,6 @@ const App = () => {
       </Routes>
     </Router>
   )
- }
+}
 
 export default App
