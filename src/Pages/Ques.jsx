@@ -46,7 +46,7 @@ const Ques = () => {
       question: "How many years did the British rule over India?",
       options: ["150", "200", "250", "300"],
       answer: "200",
-      explanation: "The Britishs ruled over India for approximately 200 years, from 1757 (Battle of Plassey) until 1947 when India gained independence."
+      explanation: "The British ruled over India for approximately 200 years, from 1757 (Battle of Plassey) until 1947 when India gained independence."
     },
     {
       question: "Which city is known as the 'City of Lakes'?",
