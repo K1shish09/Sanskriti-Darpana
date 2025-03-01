@@ -15,14 +15,21 @@ import SignUp from './Pages/SignUp'
 import StateInfo from './Pages/StateInfo'
 
 
+
 const App = () => {
   return (
     <Router>
       <Routes>
-        
+
+      {/* <Route path='/' element={<Intro />} /> */}
+        <Route element={<Layout />}>
+           
+        <Route path='/' element={<Intro />} />
+
         <Route path='/' element={<IndiaMap />} />
         <Route element={<Layout />}>
           <Route path='/' element={<Home />} />
+
           <Route path='/about' element={<AboutUs />} />
           <Route path='/quiz' element={<QuizPage />} />
           <Route path='/reviews' element={<Review />} />
@@ -30,6 +37,10 @@ const App = () => {
           <Route path='/login' element={<Login />} />
           <Route path='/signup' element={<SignUp />} />
           <Route path='/ques' element={<Ques />} />
+
+          <Route path='/unesco' element={<Unesco />} /> 
+          
+
           <Route path='/unesco' element={<Unesco />} />
           <Route path="/state/:id" element={<StateInfo />} />
           
@@ -38,6 +49,10 @@ const App = () => {
       </Routes>
     </Router>
   )
+ 
+}
+
  }
+ 
 
 export default App
