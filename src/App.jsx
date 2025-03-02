@@ -23,12 +23,12 @@ const App = () => {
 
 
         {/* <Route path='/' element={<Intro />} /> */}
-
+       
         <Route path='/' element={<IndiaMap />} />
         <Route path="/state/:id" element={<StateInfo />} />
 
         <Route element={<Layout />}>
-          <Route path='/' element={<Home />} />
+          <Route path='/home' element={<Home />} />
 
           <Route path='/about' element={<AboutUs />} />
           <Route path='/quiz' element={<QuizPage />} />

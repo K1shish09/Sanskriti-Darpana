@@ -12,6 +12,7 @@ import stateFolkdances from "../components/state-folkdance.js";
 import stateFolkmusics from "../components/state-folkmusic.js";
 import stateFlora from "../components/state-flora.js";
 import stateHeritage from "../components/state-heritage.js";
+import back from './../Assets/Festivals/back.png'
 
 const StateInfo = () => {
   const { id } = useParams(); // Get state ID from URL
@@ -64,7 +65,9 @@ const StateInfo = () => {
         <div className="absolute top-0 left-0 right-0 h-10 bg-gradient-to-r from-pink-600 to-pink-500 transform rotate-12 -z-10"></div>
 
         <button type="button">
-          Back
+        <a href="/Home" class=" transition">
+        <img src={back} alt="Home" class="w-8 h-8" />
+    </a>
         </button>
         <ul className="space-y-4">
           {menuItems.map((item, index) => (
