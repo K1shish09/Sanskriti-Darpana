@@ -31,7 +31,7 @@ import sikkim from "../Assets/Religion/sikkim-piechart.jpg";
 import andaban from "../Assets/Religion/andaban-piechart.png";
 
 
-const statereligions = [
+const stateReligions = [
     {
         id: 'IN-AN',
         religions: "The Andaman and Nicobar Islands have a diverse religious population. Here is the approximate distribution based on census data. Hindu: According to the 2011 census, 61.47% were Hindus, 34.22% were Muslims. Christian minorities (3.7%) are found among the Scheduled Tribe and Castes population. The Scheduled Tribe population in Assam is around 13%, of which Bodos account for 40%. Other religions followed include Jainism (0.1%), Buddhism (0.2%), Sikhism (0.1%) and Animism (among Khamti, Phake, Aiton etc. communities). Religion in Assam (2011): Hinduism(61.47%), Islam(34.22%), Christianity(3.74%), Buddhism(0.18%), No religious(0.16%), Tribal Religion(0.09%), Jainism(0.08%), Sikhism(0.07%). The three popular sects of Hinduism, namely, Shaivisim, Shaktism, and Vaishnavism are prevalent here. Many Assamese Hindus are also followers of the Ekasarana Dharma sect of Hinduism.",
@@ -181,7 +181,7 @@ const statereligions = [
     {
         id: 'IN-DD',
         religions: "The majority of the population in Daman and Diu practices Hinduism, which accounts for 95.5% of the population. Christianity is followed by 2.2% of the people, while Islam is practiced by 1.2%. Other religions constitute 0.9% of the population. The region's religious diversity is reflected in its cultural practices, festivals, and places of worship. Hindu temples, churches, and mosques are spread across the territory, contributing to its rich cultural heritage. The harmonious coexistence of multiple religious communities in Daman and Diu exemplifies India's broader commitment to secularism and religious pluralism.",
-        image:null,
+        image: null,
     },
 
     {
@@ -216,4 +216,4 @@ const statereligions = [
 
 ];
 
-export default statereligions;
+export default stateReligions;
