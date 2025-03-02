@@ -56,6 +56,16 @@ const Intro = () => {
       {/* Main Content */}
       <div className="flex-1 p-6 overflow-y-auto">
         <div>
+<<<<<<< HEAD
+         
+      
+      <button
+  type="button"
+  className="fixed animate-text-glow top-14 left-[1300px] px-6 py-3 bg-pink-600 text-white font-bold rounded-lg shadow-lg z-10"
+>
+  Start Quiz
+</button>
+=======
 
 
           <button
@@ -64,6 +74,7 @@ const Intro = () => {
           >
             Start Quiz
           </button>
+>>>>>>> 820b88cfc3e6eb0a927d5b1828620dd7fe5b928d
 
         </div>
         <div id="Introduction">
