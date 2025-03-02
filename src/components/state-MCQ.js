@@ -1,4 +1,5 @@
 const quiz = [
+  
   {
     id: 'q1',
     question: "What is the traditional footwear known for its durability and endurance in Maharashtra?",

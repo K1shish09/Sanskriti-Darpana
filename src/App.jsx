@@ -13,17 +13,18 @@ import Intro from './Pages/Intro'
 import IndiaMap from './components/InteractiveIndiaMap'
 import SignUp from './Pages/SignUp'
 import StateInfo from './Pages/StateInfo'
+import StateMCQ from './components/StateMCQ'
 
 
 const App = () => {
   return (
     <Router>
       <Routes>
-    
-
-        <Route path='/map' element={<IndiaMap />} />
+        <Route path='/' element={<StateMCQ />} />
+        <Route path='/intro' element={<Intro />} />
+        <Route path='/indianmap' element={<IndiaMap />} />
         <Route element={<Layout />}>
-          <Route path='/' element={<Home />} />
+          <Route path='/home' element={<Home />} />
           <Route path='/about' element={<AboutUs />} />
           <Route path='/quiz' element={<QuizPage />} />
           <Route path='/reviews' element={<Review />} />
