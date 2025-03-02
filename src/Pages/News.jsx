@@ -36,9 +36,11 @@ function NewsSection() {
         'Nirmala Sitharaman Union Finance Ministers inaugurated three-day Mysuru Sangeetha Suganda Music Festival that celebrates the Dasa tradition of Carnatic music.',
     },
     {
+
+      title: 'Tulsi Vivah is a sacred Hindu ritual',
       imageUrl:
         'https://www.bing.com/th?id=OVFT.lA1xd1b9QXaV5-hzMhKVqi&pid=News&w=234&h=132&c=14&rs=2&qlt=90',
-      title: 'Tulsi Vivah is a sacred Hind ritual',
+
       description:
         'Tulsi Vivah is a sacred Hindu ritual that symbolizes the ceremonial marriages of the Tulsi plant (holy basil) with Lord Vishnu, usually in his avatar as Shaligram or Lord Krishna.',
     },
