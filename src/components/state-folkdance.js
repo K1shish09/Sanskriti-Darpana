@@ -210,7 +210,6 @@ const stateFolkdances = [
             { layout: OpanaDance, name: "Opana Dance", description: "A traditional dance performed by women, showcasing the cultural heritage and customs of Lakshadweep, often accompanied by folk music and lyrical storytelling. This graceful dance is performed during weddings, social gatherings, and festivals, celebrating themes of femininity, devotion, and nature through elegant hand gestures and flowing movements." },
             { layout: DandiDance, name: "Dandi Dance", description: "A vibrant dance form where performers use sticks to create rhythmic patterns, often performed during festivals and celebrations.This lively dance, full of energy and coordinated footwork, represents joy, unity, and festivity, with participants engaging in playful yet synchronized sequences to the beats of traditional Lakshadweep music." }
         ]
-
     },
 
  {
@@ -250,8 +249,6 @@ const stateFolkdances = [
     ]
 
 },
-
-
  {
 
     id: "IN-WB",
@@ -262,7 +259,6 @@ const stateFolkdances = [
         { layout: Gambhira, name: "Gambhira", description: "A folk dance and song form that originated in the Malda district of West Bengal, known for its satirical and humorous content.This dance-drama form is known for its sharp social commentary, humor, and satire. Dancers, often portraying a grandfather-grandson duo, engage in witty conversations while performing rhythmic movements. The powerful lyrics, accompanied by traditional instruments, make Gambhira an entertaining yet thought-provoking cultural experience." },
         { layout: SanthaliDance, name: "Santhali Dance", description: "A traditional dance of the Santhal tribe, characterized by rhythmic movements and vibrant costumes.A vibrant group dance, it is performed by the Santhal tribe to celebrate nature, community, and life. The synchronized footwork, traditional drum beats, and colorful attire create an energetic performance. Men and women join hands, forming circles or lines, moving in rhythmic harmony." }
     ]
-
  },
 
 {
@@ -275,11 +271,9 @@ const stateFolkdances = [
         { layout: SekrenyiDance, name: "Sekrenyi Dance", description: "Performed by the Angami tribe during the Sekrenyi festival, this dance is a celebration of purification and renewal.An important part of the Sekrenyi festival, this dance is performed as a ritual purification, seeking blessings for the community. The dancers move in synchronized patterns, showcasing the Angami tribe’s traditional values of renewal, strength, and gratitude." },
         { layout: MoatsuDance, name: "Moatsu Dance", description: "A traditional dance performed by the Ao tribe during the Moatsu festival, marking the end of the sowing season.Performed after the sowing season, Moatsu Dance is a vibrant expression of joy and relaxation. The Ao tribe members gather in a circle, clapping and singing to celebrate the hard work done in the fields. It’s a time of bonding and festivity." }
     ]
-
 },
 
 {
-
     id: "IN-MN",
     Folkdances: [
         { layout: RasLeela, name: "Ras Leela", description: "A classical dance form of Manipur, depicting the love story of Radha and Krishna, characterized by graceful movements and traditional music.A highly spiritual dance form, Ras Leela beautifully captures the divine love between Radha and Krishna. Dancers in elaborate costumes move gracefully in circles, enacting scenes from ancient scriptures. The music and rhythmic hand gestures create a mesmerizing, celestial ambiance." },
@@ -288,7 +282,6 @@ const stateFolkdances = [
         { layout: LaiHaraoba, name: "Lai Haraoba", description: "A ritualistic dance performed to please the deities, characterized by slow and graceful movements, often accompanied by traditional music and songs.A sacred ritual dance, it is performed to honor deities and maintain harmony between nature and humans. Dancers, dressed in traditional attire, enact mythological stories through delicate hand gestures and slow, rhythmic steps, creating an atmosphere of devotion and reverence." },
         { layout: KhambaThoibiDance, name: "Khamba Thoibi Dance", description: "A traditional dance depicting the love story of Khamba and Thoibi, performed during the Lai Haraoba festival, showcasing the rich cultural heritage of Manipur.Depicting the love saga of Khamba and Thoibi, this dance features expressive storytelling through graceful footwork and symbolic gestures. The performers move in pairs, narrating the epic tale while being accompanied by soulful folk music, making it a significant part of Manipuri festivals." }
     ]
-
 },
 
 
@@ -302,7 +295,6 @@ const stateFolkdances = [
         { layout: ChaiDance, name: "Chai Dance", description: "A traditional dance performed during the Chapchar Kut festival, characterized by rhythmic movements and vibrant costumes.The Chai Dance represents unity and festivity, performed by groups moving in graceful formations. Accompanied by traditional instruments and lively singing, it is an essential part of the Chapchar Kut festival, celebrating the end of jhum cultivation and the start of new agricultural cycles." },
         { layout: SarlamkaiDance, name: "Sarlamkai Dance", description: "A war dance performed by the Mara tribe, depicting the bravery and valor of warriors.The dancers, adorned in traditional warrior attire, enact battle scenes with powerful and precise movements. The rhythmic drumming and chants intensify the dramatic storytelling, making this dance a symbolic representation of courage, victory, and the martial traditions of the Mara tribe." }
     ]
-
 },
 
 {
@@ -315,7 +307,6 @@ const stateFolkdances = [
         { layout: MamitaDance, name: "Mamita Dance", description: "A traditional dance performed by the Jamatia tribe, usually during the Mamita festival, celebrating the harvest season.Performed with slow, graceful movements, this dance marks the significance of the harvest season for the Jamatia tribe. The dancers, dressed in elaborate traditional attire, perform to the beats of indigenous musical instruments, celebrating the abundance and blessings of a successful harvest." },
         { layout: WangalaDance, name: "Wangala Dance", description: "A harvest dance performed by the Garo tribe, celebrating the Wangala festival, which marks the end of the agricultural year.This dance involves rhythmic drumming and synchronized movements, symbolizing gratitude to the Sun God for a fruitful harvest. The vibrant attire, feathered headdresses, and use of traditional war cries make Wangala Dance a spirited and culturally rich performance of the Garo community." }
     ]
-
 },
 
 {
@@ -328,7 +319,6 @@ const stateFolkdances = [
         { layout: LahoDance, name: "Laho Dance", description: "A traditional dance performed by the Jaintia tribe, usually during festivals and social gatherings, characterized by its lively and rhythmic movements.This lively dance involves men and women holding hands and moving in unison, often accompanied by humorous and witty exchanges. The energy and festive spirit make it a highlight of Jaintia celebrations, fostering joy, togetherness, and social harmony among participants." },
         { layout: DoregataDance, name: "Doregata Dance", description: "A playful dance performed by the Garo tribe, where dancers try to knock off each other's headgear using their heads.A playful and competitive dance, Doregata is unique in its style as participants attempt to knock off each other’s headgear using only their heads. It brings laughter and entertainment to festivals, showcasing the cheerful and lighthearted nature of the Garo tribal traditions." }
     ]
-
 },
 
 {
