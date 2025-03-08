@@ -21,30 +21,25 @@ const App = () => {
   return (
     <Router>
       <Routes>
-
-
+        <Route path='/' element={<StateMCQ />} />
         {/* <Route path='/' element={<Intro />} /> */}
-
         <Route path='/' element={<IndiaMap />} />
         <Route path="/state/:id" element={<StateInfo />} />
-        <Route path='/login' element={<Login />} />
-        <Route path='/signup' element={<SignUp />} />
+
         <Route element={<Layout />}>
           <Route path='/' element={<Home />} />
-
           <Route path='/about' element={<AboutUs />} />
           <Route path='/quiz' element={<QuizPage />} />
           <Route path='/reviews' element={<Review />} />
           <Route path='/news' element={<NewsSection />} />
           <Route path='/ques' element={<Ques />} />
           <Route path='/unesco' element={<Unesco />} />
-          <Route path='/quiz/:id' element={<StateMCQ />} />
 
 
         </Route>
       </Routes>
     </Router>
   )
-
 }
+
 export default App
