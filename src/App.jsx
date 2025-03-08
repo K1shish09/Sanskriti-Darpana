@@ -21,10 +21,10 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<StateMCQ />} />
         {/* <Route path='/' element={<Intro />} /> */}
         <Route path='/' element={<IndiaMap />} />
         <Route path="/state/:id" element={<StateInfo />} />
+        <Route path='/quiz/:id' element={<StateMCQ />} />
 
         <Route element={<Layout />}>
           <Route path='/' element={<Home />} />
@@ -34,8 +34,6 @@ const App = () => {
           <Route path='/news' element={<NewsSection />} />
           <Route path='/ques' element={<Ques />} />
           <Route path='/unesco' element={<Unesco />} />
-
-
         </Route>
       </Routes>
     </Router>

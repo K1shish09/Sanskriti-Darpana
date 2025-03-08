@@ -3,29 +3,11 @@ import "./StateQuiz.css";
 import Navbar from "./../components/Navbar";
 import { FaClock, FaStar } from "react-icons/fa";
 import Confetti from "react-confetti";
+import { useParams } from "react-router-dom";
+import quizData from "./state-MCQ"; // Import the quiz data
 
 const StateMCQ = () => {
-  const allQuestions = [
-    {
-      question: "In which year did Aryabhata launch?",
-      options: ["1972", "1975", "1980", "1984"],
-      answer: "1975",
-      explanation: "India's first satellite, Aryabhata, was launched on April 19, 1975.",
-    },
-    {
-      question: "Who was the first woman Prime Minister of India?",
-      options: ["Indira Gandhi", "Sonia Gandhi", "Sarojini Naidu", "Kiran Bedi"],
-      answer: "Indira Gandhi",
-      explanation: "Indira Gandhi was the first and only female Prime Minister of India.",
-    },
-    {
-      question: "Which is the classical music tradition of South India?",
-      options: ["Hindustani", "Carnatic", "Khyal", "Qawwali"],
-      answer: "Carnatic",
-      explanation: "Carnatic music is the classical music tradition of South India.",
-    },
-  ];
-
+  const { id } = useParams();
   const [questions, setQuestions] = useState([]);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
@@ -35,8 +17,12 @@ const StateMCQ = () => {
   const [quizFinished, setQuizFinished] = useState(false);
 
   useEffect(() => {
-    setQuestions(allQuestions.sort(() => 0.5 - Math.random()).slice(0, 10));
-  }, []);
+    // Find the quiz data for the given id
+    const stateQuiz = quizData.find((quiz) => quiz.id === id);
+    if (stateQuiz) {
+      setQuestions(stateQuiz.questions.sort(() => 0.5 - Math.random()).slice(0, 10));
+    }
+  }, [id]);
 
   useEffect(() => {
     if (timeLeft > 0) {
@@ -54,7 +40,7 @@ const StateMCQ = () => {
       setSelectedOption(option);
       setAnsweredQuestions({ ...answeredQuestions, [currentQuestion]: true });
 
-      if (option === questions[currentQuestion].answer) {
+      if (option === questions[currentQuestion].correctAnswer) {
         setScore(score + 1);
       }
     }
@@ -103,17 +89,14 @@ const StateMCQ = () => {
               {questions[currentQuestion]?.options.map((option, index) => (
                 <button
                   key={index}
-                  className={`  <button
-                  key={index}
-                  className={option-button w-full p-4 bg-white text-gray-700 rounded-xl shadow-md hover:scale-105 transition ${
-                    selectedOption !== null
-                      ? option === questions[currentQuestion].answer
-                        ? "bg-green-300 border-2 border-green-700" // ✅ Correct Answer Highlight
-                        : option === selectedOption
+                  className={`option-button w-full p-4 bg-white text-gray-700 rounded-xl shadow-md hover:scale-105 transition ${selectedOption !== null
+                    ? option === questions[currentQuestion].correctAnswer
+                      ? "bg-green-300 border-2 border-green-700" // ✅ Correct Answer Highlight
+                      : option === selectedOption
                         ? "bg-red-300 border-2 border-red-700" // ❌ Wrong Answer Highlight
                         : "bg-white"
-                      : "bg-teal-100"
-                  }`}
+                    : "bg-teal-100"
+                    }`}
                   onClick={() => handleOptionClick(option)}
                   disabled={selectedOption !== null}
                 >
@@ -126,7 +109,7 @@ const StateMCQ = () => {
             {selectedOption !== null && (
               <div className="explanation-section p-4 text-gray-800 rounded-lg shadow-lg bg-gray-100">
                 <p>
-                  <strong>Correct Answer:</strong> {questions[currentQuestion].answer}
+                  <strong>Correct Answer:</strong> {questions[currentQuestion].correctAnswer}
                 </p>
                 <p className="mt-2">{questions[currentQuestion].explanation}</p>
               </div>
@@ -135,18 +118,16 @@ const StateMCQ = () => {
             {/* Previous & Next Buttons */}
             <div className="navigation-buttons flex justify-between mt-6">
               <button
-                className={`prev-button w-1/3 p-4 rounded-xl shadow-lg transition-all text-white text-lg font-semibold ${
-                  currentQuestion === 0 ? "bg-gray-300 cursor-not-allowed" : "bg-blue-500 hover:bg-blue-600 transform hover:scale-105"
-                }`}
+                className={`prev-button w-1/3 p-4 rounded-xl shadow-lg transition-all text-white text-lg font-semibold ${currentQuestion === 0 ? "bg-gray-300 cursor-not-allowed" : "bg-blue-500 hover:bg-blue-600 transform hover:scale-105"
+                  }`}
                 onClick={handlePreviousQuestion}
                 disabled={currentQuestion === 0}
               >
                 ⬅ Previous
               </button>
               <button
-                className={`next-button w-1/3 p-4 rounded-xl text-white text-lg font-semibold shadow-lg transition-all ${
-                  selectedOption === null ? "bg-gray-400 cursor-not-allowed" : "bg-green-500 hover:bg-green-600 transform hover:scale-105"
-                }`}
+                className={`next-button w-1/3 p-4 rounded-xl text-white text-lg font-semibold shadow-lg transition-all ${selectedOption === null ? "bg-gray-400 cursor-not-allowed" : "bg-green-500 hover:bg-green-600 transform hover:scale-105"
+                  }`}
                 onClick={handleNextQuestion}
                 disabled={selectedOption === null}
               >
