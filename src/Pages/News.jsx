@@ -1,5 +1,5 @@
-
-import Navbar from './../components/Navbar.jsx';
+import React from 'react';
+import Navbar from '../components/Navbar';
 import Footer from '../components/Footer.jsx';
 
 // Individual News Card Component
@@ -33,23 +33,21 @@ function NewsSection() {
         'https://th-i.thgim.com/public/incoming/sjzla0/article68845885.ece/alternates/LANDSCAPE_1200/2303_8_11_2024_18_24_58_1_FMMUSICFEST.JPG',
       title: 'Kannada language through Bhakti Sangeetha touches core of your heart',
       description:
-        'Nirmala Sitharaman Union Finance Ministers inaugurated three-day Mysuru Sangeetha Suganda Music Festival that celebrates the Dasa tradition of Carnatic music.',
+        'Nirmala Sitharaman Union Finance Minister inaugurated three-day Mysuru Sangeetha Suganda Music Festival that celebrates the Dasa tradition of Carnatic music.',
     },
     {
-
-      title: 'Tulsi Vivah is a sacred Hindu ritual',
       imageUrl:
         'https://www.bing.com/th?id=OVFT.lA1xd1b9QXaV5-hzMhKVqi&pid=News&w=234&h=132&c=14&rs=2&qlt=90',
-
+      title: 'Tulsi Vivah is a sacred Hind ritual',
       description:
-        'Tulsi Vivah is a sacred Hindu ritual that symbolizes the ceremonial marriages of the Tulsi plant (holy basil) with Lord Vishnu, usually in his avatar as Shaligram or Lord Krishna.',
+        'Tulsi Vivah is a sacred Hindu rituals that symbolizes the ceremonial marriages of the Tulsi plant (holy basil) with Lord Vishnu, usually in his avatar as Shaligram or Lord Krishna.',
     },
     {
       imageUrl:
         'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1tV8GW.img?w=768&h=432&m=6',
       title: 'Kartiki Ekadashi celebrations at Pandharpurs',
       description:
-        'Kartiki Ekadashi celebrations at Pandharpur: Vitthala and Rukminis Mata temple offers 24-hour darshan, symbolizing the ceremonial marriage of the Tulsi plant with Lord Vishnu.',
+        'Kartiki Ekadashi celebrations at Pandharpur: Vitthala and Rukmini Mata temple offers 24-hour darshan, symbolizing the ceremonial marriage of the Tulsi plant with Lord Vishnu.',
     },
     {
       imageUrl:

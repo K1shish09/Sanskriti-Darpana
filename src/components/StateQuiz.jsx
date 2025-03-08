@@ -17,7 +17,7 @@ const questions = [
     question: "Who was the first woman Prime Minister of India?",
     options: ["Indira Gandhi", "Sonia Gandhi", "Sarojini Naidu", "Kiran Bedi"],
     answer: "Indira Gandhi",
-    explanation: "Indira Gandhi was the first and only female Prime Minister of India, serving from 1966 to 1977 and from 1980 until 1984.",
+    explanation: "Indira Gandhi was the first and only female Prime Ministeer of India, serving from 1966 to 1977 and from 1980 until 1984.",
   },
   // Add other questions with unique IDs...
 ];
