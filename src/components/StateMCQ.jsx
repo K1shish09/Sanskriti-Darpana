@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { quiz } from './state-MCQ'; // Adjust path if needed
 import { FaStar, FaClock } from 'react-icons/fa';
+import { useParams } from 'react-router-dom';
 
 const StateMCQ = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -8,6 +9,8 @@ const StateMCQ = () => {
   const [isCorrect, setIsCorrect] = useState(null);
   const [timeLeft, setTimeLeft] = useState(10);
   const [score, setScore] = useState(0);
+
+  const { id } = useParams(); //MH
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -73,15 +76,14 @@ const StateMCQ = () => {
             {quiz[currentQuestionIndex].options.map((option, index) => (
               <button
                 key={index}
-                className={`relative w-full p-4 rounded-xl shadow-md transition-transform duration-300 transform hover:scale-105 ${
-                  selectedOption !== null
+                className={`relative w-full p-4 rounded-xl shadow-md transition-transform duration-300 transform hover:scale-105 ${selectedOption !== null
                     ? index === quiz[currentQuestionIndex].answer
                       ? "bg-yellow-500"
                       : index === selectedOption
-                      ? "bg-pink-300"
-                      : "bg-pink-600"
+                        ? "bg-pink-300"
+                        : "bg-pink-600"
                     : "bg-pink-500 hover:bg-teal-600"
-                }`}
+                  }`}
                 onClick={() => handleOptionClick(index)}
                 disabled={selectedOption !== null}
               >

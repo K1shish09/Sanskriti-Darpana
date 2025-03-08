@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { states } from "../components/states-data"; // Assuming state data is stored here
 import stateIntro from "../components/state-info.js";
 import stateDistrict from "../components/state-districts.js";
@@ -50,6 +50,10 @@ const StateInfo = () => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
   };
 
+  // const handleStartQuiz = () => {
+  //   navigate(`/quiz/${id}`); // Navigate to Quiz page with id
+  // };
+
   if (!state) {
     return <h2 className="text-white text-center mt-10">State Not Found</h2>;
   }
@@ -90,13 +94,22 @@ const StateInfo = () => {
           <p className="text-lg mt-4">State ID: {state.id}</p>
           <p className="mt-2">{state.description || "No description available."}</p>
         </div> */}
-        <div>
+        {/* <div>
           <button
             type="button"
             className="fixed top-4 left-[1300px] px-6 py-3 bg-pink-600 text-white font-bold rounded-lg shadow-lg z-10"
+            onClick={handleStartQuiz} // Add onClick handler
           >
             Start Quiz
           </button>
+        </div> */}
+        <div>
+          <Link
+            to={`/quiz/${id}`} // Use Link to navigate
+            className="fixed top-4 left-[1300px] px-6 py-3 bg-pink-600 text-white font-bold rounded-lg shadow-lg z-10"
+          >
+            Start Quiz
+          </Link>
         </div>
         {/* Sections */}
         <div id="Introduction">

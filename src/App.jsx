@@ -13,6 +13,7 @@ import Unesco from './Pages/Unesco'
 import IndiaMap from './components/InteractiveIndiaMap'
 import SignUp from './Pages/SignUp'
 import StateInfo from './Pages/StateInfo'
+import StateMCQ from './components/StateMCQ'
 
 
 
@@ -26,7 +27,8 @@ const App = () => {
 
         <Route path='/' element={<IndiaMap />} />
         <Route path="/state/:id" element={<StateInfo />} />
-
+        <Route path='/login' element={<Login />} />
+        <Route path='/signup' element={<SignUp />} />
         <Route element={<Layout />}>
           <Route path='/' element={<Home />} />
 
@@ -34,10 +36,9 @@ const App = () => {
           <Route path='/quiz' element={<QuizPage />} />
           <Route path='/reviews' element={<Review />} />
           <Route path='/news' element={<NewsSection />} />
-          <Route path='/login' element={<Login />} />
-          <Route path='/signup' element={<SignUp />} />
           <Route path='/ques' element={<Ques />} />
           <Route path='/unesco' element={<Unesco />} />
+          <Route path='/quiz/:id' element={<StateMCQ />} />
 
 
         </Route>
