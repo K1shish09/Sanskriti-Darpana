@@ -1,21 +1,30 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import map from './../Assets/india .png';
-import logo from './../Assets/logo.jpg'
-import logo1 from './../Assets/logo.png'
-import './Navbar.css'
+import logo1 from './../Assets/logo.png';
+import './Navbar.css';
+import { useAuth } from '../context/AuthContext'; // Import useAuth
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const { currentUser, logout } = useAuth(); // Get currentUser and logout from AuthContext
 
   // Toggle function for mobile menu
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
 
+  const handleLogout = async () => {
+    try {
+      await logout();
+    } catch (error) {
+      console.error('Failed to log out:', error);
+    }
+  };
+
   return (
     <>
-      <div className="bg-red-600 bg-gradient-to-tr from-red-700 to-pink-600 h-20 px-4 md:px-16  rounded-lg flex items-center justify-between fixed top-1 left-1 right-1 z-10 css">
+      <div className="bg-red-600 bg-gradient-to-tr from-red-700 to-pink-600 h-20 px-4 md:px-16 rounded-lg flex items-center justify-between fixed top-1 left-1 right-1 z-10 css">
         {/* Logo Section */}
         <div className="flex items-center">
           <div className="h-14 w-14 md:h-20 md:w-20 p-2">
@@ -48,8 +57,13 @@ function Navbar() {
           <a href="/quiz" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Quiz</a>
           <a href="/reviews" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Reviews</a>
           <a href="/news" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">News</a>
-          <a href="/login" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Signin</a>
-
+          {currentUser ? (
+            <>
+              <button onClick={handleLogout} className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Logout</button>
+            </>
+          ) : (
+            <a href="/login" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Signin</a>
+          )}
           <div className="ml-4">
             <a href="/map">
               <img
@@ -59,7 +73,6 @@ function Navbar() {
               />
             </a>
           </div>
-
         </div>
       </div>
 
@@ -71,7 +84,11 @@ function Navbar() {
           <a href="/quiz" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">Quiz</a>
           <a href="/reviews" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">Reviews</a>
           <a href="/news" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">News</a>
-          <a href="/login" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">Login</a>
+          {currentUser ? (
+            <button onClick={handleLogout} className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">Logout</button>
+          ) : (
+            <a href="/login" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">Login</a>
+          )}
         </div>
 
         {/* Map icon below the menu for mobile */}
@@ -90,18 +107,4 @@ function Navbar() {
 }
 
 export default Navbar;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
