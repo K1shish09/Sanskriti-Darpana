@@ -66,7 +66,6 @@ const StateMCQ = () => {
 
   return (
     <>
-      <Navbar />
       <div className="quiz-container mt-8">
         <div className="flex justify-around items-center mb-6 text-lg mt-10">
           <div className="score-display flex items-center gap-3 p-3 rounded-lg shadow-md w-1/3">
