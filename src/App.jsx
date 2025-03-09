@@ -1,44 +1,47 @@
-import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './Pages/Home'
-import AboutUs from './Pages/AboutUs'
-import QuizPage from './Pages/Quiz'
-import Ques from './Pages/Ques'
-import Review from './Pages/Review'
-import Login from './Pages/Login'
-import Layout from './Layout'
-import NewsSection from './Pages/News'
-import Unesco from './Pages/Unesco'
-// import Intro from './Pages/Intro'
-import IndiaMap from './components/InteractiveIndiaMap'
-import SignUp from './Pages/SignUp'
-import StateInfo from './Pages/StateInfo'
-import MCQ from './Pages/MCQ'
-import StateMCQ from './components/StateMCQ'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import Home from './Pages/Home';
+import AboutUs from './Pages/AboutUs';
+import QuizPage from './Pages/Quiz';
+import Ques from './Pages/Ques';
+import Review from './Pages/Review';
+import Login from './Pages/Login';
+import Layout from './Layout';
+import NewsSection from './Pages/News';
+import Unesco from './Pages/Unesco';
+import IndiaMap from './components/InteractiveIndiaMap';
+import SignUp from './Pages/SignUp';
+import StateInfo from './Pages/StateInfo';
+import StateMCQ from './components/StateMCQ';
+import { AuthProvider } from './context/AuthContext'; // Import AuthProvider
+import PrivateRoute from './components/PrivateRoute'; // Import PrivateRoute
 
 const App = () => {
   return (
-    <Router>
-      <Routes>
-      <Route path='/' element={<StateMCQ />} />
-        {/* <Route path='/' element={<Intro />} /> */}
-        <Route path='/' element={<IndiaMap />} />
-        <Route path="/state/:id" element={<StateInfo />} />
-        <Route element={<Layout />}>
-          <Route path='/' element={<Home />} />
-          <Route path='/about' element={<AboutUs />} />
-          <Route path='/quiz' element={<QuizPage />} />
-          <Route path='/reviews' element={<Review />} />
-          <Route path='/news' element={<NewsSection />} />
+    <AuthProvider>
+      <Router>
+        <Routes>
           <Route path='/login' element={<Login />} />
           <Route path='/signup' element={<SignUp />} />
-          <Route path='/ques' element={<Ques />} />
-          <Route path='/unesco' element={<Unesco />} />
-          <Route path='/stateMCQ' element={<StateMCQ />} />
-        </Route>
-      </Routes>
-    </Router>
-  )
-}
+          <Route path='/india-map' element={<PrivateRoute><IndiaMap /></PrivateRoute>} />
+          <Route path='/state/:id' element={<StateInfo />} />
+          <Route path='/quiz/:id' element={<StateMCQ />} />
 
-export default App
+          <Route element={<Layout />}>
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Navigate to="/" replace />} />
+            <Route path='/about' element={<AboutUs />} />
+            <Route path='/quiz' element={<QuizPage />} />
+            <Route path='/reviews' element={<Review />} />
+            <Route path='/news' element={<NewsSection />} />
+            <Route path='/ques' element={<Ques />} />
+            <Route path='/unesco' element={<Unesco />} />
+          </Route>
+          <Route path="*" element={<Navigate to="/" replace />} /> {/* Wildcard route */}
+        </Routes>
+      </Router>
+    </AuthProvider>
+  );
+};
+
+export default App;
