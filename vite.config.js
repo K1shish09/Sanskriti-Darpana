@@ -1,20 +1,7 @@
-
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
-
 export default defineConfig({
   plugins: [react()],
-  base: "/", // Ensure the correct base path
+  base: "/myapp/",  // Change this if your app is in a subdirectory
   build: {
-    outDir: "dist", // Vercel serves from "dist" by default
+    outDir: "dist",
   },
 });
-
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-
-export default defineConfig({
-  plugins: [react()],
-  base: './', // Ensure correct asset paths
-});
-
