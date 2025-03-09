@@ -4,10 +4,12 @@ import map from './../Assets/india .png';
 import logo1 from './../Assets/logo.png';
 import './Navbar.css';
 import { useAuth } from '../context/AuthContext'; // Import useAuth
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const { currentUser, logout } = useAuth(); // Get currentUser and logout from AuthContext
+  const navigate = useNavigate(); // Initialize useNavigate
 
   // Toggle function for mobile menu
   const toggleMenu = () => {
@@ -17,6 +19,7 @@ function Navbar() {
   const handleLogout = async () => {
     try {
       await logout();
+      navigate('/login'); // Navigate to login page after logout
     } catch (error) {
       console.error('Failed to log out:', error);
     }
@@ -54,25 +57,27 @@ function Navbar() {
         <div className="hidden md:flex flex-row items-center justify-between md:w-auto">
           <a href="/" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Home</a>
           <a href="/about" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">About</a>
-          <a href="/quiz" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Quiz</a>
+          {!currentUser && (
+            <a href="/quiz" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Quiz</a>
+          )}
           <a href="/reviews" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Reviews</a>
           <a href="/news" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">News</a>
           {currentUser ? (
             <>
-              <button onClick={handleLogout} className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Logout</button>
+              <div className="ml-4">
+                <a href="/india-map" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">
+                  <img
+                    src={map}
+                    alt="Map Logo"
+                    className="h-[60px] w-[60px] md:h-[70px] md:w-[60px] transition-transform duration-200 transform hover:scale-105"
+                  />
+                </a>
+              </div>
+              <button onClick={handleLogout} className="bg-white text-red-600 mx-4 my-2 text-lg hover:bg-gray-300 transition duration-200 px-4 py-2 rounded-full">Logout</button>
             </>
           ) : (
-            <a href="/login" className="text-white mx-4 text-lg hover:text-gray-300 transition duration-200">Signin</a>
+            <button onClick={() => navigate('/login')} className="bg-white text-red-600 mx-4 text-lg hover:bg-gray-300 transition duration-200 px-4 py-2 rounded-full">Login</button>
           )}
-          <div className="ml-4">
-            <a href="/map">
-              <img
-                src={map}
-                alt="Map Logo"
-                className="h-[60px] w-[60px] md:h-[70px] md:w-[60px] transition-transform duration-200 transform hover:scale-105"
-              />
-            </a>
-          </div>
         </div>
       </div>
 
@@ -81,25 +86,29 @@ function Navbar() {
         <div className="flex flex-col items-center rounded-lg py-4">
           <a href="/" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">Home</a>
           <a href="/about" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">About</a>
-          <a href="/quiz" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">Quiz</a>
+          {!currentUser && (
+            <a href="/quiz" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">Quiz</a>
+          )}
           <a href="/reviews" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">Reviews</a>
           <a href="/news" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">News</a>
+          
+          {/* Map icon below the menu for mobile */}
+        {currentUser && (
+          <div className="flex justify-center mt-4">
+            <a href="/india-map" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">
+              <img
+                src={map}
+                alt="Map Logo"
+                className="h-[50px] w-[50px] md:h-[60px] md:w-[60px] transition-transform duration-200 transform hover:scale-105"
+              />
+            </a>
+          </div>
+        )}
           {currentUser ? (
-            <button onClick={handleLogout} className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">Logout</button>
+            <button onClick={handleLogout} className="bg-white text-red-700 mx-4 my-2 text-lg hover:bg-gray-300 transition duration-200 px-4 py-2 rounded-full">Logout</button>
           ) : (
-            <a href="/login" className="text-red-700 mx-4 my-2 text-lg hover:text-gray-300 transition duration-200">Login</a>
+            <button onClick={() => navigate('/login')} className="bg-white text-red-700 mx-4 my-2 text-lg hover:bg-gray-300 transition duration-200 px-4 py-2 rounded-full">Login</button>
           )}
-        </div>
-
-        {/* Map icon below the menu for mobile */}
-        <div className="flex justify-center mt-4">
-          <a href="/map">
-            <img
-              src={map}
-              alt="Map Logo"
-              className="h-[50px] w-[50px] md:h-[60px] md:w-[60px] transition-transform duration-200 transform hover:scale-105"
-            />
-          </a>
         </div>
       </div>
     </>
