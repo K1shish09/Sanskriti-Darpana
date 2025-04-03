@@ -11,7 +11,7 @@ import NewsSection from './Pages/News';
 import Unesco from './Pages/Unesco';
 import IndiaMap from './components/InteractiveIndiaMap';
 import SignUp from './Pages/SignUp';
-import StateInfo from './Pages/StateInfo';
+ import StateInfo from './Pages/StateInfo';
 import StateMCQ from './components/StateMCQ';
 import { AuthProvider } from './context/AuthContext'; // Import AuthProvider
 import PrivateRoute from './components/PrivateRoute'; // Import PrivateRoute
@@ -24,7 +24,7 @@ const App = () => {
           <Route path='/login' element={<Login />} />
           <Route path='/signup' element={<SignUp />} />
           <Route path='/india-map' element={<PrivateRoute><IndiaMap /></PrivateRoute>} />
-          <Route path='/state/:id' element={<StateInfo />} />
+          <Route path='/state/:id' element={<StateInfo />} /> 
           <Route path='/quiz/:id' element={<StateMCQ />} />
 
           <Route element={<Layout />}>

@@ -51,7 +51,7 @@ const StateInfo = () => {
   };
 
   // const handleStartQuiz = () => {
-  //   navigate(`/quiz/${id}`); // Navigate to Quiz page with id
+  //   navigate(/quiz/${id}); // Navigate to Quiz page with id
   // };
 
   if (!state) {
@@ -105,7 +105,7 @@ const StateInfo = () => {
         </div> */}
         <div>
           <Link
-            to={`/quiz/${id}`} // Use Link to navigate
+            to={`/quiz/${id}`} // Corrected string interpolation
             className="fixed top-4 left-[1300px] px-6 py-3 bg-pink-600 text-white font-bold rounded-lg shadow-lg z-10"
           >
             Start Quiz
