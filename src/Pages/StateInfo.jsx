@@ -12,7 +12,6 @@ import stateFolkdances from "../components/state-folkdance.js";
 import stateFolkmusics from "../components/state-folkmusic.js";
 import stateFlora from "../components/state-flora.js";
 import stateHeritage from "../components/state-heritage.js";
-import back from './../Assets/Festivals/back.png'
 
 const StateInfo = () => {
   const { id } = useParams(); // Get state ID from URL
@@ -52,7 +51,7 @@ const StateInfo = () => {
   };
 
   // const handleStartQuiz = () => {
-  //   navigate(`/quiz/${id}`); // Navigate to Quiz page with id
+  //   navigate(/quiz/${id}); // Navigate to Quiz page with id
   // };
 
   if (!state) {
@@ -69,9 +68,7 @@ const StateInfo = () => {
         <div className="absolute top-0 left-0 right-0 h-10 bg-gradient-to-r from-pink-600 to-pink-500 transform rotate-12 -z-10"></div>
 
         <button type="button">
-        <a href="/Home" class=" transition">
-        <img src={back} alt="Home" class="w-8 h-8" />
-    </a>
+          Back
         </button>
         <ul className="space-y-4">
           {menuItems.map((item, index) => (
@@ -108,7 +105,7 @@ const StateInfo = () => {
         </div> */}
         <div>
           <Link
-            to={`/quiz/${id}`} // Use Link to navigate
+            to={`/quiz/${id}`} // Corrected string interpolation
             className="fixed top-4 left-[1300px] px-6 py-3 bg-pink-600 text-white font-bold rounded-lg shadow-lg z-10"
           >
             Start Quiz
