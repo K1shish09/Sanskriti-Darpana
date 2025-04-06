@@ -7,7 +7,7 @@ const teamMembers = [
         name: "Kashish Dadghaye",
         role: "Web Developer",
         description: "A passionate Web Developer and dedicated B.Sc. IT student. Specializes in creating engaging quizzes and news pages.",
-        image: "src/Assets/prerna.jpg"
+        image: ""
     },
     {
         name: "Prerna Barde",
@@ -16,6 +16,18 @@ const teamMembers = [
         image: "src/Assets/prerna .jpg"
     },
     
+    {
+        name: "Vaishnavi Ambatre",
+        role: "Frontend Developer",
+        description: "A detail-oriented Frontend Developer who crafted dynamic review pages with seamless user experience and elegant layouts.",
+        image: "src/Assets/VAISHNAVI AMBARTE.jpeg"
+    },
+    {
+        name: "Tanvi Barbate",
+        role: "Component Developer",
+        description: "A creative Component Developer focused on building reusable, responsive UI elements and optimizing design consistency across the project.",
+        image: "src/Assets/Tanvi .jpg"
+    }
     
 ];
 
