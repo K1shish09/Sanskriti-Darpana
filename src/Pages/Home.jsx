@@ -105,21 +105,38 @@ function Home() {
     </h2><br></br><br></br>
 
     
-      <div className='monuments'>
-      <img src={monuments} className='image'/>
-      <div className="text-container-1"> <h3 className="text-white ">List of UNESCO</h3>
-        <h1 className="text-white text-5xl ml-64 ">  WORLD HERITAGE SITES</h1>
-        <p className="text-white ml-96">Till 2024</p>
-      </div>
-      <button className='text-container-button bg-red-600 bg-gradient-to-tr from-red-700 to-pink-600 '><a href="/Unesco">Read More</a></button>
-    </div>   
+      
+
+    <div className="monuments relative w-full max-w-[900px] mx-auto">
+  {/* Image with Stronger Shadow Effect */}
+  <img
+    src={monuments}
+    className="w-full h-auto object-cover max-h-[500px] shadow-[0px_10px_30px_rgba(0,0,0,0.5)] rounded-lg"
+  />
+
+  {/* Text Container */}
+  <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center px-4">
+    <h3 className="text-white text-lg sm:text-xl font-bold">List of UNESCO</h3>
+    <h1 className="text-white text-2xl sm:text-5xl font-bold shadow-inherit shadow-red-600 ">
+      WORLD HERITAGE SITES
+    </h1>
+    <p className="text-white text-sm sm:text-lg mt-1">Till 2024</p>
+
+    {/* Button Positioned on Image */}
+    <button className="mt-4 bg-red-600 bg-gradient-to-tr from-red-700 to-pink-600 px-12 sm:px-15 py-3 text-white rounded-md text-lg shadow-lg hover:shadow-2xl transition-all duration-300">
+      <a href="/Unesco">Read More</a>
+    </button>
+  </div>
+</div>
+
  
 
 
 
 
 
-    <br></br><br></br>
+
+    <br></br>
     <img src={line} alt="" className="h-14 w-96 mt-[90px] mx-auto mb-10 sm:w-72 sm:mt-10"  />
     <br></br>
     <h2 className="text-center font-bold bg-red-600 bg-gradient-to-br from-pink-500 via-red-600  text-2xl text-white
@@ -128,7 +145,7 @@ function Home() {
 </h2>
          
     <Slidercard/>
-    <br></br>
+    
     <img src={line} alt="" className="h-14 w-96 mt-[90px] mx-auto mb-10 sm:w-72 sm:mt-10"  /><br></br>
     <h2 className="text-center font-bold bg-red-600 bg-gradient-to-br from-pink-500 via-red-600  text-2xl text-white
     mx-1 sm:mx-8 md:mx-4 lg:mx-[500px] my-6 sm:text-2xl md:text-3xl lg:text-4xl rounded-lg shadow-4xl css">
@@ -156,17 +173,17 @@ function Home() {
 
 <h2 className="text-center font-bold bg-red-600 bg-gradient-to-br from-pink-500 via-red-600  text-2xl text-white
     mx-1 sm:mx-8 md:mx-4 lg:mx-[400px] my-6 sm:text-2xl md:text-3xl lg:text-4xl rounded-lg shadow-4xl css">
-    Greatest Innovation of India
+    Manuscripts and Historical Texts
 </h2>
     <Cardslider/>
  
- <br></br>
+
 
      {/* end */}
     <h1 className="text-shadow ">Learning is Easy with <span className="span">S</span >anskriti<span className="span">D</span>arpan !</h1>
-    <br></br><br></br>
+    <br></br>
     <img src={line} alt="" className="h-14 w-96 mt-[90px] mx-auto mb-10 sm:w-72 sm:mt-10"  />
-    <br></br><br></br>
+    <br></br>
   {/* <Footer/> */}
    </>
   )
