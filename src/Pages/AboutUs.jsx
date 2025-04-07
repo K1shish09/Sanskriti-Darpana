@@ -7,7 +7,7 @@ const teamMembers = [
         name: "Kashish Dadghaye",
         role: "Web Developer",
         description: "A passionate Web Developer and dedicated B.Sc. IT student. Specializes in creating engaging quizzes and news pages.",
-        image: ""
+        image: "src/Assets/kashish.jpeg"
     },
     {
         name: "Prerna Barde",
