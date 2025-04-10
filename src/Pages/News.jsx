@@ -33,7 +33,6 @@ function NewsSection() {
         'src/Assets/ram-navami.jpg',
       title: 'Ram Navami Celebrated with Great Devotion Across India',
       description:
-<<<<<<< HEAD
         'Ram Navami, the birthday of Lord Rama, was observed with prayers, bhajans, temple decorations, and processions, as devotees gathered to honor the ideals and virtues of the revered deity.',
     },
     {
@@ -49,16 +48,13 @@ function NewsSection() {
       title: 'Holi Celebrated with Colors and Joy Across India',
       description:
         'Holi, the festival of colors, was celebrated with dancing, singing, colorful powders, festive sweets, and a spirit of togetherness, marking the arrival of spring and the victory of good over evil.',
-=======
-        'Nirmala Sitharaman Union Finance Minister inaugurated three-day Mysuru Sangeetha Suganda Music Festival that celebrates the Dasa tradition of Carnatic music.',
     },
     {
       imageUrl:
-        'https://www.bing.com/th?id=OVFT.lA1xd1b9QXaV5-hzMhKVqi&pid=News&w=234&h=132&c=14&rs=2&qlt=90',
+        'src/Assets/tulsi vivah.avif',
       title: 'Tulsi Vivah is a sacred Hind ritual',
       description:
         'Tulsi Vivah is a sacred Hindu rituals that symbolizes the ceremonial marriages of the Tulsi plant (holy basil) with Lord Vishnu, usually in his avatar as Shaligram or Lord Krishna.',
->>>>>>> 1985f74de3f394531975971a85fab3c4edccb63e
     },
     {
       imageUrl:
@@ -66,12 +62,6 @@ function NewsSection() {
       title: 'Kartiki Ekadashi celebrations at Pandharpurs',
       description:
         'Kartiki Ekadashi celebrations at Pandharpur: Vitthala and Rukmini Mata temple offers 24-hour darshan, symbolizing the ceremonial marriage of the Tulsi plant with Lord Vishnu.',
-    },
-    {
-      title: 'Mohiniyattam pan-Indian traditions and fusion:',
-      imageUrl: 'src/Assets/Mohiniyattam.webp',
-      description:
-        'Mohiniyattam pioneer Vijayalakshmi brings to towns a medley of pan-Indian traditions, blending tradition with contemporary themes.',
     },
     {
       imageUrl:
