@@ -30,19 +30,24 @@ function NewsSection() {
   const newsData = [
     {
       imageUrl:
-        'https://th-i.thgim.com/public/incoming/sjzla0/article68845885.ece/alternates/LANDSCAPE_1200/2303_8_11_2024_18_24_58_1_FMMUSICFEST.JPG',
-      title: 'Kannada language through Bhakti Sangeetha touches core of your heart',
+        'src/Assets/ram-navami.jpg',
+      title: 'Ram Navami Celebrated with Great Devotion Across India',
       description:
-        'Nirmala Sitharaman Union Finance Ministers inaugurated three-day Mysuru Sangeetha Suganda Music Festival that celebrates the Dasa tradition of Carnatic music.',
+        'Ram Navami, the birthday of Lord Rama, was observed with prayers, bhajans, temple decorations, and processions, as devotees gathered to honor the ideals and virtues of the revered deity.',
     },
     {
-
-      title: 'Tulsi Vivah is a sacred Hindu ritual',
       imageUrl:
-        'https://www.bing.com/th?id=OVFT.lA1xd1b9QXaV5-hzMhKVqi&pid=News&w=234&h=132&c=14&rs=2&qlt=90',
-
+        'src/Assets/gudi padwa.webp',
+      title: 'Gudi Padwa Celebrated with Traditional Fervor in Maharashtra',
       description:
-        'Tulsi Vivah is a sacred Hindu ritual that symbolizes the ceremonial marriages of the Tulsi plant (holy basil) with Lord Vishnu, usually in his avatar as Shaligram or Lord Krishna.',
+        'Gudi Padwa, the Marathi New Year, was celebrated with vibrant processions, cultural performances, traditional food, and symbolic Gudis raised outside homes to signify victory and prosperity.',
+    },
+    {
+      imageUrl:
+        'src/Assets/holi.jpg',
+      title: 'Holi Celebrated with Colors and Joy Across India',
+      description:
+        'Holi, the festival of colors, was celebrated with dancing, singing, colorful powders, festive sweets, and a spirit of togetherness, marking the arrival of spring and the victory of good over evil.',
     },
     {
       imageUrl:
@@ -52,24 +57,17 @@ function NewsSection() {
         'Kartiki Ekadashi celebrations at Pandharpur: Vitthala and Rukminis Mata temple offers 24-hour darshan, symbolizing the ceremonial marriage of the Tulsi plant with Lord Vishnu.',
     },
     {
-      imageUrl:
-        'https://www.bing.com/th?id=OVFT.twHxRta2Dkj2l0GH0_hZbC&pid=News&w=234&h=132&c=14&rs=2&qlt=90',
-      title: 'Nagaraj Rao Havaldar says',
-      description:
-        'Music is a great unifying and connecting factors, says Nagaraj Rao Havaldar, highlighting Karnataka’s unique status as a state that has nurtured both Hindustani and Carnatic traditions.',
-    },
-    {
       title: 'Mohiniyattam pan-Indian traditions and fusion:',
-      imageUrl: 'https://www.bing.com/th?id=OVFT.8l97vUkSXm9kJapxXuVqIS&pid=News&w=234&h=132&c=14&rs=2&qlt=90',
+      imageUrl: 'src/Assets/Mohiniyattam.webp',
       description:
         'Mohiniyattam pioneer Vijayalakshmi brings to towns a medley of pan-Indian traditions, blending tradition with contemporary themes.',
     },
     {
       imageUrl:
-        'https://www.bing.com/th?id=OVFT.-uJBbIrbI-ZXwiI0Fb8QZy&pid=News&w=234&h=132&c=14&rs=2&qlt=90',
-      title: 'Chhath Puja is more than just a festival',
+        'https://th-i.thgim.com/public/incoming/sjzla0/article68845885.ece/alternates/LANDSCAPE_1200/2303_8_11_2024_18_24_58_1_FMMUSICFEST.JPG',
+      title: 'Kannada language through Bhakti Sangeetha touches core of your heart',
       description:
-        'Chhath Puja is more than just a festivals; it embodies a vivid display of devotions, tradition, and respect for nature, predominantly celebrated in Bihar and Jharkhand.',
+        'Nirmala Sitharaman Union Finance Ministers inaugurated three-day Mysuru Sangeetha Suganda Music Festival that celebrates the Dasa tradition of Carnatic music.',
     },
   ];
 
@@ -107,3 +105,8 @@ function NewsSection() {
 }
 
 export default NewsSection;
+
+
+
+
+
